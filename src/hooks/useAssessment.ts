@@ -15,7 +15,7 @@ export interface StrengthScore {
 
 export type Phase = "intro" | "test" | "results";
 
-const STORAGE_KEY = "high5-progress";
+const STORAGE_KEY = "top5-progress";
 
 interface SavedProgress {
   answers: Record<number, number>;
