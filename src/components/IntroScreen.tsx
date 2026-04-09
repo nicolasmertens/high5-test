@@ -8,6 +8,7 @@ export function IntroScreen({ onStart, onResume, hasSavedProgress }: Props) {
   return (
     <div className="intro">
       <div className="intro-logo">5</div>
+      <span className="beta-badge">BETA</span>
       <h1>Strengths Assessment</h1>
       <p className="intro-subtitle">
         Discover your top 5 strengths across 20 dimensions

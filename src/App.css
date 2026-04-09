@@ -24,6 +24,25 @@
   border-radius: 16px;
 }
 
+.beta-badge {
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .beta-badge {
+    background: #e5e7eb;
+    color: #111;
+  }
+}
+
 .intro h1 {
   font-size: 36px;
   margin-bottom: 8px;
@@ -505,6 +524,503 @@
 .results > .btn-start {
   display: block;
   margin: 0 auto;
+}
+
+/* ===== BRIDGE TEASER ===== */
+.bridge-teaser {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.08), rgba(99, 102, 241, 0.08));
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.bridge-teaser h3 {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.bridge-subtitle {
+  font-size: 14px;
+  color: #9ca3af;
+  margin-bottom: 24px;
+}
+
+.bridge-cards {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.bridge-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 160px;
+}
+
+.bridge-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #9ca3af;
+  margin-bottom: 4px;
+}
+
+.bridge-value {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--text-h);
+  line-height: 1.2;
+}
+
+.bridge-sublabel {
+  font-size: 13px;
+  color: var(--text);
+}
+
+.btn-detailed {
+  background: var(--thinking);
+  border-color: var(--thinking);
+}
+
+.btn-detailed:hover {
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+}
+
+/* ===== DETAILED RESULTS ===== */
+.detailed {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.btn-back {
+  background: none;
+  border: none;
+  color: var(--text);
+  font-size: 15px;
+  cursor: pointer;
+  padding: 8px 0;
+  margin-bottom: 24px;
+}
+
+.btn-back:hover {
+  color: var(--text-h);
+}
+
+.detail-section {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 24px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.section-header h2 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.confidence-badge {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+  background: rgba(245, 158, 11, 0.1);
+  color: var(--accent-dark);
+}
+
+/* MBTI */
+.mbti-hero {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.mbti-type-display {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.mbti-letter {
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--text-h);
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: rgba(245, 158, 11, 0.1);
+}
+
+.mbti-letter.weak {
+  opacity: 0.5;
+}
+
+.mbti-label {
+  font-size: 18px;
+  margin: 8px 0 12px;
+}
+
+.mbti-desc {
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.mbti-dimensions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.dim-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.dim-pole {
+  font-size: 12px;
+  font-weight: 500;
+  min-width: 110px;
+  color: #9ca3af;
+}
+
+.dim-pole:last-child {
+  text-align: right;
+}
+
+.dim-active {
+  color: var(--text-h);
+  font-weight: 700;
+}
+
+.dim-bar-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dim-bar-track {
+  flex: 1;
+  height: 10px;
+  background: var(--border);
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.dim-center-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #9ca3af;
+  transform: translateX(-1px);
+}
+
+.dim-bar-fill {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+.dim-pct {
+  font-size: 12px;
+  font-family: var(--mono);
+  min-width: 32px;
+  color: var(--text);
+}
+
+.mbti-note {
+  font-size: 13px;
+  color: #9ca3af;
+  line-height: 1.5;
+  padding: 12px 16px;
+  background: var(--bg);
+  border-radius: 8px;
+}
+
+/* Enneagram */
+.ennea-hero {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.ennea-type-display {
+  margin-bottom: 8px;
+}
+
+.ennea-number {
+  font-size: 56px;
+  font-weight: 900;
+  color: var(--text-h);
+}
+
+.ennea-name {
+  font-size: 18px;
+  margin: 0 0 12px;
+}
+
+.ennea-desc {
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 500px;
+  margin: 0 auto 20px;
+}
+
+.ennea-motivations {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.motivation-card {
+  padding: 12px 16px;
+  border-radius: 8px;
+  flex: 1;
+  max-width: 260px;
+  text-align: left;
+  font-size: 13px;
+}
+
+.motivation-card strong {
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+
+.motivation-card p {
+  margin: 0;
+}
+
+.motivation-drive {
+  background: rgba(16, 185, 129, 0.1);
+}
+
+.motivation-fear {
+  background: rgba(239, 68, 68, 0.08);
+}
+
+.ennea-spectrum {
+  margin-bottom: 24px;
+}
+
+.ennea-spectrum h4 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: var(--text-h);
+}
+
+.ennea-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+}
+
+.ennea-primary {
+  font-weight: 600;
+}
+
+.ennea-bar-label {
+  font-size: 13px;
+  min-width: 140px;
+}
+
+.ennea-bar-track {
+  flex: 1;
+  height: 8px;
+  background: var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.ennea-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+.ennea-bar-score {
+  font-size: 13px;
+  font-family: var(--mono);
+  min-width: 36px;
+  text-align: right;
+}
+
+.ennea-tritype {
+  margin-bottom: 24px;
+}
+
+.ennea-tritype h4 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: var(--text-h);
+}
+
+.tritype-centers {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.center-badge {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+}
+
+.center-badge.gut { background: #ef4444; }
+.center-badge.heart { background: #ec4899; }
+.center-badge.head { background: #6366f1; }
+
+/* Synthesis */
+.synthesis-grid {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.synth-card {
+  flex: 1;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+}
+
+.synth-card h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #9ca3af;
+  margin-bottom: 12px;
+}
+
+.synth-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+}
+
+.synth-item {
+  display: flex;
+  gap: 8px;
+  font-size: 13px;
+  align-items: center;
+}
+
+.synth-rank {
+  font-weight: 700;
+  font-family: var(--mono);
+  color: var(--text-h);
+  min-width: 24px;
+}
+
+.synth-name {
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.synth-domain {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-left: auto;
+}
+
+.synth-big {
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--text-h);
+  line-height: 1.2;
+}
+
+.synth-sublabel {
+  font-size: 13px;
+  color: var(--text);
+  margin-top: 4px;
+}
+
+.synthesis-narrative {
+  padding: 16px;
+  background: var(--bg);
+  border-radius: 8px;
+}
+
+.synthesis-narrative h4 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: var(--text-h);
+}
+
+.synthesis-narrative p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .bridge-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bridge-card {
+    width: 100%;
+  }
+
+  .dim-pole {
+    min-width: 60px;
+    font-size: 11px;
+  }
+
+  .ennea-motivations {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .motivation-card {
+    max-width: 100%;
+  }
+
+  .synthesis-grid {
+    flex-direction: column;
+  }
+
+  .ennea-bar-label {
+    min-width: 100px;
+    font-size: 12px;
+  }
 }
 
 /* ===== SLIDER INACTIVE STATE ===== */

@@ -49,12 +49,35 @@ function clearProgress() {
   }
 }
 
+// Dev mode: ?dev=1 auto-fills with realistic answers and skips to results
+function generateDevAnswers(): Record<number, number> {
+  // Simulate an ENTP-3w4 profile (Nick's actual type)
+  const strengthBias: Record<string, number> = {
+    brainstormer: 85, philomath: 82, storyteller: 80, winner: 78, chameleon: 76,
+    thinker: 74, catalyst: 72, strategist: 70, self_believer: 68, commander: 66,
+    problem_solver: 64, analyst: 60, optimist: 58, coach: 55, deliverer: 52,
+    focus_expert: 48, believer: 45, peacekeeper: 42, time_keeper: 38, empathizer: 35,
+  };
+  const result: Record<number, number> = {};
+  for (const q of questions) {
+    const base = strengthBias[q.strengthId] ?? 50;
+    const jitter = Math.floor(Math.random() * 16) - 8; // +/- 8
+    let val = q.keyed === "minus" ? 100 - base + jitter : base + jitter;
+    val = Math.max(0, Math.min(100, val));
+    result[q.id] = val;
+  }
+  return result;
+}
+
 export function useAssessment() {
   const saved = useMemo(() => loadProgress(), []);
+  const isDevMode = typeof window !== "undefined" && new URLSearchParams(window.location.search).has("dev");
 
-  const [phase, setPhase] = useState<Phase>("intro");
+  const [phase, setPhase] = useState<Phase>(() => isDevMode ? "results" : "intro");
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [answers, setAnswers] = useState<Record<number, number>>({});
+  const [answers, setAnswers] = useState<Record<number, number>>(() =>
+    isDevMode ? generateDevAnswers() : {}
+  );
 
   // If we have saved progress, reconstruct the same shuffle order
   const shuffled = useMemo(() => {

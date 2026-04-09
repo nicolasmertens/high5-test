@@ -1,5 +1,8 @@
+import { useState, useMemo } from "react";
 import { type StrengthScore } from "../hooks/useAssessment";
 import { domainColors, domainLabels } from "../data/strengths";
+import { deriveMBTI, deriveEnneagram } from "../data/derivations";
+import { DetailedResults } from "./DetailedResults";
 
 interface Props {
   results: StrengthScore[];
@@ -7,13 +10,28 @@ interface Props {
 }
 
 export function ResultsScreen({ results, onRestart }: Props) {
+  const [showDetailed, setShowDetailed] = useState(false);
   const top5 = results.slice(0, 5);
+
+  const mbti = useMemo(() => deriveMBTI(results), [results]);
+  const enneagram = useMemo(() => deriveEnneagram(results), [results]);
 
   // Domain distribution for top 5
   const domainCounts: Record<string, number> = {};
   for (const r of top5) {
     const d = r.strength.domain;
     domainCounts[d] = (domainCounts[d] || 0) + 1;
+  }
+
+  if (showDetailed) {
+    return (
+      <DetailedResults
+        results={results}
+        mbti={mbti}
+        enneagram={enneagram}
+        onBack={() => setShowDetailed(false)}
+      />
+    );
   }
 
   return (
@@ -58,6 +76,34 @@ export function ResultsScreen({ results, onRestart }: Props) {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* MBTI + Enneagram teaser */}
+      <div className="bridge-teaser">
+        <h3>We also found your personality type and Enneagram</h3>
+        <p className="bridge-subtitle">
+          Derived from the same 120 answers — no extra test needed
+        </p>
+
+        <div className="bridge-cards">
+          <div className="bridge-card">
+            <span className="bridge-label">Personality Type</span>
+            <span className="bridge-value">{mbti.type}</span>
+            <span className="bridge-sublabel">{mbti.label}</span>
+          </div>
+          <div className="bridge-card">
+            <span className="bridge-label">Enneagram</span>
+            <span className="bridge-value">{enneagram.wingLabel}</span>
+            <span className="bridge-sublabel">{enneagram.primary.name}</span>
+          </div>
+        </div>
+
+        <button
+          className="btn-start btn-detailed"
+          onClick={() => setShowDetailed(true)}
+        >
+          See Your Full Profile &rarr;
+        </button>
       </div>
 
       <div className="domain-summary">
@@ -124,10 +170,11 @@ export function ResultsScreen({ results, onRestart }: Props) {
         <p>
           Each of the 20 strengths is measured by 6 statements. Your slider
           position (0-100) is recorded for each statement. Reversed items are
-          flipped (100 - value). The average of your 6 responses becomes
-          your score for that strength. All 20 scores are then ranked to
-          produce your unique strength sequence. Your top 5 are your
-          signature strengths.
+          flipped (100 - value). The average of your 6 responses becomes your
+          score for that strength. All 20 scores are then ranked to produce
+          your unique strength sequence. Your top 5 are your signature
+          strengths. Your personality type and Enneagram are derived from the
+          same data using weighted correlations.
         </p>
       </div>
 
