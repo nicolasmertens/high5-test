@@ -3,6 +3,7 @@ import { type StrengthScore } from "../hooks/useAssessment";
 import { domainColors, domainLabels } from "../data/strengths";
 import { deriveMBTI, deriveEnneagram, deriveDISC } from "../data/derivations";
 import { DetailedResults } from "./DetailedResults";
+import { ActionBranches } from "./ActionBranches";
 
 interface Props {
   results: StrengthScore[];
@@ -171,6 +172,14 @@ export function ResultsScreen({ results, onRestart }: Props) {
           ))}
         </div>
       </div>
+
+      {/* Action Branches */}
+      <ActionBranches
+        results={results}
+        mbti={mbti}
+        enneagram={enneagram}
+        disc={disc}
+      />
 
       <div className="scoring-explanation">
         <h3>How Scoring Works</h3>

@@ -1071,6 +1071,297 @@
   }
 }
 
+/* ===== ACTION BRANCHES ===== */
+.branches {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.branch-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 24px;
+}
+
+.branch-card-highlight {
+  border-color: #7c3aed;
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.04), rgba(124, 58, 237, 0.08));
+}
+
+.branch-icon {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.branch-card h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.branch-desc {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.branch-preview {
+  margin-bottom: 16px;
+}
+
+.branch-cta {
+  text-align: center;
+}
+
+.coming-soon {
+  font-size: 13px;
+  color: #7c3aed;
+  font-weight: 600;
+  padding: 6px 16px;
+  border: 1px dashed #7c3aed;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+/* Communication rows */
+.comm-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.comm-row:last-child {
+  border-bottom: none;
+}
+
+.comm-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 6px;
+  min-width: 90px;
+  text-align: center;
+}
+
+.comm-tip {
+  font-size: 13px;
+}
+
+/* Blind spots */
+.blindspot-row {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.blindspot-row:last-child {
+  border-bottom: none;
+}
+
+.blindspot-name {
+  font-weight: 600;
+  color: var(--text-h);
+  font-size: 14px;
+}
+
+.blindspot-score {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: #9ca3af;
+  margin-left: 8px;
+}
+
+.blindspot-tip {
+  font-size: 13px;
+  color: var(--text);
+  margin-top: 2px;
+}
+
+/* Career tags */
+.career-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.career-tag {
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background: rgba(124, 58, 237, 0.08);
+  color: #7c3aed;
+  font-weight: 500;
+}
+
+/* Books */
+.book-row {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.book-row:last-child {
+  border-bottom: none;
+}
+
+.book-info {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  margin-bottom: 2px;
+}
+
+.book-title {
+  font-weight: 600;
+  color: var(--text-h);
+  font-size: 14px;
+}
+
+.book-author {
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+.book-why {
+  font-size: 13px;
+  font-style: italic;
+  color: var(--text);
+}
+
+/* Famous people */
+.famous-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.famous-tag {
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text-h);
+  font-weight: 500;
+}
+
+/* Stress */
+.stress-grid {
+  display: flex;
+  gap: 12px;
+}
+
+.stress-item {
+  flex: 1;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.stress-item strong {
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+
+.stress-item p {
+  margin: 0;
+}
+
+.stress-normal {
+  background: rgba(16, 185, 129, 0.08);
+}
+
+.stress-bad {
+  background: rgba(239, 68, 68, 0.06);
+}
+
+/* Leadership */
+.leadership-preview p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Share buttons */
+.share-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.share-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text-h);
+  transition: all 0.15s;
+}
+
+.share-linkedin {
+  background: #7c3aed;
+  border-color: #7c3aed;
+  color: white;
+}
+
+.share-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Invite */
+.invite-preview {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.invite-email {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 14px;
+  background: var(--bg);
+  color: var(--text-h);
+}
+
+.invite-note {
+  font-size: 13px;
+  color: #9ca3af;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .stress-grid {
+    flex-direction: column;
+  }
+
+  .share-buttons {
+    flex-direction: column;
+  }
+
+  .invite-preview {
+    flex-direction: column;
+  }
+
+  .comm-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+}
+
 /* ===== DISC ===== */
 .disc-hero {
   text-align: center;
