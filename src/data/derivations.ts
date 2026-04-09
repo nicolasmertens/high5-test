@@ -234,3 +234,115 @@ export function deriveEnneagram(results: StrengthScore[]): EnneagramResult {
     confidence,
   };
 }
+
+// ============================================================
+// DISC DERIVATION from 20-strength profile
+// ============================================================
+
+export interface DISCDimension {
+  code: string;
+  name: string;
+  score: number; // 0-100
+  description: string;
+  traits: string[];
+}
+
+export interface DISCResult {
+  primary: DISCDimension;
+  secondary: DISCDimension;
+  style: string; // e.g. "Di" or "Id"
+  dimensions: DISCDimension[];
+  confidence: number;
+}
+
+const discDefs: { code: string; name: string; description: string; traits: string[] }[] = [
+  {
+    code: "D",
+    name: "Dominance",
+    description: "Direct, results-oriented, decisive, competitive. You value action and are driven to overcome challenges and achieve goals.",
+    traits: ["Direct", "Decisive", "Competitive", "Results-driven", "Takes charge"],
+  },
+  {
+    code: "I",
+    name: "Influence",
+    description: "Enthusiastic, optimistic, collaborative, expressive. You value relationships and are driven to persuade and inspire others.",
+    traits: ["Enthusiastic", "Persuasive", "Optimistic", "Expressive", "Collaborative"],
+  },
+  {
+    code: "S",
+    name: "Steadiness",
+    description: "Patient, reliable, team-oriented, supportive. You value consistency and are driven to maintain harmony and support others.",
+    traits: ["Patient", "Reliable", "Supportive", "Consistent", "Team-oriented"],
+  },
+  {
+    code: "C",
+    name: "Conscientiousness",
+    description: "Analytical, detail-oriented, systematic, quality-focused. You value accuracy and are driven to ensure correctness and high standards.",
+    traits: ["Analytical", "Precise", "Systematic", "Quality-focused", "Methodical"],
+  },
+];
+
+// Strength weights for each DISC dimension
+const discWeights: Record<string, Record<string, number>> = {
+  D: {
+    commander: 1.0, self_believer: 0.8, winner: 0.7, catalyst: 0.6,
+    problem_solver: 0.4, strategist: 0.3,
+    peacekeeper: -0.5, empathizer: -0.3, optimist: -0.2,
+  },
+  I: {
+    storyteller: 1.0, chameleon: 0.8, optimist: 0.7, catalyst: 0.6,
+    coach: 0.5, brainstormer: 0.4, winner: 0.2,
+    analyst: -0.5, thinker: -0.4, focus_expert: -0.3,
+  },
+  S: {
+    peacekeeper: 1.0, deliverer: 0.8, coach: 0.6, empathizer: 0.6,
+    believer: 0.5, optimist: 0.4,
+    catalyst: -0.5, commander: -0.4, chameleon: -0.3, winner: -0.2,
+  },
+  C: {
+    analyst: 1.0, time_keeper: 0.8, focus_expert: 0.7, problem_solver: 0.6,
+    thinker: 0.5, deliverer: 0.3,
+    chameleon: -0.4, brainstormer: -0.3, storyteller: -0.2,
+  },
+};
+
+export function deriveDISC(results: StrengthScore[]): DISCResult {
+  const scores = new Map(results.map((r) => [r.strength.id, r.score]));
+
+  const dimensions: DISCDimension[] = discDefs.map((def) => {
+    const weights = discWeights[def.code] || {};
+    let weighted = 0;
+    let totalWeight = 0;
+
+    for (const [strengthId, weight] of Object.entries(weights)) {
+      const score = scores.get(strengthId);
+      if (score === undefined) continue;
+      const normalized = (score - 50) / 50; // -1 to +1
+      weighted += normalized * Math.abs(weight) * (weight > 0 ? 1 : -1);
+      totalWeight += Math.abs(weight);
+    }
+
+    // Scale to 0-100 (50 = neutral)
+    const raw = totalWeight > 0 ? (weighted / totalWeight) * 50 + 50 : 50;
+    return { ...def, score: Math.round(Math.max(0, Math.min(100, raw))) };
+  });
+
+  // Sort to find primary and secondary
+  const sorted = [...dimensions].sort((a, b) => b.score - a.score);
+  const primary = sorted[0];
+  const secondary = sorted[1];
+
+  // Style label: primary uppercase + secondary lowercase (e.g. "Di", "Id", "CS")
+  const style = primary.code + secondary.code.toLowerCase();
+
+  const gap = primary.score - sorted[2].score;
+  const confidence = Math.min(100, Math.round(40 + gap));
+
+  return {
+    primary,
+    secondary,
+    style,
+    dimensions,
+    confidence,
+  };
+}

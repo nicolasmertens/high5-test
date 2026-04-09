@@ -7,7 +7,11 @@ interface Props {
 export function IntroScreen({ onStart, onResume, hasSavedProgress }: Props) {
   return (
     <div className="intro">
-      <div className="intro-logo">5</div>
+      <div className="intro-logo">
+        <svg viewBox="0 0 24 24" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13 2L4.5 13.5H11.5L10.5 22L19.5 10.5H12.5L13 2Z" fill="white" stroke="white" strokeWidth="1" strokeLinejoin="round"/>
+        </svg>
+      </div>
       <span className="beta-badge">BETA</span>
       <h1>Strengths Assessment</h1>
       <p className="intro-subtitle">

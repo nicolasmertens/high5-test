@@ -1,15 +1,33 @@
 import { type StrengthScore } from "../hooks/useAssessment";
-import { type MBTIResult, type EnneagramResult } from "../data/derivations";
+import {
+  type MBTIResult,
+  type EnneagramResult,
+  type DISCResult,
+} from "../data/derivations";
 import { domainColors, domainLabels } from "../data/strengths";
 
 interface Props {
   results: StrengthScore[];
   mbti: MBTIResult;
   enneagram: EnneagramResult;
+  disc: DISCResult;
   onBack: () => void;
 }
 
-export function DetailedResults({ results, mbti, enneagram, onBack }: Props) {
+const discColors: Record<string, string> = {
+  D: "#e53e3e",
+  I: "#f6ad55",
+  S: "#48bb78",
+  C: "#4299e1",
+};
+
+export function DetailedResults({
+  results,
+  mbti,
+  enneagram,
+  disc,
+  onBack,
+}: Props) {
   const top5 = results.slice(0, 5);
 
   return (
@@ -61,7 +79,9 @@ export function DetailedResults({ results, mbti, enneagram, onBack }: Props) {
                       style={{
                         left: `${isRight ? 50 : leftPercent}%`,
                         width: `${barWidth / 2}%`,
-                        background: isRight ? "var(--accent)" : "var(--thinking)",
+                        background: isRight
+                          ? "var(--accent)"
+                          : "var(--thinking)",
                       }}
                     />
                   </div>
@@ -81,6 +101,78 @@ export function DetailedResults({ results, mbti, enneagram, onBack }: Props) {
           high Commander + Storyteller scores pull toward Extraversion, while
           Thinker + Analyst pull toward Introversion. This is an{" "}
           <em>estimate</em>, not a certified assessment.
+        </div>
+      </section>
+
+      {/* DISC Section */}
+      <section className="detail-section disc-section">
+        <div className="section-header">
+          <h2>Your DISC Profile</h2>
+          <span className="confidence-badge">
+            {disc.confidence}% confidence
+          </span>
+        </div>
+
+        <div className="disc-hero">
+          <div className="disc-style-display">
+            <span
+              className="disc-primary-letter"
+              style={{ color: discColors[disc.primary.code] }}
+            >
+              {disc.primary.code}
+            </span>
+            <span
+              className="disc-secondary-letter"
+              style={{ color: discColors[disc.secondary.code] }}
+            >
+              {disc.secondary.code.toLowerCase()}
+            </span>
+          </div>
+          <h3 className="disc-style-label">
+            {disc.primary.name} / {disc.secondary.name}
+          </h3>
+          <p className="disc-style-desc">{disc.primary.description}</p>
+        </div>
+
+        <div className="disc-dimensions">
+          {disc.dimensions.map((dim) => (
+            <div key={dim.code} className="disc-dim-row">
+              <div className="disc-dim-header">
+                <span
+                  className="disc-dim-code"
+                  style={{ background: discColors[dim.code] }}
+                >
+                  {dim.code}
+                </span>
+                <span className="disc-dim-name">{dim.name}</span>
+                <span className="disc-dim-score">{dim.score}%</span>
+              </div>
+              <div className="disc-dim-track">
+                <div
+                  className="disc-dim-fill"
+                  style={{
+                    width: `${dim.score}%`,
+                    background: discColors[dim.code],
+                  }}
+                />
+              </div>
+              <div className="disc-traits">
+                {dim.traits.map((t) => (
+                  <span key={t} className="disc-trait">
+                    {t}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="mbti-note">
+          <strong>How this was derived:</strong> DISC measures behavioral style
+          in four dimensions. Your strength scores were mapped: Commander +
+          Self-Believer + Winner signal high Dominance; Storyteller + Chameleon
+          + Optimist signal high Influence; Peacekeeper + Deliverer signal
+          Steadiness; Analyst + Time Keeper signal Conscientiousness.
         </div>
       </section>
 
@@ -169,7 +261,7 @@ export function DetailedResults({ results, mbti, enneagram, onBack }: Props) {
         </div>
       </section>
 
-      {/* Bridge / Synthesis Section */}
+      {/* Unified Synthesis */}
       <section className="detail-section synthesis-section">
         <div className="section-header">
           <h2>Your Unified Profile</h2>
@@ -195,9 +287,17 @@ export function DetailedResults({ results, mbti, enneagram, onBack }: Props) {
           </div>
 
           <div className="synth-card">
-            <h4>Personality Type</h4>
+            <h4>16 Personalities</h4>
             <div className="synth-big">{mbti.type}</div>
             <p className="synth-sublabel">{mbti.label}</p>
+          </div>
+
+          <div className="synth-card">
+            <h4>DISC Style</h4>
+            <div className="synth-big" style={{ color: discColors[disc.primary.code] }}>
+              {disc.style}
+            </div>
+            <p className="synth-sublabel">{disc.primary.name}</p>
           </div>
 
           <div className="synth-card">
@@ -210,12 +310,14 @@ export function DetailedResults({ results, mbti, enneagram, onBack }: Props) {
         <div className="synthesis-narrative">
           <h4>What This Means</h4>
           <p>
-            Your strengths, personality type, and Enneagram form a unified
-            picture of how you think, relate, and what drives you. While each
-            framework measures different aspects — strengths capture{" "}
-            <em>what you do well</em>, MBTI captures{" "}
-            <em>how you process the world</em>, and Enneagram captures{" "}
-            <em>why you do what you do</em> — together they create a richer,
+            Four frameworks, one assessment. Your <strong>strengths</strong>{" "}
+            reveal <em>what you do best</em>. Your{" "}
+            <strong>personality type</strong> ({mbti.type}) shows{" "}
+            <em>how you process the world</em>. Your{" "}
+            <strong>DISC profile</strong> ({disc.style}) captures{" "}
+            <em>how you behave with others</em>. And your{" "}
+            <strong>Enneagram</strong> ({enneagram.wingLabel}) uncovers{" "}
+            <em>why you do what you do</em>. Together they create a richer,
             more actionable profile than any single framework alone.
           </p>
         </div>
