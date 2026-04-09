@@ -1232,6 +1232,119 @@
   margin-bottom: 24px;
 }
 
+.landing-para {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.landing-usecases {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.landing-usecase {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px 18px;
+}
+
+.landing-usecase h4 {
+  font-size: 15px;
+  color: var(--text-h);
+  margin-bottom: 6px;
+}
+
+.landing-usecase p {
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Comparison table */
+.landing-table-wrap {
+  overflow-x: auto;
+}
+
+.landing-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.landing-table th {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 2px solid var(--border);
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.landing-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+  line-height: 1.5;
+}
+
+.landing-table-aspect {
+  font-weight: 600;
+  color: var(--text-h);
+  min-width: 100px;
+}
+
+.landing-table-ours {
+  color: #7c3aed;
+  font-weight: 600;
+}
+
+/* FAQ */
+.landing-faqs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.landing-faq {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0;
+}
+
+.landing-faq summary {
+  padding: 14px 18px;
+  font-weight: 600;
+  color: var(--text-h);
+  cursor: pointer;
+  font-size: 15px;
+  list-style: none;
+}
+
+.landing-faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.landing-faq summary::before {
+  content: "+";
+  margin-right: 10px;
+  font-weight: 700;
+  color: #7c3aed;
+}
+
+.landing-faq[open] summary::before {
+  content: "−";
+}
+
+.landing-faq p {
+  padding: 0 18px 14px;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+}
+
 @media (max-width: 640px) {
   .landing-hero h1 {
     font-size: 26px;
@@ -1243,6 +1356,10 @@
 
   .landing-also-card {
     flex: 1 1 calc(50% - 6px);
+  }
+
+  .landing-table {
+    font-size: 13px;
   }
 }
 
