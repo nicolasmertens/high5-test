@@ -13,7 +13,7 @@ export function IntroScreen({ onStart, onResume, hasSavedProgress }: Props) {
         </svg>
       </div>
       <span className="beta-badge">BETA</span>
-      <h1>1test</h1>
+      <h1>1Test</h1>
       <p className="intro-subtitle">
         One test. Four frameworks. Know yourself completely.
       </p>
