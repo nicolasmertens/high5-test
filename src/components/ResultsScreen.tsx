@@ -8,7 +8,6 @@ interface Props {
 
 export function ResultsScreen({ results, onRestart }: Props) {
   const top5 = results.slice(0, 5);
-  const rest = results.slice(5);
 
   // Domain distribution for top 5
   const domainCounts: Record<string, number> = {};

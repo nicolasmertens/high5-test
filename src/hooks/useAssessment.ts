@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect } from "react";
 import {
   questions,
   strengths,
@@ -15,15 +15,74 @@ export interface StrengthScore {
 
 export type Phase = "intro" | "test" | "results";
 
+const STORAGE_KEY = "high5-progress";
+
+interface SavedProgress {
+  answers: Record<number, number>;
+  currentIndex: number;
+  shuffleOrder: number[]; // question IDs in shuffled order
+}
+
+function loadProgress(): SavedProgress | null {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
+}
+
+function saveProgress(data: SavedProgress) {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+  } catch {
+    // storage full or unavailable
+  }
+}
+
+function clearProgress() {
+  try {
+    localStorage.removeItem(STORAGE_KEY);
+  } catch {
+    // noop
+  }
+}
+
 export function useAssessment() {
+  const saved = useMemo(() => loadProgress(), []);
+
   const [phase, setPhase] = useState<Phase>("intro");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, number>>({});
 
-  const shuffled = useMemo(() => shuffleQuestions(questions), []);
+  // If we have saved progress, reconstruct the same shuffle order
+  const shuffled = useMemo(() => {
+    if (saved) {
+      const byId = new Map(questions.map((q) => [q.id, q]));
+      const restored = saved.shuffleOrder
+        .map((id) => byId.get(id))
+        .filter((q): q is Question => q !== undefined);
+      if (restored.length === questions.length) return restored;
+    }
+    return shuffleQuestions(questions);
+  }, [saved]);
+
+  const hasSavedProgress = saved !== null && Object.keys(saved.answers).length > 0;
 
   const currentQuestion: Question | undefined = shuffled[currentIndex];
   const progress = (Object.keys(answers).length / shuffled.length) * 100;
+
+  // Persist to localStorage on every answer
+  useEffect(() => {
+    if (phase === "test" && Object.keys(answers).length > 0) {
+      saveProgress({
+        answers,
+        currentIndex,
+        shuffleOrder: shuffled.map((q) => q.id),
+      });
+    }
+  }, [answers, currentIndex, phase, shuffled]);
 
   const setAnswer = useCallback(
     (questionId: number, value: number) => {
@@ -37,6 +96,7 @@ export function useAssessment() {
       setCurrentIndex((i) => i + 1);
     } else {
       setPhase("results");
+      clearProgress();
     }
   }, [currentIndex, shuffled.length]);
 
@@ -50,12 +110,22 @@ export function useAssessment() {
     setPhase("test");
     setCurrentIndex(0);
     setAnswers({});
+    clearProgress();
   }, []);
+
+  const resume = useCallback(() => {
+    if (saved) {
+      setPhase("test");
+      setCurrentIndex(saved.currentIndex);
+      setAnswers(saved.answers);
+    }
+  }, [saved]);
 
   const restart = useCallback(() => {
     setPhase("intro");
     setCurrentIndex(0);
     setAnswers({});
+    clearProgress();
   }, []);
 
   // Scoring: for each strength, average its 6 question scores (0-100)
@@ -74,7 +144,8 @@ export function useAssessment() {
 
     const scored = strengths.map((s) => {
       const vals = scoreMap[s.id] || [];
-      const avg = vals.length > 0 ? vals.reduce((a, b) => a + b, 0) / vals.length : 0;
+      const avg =
+        vals.length > 0 ? vals.reduce((a, b) => a + b, 0) / vals.length : 0;
       return { strength: s, score: Math.round(avg), rank: 0 };
     });
 
@@ -93,10 +164,12 @@ export function useAssessment() {
     progress,
     answers,
     results,
+    hasSavedProgress,
     setAnswer,
     next,
     prev,
     start,
+    resume,
     restart,
   };
 }

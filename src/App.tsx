@@ -13,16 +13,24 @@ function App() {
     progress,
     answers,
     results,
+    hasSavedProgress,
     setAnswer,
     next,
     prev,
     start,
+    resume,
     restart,
   } = useAssessment();
 
   return (
     <div className="app">
-      {phase === "intro" && <IntroScreen onStart={start} />}
+      {phase === "intro" && (
+        <IntroScreen
+          onStart={start}
+          onResume={resume}
+          hasSavedProgress={hasSavedProgress}
+        />
+      )}
 
       {phase === "test" && currentQuestion && (
         <QuestionCard

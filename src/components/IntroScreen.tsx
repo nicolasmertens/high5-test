@@ -1,8 +1,10 @@
 interface Props {
   onStart: () => void;
+  onResume?: () => void;
+  hasSavedProgress: boolean;
 }
 
-export function IntroScreen({ onStart }: Props) {
+export function IntroScreen({ onStart, onResume, hasSavedProgress }: Props) {
   return (
     <div className="intro">
       <div className="intro-logo">5</div>
@@ -47,12 +49,22 @@ export function IntroScreen({ onStart }: Props) {
         <a href="https://ipip.ori.org/" target="_blank" rel="noopener">
           International Personality Item Pool
         </a>{" "}
-        (IPIP-VIA), mapped to the HIGH5 strengths framework.
+        (IPIP-VIA), mapped to a 20-strength framework.
       </p>
 
-      <button className="btn-start" onClick={onStart}>
-        Start Assessment
-      </button>
+      <div className="intro-actions">
+        {hasSavedProgress && onResume && (
+          <button className="btn-start" onClick={onResume}>
+            Continue Where You Left Off
+          </button>
+        )}
+        <button
+          className={hasSavedProgress ? "btn-start btn-start-secondary" : "btn-start"}
+          onClick={onStart}
+        >
+          {hasSavedProgress ? "Start Over" : "Start Assessment"}
+        </button>
+      </div>
     </div>
   );
 }
