@@ -49,6 +49,7 @@ The "one test" standard for personality intelligence. 50M+ assessments completed
 - Freelancers exploring career alignment
 - Couples on date night (yes, this is real — personality tests are entertainment too)
 - Coaches looking for a free tool to use with clients (we don't coach; we give them the data)
+- **People 55+ in life transition.** Retirement, career pivots, empty nest, "what's next in life?" — this demographic has the same exploration gap as 25-year-olds but with higher purchasing power, more time, and fewer existing solutions aimed at them. They also index heavily on Facebook (cheapest ad platform). The "what's next" angle resonates differently here — it's not about career laddering, it's about purpose and reinvention. This is a high-value audience for the AI playbook tier.
 
 ## Growth Strategy
 
@@ -65,6 +66,8 @@ The "one test" standard for personality intelligence. 50M+ assessments completed
 4. **Community seeding.** Reddit (r/mbti, r/enneagram, r/personalitytypes), Quora, LinkedIn, relevant Facebook groups. Provide genuine value first, link to test when relevant. Never spam. Research community norms before engaging.
 
 5. **Paid ads (when ROAS proven).** Test small ($5-10/day) in high-GDP markets. Facebook/Instagram (personality test ads perform well), Google Ads on competitor keywords. Scale only when ROAS is proven — this is a board decision.
+
+6. **ROAS mastery.** Marketing excellence is not optional — it is the company's core competence. Study and reverse-engineer companies that cracked paid growth: Loop Earplugs (scaled from Belgian startup to global brand purely on ROAS-driven paid ads), Gooseworks AI (AI-native marketing execution). When paid ads channels open (after organic validation), the CEO should commission a dedicated research sprint on ROAS optimization — creative testing frameworks, audience segmentation, LTV:CAC modeling, attribution. The goal is not to "do some ads" but to build a repeatable paid growth engine. This is a board-level strategic priority.
 
 **Restrictions:** No black-hat SEO. No spam. No fake reviews. No purchasing followers. No engagement pods. No misleading claims. All content must be genuinely useful, not just SEO-optimized filler.
 
