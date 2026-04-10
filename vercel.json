@@ -9,10 +9,5 @@
     { "source": "/blog/enneagram-career-paths", "destination": "/blog/enneagram-career-paths/index.html" },
     { "source": "/blog/personality-test-for-career", "destination": "/blog/personality-test-for-career/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }
-  ],
-  "functions": {
-    "api/**/*.ts": {
-      "runtime": "@vercel/node@5"
-    }
-  }
+  ]
 }
