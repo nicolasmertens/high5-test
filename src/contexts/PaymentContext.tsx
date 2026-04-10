@@ -1,4 +1,5 @@
 import { createContext, useContext, useState, useEffect, type ReactNode } from "react";
+import { trackPurchase } from "../utils/analytics";
 
 interface PaymentState {
   isPaid: boolean;
@@ -45,6 +46,12 @@ export function PaymentProvider({ children }: { children: ReactNode }) {
     localStorage.setItem(PAID_KEY, "true");
     localStorage.setItem(EMAIL_KEY, userEmail);
     localStorage.setItem(SESSION_KEY, sessionId);
+    trackPurchase({
+      upgradeType: "full_profile",
+      revenueAmount: 12,
+      currency: "USD",
+      transactionId: sessionId,
+    });
   };
 
   const checkSession = async (sessionId: string): Promise<boolean> => {

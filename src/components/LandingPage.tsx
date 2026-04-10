@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { frameworkContent } from "../data/landing-content";
+import { trackTestStarted } from "../utils/analytics";
 
 interface Props {
   framework: string;
@@ -10,7 +11,6 @@ export function LandingPage({ framework }: Props) {
   const navigate = useNavigate();
   const fw = frameworkContent[framework];
 
-  // Set page title and meta
   useEffect(() => {
     if (fw) {
       document.title = fw.metaTitle;
@@ -23,6 +23,11 @@ export function LandingPage({ framework }: Props) {
     navigate("/");
     return null;
   }
+
+  const handleCTA = () => {
+    trackTestStarted(framework as "disc" | "personality" | "enneagram" | "strengths", `/free-${framework}-test`);
+    navigate("/");
+  };
 
   const otherFrameworks = Object.values(frameworkContent).filter(
     (f) => f.slug !== framework
@@ -37,7 +42,7 @@ export function LandingPage({ framework }: Props) {
         <span className="beta-badge">BETA</span>
         <h1>Free {fw.fullName}</h1>
         <p className="landing-tagline">{fw.heroSubtitle}</p>
-        <button className="btn-start" onClick={() => navigate("/")}>
+        <button className="btn-start" onClick={handleCTA}>
           Take the Free Test &rarr;
         </button>
       </div>
@@ -171,7 +176,7 @@ export function LandingPage({ framework }: Props) {
       <div className="landing-cta">
         <h2>Ready to Discover Your {fw.name}?</h2>
         <p>One test. Four frameworks. Completely free. ~15 minutes.</p>
-        <button className="btn-start" onClick={() => navigate("/")}>
+        <button className="btn-start" onClick={handleCTA}>
           Start the Assessment &rarr;
         </button>
       </div>

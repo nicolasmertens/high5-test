@@ -5,6 +5,53 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: "2024-12-18.acacia",
 });
 
+async function sendGA4PurchaseEvent(session: Stripe.Checkout.Session) {
+  const measurementId = process.env.VITE_GA4_MEASUREMENT_ID;
+  const apiSecret = process.env.GA4_API_SECRET;
+  if (!measurementId || !apiSecret) return;
+
+  const clientId = session.metadata?.client_id || `stripe_${session.id}`;
+  const email = session.customer_details?.email || "";
+
+  try {
+    await fetch(
+      `https://www.google-analytics.com/mp/collect?measurement_id=${measurementId}&api_secret=${apiSecret}`,
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          client_id: clientId,
+          events: [
+            {
+              name: "purchase",
+              params: {
+                transaction_id: session.id,
+                value: (session.amount_total || 1200) / 100,
+                currency: session.currency || "USD",
+                items: [
+                  {
+                    item_id: "full_profile",
+                    item_name: "1Test Full Profile",
+                    item_category: "personality_assessment",
+                    price: (session.amount_total || 1200) / 100,
+                    quantity: 1,
+                  },
+                ],
+                framework: "strengths",
+                upgrade_type: "full_profile",
+                revenue_amount: (session.amount_total || 1200) / 100,
+                email_source: email ? "stripe_checkout" : undefined,
+              },
+            },
+          ],
+        }),
+      }
+    );
+  } catch (err) {
+    console.error("GA4 Measurement Protocol error:", err);
+  }
+}
+
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Method not allowed" });
@@ -31,6 +78,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         email: session.customer_details?.email,
         amount: session.amount_total,
       });
+
+      await sendGA4PurchaseEvent(session);
     }
 
     return res.status(200).json({ received: true });

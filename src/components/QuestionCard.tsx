@@ -1,5 +1,6 @@
-import { useEffect, useCallback, useState } from "react";
+import { useEffect, useCallback, useState, useRef } from "react";
 import { type Question } from "../data/strengths";
+import { trackQuestionAnswered } from "../utils/analytics";
 
 interface Props {
   question: Question;
@@ -21,6 +22,8 @@ const labels = [
   "Strongly Agree",
 ];
 
+const MILESTONES = [25, 50, 75, 100];
+
 export function QuestionCard({
   question,
   index,
@@ -35,6 +38,17 @@ export function QuestionCard({
   const hasAnswered = value !== undefined;
   const [animating, setAnimating] = useState(false);
   const [direction, setDirection] = useState<"next" | "prev">("next");
+  const trackedMilestones = useRef(new Set<number>());
+
+  useEffect(() => {
+    const completionPct = Math.round(((index + 1) / total) * 100);
+    for (const milestone of MILESTONES) {
+      if (completionPct >= milestone && !trackedMilestones.current.has(milestone)) {
+        trackedMilestones.current.add(milestone);
+        trackQuestionAnswered(index + 1, total, "strengths");
+      }
+    }
+  }, [index, total]);
 
   // Transition animation on question change
   useEffect(() => {

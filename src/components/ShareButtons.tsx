@@ -46,12 +46,12 @@ export function ShareButtons({ shareText, shareUrl, framework }: Props) {
   const [copied, setCopied] = useState(false);
 
   const handleShare = (channel: string, url: string) => {
-    trackShare({ framework, share_channel: channel });
+    trackShare(framework, channel);
     window.open(url, "_blank", "noopener,noreferrer,width=600,height=500");
   };
 
   const handleCopyLink = async () => {
-    trackShare({ framework, share_channel: "copy_link" });
+    trackShare(framework, "copy_link");
     try {
       await navigator.clipboard.writeText(shareUrl);
     } catch {

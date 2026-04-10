@@ -1,9 +1,14 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { useAssessment } from "./hooks/useAssessment";
 import { IntroScreen } from "./components/IntroScreen";
 import { QuestionCard } from "./components/QuestionCard";
 import { ResultsScreen } from "./components/ResultsScreen";
 import { PaymentProvider, usePayment } from "./contexts/PaymentContext";
+import {
+  trackTestStarted,
+  trackTestCompleted,
+  trackResultsViewed,
+} from "./utils/analytics";
 import "./App.css";
 
 function AppInner() {
@@ -25,6 +30,8 @@ function AppInner() {
   } = useAssessment();
 
   const { checkSession } = usePayment();
+  const prevPhase = useRef(phase);
+  const resultsTracked = useRef(false);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -36,12 +43,42 @@ function AppInner() {
     }
   }, [checkSession]);
 
+  useEffect(() => {
+    if (prevPhase.current === "intro" && phase === "test") {
+      trackTestStarted("all");
+    }
+    if (prevPhase.current === "test" && phase === "results") {
+      trackTestCompleted("strengths", totalQuestions);
+    }
+    prevPhase.current = phase;
+  }, [phase, totalQuestions]);
+
+  useEffect(() => {
+    if (phase === "results" && results.length > 0 && !resultsTracked.current) {
+      resultsTracked.current = true;
+      const top5 = results.slice(0, 5);
+      trackResultsViewed({
+        framework: "strengths",
+        top_strength: top5[0]?.strength?.name,
+      });
+    }
+  }, [phase, results]);
+
+  const handleStart = () => {
+    start();
+  };
+
+  const handleResume = () => {
+    trackTestStarted("all");
+    resume();
+  };
+
   return (
     <div className="app">
       {phase === "intro" && (
         <IntroScreen
-          onStart={start}
-          onResume={resume}
+          onStart={handleStart}
+          onResume={handleResume}
           hasSavedProgress={hasSavedProgress}
         />
       )}
@@ -61,7 +98,13 @@ function AppInner() {
       )}
 
       {phase === "results" && (
-        <ResultsScreen results={results} onRestart={restart} />
+        <ResultsScreen
+          results={results}
+          onRestart={() => {
+            resultsTracked.current = false;
+            restart();
+          }}
+        />
       )}
     </div>
   );

@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import { type StrengthScore } from "../hooks/useAssessment";
 import { domainColors, domainLabels } from "../data/strengths";
 import { derivePersonalityType, deriveEnneagram, deriveDISC } from "../data/derivations";
@@ -9,6 +9,7 @@ import { ShareCard } from "./ShareCard";
 import { ShareButtons } from "./ShareButtons";
 import { useShareImage } from "../hooks/useShareImage";
 import { usePayment } from "../contexts/PaymentContext";
+import { trackUpgradeViewed } from "../utils/analytics";
 
 interface Props {
   results: StrengthScore[];
@@ -19,7 +20,15 @@ export function ResultsScreen({ results, onRestart }: Props) {
   const [showDetailed, setShowDetailed] = useState(false);
   const { isPaid } = usePayment();
   const { cardRef, downloadImage } = useShareImage();
+  const upgradeViewedTracked = useRef(false);
   const top5 = results.slice(0, 5);
+
+  useEffect(() => {
+    if (!isPaid && !upgradeViewedTracked.current && top5.length > 0) {
+      upgradeViewedTracked.current = true;
+      trackUpgradeViewed("strengths", "results_page", "full_profile");
+    }
+  }, [isPaid, top5.length]);
 
   const personality = useMemo(() => derivePersonalityType(results), [results]);
   const enneagram = useMemo(() => deriveEnneagram(results), [results]);

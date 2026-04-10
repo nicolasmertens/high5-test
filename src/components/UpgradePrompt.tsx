@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { usePayment } from "../contexts/PaymentContext";
+import { trackCheckoutStarted } from "../utils/analytics";
 
 const PRICE_DISPLAY = "$12";
 
@@ -10,6 +11,7 @@ export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
   if (isLoading) return null;
 
   const handleUpgrade = async () => {
+    trackCheckoutStarted("strengths", "full_profile");
     setRedirecting(true);
     try {
       const res = await fetch("/api/create-checkout-session", {
