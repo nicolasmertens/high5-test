@@ -182,7 +182,7 @@ export const blogPosts: Record<string, BlogPost> = {
 
   "disc-communication-styles": {
     slug: "disc-communication-styles",
-    metaTitle: "DISC Communication Styles — How to Work Better With Every Type",
+    metaTitle: "DISC Communication Styles — Work Better With Every Type",
     metaDesc:
       "Learn the four DISC communication styles and how to adapt your approach for Dominance, Influence, Steadiness, and Conscientiousness. Free DISC test included.",
     canonicalUrl: "https://1test.me/blog/disc-communication-styles",
@@ -524,7 +524,7 @@ export const blogPosts: Record<string, BlogPost> = {
 
   "personality-test-for-career": {
     slug: "personality-test-for-career",
-    metaTitle: "Personality Test for Career — How to Find Work That Fits Who You Are",
+    metaTitle: "Personality Test for Career — Find Work That Fits You",
     metaDesc:
       "Learn how your personality type connects to career fit. Practical guidance for every type. Take the free personality test with career insights.",
     canonicalUrl: "https://1test.me/blog/personality-test-for-career",

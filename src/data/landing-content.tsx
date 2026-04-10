@@ -668,7 +668,7 @@ export const frameworkContent: Record<string, FrameworkContent> = {
     slug: "personality",
     name: "16 Personalities",
     fullName: "Personality Test",
-    metaTitle: "Free Personality Test — Which of the 16 Personality Types Are You?",
+    metaTitle: "Free Personality Test — Discover Your 16 Type",
     metaDesc:
       "Take the free personality test and discover your type. 16 Personalities, DISC, Enneagram, and Strengths — all from one 15-minute test. Full results, no paywall.",
     canonicalUrl: "https://1test.me/free-personality-test",
