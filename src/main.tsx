@@ -63,6 +63,14 @@ createRoot(document.getElementById("root")!).render(
               path="/blog/understanding-16-personalities"
               element={<BlogPage slug="understanding-16-personalities" />}
             />
+            <Route
+              path="/blog/disc-type-work-style"
+              element={<BlogPage slug="disc-type-work-style" />}
+            />
+            <Route
+              path="/blog/disc-assessment-guide"
+              element={<BlogPage slug="disc-assessment-guide" />}
+            />
             <Route path="/privacy-draft" element={<PrivacyPolicy />} />
             <Route path="/terms-draft" element={<TermsOfService />} />
           </Routes>

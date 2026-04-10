@@ -1120,6 +1120,413 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-10",
   },
+
+  "disc-type-work-style": {
+    slug: "disc-type-work-style",
+    metaTitle: "What Your DISC Type Says About Your Work Style | 1Test",
+    metaDesc:
+      "Discover what your DISC profile reveals about how you communicate, lead, and collaborate at work. Free DISC test with full results at 1Test.",
+    canonicalUrl: "https://1test.me/blog/disc-type-work-style",
+    h1: "What Your DISC Type Says About Your Work Style",
+    sections: [
+      {
+        heading: "What DISC Measures",
+        html: p(
+          "You have probably seen DISC mentioned in a team workshop or a job posting. But what does your DISC profile actually tell you about how you work — and how you can work better with others?"
+        ) +
+          p(
+            "This guide breaks down each DISC dimension, explains what it looks like in a workplace, and gives you specific strategies for leaning into your style and navigating the styles of the people around you."
+        ) +
+          p('<a href="/free-disc-test">Take the free DISC test</a>'),
+      },
+      {
+        heading: "The D Style: Direct, Decisive, Driven",
+        html: p(
+          "<strong>How D-styles work:</strong> You move fast, make decisions quickly, and focus on results. You prefer concise communication and get frustrated when meetings drag on without clear outcomes. You see challenge as an opportunity and are comfortable pushing back."
+        ) +
+          p(
+            "<strong>Your natural strengths:</strong> Decisiveness, accountability, efficiency, and the ability to cut through ambiguity and drive toward a goal."
+          ) +
+          p(
+            "<strong>Your growth edge:</strong> Reactivity, impatience, and a tendency to override others' input. D-styles can accidentally steamroll quieter team members or skip steps that feel unnecessary but are actually important."
+          ) +
+          p(
+            "<strong>How to work with D-styles:</strong> Be direct. State your point, back it up with data, and tell them what you need. They respect confidence and efficiency. Avoid long preambles or hedging — they interpret hesitation as lack of conviction."
+          ) +
+          p(
+            "<strong>How to flex if you are a D-style:</strong> Pause before responding. Ask one more question before deciding. Practice saying \"What do you think?\" before sharing your own view. The two seconds it takes to invite input often prevents the two hours it takes to repair misunderstanding."
+          ) +
+          p('<a href="/free-disc-test">Take the free DISC test</a>'),
+      },
+      {
+        heading: "The I Style: Optimistic, Outgoing, Energetic",
+        html: p(
+          "<strong>How I-styles work:</strong> You bring energy and enthusiasm to everything you touch. You think out loud, connect easily with new people, and naturally gravitate toward collaboration and brainstorming. You thrive in social, fast-paced environments and get bored when work feels routine."
+        ) +
+          p(
+            "<strong>Your natural strengths:</strong> Enthusiasm, persuasion, relationship-building, creativity, and the ability to rally people around an idea."
+          ) +
+          p(
+            "<strong>Your growth edge:</strong> Overcommitment, inconsistency, and difficulty with follow-through. I-styles are great starters but can struggle to finish projects that lose their novelty. You may also avoid difficult conversations because you prefer to keep things positive."
+          ) +
+          p(
+            "<strong>How to work with I-styles:</strong> Give them space to talk through ideas. Acknowledge their contributions. When you need them to follow through, be specific about deadlines and expectations — clear structure helps I-styles deliver on their commitments."
+          ) +
+          p(
+            "<strong>How to flex if you are an I-style:</strong> Write things down. When you commit to something, record it immediately. Practice saying no to opportunities that do not align with your current priorities. Your enthusiasm is a superpower — channeling it requires discipline, not suppression."
+          ),
+      },
+      {
+        heading: "The S Style: Reliable, Patient, Supportive",
+        html: p(
+          "<strong>How S-styles work:</strong> You are the team's anchor. You value consistency, prefer thoughtful deliberation over rapid change, and create stability for the people around you. You are deeply loyal and tend to build long-term, trusting relationships at work."
+        ) +
+          p(
+            "<strong>Your natural strengths:</strong> Reliability, patience, listening skills, and the ability to create harmony in teams. S-styles are the people who remember the details, follow through on commitments, and keep projects grounded."
+          ) +
+          p(
+            "<strong>Your growth edge:</strong> Avoiding necessary conflict, resisting change, and difficulty advocating for your own needs. S-styles often prioritize team harmony over personal boundaries, which can lead to burnout or resentment over time."
+          ) +
+          p(
+            "<strong>How to work with S-styles:</strong> Be genuine and consistent. Explain the reasons behind changes rather than just announcing them. Give them time to process decisions rather than demanding immediate responses. Ask for their opinion directly — they often have valuable insights they will not volunteer unprompted."
+          ) +
+          p(
+            "<strong>How to flex if you are an S-style:</strong> Practice initiating. Speak up in meetings even when you are not asked. Give yourself permission to disagree — disagreement is not the same as conflict. Your thoughtfulness is a strength, but it needs to be visible to have impact."
+          ),
+      },
+      {
+        heading: "The C Style: Analytical, Accurate, Quality-Focused",
+        html: p(
+          "<strong>How C-styles work:</strong> You are precise, thorough, and detail-oriented. You want to understand how things work and make sure they are done right. You value logic over intuition and prefer to have all the information before making a decision. You are the person who catches errors others miss."
+        ) +
+          p(
+            "<strong>Your natural strengths:</strong> Accuracy, analytical thinking, quality control, and the ability to synthesize complex information into clear frameworks. C-styles create order out of chaos."
+          ) +
+          p(
+            "<strong>Your growth edge:</strong> Perfectionism, analysis paralysis, and difficulty making decisions with incomplete information. C-styles can over-research, delay action, or get stuck on details that do not change the outcome."
+          ) +
+          p(
+            "<strong>How to work with C-styles:</strong> Give them time to think. Provide data and context, not just conclusions. When you present an idea, be prepared for questions — C-styles are not challenging you, they are validating the logic. Respect their need for accuracy and they will deliver exceptional work."
+          ) +
+          p(
+            "<strong>How to flex if you are a C-style:</strong> Set a decision deadline for yourself. Write down the minimum information you need to make a call, then make the call when you have it. Practice \"good enough\" for low-stakes decisions so you have energy left for the ones that truly require precision. Your standards are high — that is a gift, not a flaw, when you apply them deliberately."
+          ),
+      },
+      {
+        heading: "When DISC Styles Clash",
+        html: p(
+          "Most workplace friction comes from DISC style differences, not personality conflicts. Here are the most common clashes and how to navigate them:"
+        ) +
+          p(
+            "<strong>D and S:</strong> D-styles push for speed; S-styles want stability. The key is explicit communication: D-styles should explain why a change is needed, and S-styles should voice their concerns early rather than absorbing stress silently."
+          ) +
+          p(
+            "<strong>I and C:</strong> I-styles think out loud; C-styles think in silence. I-styles should give C-styles time to process and not expect immediate feedback. C-styles should share their thinking in progress, not just final conclusions."
+          ) +
+          p(
+            "<strong>D and C:</strong> D-styles want direction; C-styles want accuracy. Both value results but take different paths. D-styles should give C-styles room to verify, and C-styles should prioritize recommendations over data dumps."
+          ) +
+          p(
+            "<strong>The solution in every case:</strong> Learn each other's DISC style, ask for what you need, and give others what they need. It sounds simple, but most teams never have this conversation explicitly."
+          ),
+      },
+      {
+        heading: "Using DISC for Career Decisions",
+        html: p(
+          "Your DISC profile can also help you identify work environments where you will naturally thrive:"
+        ) +
+          `<table class="content-table">
+            <thead><tr><th>DISC Style</th><th>Thrives In</th><th>May Struggle In</th></tr></thead>
+            <tbody>
+              <tr><td><strong>High D</strong></td><td>Fast-paced, competitive, results-oriented roles</td><td>Slow, consensus-driven, highly regulated environments</td></tr>
+              <tr><td><strong>High I</strong></td><td>Collaborative, social, client-facing roles</td><td>Isolated, routine, data-heavy solo work</td></tr>
+              <tr><td><strong>High S</strong></td><td>Stable, supportive, team-oriented roles</td><td>High-pressure, rapidly changing, conflict-heavy environments</td></tr>
+              <tr><td><strong>High C</strong></td><td>Detailed, analytical, quality-focused roles</td><td>Ambiguous, fast-changing, \"good enough\" environments</td></tr>
+            </tbody>
+          </table>` +
+          p(
+            "This is not a limitation — it is a map. If you are a high S in a high-D environment, you can succeed. Understanding your DISC style just helps you anticipate friction points and prepare strategies for navigating them."
+          ),
+      },
+      {
+        heading: "Your DISC Profile Is Just the Start",
+        html: p(
+          "DISC reveals your behavioral style. But it is only one dimension of who you are. When you combine DISC with your Enneagram type (what drives you), your Strengths profile (what you are wired for), and your 16 Personalities type (how you process the world), you get a far richer picture of how you work, lead, and communicate."
+        ) +
+          p(
+            "One free assessment at 1Test gives you all four profiles — DISC, Enneagram, Strengths, and 16 Personalities — in about 15 minutes."
+          ) +
+          p('<a href="/free-personality-test">Take the free assessment</a>'),
+      },
+    ],
+    faqs: [
+      {
+        question: "What does DISC stand for?",
+        answer:
+          "DISC stands for Dominance, Influence, Steadiness, and Conscientiousness. These are the four behavioral dimensions the framework measures. Your DISC profile shows which dimensions you lean toward and how intensely.",
+      },
+      {
+        question: "Can your DISC style change over time?",
+        answer:
+          "Your core DISC tendencies tend to stay stable, but your expression of them can shift with experience and deliberate effort. Most people become more balanced over time, particularly as they develop skills in their lower-scoring dimensions.",
+      },
+      {
+        question: "Which DISC style is best for leadership?",
+        answer:
+          "No DISC style is inherently better for leadership. High D-styles tend to lead with decisiveness, high I-styles with persuasion, high S-styles with consensus, and high C-styles with expertise. Effective leaders flex their style based on the situation and the people they are leading.",
+      },
+      {
+        question: "How is DISC different from Enneagram?",
+        answer:
+          "DISC describes how you behave — your observable actions, especially at work. The Enneagram describes why you behave that way — your core fears, desires, and motivations. DISC is more situational; Enneagram is more deeply rooted in emotional patterns.",
+      },
+      {
+        question: "How long does the DISC assessment take?",
+        answer:
+          "With 1Test, about 15 minutes. You answer roughly 120 questions and receive your DISC profile along with your Enneagram type, Strengths ranking, and 16 Personalities result — all from a single assessment.",
+      },
+    ],
+    ctaHeading: "Discover your DISC style.",
+    ctaSubtext: "15 minutes, four frameworks, complete picture.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "Free Strengths assessment", url: "/free-strengths-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Free 16 Personalities test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-10",
+  },
+
+  "disc-assessment-guide": {
+    slug: "disc-assessment-guide",
+    metaTitle: "DISC Assessment Guide — What It Is, How It Works, Why It Matters | 1Test",
+    metaDesc:
+      "Complete guide to the DISC assessment: what it measures, how to read your profile, and how to use DISC at work and in teams. Take the free DISC test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/disc-assessment-guide",
+    h1: "The Complete Guide to DISC Assessment",
+    sections: [
+      {
+        heading: "What Is a DISC Assessment?",
+        html: p(
+          "Whether you have seen DISC in a team workshop, on a job posting, or in a leadership book, you have probably wondered: what does a DISC assessment actually tell you? Is it just another personality label, or does it give you something you can use?"
+        ) +
+          p(
+            "The short answer: DISC gives you a practical map of how you tend to act and communicate — especially at work. It is one of the most widely used behavioral frameworks in the world, and for good reason. It is simple to understand, immediately applicable, and surprisingly accurate in describing patterns most people never notice about themselves."
+          ) +
+          p(
+            "This guide covers everything you need to know about DISC: what each dimension measures, how to read your profile, how DISC differs from other personality frameworks, and how to use it in real work situations."
+          ) +
+          p('<a href="/free-disc-test">Take the free DISC test</a>'),
+      },
+      {
+        heading: "The Four DISC Dimensions",
+        html: h3("D — Dominance") +
+          p(
+            "<strong>What it measures:</strong> How you handle challenges, make decisions, and exercise control."
+          ) +
+          p(
+            "People with high Dominance tend to be direct, results-oriented, and comfortable taking charge. They prefer fast-paced environments where they can make decisions and see impact quickly. They are the people who walk into a meeting, ask \"what is the bottom line,\" and want to get moving."
+          ) +
+          p("<strong>High-D strengths:</strong> Decisiveness, accountability, comfort with conflict, ability to drive results under pressure.") +
+          p("<strong>High-D growth areas:</strong> Impatience, tendency to override others, difficulty with slow processes, risk of steamrolling quieter voices.") +
+          p("<strong>When Dominance serves you well:</strong> Leadership roles, crisis situations, sales, entrepreneurship, competitive environments where quick decisions matter.") +
+          p('<a href="/free-disc-test">Take the free DISC test</a>') +
+          h3("I — Influence") +
+          p(
+            "<strong>What it measures:</strong> How you interact with people, express enthusiasm, and build relationships."
+          ) +
+          p(
+            "People with high Influence tend to be outgoing, optimistic, and energized by social interaction. They think out loud, generate ideas freely, and naturally draw others in. They are the people who energize a room and make work feel less like work."
+          ) +
+          p("<strong>High-I strengths:</strong> Enthusiasm, persuasion, collaboration, optimism, ability to rally people around a vision.") +
+          p("<strong>High-I growth areas:</strong> Overcommitment, difficulty following through, avoidance of difficult conversations, tendency to prioritize popularity over effectiveness.") +
+          p("<strong>When Influence serves you well:</strong> Client-facing roles, sales, marketing, team building, any situation where buy-in and momentum matter.") +
+          h3("S — Steadiness") +
+          p(
+            "<strong>What it measures:</strong> How you respond to pace, stability, and consistency."
+          ) +
+          p(
+            "People with high Steadiness tend to be reliable, patient, and supportive. They prefer predictable environments where they can build deep relationships and contribute consistently over time. They are the people who remember the details, follow through on commitments, and create stability for the team."
+          ) +
+          p("<strong>High-S strengths:</strong> Reliability, patience, listening, loyalty, teamwork, ability to create harmony in groups.") +
+          p("<strong>High-S growth areas:</strong> Avoidance of conflict, resistance to change, difficulty advocating for their own needs, tendency to absorb stress silently.") +
+          p("<strong>When Steadiness serves you well:</strong> Operations, project management, customer service, HR, any role that requires consistency, patience, and relationship depth.") +
+          h3("C — Conscientiousness") +
+          p(
+            "<strong>What it measures:</strong> How you approach details, rules, accuracy, and quality."
+          ) +
+          p(
+            "People with high Conscientiousness tend to be analytical, thorough, and quality-focused. They want to understand how things work and make sure they are done right. They are the people who catch errors others miss, build elegant systems, and maintain high standards."
+          ) +
+          p("<strong>High-C strengths:</strong> Accuracy, analytical thinking, quality control, systematic approach, ability to synthesize complex information.") +
+          p("<strong>High-C growth areas:</strong> Perfectionism, analysis paralysis, difficulty making decisions with incomplete information, tendency to over-research.") +
+          p("<strong>When Conscientiousness serves you well:</strong> Quality assurance, data analysis, compliance, engineering, research, any role that requires precision and depth."),
+      },
+      {
+        heading: "How to Read Your DISC Profile",
+        html: p(
+          "Your DISC profile is not a single letter — it is a combination of all four dimensions with varying intensity. Most people have one or two dimensions that stand out above the others, creating a profile like \"High D,\" \"High I/S,\" or \"High C/I.\""
+        ) +
+          p("Here is how to interpret your results:") +
+          ul([
+            "<strong>Primary dimension:</strong> The highest-scoring dimension represents your most natural behavioral tendency. This is where you are most comfortable and where you have the most developed skills.",
+            "<strong>Secondary dimension:</strong> Your second-highest dimension adds flavor to your primary dimension. A High D/I is different from a High D/C — one is a charismatic decision-maker, the other is a precise strategic thinker.",
+            "<strong>Lower dimensions:</strong> These are not weaknesses — they are areas where you may need to flex or adapt. A Low D does not mean \"not assertive\" — it means you tend toward consensus and collaboration, which is a strength in many contexts.",
+          ]) +
+          p("<strong>Understanding intensity:</strong> The difference between your highest and lowest dimension matters. A profile with high D and low S means you have a strong preference for fast, direct action over steady, patient approaches. A profile where all four dimensions are relatively close means you are more adaptable and can flex between styles depending on the situation."),
+      },
+      {
+        heading: "DISC vs Other Personality Frameworks",
+        html: p(
+          "DISC is one of several personality frameworks. Here is how it compares to the others:"
+        ) +
+          `<table class="content-table">
+            <thead><tr><th>Framework</th><th>What It Measures</th><th>Best For</th><th>1Test Includes It?</th></tr></thead>
+            <tbody>
+              <tr><td><strong>DISC</strong></td><td>Behavioral style — how you act and communicate</td><td>Workplace dynamics, team communication, leadership style</td><td>Yes</td></tr>
+              <tr><td><strong>Enneagram</strong></td><td>Core motivation — why you do what you do</td><td>Self-awareness, emotional growth, relationship patterns</td><td>Yes</td></tr>
+              <tr><td><strong>Strengths</strong></td><td>Natural talents — what you do best</td><td>Career direction, performance optimization, building on what works</td><td>Yes</td></tr>
+              <tr><td><strong>16 Personalities</strong></td><td>Cognitive style — how you process the world</td><td>Self-understanding overview, relationship compatibility, career direction</td><td>Yes</td></tr>
+            </tbody>
+          </table>` +
+          p(
+            "DISC answers \"how.\" The Enneagram answers \"why.\" Strengths answers \"what.\" 16 Personalities answers \"how\" at a broader cognitive level. Together, they give you a much richer picture than any single framework."
+          ) +
+          p(
+            "At 1Test, one free assessment gives you all four profiles — DISC, Enneagram, Strengths, and 16 Personalities — in about 15 minutes. No separate tests required."
+          ) +
+          p('<a href="/free-personality-test">Take the free assessment</a>'),
+      },
+      {
+        heading: "Using DISC at Work",
+        html: h3("For Team Communication") +
+          p(
+            "The most immediate application of DISC is understanding how your team communicates differently."
+          ) +
+          p(
+            "<strong>D-styles</strong> want bullet points, bottom lines, and quick decisions. Give them a short summary with a clear ask, and they will respond quickly."
+          ) +
+          p(
+            "<strong>I-styles</strong> want context, conversation, and room to brainstorm. Give them space to talk through ideas before asking for a decision."
+          ) +
+          p(
+            "<strong>S-styles</strong> want thoughtful explanations, advance notice of changes, and time to process. Give them the reasoning behind decisions, and they will implement reliably."
+          ) +
+          p(
+            "<strong>C-styles</strong> want data, details, and logical structure. Give them complete information with clear rationale, and they will produce exceptional work."
+          ) +
+          p("The key insight: most communication breakdowns happen because people are speaking in their own DISC style, not the style of the person they are communicating with.") +
+          h3("For Leadership") +
+          p("Effective leaders adapt their approach based on who they are leading:") +
+          ul([
+            "<strong>Leading D-styles:</strong> Give them autonomy, clear goals, and room to make decisions. Avoid micromanaging.",
+            "<strong>Leading I-styles:</strong> Give them recognition, social interaction, and creative freedom. Keep energy high.",
+            "<strong>Leading S-styles:</strong> Give them stability, clear expectations, and personal connection. Avoid sudden changes without explanation.",
+            "<strong>Leading C-styles:</strong> Give them detailed information, time to analyze, and logical rationales. Avoid pressuring for quick decisions without data.",
+          ]) +
+          h3("For Hiring") +
+          p(
+            "DISC should never be used to screen candidates in or out — no profile is \"better\" for any role. But it can help you:"
+          ) +
+          ul([
+            "Understand how a candidate will fit with your existing team dynamics",
+            "Tailor onboarding to their communication style",
+            "Identify potential friction points between team members before they become problems",
+            "Coach managers on how to adapt their leadership style for each direct report",
+          ]) +
+          h3("For Self-Development") +
+          p("Your DISC profile reveals your default settings — what you do automatically. Growth means recognizing when your default is helpful versus when it is getting in your way:") +
+          ul([
+            "If you are a High D, practice pausing before responding and asking one more question before deciding.",
+            "If you are a High I, practice writing things down, saying no, and following through before starting something new.",
+            "If you are a High S, practice initiating, speaking up in meetings, and advocating for your own priorities.",
+            "If you are a High C, practice setting deadlines for decisions, sharing your thinking in progress, and accepting \"good enough\" for low-stakes choices.",
+          ]),
+      },
+      {
+        heading: "Common Misconceptions About DISC",
+        html: p('<strong>"DISC puts you in a box"</strong>') +
+          p(
+            "It does not. Your DISC profile describes tendencies, not limitations. A High S can make bold decisions. A High I can deliver detailed analysis. DISC shows what feels natural — you can still develop skills in every dimension."
+          ) +
+          p('<strong>"DISC is the same as other trademarked assessments"</strong>') +
+          p(
+            "No. The DISC model is a behavioral framework based on publicly available research. It is distinct from other assessments that use trademarked names. 1Test uses the generic DISC framework with safe, non-trademarked terminology."
+          ) +
+          p('<strong>"Your DISC profile never changes"</strong>') +
+          p(
+            "Your core tendencies tend to stay stable over time, but you can learn to flex into other dimensions when the situation requires it. Most people find they become more balanced over time as they develop skills in their lower-scoring areas."
+          ) +
+          p('<strong>"One DISC style is better for leadership"</strong>') +
+          p(
+            "No style is inherently better for leadership. D-styles lead with decisiveness, I-styles with inspiration, S-styles with stability, and C-styles with expertise. The strongest leaders adapt their style to the situation and the people they are leading."
+          ),
+      },
+      {
+        heading: "How to Take a DISC Assessment",
+        html: p(
+          "The DISC assessment at 1Test takes about 15 minutes as part of a single assessment that also covers Enneagram, Strengths, and 16 Personalities. You answer roughly 120 questions and receive results across all four frameworks immediately — no paywall for the core profiles."
+        ) +
+          p(
+            "The assessment uses validated research from the International Personality Item Pool (ipip.ori.org), the same academic source behind many paid personality tools. Your results are specific to you and available immediately after completion."
+          ) +
+          p('<a href="/free-disc-test">Take the free DISC test</a>'),
+      },
+      {
+        heading: "The Complete Picture: DISC Is Just the Start",
+        html: p(
+          "Your DISC profile tells you how you tend to act. But it is only one dimension. When you combine it with your Enneagram type (what drives you), your Strengths profile (what you are wired for), and your 16 Personalities type (how you process the world), you get a complete picture of who you are at work, in relationships, and in life."
+        ) +
+          p("One test, four frameworks, one complete view.") +
+          p('<a href="/free-personality-test">Take the free assessment</a>'),
+      },
+    ],
+    faqs: [
+      {
+        question: "What does DISC stand for?",
+        answer:
+          "DISC stands for four behavioral dimensions: Dominance, Influence, Steadiness, and Conscientiousness. These dimensions describe how you tend to act, communicate, and respond to different situations — especially at work.",
+      },
+      {
+        question: "How accurate is a DISC assessment?",
+        answer:
+          "The DISC framework is based on decades of validated personality research. The 1Test assessment uses measures from the International Personality Item Pool (ipip.ori.org), which has been validated in peer-reviewed studies. Like any personality assessment, DISC describes tendencies and patterns — not absolute predictions.",
+      },
+      {
+        question: "What is the difference between DISC and Enneagram?",
+        answer:
+          "DISC describes how you behave — your observable actions, especially in workplace and team settings. The Enneagram describes why you behave that way — your core fears, desires, and motivations. DISC is more practical for team dynamics; Enneagram is more useful for personal growth and understanding deep patterns. Taking both gives you a richer picture.",
+      },
+      {
+        question: "How long does a DISC test take?",
+        answer:
+          "With 1Test, about 15 minutes. You answer roughly 120 questions and receive your DISC profile along with your Enneagram type, Strengths ranking, and 16 Personalities result — all from a single assessment.",
+      },
+      {
+        question: "Can DISC be used for hiring?",
+        answer:
+          "DISC can help you understand how a candidate communicates and works, but it should never be used to screen candidates in or out. No DISC profile is better or worse for a role. The best practice is to use DISC for onboarding, team dynamics, and coaching — not for hiring decisions.",
+      },
+      {
+        question: "Is the DISC assessment free?",
+        answer:
+          "Yes. 1Test offers the DISC assessment free as part of a single assessment that covers all four frameworks. You receive your DISC profile, Enneagram type, Strengths ranking, and 16 Personalities result — all free, all from one 15-minute test.",
+      },
+    ],
+    ctaHeading: "Ready to discover your DISC style?",
+    ctaSubtext: "15 minutes, four frameworks, complete picture.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "Free Strengths assessment", url: "/free-strengths-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Free 16 Personalities test", url: "/free-personality-test" },
+      { label: "DISC communication styles guide", url: "/blog/disc-communication-styles" },
+      { label: "DISC type work style guide", url: "/blog/disc-type-work-style" },
+    ],
+    datePublished: "2026-04-10",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

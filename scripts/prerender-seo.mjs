@@ -174,6 +174,21 @@ const BLOG_FAQS = {
     { question: "Can my personality type change?", answer: "Your core preferences tend to stay stable, but your expression of them can evolve. Most people find they become more balanced over time, developing skills in their non-preferred dimensions without changing their fundamental type." },
     { question: "How long does it take to find my type?", answer: "With 1Test, about 15 minutes. You answer roughly 120 questions and receive your 16 Personalities result along with your DISC, Enneagram, and Strengths results — all from a single assessment." },
   ],
+  "/blog/disc-type-work-style": [
+    { question: "What does DISC stand for?", answer: "DISC stands for Dominance, Influence, Steadiness, and Conscientiousness. These are the four behavioral dimensions the framework measures. Your DISC profile shows which dimensions you lean toward and how intensely." },
+    { question: "Can your DISC style change over time?", answer: "Your core DISC tendencies tend to stay stable, but your expression of them can shift with experience and deliberate effort. Most people become more balanced over time, particularly as they develop skills in their lower-scoring dimensions." },
+    { question: "Which DISC style is best for leadership?", answer: "No DISC style is inherently better for leadership. High D-styles tend to lead with decisiveness, high I-styles with persuasion, high S-styles with consensus, and high C-styles with expertise. Effective leaders flex their style based on the situation and the people they are leading." },
+    { question: "How is DISC different from Enneagram?", answer: "DISC describes how you behave — your observable actions, especially at work. The Enneagram describes why you behave that way — your core fears, desires, and motivations. DISC is more situational; Enneagram is more deeply rooted in emotional patterns." },
+    { question: "How long does the DISC assessment take?", answer: "With 1Test, about 15 minutes. You answer roughly 120 questions and receive your DISC profile along with your Enneagram type, Strengths ranking, and 16 Personalities result — all from a single assessment." },
+  ],
+  "/blog/disc-assessment-guide": [
+    { question: "What does DISC stand for?", answer: "DISC stands for four behavioral dimensions: Dominance, Influence, Steadiness, and Conscientiousness. These dimensions describe how you tend to act, communicate, and respond to different situations — especially at work." },
+    { question: "How accurate is a DISC assessment?", answer: "The DISC framework is based on decades of validated personality research. The 1Test assessment uses measures from the International Personality Item Pool (ipip.ori.org), which has been validated in peer-reviewed studies. Like any personality assessment, DISC describes tendencies and patterns — not absolute predictions." },
+    { question: "What is the difference between DISC and Enneagram?", answer: "DISC describes how you behave — your observable actions, especially in workplace and team settings. The Enneagram describes why you behave that way — your core fears, desires, and motivations. DISC is more practical for team dynamics; Enneagram is more useful for personal growth and understanding deep patterns. Taking both gives you a richer picture." },
+    { question: "How long does a DISC test take?", answer: "With 1Test, about 15 minutes. You answer roughly 120 questions and receive your DISC profile along with your Enneagram type, Strengths ranking, and 16 Personalities result — all from a single assessment." },
+    { question: "Can DISC be used for hiring?", answer: "DISC can help you understand how a candidate communicates and works, but it should never be used to screen candidates in or out. No DISC profile is better or worse for a role. The best practice is to use DISC for onboarding, team dynamics, and coaching — not for hiring decisions." },
+    { question: "Is the DISC assessment free?", answer: "Yes. 1Test offers the DISC assessment free as part of a single assessment that covers all four frameworks. You receive your DISC profile, Enneagram type, Strengths ranking, and 16 Personalities result — all free, all from one 15-minute test." },
+  ],
 };
 
 const SEO_DATA = {
@@ -254,11 +269,25 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/which-personality-test-right-for-you",
     ogType: "article",
   },
-  "/blog/understanding-16-personalities": {
+"/blog/understanding-16-personalities": {
     title: "16 Personalities Explained — Complete Guide to the Framework | 1Test",
     description:
       "What are the 16 Personalities? Learn what each type means, how the framework works, and how it relates to DISC, Enneagram, and Strengths. Take all four free at 1Test.",
     canonicalUrl: "https://1test.me/blog/understanding-16-personalities",
+    ogType: "article",
+  },
+  "/blog/disc-type-work-style": {
+    title: "What Your DISC Type Says About Your Work Style | 1Test",
+    description:
+      "Discover what your DISC profile reveals about how you communicate, lead, and collaborate at work. Free DISC test with full results at 1Test.",
+    canonicalUrl: "https://1test.me/blog/disc-type-work-style",
+    ogType: "article",
+  },
+  "/blog/disc-assessment-guide": {
+    title: "DISC Assessment Guide — What It Is, How It Works, Why It Matters | 1Test",
+    description:
+      "Complete guide to the DISC assessment: what it measures, how to read your profile, and how to use DISC at work and in teams. Take the free DISC test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/disc-assessment-guide",
     ogType: "article",
   },
 };
@@ -332,6 +361,46 @@ const BODY_CONTENT = {
     h1: "1Test Blog",
     sections: [
       { heading: "Personality Insights and Framework Guides", text: "Practical advice for understanding yourself better. Read about Strengths, DISC, Enneagram, and 16 Personalities — and how each framework helps you make better decisions about work, relationships, and personal growth." },
+    ],
+  },
+  "/blog/disc-vs-enneagram-vs-strengths": {
+    h1: "DISC vs Enneagram vs Strengths: Which Free Assessment Should You Take?",
+    sections: [
+      { heading: "What DISC Measures", text: "DISC maps how you behave in predictable situations — especially at work. It tells you whether you lean toward directness or warmth, fast-paced or steady, big-picture or detail-oriented. DISC shines in professional settings and helps explain communication differences." },
+      { heading: "What the Enneagram Reveals", text: "The Enneagram describes nine core motivations — not just what you do, but why you do it. Each type has a primary fear and desire that shape decisions below the surface. The Enneagram is particularly useful for personal growth and understanding deep patterns." },
+      { heading: "What Strengths Focuses On", text: "Strengths assessments flip the usual model. Instead of asking what needs fixing, they ask what you are already good at and how to do more of it. Your top Strengths might include analytical thinking, empathy, strategic planning, or adaptability." },
+    ],
+  },
+  "/blog/which-personality-test-right-for-you": {
+    h1: "Which Personality Test Is Right for You?",
+    sections: [
+      { heading: "The Four Major Personality Frameworks", text: "There are four frameworks that most people encounter: DISC (how you communicate and act), Enneagram (what drives you), Strengths (what you do best), and 16 Personalities (how you process the world). Each measures something different and is useful in different contexts." },
+      { heading: "How to Choose the Right Test", text: "Your goal determines which framework to start with. For workplace communication, take DISC first. For career direction, take Strengths then 16 Personalities. For understanding emotional patterns, take the Enneagram. For a complete picture, take all four." },
+      { heading: "Why One Test Is Not Enough", text: "Each framework reveals a different layer. DISC shows behavior, Enneagram shows motivation, Strengths shows talent, and 16 Personalities shows cognitive style. Together, they give you a much richer picture than any single test." },
+    ],
+  },
+  "/blog/understanding-16-personalities": {
+    h1: "Understanding the 16 Personalities Framework: A Complete Guide",
+    sections: [
+      { heading: "What Is the 16 Personalities Framework?", text: "The 16 Personalities framework sorts personality into 16 distinct types based on four dimensions of preference. It is the most popular personality model in the world, drawing on research from the Big Five personality traits and other validated psychological models." },
+      { heading: "The Four Dimensions", text: "The four dimensions are: Introvert vs Extrovert (how you recharge), Intuitive vs Observant (how you take in information), Thinking vs Feeling (how you make decisions), and Judging vs Prospecting (how you structure your life). Each combination creates one of 16 unique types." },
+      { heading: "How 16 Personalities Fits With Other Frameworks", text: "16 Personalities gives you a broad overview of your cognitive style. DISC adds your behavioral communication style. Enneagram adds your core motivation. Strengths adds your natural talents. Together, they give you a much richer picture than any single framework alone." },
+    ],
+  },
+  "/blog/disc-type-work-style": {
+    h1: "What Your DISC Type Says About Your Work Style",
+    sections: [
+      { heading: "What DISC Measures for Your Career", text: "DISC describes four behavioral dimensions — Dominance, Influence, Steadiness, and Conscientiousness — that shape how you communicate, make decisions, and collaborate at work. Understanding your DISC type helps you identify work environments where you naturally thrive and anticipate friction with people who have different styles." },
+      { heading: "Each Style at Work", text: "High D styles are direct and decisive — they thrive in fast-paced, results-oriented roles. High I styles are outgoing and enthusiastic — they excel in collaborative, client-facing environments. High S styles are reliable and patient — they perform best in stable, supportive team settings. High C styles are analytical and thorough — they gravitate toward roles requiring precision and quality." },
+      { heading: "Using DISC for Career Growth", text: "Your DISC profile is not a limitation — it is a map. Combine it with your Enneagram type (what drives you), your Strengths profile (what you are wired for), and your 16 Personalities type (how you process the world) for a complete picture of how you work best." },
+    ],
+  },
+  "/blog/disc-assessment-guide": {
+    h1: "The Complete Guide to DISC Assessment",
+    sections: [
+      { heading: "What Is a DISC Assessment?", text: "DISC is a behavioral assessment framework that describes your natural tendencies across four dimensions: Dominance, Influence, Steadiness, and Conscientiousness. It does not measure intelligence, skills, or values. It measures preferences — how you tend to respond to problems, people, pace, and procedures." },
+      { heading: "The Four DISC Dimensions", text: "D (Dominance) measures how you handle challenges and make decisions. I (Influence) measures how you interact with people and express enthusiasm. S (Steadiness) measures how you respond to pace and consistency. C (Conscientiousness) measures how you approach details, rules, and accuracy. Most people have a primary style and a secondary style." },
+      { heading: "Using DISC at Work", text: "DISC is most immediately useful for team communication, leadership development, and self-awareness. D-styles want brevity and bottom lines. I-styles want context and conversation. S-styles want thoughtful explanations and time to process. C-styles want data and logical structure. Most communication breakdowns happen because people speak in their own style, not the style of the person they are communicating with." },
     ],
   },
 };

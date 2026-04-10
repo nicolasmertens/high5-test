@@ -18,6 +18,8 @@
     { "source": "/blog/disc-vs-enneagram-vs-strengths", "destination": "/blog/disc-vs-enneagram-vs-strengths/index.html" },
     { "source": "/blog/which-personality-test-right-for-you", "destination": "/blog/which-personality-test-right-for-you/index.html" },
     { "source": "/blog/understanding-16-personalities", "destination": "/blog/understanding-16-personalities/index.html" },
+    { "source": "/blog/disc-type-work-style", "destination": "/blog/disc-type-work-style/index.html" },
+    { "source": "/blog/disc-assessment-guide", "destination": "/blog/disc-assessment-guide/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
