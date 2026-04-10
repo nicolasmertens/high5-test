@@ -51,7 +51,7 @@ export const frameworkContent: Record<string, FrameworkContent> = {
     fullName: "Strengths Test",
     metaTitle: "Free Strengths Test — Discover What You Do Best",
     metaDesc:
-      "Take the free Strengths test and discover your natural strengths. Full results with practical guidance. No paywall. Also get DISC, Enneagram, and 16 Personalities free.",
+      "Discover your natural strengths with 1Test's free Strengths assessment. Full results, no paywall. Also get DISC, Enneagram, and 16 Personalities free.",
     canonicalUrl: "https://1test.me/free-strengths-test",
     h1: "Free Strengths Test — Discover What You Do Best",
     intro:
@@ -269,7 +269,7 @@ export const frameworkContent: Record<string, FrameworkContent> = {
     fullName: "DISC Test",
     metaTitle: "Free DISC Test — Understand Your Communication Style",
     metaDesc:
-      "Take the free DISC personality test and discover how you communicate, lead, and work with others. Get your full DISC profile at no cost. Also get Strengths, Enneagram, and 16 Personalities free.",
+      "Free DISC test — discover your communication style and how you work with others. Full profile, no paywall. Plus Strengths, Enneagram, and 16 Personalities.",
     canonicalUrl: "https://1test.me/free-disc-test",
     h1: "Free DISC Test — Understand Your Communication Style",
     intro:
@@ -504,7 +504,7 @@ export const frameworkContent: Record<string, FrameworkContent> = {
     fullName: "Enneagram Test",
     metaTitle: "Free Enneagram Test — Discover Your Type and Growth Path",
     metaDesc:
-      "Take the free Enneagram test and discover your type, wing tendencies, and growth directions. Full results at no cost. Also get DISC, Strengths, and 16 Personalities free.",
+      "Free Enneagram test — discover your type, wing, and growth directions. Full results, no paywall. Plus DISC, Strengths, and 16 Personalities all free.",
     canonicalUrl: "https://1test.me/free-enneagram-test",
     h1: "Free Enneagram Test — Discover Your Type and Growth Path",
     intro:
@@ -668,9 +668,9 @@ export const frameworkContent: Record<string, FrameworkContent> = {
     slug: "personality",
     name: "16 Personalities",
     fullName: "Personality Test",
-    metaTitle: "Free Personality Test — Discover Your 16 Type",
+    metaTitle: "Free Personality Test — Which of the 16 Types Are You?",
     metaDesc:
-      "Take the free personality test and discover your type. 16 Personalities, DISC, Enneagram, and Strengths — all from one 15-minute test. Full results, no paywall.",
+      "Which of the 16 personality types are you? Take the free test and get your full profile — no paywall. Plus DISC, Enneagram, and Strengths, all from one test.",
     canonicalUrl: "https://1test.me/free-personality-test",
     h1: "Free Personality Test — Which of the 16 Personality Types Are You?",
     intro:
