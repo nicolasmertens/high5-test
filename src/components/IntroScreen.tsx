@@ -26,25 +26,32 @@ export function IntroScreen({ onStart, onResume, hasSavedProgress }: Props) {
 
         <div className="framework-cards">
           <div className="framework-card">
-            <span className="fw-icon">&#9733;</span>
+            <span className="fw-icon" style={{ color: "#f59e0b" }}>&#9733;</span>
             <span className="fw-name">Top 5 Strengths</span>
             <span className="fw-desc">20 strengths, 4 domains</span>
           </div>
           <div className="framework-card">
-            <span className="fw-icon">&#9632;</span>
+            <span className="fw-icon" style={{ color: "#6366f1" }}>&#9632;</span>
             <span className="fw-name">16 Personalities</span>
             <span className="fw-desc">Cognitive preferences</span>
           </div>
           <div className="framework-card">
-            <span className="fw-icon">&#9650;</span>
+            <span className="fw-icon" style={{ color: "#e53e3e" }}>&#9650;</span>
             <span className="fw-name">DISC Profile</span>
             <span className="fw-desc">Behavioral style</span>
           </div>
           <div className="framework-card">
-            <span className="fw-icon">&#9675;</span>
+            <span className="fw-icon" style={{ color: "#10b981" }}>&#9675;</span>
             <span className="fw-name">Enneagram</span>
             <span className="fw-desc">Core motivations</span>
           </div>
+        </div>
+
+        <div className="intro-domains">
+          <span className="domain-pill doing">DOING</span>
+          <span className="domain-pill thinking">THINKING</span>
+          <span className="domain-pill feeling">FEELING</span>
+          <span className="domain-pill motivating">MOTIVATING</span>
         </div>
       </div>
 
