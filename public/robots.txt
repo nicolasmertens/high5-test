@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Allow: /free-disc-test
+Allow: /free-enneagram-test
+Allow: /free-personality-test
+Allow: /free-strengths-test
+Allow: /blog/best-free-strengths-assessment
+Allow: /blog/disc-communication-styles
+Allow: /blog/enneagram-career-paths
+Allow: /blog/personality-test-for-career
+
+Sitemap: https://1test.me/sitemap.xml

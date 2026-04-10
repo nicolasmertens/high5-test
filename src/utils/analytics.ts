@@ -1,4 +1,4 @@
-type Framework = "disc" | "personality" | "enneagram" | "strengths";
+export type Framework = "disc" | "personality" | "enneagram" | "strengths";
 
 type UpgradeType = "full_profile" | "ai_playbook";
 
