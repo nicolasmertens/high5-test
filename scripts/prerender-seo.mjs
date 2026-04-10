@@ -152,6 +152,28 @@ const BLOG_FAQS = {
     { question: "Should I choose a career based on my personality type?", answer: "Your personality type should be one input among several — alongside your skills, experience, values, and practical circumstances. It helps you evaluate whether a career fits who you are, but it should not be the only factor. The best career decisions combine self-knowledge with real-world experience and opportunity." },
     { question: "How accurate are personality tests for career planning?", answer: "Personality tests based on validated preference frameworks produce consistent results that can inform career planning. The key is using them as a starting point for self-reflection, not as a definitive answer. 1Test's personality assessment is free and provides your complete type profile with career-relevant insights." },
   ],
+  "/blog/disc-vs-enneagram-vs-strengths": [
+    { question: "Which personality test is the most accurate?", answer: "No framework is universally most accurate — each measures something different. DISC measures behavioral style, Enneagram measures core motivation, Strengths measures natural talent, and 16 Personalities measures cognitive preference. Taking all four gives you the most complete picture." },
+    { question: "Can I take more than one personality test?", answer: "Yes, and it is recommended. Each framework adds a layer of understanding. With 1Test, you answer questions once and receive all four profiles, so there is no extra effort." },
+    { question: "Is a free personality test reliable?", answer: "1Test uses publicly validated research from the International Personality Item Pool (ipip.ori.org), the same academic source behind many paid assessments. Free does not mean low quality — it means accessible." },
+    { question: "How long does it take to get results for all four frameworks?", answer: "The 1Test assessment takes about 15 minutes. You answer roughly 120 questions and receive your DISC, Enneagram, Strengths, and 16 Personalities results immediately — no waiting, no paywall for the core profiles." },
+    { question: "What is the difference between DISC and Enneagram?", answer: "DISC maps how you behave — your communication style, pace, and priorities. Enneagram maps why you behave that way — your core fears, desires, and motivations. DISC is more situational, while Enneagram is more stable." },
+  ],
+  "/blog/which-personality-test-right-for-you": [
+    { question: "How long does a personality test take?", answer: "Most standalone personality tests take 10 to 20 minutes. With 1Test, you answer about 120 questions once (roughly 15 minutes) and receive results across all four frameworks. No retaking separate tests for each one." },
+    { question: "Which personality test is most accurate?", answer: "Accuracy depends on what you want to measure. There is no single most accurate test — each framework measures something different. DISC measures behavioral style, Enneagram measures core motivation, Strengths measures natural talent, and 16 Personalities measures cognitive preference. The most accurate picture comes from taking all four." },
+    { question: "Are free personality tests reliable?", answer: "Yes, when they are based on validated psychological research. 1Test uses the International Personality Item Pool (ipip.ori.org), a publicly available set of personality measures developed by academic researchers and used in peer-reviewed studies." },
+    { question: "Can I take multiple personality tests?", answer: "Yes, and it is recommended. Each framework adds a layer of understanding. With 1Test, you answer once and receive all four profiles — you do not need to take four separate tests." },
+    { question: "What is the difference between DISC and Enneagram?", answer: "DISC maps how you behave and communicate — your observable style. Enneagram maps why you behave that way — your core fears, desires, and motivations. DISC is more practical for workplace situations. Enneagram is more useful for deep self-reflection and personal growth." },
+    { question: "What is the difference between Strengths and 16 Personalities?", answer: "Strengths identifies your natural talents — what you are wired to do well. 16 Personalities describes your cognitive preferences — how you take in information and make decisions. Strengths is best for career direction and performance. 16 Personalities is best for understanding your overall personality pattern." },
+  ],
+  "/blog/understanding-16-personalities": [
+    { question: "What are the 16 personality types?", answer: "The 16 types are combinations of four dimensions: Introvert/Extrovert, Intuitive/Observant, Thinking/Feeling, and Judging/Prospecting. Each combination creates a distinct type with its own patterns, strengths, and growth areas." },
+    { question: "Is the 16 Personalities framework accurate?", answer: "The framework is based on validated personality research, including the Big Five model, which has decades of academic support. No personality assessment is 100% precise, but the 16 Personalities model provides a useful and accessible overview of your tendencies." },
+    { question: "How is 16 Personalities different from DISC?", answer: "16 Personalities measures your overall cognitive style — how you take in information, make decisions, and structure your life. DISC measures your behavioral style — how you tend to act, communicate, and respond in specific situations, especially at work. They measure different things and complement each other." },
+    { question: "Can my personality type change?", answer: "Your core preferences tend to stay stable, but your expression of them can evolve. Most people find they become more balanced over time, developing skills in their non-preferred dimensions without changing their fundamental type." },
+    { question: "How long does it take to find my type?", answer: "With 1Test, about 15 minutes. You answer roughly 120 questions and receive your 16 Personalities result along with your DISC, Enneagram, and Strengths results — all from a single assessment." },
+  ],
 };
 
 const SEO_DATA = {
@@ -216,6 +238,27 @@ const SEO_DATA = {
     description:
       "Learn how your personality type connects to career fit. Practical guidance for every type. Take the free personality test with career insights.",
     canonicalUrl: "https://1test.me/blog/personality-test-for-career",
+    ogType: "article",
+  },
+  "/blog/disc-vs-enneagram-vs-strengths": {
+    title: "DISC vs Enneagram vs Strengths — Which Free Test Is Right for You?",
+    description:
+      "Not sure which personality assessment to take? Compare DISC, Enneagram, Strengths, and 16 Personalities side by side. Take all four free at 1Test.",
+    canonicalUrl: "https://1test.me/blog/disc-vs-enneagram-vs-strengths",
+    ogType: "article",
+  },
+  "/blog/which-personality-test-right-for-you": {
+    title: "Which Personality Test Is Right for You? Free Guide | 1Test",
+    description:
+      "Not sure which personality test to take? This guide compares DISC, Enneagram, Strengths, and 16 Personalities so you can pick the right one — or take all four free at 1Test.",
+    canonicalUrl: "https://1test.me/blog/which-personality-test-right-for-you",
+    ogType: "article",
+  },
+  "/blog/understanding-16-personalities": {
+    title: "16 Personalities Explained — Complete Guide to the Framework | 1Test",
+    description:
+      "What are the 16 Personalities? Learn what each type means, how the framework works, and how it relates to DISC, Enneagram, and Strengths. Take all four free at 1Test.",
+    canonicalUrl: "https://1test.me/blog/understanding-16-personalities",
     ogType: "article",
   },
 };

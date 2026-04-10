@@ -15,6 +15,9 @@
     { "source": "/blog/disc-communication-styles", "destination": "/blog/disc-communication-styles/index.html" },
     { "source": "/blog/enneagram-career-paths", "destination": "/blog/enneagram-career-paths/index.html" },
     { "source": "/blog/personality-test-for-career", "destination": "/blog/personality-test-for-career/index.html" },
+    { "source": "/blog/disc-vs-enneagram-vs-strengths", "destination": "/blog/disc-vs-enneagram-vs-strengths/index.html" },
+    { "source": "/blog/which-personality-test-right-for-you", "destination": "/blog/which-personality-test-right-for-you/index.html" },
+    { "source": "/blog/understanding-16-personalities", "destination": "/blog/understanding-16-personalities/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

@@ -51,6 +51,18 @@ createRoot(document.getElementById("root")!).render(
               path="/blog/personality-test-for-career"
               element={<BlogPage slug="personality-test-for-career" />}
             />
+            <Route
+              path="/blog/disc-vs-enneagram-vs-strengths"
+              element={<BlogPage slug="disc-vs-enneagram-vs-strengths" />}
+            />
+            <Route
+              path="/blog/which-personality-test-right-for-you"
+              element={<BlogPage slug="which-personality-test-right-for-you" />}
+            />
+            <Route
+              path="/blog/understanding-16-personalities"
+              element={<BlogPage slug="understanding-16-personalities" />}
+            />
             <Route path="/privacy-draft" element={<PrivacyPolicy />} />
             <Route path="/terms-draft" element={<TermsOfService />} />
           </Routes>
