@@ -39,7 +39,7 @@ function loadGA4(): void {
 
   window.dataLayer = window.dataLayer || [];
   function gtag(...args: unknown[]) {
-    window.dataLayer!.push(args);
+    window.dataLayer!.push({ event: args[0], ...(typeof args[1] === "object" && args[1] !== null ? args[1] as Record<string, unknown> : {}) });
   }
   gtag("js", new Date());
   gtag("config", GA4_MEASUREMENT_ID, {
@@ -65,10 +65,10 @@ function pushToDataLayer(data: Record<string, unknown>): void {
   window.dataLayer.push(data);
 }
 
-function gtag(...args: unknown[]): void {
+function gtag(command: string, action: string, params?: Record<string, unknown>): void {
   if (typeof window === "undefined") return;
   window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push(args);
+  window.dataLayer.push({ event: command, _command: action, ...params });
 }
 
 export function initAnalytics(): void {
@@ -123,12 +123,22 @@ export function getUTMParams(): UTMParams {
   return { ...utmParams };
 }
 
+function getDeviceType(): "mobile" | "tablet" | "desktop" {
+  if (typeof window === "undefined") return "desktop";
+  const ua = navigator.userAgent;
+  if (/Mobi|Android.*Mobile|iPhone|iPod/i.test(ua)) return "mobile";
+  if (/Tablet|iPad|Android(?!.*Mobile)/i.test(ua)) return "tablet";
+  return "desktop";
+}
+
 export function trackPageView(pagePath: string, pageTitle: string): void {
+  const deviceType = getDeviceType();
   gtag("event", "page_view", {
     page_path: pagePath,
     page_title: pageTitle,
     page_location: window.location.href,
     referrer: document.referrer,
+    device_type: deviceType,
     ...utmParams,
   });
 
@@ -138,6 +148,7 @@ export function trackPageView(pagePath: string, pageTitle: string): void {
     page_title: pageTitle,
     page_location: window.location.href,
     referrer: document.referrer,
+    device_type: deviceType,
     ...utmParams,
   });
 }
@@ -207,6 +218,7 @@ export function trackResultsViewed(data: {
   disc_type?: string;
   enneagram_type?: string;
   top_strength?: string;
+  top_strengths?: string[];
 }): void {
   const event: Record<string, unknown> = {
     event: "results_viewed",
@@ -215,6 +227,7 @@ export function trackResultsViewed(data: {
     ...(data.disc_type ? { disc_type: data.disc_type } : {}),
     ...(data.enneagram_type ? { enneagram_type: data.enneagram_type } : {}),
     ...(data.top_strength ? { top_strength: data.top_strength } : {}),
+    ...(data.top_strengths ? { top_strengths: data.top_strengths } : {}),
   };
 
   gtag("event", "results_viewed", event);
@@ -231,6 +244,7 @@ export function trackUpgradeViewed(
     framework,
     source_section: sourceSection,
     upgrade_type: upgradeType,
+    ...utmParams,
   };
 
   gtag("event", "upgrade_viewed", event);
@@ -246,6 +260,7 @@ export function trackCheckoutStarted(
     framework,
     upgrade_type: upgradeType,
     price_variant: "12_one_time",
+    ...utmParams,
   };
 
   gtag("event", "begin_checkout", event);
@@ -258,6 +273,7 @@ export function trackPurchase(data: {
   revenueAmount?: number;
   currency?: string;
   transactionId?: string;
+  paymentMethod?: string;
 }): void {
   const event: Record<string, unknown> = {
     event: "purchase",
@@ -265,6 +281,7 @@ export function trackPurchase(data: {
     upgrade_type: data.upgradeType || "full_profile",
     revenue_amount: data.revenueAmount || 12,
     currency: data.currency || "USD",
+    payment_method: data.paymentMethod || "card",
     ...(data.transactionId ? { transaction_id: data.transactionId } : {}),
     ...utmParams,
   };

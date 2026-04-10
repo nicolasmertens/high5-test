@@ -9,7 +9,7 @@ import { ShareCard } from "./ShareCard";
 import { ShareButtons } from "./ShareButtons";
 import { useShareImage } from "../hooks/useShareImage";
 import { usePayment } from "../contexts/PaymentContext";
-import { trackUpgradeViewed } from "../utils/analytics";
+import { trackUpgradeViewed, trackResultsViewed } from "../utils/analytics";
 
 interface Props {
   results: StrengthScore[];
@@ -21,6 +21,7 @@ export function ResultsScreen({ results, onRestart }: Props) {
   const { isPaid } = usePayment();
   const { cardRef, downloadImage } = useShareImage();
   const upgradeViewedTracked = useRef(false);
+  const resultsViewedTracked = useRef(false);
   const top5 = results.slice(0, 5);
 
   useEffect(() => {
@@ -33,6 +34,20 @@ export function ResultsScreen({ results, onRestart }: Props) {
   const personality = useMemo(() => derivePersonalityType(results), [results]);
   const enneagram = useMemo(() => deriveEnneagram(results), [results]);
   const disc = useMemo(() => deriveDISC(results), [results]);
+
+  useEffect(() => {
+    if (!resultsViewedTracked.current && top5.length > 0) {
+      resultsViewedTracked.current = true;
+      trackResultsViewed({
+        framework: "strengths",
+        top_strength: top5[0]?.strength?.name,
+        top_strengths: top5.map((r) => r.strength.name),
+        personality_type: personality.type,
+        disc_type: disc.style,
+        enneagram_type: enneagram.wingLabel,
+      });
+    }
+  }, [top5, personality.type, disc.style, enneagram.wingLabel]);
 
   const shareUrl = useMemo(
     () =>

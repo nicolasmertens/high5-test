@@ -7,7 +7,6 @@ import { PaymentProvider, usePayment } from "./contexts/PaymentContext";
 import {
   trackTestStarted,
   trackTestCompleted,
-  trackResultsViewed,
 } from "./utils/analytics";
 import "./App.css";
 
@@ -31,7 +30,6 @@ function AppInner() {
 
   const { checkSession } = usePayment();
   const prevPhase = useRef(phase);
-  const resultsTracked = useRef(false);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -52,17 +50,6 @@ function AppInner() {
     }
     prevPhase.current = phase;
   }, [phase, totalQuestions]);
-
-  useEffect(() => {
-    if (phase === "results" && results.length > 0 && !resultsTracked.current) {
-      resultsTracked.current = true;
-      const top5 = results.slice(0, 5);
-      trackResultsViewed({
-        framework: "strengths",
-        top_strength: top5[0]?.strength?.name,
-      });
-    }
-  }, [phase, results]);
 
   const handleStart = () => {
     start();
@@ -101,7 +88,6 @@ function AppInner() {
         <ResultsScreen
           results={results}
           onRestart={() => {
-            resultsTracked.current = false;
             restart();
           }}
         />
