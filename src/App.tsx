@@ -4,6 +4,7 @@ import { IntroScreen } from "./components/IntroScreen";
 import { QuestionCard } from "./components/QuestionCard";
 import { ResultsScreen } from "./components/ResultsScreen";
 import { PaymentProvider, usePayment } from "./contexts/PaymentContext";
+import { SEOHead } from "./components/SEOHead";
 import {
   trackTestStarted,
   trackTestCompleted,
@@ -62,6 +63,11 @@ function AppInner() {
 
   return (
     <div className="app">
+      <SEOHead
+        title="1Test — One Test. Four Frameworks. Know Yourself."
+        description="Take one free 15-minute test and get your Strengths, 16 Personalities, DISC, and Enneagram results. No extra tests needed."
+        canonicalUrl="https://1test.me/"
+      />
       {phase === "intro" && (
         <IntroScreen
           onStart={handleStart}

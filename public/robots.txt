@@ -4,6 +4,7 @@ Allow: /free-disc-test
 Allow: /free-enneagram-test
 Allow: /free-personality-test
 Allow: /free-strengths-test
+Allow: /blog
 Allow: /blog/best-free-strengths-assessment
 Allow: /blog/disc-communication-styles
 Allow: /blog/enneagram-career-paths

@@ -6,6 +6,7 @@ import "./index.css";
 import App from "./App.tsx";
 import { LandingPage } from "./components/LandingPage.tsx";
 import { BlogPage } from "./components/BlogPage.tsx";
+import { BlogIndex } from "./components/BlogIndex.tsx";
 import { PrivacyPolicy } from "./components/PrivacyPolicy.tsx";
 import { TermsOfService } from "./components/TermsOfService.tsx";
 import { AnalyticsProvider } from "./components/AnalyticsProvider.tsx";
@@ -33,6 +34,7 @@ createRoot(document.getElementById("root")!).render(
               path="/free-strengths-test"
               element={<LandingPage framework="strengths" />}
             />
+            <Route path="/blog" element={<BlogIndex />} />
             <Route
               path="/blog/best-free-strengths-assessment"
               element={<BlogPage slug="best-free-strengths-assessment" />}

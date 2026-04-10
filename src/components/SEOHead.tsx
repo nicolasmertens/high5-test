@@ -1,5 +1,7 @@
 import { Helmet } from "react-helmet-async";
 
+const OG_IMAGE = "https://1test.me/og-image.svg";
+
 interface SEOHeadProps {
   title: string;
   description: string;
@@ -77,6 +79,11 @@ export function SEOHead({
       <meta property="og:description" content={description} />
       <meta property="og:type" content={ogType} />
       <meta property="og:url" content={canonicalUrl} />
+      <meta property="og:image" content={OG_IMAGE} />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={OG_IMAGE} />
       {allJsonLd.map((schema, i) => (
         <script key={i} type="application/ld+json">
           {JSON.stringify(schema)}

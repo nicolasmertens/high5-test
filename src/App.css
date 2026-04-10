@@ -2604,3 +2604,76 @@
     align-items: flex-start;
   }
 }
+
+.blog-index {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.blog-index-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.blog-index-header h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 12px;
+  color: #111;
+}
+
+.blog-index-header p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.blog-index-grid {
+  display: grid;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.blog-index-card {
+  display: block;
+  padding: 24px;
+  background: #fafafa;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.blog-index-card:hover {
+  border-color: #7c3aed;
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.1);
+}
+
+.blog-index-card h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #111;
+}
+
+.blog-index-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .blog-index {
+    padding: 24px 16px;
+  }
+
+  .blog-index-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .blog-index-card {
+    padding: 16px;
+  }
+}

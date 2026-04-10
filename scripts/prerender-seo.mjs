@@ -3,6 +3,7 @@ import { join } from "path";
 
 const PUBLISHER = { "@type": "Organization", name: "1Test", url: "https://1test.me" };
 const DATE_PUBLISHED = "2026-04-10";
+const OG_IMAGE = "https://1test.me/og-image.svg";
 
 function buildWebPage(title, description, url) {
   return {
@@ -24,6 +25,8 @@ function buildBreadcrumb(title, url) {
   if (url.includes("/blog/")) {
     items.push({ "@type": "ListItem", position: 2, name: "Blog", item: "https://1test.me/blog" });
     items.push({ "@type": "ListItem", position: 3, name: title, item: url });
+  } else if (url.includes("/blog")) {
+    items.push({ "@type": "ListItem", position: 2, name: "Blog", item: "https://1test.me/blog" });
   } else {
     items.push({ "@type": "ListItem", position: 2, name: title, item: url });
   }
@@ -52,7 +55,32 @@ function buildArticle(headline, description, url) {
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_PUBLISHED,
     author: PUBLISHER,
-    publisher: PUBLISHER,
+    publisher: { ...PUBLISHER, logo: { "@type": "ImageObject", url: OG_IMAGE } },
+  };
+}
+
+function buildOrganization() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "1Test",
+    url: "https://1test.me",
+    logo: OG_IMAGE,
+    sameAs: [],
+  };
+}
+
+function buildWebSite() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "1Test",
+    url: "https://1test.me",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: "https://1test.me/?q={search_term_string}",
+      "query-input": "required name=search_term_string",
+    },
   };
 }
 
@@ -155,6 +183,13 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/free-personality-test",
     ogType: "website",
   },
+  "/blog": {
+    title: "Blog — 1Test",
+    description:
+      "Personality insights, framework guides, and practical self-development advice. Learn about Strengths, DISC, Enneagram, and 16 Personalities.",
+    canonicalUrl: "https://1test.me/blog",
+    ogType: "website",
+  },
   "/blog/best-free-strengths-assessment": {
     title: "Best Free Strengths Assessment in 2026 — Complete Comparison",
     description:
@@ -185,7 +220,78 @@ const SEO_DATA = {
   },
 };
 
-const DIST_DIR = join(process.cwd(), "dist");
+const BODY_CONTENT = {
+  "/free-strengths-test": {
+    h1: "Free Strengths Test — Discover What You Do Best",
+    sections: [
+      { heading: "Discover Your Natural Strengths", text: "Your strengths are the things you do well without trying — the patterns of thinking, feeling, and behaving that come naturally to you. When you understand your strengths, you can choose work that energizes you, build better relationships, and grow faster in the areas where you already excel. The 1Test Strengths assessment identifies your top strengths across five domains and gives you practical suggestions for using each one at work, in relationships, and for personal growth." },
+      { heading: "How the Strengths Assessment Works", text: "1Test measures your strengths using 120 questions grounded in validated personality research from the International Personality Item Pool (IPIP). You rate how well each statement describes you, and the assessment maps your responses to 20 distinct strengths organized into five domains. Your full results include your top strengths, descriptions of each one, and growth suggestions — all free, no paywall." },
+      { heading: "Strengths at Work", text: "People who understand and use their strengths at work report higher satisfaction and performance. When you know what you naturally do well, you can volunteer for projects that fit your strengths, communicate more effectively with teammates who have different strengths, and make career decisions that align with what energizes you. Your Strengths profile gives you a vocabulary for explaining what you do best." },
+    ],
+  },
+  "/free-disc-test": {
+    h1: "Free DISC Test — Understand Your Communication Style",
+    sections: [
+      { heading: "What Is DISC?", text: "DISC is a behavioral assessment framework that describes how you tend to act and communicate across four dimensions: Dominance (direct, results-oriented), Influence (outgoing, enthusiastic), Steadiness (patient, reliable), and Conscientiousness (analytical, detail-oriented). Most people are a blend of two or more dimensions, with one style being most dominant." },
+      { heading: "Take the Free DISC Assessment", text: "The 1Test DISC assessment takes 5-8 minutes and gives you your complete profile at no cost. You see your scores across all four dimensions, your primary style, and practical tips for working with people who have different styles. No paywall, no hidden fees." },
+      { heading: "Using DISC for Better Communication", text: "Understanding your DISC style helps you adapt your communication to different audiences. High D types value brevity and results. High I types prefer enthusiasm and stories. High S types appreciate patience and consistency. High C types want data and accuracy. When you know your own style and recognize others, communication becomes smoother and conflicts decrease." },
+    ],
+  },
+  "/free-enneagram-test": {
+    h1: "Free Enneagram Test — Discover Your Type and Growth Path",
+    sections: [
+      { heading: "What Is the Enneagram?", text: "The Enneagram describes nine personality types, each driven by a core motivation. Unlike behavioral frameworks that describe what you do, the Enneagram describes why you do it. Understanding your type gives you insight into your deepest patterns, your growth direction, and the stress responses that hold you back." },
+      { heading: "Take the Free Enneagram Test", text: "1Test offers a complete, free Enneagram assessment with your type, wing tendencies, and growth paths — all at no cost. It takes about 8-12 minutes, and you receive your full profile including integration and disintegration directions, practical growth suggestions, and no paywall." },
+      { heading: "Your Enneagram Type and Growth", text: "Each Enneagram type has a growth direction (integration) and a stress direction (disintegration). Knowing these helps you recognize when you are thriving versus when you are under pressure. Your type also reveals your core motivation — the underlying driver behind your patterns of thinking, feeling, and behaving." },
+    ],
+  },
+  "/free-personality-test": {
+    h1: "Free Personality Test — Which of the 16 Types Are You?",
+    sections: [
+      { heading: "What Is the 16 Personalities Framework?", text: "The 16 Personalities framework maps your preferences across four dimensions: Energy (Extraversion/Introversion), Information (Sensing/Intuition), Decisions (Thinking/Feeling), and Structure (Judging/Perceiving). These four preferences combine into one of 16 unique types, each with distinct patterns for processing information, making decisions, and interacting with the world." },
+      { heading: "Take the Free Personality Test", text: "1Test offers a complete, free personality assessment that reveals your type, your preference dimensions, and practical insights about work, relationships, and personal growth. It takes about 10-15 minutes, and you receive your full profile with no paywall." },
+      { heading: "Using Your Results", text: "Your personality type is a starting point, not a box. It tells you about your natural preferences — how you recharge, process information, make decisions, and organize your life. The most useful thing you can do with your results is reflect on where they show up in your daily life and use that awareness to make better decisions about work, relationships, and personal growth." },
+    ],
+  },
+  "/blog/best-free-strengths-assessment": {
+    h1: "Best Free Strengths Assessment in 2026 — Complete Comparison",
+    sections: [
+      { heading: "What a Strengths Assessment Measures", text: "A strengths assessment identifies your natural patterns of thinking, feeling, and behaving — the things you do well without trying. Unlike a personality test, which describes how you process information and make decisions, a strengths assessment focuses specifically on what you are naturally good at. Strengths are not skills. Skills are learned through practice. Strengths are tendencies that come naturally." },
+      { heading: "The Top Free Strengths Assessments Compared", text: "1Test and VIA give you complete results without a paywall. HIGH5 and Truity both offer free entry-level results but charge for full profiles. 1Test provides practical, career-oriented growth suggestions alongside your results and offers three other personality frameworks for context." },
+      { heading: "How to Use Your Strengths Results", text: "Match your top strengths to roles that need them. Share your strengths with colleagues to improve team collaboration. Use your strengths to build on what works rather than fixing what does not. Combine your Strengths profile with your Enneagram type for a richer picture of what you do well and why you are motivated to do it." },
+    ],
+  },
+  "/blog/disc-communication-styles": {
+    h1: "DISC Communication Styles — Work Better With Every Type",
+    sections: [
+      { heading: "Understanding the Four DISC Styles", text: "The four DISC styles describe how people tend to communicate and behave: D (Dominance) — direct, results-focused, fast-paced. I (Influence) — outgoing, enthusiastic, relationship-oriented. S (Steadiness) — patient, reliable, supportive. C (Conscientiousness) — analytical, detail-oriented, thorough. Most people are a blend of two styles." },
+      { heading: "Communicating With Each Style", text: "High D types want brevity, bottom lines, and options. High I types respond to enthusiasm, stories, and personal connection. High S types value patience, consistency, and reassurance. High C types prefer data, accuracy, and logical structure. Adapting your communication style to your audience is the most effective way to reduce misunderstandings and build trust." },
+      { heading: "Using DISC for Team Building", text: "DISC is widely used for team building because it gives teams a shared language for communication differences. When team members understand each other's styles, they can adapt their communication, reduce misunderstandings, and assign tasks based on natural strengths." },
+    ],
+  },
+  "/blog/enneagram-career-paths": {
+    h1: "Enneagram Career Paths — What Your Type Means for Your Work",
+    sections: [
+      { heading: "How Your Enneagram Type Affects Career Fit", text: "Your Enneagram type reveals your core motivation — the underlying driver behind your patterns of thinking, feeling, and behaving. Understanding this motivation helps you identify work environments that energize you and those that drain you. No type is better for leadership or any career — each type brings distinct strengths." },
+      { heading: "Career Paths by Enneagram Type", text: "Type 1 Reformers thrive in roles requiring precision, ethics, and improvement. Type 2 Helpers excel in coaching, healthcare, and client service. Type 3 Achievers do well in competitive, goal-oriented environments. Type 4 Individualists flourish in creative and design-focused roles. Type 5 Investigators thrive in research, analysis, and specialized technical work." },
+      { heading: "Using Enneagram Insights for Career Decisions", text: "Your Enneagram type should influence your career direction, not determine it. Combine it with your Strengths profile and DISC style for a richer picture of what you are wired to do well and what motivates you." },
+    ],
+  },
+  "/blog/personality-test-for-career": {
+    h1: "Personality Test for Career — Find Work That Fits You",
+    sections: [
+      { heading: "How Personality Connects to Career Fit", text: "Your personality type describes your natural preferences — how you recharge, process information, make decisions, and structure your time. These preferences affect which work environments energize you and which drain you. Understanding your type helps you evaluate career fit, not prescribe a specific job title." },
+      { heading: "Career Paths by Personality Type", text: "Thinking-Judging types tend to thrive in structured, analytical roles. Feeling-Extraverted types often excel in roles requiring interpersonal connection and communication. Introverted-Intuitive types tend to do well in strategic, research, or creative work. Your type gives you a framework for understanding why certain roles feel natural and others feel draining." },
+      { heading: "Taking Action on Your Results", text: "Start by understanding your preferences. Then look for roles and organizations where those preferences are assets, not obstacles. Connect your personality results with your Strengths profile for a clearer picture of what you are wired to do well. The best career decisions combine self-knowledge with real-world experience and opportunity." },
+    ],
+  },
+  "/blog": {
+    h1: "1Test Blog",
+    sections: [
+      { heading: "Personality Insights and Framework Guides", text: "Practical advice for understanding yourself better. Read about Strengths, DISC, Enneagram, and 16 Personalities — and how each framework helps you make better decisions about work, relationships, and personal growth." },
+    ],
+  },
+};
 
 function buildJsonLd(route, meta) {
   const schemas = [];
@@ -205,8 +311,44 @@ function buildJsonLd(route, meta) {
   return schemas;
 }
 
+function escapeHtml(str) {
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function buildBodyContent(route) {
+  const content = BODY_CONTENT[route];
+  if (!content) return "";
+
+  let html = '<noscript><article class="seo-content">';
+  html += `<h1>${escapeHtml(content.h1)}</h1>`;
+  for (const section of content.sections) {
+    html += `<section><h2>${escapeHtml(section.heading)}</h2><p>${escapeHtml(section.text)}</p></section>`;
+  }
+  const faqs = LANDING_FAQS[route] || BLOG_FAQS[route];
+  if (faqs) {
+    html += "<section><h2>Frequently Asked Questions</h2>";
+    for (const faq of faqs) {
+      html += `<details><summary>${escapeHtml(faq.question)}</summary><p>${escapeHtml(faq.answer)}</p></details>`;
+    }
+    html += "</section>";
+  }
+  html += "</article></noscript>";
+  return html;
+}
+
+function replaceMeta(html, pattern, replacement) {
+  if (html.includes(pattern.replace(/\s*\//, "").split("=")[0])) {
+    return html.replace(pattern, replacement);
+  }
+  return html.replace("</head>", `  ${replacement}\n</head>`);
+}
+
 function prerender() {
-  const indexPath = join(DIST_DIR, "index.html");
+  const indexPath = join(process.cwd(), "dist", "index.html");
   let indexHtml;
 
   try {
@@ -216,7 +358,9 @@ function prerender() {
     process.exit(1);
   }
 
-  for (const [route, meta] of Object.entries(SEO_DATA)) {
+  const allRoutes = { ...SEO_DATA };
+
+  for (const [route, meta] of Object.entries(allRoutes)) {
     let html = indexHtml;
 
     html = html.replace(
@@ -268,6 +412,66 @@ function prerender() {
       );
     }
 
+    if (!html.includes(`property="og:image"`)) {
+      html = html.replace(
+        "</head>",
+        `  <meta property="og:image" content="${OG_IMAGE}" />\n</head>`
+      );
+    } else {
+      html = html.replace(
+        /<meta\s+property="og:image"\s+content="[^"]*"\s*\/?>/i,
+        `<meta property="og:image" content="${OG_IMAGE}" />`
+      );
+    }
+
+    if (!html.includes(`name="twitter:card"`)) {
+      html = html.replace(
+        "</head>",
+        `  <meta name="twitter:card" content="summary_large_image" />\n</head>`
+      );
+    } else {
+      html = html.replace(
+        /<meta\s+name="twitter:card"\s+content="[^"]*"\s*\/?>/i,
+        `<meta name="twitter:card" content="summary_large_image" />`
+      );
+    }
+
+    if (!html.includes(`name="twitter:title"`)) {
+      html = html.replace(
+        "</head>",
+        `  <meta name="twitter:title" content="${meta.title}" />\n</head>`
+      );
+    } else {
+      html = html.replace(
+        /<meta\s+name="twitter:title"\s+content="[^"]*"\s*\/?>/i,
+        `<meta name="twitter:title" content="${meta.title}" />`
+      );
+    }
+
+    if (!html.includes(`name="twitter:description"`)) {
+      html = html.replace(
+        "</head>",
+        `  <meta name="twitter:description" content="${meta.description}" />\n</head>`
+      );
+    } else {
+      html = html.replace(
+        /<meta\s+name="twitter:description"\s+content="[^"]*"\s*\/?>/i,
+        `<meta name="twitter:description" content="${meta.description}" />`
+      );
+    }
+
+    if (!html.includes(`name="twitter:image"`)) {
+      html = html.replace(
+        "</head>",
+        `  <meta name="twitter:image" content="${OG_IMAGE}" />\n</head>`
+      );
+    } else {
+      html = html.replace(
+        /<meta\s+name="twitter:image"\s+content="[^"]*"\s*\/?>/i,
+        `<meta name="twitter:image" content="${OG_IMAGE}" />`
+      );
+    }
+
     const jsonLdSchemas = buildJsonLd(route, meta);
     const jsonLdScripts = jsonLdSchemas
       .map((schema) => `<script type="application/ld+json">${JSON.stringify(schema)}</script>`)
@@ -277,13 +481,62 @@ function prerender() {
       `${jsonLdScripts}\n</head>`
     );
 
-    const dir = join(DIST_DIR, route);
+    const bodyContent = buildBodyContent(route);
+    if (bodyContent) {
+      html = html.replace(
+        '<div id="root"></div>',
+        `${bodyContent}\n    <div id="root"></div>`
+      );
+    }
+
+    const dir = join(process.cwd(), "dist", route);
     mkdirSync(dir, { recursive: true });
     writeFileSync(join(dir, "index.html"), html);
-    console.log(`  Prerendered: ${route} (${jsonLdSchemas.length} JSON-LD schemas)`);
+    console.log(`  Prerendered: ${route} (${jsonLdSchemas.length} JSON-LD schemas, ${bodyContent ? "with" : "without"} noscript content)`);
   }
 
-  console.log(`Prerendered ${Object.keys(SEO_DATA).length} SEO routes.`);
+  // Home page: add Organization + WebSite JSON-LD and update meta tags in the root index.html
+  const homeTitle = "1Test — One Test. Four Frameworks. Know Yourself.";
+  const homeDesc = "Take one free 15-minute test and get your Strengths, 16 Personalities, DISC, and Enneagram results. No extra tests needed.";
+  const homeUrl = "https://1test.me/";
+
+  let homeHtml = indexHtml;
+
+  homeHtml = homeHtml.replace(
+    /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/i,
+    `<link rel="canonical" href="${homeUrl}" />`
+  );
+
+  homeHtml = homeHtml.replace(
+    /<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/i,
+    `<meta property="og:url" content="${homeUrl}" />`
+  );
+
+  const homeSchemas = [
+    buildOrganization(),
+    buildWebSite(),
+    buildWebPage(homeTitle, homeDesc, homeUrl),
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: homeUrl },
+      ],
+    },
+  ];
+
+  const homeJsonLdScripts = homeSchemas
+    .map((schema) => `<script type="application/ld+json">${JSON.stringify(schema)}</script>`)
+    .join("\n");
+  homeHtml = homeHtml.replace(
+    "</head>",
+    `${homeJsonLdScripts}\n</head>`
+  );
+
+  writeFileSync(join(process.cwd(), "dist", "index.html"), homeHtml);
+  console.log(`  Prerendered: / (${homeSchemas.length} JSON-LD schemas, Organization + WebSite + WebPage + BreadcrumbList)`);
+
+  console.log(`Prerendered ${Object.keys(allRoutes).length + 1} routes total.`);
 }
 
 prerender();
