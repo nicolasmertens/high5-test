@@ -1,9 +1,27 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import Stripe from "stripe";
+import { getSubscriberByEmail, suppressSubscriber } from "./lib/subscribers";
+import { postHogTrack } from "./lib/send";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: "2026-03-25.dahlia",
 });
+
+async function suppressWelcomeEmails(email: string) {
+  try {
+    const subscriber = await getSubscriberByEmail(email);
+    if (subscriber && !subscriber.suppressed) {
+      await suppressSubscriber(subscriber.id);
+      await postHogTrack("welcome_sequence_suppressed", {
+        distinct_id: email,
+        reason: "purchase",
+      });
+      console.log(`Suppressed welcome emails for ${email}`);
+    }
+  } catch (err) {
+    console.error("Failed to suppress welcome emails:", err);
+  }
+}
 
 async function sendGA4PurchaseEvent(session: Stripe.Checkout.Session) {
   const measurementId = process.env.VITE_GA4_MEASUREMENT_ID;
@@ -80,6 +98,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       });
 
       await sendGA4PurchaseEvent(session);
+
+      const email = session.customer_details?.email;
+      if (email) {
+        await suppressWelcomeEmails(email);
+      }
     }
 
     return res.status(200).json({ received: true });

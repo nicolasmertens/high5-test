@@ -7,6 +7,7 @@ import { ActionBranches } from "./ActionBranches";
 import { UpgradePrompt } from "./UpgradePrompt";
 import { ShareCard } from "./ShareCard";
 import { ShareButtons } from "./ShareButtons";
+import { EmailCapture } from "./EmailCapture";
 import { useShareImage } from "../hooks/useShareImage";
 import { usePayment } from "../contexts/PaymentContext";
 import { trackUpgradeViewed, trackResultsViewed } from "../utils/analytics";
@@ -297,6 +298,15 @@ export function ResultsScreen({ results, onRestart }: Props) {
               </button>
             </div>
           </div>
+
+          <EmailCapture
+            frameworkName="Strengths"
+            frameworkType={top5[0]?.strength?.name || "Achiever"}
+            oneSentenceTraitSummary={
+              top5[0]?.strength?.description ||
+              "You have unique strengths that set you apart"
+            }
+          />
 
           <UpgradePrompt variant="teaser" />
         </>

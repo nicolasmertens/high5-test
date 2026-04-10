@@ -1,4 +1,10 @@
 {
+  "crons": [
+    {
+      "path": "/api/welcome-cron",
+      "schedule": "0 * * * *"
+    }
+  ],
   "rewrites": [
     { "source": "/free-strengths-test", "destination": "/free-strengths-test/index.html" },
     { "source": "/free-disc-test", "destination": "/free-disc-test/index.html" },
