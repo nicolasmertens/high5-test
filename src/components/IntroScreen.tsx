@@ -98,7 +98,8 @@ export function IntroScreen({ onStart, onResume, hasSavedProgress }: Props) {
         <a href="https://ipip.ori.org/" target="_blank" rel="noopener">
           International Personality Item Pool
         </a>
-        . Not affiliated with Myers-Briggs, Gallup, or any trademark holder.
+        . Not affiliated with any trademark holder.{" "}
+        <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a>
       </p>
     </div>
   );

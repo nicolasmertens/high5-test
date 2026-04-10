@@ -1,10 +1,12 @@
+import { useEffect } from "react";
 import { useAssessment } from "./hooks/useAssessment";
 import { IntroScreen } from "./components/IntroScreen";
 import { QuestionCard } from "./components/QuestionCard";
 import { ResultsScreen } from "./components/ResultsScreen";
+import { PaymentProvider, usePayment } from "./contexts/PaymentContext";
 import "./App.css";
 
-function App() {
+function AppInner() {
   const {
     phase,
     currentIndex,
@@ -21,6 +23,18 @@ function App() {
     resume,
     restart,
   } = useAssessment();
+
+  const { checkSession } = usePayment();
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const sessionId = params.get("session_id");
+    if (sessionId) {
+      checkSession(sessionId).then(() => {
+        window.history.replaceState({}, "", window.location.pathname);
+      });
+    }
+  }, [checkSession]);
 
   return (
     <div className="app">
@@ -50,6 +64,14 @@ function App() {
         <ResultsScreen results={results} onRestart={restart} />
       )}
     </div>
+  );
+}
+
+function App() {
+  return (
+    <PaymentProvider>
+      <AppInner />
+    </PaymentProvider>
   );
 }
 

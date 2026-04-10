@@ -176,13 +176,14 @@ export function LandingPage({ framework }: Props) {
         </button>
       </div>
 
-      <p className="intro-credit">
+<p className="intro-credit">
         Based on public domain research from the{" "}
         <a href="https://ipip.ori.org/" target="_blank" rel="noopener">
           International Personality Item Pool
         </a>
-        . Not affiliated with Myers-Briggs, Gallup, Wiley, or any trademark
-        holder.
+        . Not affiliated with any trademark
+  holder.{" "}
+        <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a>
       </p>
     </div>
   );

@@ -44,7 +44,7 @@ export const frameworkContent: Record<string, FrameworkContent> = {
       "Understand your behavioral style — how you handle problems, influence others, respond to pace, and approach rules. Plus get three more frameworks free.",
     what: "DISC is a behavioral assessment that categorizes people along four dimensions of observable behavior. Unlike personality type indicators that measure how you think, DISC measures how you act — especially in workplace and social situations. It's one of the most widely used assessments in corporate settings, with an estimated 50 million people having taken some form of DISC assessment worldwide. The four dimensions are not boxes — everyone has all four to varying degrees. Your DISC profile shows the relative strength of each dimension, creating a unique behavioral fingerprint that explains how you naturally communicate, make decisions, and interact with others.",
     history:
-      "DISC theory was created by psychologist William Moulton Marston in his 1928 book 'Emotions of Normal People.' Marston — who also invented the lie detector and created Wonder Woman — observed that people express emotions through four behavioral types. The theory was later adapted into assessment instruments by industrial psychologist Walter Clarke in the 1950s. Today, dozens of companies offer DISC assessments (Everything DiSC by Wiley, Crystal, Tony Robbins DISC, Thomas International), but the underlying model is in the public domain and freely available for anyone to use.",
+      "DISC theory was created by psychologist William Moulton Marston in his 1928 book 'Emotions of Normal People.' Marston — who also invented the lie detector and created Wonder Woman — observed that people express emotions through four behavioral types. The theory was later adapted into assessment instruments by industrial psychologist Walter Clarke in the 1950s. Today, dozens of companies offer DISC assessments (Crystal, Tony Robbins DISC, Thomas International, and others), but the underlying model is in the public domain and freely available for anyone to use.",
     dimensionsTitle: "The 4 DISC Dimensions",
     dimensions: [
       {
@@ -84,31 +84,31 @@ export const frameworkContent: Record<string, FrameworkContent> = {
     ],
     whyOurs: [
       "Four frameworks from one test — most DISC assessments only give you DISC",
-      "Completely free with instant results — no account, no email gate, no paywall for basic results",
+      "Free basic results (your Top 5 strengths and type teasers) with the option to unlock everything",
       "Based on the International Personality Item Pool (IPIP), a public domain research instrument used in thousands of academic studies",
       "Takes ~15 minutes instead of 45+ minutes for separate assessments",
       "See your full score on all four dimensions, not just your dominant type",
       "Privacy-first: your answers are processed entirely in your browser. We don't store your responses on any server.",
     ],
-    comparison: [
-      { aspect: "Price", others: "Everything DiSC: $72+. Crystal: $49/mo. Tony Robbins DISC: $40", ours: "Free" },
+comparison: [
+      { aspect: "Price", others: "Other DISC tools: $50–$100+", ours: "Free basic, unlock full profile" },
       { aspect: "Frameworks included", others: "DISC only", ours: "DISC + 16 Personalities + Enneagram + Strengths" },
       { aspect: "Questions", others: "28-80 questions, DISC only", ours: "120 questions, four frameworks" },
       { aspect: "Time", others: "15 min for DISC alone", ours: "15 min for all four" },
-      { aspect: "Account required", others: "Yes (email + payment)", ours: "No" },
-      { aspect: "Results", others: "Behind paywall or email gate", ours: "Instant, in your browser" },
+      { aspect: "Account required", others: "Yes (email + payment)", ours: "No account for free results" },
+      { aspect: "Results", others: "Behind paywall or email gate", ours: "Free basic results, optional full unlock" },
     ],
     faqs: [
       { q: "Is this a real DISC assessment?", a: "Yes — we measure the same four behavioral dimensions (Dominance, Influence, Steadiness, Conscientiousness) that all DISC assessments measure. The difference is our methodology: we derive your DISC profile from a broader 120-question assessment that also captures your personality type, Enneagram, and strengths. The underlying DISC model is public domain (created by William Marston in 1928) and is not owned by any single company." },
-      { q: "How accurate is a derived DISC profile vs. a dedicated DISC test?", a: "For most people, the results are very similar. Our assessment measures 20 underlying strengths that map directly to DISC dimensions (e.g., Commander → Dominance, Storyteller → Influence). The advantage is you get three additional frameworks for free. If you need a DISC assessment specifically for a corporate training program that requires a certified provider, you may need a dedicated tool like Everything DiSC." },
+      { q: "How accurate is a derived DISC profile vs. a dedicated DISC test?", a: "For most people, the results are very similar. Our assessment measures 20 underlying strengths that map directly to DISC dimensions (e.g., Commander → Dominance, Storyteller → Influence). The advantage is you get three additional frameworks for free. If you need a DISC assessment specifically for a corporate training program that requires a certified provider, you may need a dedicated commercial DISC assessment." },
       { q: "Is DISC scientifically validated?", a: "The DISC model has been widely used since the 1950s and has extensive practical validation in workplace settings. However, like many personality assessments, it has limited peer-reviewed academic validation compared to instruments like the Big Five. It's best used as a self-awareness and communication tool, not as a diagnostic instrument." },
       { q: "Can my DISC type change?", a: "Your natural DISC style tends to be relatively stable, but it can shift in different contexts (work vs. home) and over time as you develop. Major life changes, new roles, or deliberate personal development can all influence your behavioral style." },
-      { q: "What's the difference between DISC and MBTI/16 Personalities?", a: "DISC measures observable behavior (how you act), while 16 Personalities measures cognitive preferences (how you think). You might be a high-I in DISC (outgoing, enthusiastic) and an INTP in 16 Personalities (introverted thinker). They're complementary, not contradictory — which is exactly why our test gives you both." },
-      { q: "Do you store my data?", a: "No. Your assessment is processed entirely in your browser using JavaScript. Your answers never leave your device. We don't have a backend database of user responses. Your progress is saved in your browser's localStorage so you can resume if you close the tab." },
+      { q: "What's the difference between DISC and 16 Personalities?", a: "DISC measures observable behavior (how you act), while 16 Personalities measures cognitive preferences (how you think). You might be a high-I in DISC (outgoing, enthusiastic) and an INTP in 16 Personalities (introverted thinker). They're complementary, not contradictory — which is exactly why our test gives you both." },
+      { q: "Do you store my data?", a: "No. Your assessment is processed entirely in your browser using JavaScript. Your answers never leave your device. Progress is saved in your browser's localStorage so you can resume if you close the tab." },
     ],
     metaTitle: "Free DISC Personality Test | 1Test.me",
     metaDesc:
-      "Free DISC personality assessment — plus get your 16 Personalities, Enneagram, and Top 5 Strengths from one 15-minute test. No signup. No paywall. Instant results.",
+      "Free DISC personality assessment — plus get your 16 Personalities, Enneagram, and Top 5 Strengths. Free basic results, optional full unlock.",
   },
 
   enneagram: {
@@ -155,9 +155,9 @@ export const frameworkContent: Record<string, FrameworkContent> = {
     ],
     whyOurs: [
       "Most Enneagram tests are 144+ questions for just one framework — ours gives you four frameworks from 120 questions",
+      "Free basic results (your Top 5 strengths and type teasers) with the option to unlock everything",
       "See your full 9-type spectrum with scores, not just your top type",
       "Wing and tritype included — many free tests skip these",
-      "Completely free, no email required, instant results in your browser",
       "Cross-reference your Enneagram with your DISC, 16 Personalities, and Strengths for deeper insight",
       "Privacy-first: answers processed in your browser, never sent to a server",
     ],
@@ -179,7 +179,7 @@ export const frameworkContent: Record<string, FrameworkContent> = {
     ],
     metaTitle: "Free Enneagram Test with Wing & Tritype | 1Test.me",
     metaDesc:
-      "Free Enneagram personality test — see all 9 types scored, plus your wing and tritype. Also get DISC, 16 Personalities, and Strengths from one 15-minute test.",
+      "Free Enneagram personality test — see your type scored, plus your wing and tritype. Free basic results, optional full unlock. Also get DISC, 16 Personalities, and Strengths.",
   },
 
   personality: {
@@ -190,9 +190,9 @@ export const frameworkContent: Record<string, FrameworkContent> = {
     icon: "■",
     heroSubtitle:
       "Discover your cognitive preferences — how you get energy, process information, make decisions, and structure your life. Plus get three more frameworks free.",
-    what: "The 16 Personalities framework (based on Carl Jung's theory of cognitive functions, later developed by Isabel Briggs Myers and Katharine Cook Briggs) categorizes people along four dimensions, producing 16 distinct personality types. Each type is represented by a four-letter code like ENTP, ISFJ, or INTJ. This is the world's most popular personality framework — over 100 million people have taken some version of it. The framework measures cognitive preferences, not abilities. Being an 'Introvert' doesn't mean you can't give a great presentation — it means you recharge through alone time rather than social interaction. Being a 'Thinker' doesn't mean you don't have feelings — it means you naturally lead with logic when making decisions.",
+    what: "The 16 Personalities framework (based on Carl Jung's theory of cognitive functions, later developed into practical assessments by Katharine Cook Briggs and Isabel Briggs Myers) categorizes people along four dimensions, producing 16 distinct personality types. Each type is represented by a four-letter code like ENTP, ISFJ, or INTJ. This is the world's most popular personality framework — over 100 million people have taken some version of it. The framework measures cognitive preferences, not abilities. Being an 'Introvert' doesn't mean you can't give a great presentation — it means you recharge through alone time rather than social interaction. Being a 'Thinker' doesn't mean you don't have feelings — it means you naturally lead with logic when making decisions.",
     history:
-      "Carl Jung published 'Psychological Types' in 1921, proposing that people have innate preferences for how they perceive the world and make decisions. In the 1940s, Katharine Cook Briggs and her daughter Isabel Briggs Myers developed a questionnaire (the MBTI) to make Jung's theory accessible. The instrument became commercially available in 1962 and has been administered to hundreds of millions of people. Today, 'MBTI' and 'Myers-Briggs' are trademarks of The Myers-Briggs Company, but Jung's underlying theory — the four dimensions, the 16 types, the cognitive functions — is not copyrighted and is freely used by platforms like 16Personalities.com, Truity, and our assessment.",
+      "Carl Jung published 'Psychological Types' in 1921, proposing that people have innate preferences for how they perceive the world and make decisions. In the 1940s, Katharine Cook Briggs and her daughter Isabel Briggs Myers developed a questionnaire to make Jung's theory accessible. Their assessment instrument became commercially available in 1962 and has been administered to hundreds of millions of people. Today, the 16 Personalities framework based on their work is widely available through platforms like 16Personalities.com, Truity, and our assessment. The underlying theory (the four dimensions, the 16 types, the cognitive functions) is in the public domain and not owned by any single company.",
     dimensionsTitle: "The 4 Dimensions",
     dimensions: [
       { name: "E/I — Extraversion vs. Introversion (Energy)", desc: "Where do you get your energy? Extraverts (E) are energized by interaction with others, think out loud, and prefer breadth of experience. Introverts (I) are energized by solitude, think before speaking, and prefer depth of experience. This is about energy management, not social skill — introverts can be excellent public speakers, and extraverts can enjoy solitude." },
@@ -217,27 +217,27 @@ export const frameworkContent: Record<string, FrameworkContent> = {
       "Our 120-question assessment measures 20 underlying strengths. These strengths map to the four personality dimensions through weighted correlations derived from personality psychology research.",
       "For example, high scores on Commander, Storyteller, and Catalyst strengths pull toward Extraversion. High scores on Thinker, Analyst, and Focus Expert pull toward Introversion. High Brainstormer and Strategist scores pull toward Intuition, while Time Keeper and Deliverer pull toward Sensing.",
       "Each dimension gets a confidence score showing how strongly you lean in one direction. A 90% Extraversion score means you're clearly an Extravert. A 55% score means you're near the middle — what some call an 'ambivert' — and could relate to both sides.",
-      "Unlike the official MBTI (which costs $49.95 and only gives you your personality type), our assessment gives you your type alongside DISC, Enneagram, and a full strengths ranking — four frameworks for the time investment of one.",
+      "Unlike commercial personality assessments (which can cost $50+ and only give you your type), our assessment gives you your type alongside DISC, Enneagram, and a full strengths ranking — four frameworks for the time investment of one.",
     ],
     whyOurs: [
       "Four frameworks from one 15-minute test — personality type, DISC, Enneagram, and strengths",
       "See your confidence score for each dimension, not just a binary letter",
-      "Completely free, instant results, no account required",
+      "Free basic results with option to unlock everything",
       "Based on the IPIP, a public domain instrument used in thousands of peer-reviewed studies",
       "Cross-reference your type with your DISC profile and Enneagram for a multi-dimensional understanding",
       "Privacy-first: your answers stay in your browser",
     ],
     comparison: [
-      { aspect: "Price", others: "Official MBTI: $49.95. 16Personalities: free basic, $32 premium. Truity TypeFinder: $19", ours: "Free" },
+      { aspect: "Price", others: "16Personalities: free basic, $32 premium. Truity TypeFinder: $19. Commercial assessments: $50+", ours: "Free" },
       { aspect: "Frameworks", others: "16 Personalities only", ours: "16 Personalities + DISC + Enneagram + Strengths" },
-      { aspect: "Questions", others: "93 (MBTI) or 60 (16Personalities)", ours: "120 questions, four frameworks" },
+      { aspect: "Questions", others: "60–100+ depending on the assessment", ours: "120 questions, four frameworks" },
       { aspect: "Dimension scores", others: "Often just the 4 letters, no percentages", ours: "Percentage confidence for each dimension" },
       { aspect: "Account required", others: "Yes (16Personalities requires email for results)", ours: "No" },
       { aspect: "Additional insights", others: "One framework", ours: "Career paths, communication tips, stress patterns, books — powered by all four frameworks" },
     ],
     faqs: [
-      { q: "Is this the same as the 'official' MBTI?", a: "No. The MBTI (Myers-Briggs Type Indicator) is a trademarked instrument owned by The Myers-Briggs Company. Our assessment measures the same four dimensions based on Jung's public-domain theory, similar to how 16Personalities.com and Truity's TypeFinder work. The underlying theory (E/I, S/N, T/F, J/P, 16 types) is not owned by anyone." },
-      { q: "How accurate is it compared to the official MBTI?", a: "Studies show that different personality type instruments agree on your type about 75-85% of the time — whether you take the official MBTI, 16Personalities, Truity, or our assessment. The remaining 15-25% disagreement usually occurs when someone is near the middle of one dimension. If you score 52% Thinking, you might test as T on one assessment and F on another." },
+      { q: "Is this the same as commercial personality assessments?", a: "No. There are commercial personality assessments that measure the same four dimensions based on Jung's theory, but they are trademarked instruments. Our assessment measures the same four dimensions based on Jung's public-domain theory, similar to how 16Personalities.com and Truity's TypeFinder work. The underlying theory (E/I, S/N, T/F, J/P, 16 types) is not owned by anyone." },
+      { q: "How accurate is it compared to commercial personality assessments?", a: "Studies show that different personality type instruments agree on your type about 75-85% of the time — whether you take a commercial assessment, 16Personalities, Truity, or our assessment. The remaining 15-25% disagreement usually occurs when someone is near the middle of one dimension. If you score 52% Thinking, you might test as T on one assessment and F on another." },
       { q: "Can my type change?", a: "Your core type tends to be stable, but the strength of your preferences can shift over time. Many people develop their weaker functions as they mature — a young ENTP who was 90% P might become 65% P in midlife as they develop more structure. The letters may stay the same even as the percentages shift." },
       { q: "Is personality type scientifically valid?", a: "The four dimensions have strong research support — particularly Extraversion/Introversion and Thinking/Feeling, which correlate well with Big Five personality traits. The main academic criticism is the 'type' model (putting people in 16 boxes) versus the 'trait' model (measuring on continuous scales). Our assessment gives you both — a type label plus dimensional percentages." },
       { q: "What's the difference between 16 Personalities and Big Five?", a: "The Big Five (OCEAN: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism) is the gold standard in academic psychology. The 16 Personalities framework is more practical for self-development and relationship understanding. They overlap significantly — Extraversion maps directly, Agreeableness ≈ Thinking/Feeling, Openness ≈ Sensing/Intuition." },
@@ -245,7 +245,7 @@ export const frameworkContent: Record<string, FrameworkContent> = {
     ],
     metaTitle: "Free 16 Personalities Test | 1Test.me",
     metaDesc:
-      "Free 16 Personalities test with confidence scores — plus get your DISC, Enneagram, and Top 5 Strengths from one 15-minute assessment. No signup required.",
+      "Free 16 Personalities test with confidence scores — plus get your DISC, Enneagram, and Top 5 Strengths. Free basic results, optional full unlock.",
   },
 
   strengths: {
@@ -256,9 +256,9 @@ export const frameworkContent: Record<string, FrameworkContent> = {
     icon: "★",
     heroSubtitle:
       "Discover what you naturally do best — your top 5 strengths across 20 dimensions, organized in four domains. Plus get three more frameworks free.",
-    what: "Strengths-based assessments identify your natural talents — the recurring patterns of thought, feeling, and behavior that come effortlessly and energize you. The strengths approach, pioneered by positive psychology researcher Martin Seligman and popularized by Gallup's CliftonStrengths, is built on a simple but powerful insight: you'll grow more by developing your strengths than by fixing your weaknesses. Our assessment measures 20 strengths across four domains: Doing (execution and organization), Thinking (analysis and ideas), Feeling (relationships and empathy), and Motivating (leadership and drive). Your top 5 strengths are your signature — the unique combination that defines how you contribute at your best.",
+    what: "Strengths-based assessments identify your natural talents — the recurring patterns of thought, feeling, and behavior that come effortlessly and energize you. The strengths approach, pioneered by positive psychology researcher Martin Seligman and popularized through various commercial assessments, is built on a simple but powerful insight: you'll grow more by developing your strengths than by fixing your weaknesses. Our assessment measures 20 strengths across four domains: Doing (execution and organization), Thinking (analysis and ideas), Feeling (relationships and empathy), and Motivating (leadership and drive). Your top 5 strengths are your signature — the unique combination that defines how you contribute at your best.",
     history:
-      "The strengths movement in psychology began with Martin Seligman's presidential address to the American Psychological Association in 1998, where he argued that psychology had become too focused on pathology and should also study what makes people thrive. This led to the VIA Character Strengths project (Peterson & Seligman, 2004) identifying 24 universal character strengths, and Gallup's CliftonStrengths (originally StrengthsFinder, based on Donald Clifton's research from the 1960s-90s) identifying 34 talent themes. Our assessment draws on the International Personality Item Pool (IPIP), a public domain item bank containing over 3,000 items validated against multiple psychological constructs, including the VIA character strengths. The specific 20-strength framework we use maps these items into practical, workplace-relevant categories.",
+      "The strengths movement in psychology began with Martin Seligman's presidential address to the American Psychological Association in 1998, where he argued that psychology had become too focused on pathology and should also study what makes people thrive. This led to the VIA Character Strengths project (Peterson & Seligman, 2004) identifying 24 universal character strengths, and various commercial assessments identifying talent themes based on decades of research. Our assessment draws on the International Personality Item Pool (IPIP), a public domain item bank containing over 3,000 items validated against multiple psychological constructs, including the VIA character strengths. The specific 20-strength framework we use maps these items into practical, workplace-relevant categories.",
     dimensionsTitle: "The 4 Strength Domains",
     dimensions: [
       { name: "Doing", desc: "People strong in Doing know how to organize, meet goals, and make things happen. They are the executors — reliable, focused, and driven to deliver. Strengths: Believer (values-driven), Deliverer (follows through), Focus Expert (deep concentration), Problem Solver (diagnoses and fixes), Time Keeper (deadlines and processes)." },
@@ -285,25 +285,25 @@ export const frameworkContent: Record<string, FrameworkContent> = {
       "Your top 5 are your signature strengths — the ones that define how you operate at your best. Your bottom 5 reveal areas where you may need support or complementary partners. The middle 10 are your supporting strengths — they can be developed if needed but aren't your natural go-to.",
       "The same 120 answers also produce your 16 Personalities type, DISC profile, and Enneagram type through weighted derivation — no extra questions needed.",
     ],
-    whyOurs: [
-      "CliftonStrengths costs $25 for top 5, $60 for all 34 — ours is completely free with all 20 ranked",
+whyOurs: [
+      "Commercial strengths assessments cost $25–$60 — get your Top 5 free and unlock all 20 for less",
       "Four frameworks from one test — strengths, personality type, DISC, and Enneagram",
       "Based on the IPIP, a public domain research instrument used in thousands of academic studies",
-      "Instant results in your browser — no account, no email, no paywall",
+      "Instant results in your browser — no account needed for free results",
       "See energizers and drainers for each strength, not just a name and definition",
       "Privacy-first: answers never leave your browser",
     ],
     comparison: [
-      { aspect: "Price", others: "CliftonStrengths: $25 (top 5) / $60 (all 34). HIGH5: free basic / $29 full. VIA: free basic / $49 full", ours: "Free, all 20 ranked" },
+      { aspect: "Price", others: "Other strengths tests: $25 (top 5 only) / $60 (full). HIGH5: free basic / $29 full. VIA: free basic / $49 full", ours: "Free, all 20 ranked" },
       { aspect: "Frameworks", others: "Strengths only", ours: "Strengths + 16 Personalities + DISC + Enneagram" },
-      { aspect: "Questions", others: "177 (CliftonStrengths) or 120 (HIGH5)", ours: "120 questions, four frameworks" },
+      { aspect: "Questions", others: "120–177 depending on assessment", ours: "120 questions, four frameworks" },
       { aspect: "Strengths measured", others: "34 (Gallup), 24 (VIA), or 20 (HIGH5)", ours: "20 strengths, 4 domains" },
       { aspect: "Account required", others: "Yes", ours: "No" },
       { aspect: "Action insights", others: "Strengths descriptions only", ours: "Strengths + career paths + communication tips + stress patterns + books" },
     ],
     faqs: [
-      { q: "How does this compare to CliftonStrengths (StrengthsFinder)?", a: "CliftonStrengths measures 34 'talent themes' using a proprietary forced-choice format with a 20-second timer per question. Our assessment measures 20 strengths using a Likert-scale format (sliders) with no time pressure. The frameworks are similar in concept but different in methodology. CliftonStrengths is ipsative (choosing one statement forces down another), while ours is normative (each rating is independent). Both approaches have trade-offs." },
-      { q: "Are 20 strengths enough? CliftonStrengths has 34.", a: "More isn't necessarily better. Our 20 strengths cover the same four domains as CliftonStrengths with enough granularity to produce actionable insights. The difference is that we also derive three additional frameworks (DISC, 16 Personalities, Enneagram) from the same data — something no 34-theme assessment offers." },
+      { q: "How does this compare to other strengths assessments?", a: "Commercial strengths assessments typically measure 34 talent themes using a forced-choice format with a time limit per question. Our assessment measures 20 strengths using a Likert-scale format (sliders) with no time pressure. The frameworks are similar in concept but different in methodology. Commercial tools use ipsative scoring (choosing one statement forces down another), while ours is normative (each rating is independent). Both approaches have trade-offs." },
+      { q: "Are 20 strengths enough? Other assessments have 34.", a: "More isn't necessarily better. Our 20 strengths cover the same four domains as other popular frameworks with enough granularity to produce actionable insights. The difference is that we also derive three additional frameworks (DISC, 16 Personalities, Enneagram) from the same data — something no 34-theme assessment offers." },
       { q: "Can my strengths change over time?", a: "Your core strengths are relatively stable — they reflect natural patterns that have been with you for most of your life. However, the relative ranking can shift as you develop, change roles, or go through major life experiences. Retaking the assessment every 1-2 years can reveal interesting shifts." },
       { q: "Should I focus on my strengths and ignore my weaknesses?", a: "Focus on your strengths for excellence, manage your weaknesses to prevent failure. If your bottom strength is Time Keeper, you don't need to become great at it — you need a system (calendar, partner, tool) that prevents it from derailing you. Invest development energy in your top 5." },
       { q: "Is this based on real science?", a: "Yes. Our questions come from the International Personality Item Pool (IPIP), a public domain item bank created by psychologist Lewis Goldberg and used in thousands of peer-reviewed studies. The IPIP-VIA scales have been validated against the VIA Character Strengths survey (Peterson & Seligman, 2004) and show strong psychometric properties (Cronbach's alpha > 0.70 for all scales)." },
@@ -311,6 +311,6 @@ export const frameworkContent: Record<string, FrameworkContent> = {
     ],
     metaTitle: "Free Strengths Test — Top 5 of 20 | 1Test.me",
     metaDesc:
-      "Free strengths assessment — discover your Top 5 strengths across 20 dimensions, plus get DISC, 16 Personalities, and Enneagram from one 15-minute test.",
+      "Free strengths assessment — your Top 5 strengths free, plus DISC, 16 Personalities, and Enneagram from one 15-minute test. Optional full unlock for all 20.",
   },
 };

@@ -1,10 +1,10 @@
 import { type StrengthScore } from "../hooks/useAssessment";
 
 // ============================================================
-// MBTI DERIVATION from 20-strength profile
+// PERSONALITY TYPE DERIVATION from 20-strength profile
 // ============================================================
 
-export interface MBTIDimension {
+export interface PersonalityDimension {
   label: string;
   pole1: string;
   pole1Code: string;
@@ -15,15 +15,15 @@ export interface MBTIDimension {
   confidence: number; // 0-100%
 }
 
-export interface MBTIResult {
+export interface PersonalityResult {
   type: string; // e.g. "ENTP"
   label: string; // e.g. "The Debater"
   description: string;
-  dimensions: MBTIDimension[];
+  dimensions: PersonalityDimension[];
   confidence: number; // overall 0-100%
 }
 
-const mbtiLabels: Record<string, string> = {
+const personalityLabels: Record<string, string> = {
   INTJ: "The Architect",
   INTP: "The Logician",
   ENTJ: "The Commander",
@@ -42,7 +42,7 @@ const mbtiLabels: Record<string, string> = {
   ESFP: "The Entertainer",
 };
 
-const mbtiDescriptions: Record<string, string> = {
+const personalityDescriptions: Record<string, string> = {
   INTJ: "Strategic and independent thinkers who see the big picture and devise long-term plans. Value competence and knowledge above all.",
   INTP: "Innovative thinkers driven by an insatiable thirst for knowledge. Excel at analyzing complex systems and finding logical patterns.",
   ENTJ: "Bold, decisive leaders who always find a way. Natural-born strategists who enjoy mobilizing people toward a shared vision.",
@@ -61,7 +61,7 @@ const mbtiDescriptions: Record<string, string> = {
   ESFP: "Spontaneous entertainers who love life and bring joy to others. Generous and observant, they turn any moment into a party.",
 };
 
-// Strength weights for each MBTI dimension
+// Strength weights for each personality dimension
 // Positive = pole2 (E, N, F, P), Negative = pole1 (I, S, T, J)
 type DimWeights = Record<string, number>;
 
@@ -93,7 +93,7 @@ function computeDimension(
   pole2: string,
   pole2Code: string,
   label: string,
-): MBTIDimension {
+): PersonalityDimension {
   let weighted = 0;
   let totalWeight = 0;
 
@@ -114,7 +114,7 @@ function computeDimension(
   return { label, pole1, pole1Code, pole2, pole2Code, score: Math.round(raw), result, confidence: Math.round(confidence) };
 }
 
-export function deriveMBTI(results: StrengthScore[]): MBTIResult {
+export function derivePersonalityType(results: StrengthScore[]): PersonalityResult {
   const scores = new Map(results.map((r) => [r.strength.id, r.score]));
 
   const dims = [
@@ -129,8 +129,8 @@ export function deriveMBTI(results: StrengthScore[]): MBTIResult {
 
   return {
     type,
-    label: mbtiLabels[type] || "Unknown Type",
-    description: mbtiDescriptions[type] || "",
+    label: personalityLabels[type] || "Unknown Type",
+    description: personalityDescriptions[type] || "",
     dimensions: dims,
     confidence: avgConfidence,
   };

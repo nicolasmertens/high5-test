@@ -1,6 +1,6 @@
 import { type StrengthScore } from "../hooks/useAssessment";
 import {
-  type MBTIResult,
+  type PersonalityResult,
   type EnneagramResult,
   type DISCResult,
 } from "../data/derivations";
@@ -8,7 +8,7 @@ import { domainColors, domainLabels } from "../data/strengths";
 
 interface Props {
   results: StrengthScore[];
-  mbti: MBTIResult;
+  personality: PersonalityResult;
   enneagram: EnneagramResult;
   disc: DISCResult;
   onBack: () => void;
@@ -23,7 +23,7 @@ const discColors: Record<string, string> = {
 
 export function DetailedResults({
   results,
-  mbti,
+  personality,
   enneagram,
   disc,
   onBack,
@@ -36,32 +36,32 @@ export function DetailedResults({
         &larr; Back to Overview
       </button>
 
-      {/* MBTI Section */}
+      {/* Personality Type Section */}
       <section className="detail-section mbti-section">
         <div className="section-header">
           <h2>Your Personality Type</h2>
           <span className="confidence-badge">
-            {mbti.confidence}% confidence
+            {personality.confidence}% confidence
           </span>
         </div>
 
         <div className="mbti-hero">
           <div className="mbti-type-display">
-            {mbti.type.split("").map((letter, i) => (
+            {personality.type.split("").map((letter, i) => (
               <span
                 key={i}
-                className={`mbti-letter ${mbti.dimensions[i].confidence > 30 ? "strong" : "weak"}`}
+                className={`mbti-letter ${personality.dimensions[i].confidence > 30 ? "strong" : "weak"}`}
               >
                 {letter}
               </span>
             ))}
           </div>
-          <h3 className="mbti-label">{mbti.label}</h3>
-          <p className="mbti-desc">{mbti.description}</p>
+          <h3 className="mbti-label">{personality.label}</h3>
+          <p className="mbti-desc">{personality.description}</p>
         </div>
 
         <div className="mbti-dimensions">
-          {mbti.dimensions.map((dim) => {
+          {personality.dimensions.map((dim) => {
             const leftPercent = 50 - dim.score / 2;
             const barWidth = Math.abs(dim.score);
             const isRight = dim.score >= 0;
@@ -97,7 +97,7 @@ export function DetailedResults({
 
         <div className="mbti-note">
           <strong>How this was derived:</strong> Your scores across 20 strengths
-          were weighted against known MBTI dimension correlations. For example,
+          were weighted against known personality dimension correlations. For example,
           high Commander + Storyteller scores pull toward Extraversion, while
           Thinker + Analyst pull toward Introversion. This is an{" "}
           <em>estimate</em>, not a certified assessment.
@@ -288,8 +288,8 @@ export function DetailedResults({
 
           <div className="synth-card">
             <h4>16 Personalities</h4>
-            <div className="synth-big">{mbti.type}</div>
-            <p className="synth-sublabel">{mbti.label}</p>
+            <div className="synth-big">{personality.type}</div>
+            <p className="synth-sublabel">{personality.label}</p>
           </div>
 
           <div className="synth-card">
@@ -312,7 +312,7 @@ export function DetailedResults({
           <p>
             Four frameworks, one assessment. Your <strong>strengths</strong>{" "}
             reveal <em>what you do best</em>. Your{" "}
-            <strong>personality type</strong> ({mbti.type}) shows{" "}
+            <strong>personality type</strong> ({personality.type}) shows{" "}
             <em>how you process the world</em>. Your{" "}
             <strong>DISC profile</strong> ({disc.style}) captures{" "}
             <em>how you behave with others</em>. And your{" "}

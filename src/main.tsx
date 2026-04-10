@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import App from "./App.tsx";
 import { LandingPage } from "./components/LandingPage.tsx";
+import { PrivacyPolicy } from "./components/PrivacyPolicy.tsx";
+import { TermsOfService } from "./components/TermsOfService.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -26,6 +28,8 @@ createRoot(document.getElementById("root")!).render(
           path="/free-strengths-test"
           element={<LandingPage framework="strengths" />}
         />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/terms" element={<TermsOfService />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
