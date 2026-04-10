@@ -1,5 +1,13 @@
 {
   "rewrites": [
+    { "source": "/free-strengths-test", "destination": "/free-strengths-test/index.html" },
+    { "source": "/free-disc-test", "destination": "/free-disc-test/index.html" },
+    { "source": "/free-enneagram-test", "destination": "/free-enneagram-test/index.html" },
+    { "source": "/free-personality-test", "destination": "/free-personality-test/index.html" },
+    { "source": "/blog/best-free-strengths-assessment", "destination": "/blog/best-free-strengths-assessment/index.html" },
+    { "source": "/blog/disc-communication-styles", "destination": "/blog/disc-communication-styles/index.html" },
+    { "source": "/blog/enneagram-career-paths", "destination": "/blog/enneagram-career-paths/index.html" },
+    { "source": "/blog/personality-test-for-career", "destination": "/blog/personality-test-for-career/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "functions": {
