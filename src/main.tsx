@@ -51,8 +51,8 @@ createRoot(document.getElementById("root")!).render(
               path="/blog/personality-test-for-career"
               element={<BlogPage slug="personality-test-for-career" />}
             />
-            <Route path="/privacy" element={<PrivacyPolicy />} />
-            <Route path="/terms" element={<TermsOfService />} />
+            <Route path="/privacy-draft" element={<PrivacyPolicy />} />
+            <Route path="/terms-draft" element={<TermsOfService />} />
           </Routes>
         </AnalyticsProvider>
       </BrowserRouter>

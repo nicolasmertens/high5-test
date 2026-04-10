@@ -99,7 +99,7 @@ export function IntroScreen({ onStart, onResume, hasSavedProgress }: Props) {
           International Personality Item Pool
         </a>
         . Not affiliated with any trademark holder.{" "}
-        <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a>
+        <a href="/privacy-draft">Privacy</a> · <a href="/terms-draft">Terms</a>
       </p>
     </div>
   );
