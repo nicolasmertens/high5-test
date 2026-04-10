@@ -134,7 +134,7 @@ export const blogPosts: Record<string, BlogPost> = {
             "<strong>Growth paths, not just labels.</strong> You do not just get a list of strengths. You get practical suggestions for each one — how to use it at work, in relationships, and for personal development. That is the difference between knowing your strengths and actually using them."
           ) +
           p(
-            '<strong>No trademarked names.</strong> We call it "Strengths" — not "CliftonStrengths" or "StrengthsFinder." Those are trademarked terms we do not use. Our assessment is independent and built on validated personality research, not affiliated with any trademarked framework.'
+            '<strong>No trademarked names.</strong> We call it "Strengths" — using generic terms, not proprietary ones. Our assessment is independent and built on validated personality research, not affiliated with any trademarked framework.'
           ),
       },
     ],
