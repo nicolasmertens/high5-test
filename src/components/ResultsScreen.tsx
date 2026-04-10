@@ -5,6 +5,9 @@ import { derivePersonalityType, deriveEnneagram, deriveDISC } from "../data/deri
 import { DetailedResults } from "./DetailedResults";
 import { ActionBranches } from "./ActionBranches";
 import { UpgradePrompt } from "./UpgradePrompt";
+import { ShareCard } from "./ShareCard";
+import { ShareButtons } from "./ShareButtons";
+import { useShareImage } from "../hooks/useShareImage";
 import { usePayment } from "../contexts/PaymentContext";
 
 interface Props {
@@ -15,11 +18,26 @@ interface Props {
 export function ResultsScreen({ results, onRestart }: Props) {
   const [showDetailed, setShowDetailed] = useState(false);
   const { isPaid } = usePayment();
+  const { cardRef, downloadImage } = useShareImage();
   const top5 = results.slice(0, 5);
 
   const personality = useMemo(() => derivePersonalityType(results), [results]);
   const enneagram = useMemo(() => deriveEnneagram(results), [results]);
   const disc = useMemo(() => deriveDISC(results), [results]);
+
+  const shareUrl = useMemo(
+    () =>
+      `https://1test.me/?utm_source=results_share&utm_medium=referral&utm_campaign=share-strengths`,
+    [],
+  );
+
+  const shareText = useMemo(
+    () =>
+      isPaid
+        ? `I'm a ${personality.type} (${personality.label}) with a ${disc.style} DISC profile and Enneagram ${enneagram.wingLabel}. My top strength is ${top5[0]?.strength.name ?? ""}. Discover yours:`
+        : `My top strength is ${top5[0]?.strength.name ?? ""} — discover yours with one free test:`,
+    [isPaid, personality, disc, enneagram, top5],
+  );
 
   const domainCounts: Record<string, number> = {};
   for (const r of top5) {
@@ -220,6 +238,39 @@ export function ResultsScreen({ results, onRestart }: Props) {
                 <span className="bridge-value bridge-value-locked">{enneagram.wingLabel}</span>
                 <span className="bridge-sublabel">{enneagram.primary.name}</span>
               </div>
+            </div>
+          </div>
+
+          <div className="share-section">
+            <div className="share-section-header">
+              <h3>Share Your Results</h3>
+              <p className="share-section-subtitle">
+                Let others discover their strengths — share your top result
+              </p>
+            </div>
+
+            <ShareCard
+              ref={cardRef}
+              results={results}
+              personality={personality}
+              enneagram={enneagram}
+              disc={disc}
+              isPaid={isPaid}
+            />
+
+            <ShareButtons
+              shareText={shareText}
+              shareUrl={shareUrl}
+              framework="strengths"
+            />
+
+            <div className="share-actions-row">
+              <button
+                className="btn-start btn-share-download"
+                onClick={() => downloadImage("1test-results.png")}
+              >
+                Download as Image
+              </button>
             </div>
           </div>
 

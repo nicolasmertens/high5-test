@@ -1,5 +1,6 @@
 import { type StrengthScore } from "../hooks/useAssessment";
 import { type PersonalityResult, type EnneagramResult, type DISCResult } from "../data/derivations";
+import { ShareButtons } from "./ShareButtons";
 
 interface Props {
   results: StrengthScore[];
@@ -200,24 +201,15 @@ How your {disc.style} DISC profile and {personality.type} personality shape
         <div className="branch-icon">🔗</div>
         <h3>Share Your Profile</h3>
         <p className="branch-desc">
-          Let others know what makes you tick — add your results to LinkedIn
-          or share a link.
+          Let others know what makes you tick — share your results on social
+          media or download an image.
         </p>
         <div className="branch-preview">
-          <div className="share-buttons">
-            <button className="share-btn share-linkedin" disabled>
-              Add to LinkedIn
-            </button>
-            <button className="share-btn share-link" disabled>
-              Copy Share Link
-            </button>
-            <button className="share-btn share-image" disabled>
-              Download as Image
-            </button>
-          </div>
-        </div>
-        <div className="branch-cta">
-          <span className="coming-soon">Coming soon</span>
+          <ShareButtons
+            shareText={`I'm a ${personality.type} (${personality.label}) with a ${disc.style} DISC profile. My top strength is ${results[0]?.strength.name ?? ""}. Discover yours:`}
+            shareUrl={`https://1test.me/?utm_source=results_share&utm_medium=referral&utm_campaign=share-profile`}
+            framework="profile"
+          />
         </div>
       </section>
 
