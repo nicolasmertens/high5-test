@@ -27,6 +27,8 @@
     { "source": "/blog/enneagram-growth-paths", "destination": "/blog/enneagram-growth-paths/index.html" },
     { "source": "/blog/enneagram-types-explained", "destination": "/blog/enneagram-types-explained/index.html" },
     { "source": "/blog/disc-personality-types-explained", "destination": "/blog/disc-personality-types-explained/index.html" },
+    { "source": "/blog/introvert-extrovert-test", "destination": "/blog/introvert-extrovert-test/index.html" },
+    { "source": "/blog/strengths-and-weaknesses-test", "destination": "/blog/strengths-and-weaknesses-test/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

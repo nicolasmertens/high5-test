@@ -2700,6 +2700,330 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-11",
   },
+
+  "introvert-extrovert-test": {
+    slug: "introvert-extrovert-test",
+    metaTitle: "Free Introvert-Extrovert Test — Find Where You Fall on the Spectrum | 1Test",
+    metaDesc:
+      "Take a free introvert-extrovert test and learn where you fall on the spectrum. Understand how your personality type affects energy, work, and relationships. Free at 1Test.",
+    canonicalUrl: "https://1test.me/blog/introvert-extrovert-test",
+    h1: "Free Introvert-Extrovert Test: Where Do You Fall on the Spectrum?",
+    sections: [
+      {
+        heading: "What the Introvert-Extrovert Spectrum Measures",
+        html: p(
+          "The introvert-extrovert spectrum is one of the most well-studied dimensions in personality psychology. It describes how you recharge your energy and where you direct your attention — inward toward your inner world, or outward toward people and activity."
+        ) +
+          p(
+            "Most people are not purely one or the other. The spectrum includes ambiverts — people who fall somewhere in the middle and can flex in either direction depending on the situation. Understanding where you fall helps you choose work environments, social arrangements, and daily routines that match how your brain actually works."
+          ) +
+          p(
+            "1Test measures introversion-extroversion as part of a complete personality assessment that also includes <a href=\"/free-disc-test\">DISC</a>, <a href=\"/free-enneagram-test\">Enneagram</a>, and <a href=\"/free-strengths-test\">Strengths</a>. The introversion-extroversion dimension powers your 16 Personalities result. <a href=\"/free-personality-test\">Take the free test</a> to see where you fall, or read on for a complete guide."
+          ),
+      },
+      {
+        heading: "Introvert Traits and Tendencies",
+        html: p(
+          "Introverts recharge by spending time alone or in low-stimulation environments. This is not about shyness or social anxiety — it is about energy. An introvert can be highly social and enjoy people, but they need quiet time afterward to recover."
+        ) +
+          p("<strong>Key traits of introverts:</strong>") +
+          ul([
+            "Prefer deeper, one-on-one conversations over large group interactions",
+            "Think before they speak — they process internally before sharing",
+            "Feel drained after extended social time, even when they enjoyed it",
+            "Work best in quiet, focused environments with minimal interruptions",
+            "Have a small circle of close relationships rather than a wide network",
+            "Are observant and reflective — they notice details others miss",
+          ]) +
+          p(
+            "Introverts make up roughly 30-50% of the population, depending on the study. They are not antisocial — they are selective about where they invest their social energy. In the workplace, introverts excel at deep-focus tasks, strategic thinking, written communication, and independent problem-solving."
+          ),
+      },
+      {
+        heading: "Extrovert Traits and Tendencies",
+        html: p(
+          "Extroverts recharge by engaging with people and external stimulation. They think out loud, gain energy from group interactions, and prefer variety and activity over quiet reflection. Extroversion is not about being loud — it is about where your attention naturally goes."
+        ) +
+          p("<strong>Key traits of extroverts:</strong>") +
+          ul([
+            "Gain energy from social interactions and group settings",
+            "Think out loud — they process by talking through ideas",
+            "Prefer variety and activity over routine and quiet",
+            "Are often quick to act and comfortable taking risks",
+            "Build wide social networks easily and enjoy meeting new people",
+            "Are often enthusiastic and expressive in communication",
+          ]) +
+          p(
+            "Extroverts tend to thrive in collaborative, fast-paced environments. In the workplace, they excel at networking, team leadership, sales, public speaking, and roles that require quick thinking in group settings. They bring energy and momentum to teams but may struggle with prolonged solitary work."
+          ),
+      },
+      {
+        heading: "Ambiverts — The Middle of the Spectrum",
+        html: p(
+          "If you read the introvert description and thought &ldquo;that sounds like me sometimes&rdquo; and then read the extrovert description and thought &ldquo;and that sounds like me other times,&rdquo; you are probably an ambivert. Ambiverts fall toward the middle of the spectrum and can flex in either direction depending on the context."
+        ) +
+          p("<strong>Signs you might be an ambivert:</strong>") +
+          ul([
+            "You enjoy social events but need recovery time afterward",
+            "You can be talkative in some settings and quiet in others",
+            "You prefer a mix of collaborative and independent work",
+            "You adapt your communication style to match your audience",
+            "You feel drained by too much socializing AND too much isolation",
+          ]) +
+          p(
+            "Research suggests that most people are closer to the middle of the spectrum than to either extreme. Ambiverts have the advantage of flexibility — they can adapt to different environments and social demands without feeling chronically depleted."
+          ),
+      },
+      {
+        heading: "How Introversion-Extroversion Affects Your Work",
+        html: p(
+          "Where you fall on the spectrum has real implications for how you work best:"
+        ) +
+          ul([
+            "<strong>Meeting preferences:</strong> Introverts often prefer written communication or small meetings with clear agendas. Extroverts often prefer spontaneous discussions and brainstorming sessions. Ambiverts flex between both depending on the topic.",
+            "<strong>Decision-making:</strong> Introverts tend to process information internally before sharing their thoughts. Extroverts tend to think out loud and refine their ideas through discussion. Neither approach is better — they just need different structures to contribute effectively.",
+            "<strong>Work environment:</strong> Introverts do their best deep work in quiet, low-interruption environments. Extroverts thrive in open, collaborative spaces with frequent interaction. The best workplaces offer both options.",
+            "<strong>Leadership style:</strong> Introverted leaders often excel at listening, developing people one-on-one, and making thoughtful decisions. Extroverted leaders often excel at motivating groups, building consensus, and driving fast action. Both styles are effective in different contexts.",
+            "<strong>Energy management:</strong> Introverts need to budget for social time and protect recovery time. Extroverts need to ensure they get enough interaction to stay energized. Understanding your pattern prevents burnout and frustration.",
+          ]) +
+          p(
+            "Knowing your position on the spectrum helps you design your workday around how your brain actually works rather than fighting against it."
+          ),
+      },
+      {
+        heading: "Introvert-Extrovert and Relationships",
+        html: p(
+          "The spectrum also shapes how you connect with people:"
+        ) +
+          ul([
+            "<strong>Introvert-Introvert pairs</strong> often share a love of quiet activities and deep conversation. They understand each other's need for space but may struggle to initiate social plans or expand their social circle.",
+            "<strong>Extrovert-Extrovert pairs</strong> often share high energy and love of activity. They keep each other stimulated but may struggle with over-commitment or lack of downtime.",
+            "<strong>Introvert-Extrovert pairs</strong> often complement each other — the introvert brings depth and reflection, the extrovert brings connections and energy. The key is negotiating social time versus alone time so both partners feel their needs are met.",
+          ]) +
+          p(
+            "The most important thing is not finding someone on the same point of the spectrum, but understanding and respecting each other's energy needs."
+          ),
+      },
+      {
+        heading: "How This Connects to Other Personality Frameworks",
+        html: p(
+          "Introversion-extroversion is one dimension of personality, not the whole picture. Here is how it connects to the other frameworks that 1Test measures:"
+        ) +
+          ul([
+            "<strong>DISC:</strong> High I and High D styles tend to be more extroverted. High S and High C styles tend to be more introverted. But introversion-extroversion is about energy, while DISC is about behavior — someone can be an introverted High I if they prefer deeper social connections. <a href=\"/free-disc-test\">Take the free DISC test</a>.",
+            "<strong>Enneagram:</strong> Certain types tend to correlate with introversion or extroversion, but the Enneagram measures motivation, not energy. A Type 3 Achiever can be introverted — they pursue goals with internal drive rather than social energy. <a href=\"/free-enneagram-test\">Take the free Enneagram test</a>.",
+            "<strong>Strengths:</strong> Your Strengths profile tells you what you are naturally good at. Some strengths (like Woo or Activator) tend to align with extroversion, while others (like Deliberative or Analytical) tend to align with introversion. <a href=\"/free-strengths-test\">Take the free Strengths test</a>.",
+          ]) +
+          p(
+            "Taking all four assessments together gives you the most complete picture: your energy orientation (introvert-extrovert), your behavioral style (DISC), your core motivation (Enneagram), and your natural talents (Strengths)."
+          ),
+      },
+      {
+        heading: "Frequently Asked Questions",
+        html: p("<strong>Can you be both an introvert and an extrovert?</strong>") +
+          p("Yes. Most people fall somewhere in the middle of the spectrum rather than at either extreme. These people are called ambiverts — they can flex in either direction depending on the situation, though they may still lean slightly toward one side.") +
+          p("<strong>Is introversion the same as shyness?</strong>") +
+          p("No. Introversion is about energy — introverts recharge by being alone. Shyness is about fear — shy people avoid social interaction because they are anxious about it. You can be a confident introvert who chooses solitude, or a shy extrovert who wants connection but struggles with anxiety.") +
+          p("<strong>Does introversion-extroversion change over time?</strong>") +
+          p("Your core position on the spectrum tends to be fairly stable throughout adulthood, but you can become more flexible over time. Life experiences, career demands, and intentional practice can all help you stretch toward the middle of the spectrum.") +
+          p("<strong>How long does the introvert-extrovert test take?</strong>") +
+          p("The 1Test assessment takes about 15 minutes and measures all four frameworks — DISC, Enneagram, Strengths, and 16 Personalities (which includes the introversion-extroversion dimension). You get your complete profile with no paywall.") +
+          p("<strong>Which jobs are best for introverts?</strong>") +
+          p("Introverts tend to thrive in roles that allow deep focus and independent work: software engineering, data analysis, writing, research, design, accounting, and strategic consulting. But introverts also excel in leadership, counseling, and teaching — roles that require listening and one-on-one connection rather than performing for large groups."),
+      },
+    ],
+    faqs: [
+      {
+        question: "Can you be both an introvert and an extrovert?",
+        answer:
+          "Yes. Most people fall somewhere in the middle of the spectrum rather than at either extreme. These people are called ambiverts — they can flex in either direction depending on the situation.",
+      },
+      {
+        question: "Is introversion the same as shyness?",
+        answer:
+          "No. Introversion is about energy — introverts recharge by being alone. Shyness is about fear — shy people avoid social interaction because they are anxious about it. You can be a confident introvert or a shy extrovert.",
+      },
+      {
+        question: "Does introversion-extroversion change over time?",
+        answer:
+          "Your core position on the spectrum tends to be fairly stable throughout adulthood, but you can become more flexible over time. Life experiences and intentional practice can help you stretch toward the middle.",
+      },
+      {
+        question: "How long does the introvert-extrovert test take?",
+        answer:
+          "The 1Test assessment takes about 15 minutes and measures all four frameworks — DISC, Enneagram, Strengths, and 16 Personalities (which includes the introversion-extroversion dimension).",
+      },
+      {
+        question: "Which jobs are best for introverts?",
+        answer:
+          "Introverts tend to thrive in roles that allow deep focus and independent work: software engineering, data analysis, writing, research, design, and strategic consulting. But introverts also excel in leadership and teaching — roles requiring listening and one-on-one connection.",
+      },
+    ],
+    ctaHeading: "Ready to find out where you fall on the spectrum?",
+    ctaSubtext: "15 minutes, four frameworks, complete picture.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Free Strengths test", url: "/free-strengths-test" },
+      { label: "Which personality test is right for you", url: "/blog/which-personality-test-right-for-you" },
+      { label: "Understanding 16 Personalities", url: "/blog/understanding-16-personalities" },
+    ],
+    datePublished: "2026-04-11",
+  },
+
+  "strengths-and-weaknesses-test": {
+    slug: "strengths-and-weaknesses-test",
+    metaTitle: "Free Strengths and Weaknesses Test — Discover What You Do Best | 1Test",
+    metaDesc:
+      "Take a free strengths and weaknesses test. Identify your natural talents, understand your blind spots, and get practical tips for growth. Complete profile at 1Test.",
+    canonicalUrl: "https://1test.me/blog/strengths-and-weaknesses-test",
+    h1: "Free Strengths and Weaknesses Test: Discover Your Natural Talents and Blind Spots",
+    sections: [
+      {
+        heading: "Why Understanding Your Strengths and Weaknesses Matters",
+        html: p(
+          "Most people can name their weaknesses faster than their strengths. That is not a character flaw — it is how our brains work. We are wired to notice what goes wrong more than what goes right. But research consistently shows that people who understand and use their strengths are more engaged at work, more satisfied in their relationships, and more resilient under pressure."
+        ) +
+          p(
+            "A strengths and weaknesses test gives you an objective map of your natural talents and your growth areas. Instead of guessing or relying on feedback from others, you get data about what comes naturally to you and where you tend to struggle."
+        ) +
+          p(
+            "1Test measures your strengths across five domains and your <a href=\"/free-personality-test\">16 Personalities profile</a>, <a href=\"/free-disc-test\">DISC style</a>, and <a href=\"/free-enneagram-test\">Enneagram type</a> — all from a single 15-minute assessment. <a href=\"/free-strengths-test\">Take the free Strengths test</a> to see your results, or read on for a complete guide."
+          ),
+      },
+      {
+        heading: "What a Strengths Test Actually Measures",
+        html: p(
+          "A strengths test does not measure what you are good at because you practiced it. It measures what comes naturally to you — the patterns of thinking, feeling, and behaving that you do well without trying. These are your innate talents, and they show up consistently across different situations."
+        ) +
+          p(
+            "1Test uses 120 items grounded in validated personality research from the International Personality Item Pool (IPIP) to identify your top strengths across five domains. Your results give you:"
+          ) +
+          ul([
+            "<strong>Your ranked strengths</strong> — which of the 20 measured strengths are most natural for you",
+            "<strong>Descriptions of each strength</strong> — what it looks like in practice at work and in relationships",
+            "<strong>Growth suggestions</strong> — practical ways to leverage each strength and manage its shadow side",
+            "<strong>Your weakness patterns</strong> — which areas are least natural for you, based on the same data",
+          ]) +
+          p(
+            "The key insight is that your weaknesses are usually the flip side of your strengths. Someone who is highly analytical (a strength) may struggle with quick gut decisions (a weakness). Someone who is naturally empathetic (a strength) may struggle with delivering tough feedback (a weakness). Understanding these connections is more useful than listing random weaknesses."
+          ),
+      },
+      {
+        heading: "The Five Strengths Domains",
+        html: p(
+          "1Test organizes your strengths across five domains that cover the major areas of personality and performance:"
+        ) +
+          ul([
+            "<strong>Interpersonal Strengths</strong> — how you connect with and influence others. Examples: empathy, persuasion, collaboration, communication.",
+            "<strong>Thinking Strengths</strong> — how you process information and solve problems. Examples: analytical thinking, creativity, strategic thinking, learning agility.",
+            "<strong>Execution Strengths</strong> — how you get things done and deliver results. Examples: achievement drive, reliability, initiative, adaptability.",
+            "<strong>Motivation Strengths</strong> — what drives and sustains your effort. Examples: curiosity, purpose, competitiveness, resilience.",
+            "<strong>Emotional Strengths</strong> — how you manage your inner world and respond to pressure. Examples: emotional awareness, self-regulation, optimism, composure.",
+          ]) +
+          p(
+            "Most people have a clear pattern — two or three domains where most of their top strengths cluster. Your profile shows not just your individual strengths but your overall pattern, which reveals your natural area of greatest impact."
+          ),
+      },
+      {
+        heading: "How Strengths and Weaknesses Are Connected",
+        html: p(
+          "The most useful thing about a strengths test is not just knowing your strengths — it is understanding your full profile and how the pieces fit together. Here are the most common pairings:"
+        ) +
+          ul([
+            "<strong>High analytical thinking, low empathy:</strong> You solve complex problems with ease but may miss the emotional cues in a room. Growth move: deliberately check in with people before jumping to solutions.",
+            "<strong>High empathy, low assertiveness:</strong> You read people beautifully but struggle to advocate for your own ideas. Growth move: practice stating your position before asking for input — it ensures your voice is in the room.",
+            "<strong>High achievement drive, low patience:</strong> You deliver results fast but may frustrate people who need more time. Growth move: build in checkpoints where you listen before pushing forward.",
+            "<strong>High creativity, low reliability:</strong> You generate great ideas but may struggle with consistent follow-through. Growth move: pair with someone who has strong execution strength, or create external deadlines that force structure.",
+            "<strong>High resilience, low emotional awareness:</strong> You push through challenges but may not notice when others are struggling. Growth move: add a daily check-in question about how the people around you are feeling.",
+          ]) +
+          p(
+            "The pattern is consistent: your weaknesses are not random. They are the shadow side of your strengths. When you understand this, you stop beating yourself up for weaknesses and start building systems that compensate for them."
+          ),
+      },
+      {
+        heading: "Using Your Strengths Profile at Work",
+        html: p(
+          "Knowing your strengths changes how you approach every part of your work:"
+        ) +
+          ul([
+            "<strong>Role selection:</strong> Choose roles that let you use your top 3-5 strengths for at least 60% of your time. People who use their strengths daily are six times more likely to be engaged at work (Gallup, 2023). If your top strength is analytical thinking, pursue roles that involve data, research, or strategy. If it is empathy, look for roles in people development, coaching, or customer success.",
+            "<strong>Team composition:</strong> Share your strengths profile with your team and ask about theirs. The most effective teams have complementary strengths — someone drives decisions, someone ensures follow-through, someone reads the room, and someone ensures quality. Knowing these patterns prevents conflict and improves collaboration.",
+            "<strong>Career decisions:</strong> If your strengths are clustered in interpersonal and motivation domains, you will likely thrive in coaching, sales, or leadership. If they cluster in thinking and execution, you will likely thrive in engineering, research, or operations. Let your strengths guide your career rather than chasing roles that sound impressive but do not fit your natural pattern.",
+            "<strong>Managing weaknesses:</strong> Do not try to turn weaknesses into strengths — that takes enormous effort for marginal results. Instead, build partnerships with people whose strengths cover your weaknesses, create systems and checklists that prevent your weaknesses from causing problems, and delegate tasks that fall in your bottom strengths to people who have them as top strengths.",
+          ]),
+      },
+      {
+        heading: "How Strengths Testing Compares to Other Frameworks",
+        html: p(
+          "Strengths testing is one piece of the personality puzzle. Here is how it relates to the other frameworks 1Test measures:"
+        ) +
+          ul([
+            "<strong>Strengths tell you what you are naturally good at.</strong> Your top strengths are the abilities that come easiest to you. This is about talent and performance capacity.",
+            "<strong>DISC tells you how you behave and communicate.</strong> Your <a href=\"/free-disc-test\">DISC style</a> explains your observable actions — how direct you are, how you handle pace, how you respond to rules. Think of Strengths as what you do well and DISC as how you do it.",
+            "<strong>The Enneagram tells you why you do what you do.</strong> Your <a href=\"/free-enneagram-test\">Enneagram type</a> reveals your core motivation — the fear and desire that drive your decisions. A person with high achievement drive (Strengths) could be motivated by being valuable (Enneagram Type 3) or by being secure (Enneagram Type 6).",
+            "<strong>16 Personalities tells you how you process information and make decisions.</strong> Your introversion-extroversion, intuition-sensing, thinking-feeling, and judging-perceiving preferences shape your work style and decision-making process. <a href=\"/free-personality-test\">Take the free 16 Personalities test</a>.",
+          ]) +
+          p(
+            "Together, these four frameworks give you the most complete picture: what you do well (Strengths), how you act (DISC), why you act that way (Enneagram), and how you think (16 Personalities)."
+          ),
+      },
+      {
+        heading: "Frequently Asked Questions",
+        html: p("<strong>What is the difference between a strength and a skill?</strong>") +
+          p("A strength is something that comes naturally to you — you do it well without trying. A skill is something you have learned and practiced. You can build a skill in an area where you have no natural strength, but it will always require more effort than building a skill in an area where you already have a natural strength. The best strategy is to invest your skill development in your areas of natural strength.") +
+          p("<strong>Can your strengths change over time?</strong>") +
+          p("Your core strengths tend to be stable throughout adulthood, but how you express them evolves. A strength in analytical thinking might show up as curiosity in your twenties, strategic planning in your thirties, and mentoring others in complex analysis in your fifties. The underlying talent stays the same, but the expression matures.") +
+          p("<strong>Should I focus on improving my weaknesses or leveraging my strengths?</strong>") +
+          p("Research consistently supports focusing on strengths rather than fixing weaknesses. People who use their strengths daily are more engaged, more productive, and more satisfied. Manage your weaknesses through partnerships, systems, and delegation rather than trying to turn them into strengths.") +
+          p("<strong>How long does the strengths and weaknesses test take?</strong>") +
+          p("The 1Test assessment takes about 15 minutes and measures your strengths along with DISC, Enneagram, and 16 Personalities — all from a single assessment. You receive your complete profile with no paywall.") +
+          p("<strong>Is this the same as a CliftonStrengths assessment?</strong>") +
+          p("No. CliftonStrengths (formerly known by a trademarked name) is a proprietary assessment from Gallup. 1Test uses validated personality measures from the International Personality Item Pool (IPIP) to measure similar constructs — your natural strengths and talents — but with a different methodology and no paywall. You get your full results free."),
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the difference between a strength and a skill?",
+        answer:
+          "A strength comes naturally to you — you do it well without trying. A skill is something you have learned and practiced. The best strategy is to invest your skill development in areas where you already have natural strength.",
+      },
+      {
+        question: "Can your strengths change over time?",
+        answer:
+          "Your core strengths tend to be stable throughout adulthood, but how you express them evolves. The underlying talent stays the same, but the expression matures with experience.",
+      },
+      {
+        question: "Should I focus on improving my weaknesses or leveraging my strengths?",
+        answer:
+          "Research consistently supports focusing on strengths. People who use their strengths daily are more engaged, more productive, and more satisfied. Manage weaknesses through partnerships, systems, and delegation rather than trying to fix them.",
+      },
+      {
+        question: "How long does the strengths and weaknesses test take?",
+        answer:
+          "The 1Test assessment takes about 15 minutes and measures your strengths along with DISC, Enneagram, and 16 Personalities — all from a single assessment. You receive your complete profile with no paywall.",
+      },
+      {
+        question: "Is this the same as a CliftonStrengths assessment?",
+        answer:
+          "No. 1Test uses validated personality measures from the International Personality Item Pool (IPIP) to measure similar constructs — your natural strengths and talents — but with a different methodology and no paywall. You get your full results free.",
+      },
+    ],
+    ctaHeading: "Ready to discover your strengths and weaknesses?",
+    ctaSubtext: "15 minutes, four frameworks, complete picture.",
+    ctaFramework: "strengths",
+    ctaUrl: "/free-strengths-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Free 16 Personalities test", url: "/free-personality-test" },
+      { label: "Best free strengths assessment comparison", url: "/blog/best-free-strengths-assessment" },
+      { label: "Strengths for career guide", url: "/blog/strengths-for-career" },
+    ],
+    datePublished: "2026-04-11",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

@@ -100,6 +100,14 @@ createRoot(document.getElementById("root")!).render(
               path="/blog/disc-personality-types-explained"
               element={<BlogPage slug="disc-personality-types-explained" />}
             />
+            <Route
+              path="/blog/introvert-extrovert-test"
+              element={<BlogPage slug="introvert-extrovert-test" />}
+            />
+            <Route
+              path="/blog/strengths-and-weaknesses-test"
+              element={<BlogPage slug="strengths-and-weaknesses-test" />}
+            />
             <Route path="/privacy-draft" element={<PrivacyPolicy />} />
             <Route path="/terms-draft" element={<TermsOfService />} />
           </Routes>
