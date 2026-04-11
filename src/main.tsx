@@ -72,6 +72,10 @@ createRoot(document.getElementById("root")!).render(
               path="/blog/disc-assessment-guide"
               element={<BlogPage slug="disc-assessment-guide" />}
             />
+            <Route
+              path="/blog/enneagram-career-guide"
+              element={<BlogPage slug="enneagram-career-guide" />}
+            />
             <Route path="/privacy-draft" element={<PrivacyPolicy />} />
             <Route path="/terms-draft" element={<TermsOfService />} />
           </Routes>

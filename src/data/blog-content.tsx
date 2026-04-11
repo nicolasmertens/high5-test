@@ -1527,6 +1527,153 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-10",
   },
+
+  "enneagram-career-guide": {
+    slug: "enneagram-career-guide",
+    metaTitle: "Enneagram Career Paths — What Your Type Means for Work | 1Test",
+    metaDesc:
+      "Not sure what career fits your personality? Your Enneagram type reveals what motivates you at work — and which career paths play to your strengths. Free test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/enneagram-career-guide",
+    h1: "Enneagram Career Paths: What Your Type Means for Your Work",
+    sections: [
+      {
+        heading: "How the Enneagram Relates to Career",
+        html: p(
+          "Your Enneagram type does not just describe your personality. It reveals what drives you — the core motivation that shapes every career decision you make, from the jobs you gravitate toward to the ones that drain you."
+        ) +
+          p(
+            "If you have ever felt stuck in a role that seemed perfectly fine on paper but left you exhausted and unfulfilled, your Enneagram type probably has something to say about it."
+          ) +
+          p(
+            "This guide walks through each Enneagram type's career tendencies, natural strengths, common pitfalls, and the work environments where each type tends to thrive. <a href=\"/free-enneagram-test\">Take the free Enneagram test</a> to find your type, or read on to see how each type tends to approach work."
+          ) +
+          p(
+            "The Enneagram describes nine core motivations. Each type has a primary fear and a primary desire that drive behavior — especially at work, where you spend a significant portion of your life pursuing goals and responding to pressure."
+          ) +
+          p(
+            "Understanding your Enneagram type for career decisions is not about putting yourself in a box. It is about recognizing patterns so you can make deliberate choices instead of default ones."
+          ),
+      },
+      {
+        heading: "Enneagram Types and Career Paths",
+        html: h3("Type One — The Reformer") +
+          p("<strong>Core motivation:</strong> To be good, right, and ethical") +
+          p("Ones bring integrity, high standards, and a strong sense of purpose to their work. They are the people who notice what is wrong and care enough to fix it.") +
+          p("<strong>Careers where Ones thrive:</strong> Quality assurance, compliance, law, education, healthcare administration, environmental advocacy, editorial work, auditing") +
+          p("<strong>Natural strengths:</strong> Attention to detail, ethical reasoning, commitment to improvement, reliability") +
+          p("<strong>Common pitfall:</strong> Perfectionism. Ones can get stuck trying to make things flawless instead of shipping them good enough. They may also judge colleagues who do not share their standards.") +
+          p("<strong>Growth edge:</strong> Practice good enough for low-stakes decisions. Channel your desire for improvement into coaching others rather than criticizing them.") +
+          h3("Type Two — The Helper") +
+          p("<strong>Core motivation:</strong> To feel loved and needed by others") +
+          p("Twos bring warmth, empathy, and genuine care for people to their work. They are the colleagues who remember your birthday and notice when you are having a hard day.") +
+          p("<strong>Careers where Twos thrive:</strong> Counseling, nursing, human resources, customer success, coaching, social work, community organizing, teaching") +
+          p("<strong>Natural strengths:</strong> Empathy, relationship-building, emotional intelligence, generosity, making others feel valued") +
+          p("<strong>Common pitfall:</strong> People-pleasing and burnout. Twos often give so much to others that they neglect their own needs and then resent the people they helped.") +
+          p("<strong>Growth edge:</strong> Practice saying no without guilt. Your value is not determined by how much you do for others. A healthy Two sets boundaries and still cares deeply. <a href=\"/free-enneagram-test\">Take the free Enneagram test</a>") +
+          h3("Type Three — The Achiever") +
+          p("<strong>Core motivation:</strong> To be successful, admired, and valuable") +
+          p("Threes bring energy, ambition, and efficiency to their work. They are the people who set goals, hit them, and then set bigger ones. They are naturally gifted at reading what a situation requires and adapting to deliver results.") +
+          p("<strong>Careers where Threes thrive:</strong> Sales, marketing, entrepreneurship, management consulting, politics, media, executive leadership, competitive industries") +
+          p("<strong>Natural strengths:</strong> Goal-setting, efficiency, adaptability, presentation skills, driving results under pressure") +
+          p("<strong>Common pitfall:</strong> Over-identifying with achievements. Threes can lose track of what they actually want versus what looks impressive. They may also cut corners to hit targets.") +
+          p("<strong>Growth edge:</strong> Ask yourself: do I want this, or do I want others to see me wanting this? Build intrinsic motivation by reconnecting with what genuinely interests you, not just what earns applause.") +
+          h3("Type Four — The Individualist") +
+          p("<strong>Core motivation:</strong> To be unique, authentic, and emotionally fulfilled") +
+          p("Fours bring creativity, emotional depth, and originality to their work. They see beauty and meaning where others see the ordinary. They are the people who refuse to do work that feels inauthentic.") +
+          p("<strong>Careers where Fours thrive:</strong> Design, writing, art, music, therapy, education, brand strategy, creative direction, independent contracting") +
+          p("<strong>Natural strengths:</strong> Creativity, authenticity, emotional intelligence, aesthetic sense, ability to find meaning in work") +
+          p("<strong>Common pitfall:</strong> Emotionality and comparison. Fours can feel that others have it easier or better, which leads to withdrawal and creative blocks. They may also resist practical constraints that feel stifling.") +
+          p("<strong>Growth edge:</strong> Treat creative constraints as design challenges, not restrictions. Finish projects before starting new ones. Your depth is a gift — discipline is what delivers it to the world.") +
+          h3("Type Five — The Investigator") +
+          p("<strong>Core motivation:</strong> To understand, observe, and master knowledge") +
+          p("Fives bring analytical depth, objectivity, and independence to their work. They are the people who research everything, find elegant solutions, and remain calm when everyone else is panicking.") +
+          p("<strong>Careers where Fives thrive:</strong> Software engineering, data science, research, academia, strategy, architecture, technical writing, cybersecurity, specialized consulting") +
+          p("<strong>Natural strengths:</strong> Deep analysis, objectivity, independence, concentration, the ability to synthesize complex information into clear frameworks") +
+          p("<strong>Common pitfall:</strong> Isolation and over-preparation. Fives can spend so long gathering information that they never act. They may also withdraw from colleagues who seem draining.") +
+          p("<strong>Growth edge:</strong> Share your thinking before it is fully formed. The value of your ideas increases when others can engage with them. Set a research deadline and commit to acting on what you know by that date.") +
+          h3("Type Six — The Loyalist") +
+          p("<strong>Core motivation:</strong> To be secure, supported, and prepared") +
+          p("Sixes bring reliability, vigilance, and loyalty to their work. They are the people who anticipate problems before they happen and build systems that prevent disaster.") +
+          p("<strong>Careers where Sixes thrive:</strong> Risk management, project management, engineering, healthcare, military, law enforcement, operations, finance, compliance") +
+          p("<strong>Natural strengths:</strong> Planning, risk assessment, loyalty, preparation, seeing all sides of a problem, building trust within teams") +
+          p("<strong>Common pitfall:</strong> Anxiety and overthinking. Sixes can get stuck in worst-case-scenario loops that prevent action. They may also struggle with authority — either deferring too much or rebelling too hard.") +
+          p("<strong>Growth edge:</strong> Practice trusting your own judgment. When you have done the research and considered the risks, make the call. Not every decision needs to be perfect — it needs to be timely.") +
+          h3("Type Seven — The Enthusiast") +
+          p("<strong>Core motivation:</strong> To experience joy, variety, and possibility") +
+          p("Sevens bring optimism, speed, and creative energy to their work. They are the people who generate ten ideas in a meeting while everyone else is still processing the first one.") +
+          p("<strong>Careers where Sevens thrive:</strong> Entrepreneurship, product management, events, travel, media, startup environments, creative direction, consulting, teaching") +
+          p("<strong>Natural strengths:</strong> Ideation, adaptability, enthusiasm, rapid learning, connecting disparate ideas, energizing teams") +
+          p("<strong>Common pitfall:</strong> Overcommitment and avoidance. Sevens can start more projects than they finish, avoid difficult emotions by staying busy, and struggle with the follow-through phase of projects.") +
+          p("<strong>Growth edge:</strong> Choose one thing and finish it before starting the next. Your enthusiasm is a superpower — channeling it requires committing to depth on a single project long enough to see it through.") +
+          h3("Type Eight — The Challenger") +
+          p("<strong>Core motivation:</strong> To be strong, in control, and self-reliant") +
+          p("Eights bring directness, courage, and protective energy to their work. They are the people who confront problems head-on and refuse to back down when something matters.") +
+          p("<strong>Careers where Eights thrive:</strong> Executive leadership, law, military, entrepreneurship, crisis management, negotiation, advocacy, construction, competitive sales") +
+          p("<strong>Natural strengths:</strong> Decisiveness, courage, protective instincts, resilience, the ability to make hard calls under pressure") +
+          p("<strong>Common pitfall:</strong> Dominance and insensitivity. Eights can push too hard, ignore others' perspectives, and create environments where people are afraid to speak up.") +
+          p("<strong>Growth edge:</strong> Practice asking before telling. The strongest leaders create space for others to contribute. Your power increases when you use it to amplify your team, not just to direct them.") +
+          h3("Type Nine — The Peacemaker") +
+          p("<strong>Core motivation:</strong> To be at peace, in harmony, and connected") +
+          p("Nines bring calm, empathy, and the ability to see all perspectives to their work. They are the people who keep teams together, mediate conflicts, and create environments where everyone feels heard.") +
+          p("<strong>Careers where Nines thrive:</strong> Mediation, counseling, human resources, environmental work, teaching, healthcare, community organizing, UX research, conflict resolution") +
+          p("<strong>Natural strengths:</strong> Empathy, conflict resolution, inclusivity, patience, the ability to synthesize multiple viewpoints into coherent solutions") +
+          p("<strong>Common pitfall:</strong> Conflict avoidance and self-forgetting. Nines can merge with others' agendas and lose touch with their own priorities. They may nod along in meetings and then feel frustrated that nothing they wanted happened.") +
+          p("<strong>Growth edge:</strong> Practice stating what you want before asking what others want. Your ability to see all sides is a strength — but only if your own perspective is in the mix. You do not have to choose between harmony and honesty. <a href=\"/free-enneagram-test\">Take the free Enneagram test</a>"),
+      },
+      {
+        heading: "Using Your Enneagram Type for Career Decisions",
+        html: p(
+          "Your Enneagram type is not a career prescription. It is a lens. Here is how to use it:"
+        ) +
+          ol([
+            "<strong>Identify motivation, not just skill.</strong> You might be good at many things. Your Enneagram type tells you which ones will feel meaningful. A Three might be skilled at analysis but feel drained by it — they need roles where achievement is visible. A Five might be skilled at sales but feel depleted by it — they need roles where depth is valued.",
+            "<strong>Watch for your type's pitfall.</strong> Every type has a work pattern that trips them up. Knowing what it is helps you catch it early. Ones: perfectionism. Twos: over-giving. Threes: image-chasing. Fours: withdrawal. Fives: isolation. Sixes: anxiety. Sevens: scattered focus. Eights: over-control. Nines: self-neglect.",
+            "<strong>Combine frameworks for a richer picture.</strong> Your Enneagram tells you why you work the way you do. <a href=\"/free-disc-test\">DISC</a> tells you how you communicate. <a href=\"/free-strengths-test\">Strengths</a> tells you what you are wired for. Together, they give you a career profile that no single test can match.",
+          ]) +
+          p(
+            "Take the <a href=\"/free-personality-test\">free test that covers all four frameworks</a>."
+          ),
+      },
+    ],
+    faqs: [
+      {
+        question: "Can your Enneagram type help you choose a career?",
+        answer:
+          "Yes. Your Enneagram type reveals your core motivation — what drives you at the deepest level. When your career aligns with that motivation, work feels meaningful. When it does not, even skilled work feels draining.",
+      },
+      {
+        question: "Which Enneagram type is best for business?",
+        answer:
+          "No type is inherently better for business. Threes naturally excel in goal-driven, competitive environments. Eights thrive in leadership and negotiation. Sixes bring risk awareness and reliability. Fives contribute analytical depth. The best teams have a mix of types.",
+      },
+      {
+        question: "How is Enneagram career guidance different from Strengths-based guidance?",
+        answer:
+          "Enneagram reveals why you work — your core motivation and fears. Strengths reveals what you are naturally good at — your innate talents. Combine them and you get a career profile that is both motivating and naturally effective.",
+      },
+      {
+        question: "Is the Enneagram scientifically validated?",
+        answer:
+          "The Enneagram model draws on decades of personality research and has been studied in academic contexts. It is widely used in organizational development, coaching, and personal growth. 1Test uses validated personality measures from the International Personality Item Pool (ipip.ori.org).",
+      },
+      {
+        question: "How do I find out my Enneagram type?",
+        answer:
+          "Take the free test at 1Test. You will get your Enneagram type along with your DISC profile, Strengths ranking, and 16 Personalities result — all from a single 15-minute assessment.",
+      },
+    ],
+    ctaHeading: "Ready to explore what your Enneagram type means for your career?",
+    ctaSubtext: "8-12 minutes, complete results, no paywall.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Free DISC assessment", url: "/free-disc-test" },
+      { label: "Free Strengths assessment", url: "/free-strengths-test" },
+      { label: "Free 16 Personalities test", url: "/free-personality-test" },
+      { label: "Enneagram career paths guide", url: "/blog/enneagram-career-paths" },
+    ],
+    datePublished: "2026-04-11",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

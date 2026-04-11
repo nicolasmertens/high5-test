@@ -26,6 +26,12 @@ const POSTS = [
     description:
       "Learn how your personality type connects to career fit. Practical guidance for every type. Take the free personality test with career insights.",
   },
+  {
+    slug: "enneagram-career-guide",
+    title: "Enneagram Career Paths: What Your Type Means for Your Work",
+    description:
+      "Not sure what career fits your personality? Your Enneagram type reveals what motivates you at work — and which career paths play to your strengths. Free test at 1Test.",
+  },
 ];
 
 export function BlogIndex() {

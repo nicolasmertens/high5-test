@@ -189,6 +189,13 @@ const BLOG_FAQS = {
     { question: "Can DISC be used for hiring?", answer: "DISC can help you understand how a candidate communicates and works, but it should never be used to screen candidates in or out. No DISC profile is better or worse for a role. The best practice is to use DISC for onboarding, team dynamics, and coaching — not for hiring decisions." },
     { question: "Is the DISC assessment free?", answer: "Yes. 1Test offers the DISC assessment free as part of a single assessment that covers all four frameworks. You receive your DISC profile, Enneagram type, Strengths ranking, and 16 Personalities result — all free, all from one 15-minute test." },
   ],
+  "/blog/enneagram-career-guide": [
+    { question: "Can your Enneagram type help you choose a career?", answer: "Yes. Your Enneagram type reveals your core motivation — what drives you at the deepest level. When your career aligns with that motivation, work feels meaningful. When it does not, even skilled work feels draining." },
+    { question: "Which Enneagram type is best for business?", answer: "No type is inherently better for business. Threes naturally excel in goal-driven, competitive environments. Eights thrive in leadership and negotiation. Sixes bring risk awareness and reliability. Fives contribute analytical depth. The best teams have a mix of types." },
+    { question: "How is Enneagram career guidance different from Strengths-based guidance?", answer: "Enneagram reveals why you work — your core motivation and fears. Strengths reveals what you are naturally good at — your innate talents. Combine them and you get a career profile that is both motivating and naturally effective." },
+    { question: "Is the Enneagram scientifically validated?", answer: "The Enneagram model draws on decades of personality research and has been studied in academic contexts. It is widely used in organizational development, coaching, and personal growth. 1Test uses validated personality measures from the International Personality Item Pool (ipip.ori.org)." },
+    { question: "How do I find out my Enneagram type?", answer: "Take the free test at 1Test. You will get your Enneagram type along with your DISC profile, Strengths ranking, and 16 Personalities result — all from a single 15-minute assessment." },
+  ],
 };
 
 const SEO_DATA = {
@@ -288,6 +295,13 @@ const SEO_DATA = {
     description:
       "Complete guide to the DISC assessment: what it measures, how to read your profile, and how to use DISC at work and in teams. Take the free DISC test at 1Test.",
     canonicalUrl: "https://1test.me/blog/disc-assessment-guide",
+    ogType: "article",
+  },
+  "/blog/enneagram-career-guide": {
+    title: "Enneagram Career Paths — What Your Type Means for Work | 1Test",
+    description:
+      "Not sure what career fits your personality? Your Enneagram type reveals what motivates you at work — and which career paths play to your strengths. Free test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/enneagram-career-guide",
     ogType: "article",
   },
 };
@@ -401,6 +415,14 @@ const BODY_CONTENT = {
       { heading: "What Is a DISC Assessment?", text: "DISC is a behavioral assessment framework that describes your natural tendencies across four dimensions: Dominance, Influence, Steadiness, and Conscientiousness. It does not measure intelligence, skills, or values. It measures preferences — how you tend to respond to problems, people, pace, and procedures." },
       { heading: "The Four DISC Dimensions", text: "D (Dominance) measures how you handle challenges and make decisions. I (Influence) measures how you interact with people and express enthusiasm. S (Steadiness) measures how you respond to pace and consistency. C (Conscientiousness) measures how you approach details, rules, and accuracy. Most people have a primary style and a secondary style." },
       { heading: "Using DISC at Work", text: "DISC is most immediately useful for team communication, leadership development, and self-awareness. D-styles want brevity and bottom lines. I-styles want context and conversation. S-styles want thoughtful explanations and time to process. C-styles want data and logical structure. Most communication breakdowns happen because people speak in their own style, not the style of the person they are communicating with." },
+    ],
+  },
+  "/blog/enneagram-career-guide": {
+    h1: "Enneagram Career Paths: What Your Type Means for Your Work",
+    sections: [
+      { heading: "How the Enneagram Relates to Career", text: "Your Enneagram type reveals your core motivation — what drives you at the deepest level. Each type has a primary fear and desire that shape behavior, especially at work. Understanding your type helps you recognize patterns so you can make deliberate career choices instead of default ones." },
+      { heading: "Career Paths by Enneagram Type", text: "Type 1 Reformers thrive in quality-focused, ethics-driven roles. Type 2 Helpers excel in coaching, healthcare, and client service. Type 3 Achievers do well in competitive, goal-oriented environments. Type 4 Individualists flourish in creative and design-focused roles. Type 5 Investigators thrive in research, analysis, and specialized technical work. Type 6 Loyalists excel in risk management, compliance, and operations. Type 7 Enthusiasts gravitate toward entrepreneurship, product management, and variety-rich roles. Type 8 Challengers lead in executive, legal, and negotiation-heavy positions. Type 9 Peacemakers excel in mediation, counseling, and community-focused work." },
+      { heading: "Using Your Type for Career Decisions", text: "Your Enneagram type is a lens, not a prescription. Identify motivation over skill — your type tells you which work will feel meaningful. Watch for your type's pitfall. Combine Enneagram with DISC, Strengths, and 16 Personalities for a richer career profile than any single test can provide." },
     ],
   },
 };
