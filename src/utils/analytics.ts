@@ -1,3 +1,5 @@
+import posthog from "posthog-js";
+
 export type Framework = "disc" | "personality" | "enneagram" | "strengths";
 
 type UpgradeType = "full_profile" | "ai_playbook";
@@ -8,13 +10,6 @@ interface UTMParams {
   utm_campaign?: string;
   utm_content?: string;
   utm_term?: string;
-}
-
-declare global {
-  interface Window {
-    dataLayer: Record<string, unknown>[];
-    gtag?: (...args: unknown[]) => void;
-  }
 }
 
 const UTM_KEYS = [
@@ -29,59 +24,32 @@ const UTM_SESSION_KEY = "1test_utm";
 const SESSION_STARTED_KEY = "1test_session_start";
 const TEST_STARTED_KEY = "1test_test_start";
 
-const GA4_MEASUREMENT_ID = import.meta.env.VITE_GA4_MEASUREMENT_ID as string | undefined;
+const POSTHOG_KEY = "phc_naAqjQ2GHEYrTb82N4FQCqriYmwAQFewWEtL4kzUhcHp";
+const POSTHOG_HOST = "https://us.i.posthog.com";
 
-let ga4Loaded = false;
-
-function loadGA4(): void {
-  if (ga4Loaded || !GA4_MEASUREMENT_ID || typeof window === "undefined") return;
-  ga4Loaded = true;
-
-  window.dataLayer = window.dataLayer || [];
-  function gtag(...args: unknown[]) {
-    window.dataLayer!.push({ event: args[0], ...(typeof args[1] === "object" && args[1] !== null ? args[1] as Record<string, unknown> : {}) });
-  }
-  gtag("js", new Date());
-  gtag("config", GA4_MEASUREMENT_ID, {
-    send_page_view: false,
-    linker: { domains: ["1test.me"] },
-  });
-
-  const script = document.createElement("script");
-  script.async = true;
-  script.src = `https://www.googletagmanager.com/gtag/js?id=${GA4_MEASUREMENT_ID}`;
-  script.addEventListener("error", () => {
-    ga4Loaded = false;
-  });
-  document.head.appendChild(script);
-}
-
+let initialized = false;
 let utmParams: UTMParams = {};
 let testStartTime: number | null = null;
 
-function pushToDataLayer(data: Record<string, unknown>): void {
-  if (typeof window === "undefined") return;
-  window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push(data);
-}
-
-function gtag(command: string, action: string, params?: Record<string, unknown>): void {
-  if (typeof window === "undefined") return;
-  window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push({ event: command, _command: action, ...params });
-}
-
 export function initAnalytics(): void {
-  loadGA4();
+  if (initialized || typeof window === "undefined") return;
+  posthog.init(POSTHOG_KEY, {
+    api_host: POSTHOG_HOST,
+    capture_pageview: false,
+    autocapture: true,
+    persistence: "localStorage+cookie",
+    person_profiles: "identified_only",
+  });
+  initialized = true;
+
   utmParams = captureUTMParams();
 
   const sessionStart = sessionStorage.getItem(SESSION_STARTED_KEY);
   if (!sessionStart) {
     sessionStorage.setItem(SESSION_STARTED_KEY, Date.now().toString());
-    pushToDataLayer({
-      event: "session_start",
-      ...utmParams,
-    });
+    if (Object.keys(utmParams).length > 0) {
+      posthog.capture("session_start", utmParams);
+    }
   }
 
   trackPageView(window.location.pathname, document.title);
@@ -132,23 +100,11 @@ function getDeviceType(): "mobile" | "tablet" | "desktop" {
 }
 
 export function trackPageView(pagePath: string, pageTitle: string): void {
-  const deviceType = getDeviceType();
-  gtag("event", "page_view", {
-    page_path: pagePath,
+  if (!initialized) return;
+  posthog.capture("$pageview", {
+    $current_url: pagePath,
     page_title: pageTitle,
-    page_location: window.location.href,
-    referrer: document.referrer,
-    device_type: deviceType,
-    ...utmParams,
-  });
-
-  pushToDataLayer({
-    event: "page_view",
-    page_path: pagePath,
-    page_title: pageTitle,
-    page_location: window.location.href,
-    referrer: document.referrer,
-    device_type: deviceType,
+    device_type: getDeviceType(),
     ...utmParams,
   });
 }
@@ -157,15 +113,11 @@ export function trackTestStarted(framework: Framework | "all", landingPage?: str
   testStartTime = Date.now();
   sessionStorage.setItem(TEST_STARTED_KEY, testStartTime.toString());
 
-  const event: Record<string, unknown> = {
-    event: "test_started",
+  posthog.capture("test_started", {
     framework,
     landing_page: landingPage || window.location.pathname,
     ...utmParams,
-  };
-
-  gtag("event", "test_started", event);
-  pushToDataLayer(event);
+  });
 }
 
 export function trackQuestionAnswered(
@@ -180,15 +132,11 @@ export function trackQuestionAnswered(
     return;
   }
 
-  const event: Record<string, unknown> = {
-    event: "question_answered",
+  posthog.capture("question_answered", {
     framework,
     question_number: questionNumber,
     completion_pct: completionPct,
-  };
-
-  gtag("event", "question_answered", event);
-  pushToDataLayer(event);
+  });
 }
 
 export function trackTestCompleted(
@@ -200,16 +148,12 @@ export function trackTestCompleted(
     ? Math.round((Date.now() - parseInt(stored, 10)) / 1000)
     : undefined;
 
-  const event: Record<string, unknown> = {
-    event: "test_completed",
+  posthog.capture("test_completed", {
     framework,
     question_count: questionCount,
     ...(timeSpent !== undefined ? { time_spent_seconds: timeSpent } : {}),
     ...utmParams,
-  };
-
-  gtag("event", "test_completed", event);
-  pushToDataLayer(event);
+  });
 }
 
 export function trackResultsViewed(data: {
@@ -220,18 +164,14 @@ export function trackResultsViewed(data: {
   top_strength?: string;
   top_strengths?: string[];
 }): void {
-  const event: Record<string, unknown> = {
-    event: "results_viewed",
+  posthog.capture("results_viewed", {
     framework: data.framework || "strengths",
     ...(data.personality_type ? { personality_type: data.personality_type } : {}),
     ...(data.disc_type ? { disc_type: data.disc_type } : {}),
     ...(data.enneagram_type ? { enneagram_type: data.enneagram_type } : {}),
     ...(data.top_strength ? { top_strength: data.top_strength } : {}),
     ...(data.top_strengths ? { top_strengths: data.top_strengths } : {}),
-  };
-
-  gtag("event", "results_viewed", event);
-  pushToDataLayer(event);
+  });
 }
 
 export function trackUpgradeViewed(
@@ -239,32 +179,24 @@ export function trackUpgradeViewed(
   sourceSection: string,
   upgradeType: UpgradeType = "full_profile"
 ): void {
-  const event: Record<string, unknown> = {
-    event: "upgrade_viewed",
+  posthog.capture("upgrade_viewed", {
     framework,
     source_section: sourceSection,
     upgrade_type: upgradeType,
     ...utmParams,
-  };
-
-  gtag("event", "upgrade_viewed", event);
-  pushToDataLayer(event);
+  });
 }
 
 export function trackCheckoutStarted(
   framework: string = "strengths",
   upgradeType: UpgradeType = "full_profile"
 ): void {
-  const event: Record<string, unknown> = {
-    event: "begin_checkout",
+  posthog.capture("begin_checkout", {
     framework,
     upgrade_type: upgradeType,
     price_variant: "12_one_time",
     ...utmParams,
-  };
-
-  gtag("event", "begin_checkout", event);
-  pushToDataLayer(event);
+  });
 }
 
 export function trackPurchase(data: {
@@ -275,8 +207,7 @@ export function trackPurchase(data: {
   transactionId?: string;
   paymentMethod?: string;
 }): void {
-  const event: Record<string, unknown> = {
-    event: "purchase",
+  posthog.capture("purchase", {
     framework: data.framework || "strengths",
     upgrade_type: data.upgradeType || "full_profile",
     revenue_amount: data.revenueAmount || 12,
@@ -284,10 +215,7 @@ export function trackPurchase(data: {
     payment_method: data.paymentMethod || "card",
     ...(data.transactionId ? { transaction_id: data.transactionId } : {}),
     ...utmParams,
-  };
-
-  gtag("event", "purchase", event);
-  pushToDataLayer(event);
+  });
 }
 
 export function trackDeliverableGenerated(
@@ -295,62 +223,34 @@ export function trackDeliverableGenerated(
   deliverableType: "pdf" | "playbook",
   generationTimeSeconds?: number
 ): void {
-  const event: Record<string, unknown> = {
-    event: "deliverable_generated",
+  posthog.capture("deliverable_generated", {
     framework,
     deliverable_type: deliverableType,
     ...(generationTimeSeconds !== undefined
       ? { generation_time_seconds: generationTimeSeconds }
       : {}),
-  };
-
-  gtag("event", "deliverable_generated", event);
-  pushToDataLayer(event);
+  });
 }
 
 export function trackEmailCaptured(emailSource: string, framework?: string): void {
-  const event: Record<string, unknown> = {
-    event: "email_captured",
+  posthog.capture("email_captured", {
     email_source: emailSource,
     ...(framework ? { framework } : {}),
-  };
-
-  gtag("event", "email_captured", event);
-  pushToDataLayer(event);
+  });
 }
 
 export function trackShare(framework: string, shareChannel: string): void {
-  const event: Record<string, unknown> = {
-    event: "share",
+  posthog.capture("share", {
     framework,
     share_channel: shareChannel,
-  };
-
-  gtag("event", "share", event);
-  pushToDataLayer(event);
-
-  if (typeof navigator !== "undefined" && navigator.sendBeacon) {
-    navigator.sendBeacon(
-      "/api/analytics",
-      JSON.stringify({
-        event: "share",
-        framework,
-        share_channel: shareChannel,
-        timestamp: new Date().toISOString(),
-      })
-    );
-  }
+  });
 }
 
 export function trackScrollDepth(pagePath: string, depthPct: number): void {
-  const event: Record<string, unknown> = {
-    event: "scroll_depth",
+  posthog.capture("scroll_depth", {
     page_path: pagePath,
     depth_pct: depthPct,
-  };
-
-  gtag("event", "scroll_depth", event);
-  pushToDataLayer(event);
+  });
 }
 
 const SCROLL_MILESTONES = [25, 50, 75, 100];

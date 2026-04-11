@@ -22,17 +22,10 @@ export function getVariant(experimentName: string): Variant {
 
 export function trackExperimentView(experimentName: string, variant: Variant): void {
   if (typeof window === "undefined") return;
-  window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push({
-    event: "experiment_viewed",
-    experiment_name: experimentName,
-    experiment_variant: variant,
-  });
-
-  if (window.gtag) {
-    window.gtag("event", "experiment_viewed", {
+  import("posthog-js").then((ph) => {
+    ph.default.capture("experiment_viewed", {
       experiment_name: experimentName,
       experiment_variant: variant,
     });
-  }
+  });
 }
