@@ -27,10 +27,28 @@ const POSTS = [
       "Learn how your personality type connects to career fit. Practical guidance for every type. Take the free personality test with career insights.",
   },
   {
-    slug: "enneagram-career-guide",
-    title: "Enneagram Career Paths: What Your Type Means for Your Work",
+    slug: "disc-vs-enneagram-vs-strengths",
+    title: "DISC vs Enneagram vs Strengths — Which Free Test Is Right for You?",
     description:
-      "Not sure what career fits your personality? Your Enneagram type reveals what motivates you at work — and which career paths play to your strengths. Free test at 1Test.",
+      "Not sure which personality assessment to take? Compare DISC, Enneagram, Strengths, and 16 Personalities side by side. Take all four free at 1Test.",
+  },
+  {
+    slug: "which-personality-test-right-for-you",
+    title: "Which Personality Test Is Right for You? Free Guide",
+    description:
+      "Not sure which personality test to take? This guide compares DISC, Enneagram, Strengths, and 16 Personalities so you can pick the right one — or take all four free at 1Test.",
+  },
+  {
+    slug: "understanding-16-personalities",
+    title: "16 Personalities Explained — Complete Guide to the Framework",
+    description:
+      "What are the 16 Personalities? Learn what each type means, how the framework works, and how it relates to DISC, Enneagram, and Strengths. Take all four free at 1Test.",
+  },
+  {
+    slug: "disc-assessment-guide",
+    title: "DISC Assessment Guide — What It Is, How It Works, Why It Matters",
+    description:
+      "Complete guide to the DISC assessment: what it measures, how to read your profile, and how to use DISC at work and in teams. Take the free DISC test at 1Test.",
   },
 ];
 

@@ -80,6 +80,10 @@ createRoot(document.getElementById("root")!).render(
               path="/blog/strengths-finder-alternative"
               element={<BlogPage slug="strengths-finder-alternative" />}
             />
+            <Route
+              path="/blog/strengths-for-career"
+              element={<BlogPage slug="strengths-for-career" />}
+            />
             <Route path="/privacy-draft" element={<PrivacyPolicy />} />
             <Route path="/terms-draft" element={<TermsOfService />} />
           </Routes>
