@@ -21,6 +21,7 @@
     { "source": "/blog/disc-type-work-style", "destination": "/blog/disc-type-work-style/index.html" },
     { "source": "/blog/disc-assessment-guide", "destination": "/blog/disc-assessment-guide/index.html" },
     { "source": "/blog/enneagram-career-guide", "destination": "/blog/enneagram-career-guide/index.html" },
+    { "source": "/blog/strengths-finder-alternative", "destination": "/blog/strengths-finder-alternative/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

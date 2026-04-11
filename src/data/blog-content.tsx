@@ -1674,6 +1674,173 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-11",
   },
+
+  "strengths-finder-alternative": {
+    slug: "strengths-finder-alternative",
+    metaTitle: "Strengths Finder Alternative — Free Strengths Test With Full Results | 1Test",
+    metaDesc:
+      "Looking for a strengths finder alternative? Compare free options, see what each test offers, and take a free strengths assessment with complete results at 1Test.",
+    canonicalUrl: "https://1test.me/blog/strengths-finder-alternative",
+    h1: "Strengths Finder Alternative: Free Strengths Assessment With Complete Results",
+    sections: [
+      {
+        heading: "Why People Search for a Strengths Finder Alternative",
+        html: p(
+          "If you are searching for a strengths finder alternative, you are probably in one of two situations: you took a strengths assessment that locked your full results behind a paywall, or you want a strengths assessment that does not use trademarked terminology that limits how you talk about your own results."
+        ) +
+          p(
+            "Both are valid reasons. The good news: there are genuinely free options that give you complete results, and some offer more than strengths alone. This guide compares the top alternatives so you can choose the one that fits your needs. If you want to skip straight to taking the assessment, <a href=\"/free-strengths-test\">take the free Strengths test at 1Test</a>."
+          ),
+      },
+      {
+        heading: "What Makes a Good Strengths Assessment Alternative",
+        html: p(
+          "Before comparing specific tests, here is what to look for:"
+        ) +
+          strong([
+            { label: "Full results without a paywall.", desc: "Some tests show your top 3 or 5 strengths for free, then charge $15-30 for the full profile. A genuine alternative gives you everything upfront." },
+            { label: "Non-trademarked terminology.", desc: "Some assessments use proprietary names for universal strengths concepts. That means you cannot freely share, discuss, or build on your results without referencing a trademarked framework. The best alternatives use open, generic language." },
+            { label: "Actionable growth suggestions.", desc: "Knowing your top strengths is interesting. Knowing what to do with them is useful. Look for an assessment that gives practical suggestions for each strength." },
+            { label: "Multiple framework context.", desc: "Your strengths profile is more valuable when you can compare it with your DISC style, Enneagram type, and 16 Personalities type. Some alternatives offer all four; most do not." },
+            { label: "Validated research foundation.", desc: "The best free alternatives use validated personality research (like the International Personality Item Pool) rather than proprietary algorithms with no published methodology." },
+          ]),
+      },
+      {
+        heading: "Strengths Finder Alternatives Compared",
+        html: p(
+          "Here is an honest comparison of the main options for people seeking a strengths finder alternative:"
+        ) +
+          `<table class="content-table">
+            <thead><tr><th>Feature</th><th>1Test</th><th>HIGH5</th><th>VIA Character Strengths</th><th>Truity</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Cost</strong></td><td>Free (full results)</td><td>Free partial, paid full</td><td>Free (full results)</td><td>Free partial, paid full</td></tr>
+              <tr><td><strong>Results depth</strong></td><td>Full ranked profile with growth suggestions</td><td>Top 5 only (detailed behind paywall)</td><td>24 character strengths ranked</td><td>Summary only (detailed behind paywall)</td></tr>
+              <tr><td><strong>Paywall?</strong></td><td>No</td><td>Yes (for full results)</td><td>No</td><td>Yes (for full results)</td></tr>
+              <tr><td><strong>Trademarked terms?</strong></td><td>No — uses generic language</td><td>No — uses own naming</td><td>No — academic framework</td><td>No — uses own naming</td></tr>
+              <tr><td><strong>Other frameworks included</strong></td><td>Yes — DISC, Enneagram, 16 Personalities</td><td>No</td><td>No</td><td>Yes (separate purchase)</td></tr>
+              <tr><td><strong>Time to complete</strong></td><td>15 minutes (all 4 frameworks)</td><td>10-15 minutes</td><td>15-30 minutes</td><td>10-20 minutes</td></tr>
+              <tr><td><strong>Actionable output</strong></td><td>Yes — practical suggestions per strength</td><td>Limited without paying</td><td>Yes — but more academic than practical</td><td>Limited without paying</td></tr>
+              <tr><td><strong>Research basis</strong></td><td>IPIP validated measures</td><td>Proprietary</td><td>VIA Institute research</td><td>Proprietary</td></tr>
+            </tbody>
+          </table>` +
+          p(
+            "<strong>Bottom line:</strong> 1Test and VIA are the only options that give you genuine free results with no paywall. The difference is that 1Test provides career-oriented growth suggestions alongside your results, and includes three other personality frameworks for context. VIA is more academic in its presentation and focuses on character virtues rather than workplace strengths."
+          ) +
+          p(
+            "If you want a standalone strengths assessment with no paywall and academic backing, VIA is solid. If you want practical, career-focused results that connect your strengths to your broader personality profile, 1Test is the stronger alternative."
+          ),
+      },
+      {
+        heading: "1Test: The Free Strengths Alternative With Full Results",
+        html: p(
+          "1Test was built to address the exact problems that send people searching for alternatives:"
+        ) +
+          p(
+            "<strong>Genuinely free results.</strong> You take the assessment, you get your complete strengths profile — your top strengths, ranked list, descriptions, and growth suggestions. No paywall. No teaser. No \"unlock your full results for $19.99.\""
+          ) +
+          p(
+            "<strong>Generic terminology.</strong> We call it what it is — Strengths. No trademarked framework names, no proprietary labels that restrict how you use your own results. Your strengths belong to you."
+          ) +
+          p(
+            "<strong>Four frameworks, one test.</strong> Your <a href=\"/free-strengths-test\">Strengths profile</a> is one lens. When you combine it with your <a href=\"/free-disc-test\">DISC style</a> (how you communicate), your <a href=\"/free-enneagram-test\">Enneagram type</a> (what drives you), and your <a href=\"/free-personality-test\">16 Personalities type</a> (how you process the world), you get a far richer picture than any single assessment. One 15-minute test gives you all four."
+          ) +
+          p(
+            "<strong>Research-validated measures.</strong> 1Test uses validated personality measures from the International Personality Item Pool (ipip.ori.org), the same academic source behind many paid assessments. Free does not mean unscientific."
+          ) +
+          p(
+            "<strong>Career-focused output.</strong> Your results include practical suggestions for each strength — how to apply it at work, in relationships, and for personal development. The value is not just knowing your strengths; it is knowing what to do with them."
+          ),
+      },
+      {
+        heading: "VIA Character Strengths: The Academic Alternative",
+        html: p(
+          "The VIA Institute on Character offers a free strengths assessment that ranks your 24 character strengths. It is widely respected in positive psychology circles and has strong academic backing."
+        ) +
+          p("<strong>Strengths of VIA:</strong>") +
+          ul([
+            "Genuinely free — no paywall for results",
+            "Strong academic foundation with peer-reviewed research",
+            "Covers 24 character strengths across 6 virtues",
+            "Available in multiple languages",
+          ]) +
+          p("<strong>Limitations of VIA:</strong>") +
+          ul([
+            "Results are more academic than practical — you get a ranked list, but limited guidance on what to do with it",
+            "Focused on character virtues (kindness, fairness, humility) rather than workplace-focused strengths",
+            "No integration with other personality frameworks — you take it separately from any DISC, Enneagram, or personality type assessment",
+            "Longer assessment (15-30 minutes) for a narrower output",
+          ]) +
+          p(
+            "VIA is a good choice if you want an academic, virtue-focused assessment and do not need career-oriented guidance. For most people seeking a practical strengths finder alternative, 1Test offers more actionable output and broader context."
+          ),
+      },
+      {
+        heading: "Why HIGH5 and Truity Are Not True Alternatives",
+        html: p(
+          "HIGH5 and Truity both appear in searches for strengths assessments. Here is the honest assessment:"
+        ) +
+          p(
+            "<strong>HIGH5</strong> gives you your top 5 strengths for free, then charges $19-29 for your full profile, detailed descriptions, and growth suggestions. If you are looking for a <em>free</em> alternative because you do not want to pay, HIGH5 is not actually free for the information that matters most."
+          ) +
+          p(
+            "<strong>Truity</strong> offers a free summary of your strengths results, but locks the detailed profile behind a paywall of $19-29. Similar story: you get a teaser, not the full picture."
+          ) +
+          p(
+            "Both platforms are legitimate assessments. But if you left a paid or paywalled experience and are looking for a genuine free alternative, neither HIGH5 nor Truity solves that problem. They use the same bait-and-switch model: free quiz, paid results."
+          ),
+      },
+      {
+        heading: "How to Use Your Strengths Results",
+        html: p(
+          "Getting your results is just the beginning. Here is how to make them useful:"
+        ) +
+          strong([
+            { label: "Career direction.", desc: "Match your top strengths to roles that need them. If Strategic Thinking is a top strength, look for roles in planning, analysis, or direction-setting. If Empathy is a top strength, lean into coaching, client relations, or team facilitation. Your strengths give you a vocabulary for explaining what you do best — use it in interviews, performance reviews, and career conversations." },
+            { label: "Team collaboration.", desc: "Share your strengths with your team. When your colleagues know you are naturally strong in Deliberative thinking, they stop reading your caution as hesitation and start valuing it as a strength. When they know you are strong in Communication, they bring you into presentations and client conversations." },
+            { label: "Personal growth.", desc: "Research suggests that people who focus on developing their natural strengths report higher satisfaction than those who focus only on fixing weaknesses. That does not mean ignoring weaknesses — it means investing more energy where you get the best return." },
+            { label: "Cross-framework insights.", desc: "Your Strengths profile tells you what you do well. Your <a href=\"/free-enneagram-test\">Enneagram type</a> tells you why you are motivated to do it. Your <a href=\"/free-disc-test\">DISC style</a> tells you how you communicate about it. Together, they give you a career compass that no single test can match." },
+          ]),
+      },
+    ],
+    faqs: [
+      {
+        question: "Is there a free alternative to strengths assessments?",
+        answer:
+          "Yes. 1Test offers a complete, free strengths assessment with full results, practical growth suggestions, and integration with three other personality frameworks. VIA Character Strengths is another free option with an academic focus.",
+      },
+      {
+        question: "What is the best free strengths test?",
+        answer:
+          "1Test offers the most complete free strengths assessment. You get your full profile, practical growth suggestions, and the option to compare your results across four personality frameworks — all at no cost. VIA Character Strengths is another free option, though it focuses more on academic character research than practical application.",
+      },
+      {
+        question: "How do I find out my strengths for free?",
+        answer:
+          "Take the free Strengths test on 1Test. It takes 5-10 minutes, and your full results are available immediately with no paywall. You also receive your DISC profile, Enneagram type, and 16 Personalities result from the same assessment.",
+      },
+      {
+        question: "Are free strengths assessments accurate?",
+        answer:
+          "Accuracy depends on research methodology, not price. Assessments built on validated personality research frameworks — like those used by 1Test and VIA — produce reliable results. The key is choosing an assessment with a transparent methodology and realistic claims.",
+      },
+      {
+        question: "How is 1Test different from HIGH5?",
+        answer:
+          "1Test gives you your complete strengths profile, ranked list, descriptions, and growth suggestions — all free, no paywall. HIGH5 shows your top 5 strengths for free, then charges for the full profile. 1Test also includes DISC, Enneagram, and 16 Personalities from the same assessment.",
+      },
+    ],
+    ctaHeading: "Ready to discover your strengths?",
+    ctaSubtext: "15 minutes, four frameworks, full results, no paywall.",
+    ctaFramework: "strengths",
+    ctaUrl: "/free-strengths-test",
+    crossLinks: [
+      { label: "Free DISC assessment", url: "/free-disc-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Free 16 Personalities test", url: "/free-personality-test" },
+      { label: "Best free strengths assessment comparison", url: "/blog/best-free-strengths-assessment" },
+    ],
+    datePublished: "2026-04-11",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

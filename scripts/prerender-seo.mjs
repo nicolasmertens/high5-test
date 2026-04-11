@@ -189,6 +189,13 @@ const BLOG_FAQS = {
     { question: "Can DISC be used for hiring?", answer: "DISC can help you understand how a candidate communicates and works, but it should never be used to screen candidates in or out. No DISC profile is better or worse for a role. The best practice is to use DISC for onboarding, team dynamics, and coaching — not for hiring decisions." },
     { question: "Is the DISC assessment free?", answer: "Yes. 1Test offers the DISC assessment free as part of a single assessment that covers all four frameworks. You receive your DISC profile, Enneagram type, Strengths ranking, and 16 Personalities result — all free, all from one 15-minute test." },
   ],
+  "/blog/strengths-finder-alternative": [
+    { question: "Is there a free alternative to strengths assessments?", answer: "Yes. 1Test offers a complete, free strengths assessment with full results, practical growth suggestions, and integration with three other personality frameworks. VIA Character Strengths is another free option with an academic focus." },
+    { question: "What is the best free strengths test?", answer: "1Test offers the most complete free strengths assessment. You get your full profile, practical growth suggestions, and the option to compare your results across four personality frameworks — all at no cost. VIA Character Strengths is another free option, though it focuses more on academic character research than practical application." },
+    { question: "How do I find out my strengths for free?", answer: "Take the free Strengths test on 1Test. It takes 5-10 minutes, and your full results are available immediately with no paywall. You also receive your DISC profile, Enneagram type, and 16 Personalities result from the same assessment." },
+    { question: "Are free strengths assessments accurate?", answer: "Accuracy depends on research methodology, not price. Assessments built on validated personality research frameworks — like those used by 1Test and VIA — produce reliable results. The key is choosing an assessment with a transparent methodology and realistic claims." },
+    { question: "How is 1Test different from HIGH5?", answer: "1Test gives you your complete strengths profile, ranked list, descriptions, and growth suggestions — all free, no paywall. HIGH5 shows your top 5 strengths for free, then charges for the full profile. 1Test also includes DISC, Enneagram, and 16 Personalities from the same assessment." },
+  ],
   "/blog/enneagram-career-guide": [
     { question: "Can your Enneagram type help you choose a career?", answer: "Yes. Your Enneagram type reveals your core motivation — what drives you at the deepest level. When your career aligns with that motivation, work feels meaningful. When it does not, even skilled work feels draining." },
     { question: "Which Enneagram type is best for business?", answer: "No type is inherently better for business. Threes naturally excel in goal-driven, competitive environments. Eights thrive in leadership and negotiation. Sixes bring risk awareness and reliability. Fives contribute analytical depth. The best teams have a mix of types." },
@@ -295,6 +302,13 @@ const SEO_DATA = {
     description:
       "Complete guide to the DISC assessment: what it measures, how to read your profile, and how to use DISC at work and in teams. Take the free DISC test at 1Test.",
     canonicalUrl: "https://1test.me/blog/disc-assessment-guide",
+    ogType: "article",
+  },
+  "/blog/strengths-finder-alternative": {
+    title: "Strengths Finder Alternative — Free Strengths Test With Full Results | 1Test",
+    description:
+      "Looking for a strengths finder alternative? Compare free options, see what each test offers, and take a free strengths assessment with complete results at 1Test.",
+    canonicalUrl: "https://1test.me/blog/strengths-finder-alternative",
     ogType: "article",
   },
   "/blog/enneagram-career-guide": {
@@ -415,6 +429,14 @@ const BODY_CONTENT = {
       { heading: "What Is a DISC Assessment?", text: "DISC is a behavioral assessment framework that describes your natural tendencies across four dimensions: Dominance, Influence, Steadiness, and Conscientiousness. It does not measure intelligence, skills, or values. It measures preferences — how you tend to respond to problems, people, pace, and procedures." },
       { heading: "The Four DISC Dimensions", text: "D (Dominance) measures how you handle challenges and make decisions. I (Influence) measures how you interact with people and express enthusiasm. S (Steadiness) measures how you respond to pace and consistency. C (Conscientiousness) measures how you approach details, rules, and accuracy. Most people have a primary style and a secondary style." },
       { heading: "Using DISC at Work", text: "DISC is most immediately useful for team communication, leadership development, and self-awareness. D-styles want brevity and bottom lines. I-styles want context and conversation. S-styles want thoughtful explanations and time to process. C-styles want data and logical structure. Most communication breakdowns happen because people speak in their own style, not the style of the person they are communicating with." },
+    ],
+  },
+  "/blog/strengths-finder-alternative": {
+    h1: "Strengths Finder Alternative: Free Strengths Assessment With Complete Results",
+    sections: [
+      { heading: "Why People Search for a Strengths Finder Alternative", text: "Most people search for an alternative because they took a strengths assessment that locked their full results behind a paywall, or they want results that use open, non-trademarked terminology. 1Test addresses both: genuinely free results with complete profiles, and generic language you can freely share and discuss." },
+      { heading: "Strengths Finder Alternatives Compared", text: "1Test and VIA are the only options that give you genuine free results with no paywall. 1Test provides career-oriented growth suggestions and includes three other personality frameworks (DISC, Enneagram, 16 Personalities). VIA focuses on academic character virtues. HIGH5 and Truity both offer free entry results but charge for full profiles." },
+      { heading: "How to Use Your Strengths Results", text: "Match your top strengths to roles that need them. Share your strengths with colleagues to improve team collaboration. Use your strengths to build on what works rather than fixing what does not. Combine your Strengths profile with your Enneagram type and DISC style for a richer career picture that no single test can match." },
     ],
   },
   "/blog/enneagram-career-guide": {
