@@ -11,6 +11,7 @@ import { PrivacyPolicy } from "./components/PrivacyPolicy.tsx";
 import { TermsOfService } from "./components/TermsOfService.tsx";
 import { AnalyticsProvider } from "./components/AnalyticsProvider.tsx";
 import { Footer } from "./components/Footer.tsx";
+import { RelationshipReportPage } from "./components/RelationshipReport.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -110,6 +111,7 @@ createRoot(document.getElementById("root")!).render(
             />
             <Route path="/privacy-draft" element={<PrivacyPolicy />} />
             <Route path="/terms-draft" element={<TermsOfService />} />
+            <Route path="/relationship/:id" element={<RelationshipReportPage />} />
           </Routes>
           <Footer />
         </AnalyticsProvider>

@@ -305,3 +305,67 @@ export function initScrollTracking(): () => void {
 export function resetScrollTracking(): void {
   sessionStorage.removeItem(SCROLL_TRACKED_KEY);
 }
+
+export function trackInviteSent(channel: string, inviteCount: number, isPaid: boolean): void {
+  posthog.capture("invite_sent", {
+    channel,
+    invite_count: inviteCount,
+    is_paid: isPaid,
+  });
+}
+
+export function trackInviteLinkCopied(isPaid: boolean): void {
+  posthog.capture("invite_sent", {
+    channel: "link",
+    invite_count: 0,
+    is_paid: isPaid,
+  });
+}
+
+export function trackInviteViewed(referralCode: string, inviterProfileHash: string): void {
+  posthog.capture("invite_viewed", {
+    referral_code: referralCode,
+    inviter_profile_hash: inviterProfileHash,
+  });
+}
+
+export function trackInviteCompleted(referralCode: string, inviteeProfileHash: string): void {
+  posthog.capture("invite_completed", {
+    referral_code: referralCode,
+    invitee_profile_hash: inviteeProfileHash,
+  });
+}
+
+export function trackRelationshipReportViewed(reportId: string, viewerRole: string): void {
+  posthog.capture("relationship_report_viewed", {
+    report_id: reportId,
+    viewer_role: viewerRole,
+  });
+}
+
+export function trackRelationshipReportShared(reportId: string, shareChannel: string): void {
+  posthog.capture("relationship_report_shared", {
+    report_id: reportId,
+    share_channel: shareChannel,
+  });
+}
+
+export function trackInviteUpsellShown(invitesUsed: number, isPaid: boolean): void {
+  posthog.capture("invite_upsell_shown", {
+    invites_used: invitesUsed,
+    is_paid: isPaid,
+  });
+}
+
+export function trackInviteUpsellClicked(invitesUsed: number, isPaid: boolean): void {
+  posthog.capture("invite_upsell_clicked", {
+    invites_used: invitesUsed,
+    is_paid: isPaid,
+  });
+}
+
+export function trackProfileStored(profileHash: string): void {
+  posthog.capture("profile_stored", {
+    profile_hash: profileHash,
+  });
+}

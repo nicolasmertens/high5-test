@@ -8,9 +8,11 @@ import { UpgradePrompt } from "./UpgradePrompt";
 import { ShareCard } from "./ShareCard";
 import { ShareButtons } from "./ShareButtons";
 import { EmailCapture } from "./EmailCapture";
+import { InviteSection } from "./InviteSection";
 import { useShareImage } from "../hooks/useShareImage";
 import { usePayment } from "../contexts/PaymentContext";
 import { trackUpgradeViewed, trackResultsViewed } from "../utils/analytics";
+import { getStoredReferralCode } from "../utils/profile";
 
 interface Props {
   results: StrengthScore[];
@@ -51,8 +53,11 @@ export function ResultsScreen({ results, onRestart }: Props) {
   }, [top5, personality.type, disc.style, enneagram.wingLabel]);
 
   const shareUrl = useMemo(
-    () =>
-      `https://1test.me/?utm_source=results_share&utm_medium=referral&utm_campaign=share-strengths`,
+    () => {
+      const ref = getStoredReferralCode();
+      const base = "https://1test.me/?utm_source=results_share&utm_medium=referral&utm_campaign=share-strengths";
+      return ref ? `${base}&ref=${ref}` : base;
+    },
     [],
   );
 
@@ -298,6 +303,13 @@ export function ResultsScreen({ results, onRestart }: Props) {
               </button>
             </div>
           </div>
+
+          <InviteSection
+            results={results}
+            personality={personality}
+            enneagram={enneagram}
+            disc={disc}
+          />
 
           <EmailCapture
             frameworkName="Strengths"

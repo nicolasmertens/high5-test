@@ -1,6 +1,7 @@
 import { type StrengthScore } from "../hooks/useAssessment";
 import { type PersonalityResult, type EnneagramResult, type DISCResult } from "../data/derivations";
 import { ShareButtons } from "./ShareButtons";
+import { InviteSection } from "./InviteSection";
 
 interface Props {
   results: StrengthScore[];
@@ -215,33 +216,12 @@ How your {disc.style} DISC profile and {personality.type} personality shape
 
       {/* Team / Invite */}
       <section className="branch-card branch-card-highlight">
-        <div className="branch-icon">👥</div>
-        <h3>See How You Work With Others</h3>
-        <p className="branch-desc">
-          Invite a colleague or friend to take 1Test. You'll both get a
-          personalized relationship report — how to communicate, collaborate,
-          and avoid friction.
-        </p>
-        <div className="branch-preview">
-          <div className="invite-preview">
-            <input
-              type="email"
-              className="invite-email"
-              placeholder="colleague@company.com"
-              disabled
-            />
-            <button className="share-btn share-linkedin" disabled>
-              Send Invite
-            </button>
-          </div>
-          <p className="invite-note">
-            First 3 invites are free. They take the test, you both get a
-            relationship report.
-          </p>
-        </div>
-        <div className="branch-cta">
-          <span className="coming-soon">Coming soon</span>
-        </div>
+        <InviteSection
+          results={results}
+          personality={personality}
+          enneagram={enneagram}
+          disc={disc}
+        />
       </section>
     </div>
   );
