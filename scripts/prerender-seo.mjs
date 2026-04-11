@@ -210,6 +210,13 @@ const BLOG_FAQS = {
     { question: "What if most of my team has the same DISC style?", answer: "Homogeneous teams have natural alignment but may have blind spots. A team full of High D styles will move fast but may miss important details. A team of High S styles will be stable but may resist change. Understanding this helps you build compensating systems — checklists for High D teams, explicit change management for High S teams." },
     { question: "How long does a team DISC assessment take?", answer: "About 15 minutes per person with 1Test. Each person answers roughly 120 questions and receives their DISC profile along with their Enneagram type, Strengths ranking, and 16 Personalities result — all from a single assessment." },
   ],
+  "/blog/enneagram-growth-paths": [
+    { question: "What are Enneagram growth paths?", answer: "Enneagram growth paths (also called integration and disintegration directions) describe how each type behaves at their best and under stress. When healthy, you naturally develop the positive qualities of your growth type. Under stress, you tend to take on the negative qualities of your stress type. Understanding these patterns gives you a personalized roadmap for development." },
+    { question: "How do I find my Enneagram growth direction?", answer: "Take the free Enneagram test on 1Test. Your results include your type, wing tendencies, growth direction (integration), and stress direction (disintegration) — all free with no paywall." },
+    { question: "Can your Enneagram type change?", answer: "Your core type tends to stay stable throughout your life. What changes is how you express it — whether you are moving toward your growth direction (healthy patterns) or your stress direction (unhealthy patterns). The goal is not to change your type, but to live from your growth direction more often." },
+    { question: "What is the difference between integration and disintegration?", answer: "Integration (growth direction) is when you are healthy, self-aware, and taking on the positive qualities of another type. Disintegration (stress direction) is when you are under pressure and take on the negative qualities of a different type. Both directions are always available — you move between them based on your level of self-awareness and the demands of your environment." },
+    { question: "How is the Enneagram growth path different from other personal development frameworks?", answer: "The Enneagram is unique in connecting each type to specific growth and stress patterns. Unlike general advice, the Enneagram tells you exactly which qualities to develop and which patterns to watch for, based on your specific type. Combined with DISC (how you communicate), Strengths (what you do best), and 16 Personalities (how you process information), you get a complete personal development plan." },
+  ],
   "/blog/enneagram-career-guide": [
     { question: "Can your Enneagram type help you choose a career?", answer: "Yes. Your Enneagram type reveals your core motivation — what drives you at the deepest level. When your career aligns with that motivation, work feels meaningful. When it does not, even skilled work feels draining." },
     { question: "Which Enneagram type is best for business?", answer: "No type is inherently better for business. Threes naturally excel in goal-driven, competitive environments. Eights thrive in leadership and negotiation. Sixes bring risk awareness and reliability. Fives contribute analytical depth. The best teams have a mix of types." },
@@ -346,6 +353,13 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/disc-test-team-building",
     ogType: "article",
   },
+  "/blog/enneagram-growth-paths": {
+    title: "Enneagram Growth Paths — How Each Type Evolves | 1Test",
+    description:
+      "Learn your Enneagram growth and stress directions. Practical guidance for each type's integration path and how to move toward healthier patterns. Free Enneagram test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/enneagram-growth-paths",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {
@@ -475,20 +489,20 @@ const BODY_CONTENT = {
       { heading: "Strengths Plus Other Frameworks", text: "Your Strengths profile tells you what you are naturally good at. DISC tells you how you prefer to work. Enneagram tells you why you are motivated. 16 Personalities tells you your preferred environment. Together, they give you a career compass that no single test can match. One free assessment at 1Test gives you all four profiles in about 15 minutes." },
     ],
   },
-  "/blog/disc-test-team-building": {
+"/blog/disc-test-team-building": {
     h1: "How to Use a DISC Test for Team Building",
     sections: [
       { heading: "Why DISC Works for Team Building", text: "When teams understand each other's communication styles, they collaborate more effectively and conflict less. DISC focuses on observable behavior — how someone tends to act, communicate, and respond professionally. That makes it immediately actionable without needing a psychology degree. Over 75% of Fortune 500 companies have used DISC for team development." },
-      { heading: "How to Run a DISC Team Assessment", text: "Have each team member take the assessment (about 15 minutes with 1Test), share results in a team setting, map the team's style composition, discuss communication preferences, and create team agreements based on what you learn. The conversation is where the value is — not just the results." },
+      { heading: "How to Run a DISC Team Assessment", text: "Have each team member take the DISC assessment (about 15 minutes with 1Test), share results in a team setting, map the team's style composition, discuss communication preferences, and create team agreements based on what you learn. The conversation is where the value is — not just the results." },
       { heading: "DISC for Managers and Leaders", text: "DISC gives managers a framework for adapting their leadership style: give High D members autonomy and clear goals, give High I members recognition and creative freedom, give High S members stability and personal connection, and give High C members detailed information and time to analyze. The best leaders flex based on who they are leading." },
     ],
   },
-  "/blog/enneagram-career-guide": {
-    h1: "Enneagram Career Paths: What Your Type Means for Your Work",
+  "/blog/enneagram-growth-paths": {
+    h1: "Enneagram Growth Paths: How Each Type Evolves",
     sections: [
-      { heading: "How the Enneagram Relates to Career", text: "Your Enneagram type reveals your core motivation — what drives you at the deepest level. Each type has a primary fear and desire that shape behavior, especially at work. Understanding your type helps you recognize patterns so you can make deliberate career choices instead of default ones." },
-      { heading: "Career Paths by Enneagram Type", text: "Type 1 Reformers thrive in quality-focused, ethics-driven roles. Type 2 Helpers excel in coaching, healthcare, and client service. Type 3 Achievers do well in competitive, goal-oriented environments. Type 4 Individualists flourish in creative and design-focused roles. Type 5 Investigators thrive in research, analysis, and specialized technical work. Type 6 Loyalists excel in risk management, compliance, and operations. Type 7 Enthusiasts gravitate toward entrepreneurship, product management, and variety-rich roles. Type 8 Challengers lead in executive, legal, and negotiation-heavy positions. Type 9 Peacemakers excel in mediation, counseling, and community-focused work." },
-      { heading: "Using Your Type for Career Decisions", text: "Your Enneagram type is a lens, not a prescription. Identify motivation over skill — your type tells you which work will feel meaningful. Watch for your type's pitfall. Combine Enneagram with DISC, Strengths, and 16 Personalities for a richer career profile than any single test can provide." },
+      { heading: "What Enneagram Growth Paths Are", text: "Every Enneagram type has a growth direction (integration) and a stress direction (disintegration). Growth points toward the positive qualities of another type — qualities you naturally develop when healthy. Stress points toward the negative qualities of a different type — patterns that emerge under pressure. Understanding these paths gives you a personalized roadmap for development." },
+      { heading: "Growth Paths for Each Type", text: "Type 1 grows to 7 (becomes joyful and spontaneous), stresses to 4 (becomes moody and self-critical). Type 2 grows to 4 (becomes self-aware and creative), stresses to 8 (becomes controlling and resentful). Type 3 grows to 6 (becomes cooperative and loyal), stresses to 9 (becomes apathetic and disengaged). Type 4 grows to 1 (becomes disciplined and objective), stresses to 2 (becomes clingy and approval-seeking). Type 5 grows to 8 (becomes decisive and engaged), stresses to 7 (becomes scattered and escapist). Type 6 grows to 9 (becomes trusting and peaceful), stresses to 3 (becomes image-driven and competitive). Type 7 grows to 5 (becomes focused and depth-oriented), stresses to 1 (becomes rigid and judgmental). Type 8 grows to 2 (becomes empathetic and generous), stresses to 5 (becomes withdrawn and paranoid). Type 9 grows to 3 (becomes energetic and self-directed), stresses to 6 (becomes anxious and indecisive)." },
+      { heading: "Using Growth Paths in Daily Life", text: "Recognize your stress patterns early — when you notice yourself moving toward your stress direction, you have a choice. Practice your growth qualities deliberately — cultivate the positive qualities of your growth type through conscious practice. Combine with other frameworks — your DISC style tells you how you communicate while growing, your Strengths tell you which tools you have, and your 16 Personalities type tells you your preferred environment for growth." },
     ],
   },
 };

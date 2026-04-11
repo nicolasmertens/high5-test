@@ -88,6 +88,10 @@ createRoot(document.getElementById("root")!).render(
               path="/blog/disc-test-team-building"
               element={<BlogPage slug="disc-test-team-building" />}
             />
+            <Route
+              path="/blog/enneagram-growth-paths"
+              element={<BlogPage slug="enneagram-growth-paths" />}
+            />
             <Route path="/privacy-draft" element={<PrivacyPolicy />} />
             <Route path="/terms-draft" element={<TermsOfService />} />
           </Routes>

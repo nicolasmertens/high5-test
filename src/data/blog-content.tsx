@@ -2142,7 +2142,150 @@ export const blogPosts: Record<string, BlogPost> = {
     datePublished: "2026-04-11",
   },
 
-  };
+  "enneagram-growth-paths": {
+    slug: "enneagram-growth-paths",
+    metaTitle: "Enneagram Growth Paths — How Each Type Evolves | 1Test",
+    metaDesc:
+      "Learn your Enneagram growth and stress directions. Practical guidance for each type's integration path and how to move toward healthier patterns. Free Enneagram test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/enneagram-growth-paths",
+    h1: "Enneagram Growth Paths: How Each Type Evolves",
+    sections: [
+      {
+        heading: "What Enneagram Growth Paths Are",
+        html: p(
+          "Every Enneagram type has a growth direction (also called integration) and a stress direction (also called disintegration). These are not random — they follow predictable patterns that reveal how you behave at your best and at your worst."
+        ) +
+          p(
+            "Understanding your growth path gives you a roadmap for personal development that is specific to your type. Instead of generic advice like \"be more confident\" or \"set better boundaries,\" the Enneagram tells you exactly which qualities to cultivate and which patterns to watch for."
+          ) +
+          p(
+            "The growth direction points toward the positive qualities of another type — qualities you naturally develop when you are healthy and self-aware. The stress direction points toward the negative qualities of a different type — patterns that emerge when you are under pressure and operating on autopilot."
+          ) +
+          p('<a href="/free-enneagram-test">Take the free Enneagram test</a> to find your type, or read on to understand how growth paths work.'),
+      },
+      {
+        heading: "How Growth and Stress Directions Work",
+        html: p(
+          "The Enneagram organizes the nine types into a pattern where each type connects to two others through lines on the Enneagram diagram:"
+        ) +
+          ul([
+            "<strong>Growth direction (integration):</strong> When you are healthy, self-aware, and growing, you naturally take on the positive qualities of the type your growth line points to. A Type 1 growing toward 7 becomes more joyful and spontaneous. A Type 6 growing toward 9 becomes more trusting and peaceful.",
+            "<strong>Stress direction (disintegration):</strong> When you are under pressure, exhausted, or operating on autopilot, you tend to take on the negative qualities of the type your stress line points to. A Type 3 under stress takes on the negative qualities of 9 — becoming apathetic and disengaged. A Type 8 under stress takes on the negative qualities of 5 — becoming withdrawn and secretive.",
+          ]) +
+          p(
+            "These directions are not random. They reflect deep psychological connections between types. Understanding them gives you early warning signs for stress and a clear path for growth."
+          ),
+      },
+      {
+        heading: "Growth Paths for Each Type",
+        html: h3("Type 1 — Growth to 7, Stress to 4") +
+          p("Growth: When healthy, Ones become more joyful, spontaneous, and playful — like a healthy 7. They let go of rigid perfectionism and embrace what is good enough.") +
+          p("Stress: Under pressure, Ones take on the emotional intensity and self-criticism of an unhealthy 4. They become moody, self-absorbed, and prone to feeling that nothing is good enough.") +
+          p("<strong>Growth practice:</strong> Schedule unstructured time. Deliberately do something imperfect and notice that the world does not end. Practice saying \"this is good enough\" before refining further.") +
+          h3("Type 2 — Growth to 4, Stress to 8") +
+          p("Growth: When healthy, Twos become more self-aware, emotionally honest, and creative — like a healthy 4. They learn to identify their own needs instead of only attending to others'.") +
+          p("Stress: Under pressure, Twos take on the directness and control-seeking of an unhealthy 8. They become demanding, manipulative, and resentful when their giving is not reciprocated.") +
+          p("<strong>Growth practice:</strong> Before helping someone, ask: \"What do I need right now?\" Practice expressing your own desires directly rather than through indirect giving.") +
+          h3("Type 3 — Growth to 6, Stress to 9") +
+          p("Growth: When healthy, Threes become more cooperative, loyal, and committed to others — like a healthy 6. They shift from chasing personal achievement to building genuine partnerships.") +
+          p("Stress: Under pressure, Threes take on the apathy and disengagement of an unhealthy 9. They lose motivation, avoid tasks, and numb out instead of addressing problems.") +
+          p("<strong>Growth practice:</strong> Ask yourself: \"Do I want this, or do I want others to see me wanting this?\" Build relationships where you are valued for who you are, not what you achieve.") +
+          h3("Type 4 — Growth to 1, Stress to 2") +
+          p("Growth: When healthy, Fours become more disciplined, principled, and objective — like a healthy 1. They channel their emotional depth into purposeful action rather than endless feeling.") +
+          p("Stress: Under pressure, Fours take on the people-pleasing and approval-seeking of an unhealthy 2. They become clingy and dependent on others' validation.") +
+          p("<strong>Growth practice:</strong> Set a deadline for creative projects and ship before they feel perfect. Channel your emotional depth into constructive action rather than rumination.") +
+          h3("Type 5 — Growth to 8, Stress to 7") +
+          p("Growth: When healthy, Fives become more decisive, confident, and engaged — like a healthy 8. They move from observation to action and share their knowledge boldly.") +
+          p("Stress: Under pressure, Fives take on the scattered energy and overconsumption of an unhealthy 7. They bounce between interests without depth, or use information-seeking as an escape from engagement.") +
+          p("<strong>Growth practice:</strong> Share your thinking before it is fully formed. Set a research deadline and commit to acting on what you know by that date. Practice speaking up in meetings even when you are not 100% certain.") +
+          h3("Type 6 — Growth to 9, Stress to 3") +
+          p("Growth: When healthy, Sixes become more trusting, peaceful, and internally grounded — like a healthy 9. They stop second-guessing and start trusting their own judgment.") +
+          p("Stress: Under pressure, Sixes take on the image-consciousness and competitiveness of an unhealthy 3. They become driven by what looks successful rather than what feels right.") +
+          p("<strong>Growth practice:</strong> When you have done the research, make the decision. Not every choice needs to be perfect — it needs to be timely. Practice trusting your own judgment in small decisions first.") +
+          h3("Type 7 — Growth to 5, Stress to 1") +
+          p("Growth: When healthy, Sevens become more focused, depth-oriented, and observant — like a healthy 5. They choose depth over breadth and follow through on commitments.") +
+          p("Stress: Under pressure, Sevens take on the rigid perfectionism and criticism of an unhealthy 1. They become surprisingly judgmental and inflexible when their freedom feels threatened.") +
+          p("<strong>Growth practice:</strong> Choose one project and finish it before starting the next. Practice sitting with discomfort instead of immediately seeking a new distraction. Your enthusiasm is a gift — channeling it requires commitment.") +
+          h3("Type 8 — Growth to 2, Stress to 5") +
+          p("Growth: When healthy, Eights become more empathetic, generous, and caring — like a healthy 2. They use their strength to protect and support rather than control.") +
+          p("Stress: Under pressure, Eights take on the withdrawal and secrecy of an unhealthy 5. They pull back, hoard information, and become paranoid about others' motives.") +
+          p("<strong>Growth practice:</strong> Practice asking before telling. Vulnerability is not weakness — it is the bridge to genuine connection. The strongest leaders create space for others to contribute.") +
+          h3("Type 9 — Growth to 3, Stress to 6") +
+          p("Growth: When healthy, Nines become more energetic, focused, and self-directed — like a healthy 3. They stop merging with others' agendas and start pursuing their own goals with clarity and determination.") +
+          p("Stress: Under pressure, Nines take on the anxiety and worst-case-scenario thinking of an unhealthy 6. They become indecisive, anxious, and doubt their own judgment.") +
+          p("<strong>Growth practice:</strong> Practice stating what you want before asking what others want. Set a personal goal and track your progress. Your ability to see all sides is a strength — but only if your own perspective is in the mix.") +
+          p(
+            "Want to find your type and growth direction? <a href=\"/free-enneagram-test\">Take the free Enneagram test</a>."
+          ),
+      },
+      {
+        heading: "Using Growth Paths in Daily Life",
+        html: p(
+          "Knowing your growth path is one thing. Using it is another. Here is how to make it practical:"
+        ) +
+          strong([
+            { label: "Recognize your stress patterns early.", desc: "The moment you notice yourself moving toward your stress direction, you have a choice: continue on autopilot, or intervene. The earlier you catch it, the easier it is to redirect. If you are a 3 and you feel yourself checking out and becoming apathetic (9 stress patterns), that is your signal to re-engage before it gets worse." },
+            { label: "Practice your growth qualities deliberately.", desc: "Growth does not happen automatically. You cultivate the positive qualities of your growth type through conscious practice. A 6 growing toward 9 does not just become trusting overnight — they practice small acts of trust, notice when their mind drifts to worst-case scenarios, and choose to stay present instead." },
+            { label: "Combine with other frameworks.", desc: "Your Enneagram growth path tells you what to develop. Your <a href=\"/free-disc-test\">DISC style</a> tells you how you communicate while developing it. Your <a href=\"/free-strengths-test\">Strengths profile</a> tells you which tools you have. Your <a href=\"/free-personality-test\">16 Personalities type</a> tells you your preferred environment for growth. Together, they give you a personalized development plan." },
+            { label: "Track your patterns.", desc: "Keep a simple journal noting when you feel yourself moving toward your growth direction (healthy patterns) vs. your stress direction (unhealthy patterns). Over time, you will see the triggers that push you into stress and the practices that pull you toward growth." },
+          ]),
+      },
+      {
+        heading: "Your Growth Path Is Not a Limitation",
+        html: p(
+          "Your Enneagram type and its growth direction do not limit you. They describe patterns — tendencies that show up when you are operating on autopilot. When you are aware of those patterns, you gain the ability to choose differently."
+        ) +
+          p(
+            "A Type 1 who is aware of their growth path can choose spontaneity when the situation calls for it. A Type 8 who is aware can choose vulnerability instead of control. A Type 9 who is aware can choose to speak up instead of merging."
+        ) +
+          p(
+            "The Enneagram does not tell you who you are. It tells you what you tend to do when you are not paying attention. Paying attention is the growth."
+        ) +
+          p(
+            "One <a href=\"/free-personality-test\">free assessment at 1Test</a> gives you your Enneagram type, growth direction, and stress direction — plus DISC, Strengths, and 16 Personalities — in about 15 minutes."
+          ),
+      },
+    ],
+    faqs: [
+      {
+        question: "What are Enneagram growth paths?",
+        answer:
+          "Enneagram growth paths (also called integration and disintegration directions) describe how each type behaves at their best and under stress. When healthy, you naturally develop the positive qualities of your growth type. Under stress, you tend to take on the negative qualities of your stress type. Understanding these patterns gives you a personalized roadmap for development.",
+      },
+      {
+        question: "How do I find my Enneagram growth direction?",
+        answer:
+          "Take the free Enneagram test on 1Test. Your results include your type, wing tendencies, growth direction (integration), and stress direction (disintegration) — all free with no paywall.",
+      },
+      {
+        question: "Can your Enneagram type change?",
+        answer:
+          "Your core type tends to stay stable throughout your life. What changes is how you express it — whether you are moving toward your growth direction (healthy patterns) or your stress direction (unhealthy patterns). The goal is not to change your type, but to live from your growth direction more often.",
+      },
+      {
+        question: "What is the difference between integration and disintegration?",
+        answer:
+          "Integration (growth direction) is when you are healthy, self-aware, and taking on the positive qualities of another type. Disintegration (stress direction) is when you are under pressure and take on the negative qualities of a different type. Both directions are always available — you move between them based on your level of self-awareness and the demands of your environment.",
+      },
+      {
+        question: "How is the Enneagram growth path different from other personal development frameworks?",
+        answer:
+          "The Enneagram is unique in connecting each type to specific growth and stress patterns. Unlike general advice like \"be more confident\" or \"set better boundaries,\" the Enneagram tells you exactly which qualities to develop and which patterns to watch for, based on your specific type. Combined with DISC (how you communicate), Strengths (what you do best), and 16 Personalities (how you process information), you get a complete personal development plan.",
+      },
+    ],
+    ctaHeading: "Ready to discover your growth path?",
+    ctaSubtext: "15 minutes, four frameworks, complete picture.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Free DISC assessment", url: "/free-disc-test" },
+      { label: "Free Strengths test", url: "/free-strengths-test" },
+      { label: "Free 16 Personalities test", url: "/free-personality-test" },
+      { label: "Enneagram career paths", url: "/blog/enneagram-career-paths" },
+    ],
+    datePublished: "2026-04-11",
+  },
+};
 
 function strong(items: { label: string; desc: string }[]): string {
   return items
