@@ -2285,6 +2285,219 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-11",
   },
+
+  "enneagram-types-explained": {
+    slug: "enneagram-types-explained",
+    metaTitle: "Enneagram Types Explained — All 9 Types With Growth Paths | 1Test",
+    metaDesc:
+      "Complete guide to all 9 Enneagram types: motivations, strengths, growth paths, and stress patterns. Learn your type and how to grow. Free Enneagram test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/enneagram-types-explained",
+    h1: "Enneagram Types Explained: All 9 Types, Growth Paths, and What Drives You",
+    sections: [
+      {
+        heading: "What the Enneagram Measures",
+        html: p(
+          "The Enneagram describes nine core motivations — not just what you do, but why you do it. Each of the nine types has a primary fear and a primary desire that shape every decision you make, especially at work and in relationships."
+        ) +
+          p(
+            "Unlike behavioral frameworks that focus on observable actions (like <a href=\"/free-disc-test\">DISC</a>), the Enneagram focuses on what drives you underneath. Two people can act the same way for completely different reasons — the Enneagram reveals those reasons."
+          ) +
+          p(
+            "Understanding your type gives you a map for personal growth, better relationships, and more informed career decisions. <a href=\"/free-enneagram-test\">Take the free Enneagram test</a> to find your type, or read on for a complete guide to all nine."
+          ),
+      },
+      {
+        heading: "Type 1 — The Reformer",
+        html: p(
+          "<strong>Core motivation:</strong> To be good, right, and ethical"
+        ) +
+          p(
+            "Ones are principled, disciplined, and driven by a strong sense of right and wrong. They have high standards for themselves and others, and they are often the people who notice what needs to be improved and care enough to fix it."
+          ) +
+          p("<strong>Strengths:</strong> Integrity, discipline, attention to detail, commitment to improvement, reliability.") +
+          p("<strong>Growth edge:</strong> Perfectionism, self-criticism, rigidity. Ones can become so focused on doing things correctly that they lose sight of what matters. They may judge others who do not share their standards.") +
+          p("<strong>Growth direction (toward 7):</strong> When healthy, Ones become more joyful, spontaneous, and playful. They learn to accept imperfection and enjoy the process rather than fixating on the outcome.") +
+          p("<strong>Stress direction (toward 4):</strong> Under pressure, Ones take on the emotional intensity and self-absorption of an unhealthy 4. They become moody, critical, and feel that nothing is good enough.") +
+          p("<strong>Best work environments:</strong> Ones thrive in structured environments that value quality, ethics, and continuous improvement. They excel in quality assurance, compliance, law, education, and environmental advocacy."),
+      },
+      {
+        heading: "Type 2 — The Helper",
+        html: p(
+          "<strong>Core motivation:</strong> To feel loved and needed by others"
+        ) +
+          p(
+            "Twos are warm, empathetic, and genuinely invested in the well-being of others. They are the colleagues who remember your birthday and notice when you are having a hard day. They build deep relationships and derive satisfaction from making a difference in people's lives."
+          ) +
+          p("<strong>Strengths:</strong> Empathy, relationship-building, generosity, emotional intelligence, making others feel valued.") +
+          p("<strong>Growth edge:</strong> People-pleasing, boundary issues, and burnout. Twos often give so much to others that they neglect their own needs, then resent the people they helped. They may struggle to ask for what they need directly.") +
+          p("<strong>Growth direction (toward 4):</strong> When healthy, Twos become more self-aware, emotionally honest, and creative. They learn to identify their own feelings and needs instead of only attending to others'.") +
+          p("<strong>Stress direction (toward 8):</strong> Under pressure, Twos take on the directness and controlling tendencies of an unhealthy 8. They become demanding, manipulative, and resentful when their giving is not reciprocated.") +
+          p("<strong>Best work environments:</strong> Twos thrive in roles that involve helping, supporting, and connecting with people. They excel in counseling, nursing, HR, customer success, coaching, and community management."),
+      },
+      {
+        heading: "Type 3 — The Achiever",
+        html: p(
+          "<strong>Core motivation:</strong> To be successful, admired, and valuable"
+        ) +
+          p(
+            "Threes are energetic, ambitious, and highly focused on results. They set goals, hit them, and set bigger ones. They are naturally skilled at reading what a situation requires and adapting to deliver results, which makes them effective in competitive environments."
+          ) +
+          p("<strong>Strengths:</strong> Goal-setting, efficiency, adaptability, presentation skills, driving results under pressure.") +
+          p("<strong>Growth edge:</strong> Over-identifying with achievements, chameleon behavior, and avoiding failure at all costs. Threes can lose track of what they actually want versus what looks impressive to others.") +
+          p("<strong>Growth direction (toward 6):</strong> When healthy, Threes become more cooperative, loyal, and committed to others. They shift from chasing personal achievement to building genuine partnerships and supporting team success.") +
+          p("<strong>Stress direction (toward 9):</strong> Under pressure, Threes take on the apathy and disengagement of an unhealthy 9. They lose motivation, avoid tasks, and numb out instead of addressing problems.") +
+          p("<strong>Best work environments:</strong> Threes thrive in competitive, results-oriented environments where achievement is recognized. They excel in sales, entrepreneurship, management consulting, marketing, and executive leadership."),
+      },
+      {
+        heading: "Type 4 — The Individualist",
+        html: p(
+          "<strong>Core motivation:</strong> To be unique, authentic, and emotionally fulfilled"
+        ) +
+          p(
+            "Fours are creative, emotionally deep, and driven by a need for authenticity. They see beauty and meaning where others see the ordinary, and they refuse to do work that feels inauthentic. They are the people who bring originality and emotional intelligence to everything they touch."
+          ) +
+          p("<strong>Strengths:</strong> Creativity, emotional intelligence, authenticity, depth of feeling, ability to see what others miss.") +
+          p("<strong>Growth edge:</strong> Moodiness, comparison, and withdrawal. Fours can feel that others have it easier or better, which leads to creative blocks and self-absorption. They may resist practical constraints that feel stifling.") +
+          p("<strong>Growth direction (toward 1):</strong> When healthy, Fours become more disciplined, principled, and objective. They channel their emotional depth into purposeful action rather than endless feeling.") +
+          p("<strong>Stress direction (toward 2):</strong> Under pressure, Fours take on the people-pleasing and approval-seeking of an unhealthy 2. They become clingy and dependent on others' validation.") +
+          p("<strong>Best work environments:</strong> Fours thrive in creative, values-driven environments that value originality and depth. They excel in design, writing, art direction, UX research, therapy, music, and brand strategy."),
+      },
+      {
+        heading: "Type 5 — The Investigator",
+        html: p(
+          "<strong>Core motivation:</strong> To understand, observe, and master knowledge"
+        ) +
+          p(
+            "Fives are analytical, independent, and deeply curious. They want to understand how things work and often become recognized experts in their chosen fields. They are the people who research everything, find elegant solutions, and remain calm when everyone else is panicking."
+          ) +
+          p("<strong>Strengths:</strong> Deep analysis, objectivity, independence, concentration, ability to synthesize complex information into clear frameworks.") +
+          p("<strong>Growth edge:</strong> Isolation, over-preparation, and emotional detachment. Fives can spend so long gathering information that they never act. They may withdraw from people who seem draining and struggle to share their thinking in progress.") +
+          p("<strong>Growth direction (toward 8):</strong> When healthy, Fives become more decisive, confident, and engaged. They move from observation to action and share their knowledge boldly with the world.") +
+          p("<strong>Stress direction (toward 7):</strong> Under pressure, Fives take on the scattered energy and overconsumption of an unhealthy 7. They bounce between interests without depth or use information-seeking as an escape from engagement.") +
+          p("<strong>Best work environments:</strong> Fives thrive in environments that reward deep expertise and independent thinking. They excel in software engineering, data science, research, technical writing, cybersecurity, and specialized consulting."),
+      },
+      {
+        heading: "Type 6 — The Loyalist",
+        html: p(
+          "<strong>Core motivation:</strong> To be secure, supported, and prepared"
+        ) +
+          p(
+            "Sixes are responsible, loyal, and vigilant. They anticipate problems before they happen and build systems that prevent disaster. They are the people who keep teams safe, projects on track, and organizations resilient."
+          ) +
+          p("<strong>Strengths:</strong> Planning, risk assessment, loyalty, preparation, seeing all sides of a problem, building trust within teams.") +
+          p("<strong>Growth edge:</strong> Anxiety, overthinking, and doubt. Sixes can get stuck in worst-case-scenario loops that prevent action. They may struggle with authority — either deferring too much or rebelling too hard.") +
+          p("<strong>Growth direction (toward 9):</strong> When healthy, Sixes become more trusting, peaceful, and internally grounded. They stop second-guessing and start trusting their own judgment.") +
+          p("<strong>Stress direction (toward 3):</strong> Under pressure, Sixes take on the image-consciousness and competitiveness of an unhealthy 3. They become driven by what looks successful rather than what feels right.") +
+          p("<strong>Best work environments:</strong> Sixes thrive in structured environments that value preparation and reliability. They excel in risk management, project management, healthcare administration, legal compliance, emergency services, and quality assurance."),
+      },
+      {
+        heading: "Type 7 — The Enthusiast",
+        html: p(
+          "<strong>Core motivation:</strong> To experience joy, variety, and possibility"
+        ) +
+          p(
+            "Sevens are optimistic, energetic, and endlessly curious. They generate ideas freely, connect disparate concepts, and bring enthusiasm to everything they touch. They are the people who see opportunities where others see problems and who keep teams energized during long projects."
+          ) +
+          p("<strong>Strengths:</strong> Ideation, adaptability, enthusiasm, rapid learning, connecting disparate ideas, energizing teams.") +
+          p("<strong>Growth edge:</strong> Overcommitment, scattered focus, and avoidance of pain. Sevens start more projects than they finish and may use busyness to avoid difficult emotions. They can struggle with follow-through and depth.") +
+          p("<strong>Growth direction (toward 5):</strong> When healthy, Sevens become more focused, depth-oriented, and observant. They choose depth over breadth and follow through on commitments before starting something new.") +
+          p("<strong>Stress direction (toward 1):</strong> Under pressure, Sevens take on the rigid perfectionism and criticism of an unhealthy 1. They become surprisingly judgmental and inflexible when their freedom feels threatened.") +
+          p("<strong>Best work environments:</strong> Sevens thrive in dynamic, varied environments that reward creativity and quick thinking. They excel in entrepreneurship, product management, events, content creation, consulting, and media production."),
+      },
+      {
+        heading: "Type 8 — The Challenger",
+        html: p(
+          "<strong>Core motivation:</strong> To be strong, in control, and self-reliant"
+        ) +
+          p(
+            "Eights are direct, decisive, and protective. They confront problems head-on and refuse to back down when something matters. They are the people who make tough decisions, protect the vulnerable, and drive action when others hesitate."
+          ) +
+          p("<strong>Strengths:</strong> Decisiveness, courage, protective instincts, resilience, ability to make hard calls under pressure.") +
+          p("<strong>Growth edge:</strong> Dominance, insensitivity, and a tendency to escalate conflict. Eights can push too hard, override others' input, and create environments where people are afraid to speak up.") +
+          p("<strong>Growth direction (toward 2):</strong> When healthy, Eights become more empathetic, generous, and caring. They use their strength to protect and support rather than control.") +
+          p("<strong>Stress direction (toward 5):</strong> Under pressure, Eights take on the withdrawal and secrecy of an unhealthy 5. They pull back, hoard information, and become suspicious of others' motives.") +
+          p("<strong>Best work environments:</strong> Eights thrive in high-stakes, fast-paced environments that reward decisive action. They excel in executive leadership, law, entrepreneurship, military, crisis management, and negotiation-heavy roles."),
+      },
+      {
+        heading: "Type 9 — The Peacemaker",
+        html: p(
+          "<strong>Core motivation:</strong> To be at peace, in harmony, and connected"
+        ) +
+          p(
+            "Nines are calm, empathetic, and naturally skilled at seeing all perspectives. They keep teams together, mediate conflicts, and create environments where everyone feels heard. They are the people who hold steady when everything around them is chaotic."
+          ) +
+          p("<strong>Strengths:</strong> Empathy, conflict resolution, inclusivity, patience, ability to synthesize multiple viewpoints into coherent solutions.") +
+          p("<strong>Growth edge:</strong> Conflict avoidance, self-forgetting, and inertia. Nines can merge with others' agendas and lose touch with their own priorities. They may nod along in meetings and then feel frustrated that nothing they wanted happened.") +
+          p("<strong>Growth direction (toward 3):</strong> When healthy, Nines become more energetic, focused, and self-directed. They stop merging with others' agendas and start pursuing their own goals with clarity and determination.") +
+          p("<strong>Stress direction (toward 6):</strong> Under pressure, Nines take on the anxiety and worst-case-scenario thinking of an unhealthy 6. They become indecisive, anxious, and doubt their own judgment.") +
+          p("<strong>Best work environments:</strong> Nines thrive in supportive, team-oriented environments that value collaboration and consensus. They excel in mediation, HR, counseling, environmental work, teaching, healthcare, and community organizing."),
+      },
+      {
+        heading: "Using Your Enneagram Type for Growth",
+        html: p(
+          "Knowing your type is the first step. Using it is where change happens. Here is a practical framework:"
+        ) +
+          ol([
+            "<strong>Identify your core motivation.</strong> Your Enneagram type reveals the primary fear and desire that drive your decisions. When you know that a 3 is motivated by feeling valuable and a 6 is motivated by feeling secure, you can make better career and relationship choices that align with what actually drives you.",
+            "<strong>Watch for your stress patterns.</strong> Each type has predictable stress behaviors. When you notice yourself moving toward your stress direction, you have a choice: continue on autopilot, or intervene. The earlier you catch it, the easier it is to redirect.",
+            "<strong>Practice your growth qualities.</strong> Growth does not happen automatically. A 1 growing toward 7 does not just become joyful — they practice small acts of spontaneity. A 6 growing toward 9 does not just become trusting — they practice small acts of trust. Deliberate practice creates lasting change.",
+            "<strong>Combine frameworks.</strong> Your Enneagram tells you why. Your <a href=\"/free-disc-test\">DISC style</a> tells you how you communicate while growing. Your <a href=\"/free-strengths-test\">Strengths profile</a> tells you which tools you have. Your <a href=\"/free-personality-test\">16 Personalities type</a> tells you your preferred environment. Together, they give you a personalized development plan.",
+          ]),
+      },
+      {
+        heading: "Frequently Asked Questions",
+        html: p("<strong>What are the nine Enneagram types?</strong>") +
+          p("The nine types are: Type 1 (Reformer), Type 2 (Helper), Type 3 (Achiever), Type 4 (Individualist), Type 5 (Investigator), Type 6 (Loyalist), Type 7 (Enthusiast), Type 8 (Challenger), and Type 9 (Peacemaker). Each type has a core fear, core desire, growth direction, and stress direction that shape how you behave at your best and under pressure.") +
+          p("<strong>How do I find out my Enneagram type?</strong>") +
+          p("Take the free Enneagram test on 1Test. It takes about 8-12 minutes, and you receive your type, wing tendencies, growth direction, and stress direction — all free with no paywall. You also get your DISC profile, Strengths ranking, and 16 Personalities result from the same assessment.") +
+          p("<strong>Can your Enneagram type change?</strong>") +
+          p("Your core type tends to stay stable throughout your life. What changes is how you express it — whether you are moving toward your growth direction (healthy patterns) or your stress direction (unhealthy patterns). The goal is not to change your type, but to live from your growth direction more often.") +
+          p("<strong>What is a wing?</strong>") +
+          p("A wing is the adjacent Enneagram type that influences how you express your main type. For example, a Type 3 with a 2-wing is more people-oriented and charming, while a Type 3 with a 4-wing is more introspective and creative. Most people lean toward one wing more than the other.") +
+          p("<strong>How is the Enneagram different from DISC?</strong>") +
+          p("DISC describes how you behave — your observable actions, especially at work. The Enneagram describes why you behave that way — your core fears, desires, and motivations. DISC is more practical for team dynamics. The Enneagram is more useful for personal growth and understanding deep patterns. Taking both gives you a richer picture."),
+      },
+    ],
+    faqs: [
+      {
+        question: "What are the nine Enneagram types?",
+        answer:
+          "The nine types are: Type 1 (Reformer), Type 2 (Helper), Type 3 (Achiever), Type 4 (Individualist), Type 5 (Investigator), Type 6 (Loyalist), Type 7 (Enthusiast), Type 8 (Challenger), and Type 9 (Peacemaker). Each type has a core fear, core desire, growth direction, and stress direction.",
+      },
+      {
+        question: "How do I find out my Enneagram type?",
+        answer:
+          "Take the free Enneagram test on 1Test. It takes about 8-12 minutes, and you receive your type, wing tendencies, growth direction, and stress direction — all free with no paywall.",
+      },
+      {
+        question: "Can your Enneagram type change?",
+        answer:
+          "Your core type tends to stay stable throughout your life. What changes is how you express it — whether you are moving toward your growth direction (healthy patterns) or your stress direction (unhealthy patterns). The goal is not to change your type, but to live from your growth direction more often.",
+      },
+      {
+        question: "What is a wing in the Enneagram?",
+        answer:
+          "A wing is the adjacent Enneagram type that influences how you express your main type. For example, a Type 3 with a 2-wing is more people-oriented and charming, while a Type 3 with a 4-wing is more introspective and creative. Most people lean toward one wing more than the other.",
+      },
+      {
+        question: "How is the Enneagram different from DISC?",
+        answer:
+          "DISC describes how you behave — your observable actions, especially at work. The Enneagram describes why you behave that way — your core fears, desires, and motivations. DISC is more practical for team dynamics. The Enneagram is more useful for personal growth and understanding deep patterns. Taking both gives you a richer picture.",
+      },
+    ],
+    ctaHeading: "Ready to discover your Enneagram type?",
+    ctaSubtext: "15 minutes, four frameworks, complete picture.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Free DISC assessment", url: "/free-disc-test" },
+      { label: "Free Strengths test", url: "/free-strengths-test" },
+      { label: "Free 16 Personalities test", url: "/free-personality-test" },
+      { label: "Enneagram career paths", url: "/blog/enneagram-career-paths" },
+      { label: "Enneagram growth paths guide", url: "/blog/enneagram-growth-paths" },
+    ],
+    datePublished: "2026-04-11",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {
