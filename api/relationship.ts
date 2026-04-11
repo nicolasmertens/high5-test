@@ -1,9 +1,9 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { getProfile } from "../api/lib/profile-storage";
-import { getReport, getReportsByProfile, storeReport } from "../api/lib/relationship-storage";
-import { generateRelationshipReport } from "../api/lib/compatibility";
-import { getInviteByReferralCode, completeInvite } from "../api/lib/invite-storage";
-import { postHogTrack } from "../api/lib/send";
+import { getProfile } from "./lib/profile-storage";
+import { getReport, getReportsByProfile, storeReport } from "./lib/relationship-storage";
+import { generateRelationshipReport } from "./lib/compatibility";
+import { getInviteByReferralCode, completeInvite } from "./lib/invite-storage";
+import { postHogTrack } from "./lib/send";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method === "POST") {

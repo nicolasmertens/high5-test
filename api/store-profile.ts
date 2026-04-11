@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { storeProfile, getProfile, type StoredProfile } from "../api/lib/profile-storage";
+import { storeProfile, getProfile, type StoredProfile } from "./lib/profile-storage";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== "POST") {
