@@ -1842,6 +1842,166 @@ export const blogPosts: Record<string, BlogPost> = {
     datePublished: "2026-04-11",
   },
 
+  "disc-test-team-building": {
+    slug: "disc-test-team-building",
+    metaTitle: "DISC Test for Team Building — How to Use DISC With Your Team | 1Test",
+    metaDesc:
+      "How to use DISC for team building: run a team assessment, interpret results, improve communication, and run effective workshops. Free DISC test for teams at 1Test.",
+    canonicalUrl: "https://1test.me/blog/disc-test-team-building",
+    h1: "How to Use a DISC Test for Team Building",
+    sections: [
+      {
+        heading: "Why DISC Works for Team Building",
+        html: p(
+          "When teams understand each other's communication styles, they collaborate more effectively and conflict less. DISC is one of the most widely used frameworks for team building because it gives teams a shared, simple language for behavioral differences."
+        ) +
+          p(
+            "Unlike personality tests that focus on deep motivations or cognitive preferences, DISC focuses on observable behavior — how someone tends to act, communicate, and respond in professional settings. That makes it immediately actionable. You do not need a psychology degree to use it."
+        ) +
+          p(
+            "According to industry surveys, over 75% of Fortune 500 companies have used DISC assessments for team development. The reason is simple: it works. Teams that understand their DISC composition report fewer conflicts, more effective meetings, and better collaboration. <a href=\"/free-disc-test\">Take the free DISC test</a> to find your style, or read on to learn how to use DISC with your team."
+          ),
+      },
+      {
+        heading: "How to Run a DISC Team Assessment",
+        html: p(
+          "Running a DISC assessment with your team takes about 15 minutes per person and produces results you can use immediately."
+        ) +
+          ol([
+            "<strong>Have each team member take the assessment.</strong> With 1Test, each person answers roughly 120 questions and receives their DISC profile, Enneagram type, Strengths ranking, and 16 Personalities result — all from a single assessment. You can use just the DISC portion for team building or layer in the other frameworks for deeper insights.",
+            "<strong>Share results in a team setting.</strong> The key is creating a safe environment where people can discuss their styles openly. Frame it as \"understanding differences,\" not \"labeling people.\" DISC describes tendencies, not limitations.",
+            "<strong>Map the team's DISC composition.</strong> Create a simple grid or chart showing where each person falls on the four dimensions. This visual makes it easy to see the team's natural strengths and potential friction points.",
+            "<strong>Discuss communication preferences.</strong> Ask each person to share how they prefer to receive information and how they tend to communicate. This conversation alone often resolves misunderstandings that have existed for months.",
+            "<strong>Create team agreements.</strong> Based on what you learn, agree on communication norms. For example: \"High D team members will give context before asking for action items. High S team members will voice concerns early rather than absorbing them.\"",
+          ]),
+      },
+      {
+        heading: "Team Activities Using DISC",
+        html: p(
+          "Here are practical team-building activities that use DISC to improve communication and collaboration:"
+        ) +
+          h3("DISC Style Swap") +
+          p("Have each team member write a short email or project update in their natural DISC style. Then have them rewrite it in a different style. This exercise builds empathy and shows how the same information sounds different depending on who delivers it.") +
+          h3("Communication Charter") +
+          p("As a team, create a one-page communication charter based on your DISC profiles. Include: how each person prefers to receive information, how each person tends to give feedback, one thing each person wants teammates to know about their style, and one thing each person is working on to improve. Post it where the team can see it.") +
+          h3("DISC Conflict Simulation") +
+          p("Present a realistic workplace scenario (a tight deadline, a scope change, a disagreement about priorities). Have team members discuss how their DISC styles would naturally react, then brainstorm how to handle the situation by adapting their communication to each other's styles.") +
+          h3("Team Composition Analysis") +
+          p("Map your team on the DISC grid. Identify: Where are the natural strengths? Where are the blind spots? Which styles are overrepresented? Which are missing? This analysis helps with hiring (what style do you need to add?), project assignment (who is naturally suited for this task?), and conflict prediction (which style clashes are most likely?)."),
+      },
+      {
+        heading: "Common Team DISC Profiles and What They Mean",
+        html: p(
+          "The mix of DISC styles on a team shapes how the team operates. Here is what common compositions look like:"
+        ) +
+          `<table class="content-table">
+            <thead><tr><th>Team Profile</th><th>Natural Strengths</th><th>Potential Pitfalls</th></tr></thead>
+            <tbody>
+              <tr><td><strong>High D team</strong></td><td>Fast decisions, clear direction, high accountability</td><td>May overlook relationship needs, burn out steady team members, skip important details</td></tr>
+              <tr><td><strong>High I team</strong></td><td>Strong collaboration, creative energy, relationship depth</td><td>May struggle with follow-through, avoid necessary conflict, lose focus on results</td></tr>
+              <tr><td><strong>High S team</strong></td><td>Stability, reliability, deep relationships, strong execution</td><td>May resist necessary change, avoid speaking up, move too slowly for competitive environments</td></tr>
+              <tr><td><strong>High C team</strong></td><td>Accuracy, quality, thorough analysis, risk awareness</td><td>May over-analyze, delay decisions, get stuck on details, struggle with ambiguity</td></tr>
+              <tr><td><strong>Balanced team</strong></td><td>Adaptability, multiple perspectives, built-in checks and balances</td><td>May experience communication friction if styles are not understood, slower alignment initially</td></tr>
+            </tbody>
+          </table>` +
+          p(
+            "No composition is inherently better. The key is understanding what you have and building systems that leverage your strengths while mitigating your blind spots."
+          ),
+      },
+      {
+        heading: "DISC for Managers and Leaders",
+        html: p(
+          "If you manage a team, DISC gives you a framework for adapting your leadership style to each person:"
+        ) +
+          strong([
+            { label: "Leading High D team members:", desc: "Give them autonomy, clear goals, and room to make decisions. Avoid micromanaging. They respect directness and efficiency." },
+            { label: "Leading High I team members:", desc: "Give them recognition, social interaction, and creative freedom. Check in on follow-through with specific, agreed-upon deadlines." },
+            { label: "Leading High S team members:", desc: "Give them stability, clear expectations, and personal connection. Explain the reasons behind changes. Ask for their input directly." },
+            { label: "Leading High C team members:", desc: "Give them detailed information, time to analyze, and logical rationales. Do not pressure for quick decisions without data." },
+          ]) +
+          p(
+            "The best leaders do not have one style — they flex based on who they are leading. <a href=\"/free-disc-test\">Take the free DISC test</a> to discover your own style and learn how to adapt."
+          ),
+      },
+      {
+        heading: "DISC Team Building vs Other Approaches",
+        html: p(
+          "DISC is not the only framework for team building. Here is how it compares to other options:"
+        ) +
+          `<table class="content-table">
+            <thead><tr><th>Framework</th><th>What It Measures</th><th>Best for Teams</th><th>1Test Includes It?</th></tr></thead>
+            <tbody>
+              <tr><td><strong>DISC</strong></td><td>Behavioral style — how team members act and communicate</td><td>Communication, collaboration, conflict resolution</td><td>Yes</td></tr>
+              <tr><td><strong>Enneagram</strong></td><td>Core motivation — why team members do what they do</td><td>Deep trust, motivation alignment, personal development</td><td>Yes</td></tr>
+              <tr><td><strong>Strengths</strong></td><td>Natural talents — what team members do best</td><td>Role assignment, performance optimization, career development</td><td>Yes</td></tr>
+              <tr><td><strong>16 Personalities</strong></td><td>Cognitive style — how team members process information</td><td>Broad self-awareness, relationship building</td><td>Yes</td></tr>
+            </tbody>
+          </table>` +
+          p(
+            "DISC is the most immediately actionable for team building because it focuses on observable behavior. But combining it with Enneagram (understanding motivations) and Strengths (understanding talents) gives you a much richer team profile."
+          ) +
+          p(
+            "One <a href=\"/free-personality-test\">free assessment at 1Test</a> gives you all four profiles — DISC, Enneagram, Strengths, and 16 Personalities — in about 15 minutes per person."
+          ),
+      },
+      {
+        heading: "Frequently Asked Questions",
+        html: p(
+          "Common questions about using DISC for team building:"
+        ) +
+          p("<strong>Can DISC be used for hiring?</strong>") +
+          p("DISC should not be used to screen candidates in or out. No DISC style is better or worse for a role. DISC is most valuable for onboarding, team dynamics, and coaching — helping new hires understand their team's communication norms and helping managers adapt their leadership style.") +
+          p("<strong>How accurate is a DISC assessment for teams?</strong>") +
+          p("DISC assessments based on validated research produce consistent, reliable results. The key is choosing an assessment with transparent methodology. 1Test uses measures from the International Personality Item Pool (ipip.ori.org), a well-established academic source.") +
+          p("<strong>What if most of my team has the same DISC style?</strong>") +
+          p("Homogeneous teams have natural alignment but may have blind spots. A team full of High D styles will move fast but may miss important details. A team of High S styles will be stable but may resist necessary change. Understanding this helps you build compensating systems — checklists for High D teams, explicit change management for High S teams.") +
+          p("<strong>How do we handle style clashes?</strong>") +
+          p("Most clashes come from style differences, not personal conflicts. High D and High S styles clash because one wants speed and the other wants stability. High I and High C styles clash because one thinks out loud and the other thinks in silence. The solution: learn each other's styles and adapt your communication. A 15-minute <a href=\"/free-personality-test\">team assessment</a> can resolve months of miscommunication.") +
+          p("<strong>How long does a team DISC assessment take?</strong>") +
+          p("About 15 minutes per person with 1Test. Each person answers roughly 120 questions and receives their DISC profile along with their Enneagram type, Strengths ranking, and 16 Personalities result — all from a single assessment."),
+      },
+    ],
+    faqs: [
+      {
+        question: "Can DISC be used for team building?",
+        answer:
+          "Yes. DISC is one of the most widely used frameworks for team building because it gives teams a shared language for communication differences. When team members understand each other's styles, they can adapt their communication, reduce misunderstandings, and assign tasks based on natural strengths. Teams that use DISC report fewer conflicts and more effective meetings.",
+      },
+      {
+        question: "How do you run a DISC team assessment?",
+        answer:
+          "Have each team member take the DISC assessment (about 15 minutes with 1Test), share results in a team setting, map the team's style composition, discuss communication preferences, and create team agreements based on what you learn. The conversation is where the value is — not just the results.",
+      },
+      {
+        question: "Which DISC style is best for team leadership?",
+        answer:
+          "No DISC style is inherently better for leadership. High D leaders drive decisions and results. High I leaders build energy and buy-in. High S leaders create stability and trust. High C leaders ensure quality and accuracy. The most effective leaders flex their style based on the situation and the people they are leading.",
+      },
+      {
+        question: "What if most of my team has the same DISC style?",
+        answer:
+          "Homogeneous teams have natural alignment but may have blind spots. A team full of High D styles will move fast but may miss important details. A team of High S styles will be stable but may resist change. Understanding this helps you build compensating systems — checklists for High D teams, explicit change management for High S teams.",
+      },
+      {
+        question: "How long does a team DISC assessment take?",
+        answer:
+          "About 15 minutes per person with 1Test. Each person answers roughly 120 questions and receives their DISC profile along with their Enneagram type, Strengths ranking, and 16 Personalities result — all from a single assessment.",
+      },
+    ],
+    ctaHeading: "Ready to build a better team?",
+    ctaSubtext: "15 minutes per person, four frameworks, instant results.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "Free Strengths assessment", url: "/free-strengths-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Free 16 Personalities test", url: "/free-personality-test" },
+      { label: "DISC communication styles guide", url: "/blog/disc-communication-styles" },
+      { label: "DISC assessment guide", url: "/blog/disc-assessment-guide" },
+    ],
+    datePublished: "2026-04-11",
+  },
+
   "strengths-for-career": {
     slug: "strengths-for-career",
     metaTitle: "How to Use Your Strengths for Career Success | 1Test",

@@ -203,6 +203,13 @@ const BLOG_FAQS = {
     { question: "How do I find out my strengths for free?", answer: "Take the free Strengths test on 1Test. It takes 5-10 minutes, and your full results are available immediately with no paywall. You also receive your DISC profile, Enneagram type, and 16 Personalities result — all from one assessment." },
     { question: "What is the difference between strengths and skills?", answer: "Strengths are natural tendencies — things you do well without much effort. Skills are learned abilities developed through practice. You can build a skill in an area where you do not have a natural strength, but it requires more energy. Using your strengths requires less effort and often produces better results." },
   ],
+  "/blog/disc-test-team-building": [
+    { question: "Can DISC be used for team building?", answer: "Yes. DISC is one of the most widely used frameworks for team building because it gives teams a shared language for communication differences. When team members understand each other's styles, they can adapt their communication, reduce misunderstandings, and assign tasks based on natural strengths. Teams that use DISC report fewer conflicts and more effective meetings." },
+    { question: "How do you run a DISC team assessment?", answer: "Have each team member take the DISC assessment (about 15 minutes with 1Test), share results in a team setting, map the team's style composition, discuss communication preferences, and create team agreements based on what you learn. The conversation is where the value is — not just the results." },
+    { question: "Which DISC style is best for team leadership?", answer: "No DISC style is inherently better for leadership. High D leaders drive decisions and results. High I leaders build energy and buy-in. High S leaders create stability and trust. High C leaders ensure quality and accuracy. The most effective leaders flex their style based on the situation and the people they are leading." },
+    { question: "What if most of my team has the same DISC style?", answer: "Homogeneous teams have natural alignment but may have blind spots. A team full of High D styles will move fast but may miss important details. A team of High S styles will be stable but may resist change. Understanding this helps you build compensating systems — checklists for High D teams, explicit change management for High S teams." },
+    { question: "How long does a team DISC assessment take?", answer: "About 15 minutes per person with 1Test. Each person answers roughly 120 questions and receives their DISC profile along with their Enneagram type, Strengths ranking, and 16 Personalities result — all from a single assessment." },
+  ],
   "/blog/enneagram-career-guide": [
     { question: "Can your Enneagram type help you choose a career?", answer: "Yes. Your Enneagram type reveals your core motivation — what drives you at the deepest level. When your career aligns with that motivation, work feels meaningful. When it does not, even skilled work feels draining." },
     { question: "Which Enneagram type is best for business?", answer: "No type is inherently better for business. Threes naturally excel in goal-driven, competitive environments. Eights thrive in leadership and negotiation. Sixes bring risk awareness and reliability. Fives contribute analytical depth. The best teams have a mix of types." },
@@ -332,6 +339,13 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/strengths-for-career",
     ogType: "article",
   },
+  "/blog/disc-test-team-building": {
+    title: "DISC Test for Team Building — How to Use DISC With Your Team | 1Test",
+    description:
+      "How to use DISC for team building: run a team assessment, interpret results, improve communication, and run effective workshops. Free DISC test for teams at 1Test.",
+    canonicalUrl: "https://1test.me/blog/disc-test-team-building",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {
@@ -459,6 +473,14 @@ const BODY_CONTENT = {
       { heading: "Why Strengths Matter for Career Direction", text: "Strengths-based career thinking flips the usual approach: instead of fixing your weaknesses, identify what you naturally do well and find roles where those strengths are assets. Research from positive psychology suggests that people who regularly use their strengths at work report higher satisfaction and performance." },
       { heading: "Common Strengths and Where They Thrive", text: "Strategic Thinking thrives in planning and strategy roles. Empathy thrives in coaching and client relations. Communication thrives in sales and marketing. Analytical Thinking thrives in data science and research. Adaptability thrives in startup and consulting environments. Deliberative Thinking thrives in risk management and compliance. Relationship Building thrives in account management and partnerships." },
       { heading: "Strengths Plus Other Frameworks", text: "Your Strengths profile tells you what you are naturally good at. DISC tells you how you prefer to work. Enneagram tells you why you are motivated. 16 Personalities tells you your preferred environment. Together, they give you a career compass that no single test can match. One free assessment at 1Test gives you all four profiles in about 15 minutes." },
+    ],
+  },
+  "/blog/disc-test-team-building": {
+    h1: "How to Use a DISC Test for Team Building",
+    sections: [
+      { heading: "Why DISC Works for Team Building", text: "When teams understand each other's communication styles, they collaborate more effectively and conflict less. DISC focuses on observable behavior — how someone tends to act, communicate, and respond professionally. That makes it immediately actionable without needing a psychology degree. Over 75% of Fortune 500 companies have used DISC for team development." },
+      { heading: "How to Run a DISC Team Assessment", text: "Have each team member take the assessment (about 15 minutes with 1Test), share results in a team setting, map the team's style composition, discuss communication preferences, and create team agreements based on what you learn. The conversation is where the value is — not just the results." },
+      { heading: "DISC for Managers and Leaders", text: "DISC gives managers a framework for adapting their leadership style: give High D members autonomy and clear goals, give High I members recognition and creative freedom, give High S members stability and personal connection, and give High C members detailed information and time to analyze. The best leaders flex based on who they are leading." },
     ],
   },
   "/blog/enneagram-career-guide": {

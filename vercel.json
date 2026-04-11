@@ -23,6 +23,7 @@
     { "source": "/blog/enneagram-career-guide", "destination": "/blog/enneagram-career-guide/index.html" },
     { "source": "/blog/strengths-finder-alternative", "destination": "/blog/strengths-finder-alternative/index.html" },
     { "source": "/blog/strengths-for-career", "destination": "/blog/strengths-for-career/index.html" },
+    { "source": "/blog/disc-test-team-building", "destination": "/blog/disc-test-team-building/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
