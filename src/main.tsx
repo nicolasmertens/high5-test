@@ -10,6 +10,7 @@ import { BlogIndex } from "./components/BlogIndex.tsx";
 import { PrivacyPolicy } from "./components/PrivacyPolicy.tsx";
 import { TermsOfService } from "./components/TermsOfService.tsx";
 import { AnalyticsProvider } from "./components/AnalyticsProvider.tsx";
+import { Footer } from "./components/Footer.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -74,6 +75,7 @@ createRoot(document.getElementById("root")!).render(
             <Route path="/privacy-draft" element={<PrivacyPolicy />} />
             <Route path="/terms-draft" element={<TermsOfService />} />
           </Routes>
+          <Footer />
         </AnalyticsProvider>
       </BrowserRouter>
     </HelmetProvider>
