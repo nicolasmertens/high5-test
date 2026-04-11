@@ -26,6 +26,7 @@
     { "source": "/blog/disc-test-team-building", "destination": "/blog/disc-test-team-building/index.html" },
     { "source": "/blog/enneagram-growth-paths", "destination": "/blog/enneagram-growth-paths/index.html" },
     { "source": "/blog/enneagram-types-explained", "destination": "/blog/enneagram-types-explained/index.html" },
+    { "source": "/blog/disc-personality-types-explained", "destination": "/blog/disc-personality-types-explained/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

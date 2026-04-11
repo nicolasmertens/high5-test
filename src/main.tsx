@@ -96,6 +96,10 @@ createRoot(document.getElementById("root")!).render(
               path="/blog/enneagram-types-explained"
               element={<BlogPage slug="enneagram-types-explained" />}
             />
+            <Route
+              path="/blog/disc-personality-types-explained"
+              element={<BlogPage slug="disc-personality-types-explained" />}
+            />
             <Route path="/privacy-draft" element={<PrivacyPolicy />} />
             <Route path="/terms-draft" element={<TermsOfService />} />
           </Routes>
