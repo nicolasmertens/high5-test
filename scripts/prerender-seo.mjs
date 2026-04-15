@@ -364,6 +364,27 @@ const BLOG_FAQS = {
     { question: "What if my results do not match how I see myself?", answer: "This is useful. The gap between test results and self-image reveals blind spots. Explore it with curiosity — the answer often reveals something important about how you see yourself versus how you behave." },
     { question: "How do I use personality tests for growth without overthinking?", answer: "Pick one behavior to change. Track it for 30 days. Then pick another. Growth comes from small consistent practice, not reading more type descriptions." },
   ],
+  "/blog/strengths-based-interview": [
+    { question: "Are strengths-based interview questions legal?", answer: "Yes. They focus on natural patterns of thinking and behaving — not protected characteristics. They are widely used by major employers." },
+    { question: "How do strengths-based questions differ from behavioral questions?", answer: "Behavioral questions ask about past experience. Strengths-based questions ask about natural patterns. Both are valuable — use them together." },
+    { question: "Should I have candidates take a strengths test before the interview?", answer: "Optional but helpful. A free Strengths assessment gives both of you a framework for discussion. Questions work even without a formal test." },
+    { question: "Can strengths-based interviews reduce hiring bias?", answer: "They can help by focusing on natural patterns rather than credentials. However, interviewers may unconsciously favor similar strengths. Use structured scoring." },
+    { question: "How many strengths-based questions should I ask?", answer: "Three to five in a 45-minute interview. Depth in fewer areas produces better insights." },
+  ],
+  "/blog/personality-test-stress-management": [
+    { question: "Can personality tests help with burnout?", answer: "Yes. They identify why certain situations lead to burnout for you. If your job constantly requires non-preferred activities, burnout risk increases." },
+    { question: "Is stress always bad for your personality type?", answer: "No. Moderate stress can push toward growth. The Enneagram integration directions show stress can trigger healthy development when managed." },
+    { question: "How do I help a stressed colleague with a different type?", answer: "Ask what they need instead of giving what you would want. Say: You seem stressed. What would be most helpful right now?" },
+    { question: "Can personality tests diagnose anxiety?", answer: "No. They describe behavioral patterns and preferences, not mental health conditions. If you experience persistent anxiety, see a licensed professional." },
+    { question: "Should I tell my manager about my stress patterns?", answer: "Yes, when framed constructively. Give your manager a specific action, not a personality lecture." },
+  ],
+  "/blog/disc-management-style": [
+    { question: "What is the best DISC style for a manager?", answer: "There is no best style. D excels in fast-paced environments, I at morale, S at development, C at process. The best managers adapt." },
+    { question: "Can DISC help with delegation?", answer: "Yes. High D: give outcome and deadline. High I: explain why it matters. High S: provide clear steps. High C: give specifications and standards." },
+    { question: "How do I manage someone with a very different DISC style?", answer: "Recognize your default may not work for them. Adjust communication. Meeting them where they are is not changing who you are." },
+    { question: "Should teams know their manager's DISC style?", answer: "Yes. It helps them interpret behavior correctly and prevents misunderstanding." },
+    { question: "How do I manage a team with mixed DISC styles?", answer: "Set clear team goals, then adapt communication per individual. In meetings: quick updates for D, discussion for I, processing for S, data for C." },
+  ],
 };
 
 const SEO_DATA = {
@@ -638,6 +659,27 @@ const SEO_DATA = {
     description:
       "Learn how personality tests build genuine self-awareness. Practical guide to using DISC, Enneagram, 16 Personalities, and Strengths for personal growth — not just labels.",
     canonicalUrl: "https://1test.me/blog/personality-test-self-awareness",
+    ogType: "article",
+  },
+  "/blog/strengths-based-interview": {
+    title: "Strengths-Based Interview Questions: How to Hire for Natural Talent",
+    description:
+      "Learn how to use strengths-based interview questions to identify natural talent in candidates. Practical guide with example questions for each strength domain.",
+    canonicalUrl: "https://1test.me/blog/strengths-based-interview",
+    ogType: "article",
+  },
+  "/blog/personality-test-stress-management": {
+    title: "Personality Tests and Stress: How Your Type Responds Under Pressure",
+    description:
+      "Discover how each personality type responds to stress and learn practical coping strategies. Guide covering DISC, Enneagram, 16 Personalities, and Strengths stress patterns.",
+    canonicalUrl: "https://1test.me/blog/personality-test-stress-management",
+    ogType: "article",
+  },
+  "/blog/disc-management-style": {
+    title: "DISC Management Style: How to Lead Every Personality Type",
+    description:
+      "Learn how your DISC style affects your management approach. Practical guide for managers to adapt their leadership to each team member's DISC personality type.",
+    canonicalUrl: "https://1test.me/blog/disc-management-style",
     ogType: "article",
   },
 };
@@ -976,6 +1018,32 @@ const BODY_CONTENT = {
       { heading: "How Each Framework Builds Self-Awareness", text: "DISC describes observable behavior — how others experience you. Enneagram reveals core motivations — why you do what you do. 16 Personalities maps cognitive preferences — how you process the world. Strengths reveals natural talents — what comes effortlessly." },
       { heading: "A Four-Week Self-Awareness Practice", text: "Week 1: Map your patterns across all four frameworks. Week 2: Get external feedback from three people. Week 3: Identify three triggers with better responses. Week 4: Build one specific, measurable habit from your insights." },
       { heading: "Common Traps", text: "Label trap: using type as identity, not a tool. Confirmation bias: only noticing evidence that confirms type. Insight-without-action: taking tests without changing behavior. Over-analysis: studying personality more than living life." },
+    ],
+  },
+  "/blog/strengths-based-interview": {
+    h1: "Strengths-Based Interview Questions: How to Hire for Natural Talent",
+    sections: [
+      { heading: "Why Strengths-Based Questions Work", text: "Traditional questions focus on experience. Strengths-based questions ask about natural patterns: what comes easily, what drains energy, what feels automatic. The answers reveal how a candidate is wired." },
+      { heading: "General Questions", text: "What do you do so well it surprises you? What work feels effortless? What do you procrastinate on? When you are at your best, what are you doing? Listen for genuine enthusiasm and quick recall." },
+      { heading: "Questions by Domain", text: "Executing: project completion, handling delays. Influencing: convincing others, taking initiative. Relationship Building: building trust, sensing others' struggles. Strategic Thinking: approaching new problems, spotting patterns." },
+      { heading: "Red Flags", text: "I am good at everything (lack of self-awareness). Vague answers without examples. Only technical skills listed. Rehearsed answers — follow up with why questions." },
+    ],
+  },
+  "/blog/personality-test-stress-management": {
+    h1: "Personality Tests and Stress: How Your Type Responds Under Pressure",
+    sections: [
+      { heading: "DISC Stress Responses", text: "High D: controlling, blunt — recovery through physical activity. High I: scattered, emotional — recovery through grounded social connection. High S: withdrawn, passive — recovery through routine. High C: rigid, perfectionistic — recovery through time-limited decisions." },
+      { heading: "Enneagram Stress Directions", text: "Each type moves toward unhealthy expression of another type under stress. Type 1 to 4, Type 2 to 8, Type 3 to 9, Type 4 to 2, Type 5 to 7, Type 6 to 3, Type 7 to 1, Type 8 to 5, Type 9 to 6. Recovery comes from moving toward healthy integration." },
+      { heading: "Strengths Overuse Under Stress", text: "Command becomes bossy. Empathy absorbs too much. Analytical paralyzes with data. Achiever pushes to burnout. Recognize overuse and engage underused capacities." },
+      { heading: "Universal Framework", text: "Recognize early warning signs. Communicate needs before reaching capacity. Use type-appropriate recovery. Do not project your style onto others." },
+    ],
+  },
+  "/blog/disc-management-style": {
+    h1: "DISC Management Style: How to Lead Every Personality Type",
+    sections: [
+      { heading: "Management Styles by Type", text: "D-Style: direct, results-oriented — may overwhelm quieter members. I-Style: enthusiastic, collaborative — may avoid difficult feedback. S-Style: patient, supportive — may avoid necessary conflict. C-Style: analytical, thorough — may micromanage." },
+      { heading: "Managing Each Type", text: "High D: give ownership of outcomes, be direct. High I: recognize publicly, give variety. High S: give time to adjust, clear expectations. High C: provide reasoning, give time to analyze." },
+      { heading: "Common Friction Pairs", text: "D Manager + S Employee: speed vs stability. I Manager + C Employee: enthusiasm vs data. S Manager + D Employee: consensus vs action. Each pair needs specific mutual adjustments." },
     ],
   },
 };

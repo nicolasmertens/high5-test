@@ -5512,6 +5512,226 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-16",
   },
+  "strengths-based-interview": {
+    slug: "strengths-based-interview",
+    metaTitle: "Strengths-Based Interview Questions: How to Hire for Natural Talent",
+    metaDesc:
+      "Learn how to use strengths-based interview questions to identify natural talent in candidates. Practical guide with example questions for each strength domain.",
+    canonicalUrl: "https://1test.me/blog/strengths-based-interview",
+    h1: "Strengths-Based Interview Questions: How to Hire for Natural Talent",
+    sections: [
+      {
+        heading: "Why Strengths-Based Interview Questions Work",
+        html: p("Traditional interview questions focus on experience and skills. Strengths-based questions ask about natural patterns: what comes easily, what drains energy, what feels automatic. The answers reveal how a candidate is wired, not just what they have been trained to do.") +
+          p('<a href="/free-strengths-test">Take the free Strengths assessment</a> to understand your own strengths first.'),
+      },
+      {
+        heading: "General Strengths-Based Questions",
+        html: p("Start with these broad questions to identify natural patterns:") +
+          ul([
+            "\"What do you do so well that it surprises you when others struggle with it?\"",
+            "\"What kind of work feels effortless — things you could do all day without getting tired?\"",
+            "\"What tasks do you procrastinate on, even though you know how to do them?\"",
+            "\"When you are at your best, what are you doing?\"",
+            "\"What do people consistently come to you for help with?\"",
+          ]) +
+          p("<strong>Listen for:</strong> Genuine enthusiasm, quick recall, specific examples. When people describe strengths, they light up."),
+      },
+      {
+        heading: "Questions by Strength Domain",
+        html: h3("Executing Domain") +
+          p("Strengths about getting things done — delivering results, organizing, following through.") +
+          p("<strong>Questions:</strong> \"Tell me about a project you took from idea to completion.\" \"How do you handle a project falling behind schedule?\"") +
+          p("<strong>Listen for:</strong> Specific actions, emphasis on completion, ability to break goals into steps.") +
+          h3("Influencing Domain") +
+          p("Strengths about impact — taking charge, persuading, driving outcomes.") +
+          p("<strong>Questions:</strong> \"Describe a time you convinced someone to change their mind.\" \"When you walk into a room, what role do you naturally take?\"") +
+          p("<strong>Listen for:</strong> Confidence, comfort with conflict, stories about mobilizing others.") +
+          h3("Relationship Building Domain") +
+          p("Strengths about connection — building trust, understanding others, team cohesion.") +
+          p("<strong>Questions:</strong> \"How do you build trust with someone you have just met?\" \"What do you do when you sense a colleague is struggling?\"") +
+          p("<strong>Listen for:</strong> Empathy, patience, ability to describe others' perspectives.") +
+          h3("Strategic Thinking Domain") +
+          p("Strengths about insight — analyzing information, seeing patterns, generating ideas.") +
+          p("<strong>Questions:</strong> \"How do you approach a problem you have never encountered?\" \"Tell me about a time you spotted a pattern others missed.\"") +
+          p("<strong>Listen for:</strong> Curiosity, comfort with ambiguity, pattern recognition, thoughtful questions."),
+      },
+      {
+        heading: "Red Flags in Strengths-Based Answers",
+        html: ul([
+          "\"I am good at everything\" — suggests lack of self-awareness",
+          "Vague answers without specific examples — may indicate lack of reflection",
+          "Only listing technical skills — strengths are about natural patterns, not trained abilities",
+          "Rehearsed answers from interview preparation — follow up with \"why\" questions",
+        ]),
+      },
+      {
+        heading: "Strengths-Based Hiring Is Not About Filtering Types",
+        html: p("Use strengths-based questions alongside skills assessments and reference checks. The goal is to understand a candidate's natural patterns so you can place them in roles that use their strengths and pair them with complementary colleagues.") +
+          p('<a href="/free-disc-test">Pair Strengths insights with DISC</a> for a complete picture.'),
+      },
+    ],
+    faqs: [
+      { question: "Are strengths-based interview questions legal?", answer: "Yes. They focus on natural patterns of thinking and behaving — not protected characteristics. They are widely used by major employers. Avoid questions about mental health conditions or disabilities." },
+      { question: "How do strengths-based questions differ from behavioral questions?", answer: "Behavioral questions ask about past experience (\"tell me about a time\"). Strengths-based questions ask about natural patterns (\"what do you do naturally?\"). Both are valuable — use them together." },
+      { question: "Should I have candidates take a strengths test before the interview?", answer: "Optional but helpful. A free Strengths assessment before the interview gives both of you a framework for discussion. However, strengths-based questions work even without a formal test." },
+      { question: "Can strengths-based interviews reduce hiring bias?", answer: "They can help by focusing on natural patterns rather than credentials. However, interviewers may unconsciously favor strengths similar to their own. Use structured scoring to mitigate this." },
+      { question: "How many strengths-based questions should I ask?", answer: "Three to five in a 45-minute interview. Start with general questions, then follow up based on answers. Depth in fewer areas produces better insights." },
+    ],
+    ctaHeading: "Discover your strengths before your next interview",
+    ctaSubtext: "Free Strengths assessment with complete results.",
+    ctaFramework: "strengths",
+    ctaUrl: "/free-strengths-test",
+    crossLinks: [
+      { label: "Free Strengths test", url: "/free-strengths-test" },
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "Personality test for leadership", url: "/blog/personality-test-for-leadership" },
+      { label: "Personality test for teams", url: "/blog/personality-test-for-teams" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "personality-test-stress-management": {
+    slug: "personality-test-stress-management",
+    metaTitle: "Personality Tests and Stress: How Your Type Responds Under Pressure",
+    metaDesc:
+      "Discover how each personality type responds to stress and learn practical coping strategies. Guide covering DISC, Enneagram, 16 Personalities, and Strengths stress patterns.",
+    canonicalUrl: "https://1test.me/blog/personality-test-stress-management",
+    h1: "Personality Tests and Stress: How Your Type Responds Under Pressure",
+    sections: [
+      {
+        heading: "Your Personality Type Shapes Your Stress Response",
+        html: p("Stress does not affect everyone the same way. Two people face the same deadline — one speeds up, the other freezes. The difference is personality. Understanding your type's stress response helps you recognize stress earlier and choose coping strategies that work for you."),
+      },
+      {
+        heading: "DISC Under Stress",
+        html: p("<strong>High D:</strong> Becomes more controlling, impatient, blunt. Recovery: physical activity, one trusted challenger.") +
+          p("<strong>High I:</strong> Becomes scattered, emotional, overcommitted. Recovery: focused social connection with a grounding influence.") +
+          p("<strong>High S:</strong> Becomes withdrawn, passive, silently frustrated. Recovery: predictable routine, written concerns, practice saying no.") +
+          p("<strong>High C:</strong> Becomes rigid, perfectionistic, critical. Recovery: time limits on analysis, minimum viable decisions.") +
+          p('<a href="/free-disc-test">Take the free DISC test</a> to discover your stress style.'),
+      },
+      {
+        heading: "Enneagram Stress Patterns",
+        html: p("Under pressure, each Enneagram type moves toward the unhealthy expression of another type:") +
+          ul([
+            "Type 1 → Type 4 (moody, self-critical)",
+            "Type 2 → Type 8 (controlling, resentful)",
+            "Type 3 → Type 9 (disengaged, apathetic)",
+            "Type 4 → Type 2 (people-pleasing, clingy)",
+            "Type 5 → Type 7 (scattered, impulsive)",
+            "Type 6 → Type 3 (competitive, image-conscious)",
+            "Type 7 → Type 1 (critical, rigid)",
+            "Type 8 → Type 5 (withdrawn, detached)",
+            "Type 9 → Type 6 (anxious, suspicious)",
+          ]) +
+          p("The antidote is moving toward the healthy expression of your integration type.") +
+          p('<a href="/free-enneagram-test">Take the free Enneagram test</a> to learn your stress direction.'),
+      },
+      {
+        heading: "16 Personalities Under Stress",
+        html: p("<strong>Introverts</strong> need solitude to recharge. Forced social interaction increases stress. <strong>Extroverts</strong> need connection. Isolation increases stress.") +
+          p("<strong>Thinking types</strong> become more detached, trying to solve emotional problems with logic. <strong>Feeling types</strong> become more reactive, needing to process emotions first.") +
+          p("<strong>Judging types</strong> become more rigid about plans. <strong>Perceiving types</strong> become more scattered. Each needs the opposite of their default.") +
+          p('<a href="/free-16-personalities-test">Take the free 16 Personalities test</a> to understand your stress preferences.'),
+      },
+      {
+        heading: "Strengths Under Stress",
+        html: p("Strengths can become liabilities under extreme stress — this is \"strengths overuse.\"") +
+          ul([
+            "Strong Command may become bossy",
+            "Strong Empathy may absorb others' emotions and become overwhelmed",
+            "Strong Analytical may paralyze with too much data",
+            "Strong Achiever may push to burnout",
+          ]) +
+          p("The antidote: recognize overuse and deliberately engage an underused capacity.") +
+          p('<a href="/free-strengths-test">Take the free Strengths test</a> to identify your overuse patterns.'),
+      },
+      {
+        heading: "A Universal Stress Framework",
+        html: ol([
+          "<strong>Recognize your early warning signs.</strong> Each type has predictable stress signals.",
+          "<strong>Communicate needs before reaching capacity.</strong> Tell your team your stress pattern and what helps.",
+          "<strong>Use type-appropriate recovery.</strong> Physical activity for D, social grounding for I, routine for S, structured analysis for C.",
+          "<strong>Do not project your style onto others.</strong> Your colleague is not handling it wrong — they are handling it differently.",
+        ]),
+      },
+    ],
+    faqs: [
+      { question: "Can personality tests help with burnout?", answer: "Yes. They help identify why certain situations lead to burnout for you specifically. If your job constantly requires non-preferred activities, burnout risk increases. Use results to identify and address environmental mismatches." },
+      { question: "Is stress always bad for your personality type?", answer: "No. Moderate stress can push toward growth. The Enneagram integration directions show stress can trigger healthy development when managed. The problem is chronic, unmanaged stress." },
+      { question: "How do I help a stressed colleague with a different type?", answer: "Ask what they need instead of giving what you would want. A stressed introvert does not want to talk through the problem. A stressed extrovert does not want to be alone. Ask: \"What would be most helpful right now?\"" },
+      { question: "Can personality tests diagnose anxiety?", answer: "No. Personality tests describe behavioral patterns and preferences. They cannot diagnose any mental health condition. If you experience persistent anxiety, see a licensed professional." },
+      { question: "Should I tell my manager about my stress patterns?", answer: "Yes, when framed constructively. \"When I am under deadline pressure, I tend to over-research. A Friday check-in where we agree on 'good enough' would help.\" This gives a specific action, not a personality lecture." },
+    ],
+    ctaHeading: "Understand your stress response",
+    ctaSubtext: "Four frameworks, free assessment, complete results.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Personality test self-awareness", url: "/blog/personality-test-self-awareness" },
+      { label: "How to use personality test results", url: "/blog/how-to-use-personality-test-results" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "disc-management-style": {
+    slug: "disc-management-style",
+    metaTitle: "DISC Management Style: How to Lead Every Personality Type",
+    metaDesc:
+      "Learn how your DISC style affects your management approach. Practical guide for managers to adapt their leadership to each team member's DISC personality type.",
+    canonicalUrl: "https://1test.me/blog/disc-management-style",
+    h1: "DISC Management Style: How to Lead Every Personality Type",
+    sections: [
+      {
+        heading: "Your DISC Style Shapes How You Manage",
+        html: p("Most managers default to managing others the way they want to be managed. A high-D gives brief directives and gets frustrated when a high-S needs context. DISC helps you understand your default and adapt to each team member.") +
+          p('<a href="/free-disc-test">Take the free DISC test</a> to discover your management style.'),
+      },
+      {
+        heading: "Management Styles by DISC Type",
+        html: p("<strong>D-Style Manager:</strong> Direct, results-oriented, fast-paced. Blind spot: may overwhelm quieter members. Growth: ask one question before giving direction.") +
+          p("<strong>I-Style Manager:</strong> Enthusiastic, collaborative, people-focused. Blind spot: may avoid difficult feedback. Growth: schedule one difficult conversation per week.") +
+          p("<strong>S-Style Manager:</strong> Patient, supportive, consistent. Blind spot: may avoid necessary conflict. Growth: ask senior leadership for one thing your team needs.") +
+          p("<strong>C-Style Manager:</strong> Analytical, thorough, systems-oriented. Blind spot: may micromanage. Growth: give positive feedback unrelated to deliverables."),
+      },
+      {
+        heading: "Managing Each DISC Type on Your Team",
+        html: h3("Managing High D Employees") +
+          p("They want autonomy, challenge, and results. Give ownership of outcomes, not tasks. Be direct in feedback. Do not micromanage.") +
+          h3("Managing High I Employees") +
+          p("They want recognition, variety, and connection. Recognize contributions publicly. Give variety and social interaction. Do not criticize publicly.") +
+          h3("Managing High S Employees") +
+          p("They want stability and clear expectations. Give time to adjust to changes. Provide step-by-step expectations. Check in regularly without being intrusive.") +
+          h3("Managing High C Employees") +
+          p("They want clarity, accuracy, and logical systems. Provide detailed expectations with reasoning. Give time to analyze. Do not rush their work."),
+      },
+      {
+        heading: "Common Manager-Team DISC Friction",
+        html: p("<strong>D Manager + S Employee:</strong> D wants speed, S wants stability. D provides context first; S voices concerns early.") +
+          p("<strong>I Manager + C Employee:</strong> I wants enthusiasm, C wants data. I brings structure to meetings; C voices support before listing concerns.") +
+          p("<strong>S Manager + D Employee:</strong> S wants consensus, D wants action now. S sets clear deadlines; D practices building buy-in."),
+      },
+    ],
+    faqs: [
+      { question: "What is the best DISC style for a manager?", answer: "There is no best style. D-style managers excel in fast-paced environments. I-style at morale and culture. S-style at team development. C-style at process and quality. The best managers adapt to the situation and people." },
+      { question: "Can DISC help with delegation?", answer: "Yes. High D: give outcome and deadline, let them choose method. High I: explain why it matters. High S: provide clear steps and check in. High C: give specifications and quality standards." },
+      { question: "How do I manage someone with a very different DISC style?", answer: "Recognize your default may not work for them. A high-D managing a high-S needs to slow down and provide context. The adjustment is about meeting them where they are, not changing who you are." },
+      { question: "Should teams know their manager's DISC style?", answer: "Yes. When teams know their manager's style, they interpret behavior correctly. \"She is not being dismissive — she is being efficient because she is a high D.\" This prevents misunderstanding." },
+      { question: "How do I manage a team with mixed DISC styles?", answer: "Set clear team goals, then adapt communication for each individual. In meetings: quick updates for D, discussion for I, processing time for S, data review for C." },
+    ],
+    ctaHeading: "Discover your DISC management style",
+    ctaSubtext: "Free DISC assessment with complete results.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "Personality test for leadership", url: "/blog/personality-test-for-leadership" },
+      { label: "DISC conflict resolution", url: "/blog/disc-conflict-resolution" },
+      { label: "DISC sales training", url: "/blog/disc-sales-training" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {
