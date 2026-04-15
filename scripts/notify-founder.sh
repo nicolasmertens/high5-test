@@ -44,7 +44,7 @@ fi
 
 if ! $RAW && ! $TEST; then
   if [ -n "$ISSUE" ]; then
-    PREFIX="[1TEST] [$ISSUE]"
+    PREFIX="[$ISSUE]"
   else
     PREFIX="[1TEST]"
   fi
