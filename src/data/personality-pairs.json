@@ -1,0 +1,1538 @@
+[
+  {
+    "pair": "INTJ-INTJ",
+    "label": "The Architect & The Architect",
+    "dynamic": "Two Architects share strategic vision and high standards. They understand each other's need for logic, independence, and competence. Alignment is fast but blind spots overlap \u2014 both may overlook the human dimension.",
+    "tip": "Deliberately seek feedback from people-focused types. Divide strategic ownership so one handles long-term vision while the other drives execution."
+  },
+  {
+    "pair": "INTJ-INTP",
+    "label": "The Architect & The Logician",
+    "dynamic": "Both are analytical introverts, but INTJ leads with vision while INTP leads with exploration. INTJ wants to close on an answer; INTP wants to keep finding new angles. When aligned, INTJ provides the destination and INTP provides the most interesting path to get there.",
+    "tip": "Let INTP explore before INTJ decides. The INTJ's framework gives the INTP boundaries to work within; the INTP's alternatives improve the INTJ's final answer."
+  },
+  {
+    "pair": "INTJ-ENTJ",
+    "label": "The Architect & The Commander",
+    "dynamic": "Both are decisive strategic thinkers. INTJ prefers operating behind the scenes; ENTJ prefers commanding from the front. They share a drive for competence but can compete for control of the vision.",
+    "tip": "Define territories clearly \u2014 let ENTJ handle people and execution while INTJ owns strategy and systems. Both need to feel their competence is respected."
+  },
+  {
+    "pair": "INTJ-ENTP",
+    "label": "The Architect & The Debater",
+    "dynamic": "INTJ converges; ENTP diverges. INTJ wants to land on the right answer; ENTP wants to keep generating possibilities. Together they create solutions that are both innovative and well-structured.",
+    "tip": "ENTP ideates first, INTJ refines second. Give ENTP room to generate before INTJ narrows \u2014 the best solutions come from ENTP's breadth followed by INTJ's depth."
+  },
+  {
+    "pair": "INTJ-INFJ",
+    "label": "The Architect & The Advocate",
+    "dynamic": "INTJ relies on logical systems; INFJ relies on intuitive insight about people. Both are long-term thinkers who plan deeply, but INTJ starts with data and INFJ starts with feelings. Together they see both the strategic and human dimensions.",
+    "tip": "INTJ should validate INFJ's instincts even when they can't be backed by data. INFJ should present insights with logical context so INTJ can evaluate them."
+  },
+  {
+    "pair": "INTJ-INFP",
+    "label": "The Architect & The Mediator",
+    "dynamic": "The Architect prioritizes strategic vision while The Mediator prioritizes authentic self-expression. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Mediator values (authentic self-expression) before advocating for The Architect's approach. The best outcomes merge strategic vision with authentic self-expression rather than choosing one over the other."
+  },
+  {
+    "pair": "INTJ-ENFJ",
+    "label": "The Architect & The Protagonist",
+    "dynamic": "The Architect prioritizes strategic vision while The Protagonist prioritizes empowering others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Protagonist values (empowering others) before advocating for The Architect's approach. The best outcomes merge strategic vision with empowering others rather than choosing one over the other."
+  },
+  {
+    "pair": "INTJ-ENFP",
+    "label": "The Architect & The Campaigner",
+    "dynamic": "One of the most commonly recommended pairings. INTJ provides structure and strategic direction; ENFP provides creative energy and emotional connection. INTJ helps ENFP focus ideas into action; ENFP helps INTJ see possibilities they would miss alone.",
+    "tip": "ENFP should give INTJ advance notice of social plans. INTJ should follow ENFP's lead on people-related decisions \u2014 ENFP reads the room better than INTJ reads the spreadsheet."
+  },
+  {
+    "pair": "INTJ-ISTJ",
+    "label": "The Architect & The Logistician",
+    "dynamic": "The Architect prioritizes strategic vision while The Logistician prioritizes reliable execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logistician values (reliable execution) before advocating for The Architect's approach. The best outcomes merge strategic vision with reliable execution rather than choosing one over the other."
+  },
+  {
+    "pair": "INTJ-ISFJ",
+    "label": "The Architect & The Defender",
+    "dynamic": "The Architect prioritizes strategic vision while The Defender prioritizes caring for others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Defender values (caring for others) before advocating for The Architect's approach. The best outcomes merge strategic vision with caring for others rather than choosing one over the other."
+  },
+  {
+    "pair": "INTJ-ESTJ",
+    "label": "The Architect & The Executive",
+    "dynamic": "The Architect prioritizes strategic vision while The Executive prioritizes order and efficiency. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Executive values (order and efficiency) before advocating for The Architect's approach. The best outcomes merge strategic vision with order and efficiency rather than choosing one over the other."
+  },
+  {
+    "pair": "INTJ-ESFJ",
+    "label": "The Architect & The Consul",
+    "dynamic": "The Architect prioritizes strategic vision while The Consul prioritizes harmony and support. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Consul values (harmony and support) before advocating for The Architect's approach. The best outcomes merge strategic vision with harmony and support rather than choosing one over the other."
+  },
+  {
+    "pair": "INTJ-ISTP",
+    "label": "The Architect & The Virtuoso",
+    "dynamic": "The Architect prioritizes strategic vision while The Virtuoso prioritizes practical problem-solving. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Virtuoso values (practical problem-solving) before advocating for The Architect's approach. The best outcomes merge strategic vision with practical problem-solving rather than choosing one over the other."
+  },
+  {
+    "pair": "INTJ-ISFP",
+    "label": "The Architect & The Adventurer",
+    "dynamic": "The Architect prioritizes strategic vision while The Adventurer prioritizes personal values and aesthetics. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Adventurer values (personal values and aesthetics) before advocating for The Architect's approach. The best outcomes merge strategic vision with personal values and aesthetics rather than choosing one over the other."
+  },
+  {
+    "pair": "INTJ-ESTP",
+    "label": "The Architect & The Entrepreneur",
+    "dynamic": "The Architect prioritizes strategic vision while The Entrepreneur prioritizes action and results. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entrepreneur values (action and results) before advocating for The Architect's approach. The best outcomes merge strategic vision with action and results rather than choosing one over the other."
+  },
+  {
+    "pair": "INTJ-ESFP",
+    "label": "The Architect & The Entertainer",
+    "dynamic": "The Architect prioritizes strategic vision while The Entertainer prioritizes experience and fun. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entertainer values (experience and fun) before advocating for The Architect's approach. The best outcomes merge strategic vision with experience and fun rather than choosing one over the other."
+  },
+  {
+    "pair": "INTP-INTJ",
+    "label": "The Logician & The Architect",
+    "dynamic": "The Logician brings logical understanding while The Architect brings strategic vision. As fellow Analystss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Logician lead on logical understanding and The Architect lead on strategic vision. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "INTP-INTP",
+    "label": "The Logician & The Logician",
+    "dynamic": "Two The Logicians share logical understanding and a curious and theoretical approach. They understand each other instinctively, which creates fast alignment but can amplify blind spots when both share the same weaknesses.",
+    "tip": "Assign one partner to handle logical understanding strategy and the other to execute details. When both are stressed byroutines, social expectations, emotional pressure, deliberately seek outside perspectives to break the pattern."
+  },
+  {
+    "pair": "INTP-ENTJ",
+    "label": "The Logician & The Commander",
+    "dynamic": "The Logician brings logical understanding while The Commander brings efficient execution. As fellow Analystss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Logician lead on logical understanding and The Commander lead on efficient execution. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "INTP-ENTP",
+    "label": "The Logician & The Debater",
+    "dynamic": "The Logician brings logical understanding while The Debater brings innovation and debate. As fellow Analystss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Logician lead on logical understanding and The Debater lead on innovation and debate. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "INTP-INFJ",
+    "label": "The Logician & The Advocate",
+    "dynamic": "INTP analyzes systems; INFJ reads people. Both are introverted and thoughtful, but ITP starts with logic and INFJ starts with intuition. ITP helps INFJ test their insights; INFJ helps ITP connect their ideas to human impact.",
+    "tip": "INTP should take INFJ's hunches seriously even without data. INFJ should give INTP time to process rather than pushing for immediate emotional responses."
+  },
+  {
+    "pair": "INTP-INFP",
+    "label": "The Logician & The Mediator",
+    "dynamic": "The Logician prioritizes logical understanding while The Mediator prioritizes authentic self-expression. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Mediator values (authentic self-expression) before advocating for The Logician's approach. The best outcomes merge logical understanding with authentic self-expression rather than choosing one over the other."
+  },
+  {
+    "pair": "INTP-ENFJ",
+    "label": "The Logician & The Protagonist",
+    "dynamic": "The Logician prioritizes logical understanding while The Protagonist prioritizes empowering others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Protagonist values (empowering others) before advocating for The Logician's approach. The best outcomes merge logical understanding with empowering others rather than choosing one over the other."
+  },
+  {
+    "pair": "INTP-ENFP",
+    "label": "The Logician & The Campaigner",
+    "dynamic": "The Logician prioritizes logical understanding while The Campaigner prioritizes possibility and connection. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Campaigner values (possibility and connection) before advocating for The Logician's approach. The best outcomes merge logical understanding with possibility and connection rather than choosing one over the other."
+  },
+  {
+    "pair": "INTP-ISTJ",
+    "label": "The Logician & The Logistician",
+    "dynamic": "The Logician prioritizes logical understanding while The Logistician prioritizes reliable execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logistician values (reliable execution) before advocating for The Logician's approach. The best outcomes merge logical understanding with reliable execution rather than choosing one over the other."
+  },
+  {
+    "pair": "INTP-ISFJ",
+    "label": "The Logician & The Defender",
+    "dynamic": "The Logician prioritizes logical understanding while The Defender prioritizes caring for others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Defender values (caring for others) before advocating for The Logician's approach. The best outcomes merge logical understanding with caring for others rather than choosing one over the other."
+  },
+  {
+    "pair": "INTP-ESTJ",
+    "label": "The Logician & The Executive",
+    "dynamic": "The Logician prioritizes logical understanding while The Executive prioritizes order and efficiency. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Executive values (order and efficiency) before advocating for The Logician's approach. The best outcomes merge logical understanding with order and efficiency rather than choosing one over the other."
+  },
+  {
+    "pair": "INTP-ESFJ",
+    "label": "The Logician & The Consul",
+    "dynamic": "The Logician prioritizes logical understanding while The Consul prioritizes harmony and support. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Consul values (harmony and support) before advocating for The Logician's approach. The best outcomes merge logical understanding with harmony and support rather than choosing one over the other."
+  },
+  {
+    "pair": "INTP-ISTP",
+    "label": "The Logician & The Virtuoso",
+    "dynamic": "The Logician prioritizes logical understanding while The Virtuoso prioritizes practical problem-solving. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Virtuoso values (practical problem-solving) before advocating for The Logician's approach. The best outcomes merge logical understanding with practical problem-solving rather than choosing one over the other."
+  },
+  {
+    "pair": "INTP-ISFP",
+    "label": "The Logician & The Adventurer",
+    "dynamic": "The Logician prioritizes logical understanding while The Adventurer prioritizes personal values and aesthetics. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Adventurer values (personal values and aesthetics) before advocating for The Logician's approach. The best outcomes merge logical understanding with personal values and aesthetics rather than choosing one over the other."
+  },
+  {
+    "pair": "INTP-ESTP",
+    "label": "The Logician & The Entrepreneur",
+    "dynamic": "The Logician prioritizes logical understanding while The Entrepreneur prioritizes action and results. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entrepreneur values (action and results) before advocating for The Logician's approach. The best outcomes merge logical understanding with action and results rather than choosing one over the other."
+  },
+  {
+    "pair": "INTP-ESFP",
+    "label": "The Logician & The Entertainer",
+    "dynamic": "The Logician prioritizes logical understanding while The Entertainer prioritizes experience and fun. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entertainer values (experience and fun) before advocating for The Logician's approach. The best outcomes merge logical understanding with experience and fun rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTJ-INTJ",
+    "label": "The Commander & The Architect",
+    "dynamic": "The Commander brings efficient execution while The Architect brings strategic vision. As fellow Analystss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Commander lead on efficient execution and The Architect lead on strategic vision. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ENTJ-INTP",
+    "label": "The Commander & The Logician",
+    "dynamic": "ENTJ wants to execute; INTP wants to understand. ENTJ makes fast decisions; INTP wants to analyze more. The tension is real but productive \u2014 ENTJ prevents analysis paralysis, and INTP prevents reckless decisions.",
+    "tip": "Give INTP a deadline for analysis. ENTJ should ask INTP what could go wrong \u2014 their blind spots are usually different, which makes them stronger together."
+  },
+  {
+    "pair": "ENTJ-ENTJ",
+    "label": "The Commander & The Commander",
+    "dynamic": "Two The Commanders share efficient execution and a decisive and organized approach. They understand each other instinctively, which creates fast alignment but can amplify blind spots when both share the same weaknesses.",
+    "tip": "Assign one partner to handle efficient execution strategy and the other to execute details. When both are stressed byincompetence, wasted time, lack of control, deliberately seek outside perspectives to break the pattern."
+  },
+  {
+    "pair": "ENTJ-ENTP",
+    "label": "The Commander & The Debater",
+    "dynamic": "The Commander brings efficient execution while The Debater brings innovation and debate. As fellow Analystss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Commander lead on efficient execution and The Debater lead on innovation and debate. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ENTJ-INFJ",
+    "label": "The Commander & The Advocate",
+    "dynamic": "The Commander prioritizes efficient execution while The Advocate prioritizes meaningful connection. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Advocate values (meaningful connection) before advocating for The Commander's approach. The best outcomes merge efficient execution with meaningful connection rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTJ-INFP",
+    "label": "The Commander & The Mediator",
+    "dynamic": "The Commander prioritizes efficient execution while The Mediator prioritizes authentic self-expression. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Mediator values (authentic self-expression) before advocating for The Commander's approach. The best outcomes merge efficient execution with authentic self-expression rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTJ-ENFJ",
+    "label": "The Commander & The Protagonist",
+    "dynamic": "The Commander prioritizes efficient execution while The Protagonist prioritizes empowering others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Protagonist values (empowering others) before advocating for The Commander's approach. The best outcomes merge efficient execution with empowering others rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTJ-ENFP",
+    "label": "The Commander & The Campaigner",
+    "dynamic": "ENTJ provides decisive leadership; ENFP provides creative vision. ENTJ pushes for execution; ENFP pushes for meaning. When aligned, they create organizations that are both effective and inspiring.",
+    "tip": "ENTJ should not steamroll ENFP's ideas \u2014 some of them are genuinely better. ENFP should present ideas with practical steps rather than just vision."
+  },
+  {
+    "pair": "ENTJ-ISTJ",
+    "label": "The Commander & The Logistician",
+    "dynamic": "The Commander prioritizes efficient execution while The Logistician prioritizes reliable execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logistician values (reliable execution) before advocating for The Commander's approach. The best outcomes merge efficient execution with reliable execution rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTJ-ISFJ",
+    "label": "The Commander & The Defender",
+    "dynamic": "The Commander prioritizes efficient execution while The Defender prioritizes caring for others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Defender values (caring for others) before advocating for The Commander's approach. The best outcomes merge efficient execution with caring for others rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTJ-ESTJ",
+    "label": "The Commander & The Executive",
+    "dynamic": "The Commander prioritizes efficient execution while The Executive prioritizes order and efficiency. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Executive values (order and efficiency) before advocating for The Commander's approach. The best outcomes merge efficient execution with order and efficiency rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTJ-ESFJ",
+    "label": "The Commander & The Consul",
+    "dynamic": "The Commander prioritizes efficient execution while The Consul prioritizes harmony and support. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Consul values (harmony and support) before advocating for The Commander's approach. The best outcomes merge efficient execution with harmony and support rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTJ-ISTP",
+    "label": "The Commander & The Virtuoso",
+    "dynamic": "The Commander prioritizes efficient execution while The Virtuoso prioritizes practical problem-solving. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Virtuoso values (practical problem-solving) before advocating for The Commander's approach. The best outcomes merge efficient execution with practical problem-solving rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTJ-ISFP",
+    "label": "The Commander & The Adventurer",
+    "dynamic": "The Commander prioritizes efficient execution while The Adventurer prioritizes personal values and aesthetics. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Adventurer values (personal values and aesthetics) before advocating for The Commander's approach. The best outcomes merge efficient execution with personal values and aesthetics rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTJ-ESTP",
+    "label": "The Commander & The Entrepreneur",
+    "dynamic": "The Commander prioritizes efficient execution while The Entrepreneur prioritizes action and results. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entrepreneur values (action and results) before advocating for The Commander's approach. The best outcomes merge efficient execution with action and results rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTJ-ESFP",
+    "label": "The Commander & The Entertainer",
+    "dynamic": "The Commander prioritizes efficient execution while The Entertainer prioritizes experience and fun. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entertainer values (experience and fun) before advocating for The Commander's approach. The best outcomes merge efficient execution with experience and fun rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTP-INTJ",
+    "label": "The Debater & The Architect",
+    "dynamic": "The Debater brings innovation and debate while The Architect brings strategic vision. As fellow Analystss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Debater lead on innovation and debate and The Architect lead on strategic vision. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ENTP-INTP",
+    "label": "The Debater & The Logician",
+    "dynamic": "The Debater brings innovation and debate while The Logician brings logical understanding. As fellow Analystss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Debater lead on innovation and debate and The Logician lead on logical understanding. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ENTP-ENTJ",
+    "label": "The Debater & The Commander",
+    "dynamic": "The Debater brings innovation and debate while The Commander brings efficient execution. As fellow Analystss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Debater lead on innovation and debate and The Commander lead on efficient execution. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ENTP-ENTP",
+    "label": "The Debater & The Debater",
+    "dynamic": "Two Debaters create an intellectually stimulating, endlessly creative environment. They challenge each other, generate ideas rapidly, and never run out of things to discuss. The challenge is turning ideas into reality.",
+    "tip": "Assign clear ownership for execution \u2014 whoever proposes an idea owns it through completion. Set a rule: no new ideas until the last one is either done or deliberately abandoned."
+  },
+  {
+    "pair": "ENTP-INFJ",
+    "label": "The Debater & The Advocate",
+    "dynamic": "ENTP generates ideas; INFJ synthesizes them into meaning. ENTP challenges assumptions; INFJ seeks truth. This pairing can produce extraordinary insights when both respect each other's process.",
+    "tip": "ENTP should not treat INFJ's deep convictions as debate fodder. INFJ should share their insights directly rather than waiting for ENTP to ask."
+  },
+  {
+    "pair": "ENTP-INFP",
+    "label": "The Debater & The Mediator",
+    "dynamic": "The Debater prioritizes innovation and debate while The Mediator prioritizes authentic self-expression. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Mediator values (authentic self-expression) before advocating for The Debater's approach. The best outcomes merge innovation and debate with authentic self-expression rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTP-ENFJ",
+    "label": "The Debater & The Protagonist",
+    "dynamic": "The Debater prioritizes innovation and debate while The Protagonist prioritizes empowering others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Protagonist values (empowering others) before advocating for The Debater's approach. The best outcomes merge innovation and debate with empowering others rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTP-ENFP",
+    "label": "The Debater & The Campaigner",
+    "dynamic": "The Debater prioritizes innovation and debate while The Campaigner prioritizes possibility and connection. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Campaigner values (possibility and connection) before advocating for The Debater's approach. The best outcomes merge innovation and debate with possibility and connection rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTP-ISTJ",
+    "label": "The Debater & The Logistician",
+    "dynamic": "The Debater prioritizes innovation and debate while The Logistician prioritizes reliable execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logistician values (reliable execution) before advocating for The Debater's approach. The best outcomes merge innovation and debate with reliable execution rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTP-ISFJ",
+    "label": "The Debater & The Defender",
+    "dynamic": "The Debater prioritizes innovation and debate while The Defender prioritizes caring for others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Defender values (caring for others) before advocating for The Debater's approach. The best outcomes merge innovation and debate with caring for others rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTP-ESTJ",
+    "label": "The Debater & The Executive",
+    "dynamic": "The Debater prioritizes innovation and debate while The Executive prioritizes order and efficiency. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Executive values (order and efficiency) before advocating for The Debater's approach. The best outcomes merge innovation and debate with order and efficiency rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTP-ESFJ",
+    "label": "The Debater & The Consul",
+    "dynamic": "The Debater prioritizes innovation and debate while The Consul prioritizes harmony and support. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Consul values (harmony and support) before advocating for The Debater's approach. The best outcomes merge innovation and debate with harmony and support rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTP-ISTP",
+    "label": "The Debater & The Virtuoso",
+    "dynamic": "The Debater prioritizes innovation and debate while The Virtuoso prioritizes practical problem-solving. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Virtuoso values (practical problem-solving) before advocating for The Debater's approach. The best outcomes merge innovation and debate with practical problem-solving rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTP-ISFP",
+    "label": "The Debater & The Adventurer",
+    "dynamic": "The Debater prioritizes innovation and debate while The Adventurer prioritizes personal values and aesthetics. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Adventurer values (personal values and aesthetics) before advocating for The Debater's approach. The best outcomes merge innovation and debate with personal values and aesthetics rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTP-ESTP",
+    "label": "The Debater & The Entrepreneur",
+    "dynamic": "The Debater prioritizes innovation and debate while The Entrepreneur prioritizes action and results. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entrepreneur values (action and results) before advocating for The Debater's approach. The best outcomes merge innovation and debate with action and results rather than choosing one over the other."
+  },
+  {
+    "pair": "ENTP-ESFP",
+    "label": "The Debater & The Entertainer",
+    "dynamic": "The Debater prioritizes innovation and debate while The Entertainer prioritizes experience and fun. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entertainer values (experience and fun) before advocating for The Debater's approach. The best outcomes merge innovation and debate with experience and fun rather than choosing one over the other."
+  },
+  {
+    "pair": "INFJ-INTJ",
+    "label": "The Advocate & The Architect",
+    "dynamic": "The Advocate prioritizes meaningful connection while The Architect prioritizes strategic vision. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Architect values (strategic vision) before advocating for The Advocate's approach. The best outcomes merge meaningful connection with strategic vision rather than choosing one over the other."
+  },
+  {
+    "pair": "INFJ-INTP",
+    "label": "The Advocate & The Logician",
+    "dynamic": "The Advocate prioritizes meaningful connection while The Logician prioritizes logical understanding. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logician values (logical understanding) before advocating for The Advocate's approach. The best outcomes merge meaningful connection with logical understanding rather than choosing one over the other."
+  },
+  {
+    "pair": "INFJ-ENTJ",
+    "label": "The Advocate & The Commander",
+    "dynamic": "The Advocate prioritizes meaningful connection while The Commander prioritizes efficient execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Commander values (efficient execution) before advocating for The Advocate's approach. The best outcomes merge meaningful connection with efficient execution rather than choosing one over the other."
+  },
+  {
+    "pair": "INFJ-ENTP",
+    "label": "The Advocate & The Debater",
+    "dynamic": "The Advocate prioritizes meaningful connection while The Debater prioritizes innovation and debate. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Debater values (innovation and debate) before advocating for The Advocate's approach. The best outcomes merge meaningful connection with innovation and debate rather than choosing one over the other."
+  },
+  {
+    "pair": "INFJ-INFJ",
+    "label": "The Advocate & The Advocate",
+    "dynamic": "Two Advocates share deep values, intuition, and a desire for meaningful connection. They understand each other without words. The risk is mutual overthinking \u2014 both may read meaning into situations that is not there.",
+    "tip": "Check assumptions directly rather than intuiting. Create explicit agreements about communication and responsibility rather than hoping the other person just understands."
+  },
+  {
+    "pair": "INFJ-INFP",
+    "label": "The Advocate & The Mediator",
+    "dynamic": "The Advocate brings meaningful connection while The Mediator brings authentic self-expression. As fellow Diplomatss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Advocate lead on meaningful connection and The Mediator lead on authentic self-expression. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "INFJ-ENFJ",
+    "label": "The Advocate & The Protagonist",
+    "dynamic": "The Advocate brings meaningful connection while The Protagonist brings empowering others. As fellow Diplomatss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Advocate lead on meaningful connection and The Protagonist lead on empowering others. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "INFJ-ENFP",
+    "label": "The Advocate & The Campaigner",
+    "dynamic": "INFJ provides depth and insight; ENFP provides energy and possibility. Both care about meaning and connection but approach it differently \u2014 INFJ from quiet understanding, ENFP from enthusiastic engagement. This is one of the most compatible pairings.",
+    "tip": "INFJ should not withdraw when ENFP's energy feels overwhelming \u2014 instead communicate the need for space. ENFP should check in meaningfully, not just socially."
+  },
+  {
+    "pair": "INFJ-ISTJ",
+    "label": "The Advocate & The Logistician",
+    "dynamic": "The Advocate prioritizes meaningful connection while The Logistician prioritizes reliable execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logistician values (reliable execution) before advocating for The Advocate's approach. The best outcomes merge meaningful connection with reliable execution rather than choosing one over the other."
+  },
+  {
+    "pair": "INFJ-ISFJ",
+    "label": "The Advocate & The Defender",
+    "dynamic": "The Advocate prioritizes meaningful connection while The Defender prioritizes caring for others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Defender values (caring for others) before advocating for The Advocate's approach. The best outcomes merge meaningful connection with caring for others rather than choosing one over the other."
+  },
+  {
+    "pair": "INFJ-ESTJ",
+    "label": "The Advocate & The Executive",
+    "dynamic": "The Advocate prioritizes meaningful connection while The Executive prioritizes order and efficiency. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Executive values (order and efficiency) before advocating for The Advocate's approach. The best outcomes merge meaningful connection with order and efficiency rather than choosing one over the other."
+  },
+  {
+    "pair": "INFJ-ESFJ",
+    "label": "The Advocate & The Consul",
+    "dynamic": "The Advocate prioritizes meaningful connection while The Consul prioritizes harmony and support. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Consul values (harmony and support) before advocating for The Advocate's approach. The best outcomes merge meaningful connection with harmony and support rather than choosing one over the other."
+  },
+  {
+    "pair": "INFJ-ISTP",
+    "label": "The Advocate & The Virtuoso",
+    "dynamic": "The Advocate prioritizes meaningful connection while The Virtuoso prioritizes practical problem-solving. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Virtuoso values (practical problem-solving) before advocating for The Advocate's approach. The best outcomes merge meaningful connection with practical problem-solving rather than choosing one over the other."
+  },
+  {
+    "pair": "INFJ-ISFP",
+    "label": "The Advocate & The Adventurer",
+    "dynamic": "The Advocate prioritizes meaningful connection while The Adventurer prioritizes personal values and aesthetics. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Adventurer values (personal values and aesthetics) before advocating for The Advocate's approach. The best outcomes merge meaningful connection with personal values and aesthetics rather than choosing one over the other."
+  },
+  {
+    "pair": "INFJ-ESTP",
+    "label": "The Advocate & The Entrepreneur",
+    "dynamic": "The Advocate prioritizes meaningful connection while The Entrepreneur prioritizes action and results. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entrepreneur values (action and results) before advocating for The Advocate's approach. The best outcomes merge meaningful connection with action and results rather than choosing one over the other."
+  },
+  {
+    "pair": "INFJ-ESFP",
+    "label": "The Advocate & The Entertainer",
+    "dynamic": "The Advocate prioritizes meaningful connection while The Entertainer prioritizes experience and fun. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entertainer values (experience and fun) before advocating for The Advocate's approach. The best outcomes merge meaningful connection with experience and fun rather than choosing one over the other."
+  },
+  {
+    "pair": "INFP-INTJ",
+    "label": "The Mediator & The Architect",
+    "dynamic": "The Mediator prioritizes authentic self-expression while The Architect prioritizes strategic vision. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Architect values (strategic vision) before advocating for The Mediator's approach. The best outcomes merge authentic self-expression with strategic vision rather than choosing one over the other."
+  },
+  {
+    "pair": "INFP-INTP",
+    "label": "The Mediator & The Logician",
+    "dynamic": "The Mediator prioritizes authentic self-expression while The Logician prioritizes logical understanding. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logician values (logical understanding) before advocating for The Mediator's approach. The best outcomes merge authentic self-expression with logical understanding rather than choosing one over the other."
+  },
+  {
+    "pair": "INFP-ENTJ",
+    "label": "The Mediator & The Commander",
+    "dynamic": "The Mediator prioritizes authentic self-expression while The Commander prioritizes efficient execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Commander values (efficient execution) before advocating for The Mediator's approach. The best outcomes merge authentic self-expression with efficient execution rather than choosing one over the other."
+  },
+  {
+    "pair": "INFP-ENTP",
+    "label": "The Mediator & The Debater",
+    "dynamic": "The Mediator prioritizes authentic self-expression while The Debater prioritizes innovation and debate. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Debater values (innovation and debate) before advocating for The Mediator's approach. The best outcomes merge authentic self-expression with innovation and debate rather than choosing one over the other."
+  },
+  {
+    "pair": "INFP-INFJ",
+    "label": "The Mediator & The Advocate",
+    "dynamic": "The Mediator brings authentic self-expression while The Advocate brings meaningful connection. As fellow Diplomatss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Mediator lead on authentic self-expression and The Advocate lead on meaningful connection. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "INFP-INFP",
+    "label": "The Mediator & The Mediator",
+    "dynamic": "Two The Mediators share authentic self-expression and a idealistic and compassionate approach. They understand each other instinctively, which creates fast alignment but can amplify blind spots when both share the same weaknesses.",
+    "tip": "Assign one partner to handle authentic self-expression strategy and the other to execute details. When both are stressed byrigid rules, criticism, inauthenticity, deliberately seek outside perspectives to break the pattern."
+  },
+  {
+    "pair": "INFP-ENFJ",
+    "label": "The Mediator & The Protagonist",
+    "dynamic": "The Mediator brings authentic self-expression while The Protagonist brings empowering others. As fellow Diplomatss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Mediator lead on authentic self-expression and The Protagonist lead on empowering others. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "INFP-ENFP",
+    "label": "The Mediator & The Campaigner",
+    "dynamic": "The Mediator brings authentic self-expression while The Campaigner brings possibility and connection. As fellow Diplomatss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Mediator lead on authentic self-expression and The Campaigner lead on possibility and connection. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "INFP-ISTJ",
+    "label": "The Mediator & The Logistician",
+    "dynamic": "The Mediator prioritizes authentic self-expression while The Logistician prioritizes reliable execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logistician values (reliable execution) before advocating for The Mediator's approach. The best outcomes merge authentic self-expression with reliable execution rather than choosing one over the other."
+  },
+  {
+    "pair": "INFP-ISFJ",
+    "label": "The Mediator & The Defender",
+    "dynamic": "The Mediator prioritizes authentic self-expression while The Defender prioritizes caring for others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Defender values (caring for others) before advocating for The Mediator's approach. The best outcomes merge authentic self-expression with caring for others rather than choosing one over the other."
+  },
+  {
+    "pair": "INFP-ESTJ",
+    "label": "The Mediator & The Executive",
+    "dynamic": "The Mediator prioritizes authentic self-expression while The Executive prioritizes order and efficiency. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Executive values (order and efficiency) before advocating for The Mediator's approach. The best outcomes merge authentic self-expression with order and efficiency rather than choosing one over the other."
+  },
+  {
+    "pair": "INFP-ESFJ",
+    "label": "The Mediator & The Consul",
+    "dynamic": "The Mediator prioritizes authentic self-expression while The Consul prioritizes harmony and support. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Consul values (harmony and support) before advocating for The Mediator's approach. The best outcomes merge authentic self-expression with harmony and support rather than choosing one over the other."
+  },
+  {
+    "pair": "INFP-ISTP",
+    "label": "The Mediator & The Virtuoso",
+    "dynamic": "The Mediator prioritizes authentic self-expression while The Virtuoso prioritizes practical problem-solving. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Virtuoso values (practical problem-solving) before advocating for The Mediator's approach. The best outcomes merge authentic self-expression with practical problem-solving rather than choosing one over the other."
+  },
+  {
+    "pair": "INFP-ISFP",
+    "label": "The Mediator & The Adventurer",
+    "dynamic": "The Mediator prioritizes authentic self-expression while The Adventurer prioritizes personal values and aesthetics. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Adventurer values (personal values and aesthetics) before advocating for The Mediator's approach. The best outcomes merge authentic self-expression with personal values and aesthetics rather than choosing one over the other."
+  },
+  {
+    "pair": "INFP-ESTP",
+    "label": "The Mediator & The Entrepreneur",
+    "dynamic": "The Mediator prioritizes authentic self-expression while The Entrepreneur prioritizes action and results. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entrepreneur values (action and results) before advocating for The Mediator's approach. The best outcomes merge authentic self-expression with action and results rather than choosing one over the other."
+  },
+  {
+    "pair": "INFP-ESFP",
+    "label": "The Mediator & The Entertainer",
+    "dynamic": "The Mediator prioritizes authentic self-expression while The Entertainer prioritizes experience and fun. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entertainer values (experience and fun) before advocating for The Mediator's approach. The best outcomes merge authentic self-expression with experience and fun rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFJ-INTJ",
+    "label": "The Protagonist & The Architect",
+    "dynamic": "The Protagonist prioritizes empowering others while The Architect prioritizes strategic vision. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Architect values (strategic vision) before advocating for The Protagonist's approach. The best outcomes merge empowering others with strategic vision rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFJ-INTP",
+    "label": "The Protagonist & The Logician",
+    "dynamic": "The Protagonist prioritizes empowering others while The Logician prioritizes logical understanding. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logician values (logical understanding) before advocating for The Protagonist's approach. The best outcomes merge empowering others with logical understanding rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFJ-ENTJ",
+    "label": "The Protagonist & The Commander",
+    "dynamic": "The Protagonist prioritizes empowering others while The Commander prioritizes efficient execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Commander values (efficient execution) before advocating for The Protagonist's approach. The best outcomes merge empowering others with efficient execution rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFJ-ENTP",
+    "label": "The Protagonist & The Debater",
+    "dynamic": "The Protagonist prioritizes empowering others while The Debater prioritizes innovation and debate. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Debater values (innovation and debate) before advocating for The Protagonist's approach. The best outcomes merge empowering others with innovation and debate rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFJ-INFJ",
+    "label": "The Protagonist & The Advocate",
+    "dynamic": "The Protagonist brings empowering others while The Advocate brings meaningful connection. As fellow Diplomatss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Protagonist lead on empowering others and The Advocate lead on meaningful connection. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ENFJ-INFP",
+    "label": "The Protagonist & The Mediator",
+    "dynamic": "The Protagonist brings empowering others while The Mediator brings authentic self-expression. As fellow Diplomatss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Protagonist lead on empowering others and The Mediator lead on authentic self-expression. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ENFJ-ENFJ",
+    "label": "The Protagonist & The Protagonist",
+    "dynamic": "Two The Protagonists share empowering others and a charismatic and organized approach. They understand each other instinctively, which creates fast alignment but can amplify blind spots when both share the same weaknesses.",
+    "tip": "Assign one partner to handle empowering others strategy and the other to execute details. When both are stressed byconflict, unappreciated effort, disharmony, deliberately seek outside perspectives to break the pattern."
+  },
+  {
+    "pair": "ENFJ-ENFP",
+    "label": "The Protagonist & The Campaigner",
+    "dynamic": "The Protagonist brings empowering others while The Campaigner brings possibility and connection. As fellow Diplomatss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Protagonist lead on empowering others and The Campaigner lead on possibility and connection. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ENFJ-ISTJ",
+    "label": "The Protagonist & The Logistician",
+    "dynamic": "The Protagonist prioritizes empowering others while The Logistician prioritizes reliable execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logistician values (reliable execution) before advocating for The Protagonist's approach. The best outcomes merge empowering others with reliable execution rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFJ-ISFJ",
+    "label": "The Protagonist & The Defender",
+    "dynamic": "The Protagonist prioritizes empowering others while The Defender prioritizes caring for others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Defender values (caring for others) before advocating for The Protagonist's approach. The best outcomes merge empowering others with caring for others rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFJ-ESTJ",
+    "label": "The Protagonist & The Executive",
+    "dynamic": "The Protagonist prioritizes empowering others while The Executive prioritizes order and efficiency. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Executive values (order and efficiency) before advocating for The Protagonist's approach. The best outcomes merge empowering others with order and efficiency rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFJ-ESFJ",
+    "label": "The Protagonist & The Consul",
+    "dynamic": "The Protagonist prioritizes empowering others while The Consul prioritizes harmony and support. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Consul values (harmony and support) before advocating for The Protagonist's approach. The best outcomes merge empowering others with harmony and support rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFJ-ISTP",
+    "label": "The Protagonist & The Virtuoso",
+    "dynamic": "ENFJ focuses on people and meaning; ISTP focuses on practical problem-solving. ENFJ wants to talk it through; ISTP wants to fix it and move on. When both respect the other's approach, they cover a lot of ground.",
+    "tip": "ENFJ should give ISTP space to process alone before expecting a response. ISTP should not dismiss ENFJ's emotional check-ins as unnecessary."
+  },
+  {
+    "pair": "ENFJ-ISFP",
+    "label": "The Protagonist & The Adventurer",
+    "dynamic": "The Protagonist prioritizes empowering others while The Adventurer prioritizes personal values and aesthetics. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Adventurer values (personal values and aesthetics) before advocating for The Protagonist's approach. The best outcomes merge empowering others with personal values and aesthetics rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFJ-ESTP",
+    "label": "The Protagonist & The Entrepreneur",
+    "dynamic": "The Protagonist prioritizes empowering others while The Entrepreneur prioritizes action and results. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entrepreneur values (action and results) before advocating for The Protagonist's approach. The best outcomes merge empowering others with action and results rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFJ-ESFP",
+    "label": "The Protagonist & The Entertainer",
+    "dynamic": "The Protagonist prioritizes empowering others while The Entertainer prioritizes experience and fun. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entertainer values (experience and fun) before advocating for The Protagonist's approach. The best outcomes merge empowering others with experience and fun rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFP-INTJ",
+    "label": "The Campaigner & The Architect",
+    "dynamic": "The Campaigner prioritizes possibility and connection while The Architect prioritizes strategic vision. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Architect values (strategic vision) before advocating for The Campaigner's approach. The best outcomes merge possibility and connection with strategic vision rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFP-INTP",
+    "label": "The Campaigner & The Logician",
+    "dynamic": "The Campaigner prioritizes possibility and connection while The Logician prioritizes logical understanding. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logician values (logical understanding) before advocating for The Campaigner's approach. The best outcomes merge possibility and connection with logical understanding rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFP-ENTJ",
+    "label": "The Campaigner & The Commander",
+    "dynamic": "The Campaigner prioritizes possibility and connection while The Commander prioritizes efficient execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Commander values (efficient execution) before advocating for The Campaigner's approach. The best outcomes merge possibility and connection with efficient execution rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFP-ENTP",
+    "label": "The Campaigner & The Debater",
+    "dynamic": "The Campaigner prioritizes possibility and connection while The Debater prioritizes innovation and debate. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Debater values (innovation and debate) before advocating for The Campaigner's approach. The best outcomes merge possibility and connection with innovation and debate rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFP-INFJ",
+    "label": "The Campaigner & The Advocate",
+    "dynamic": "The Campaigner brings possibility and connection while The Advocate brings meaningful connection. As fellow Diplomatss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Campaigner lead on possibility and connection and The Advocate lead on meaningful connection. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ENFP-INFP",
+    "label": "The Campaigner & The Mediator",
+    "dynamic": "The Campaigner brings possibility and connection while The Mediator brings authentic self-expression. As fellow Diplomatss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Campaigner lead on possibility and connection and The Mediator lead on authentic self-expression. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ENFP-ENFJ",
+    "label": "The Campaigner & The Protagonist",
+    "dynamic": "The Campaigner brings possibility and connection while The Protagonist brings empowering others. As fellow Diplomatss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Campaigner lead on possibility and connection and The Protagonist lead on empowering others. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ENFP-ENFP",
+    "label": "The Campaigner & The Campaigner",
+    "dynamic": "Two Campaigners create an explosion of ideas, energy, and possibilities. They inspire each other and make everything more fun. The challenge is follow-through \u2014 both are better at starting than finishing.",
+    "tip": "Create external accountability structures \u2014 deadlines, check-ins, and a shared task list. Take turns being the one who pushes projects to completion."
+  },
+  {
+    "pair": "ENFP-ISTJ",
+    "label": "The Campaigner & The Logistician",
+    "dynamic": "The Campaigner prioritizes possibility and connection while The Logistician prioritizes reliable execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logistician values (reliable execution) before advocating for The Campaigner's approach. The best outcomes merge possibility and connection with reliable execution rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFP-ISFJ",
+    "label": "The Campaigner & The Defender",
+    "dynamic": "The Campaigner prioritizes possibility and connection while The Defender prioritizes caring for others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Defender values (caring for others) before advocating for The Campaigner's approach. The best outcomes merge possibility and connection with caring for others rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFP-ESTJ",
+    "label": "The Campaigner & The Executive",
+    "dynamic": "The Campaigner prioritizes possibility and connection while The Executive prioritizes order and efficiency. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Executive values (order and efficiency) before advocating for The Campaigner's approach. The best outcomes merge possibility and connection with order and efficiency rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFP-ESFJ",
+    "label": "The Campaigner & The Consul",
+    "dynamic": "The Campaigner prioritizes possibility and connection while The Consul prioritizes harmony and support. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Consul values (harmony and support) before advocating for The Campaigner's approach. The best outcomes merge possibility and connection with harmony and support rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFP-ISTP",
+    "label": "The Campaigner & The Virtuoso",
+    "dynamic": "The Campaigner prioritizes possibility and connection while The Virtuoso prioritizes practical problem-solving. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Virtuoso values (practical problem-solving) before advocating for The Campaigner's approach. The best outcomes merge possibility and connection with practical problem-solving rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFP-ISFP",
+    "label": "The Campaigner & The Adventurer",
+    "dynamic": "The Campaigner prioritizes possibility and connection while The Adventurer prioritizes personal values and aesthetics. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Adventurer values (personal values and aesthetics) before advocating for The Campaigner's approach. The best outcomes merge possibility and connection with personal values and aesthetics rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFP-ESTP",
+    "label": "The Campaigner & The Entrepreneur",
+    "dynamic": "The Campaigner prioritizes possibility and connection while The Entrepreneur prioritizes action and results. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entrepreneur values (action and results) before advocating for The Campaigner's approach. The best outcomes merge possibility and connection with action and results rather than choosing one over the other."
+  },
+  {
+    "pair": "ENFP-ESFP",
+    "label": "The Campaigner & The Entertainer",
+    "dynamic": "The Campaigner prioritizes possibility and connection while The Entertainer prioritizes experience and fun. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entertainer values (experience and fun) before advocating for The Campaigner's approach. The best outcomes merge possibility and connection with experience and fun rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTJ-INTJ",
+    "label": "The Logistician & The Architect",
+    "dynamic": "The Logistician prioritizes reliable execution while The Architect prioritizes strategic vision. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Architect values (strategic vision) before advocating for The Logistician's approach. The best outcomes merge reliable execution with strategic vision rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTJ-INTP",
+    "label": "The Logistician & The Logician",
+    "dynamic": "The Logistician prioritizes reliable execution while The Logician prioritizes logical understanding. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logician values (logical understanding) before advocating for The Logistician's approach. The best outcomes merge reliable execution with logical understanding rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTJ-ENTJ",
+    "label": "The Logistician & The Commander",
+    "dynamic": "The Logistician prioritizes reliable execution while The Commander prioritizes efficient execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Commander values (efficient execution) before advocating for The Logistician's approach. The best outcomes merge reliable execution with efficient execution rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTJ-ENTP",
+    "label": "The Logistician & The Debater",
+    "dynamic": "The Logistician prioritizes reliable execution while The Debater prioritizes innovation and debate. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Debater values (innovation and debate) before advocating for The Logistician's approach. The best outcomes merge reliable execution with innovation and debate rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTJ-INFJ",
+    "label": "The Logistician & The Advocate",
+    "dynamic": "The Logistician prioritizes reliable execution while The Advocate prioritizes meaningful connection. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Advocate values (meaningful connection) before advocating for The Logistician's approach. The best outcomes merge reliable execution with meaningful connection rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTJ-INFP",
+    "label": "The Logistician & The Mediator",
+    "dynamic": "The Logistician prioritizes reliable execution while The Mediator prioritizes authentic self-expression. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Mediator values (authentic self-expression) before advocating for The Logistician's approach. The best outcomes merge reliable execution with authentic self-expression rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTJ-ENFJ",
+    "label": "The Logistician & The Protagonist",
+    "dynamic": "The Logistician prioritizes reliable execution while The Protagonist prioritizes empowering others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Protagonist values (empowering others) before advocating for The Logistician's approach. The best outcomes merge reliable execution with empowering others rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTJ-ENFP",
+    "label": "The Logistician & The Campaigner",
+    "dynamic": "Classic opposite pairing \u2014 ISTJ relies on facts and precedent; ENFP relies on intuition and possibility. ISTJ provides reliability; ENFP provides creativity. When they respect each other, the contrast is a strength.",
+    "tip": "ISTJ should give ENFP room to brainstorm before demanding specifics. ENFP should bring organized proposals to ISTJ rather than unstructured ideas."
+  },
+  {
+    "pair": "ISTJ-ISTJ",
+    "label": "The Logistician & The Logistician",
+    "dynamic": "Two Logisticians share a commitment to doing things correctly and reliably. They trust each other's follow-through and respect established processes. The risk is rigidity \u2014 both may resist change long past when it is needed.",
+    "tip": "Schedule quarterly reviews specifically to question whether current processes still serve the goal. Bring in outside perspectives to challenge assumptions."
+  },
+  {
+    "pair": "ISTJ-ISFJ",
+    "label": "The Logistician & The Defender",
+    "dynamic": "The Logistician brings reliable execution while The Defender brings caring for others. As fellow Sentinelss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Logistician lead on reliable execution and The Defender lead on caring for others. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ISTJ-ESTJ",
+    "label": "The Logistician & The Executive",
+    "dynamic": "The Logistician brings reliable execution while The Executive brings order and efficiency. As fellow Sentinelss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Logistician lead on reliable execution and The Executive lead on order and efficiency. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ISTJ-ESFJ",
+    "label": "The Logistician & The Consul",
+    "dynamic": "The Logistician brings reliable execution while The Consul brings harmony and support. As fellow Sentinelss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Logistician lead on reliable execution and The Consul lead on harmony and support. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ISTJ-ISTP",
+    "label": "The Logistician & The Virtuoso",
+    "dynamic": "The Logistician prioritizes reliable execution while The Virtuoso prioritizes practical problem-solving. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Virtuoso values (practical problem-solving) before advocating for The Logistician's approach. The best outcomes merge reliable execution with practical problem-solving rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTJ-ISFP",
+    "label": "The Logistician & The Adventurer",
+    "dynamic": "The Logistician prioritizes reliable execution while The Adventurer prioritizes personal values and aesthetics. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Adventurer values (personal values and aesthetics) before advocating for The Logistician's approach. The best outcomes merge reliable execution with personal values and aesthetics rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTJ-ESTP",
+    "label": "The Logistician & The Entrepreneur",
+    "dynamic": "The Logistician prioritizes reliable execution while The Entrepreneur prioritizes action and results. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entrepreneur values (action and results) before advocating for The Logistician's approach. The best outcomes merge reliable execution with action and results rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTJ-ESFP",
+    "label": "The Logistician & The Entertainer",
+    "dynamic": "The Logistician prioritizes reliable execution while The Entertainer prioritizes experience and fun. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entertainer values (experience and fun) before advocating for The Logistician's approach. The best outcomes merge reliable execution with experience and fun rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFJ-INTJ",
+    "label": "The Defender & The Architect",
+    "dynamic": "The Defender prioritizes caring for others while The Architect prioritizes strategic vision. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Architect values (strategic vision) before advocating for The Defender's approach. The best outcomes merge caring for others with strategic vision rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFJ-INTP",
+    "label": "The Defender & The Logician",
+    "dynamic": "The Defender prioritizes caring for others while The Logician prioritizes logical understanding. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logician values (logical understanding) before advocating for The Defender's approach. The best outcomes merge caring for others with logical understanding rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFJ-ENTJ",
+    "label": "The Defender & The Commander",
+    "dynamic": "ISFJ provides careful, structured support; ENTJ provides decisive leadership. ISFJ ensures nothing falls through the cracks; ENTJ ensures the team stays focused on the goal. Together they are thorough and driven.",
+    "tip": "ENTJ should not confuse ISFJ's caution with resistance \u2014 it is thoroughness. ISFJ should give ENTJ to-the-point updates rather than detailed background."
+  },
+  {
+    "pair": "ISFJ-ENTP",
+    "label": "The Defender & The Debater",
+    "dynamic": "The Defender prioritizes caring for others while The Debater prioritizes innovation and debate. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Debater values (innovation and debate) before advocating for The Defender's approach. The best outcomes merge caring for others with innovation and debate rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFJ-INFJ",
+    "label": "The Defender & The Advocate",
+    "dynamic": "The Defender prioritizes caring for others while The Advocate prioritizes meaningful connection. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Advocate values (meaningful connection) before advocating for The Defender's approach. The best outcomes merge caring for others with meaningful connection rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFJ-INFP",
+    "label": "The Defender & The Mediator",
+    "dynamic": "The Defender prioritizes caring for others while The Mediator prioritizes authentic self-expression. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Mediator values (authentic self-expression) before advocating for The Defender's approach. The best outcomes merge caring for others with authentic self-expression rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFJ-ENFJ",
+    "label": "The Defender & The Protagonist",
+    "dynamic": "The Defender prioritizes caring for others while The Protagonist prioritizes empowering others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Protagonist values (empowering others) before advocating for The Defender's approach. The best outcomes merge caring for others with empowering others rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFJ-ENFP",
+    "label": "The Defender & The Campaigner",
+    "dynamic": "The Defender prioritizes caring for others while The Campaigner prioritizes possibility and connection. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Campaigner values (possibility and connection) before advocating for The Defender's approach. The best outcomes merge caring for others with possibility and connection rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFJ-ISTJ",
+    "label": "The Defender & The Logistician",
+    "dynamic": "The Defender brings caring for others while The Logistician brings reliable execution. As fellow Sentinelss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Defender lead on caring for others and The Logistician lead on reliable execution. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ISFJ-ISFJ",
+    "label": "The Defender & The Defender",
+    "dynamic": "Two The Defenders share caring for others and a dependable and detail-oriented approach. They understand each other instinctively, which creates fast alignment but can amplify blind spots when both share the same weaknesses.",
+    "tip": "Assign one partner to handle caring for others strategy and the other to execute details. When both are stressed byungratefulness, sudden change, conflict, deliberately seek outside perspectives to break the pattern."
+  },
+  {
+    "pair": "ISFJ-ESTJ",
+    "label": "The Defender & The Executive",
+    "dynamic": "The Defender brings caring for others while The Executive brings order and efficiency. As fellow Sentinelss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Defender lead on caring for others and The Executive lead on order and efficiency. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ISFJ-ESFJ",
+    "label": "The Defender & The Consul",
+    "dynamic": "The Defender brings caring for others while The Consul brings harmony and support. As fellow Sentinelss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Defender lead on caring for others and The Consul lead on harmony and support. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ISFJ-ISTP",
+    "label": "The Defender & The Virtuoso",
+    "dynamic": "The Defender prioritizes caring for others while The Virtuoso prioritizes practical problem-solving. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Virtuoso values (practical problem-solving) before advocating for The Defender's approach. The best outcomes merge caring for others with practical problem-solving rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFJ-ISFP",
+    "label": "The Defender & The Adventurer",
+    "dynamic": "The Defender prioritizes caring for others while The Adventurer prioritizes personal values and aesthetics. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Adventurer values (personal values and aesthetics) before advocating for The Defender's approach. The best outcomes merge caring for others with personal values and aesthetics rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFJ-ESTP",
+    "label": "The Defender & The Entrepreneur",
+    "dynamic": "The Defender prioritizes caring for others while The Entrepreneur prioritizes action and results. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entrepreneur values (action and results) before advocating for The Defender's approach. The best outcomes merge caring for others with action and results rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFJ-ESFP",
+    "label": "The Defender & The Entertainer",
+    "dynamic": "The Defender prioritizes caring for others while The Entertainer prioritizes experience and fun. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entertainer values (experience and fun) before advocating for The Defender's approach. The best outcomes merge caring for others with experience and fun rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTJ-INTJ",
+    "label": "The Executive & The Architect",
+    "dynamic": "The Executive prioritizes order and efficiency while The Architect prioritizes strategic vision. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Architect values (strategic vision) before advocating for The Executive's approach. The best outcomes merge order and efficiency with strategic vision rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTJ-INTP",
+    "label": "The Executive & The Logician",
+    "dynamic": "The Executive prioritizes order and efficiency while The Logician prioritizes logical understanding. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logician values (logical understanding) before advocating for The Executive's approach. The best outcomes merge order and efficiency with logical understanding rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTJ-ENTJ",
+    "label": "The Executive & The Commander",
+    "dynamic": "The Executive prioritizes order and efficiency while The Commander prioritizes efficient execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Commander values (efficient execution) before advocating for The Executive's approach. The best outcomes merge order and efficiency with efficient execution rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTJ-ENTP",
+    "label": "The Executive & The Debater",
+    "dynamic": "The Executive prioritizes order and efficiency while The Debater prioritizes innovation and debate. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Debater values (innovation and debate) before advocating for The Executive's approach. The best outcomes merge order and efficiency with innovation and debate rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTJ-INFJ",
+    "label": "The Executive & The Advocate",
+    "dynamic": "The Executive prioritizes order and efficiency while The Advocate prioritizes meaningful connection. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Advocate values (meaningful connection) before advocating for The Executive's approach. The best outcomes merge order and efficiency with meaningful connection rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTJ-INFP",
+    "label": "The Executive & The Mediator",
+    "dynamic": "ESTJ values order and efficiency; INFP values authenticity and meaning. This is one of the most challenging pairings because their fundamental priorities differ. Growth requires both to stretch significantly.",
+    "tip": "ESTJ should listen to INFP's values before dismissing them as impractical. INFP should present ideas in concrete terms rather than abstract ideals."
+  },
+  {
+    "pair": "ESTJ-ENFJ",
+    "label": "The Executive & The Protagonist",
+    "dynamic": "The Executive prioritizes order and efficiency while The Protagonist prioritizes empowering others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Protagonist values (empowering others) before advocating for The Executive's approach. The best outcomes merge order and efficiency with empowering others rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTJ-ENFP",
+    "label": "The Executive & The Campaigner",
+    "dynamic": "The Executive prioritizes order and efficiency while The Campaigner prioritizes possibility and connection. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Campaigner values (possibility and connection) before advocating for The Executive's approach. The best outcomes merge order and efficiency with possibility and connection rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTJ-ISTJ",
+    "label": "The Executive & The Logistician",
+    "dynamic": "The Executive brings order and efficiency while The Logistician brings reliable execution. As fellow Sentinelss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Executive lead on order and efficiency and The Logistician lead on reliable execution. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ESTJ-ISFJ",
+    "label": "The Executive & The Defender",
+    "dynamic": "The Executive brings order and efficiency while The Defender brings caring for others. As fellow Sentinelss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Executive lead on order and efficiency and The Defender lead on caring for others. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ESTJ-ESTJ",
+    "label": "The Executive & The Executive",
+    "dynamic": "Two The Executives share order and efficiency and a direct and organized approach. They understand each other instinctively, which creates fast alignment but can amplify blind spots when both share the same weaknesses.",
+    "tip": "Assign one partner to handle order and efficiency strategy and the other to execute details. When both are stressed bychaos, laziness, lack of follow-through, deliberately seek outside perspectives to break the pattern."
+  },
+  {
+    "pair": "ESTJ-ESFJ",
+    "label": "The Executive & The Consul",
+    "dynamic": "The Executive brings order and efficiency while The Consul brings harmony and support. As fellow Sentinelss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Executive lead on order and efficiency and The Consul lead on harmony and support. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ESTJ-ISTP",
+    "label": "The Executive & The Virtuoso",
+    "dynamic": "The Executive prioritizes order and efficiency while The Virtuoso prioritizes practical problem-solving. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Virtuoso values (practical problem-solving) before advocating for The Executive's approach. The best outcomes merge order and efficiency with practical problem-solving rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTJ-ISFP",
+    "label": "The Executive & The Adventurer",
+    "dynamic": "The Executive prioritizes order and efficiency while The Adventurer prioritizes personal values and aesthetics. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Adventurer values (personal values and aesthetics) before advocating for The Executive's approach. The best outcomes merge order and efficiency with personal values and aesthetics rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTJ-ESTP",
+    "label": "The Executive & The Entrepreneur",
+    "dynamic": "The Executive prioritizes order and efficiency while The Entrepreneur prioritizes action and results. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entrepreneur values (action and results) before advocating for The Executive's approach. The best outcomes merge order and efficiency with action and results rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTJ-ESFP",
+    "label": "The Executive & The Entertainer",
+    "dynamic": "The Executive prioritizes order and efficiency while The Entertainer prioritizes experience and fun. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entertainer values (experience and fun) before advocating for The Executive's approach. The best outcomes merge order and efficiency with experience and fun rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFJ-INTJ",
+    "label": "The Consul & The Architect",
+    "dynamic": "The Consul prioritizes harmony and support while The Architect prioritizes strategic vision. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Architect values (strategic vision) before advocating for The Consul's approach. The best outcomes merge harmony and support with strategic vision rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFJ-INTP",
+    "label": "The Consul & The Logician",
+    "dynamic": "ESFJ prioritizes social harmony and practical support; INTP prioritizes logical analysis and theoretical understanding. This is one of the most challenging pairings because their values and communication styles diverge significantly.",
+    "tip": "ESFJ should appreciate that INTP's bluntness is not personal. INTP should recognize that ESFJ's concern for people is a genuine value, not a distraction."
+  },
+  {
+    "pair": "ESFJ-ENTJ",
+    "label": "The Consul & The Commander",
+    "dynamic": "The Consul prioritizes harmony and support while The Commander prioritizes efficient execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Commander values (efficient execution) before advocating for The Consul's approach. The best outcomes merge harmony and support with efficient execution rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFJ-ENTP",
+    "label": "The Consul & The Debater",
+    "dynamic": "The Consul prioritizes harmony and support while The Debater prioritizes innovation and debate. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Debater values (innovation and debate) before advocating for The Consul's approach. The best outcomes merge harmony and support with innovation and debate rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFJ-INFJ",
+    "label": "The Consul & The Advocate",
+    "dynamic": "The Consul prioritizes harmony and support while The Advocate prioritizes meaningful connection. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Advocate values (meaningful connection) before advocating for The Consul's approach. The best outcomes merge harmony and support with meaningful connection rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFJ-INFP",
+    "label": "The Consul & The Mediator",
+    "dynamic": "The Consul prioritizes harmony and support while The Mediator prioritizes authentic self-expression. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Mediator values (authentic self-expression) before advocating for The Consul's approach. The best outcomes merge harmony and support with authentic self-expression rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFJ-ENFJ",
+    "label": "The Consul & The Protagonist",
+    "dynamic": "The Consul prioritizes harmony and support while The Protagonist prioritizes empowering others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Protagonist values (empowering others) before advocating for The Consul's approach. The best outcomes merge harmony and support with empowering others rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFJ-ENFP",
+    "label": "The Consul & The Campaigner",
+    "dynamic": "The Consul prioritizes harmony and support while The Campaigner prioritizes possibility and connection. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Campaigner values (possibility and connection) before advocating for The Consul's approach. The best outcomes merge harmony and support with possibility and connection rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFJ-ISTJ",
+    "label": "The Consul & The Logistician",
+    "dynamic": "The Consul brings harmony and support while The Logistician brings reliable execution. As fellow Sentinelss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Consul lead on harmony and support and The Logistician lead on reliable execution. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ESFJ-ISFJ",
+    "label": "The Consul & The Defender",
+    "dynamic": "The Consul brings harmony and support while The Defender brings caring for others. As fellow Sentinelss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Consul lead on harmony and support and The Defender lead on caring for others. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ESFJ-ESTJ",
+    "label": "The Consul & The Executive",
+    "dynamic": "The Consul brings harmony and support while The Executive brings order and efficiency. As fellow Sentinelss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Consul lead on harmony and support and The Executive lead on order and efficiency. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ESFJ-ESFJ",
+    "label": "The Consul & The Consul",
+    "dynamic": "Two The Consuls share harmony and support and a warm and conscientious approach. They understand each other instinctively, which creates fast alignment but can amplify blind spots when both share the same weaknesses.",
+    "tip": "Assign one partner to handle harmony and support strategy and the other to execute details. When both are stressed byconflict, criticism, feeling unappreciated, deliberately seek outside perspectives to break the pattern."
+  },
+  {
+    "pair": "ESFJ-ISTP",
+    "label": "The Consul & The Virtuoso",
+    "dynamic": "The Consul prioritizes harmony and support while The Virtuoso prioritizes practical problem-solving. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Virtuoso values (practical problem-solving) before advocating for The Consul's approach. The best outcomes merge harmony and support with practical problem-solving rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFJ-ISFP",
+    "label": "The Consul & The Adventurer",
+    "dynamic": "The Consul prioritizes harmony and support while The Adventurer prioritizes personal values and aesthetics. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Adventurer values (personal values and aesthetics) before advocating for The Consul's approach. The best outcomes merge harmony and support with personal values and aesthetics rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFJ-ESTP",
+    "label": "The Consul & The Entrepreneur",
+    "dynamic": "The Consul prioritizes harmony and support while The Entrepreneur prioritizes action and results. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entrepreneur values (action and results) before advocating for The Consul's approach. The best outcomes merge harmony and support with action and results rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFJ-ESFP",
+    "label": "The Consul & The Entertainer",
+    "dynamic": "The Consul prioritizes harmony and support while The Entertainer prioritizes experience and fun. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Entertainer values (experience and fun) before advocating for The Consul's approach. The best outcomes merge harmony and support with experience and fun rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTP-INTJ",
+    "label": "The Virtuoso & The Architect",
+    "dynamic": "The Virtuoso prioritizes practical problem-solving while The Architect prioritizes strategic vision. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Architect values (strategic vision) before advocating for The Virtuoso's approach. The best outcomes merge practical problem-solving with strategic vision rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTP-INTP",
+    "label": "The Virtuoso & The Logician",
+    "dynamic": "The Virtuoso prioritizes practical problem-solving while The Logician prioritizes logical understanding. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logician values (logical understanding) before advocating for The Virtuoso's approach. The best outcomes merge practical problem-solving with logical understanding rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTP-ENTJ",
+    "label": "The Virtuoso & The Commander",
+    "dynamic": "The Virtuoso prioritizes practical problem-solving while The Commander prioritizes efficient execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Commander values (efficient execution) before advocating for The Virtuoso's approach. The best outcomes merge practical problem-solving with efficient execution rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTP-ENTP",
+    "label": "The Virtuoso & The Debater",
+    "dynamic": "The Virtuoso prioritizes practical problem-solving while The Debater prioritizes innovation and debate. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Debater values (innovation and debate) before advocating for The Virtuoso's approach. The best outcomes merge practical problem-solving with innovation and debate rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTP-INFJ",
+    "label": "The Virtuoso & The Advocate",
+    "dynamic": "The Virtuoso prioritizes practical problem-solving while The Advocate prioritizes meaningful connection. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Advocate values (meaningful connection) before advocating for The Virtuoso's approach. The best outcomes merge practical problem-solving with meaningful connection rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTP-INFP",
+    "label": "The Virtuoso & The Mediator",
+    "dynamic": "The Virtuoso prioritizes practical problem-solving while The Mediator prioritizes authentic self-expression. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Mediator values (authentic self-expression) before advocating for The Virtuoso's approach. The best outcomes merge practical problem-solving with authentic self-expression rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTP-ENFJ",
+    "label": "The Virtuoso & The Protagonist",
+    "dynamic": "The Virtuoso prioritizes practical problem-solving while The Protagonist prioritizes empowering others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Protagonist values (empowering others) before advocating for The Virtuoso's approach. The best outcomes merge practical problem-solving with empowering others rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTP-ENFP",
+    "label": "The Virtuoso & The Campaigner",
+    "dynamic": "The Virtuoso prioritizes practical problem-solving while The Campaigner prioritizes possibility and connection. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Campaigner values (possibility and connection) before advocating for The Virtuoso's approach. The best outcomes merge practical problem-solving with possibility and connection rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTP-ISTJ",
+    "label": "The Virtuoso & The Logistician",
+    "dynamic": "The Virtuoso prioritizes practical problem-solving while The Logistician prioritizes reliable execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logistician values (reliable execution) before advocating for The Virtuoso's approach. The best outcomes merge practical problem-solving with reliable execution rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTP-ISFJ",
+    "label": "The Virtuoso & The Defender",
+    "dynamic": "The Virtuoso prioritizes practical problem-solving while The Defender prioritizes caring for others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Defender values (caring for others) before advocating for The Virtuoso's approach. The best outcomes merge practical problem-solving with caring for others rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTP-ESTJ",
+    "label": "The Virtuoso & The Executive",
+    "dynamic": "The Virtuoso prioritizes practical problem-solving while The Executive prioritizes order and efficiency. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Executive values (order and efficiency) before advocating for The Virtuoso's approach. The best outcomes merge practical problem-solving with order and efficiency rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTP-ESFJ",
+    "label": "The Virtuoso & The Consul",
+    "dynamic": "The Virtuoso prioritizes practical problem-solving while The Consul prioritizes harmony and support. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Consul values (harmony and support) before advocating for The Virtuoso's approach. The best outcomes merge practical problem-solving with harmony and support rather than choosing one over the other."
+  },
+  {
+    "pair": "ISTP-ISTP",
+    "label": "The Virtuoso & The Virtuoso",
+    "dynamic": "Two The Virtuosos share practical problem-solving and a observant and hands-on approach. They understand each other instinctively, which creates fast alignment but can amplify blind spots when both share the same weaknesses.",
+    "tip": "Assign one partner to handle practical problem-solving strategy and the other to execute details. When both are stressed bymicromanagement, rigid schedules, emotional demands, deliberately seek outside perspectives to break the pattern."
+  },
+  {
+    "pair": "ISTP-ISFP",
+    "label": "The Virtuoso & The Adventurer",
+    "dynamic": "Both are introverted, hands-on, and value freedom. ISTP approaches problems mechanically; ISFP approaches them aesthetically. They respect each other's independence and work well in parallel.",
+    "tip": "Give each other plenty of space. When you collaborate, focus on the tangible \u2014 build something together rather than discussing abstract plans."
+  },
+  {
+    "pair": "ISTP-ESTP",
+    "label": "The Virtuoso & The Entrepreneur",
+    "dynamic": "The Virtuoso brings practical problem-solving while The Entrepreneur brings action and results. As fellow Explorerss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Virtuoso lead on practical problem-solving and The Entrepreneur lead on action and results. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ISTP-ESFP",
+    "label": "The Virtuoso & The Entertainer",
+    "dynamic": "The Virtuoso brings practical problem-solving while The Entertainer brings experience and fun. As fellow Explorerss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Virtuoso lead on practical problem-solving and The Entertainer lead on experience and fun. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ISFP-INTJ",
+    "label": "The Adventurer & The Architect",
+    "dynamic": "The Adventurer prioritizes personal values and aesthetics while The Architect prioritizes strategic vision. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Architect values (strategic vision) before advocating for The Adventurer's approach. The best outcomes merge personal values and aesthetics with strategic vision rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFP-INTP",
+    "label": "The Adventurer & The Logician",
+    "dynamic": "The Adventurer prioritizes personal values and aesthetics while The Logician prioritizes logical understanding. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logician values (logical understanding) before advocating for The Adventurer's approach. The best outcomes merge personal values and aesthetics with logical understanding rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFP-ENTJ",
+    "label": "The Adventurer & The Commander",
+    "dynamic": "The Adventurer prioritizes personal values and aesthetics while The Commander prioritizes efficient execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Commander values (efficient execution) before advocating for The Adventurer's approach. The best outcomes merge personal values and aesthetics with efficient execution rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFP-ENTP",
+    "label": "The Adventurer & The Debater",
+    "dynamic": "The Adventurer prioritizes personal values and aesthetics while The Debater prioritizes innovation and debate. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Debater values (innovation and debate) before advocating for The Adventurer's approach. The best outcomes merge personal values and aesthetics with innovation and debate rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFP-INFJ",
+    "label": "The Adventurer & The Advocate",
+    "dynamic": "The Adventurer prioritizes personal values and aesthetics while The Advocate prioritizes meaningful connection. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Advocate values (meaningful connection) before advocating for The Adventurer's approach. The best outcomes merge personal values and aesthetics with meaningful connection rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFP-INFP",
+    "label": "The Adventurer & The Mediator",
+    "dynamic": "The Adventurer prioritizes personal values and aesthetics while The Mediator prioritizes authentic self-expression. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Mediator values (authentic self-expression) before advocating for The Adventurer's approach. The best outcomes merge personal values and aesthetics with authentic self-expression rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFP-ENFJ",
+    "label": "The Adventurer & The Protagonist",
+    "dynamic": "The Adventurer prioritizes personal values and aesthetics while The Protagonist prioritizes empowering others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Protagonist values (empowering others) before advocating for The Adventurer's approach. The best outcomes merge personal values and aesthetics with empowering others rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFP-ENFP",
+    "label": "The Adventurer & The Campaigner",
+    "dynamic": "The Adventurer prioritizes personal values and aesthetics while The Campaigner prioritizes possibility and connection. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Campaigner values (possibility and connection) before advocating for The Adventurer's approach. The best outcomes merge personal values and aesthetics with possibility and connection rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFP-ISTJ",
+    "label": "The Adventurer & The Logistician",
+    "dynamic": "The Adventurer prioritizes personal values and aesthetics while The Logistician prioritizes reliable execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logistician values (reliable execution) before advocating for The Adventurer's approach. The best outcomes merge personal values and aesthetics with reliable execution rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFP-ISFJ",
+    "label": "The Adventurer & The Defender",
+    "dynamic": "The Adventurer prioritizes personal values and aesthetics while The Defender prioritizes caring for others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Defender values (caring for others) before advocating for The Adventurer's approach. The best outcomes merge personal values and aesthetics with caring for others rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFP-ESTJ",
+    "label": "The Adventurer & The Executive",
+    "dynamic": "The Adventurer prioritizes personal values and aesthetics while The Executive prioritizes order and efficiency. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Executive values (order and efficiency) before advocating for The Adventurer's approach. The best outcomes merge personal values and aesthetics with order and efficiency rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFP-ESFJ",
+    "label": "The Adventurer & The Consul",
+    "dynamic": "The Adventurer prioritizes personal values and aesthetics while The Consul prioritizes harmony and support. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Consul values (harmony and support) before advocating for The Adventurer's approach. The best outcomes merge personal values and aesthetics with harmony and support rather than choosing one over the other."
+  },
+  {
+    "pair": "ISFP-ISTP",
+    "label": "The Adventurer & The Virtuoso",
+    "dynamic": "The Adventurer brings personal values and aesthetics while The Virtuoso brings practical problem-solving. As fellow Explorerss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Adventurer lead on personal values and aesthetics and The Virtuoso lead on practical problem-solving. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ISFP-ISFP",
+    "label": "The Adventurer & The Adventurer",
+    "dynamic": "Two The Adventurers share personal values and aesthetics and a gentle and attuned approach. They understand each other instinctively, which creates fast alignment but can amplify blind spots when both share the same weaknesses.",
+    "tip": "Assign one partner to handle personal values and aesthetics strategy and the other to execute details. When both are stressed byconstraints, conflict, pressure to conform, deliberately seek outside perspectives to break the pattern."
+  },
+  {
+    "pair": "ISFP-ESTP",
+    "label": "The Adventurer & The Entrepreneur",
+    "dynamic": "The Adventurer brings personal values and aesthetics while The Entrepreneur brings action and results. As fellow Explorerss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Adventurer lead on personal values and aesthetics and The Entrepreneur lead on action and results. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ISFP-ESFP",
+    "label": "The Adventurer & The Entertainer",
+    "dynamic": "The Adventurer brings personal values and aesthetics while The Entertainer brings experience and fun. As fellow Explorerss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Adventurer lead on personal values and aesthetics and The Entertainer lead on experience and fun. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ESTP-INTJ",
+    "label": "The Entrepreneur & The Architect",
+    "dynamic": "The Entrepreneur prioritizes action and results while The Architect prioritizes strategic vision. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Architect values (strategic vision) before advocating for The Entrepreneur's approach. The best outcomes merge action and results with strategic vision rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTP-INTP",
+    "label": "The Entrepreneur & The Logician",
+    "dynamic": "The Entrepreneur prioritizes action and results while The Logician prioritizes logical understanding. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logician values (logical understanding) before advocating for The Entrepreneur's approach. The best outcomes merge action and results with logical understanding rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTP-ENTJ",
+    "label": "The Entrepreneur & The Commander",
+    "dynamic": "The Entrepreneur prioritizes action and results while The Commander prioritizes efficient execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Commander values (efficient execution) before advocating for The Entrepreneur's approach. The best outcomes merge action and results with efficient execution rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTP-ENTP",
+    "label": "The Entrepreneur & The Debater",
+    "dynamic": "The Entrepreneur prioritizes action and results while The Debater prioritizes innovation and debate. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Debater values (innovation and debate) before advocating for The Entrepreneur's approach. The best outcomes merge action and results with innovation and debate rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTP-INFJ",
+    "label": "The Entrepreneur & The Advocate",
+    "dynamic": "The Entrepreneur prioritizes action and results while The Advocate prioritizes meaningful connection. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Advocate values (meaningful connection) before advocating for The Entrepreneur's approach. The best outcomes merge action and results with meaningful connection rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTP-INFP",
+    "label": "The Entrepreneur & The Mediator",
+    "dynamic": "The Entrepreneur prioritizes action and results while The Mediator prioritizes authentic self-expression. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Mediator values (authentic self-expression) before advocating for The Entrepreneur's approach. The best outcomes merge action and results with authentic self-expression rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTP-ENFJ",
+    "label": "The Entrepreneur & The Protagonist",
+    "dynamic": "The Entrepreneur prioritizes action and results while The Protagonist prioritizes empowering others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Protagonist values (empowering others) before advocating for The Entrepreneur's approach. The best outcomes merge action and results with empowering others rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTP-ENFP",
+    "label": "The Entrepreneur & The Campaigner",
+    "dynamic": "The Entrepreneur prioritizes action and results while The Campaigner prioritizes possibility and connection. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Campaigner values (possibility and connection) before advocating for The Entrepreneur's approach. The best outcomes merge action and results with possibility and connection rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTP-ISTJ",
+    "label": "The Entrepreneur & The Logistician",
+    "dynamic": "ESTP acts fast on instinct; ISTJ follows established procedures. ESTP wants to move now; ISTJ wants to verify first. The tension is real but productive when both adjust their pace.",
+    "tip": "ESTP should give ISTJ time to verify critical decisions. ISTJ should trust ESTP's practical instincts on time-sensitive problems. Define which decisions need verification and which need speed."
+  },
+  {
+    "pair": "ESTP-ISFJ",
+    "label": "The Entrepreneur & The Defender",
+    "dynamic": "The Entrepreneur prioritizes action and results while The Defender prioritizes caring for others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Defender values (caring for others) before advocating for The Entrepreneur's approach. The best outcomes merge action and results with caring for others rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTP-ESTJ",
+    "label": "The Entrepreneur & The Executive",
+    "dynamic": "The Entrepreneur prioritizes action and results while The Executive prioritizes order and efficiency. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Executive values (order and efficiency) before advocating for The Entrepreneur's approach. The best outcomes merge action and results with order and efficiency rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTP-ESFJ",
+    "label": "The Entrepreneur & The Consul",
+    "dynamic": "The Entrepreneur prioritizes action and results while The Consul prioritizes harmony and support. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Consul values (harmony and support) before advocating for The Entrepreneur's approach. The best outcomes merge action and results with harmony and support rather than choosing one over the other."
+  },
+  {
+    "pair": "ESTP-ISTP",
+    "label": "The Entrepreneur & The Virtuoso",
+    "dynamic": "The Entrepreneur brings action and results while The Virtuoso brings practical problem-solving. As fellow Explorerss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Entrepreneur lead on action and results and The Virtuoso lead on practical problem-solving. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ESTP-ISFP",
+    "label": "The Entrepreneur & The Adventurer",
+    "dynamic": "The Entrepreneur brings action and results while The Adventurer brings personal values and aesthetics. As fellow Explorerss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Entrepreneur lead on action and results and The Adventurer lead on personal values and aesthetics. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ESTP-ESTP",
+    "label": "The Entrepreneur & The Entrepreneur",
+    "dynamic": "Two The Entrepreneurs share action and results and a bold and adaptable approach. They understand each other instinctively, which creates fast alignment but can amplify blind spots when both share the same weaknesses.",
+    "tip": "Assign one partner to handle action and results strategy and the other to execute details. When both are stressed bytheoretical discussions, slow pace, restrictions, deliberately seek outside perspectives to break the pattern."
+  },
+  {
+    "pair": "ESTP-ESFP",
+    "label": "The Entrepreneur & The Entertainer",
+    "dynamic": "The Entrepreneur brings action and results while The Entertainer brings experience and fun. As fellow Explorerss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Entrepreneur lead on action and results and The Entertainer lead on experience and fun. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ESFP-INTJ",
+    "label": "The Entertainer & The Architect",
+    "dynamic": "ESFP lives in the present moment with all senses engaged; INTJ lives in the future with all possibilities modeled. ESFP brings joy and adaptability; INTJ brings strategy and depth. The contrast can be complementary if both are curious about the other's world.",
+    "tip": "ESFP should not take INTJ's need for alone time personally. INTJ should occasionally follow ESFP's lead into spontaneous experiences \u2014 it builds trust."
+  },
+  {
+    "pair": "ESFP-INTP",
+    "label": "The Entertainer & The Logician",
+    "dynamic": "The Entertainer prioritizes experience and fun while The Logician prioritizes logical understanding. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logician values (logical understanding) before advocating for The Entertainer's approach. The best outcomes merge experience and fun with logical understanding rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFP-ENTJ",
+    "label": "The Entertainer & The Commander",
+    "dynamic": "The Entertainer prioritizes experience and fun while The Commander prioritizes efficient execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Commander values (efficient execution) before advocating for The Entertainer's approach. The best outcomes merge experience and fun with efficient execution rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFP-ENTP",
+    "label": "The Entertainer & The Debater",
+    "dynamic": "The Entertainer prioritizes experience and fun while The Debater prioritizes innovation and debate. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Debater values (innovation and debate) before advocating for The Entertainer's approach. The best outcomes merge experience and fun with innovation and debate rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFP-INFJ",
+    "label": "The Entertainer & The Advocate",
+    "dynamic": "The Entertainer prioritizes experience and fun while The Advocate prioritizes meaningful connection. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Advocate values (meaningful connection) before advocating for The Entertainer's approach. The best outcomes merge experience and fun with meaningful connection rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFP-INFP",
+    "label": "The Entertainer & The Mediator",
+    "dynamic": "The Entertainer prioritizes experience and fun while The Mediator prioritizes authentic self-expression. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Mediator values (authentic self-expression) before advocating for The Entertainer's approach. The best outcomes merge experience and fun with authentic self-expression rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFP-ENFJ",
+    "label": "The Entertainer & The Protagonist",
+    "dynamic": "The Entertainer prioritizes experience and fun while The Protagonist prioritizes empowering others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Protagonist values (empowering others) before advocating for The Entertainer's approach. The best outcomes merge experience and fun with empowering others rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFP-ENFP",
+    "label": "The Entertainer & The Campaigner",
+    "dynamic": "The Entertainer prioritizes experience and fun while The Campaigner prioritizes possibility and connection. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Campaigner values (possibility and connection) before advocating for The Entertainer's approach. The best outcomes merge experience and fun with possibility and connection rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFP-ISTJ",
+    "label": "The Entertainer & The Logistician",
+    "dynamic": "The Entertainer prioritizes experience and fun while The Logistician prioritizes reliable execution. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Logistician values (reliable execution) before advocating for The Entertainer's approach. The best outcomes merge experience and fun with reliable execution rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFP-ISFJ",
+    "label": "The Entertainer & The Defender",
+    "dynamic": "The Entertainer prioritizes experience and fun while The Defender prioritizes caring for others. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Defender values (caring for others) before advocating for The Entertainer's approach. The best outcomes merge experience and fun with caring for others rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFP-ESTJ",
+    "label": "The Entertainer & The Executive",
+    "dynamic": "The Entertainer prioritizes experience and fun while The Executive prioritizes order and efficiency. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Executive values (order and efficiency) before advocating for The Entertainer's approach. The best outcomes merge experience and fun with order and efficiency rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFP-ESFJ",
+    "label": "The Entertainer & The Consul",
+    "dynamic": "The Entertainer prioritizes experience and fun while The Consul prioritizes harmony and support. This cross-group pairing creates real tension between different worldviews but also produces the most creative solutions when both invest in understanding each other.",
+    "tip": "Acknowledge what The Consul values (harmony and support) before advocating for The Entertainer's approach. The best outcomes merge experience and fun with harmony and support rather than choosing one over the other."
+  },
+  {
+    "pair": "ESFP-ISTP",
+    "label": "The Entertainer & The Virtuoso",
+    "dynamic": "The Entertainer brings experience and fun while The Virtuoso brings practical problem-solving. As fellow Explorerss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Entertainer lead on experience and fun and The Virtuoso lead on practical problem-solving. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ESFP-ISFP",
+    "label": "The Entertainer & The Adventurer",
+    "dynamic": "The Entertainer brings experience and fun while The Adventurer brings personal values and aesthetics. As fellow Explorerss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Entertainer lead on experience and fun and The Adventurer lead on personal values and aesthetics. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ESFP-ESTP",
+    "label": "The Entertainer & The Entrepreneur",
+    "dynamic": "The Entertainer brings experience and fun while The Entrepreneur brings action and results. As fellow Explorerss, they share broad values but approach problems differently \u2014 enough to complement each other without clashing on fundamentals.",
+    "tip": "Let The Entertainer lead on experience and fun and The Entrepreneur lead on action and results. Their shared orientation creates trust while their different methods prevent groupthink."
+  },
+  {
+    "pair": "ESFP-ESFP",
+    "label": "The Entertainer & The Entertainer",
+    "dynamic": "Two The Entertainers share experience and fun and a spontaneous and generous approach. They understand each other instinctively, which creates fast alignment but can amplify blind spots when both share the same weaknesses.",
+    "tip": "Assign one partner to handle experience and fun strategy and the other to execute details. When both are stressed byisolation, strict routines, criticism, deliberately seek outside perspectives to break the pattern."
+  }
+]

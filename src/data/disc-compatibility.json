@@ -1,0 +1,130 @@
+[
+  {
+    "pair": "D-D",
+    "label": "The Driver & The Driver",
+    "score": 55,
+    "communicationTipA": "Yield on small decisions so both of you can move fast — competing on every detail slows everything down.",
+    "communicationTipB": "Pick your battles — not every decision needs to become a negotiation.",
+    "bestFormat": "Quick standups with clear action items — avoid circular debates."
+  },
+  {
+    "pair": "D-I",
+    "label": "The Driver & The Influencer",
+    "score": 75,
+    "communicationTipA": "Give them room to socialize — their relationships open doors. Focus on outcomes, let them handle the buy-in.",
+    "communicationTipB": "Bring data and conclusions first, then share the story. They want results, not the journey.",
+    "bestFormat": "Brief framework meetings with freedom to iterate between syncs."
+  },
+  {
+    "pair": "D-S",
+    "label": "The Driver & The Supporter",
+    "score": 40,
+    "communicationTipA": "Slow down, give context, ask for their input — they have valuable perspectives they may not volunteer.",
+    "communicationTipB": "Lead with conclusions, then provide details. They appreciate knowing the destination before the route.",
+    "bestFormat": "Structured 1:1s with a shared agenda and time for questions."
+  },
+  {
+    "pair": "D-C",
+    "label": "The Driver & The Analyst",
+    "score": 50,
+    "communicationTipA": "Give them time to analyze — their precision catches what speed misses. Set clear deadlines to balance thoroughness with momentum.",
+    "communicationTipB": "Provide your analysis upfront so they can decide quickly. They value accuracy over speed.",
+    "bestFormat": "Async briefs with written decisions — let the Analyst process before responding."
+  },
+  {
+    "pair": "I-D",
+    "label": "The Influencer & The Driver",
+    "score": 75,
+    "communicationTipA": "Respect their drive for results — support their goals with your people skills and they will value your contribution.",
+    "communicationTipB": "Let them warm up the room — their charm opens doors that directness cannot.",
+    "bestFormat": "Goal-oriented check-ins with space for relationship-building."
+  },
+  {
+    "pair": "I-I",
+    "label": "The Influencer & The Influencer",
+    "score": 65,
+    "communicationTipA": "Create accountability structures — both of you generate ideas, but someone needs to follow through.",
+    "communicationTipB": "Divide enthusiasm from execution — take turns driving follow-through so neither person bears the whole burden.",
+    "bestFormat": "Creative brainstorming sessions with a designated note-taker and action items."
+  },
+  {
+    "pair": "I-S",
+    "label": "The Influencer & The Supporter",
+    "score": 80,
+    "communicationTipA": "Give them space to share — they have thoughtful ideas they may not voice in an enthusiastic crowd.",
+    "communicationTipB": "Appreciate their warmth and consistency — they create the stable environment your ideas need to land.",
+    "bestFormat": "Collaborative discussions with action items documented clearly."
+  },
+  {
+    "pair": "I-C",
+    "label": "The Influencer & The Analyst",
+    "score": 35,
+    "communicationTipA": "Bring data, not just stories — they need evidence to buy in, and they will respect you for respecting their process.",
+    "communicationTipB": "Lead with a brief personal connection, then get to the point — they appreciate warmth but value efficiency.",
+    "bestFormat": "Written proposals with optional verbal walkthrough — gives the Analyst time to process."
+  },
+  {
+    "pair": "S-D",
+    "label": "The Supporter & The Driver",
+    "score": 40,
+    "communicationTipA": "State your needs clearly — they will not notice what you do not say, and your silence may be read as agreement.",
+    "communicationTipB": "Give them time to process — they think things through before responding, which is not resistance.",
+    "bestFormat": "Brief check-ins with a written agenda shared in advance."
+  },
+  {
+    "pair": "S-I",
+    "label": "The Supporter & The Influencer",
+    "score": 80,
+    "communicationTipA": "Appreciate their energy and let them take the social lead — they create momentum you can support with consistency.",
+    "communicationTipB": "Value their reliability — they are the steady force that turns your ideas into sustainable practices.",
+    "bestFormat": "Regular team syncs with clear next steps."
+  },
+  {
+    "pair": "S-S",
+    "label": "The Supporter & The Supporter",
+    "score": 70,
+    "communicationTipA": "Push each other to make decisions — your mutual desire for consensus can slow progress.",
+    "communicationTipB": "Name what needs to change, even when it is uncomfortable — maintaining harmony at the cost of progress helps no one.",
+    "bestFormat": "Structured meetings with rotation of who drives the agenda."
+  },
+  {
+    "pair": "S-C",
+    "label": "The Supporter & The Analyst",
+    "score": 85,
+    "communicationTipA": "Ask what they need to feel confident in a decision — their analysis is a gift, not a delay.",
+    "communicationTipB": "Share your reasoning — they want to understand the process, not just the conclusion.",
+    "bestFormat": "Written summaries with agreed timelines for decisions."
+  },
+  {
+    "pair": "C-D",
+    "label": "The Analyst & The Driver",
+    "score": 50,
+    "communicationTipA": "Present your analysis as a tool for faster decisions — they value precision that leads to action.",
+    "communicationTipB": "Give them a deadline for analysis so they do not hold up your momentum seeking perfection.",
+    "bestFormat": "Async written briefs with a decision meeting at the end."
+  },
+  {
+    "pair": "C-I",
+    "label": "The Analyst & The Influencer",
+    "score": 35,
+    "communicationTipA": "Let them build rapport first — people listen to data they receive from someone they trust.",
+    "communicationTipB": "Respect their need for precision — their thoroughness makes your ideas actually work.",
+    "bestFormat": "Written analyses discussed in person — the Analyst preps, the Influencer presents."
+  },
+  {
+    "pair": "C-S",
+    "label": "The Analyst & The Supporter",
+    "score": 85,
+    "communicationTipA": "Make your reasoning accessible — they want to understand the why behind the what, not just the data.",
+    "communicationTipB": "Give them time and space to present their analysis — they have done the work and want it heard.",
+    "bestFormat": "Structured meetings with written pre-reads and time for discussion."
+  },
+  {
+    "pair": "C-C",
+    "label": "The Analyst & The Analyst",
+    "score": 60,
+    "communicationTipA": "Agree on a decision framework early — otherwise both of you will keep creating more analysis.",
+    "communicationTipB": "Set a hard stop for research and start executing — two perfectionists can spiral into analysis paralysis.",
+    "bestFormat": "Async document reviews with a forced decision deadline."
+  }
+]
