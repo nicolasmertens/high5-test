@@ -1,24 +1,7 @@
-import { Redis } from "@upstash/redis";
+import { gcsGet, gcsSetWithTTL, gcsSet, gcsList } from "./gcs-storage";
 import type { StoredProfile } from "./profile-storage";
 
-let redis: Redis | null = null;
-
-function getRedis(): Redis {
-  if (!redis) {
-    const url = process.env.UPSTASH_REDIS_REST_URL;
-    const token = process.env.UPSTASH_REDIS_REST_TOKEN;
-    if (!url || !token) {
-      throw new Error("UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN must be set");
-    }
-    redis = new Redis({ url, token });
-  }
-  return redis;
-}
-
-const INVITE_PREFIX = "invite:";
-const INVITE_BY_REF_PREFIX = "invref:";
-const INVITE_BY_PROFILE_PREFIX = "invprof:";
-const INVITE_EXPIRY_SECONDS = 7 * 24 * 60 * 60;
+const INVITE_TTL = 7 * 24 * 60 * 60;
 
 export interface Invite {
   id: string;
@@ -34,30 +17,16 @@ export interface Invite {
   expiresAt: number;
 }
 
-function inviteKey(id: string): string {
-  return `${INVITE_PREFIX}${id}`;
-}
-
-function inviteByRefKey(code: string): string {
-  return `${INVITE_BY_REF_PREFIX}${code}`;
-}
-
-function inviteByProfileKey(hash: string, idx: number): string {
-  return `${INVITE_BY_PROFILE_PREFIX}${hash}:${idx}`;
-}
-
 export async function createInvite(data: {
   inviterProfileHash: string;
   inviterName: string;
   inviteeEmail: string;
   inviterEmail?: string;
 }): Promise<{ invite: Invite; existingCount: number }> {
-  const kv = getRedis();
-
-  const existingIds = await getInviteIdsByProfile(kv, data.inviterProfileHash);
+  const existingKeys = await gcsList(`invites/by-profile/${data.inviterProfileHash}/`);
   const existingInvites: Invite[] = [];
-  for (const id of existingIds) {
-    const inv = await getInvite(id);
+  for (const key of existingKeys) {
+    const inv = await gcsGet<Invite>(key);
     if (inv) existingInvites.push(inv);
   }
 
@@ -78,39 +47,35 @@ export async function createInvite(data: {
     status: "pending",
     createdAt: now,
     completedAt: null,
-    expiresAt: now + INVITE_EXPIRY_SECONDS * 1000,
+    expiresAt: now + INVITE_TTL * 1000,
   };
 
-  await kv.set(inviteKey(id), JSON.stringify(invite));
-  await kv.set(inviteByRefKey(referralCode), id);
-  await kv.set(inviteByProfileKey(data.inviterProfileHash, existingIds.length), id);
-  await kv.expire(inviteKey(id), INVITE_EXPIRY_SECONDS);
-  await kv.expire(inviteByRefKey(referralCode), INVITE_EXPIRY_SECONDS);
+  await gcsSetWithTTL(`invites/${id}.json`, invite, INVITE_TTL);
+  await gcsSetWithTTL(`invites/by-ref/${referralCode}.json`, { inviteId: id }, INVITE_TTL);
+  await gcsSet(`invites/by-profile/${data.inviterProfileHash}/${id}.json`, { inviteId: id });
 
   return { invite, existingCount };
 }
 
 export async function getInvite(id: string): Promise<Invite | null> {
-  const kv = getRedis();
-  const raw = await kv.get<Record<string, unknown>>(inviteKey(id));
-  if (!raw) return null;
-  return raw as unknown as Invite;
+  return gcsGet<Invite>(`invites/${id}.json`);
 }
 
 export async function getInviteByReferralCode(code: string): Promise<Invite | null> {
-  const kv = getRedis();
-  const id = await kv.get<string>(inviteByRefKey(code));
-  if (!id) return null;
-  return getInvite(id as string);
+  const ref = await gcsGet<{ inviteId: string }>(`invites/by-ref/${code}.json`);
+  if (!ref) return null;
+  return getInvite(ref.inviteId);
 }
 
 export async function getInvitesByProfile(profileHash: string): Promise<Invite[]> {
-  const kv = getRedis();
-  const ids = await getInviteIdsByProfile(kv, profileHash);
+  const keys = await gcsList(`invites/by-profile/${profileHash}/`);
   const invites: Invite[] = [];
-  for (const id of ids) {
-    const inv = await getInvite(id);
-    if (inv) invites.push(inv);
+  for (const key of keys) {
+    const idx = await gcsGet<{ inviteId: string }>(key);
+    if (idx) {
+      const inv = await getInvite(idx.inviteId);
+      if (inv) invites.push(inv);
+    }
   }
   return invites;
 }
@@ -123,23 +88,9 @@ export async function completeInvite(inviteId: string, inviteeProfileHash: strin
   invite.status = "completed";
   invite.completedAt = Date.now();
 
-  const kv = getRedis();
-  await kv.set(inviteKey(invite.id), JSON.stringify(invite));
+  await gcsSetWithTTL(`invites/${invite.id}.json`, invite, INVITE_TTL);
 
   return invite;
-}
-
-async function getInviteIdsByProfile(kv: Redis, profileHash: string): Promise<string[]> {
-  const ids: string[] = [];
-  let idx = 0;
-  while (true) {
-    const id = await kv.get<string>(inviteByProfileKey(profileHash, idx));
-    if (!id) break;
-    ids.push(id as string);
-    idx++;
-    if (idx > 20) break;
-  }
-  return ids;
 }
 
 function generateReferralCode(): string {

@@ -1,30 +1,5 @@
-import { Redis } from "@upstash/redis";
+import { gcsGet, gcsSet, gcsExists, gcsList, gcsDelete } from "./gcs-storage";
 import type { Subscriber } from "./types";
-
-let redis: Redis | null = null;
-
-function getRedis(): Redis {
-  if (!redis) {
-    const url = process.env.UPSTASH_REDIS_REST_URL;
-    const token = process.env.UPSTASH_REDIS_REST_TOKEN;
-    if (!url || !token) {
-      throw new Error("UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN must be set");
-    }
-    redis = new Redis({ url, token });
-  }
-  return redis;
-}
-
-const SUBSCRIBER_PREFIX = "sub:";
-const SCHEDULE_PREFIX = "schedule:";
-const EMAIL_INDEX_PREFIX = "email:";
-
-function subscriberKey(id: string): string {
-  return `${SUBSCRIBER_PREFIX}${id}`;
-}
-
-const emailIndexKey = (email: string) => `${EMAIL_INDEX_PREFIX}${email.toLowerCase()}`;
-const scheduleKey = (ts: number) => `${SCHEDULE_PREFIX}${ts}`;
 
 export async function createSubscriber(data: {
   email: string;
@@ -33,14 +8,10 @@ export async function createSubscriber(data: {
   frameworkType: string;
   oneSentenceTraitSummary: string;
 }): Promise<Subscriber> {
-  const kv = getRedis();
-  const existingId = await kv.get<string>(emailIndexKey(data.email));
+  const existingId = await getSubscriberIdByEmail(data.email);
   if (existingId) {
-    const raw = await kv.get<Record<string, unknown>>(subscriberKey(existingId));
-    if (raw) {
-      const existing = raw as unknown as Subscriber;
-      if (!existing.suppressed) return existing;
-    }
+    const existing = await getSubscriber(existingId);
+    if (existing && !existing.suppressed) return existing;
   }
 
   const id = crypto.randomUUID();
@@ -60,28 +31,28 @@ export async function createSubscriber(data: {
     emailsSent: [],
   };
 
-  await kv.set(subscriberKey(id), JSON.stringify(subscriber));
-  await kv.set(emailIndexKey(data.email), id);
+  await gcsSet(`subscribers/${id}.json`, subscriber);
+  await gcsSet(`subscribers/by-email/${data.email.toLowerCase()}.json`, { subscriberId: id });
   return subscriber;
 }
 
 export async function getSubscriber(id: string): Promise<Subscriber | null> {
-  const kv = getRedis();
-  const raw = await kv.get<Record<string, unknown>>(subscriberKey(id));
-  if (!raw) return null;
-  return raw as unknown as Subscriber;
+  return gcsGet<Subscriber>(`subscribers/${id}.json`);
+}
+
+async function getSubscriberIdByEmail(email: string): Promise<string | null> {
+  const idx = await gcsGet<{ subscriberId: string }>(`subscribers/by-email/${email.toLowerCase()}.json`);
+  return idx?.subscriberId ?? null;
 }
 
 export async function getSubscriberByEmail(email: string): Promise<Subscriber | null> {
-  const kv = getRedis();
-  const id = await kv.get<string>(emailIndexKey(email));
+  const id = await getSubscriberIdByEmail(email);
   if (!id) return null;
   return getSubscriber(id);
 }
 
 export async function updateSubscriber(subscriber: Subscriber): Promise<void> {
-  const kv = getRedis();
-  await kv.set(subscriberKey(subscriber.id), JSON.stringify(subscriber));
+  await gcsSet(`subscribers/${subscriber.id}.json`, subscriber);
 }
 
 export async function suppressSubscriber(id: string): Promise<Subscriber | null> {
@@ -94,26 +65,25 @@ export async function suppressSubscriber(id: string): Promise<Subscriber | null>
 }
 
 export async function scheduleEmail(subscriberId: string, sendAt: number): Promise<void> {
-  const kv = getRedis();
-  const key = scheduleKey(sendAt);
-  await kv.sadd(key, subscriberId);
-  await kv.expire(key, 60 * 60 * 24 * 8);
+  await gcsSet(`schedule/${sendAt}/${subscriberId}.json`, { subscriberId, sendAt });
 }
 
 export async function getScheduledSubscribers(before: number): Promise<Array<{ subscriberId: string; sendAt: number }>> {
-  const kv = getRedis();
   const results: Array<{ subscriberId: string; sendAt: number }> = [];
+  const scheduleFiles = await gcsList("schedule/");
 
-  const keys = await kv.keys(`${SCHEDULE_PREFIX}*`);
-  for (const key of keys) {
-    const timestamp = parseInt(key.replace(SCHEDULE_PREFIX, ""), 10);
+  for (const filePath of scheduleFiles) {
+    const match = filePath.match(/^schedule\/(\d+)\/(.+)\.json$/);
+    if (!match) continue;
+
+    const timestamp = parseInt(match[1], 10);
     if (isNaN(timestamp) || timestamp > before) continue;
 
-    const members = await kv.smembers<string>(key);
-    for (const memberId of members) {
-      results.push({ subscriberId: memberId, sendAt: timestamp });
+    const entry = await gcsGet<{ subscriberId: string; sendAt: number }>(filePath);
+    if (entry) {
+      results.push(entry);
+      await gcsDelete(filePath);
     }
-    await kv.del(key);
   }
 
   return results;

@@ -1,33 +1,22 @@
-import { Redis } from "@upstash/redis";
 import type { InboundEmail, EmailCategory, EmailStatus } from "./inbound-types";
 import { classifyEmail, shouldAutoRespond, shouldFlagForReview, isRefundRequest } from "./classifier";
 import { sendAutoResponse } from "./auto-responder";
 import { postHogTrack } from "./send";
-
-let redis: Redis | null = null;
-
-function getRedis(): Redis {
-  if (!redis) {
-    const url = process.env.UPSTASH_REDIS_REST_URL;
-    const token = process.env.UPSTASH_REDIS_REST_TOKEN;
-    if (!url || !token) {
-      throw new Error("UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN must be set");
-    }
-    redis = new Redis({ url, token });
-  }
-  return redis;
-}
-
-const EMAIL_PREFIX = "inbound:";
-const EMAIL_INDEX_PREFIX = "inbound_idx:";
+import { gcsGet, gcsSet, gcsList, gcsSetWithTTL } from "./gcs-storage";
 
 function emailKey(id: string): string {
-  return `${EMAIL_PREFIX}${id}`;
+  return `inbound/${id}.json`;
 }
 
-const fromIndexKey = (from: string) => `${EMAIL_INDEX_PREFIX}from:${from.toLowerCase()}`;
-const categoryIndexKey = (cat: EmailCategory) => `${EMAIL_INDEX_PREFIX}cat:${cat}`;
-const flaggedIndexKey = `${EMAIL_INDEX_PREFIX}flagged`;
+function fromIndexKey(from: string): string {
+  return `inbound/from/${from.toLowerCase()}.json`;
+}
+
+function categoryIndexKey(cat: EmailCategory): string {
+  return `inbound/cat/${cat}`;
+}
+
+const flaggedIndexPrefix = "inbound/flagged";
 
 export async function storeInboundEmail(
   payload: {
@@ -72,8 +61,6 @@ export async function storeInboundEmail(
     classifiedAt: now,
   };
 
-  const kv = getRedis();
-
   const wantsAutoResponse = shouldAutoRespond(category) || (flaggedForReview && category === "refund");
 
   if (wantsAutoResponse) {
@@ -94,11 +81,11 @@ export async function storeInboundEmail(
     email.status = "triaged";
   }
 
-  await kv.set(emailKey(email.id), JSON.stringify(email));
-  await kv.set(fromIndexKey(payload.from), email.id);
-  await kv.sadd(categoryIndexKey(category), email.id);
+  await gcsSetWithTTL(emailKey(email.id), email, 60 * 60 * 24 * 90);
+  await gcsSet(fromIndexKey(payload.from), { emailId: email.id });
+  await gcsSet(`inbound/cat/${category}/${email.id}.json`, { emailId: email.id });
   if (flaggedForReview) {
-    await kv.sadd(flaggedIndexKey, email.id);
+    await gcsSet(`${flaggedIndexPrefix}/${email.id}.json`, { emailId: email.id });
   }
 
   await postHogTrack("inbound_email_received", {
@@ -113,20 +100,27 @@ export async function storeInboundEmail(
 }
 
 export async function getInboundEmail(id: string): Promise<InboundEmail | null> {
-  const kv = getRedis();
-  const raw = await kv.get<Record<string, unknown>>(emailKey(id));
-  if (!raw) return null;
-  return raw as unknown as InboundEmail;
+  return gcsGet<InboundEmail>(`inbound/${id}.json`);
 }
 
 export async function getInboundEmailsByCategory(category: EmailCategory): Promise<string[]> {
-  const kv = getRedis();
-  return kv.smembers<string>(categoryIndexKey(category));
+  const keys = await gcsList(`inbound/cat/${category}/`);
+  const ids: string[] = [];
+  for (const key of keys) {
+    const entry = await gcsGet<{ emailId: string }>(key);
+    if (entry) ids.push(entry.emailId);
+  }
+  return ids;
 }
 
 export async function getFlaggedEmails(): Promise<string[]> {
-  const kv = getRedis();
-  return kv.smembers<string>(flaggedIndexKey);
+  const keys = await gcsList(`${flaggedIndexPrefix}/`);
+  const ids: string[] = [];
+  for (const key of keys) {
+    const entry = await gcsGet<{ emailId: string }>(key);
+    if (entry) ids.push(entry.emailId);
+  }
+  return ids;
 }
 
 export async function updateInboundEmailStatus(
@@ -136,7 +130,6 @@ export async function updateInboundEmailStatus(
   const email = await getInboundEmail(id);
   if (!email) return null;
   email.status = status;
-  const kv = getRedis();
-  await kv.set(emailKey(id), JSON.stringify(email));
+  await gcsSetWithTTL(`inbound/${id}.json`, email, 60 * 60 * 24 * 90);
   return email;
 }
