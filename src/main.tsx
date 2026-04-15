@@ -129,6 +129,10 @@ createRoot(document.getElementById("root")!).render(
               path="/blog/personality-team-dynamics-founders"
               element={<BlogPage slug="personality-team-dynamics-founders" />}
             />
+            <Route
+              path="/blog/best-free-personality-test-2026"
+              element={<BlogPage slug="best-free-personality-test-2026" />}
+            />
             <Route path="/privacy-draft" element={<PrivacyPolicy />} />
             <Route path="/terms-draft" element={<TermsOfService />} />
             <Route path="/relationship/:id" element={<RelationshipReportPage />} />
