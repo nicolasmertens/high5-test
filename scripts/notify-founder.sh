@@ -15,19 +15,22 @@ if [ $# -eq 0 ] && [ -t 0 ]; then
   echo "  TELEGRAM_CHAT_ID    - Founder's Telegram chat ID" >&2
   echo "" >&2
   echo "Options:" >&2
-  echo "  --test    Send a test message confirming the integration works" >&2
-  echo "  --raw     Skip the [1TEST] prefix (send message as-is)" >&2
+  echo "  --test          Send a test message confirming the integration works" >&2
+  echo "  --raw           Skip the [1TEST] prefix (send message as-is)" >&2
+  echo "  --issue TESA-NN Prepend [TESA-NN] prefix for inbound routing" >&2
   exit 1
 fi
 
 RAW=false
 TEST=false
+ISSUE=""
 
 while [ $# -gt 0 ]; do
   case "$1" in
-    --test) TEST=true; shift ;;
-    --raw)  RAW=true; shift ;;
-    *)      break ;;
+    --test)  TEST=true; shift ;;
+    --raw)   RAW=true; shift ;;
+    --issue) ISSUE="$2"; shift 2 ;;
+    *)       break ;;
   esac
 done
 
@@ -40,10 +43,14 @@ else
 fi
 
 if ! $RAW && ! $TEST; then
+  if [ -n "$ISSUE" ]; then
+    PREFIX="[1TEST] [$ISSUE]"
+  else
+    PREFIX="[1TEST]"
+  fi
   case "$MESSAGE" in
-    "[1TEST]"*) ;;
-    "[1TEST BLOCKER]"*) ;;
-    *) MESSAGE="[1TEST] $MESSAGE" ;;
+    "$PREFIX"*) ;;
+    *) MESSAGE="$PREFIX $MESSAGE" ;;
   esac
 fi
 
