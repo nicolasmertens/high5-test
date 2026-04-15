@@ -1,16 +1,68 @@
 import type { EmailCategory } from "./inbound-types";
 
 const CATEGORY_KEYWORDS: Record<EmailCategory, string[]> = {
+  refund: [
+    "refund",
+    "money back",
+    "cancel and refund",
+    "want a refund",
+    "request a refund",
+    "reimbursement",
+  ],
+  gdpr_data: [
+    "gdpr",
+    "delete my data",
+    "delete my account",
+    "personal data",
+    "right to",
+    "right to be forgotten",
+    "right to access",
+    "data request",
+    "data deletion",
+    "privacy request",
+    "data export",
+    "data portability",
+  ],
+  account_technical: [
+    "account",
+    "login",
+    "password",
+    "sign in",
+    "sign up",
+    "can't access",
+    "cannot access",
+    "broken",
+    "error",
+    "not working",
+    "bug",
+    "crash",
+    "loading",
+    "won't load",
+    "results not showing",
+    "can't complete",
+    "test not loading",
+  ],
+  pricing: [
+    "price",
+    "pricing",
+    "cost",
+    "how much",
+    "plan",
+    "plans",
+    "upgrade",
+    "subscription",
+    "tier",
+    "what do i get",
+    "free vs paid",
+    "is it free",
+  ],
   billing_finance: [
     "invoice",
     "receipt",
     "payment",
-    "refund",
     "charge",
     "billing",
-    "subscription",
     "cancel subscription",
-    "unsubscribe",
     "overcharged",
     "transaction",
     "statement",
@@ -39,27 +91,11 @@ const CATEGORY_KEYWORDS: Record<EmailCategory, string[]> = {
     "help",
     "question",
     "results",
-    "account",
     "test",
-    "password",
-    "login",
-    "access",
-    "can't",
-    "cannot",
-    "broken",
-    "error",
-    "not working",
-    "how do i",
     "where is",
-    "gdpr",
-    "data",
-    "delete my data",
-    "privacy",
-    "pricing",
-    "cost",
-    "how much",
-    "free",
-    "upgrade",
+    "how do i",
+    "lost my results",
+    "can't find",
   ],
   spam_noise: [
     "viagra",
@@ -118,6 +154,26 @@ export function classifyEmail(
     return "spam_noise";
   }
 
+  const refundScore = CATEGORY_KEYWORDS.refund.filter((kw) =>
+    combinedText.includes(kw.toLowerCase()),
+  ).length;
+  if (refundScore >= 1) {
+    return "refund";
+  }
+
+  const gdprScore = CATEGORY_KEYWORDS.gdpr_data.filter((kw) =>
+    combinedText.includes(kw.toLowerCase()),
+  ).length;
+  if (gdprScore >= 1) {
+    return "gdpr_data";
+  }
+
+  const pricingScore = CATEGORY_KEYWORDS.pricing.filter((kw) =>
+    combinedText.includes(kw.toLowerCase()),
+  ).length;
+  const accountScore = CATEGORY_KEYWORDS.account_technical.filter((kw) =>
+    combinedText.includes(kw.toLowerCase()),
+  ).length;
   const billingScore = CATEGORY_KEYWORDS.billing_finance.filter((kw) =>
     combinedText.includes(kw.toLowerCase()),
   ).length;
@@ -128,38 +184,36 @@ export function classifyEmail(
     combinedText.includes(kw.toLowerCase()),
   ).length;
 
-  if (billingScore >= 2 && billingScore > partnershipScore && billingScore > supportScore) {
-    return "billing_finance";
+  const scores: Array<{ category: EmailCategory; score: number }> = [
+    { category: "pricing", score: pricingScore },
+    { category: "account_technical", score: accountScore },
+    { category: "billing_finance", score: billingScore },
+    { category: "partnership_outreach", score: partnershipScore },
+    { category: "general_support", score: supportScore },
+  ];
+
+  scores.sort((a, b) => b.score - a.score);
+
+  if (scores[0].score >= 2) {
+    return scores[0].category;
   }
 
-  if (partnershipScore >= 2 && partnershipScore > billingScore && partnershipScore > supportScore) {
-    return "partnership_outreach";
-  }
-
-  if (supportScore >= 1) {
-    return "general_support";
-  }
-
-  if (billingScore >= 1) {
-    return "billing_finance";
-  }
-
-  if (partnershipScore >= 1) {
-    return "partnership_outreach";
+  if (scores[0].score >= 1) {
+    return scores[0].category;
   }
 
   return "general_support";
 }
 
 export function shouldAutoRespond(category: EmailCategory): boolean {
-  return category === "general_support";
+  return ["general_support", "pricing", "account_technical", "gdpr_data", "refund"].includes(category);
 }
 
 export function shouldFlagForReview(category: EmailCategory): boolean {
-  return category === "billing_finance" || category === "partnership_outreach";
+  return ["billing_finance", "partnership_outreach"].includes(category);
 }
 
 export function isRefundRequest(subject: string, text: string): boolean {
   const combined = `${subject} ${text || ""}`.toLowerCase();
-  return /\brefund\b/.test(combined);
+  return /\brefund\b/.test(combined) || /money back/i.test(combined) || /reimbursement/i.test(combined);
 }

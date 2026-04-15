@@ -17,7 +17,15 @@ export interface ResendInboundPayload {
   }>;
 }
 
-export type EmailCategory = "general_support" | "billing_finance" | "partnership_outreach" | "spam_noise";
+export type EmailCategory =
+  | "general_support"
+  | "billing_finance"
+  | "partnership_outreach"
+  | "spam_noise"
+  | "refund"
+  | "gdpr_data"
+  | "account_technical"
+  | "pricing";
 
 export type EmailStatus = "new" | "triaged" | "responded" | "closed";
 

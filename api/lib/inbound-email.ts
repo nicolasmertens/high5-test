@@ -74,19 +74,22 @@ export async function storeInboundEmail(
 
   const kv = getRedis();
 
-  if (shouldAutoRespond(category) && !flaggedForReview) {
+  const wantsAutoResponse = shouldAutoRespond(category) || (flaggedForReview && category === "refund");
+
+  if (wantsAutoResponse) {
     const result = await sendAutoResponse(email);
     if (result.success) {
       email.autoResponseSent = true;
       email.autoResponseTemplate = result.templateUsed;
-      email.status = "responded";
-    } else {
-      email.status = "triaged";
     }
+  }
+
+  if (category === "spam_noise") {
+    email.status = "closed";
   } else if (flaggedForReview) {
     email.status = "triaged";
-  } else if (category === "spam_noise") {
-    email.status = "closed";
+  } else if (email.autoResponseSent) {
+    email.status = "responded";
   } else {
     email.status = "triaged";
   }
