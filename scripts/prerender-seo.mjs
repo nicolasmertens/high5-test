@@ -343,6 +343,27 @@ const BLOG_FAQS = {
     { question: "Are free team personality assessments reliable?", answer: "Yes, when based on established research frameworks. DISC, Strengths, and Enneagram have decades of research behind them. Free assessments on 1Test use these same validated frameworks." },
     { question: "Should we use personality tests for hiring?", answer: "No. Personality assessments should not be used as hiring screens. They describe behavioral tendencies, not competence. Use them for team development and communication after someone has been hired." },
   ],
+  "/blog/16-personalities-career": [
+    { question: "Can my personality type limit my career options?", answer: "No. Your type describes preferences, not capabilities. Any type can succeed in any career. The difference is energy cost. Optimize for energy alignment, not type restriction." },
+    { question: "Should I choose a career based on my personality test?", answer: "Use personality tests as one input alongside skills, interests, values, and circumstances. A test helps you understand why certain jobs drain you. It should inform your decision, not make it." },
+    { question: "What if my personality type does not match my current job?", answer: "Common situation. Identify which aspects drain you most. Look for ways to adapt your role — more autonomy, different communication channels, adjusted projects. Small changes often make a big difference." },
+    { question: "How do personality types affect job satisfaction?", answer: "Research shows people are more satisfied in roles aligned with their preferences. Introverts prefer autonomy. Extroverts prefer collaboration. Alignment reduces friction and burnout." },
+    { question: "Which personality type earns the most?", answer: "Income correlates more with industry, experience, and negotiation skills than personality type. The better question: what work will you sustain for decades without burning out?" },
+  ],
+  "/blog/disc-sales-training": [
+    { question: "Can DISC really improve sales performance?", answer: "Yes. Research on adaptive selling shows that salespeople who adjust their approach to the buyer's communication style achieve higher conversion rates. DISC provides a practical framework for those adjustments." },
+    { question: "How quickly can I identify a buyer's DISC style?", answer: "Usually within the first two minutes. D types ask about results immediately. I types start with friendly conversation. S types ask about process. C types ask for details and evidence." },
+    { question: "What if my buyer seems like a mix of styles?", answer: "Most people are a blend. Start with the dominant style and adapt. A buyer showing D energy but asking for data needs the bottom line first, then evidence." },
+    { question: "Should I ask my buyer to take a DISC test?", answer: "Not usually. You can identify style through observation. Asking a prospect to take a personality test can feel invasive. Save it for existing relationships with longer sales cycles." },
+    { question: "Does DISC work in B2B sales the same as B2C?", answer: "Yes, but in B2B you may need to adapt to multiple stakeholders. The CFO may be a high C while the VP of Sales is a high I. Address each person in their preferred style." },
+  ],
+  "/blog/personality-test-self-awareness": [
+    { question: "Which personality test is best for self-awareness?", answer: "The Enneagram is best for deep motivations. DISC is best for understanding how others experience you. 16 Personalities is best for cognitive preferences. Strengths is best for natural talents. Take all four for a complete picture." },
+    { question: "How often should I reflect on my personality results?", answer: "Daily brief reflection (one minute) is more valuable than monthly deep dives. Ask each evening: Did I act in alignment with my values today, or did I react from autopilot?" },
+    { question: "Can personality tests replace therapy or coaching?", answer: "No. They are self-reflection tools, not mental health resources. They can complement therapy by providing a framework for discussion, but are not a substitute for professional support." },
+    { question: "What if my results do not match how I see myself?", answer: "This is useful. The gap between test results and self-image reveals blind spots. Explore it with curiosity — the answer often reveals something important about how you see yourself versus how you behave." },
+    { question: "How do I use personality tests for growth without overthinking?", answer: "Pick one behavior to change. Track it for 30 days. Then pick another. Growth comes from small consistent practice, not reading more type descriptions." },
+  ],
 };
 
 const SEO_DATA = {
@@ -596,6 +617,27 @@ const SEO_DATA = {
     description:
       "How to use personality tests for team building. DISC, Enneagram, and Strengths frameworks for better communication and conflict resolution. Free team assessments.",
     canonicalUrl: "https://1test.me/blog/personality-test-team-building",
+    ogType: "article",
+  },
+  "/blog/16-personalities-career": {
+    title: "16 Personalities Career Guide: Finding Work That Fits Your Type",
+    description:
+      "Discover which careers suit each of the 16 personality types. Practical guide linking personality preferences to career paths, work environments, and growth strategies.",
+    canonicalUrl: "https://1test.me/blog/16-personalities-career",
+    ogType: "article",
+  },
+  "/blog/disc-sales-training": {
+    title: "DISC for Sales: How to Sell to Every Personality Type",
+    description:
+      "Learn how to adapt your sales approach to each DISC personality type. Practical strategies for selling to D, I, S, and C buyers with higher close rates.",
+    canonicalUrl: "https://1test.me/blog/disc-sales-training",
+    ogType: "article",
+  },
+  "/blog/personality-test-self-awareness": {
+    title: "Personality Tests for Self-Awareness: A Practical Growth Guide",
+    description:
+      "Learn how personality tests build genuine self-awareness. Practical guide to using DISC, Enneagram, 16 Personalities, and Strengths for personal growth — not just labels.",
+    canonicalUrl: "https://1test.me/blog/personality-test-self-awareness",
     ogType: "article",
   },
 };
@@ -907,6 +949,33 @@ const BODY_CONTENT = {
       { heading: "How to Run a Team Personality Session", text: "Choose one framework. Everyone takes the test before the session. Share results in a group setting — each person shares their style and communication preferences. Map team dynamics together. End with specific action items. Total time: 45-60 minutes." },
       { heading: "Free vs Paid Team Assessments", text: "1Test offers free complete profiles across four frameworks. Paid assessments add pre-built team reports and facilitation. If you can run your own session, free assessments give the same core insights at zero cost." },
       { heading: "Common Mistakes", text: "Do not use personality tests for hiring — they describe preferences, not competence. Do not pigeonhole people — DISC describes tendencies, not limits. Do not do it once and forget — personality awareness needs reinforcement." },
+    ],
+  },
+  "/blog/16-personalities-career": {
+    h1: "16 Personalities Career Guide: Finding Work That Fits Your Type",
+    sections: [
+      { heading: "Your Personality Type and Your Career", text: "The 16 Personalities framework does not determine your career. It describes how you prefer to process information, make decisions, and recharge — those preferences influence which work environments feel natural versus draining." },
+      { heading: "How Each Dimension Affects Career Fit", text: "Introverts thrive with deep focus — research, writing, analysis. Extroverts thrive with interaction — sales, consulting, teaching. Sensing types prefer concrete facts — engineering, finance. Intuitive types prefer patterns — strategy, product. Thinking types prioritize logic. Feeling types prioritize values. Judging types prefer structure. Perceiving types prefer flexibility." },
+      { heading: "Career Paths by Personality Group", text: "Analysts (Thinking + Intuitive) excel at complex problems — strategy, technology. Diplomats (Feeling + Intuitive) excel at understanding people — coaching, creative. Sentinels (Sensing + Judging) build reliable systems — operations, healthcare. Explorers (Sensing + Perceiving) respond to real-time challenges — emergency services, sales." },
+      { heading: "Using Your Type for Career Decisions", text: "Use personality to eliminate what drains you, not to decide for you. Optimize for energy alignment. Combine frameworks — pair 16P with DISC, Enneagram, and Strengths for a richer picture." },
+    ],
+  },
+  "/blog/disc-sales-training": {
+    h1: "DISC for Sales: How to Sell to Every Personality Type",
+    sections: [
+      { heading: "Why DISC Matters in Sales", text: "Every buyer processes information differently. DISC gives you a framework for reading your buyer's style and adapting your approach in real time. Salespeople who adjust to the buyer's style close more deals." },
+      { heading: "Identifying Buyer Style", text: "High D: speaks quickly, asks about ROI, impatient. High I: friendly, shares stories, asks about other users. High S: quiet, asks about support, needs time. High C: analytical, asks for specs, takes notes." },
+      { heading: "Selling to Each Style", text: "D: get to the point, present options, show ROI. I: build rapport, share stories, make it fun. S: be patient, provide references, offer guarantees. C: provide details, share data, give time to analyze." },
+      { heading: "Your Own Sales Style", text: "High D: confident but may rush. High I: relational but may lack data. High S: trustworthy but may lack urgency. High C: thorough but may lack warmth. Adapt to the buyer, not your default." },
+    ],
+  },
+  "/blog/personality-test-self-awareness": {
+    h1: "Personality Tests for Self-Awareness: A Practical Growth Guide",
+    sections: [
+      { heading: "Starting Point, Not Destination", text: "Taking a personality test gives you a label. Real self-awareness is knowing how your type shows up in daily life — the meetings you avoid, the conflicts that trigger you, the work that drains you, the conversations that energize you." },
+      { heading: "How Each Framework Builds Self-Awareness", text: "DISC describes observable behavior — how others experience you. Enneagram reveals core motivations — why you do what you do. 16 Personalities maps cognitive preferences — how you process the world. Strengths reveals natural talents — what comes effortlessly." },
+      { heading: "A Four-Week Self-Awareness Practice", text: "Week 1: Map your patterns across all four frameworks. Week 2: Get external feedback from three people. Week 3: Identify three triggers with better responses. Week 4: Build one specific, measurable habit from your insights." },
+      { heading: "Common Traps", text: "Label trap: using type as identity, not a tool. Confirmation bias: only noticing evidence that confirms type. Insight-without-action: taking tests without changing behavior. Over-analysis: studying personality more than living life." },
     ],
   },
 };

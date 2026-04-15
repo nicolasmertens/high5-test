@@ -5319,6 +5319,199 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-15",
   },
+  "16-personalities-career": {
+    slug: "16-personalities-career",
+    metaTitle: "16 Personalities Career Guide: Finding Work That Fits Your Type",
+    metaDesc:
+      "Discover which careers suit each of the 16 personality types. Practical guide linking personality preferences to career paths, work environments, and growth strategies.",
+    canonicalUrl: "https://1test.me/blog/16-personalities-career",
+    h1: "16 Personalities Career Guide: Finding Work That Fits Your Type",
+    sections: [
+      {
+        heading: "Your Personality Type and Your Career",
+        html: p(
+          "The 16 Personalities framework does not determine your career. It describes how you prefer to process information, make decisions, and recharge — and those preferences influence which work environments feel natural and which feel draining."
+        ) +
+          p(
+            '<a href="/free-16-personalities-test">Take the free 16 Personalities test</a> if you do not know your type yet.'
+          ),
+      },
+      {
+        heading: "How Each Dimension Affects Career Fit",
+        html: p("<strong>Energy: Introversion vs. Extroversion</strong>") +
+          p("Introverts thrive with deep focus and independent work — research, writing, development, analysis. Extroverts thrive with interaction and collaboration — sales, consulting, teaching, PR. Neither is better at any career. The question is what energizes you.") +
+          p("<strong>Information: Sensing vs. Intuition</strong>") +
+          p("Sensing types prefer concrete facts and practical applications — engineering, finance, operations. Intuitive types prefer patterns and possibilities — strategy, product, entrepreneurship.") +
+          p("<strong>Decisions: Thinking vs. Feeling</strong>") +
+          p("Thinking types prioritize logic and efficiency — law, data science, financial analysis. Feeling types prioritize people impact and values — HR, counseling, nonprofit, coaching.") +
+          p("<strong>Structure: Judging vs. Perceiving</strong>") +
+          p("Judging types prefer plans and clear structure — operations, compliance, program management. Perceiving types prefer flexibility and open-ended exploration — startups, creative fields, consulting."),
+      },
+      {
+        heading: "Career Paths by Personality Group",
+        html: p("<strong>Analysts (Thinking + Intuitive):</strong> INTJ, INTP, ENTJ, ENTP. Excel at solving complex problems and designing systems. Careers: strategy, technology, research.") +
+          p("<strong>Diplomats (Feeling + Intuitive):</strong> INFJ, INFP, ENFJ, ENFP. Excel at understanding people and driving toward meaningful goals. Careers: coaching, creative work, nonprofit.") +
+          p("<strong>Sentinels (Sensing + Judging):</strong> ISTJ, ISFJ, ESTJ, ESFJ. Excel at building reliable systems. Careers: operations, administration, healthcare, education.") +
+          p("<strong>Explorers (Sensing + Perceiving):</strong> ISTP, ISFP, ESTP, ESFP. Excel at responding to real-time challenges. Careers: emergency services, skilled trades, sales, creative production."),
+      },
+      {
+        heading: "Using Your Type for Career Decisions",
+        html: ol([
+          "<strong>Use it to eliminate, not to decide.</strong> Your type tells you what drains you. If you are a strong introvert, constant networking will exhaust you.",
+          "<strong>Optimize for energy, not just skill.</strong> You can develop skills in almost any area. Energy is harder to fake.",
+          "<strong>Consider your full profile.</strong> Two INTJs can have very different career paths depending on Strengths, DISC, and life circumstances.",
+          "<strong>Combine frameworks.</strong> Pair your type with your <a href=\"/free-disc-test\">DISC profile</a> and <a href=\"/free-strengths-test\">Strengths results</a>.",
+        ]) +
+          p('<a href="/free-enneagram-test">Take the free Enneagram test</a> to add motivation insights.'),
+      },
+    ],
+    faqs: [
+      { question: "Can my personality type limit my career options?", answer: "No. Your type describes preferences, not capabilities. Any type can succeed in any career. The difference is energy cost. Optimize for energy alignment, not type restriction." },
+      { question: "Should I choose a career based on my personality test?", answer: "Use personality tests as one input alongside skills, interests, values, and circumstances. A test helps you understand why certain jobs drain you. It should inform your decision, not make it." },
+      { question: "What if my personality type does not match my current job?", answer: "Common situation. Identify which aspects drain you most. Look for ways to adapt your role — more autonomy, different communication channels, adjusted projects. Small changes often make a big difference." },
+      { question: "How do personality types affect job satisfaction?", answer: "Research shows people are more satisfied in roles aligned with their preferences. Introverts prefer autonomy. Extroverts prefer collaboration. Alignment reduces friction and burnout." },
+      { question: "Which personality type earns the most?", answer: "Income correlates more with industry, experience, and negotiation skills than personality type. The better question: what work will you sustain for decades without burning out?" },
+    ],
+    ctaHeading: "Find your personality type and career fit",
+    ctaSubtext: "Four frameworks, complete results, completely free.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free 16 Personalities test", url: "/free-16-personalities-test" },
+      { label: "Free Strengths assessment", url: "/free-strengths-test" },
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "Understanding 16 Personalities", url: "/blog/understanding-16-personalities" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "disc-sales-training": {
+    slug: "disc-sales-training",
+    metaTitle: "DISC for Sales: How to Sell to Every Personality Type",
+    metaDesc:
+      "Learn how to adapt your sales approach to each DISC personality type. Practical strategies for selling to D, I, S, and C buyers with higher close rates.",
+    canonicalUrl: "https://1test.me/blog/disc-sales-training",
+    h1: "DISC for Sales: How to Sell to Every Personality Type",
+    sections: [
+      {
+        heading: "Why DISC Matters in Sales",
+        html: p("Every buyer processes information differently. Some want the bottom line in 30 seconds. Others want a detailed comparison. DISC gives you a framework for reading your buyer's style and adapting in real time.") +
+          p('<a href="/free-disc-test">Take the free DISC test</a> to understand your own sales style first.'),
+      },
+      {
+        heading: "Identifying Your Buyer's DISC Style",
+        html: p("<strong>High D buyers:</strong> Speak quickly, ask about results and ROI, seem impatient with small talk.") +
+          p("<strong>High I buyers:</strong> Friendly and talkative, share personal stories, ask who else uses the product.") +
+          p("<strong>High S buyers:</strong> Quiet and thoughtful, ask about reliability and support, need time to decide.") +
+          p("<strong>High C buyers:</strong> Analytical and questioning, ask about specifications and evidence, take notes."),
+      },
+      {
+        heading: "Selling to Each DISC Style",
+        html: h3("High D — Dominance") +
+          p("Get to the point. Lead with outcomes. Present options. Show ROI upfront. Let them feel in control. Do not waste time on small talk or hide pricing.") +
+          p("<strong>Close:</strong> Give them a clear choice between two options.") +
+          h3("High I — Influence") +
+          p("Build rapport first. Share success stories. Paint a positive picture. Make the process engaging. Follow up with personal touches.") +
+          p("<strong>Close:</strong> Focus on positive outcomes and social proof.") +
+          h3("High S — Steadiness") +
+          p("Be patient and consistent. Provide references. Explain implementation clearly. Offer guarantees or trials. Follow up regularly without pressure.") +
+          p("<strong>Close:</strong> Remove risk with a clear, safe next step.") +
+          h3("High C — Conscientiousness") +
+          p("Provide detailed specs and comparisons. Share data and methodology. Be precise. Give them time to analyze. Follow up with written summaries.") +
+          p("<strong>Close:</strong> Let the data speak with a comprehensive comparison."),
+      },
+      {
+        heading: "Your DISC Style as a Salesperson",
+        html: p("Your own style affects how you naturally sell:") +
+          ul([
+            "<strong>High D:</strong> Sell with confidence and urgency. Growth: slow down for S and C buyers.",
+            "<strong>High I:</strong> Build relationships and enthusiasm. Growth: bring data for C buyers.",
+            "<strong>High S:</strong> Build trust through patience. Growth: create urgency for D buyers.",
+            "<strong>High C:</strong> Present thorough analysis. Growth: build rapport with I buyers.",
+          ]),
+      },
+    ],
+    faqs: [
+      { question: "Can DISC really improve sales performance?", answer: "Yes. Research on adaptive selling shows that salespeople who adjust their approach to the buyer's communication style achieve higher conversion rates. DISC provides a practical framework for making those adjustments." },
+      { question: "How quickly can I identify a buyer's DISC style?", answer: "Usually within the first two minutes. D types ask about results immediately. I types start with friendly conversation. S types ask about process. C types ask for details and evidence." },
+      { question: "What if my buyer seems like a mix of styles?", answer: "Most people are a blend. Start with the dominant style and adapt as the conversation evolves. A buyer showing D energy but asking for data needs the bottom line first, then evidence." },
+      { question: "Should I ask my buyer to take a DISC test?", answer: "Not usually. You can identify their style through observation. Asking a prospect to take a personality test can feel invasive. Save it for existing relationships with longer sales cycles." },
+      { question: "Does DISC work in B2B sales the same as B2C?", answer: "Yes, but in B2B you may need to adapt to multiple stakeholders. The CFO may be a high C while the VP of Sales is a high I. Address each person in their preferred style during group presentations." },
+    ],
+    ctaHeading: "Discover your DISC sales style",
+    ctaSubtext: "Free DISC assessment with complete results.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "DISC communication styles", url: "/blog/disc-communication-styles" },
+      { label: "DISC conflict resolution", url: "/blog/disc-conflict-resolution" },
+      { label: "Personality test for leadership", url: "/blog/personality-test-for-leadership" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "personality-test-self-awareness": {
+    slug: "personality-test-self-awareness",
+    metaTitle: "Personality Tests for Self-Awareness: A Practical Growth Guide",
+    metaDesc:
+      "Learn how personality tests build genuine self-awareness. Practical guide to using DISC, Enneagram, 16 Personalities, and Strengths for personal growth — not just labels.",
+    canonicalUrl: "https://1test.me/blog/personality-test-self-awareness",
+    h1: "Personality Tests for Self-Awareness: A Practical Growth Guide",
+    sections: [
+      {
+        heading: "Personality Tests Are a Starting Point, Not a Destination",
+        html: p("Taking a personality test gives you a label. The label is not the point. The point is what you do with the self-knowledge that comes from understanding your patterns.") +
+          p("Real self-awareness is knowing how your type shows up in daily life — the meetings you avoid, the conflicts that trigger you, the work that drains you, the conversations that energize you.") +
+          p('<a href="/free-personality-test">Take the free personality test</a> — all four frameworks at once.'),
+      },
+      {
+        heading: "What Self-Awareness Actually Means",
+        html: p("<strong>Internal self-awareness</strong> — understanding your emotions, values, strengths, and triggers. Personality tests help with this directly.") +
+          p("<strong>External self-awareness</strong> — understanding how others experience you. This requires feedback from others.") +
+          p("Both are necessary. Use personality tests for internal awareness, then validate with people who know you well."),
+      },
+      {
+        heading: "How Each Framework Builds Self-Awareness",
+        html: p("<strong>DISC</strong> describes observable behavior — how others experience you in meetings, emails, and conversations. Key question: \"When I am stressed, which behavior do I default to?\" <a href=\"/free-disc-test\">Take DISC</a>.") +
+          p("<strong>Enneagram</strong> reveals core motivations — the unconscious driver behind your patterns. Key question: \"What fear or desire drives my biggest patterns?\" <a href=\"/free-enneagram-test\">Take Enneagram</a>.") +
+          p("<strong>16 Personalities</strong> maps cognitive preferences — how you process information and make decisions. Key question: \"Am I spending time in my preferred mode or constantly outside it?\" <a href=\"/free-16-personalities-test\">Take 16P</a>.") +
+          p("<strong>Strengths</strong> reveals what you do effortlessly. Key question: \"What do I do so naturally that I take it for granted?\" <a href=\"/free-strengths-test\">Take Strengths</a>."),
+      },
+      {
+        heading: "A Self-Awareness Practice Using Personality Results",
+        html: p("<strong>Week 1: Map Your Patterns.</strong> Write down your DISC style, Enneagram core fear, most-used 16P preference, and top 5 strengths. Observe without judging.") +
+          p("<strong>Week 2: Get External Feedback.</strong> Share results with three people — work, personal life, and someone who will be honest. Ask: \"Do these results match how you experience me?\" The gaps are the most valuable data.") +
+          p("<strong>Week 3: Identify Your Triggers.</strong> Find three situations that trigger negative reactions — a DISC clash, an Enneagram stress pattern, a non-strength demand. Write better responses for each.") +
+          p("<strong>Week 4: Build One New Habit.</strong> Pick one insight and create a specific, measurable habit. Track it for 30 days. Self-awareness without behavior change is just navel-gazing."),
+      },
+      {
+        heading: "Common Self-Awareness Traps",
+        html: ul([
+          "<strong>The label trap:</strong> Using your type as identity, not a tool. \"I am an INFP so I cannot handle conflict\" is self-limitation, not self-awareness.",
+          "<strong>The confirmation bias trap:</strong> Only noticing evidence that confirms your type. Moments when you act against type are often the most revealing.",
+          "<strong>The insight-without-action trap:</strong> Taking tests and nodding along without changing anything. Self-awareness without different behavior is entertainment.",
+          "<strong>The over-analysis trap:</strong> Studying your personality more than living your life. Tests are a mirror, not a map. Look, learn, then go live.",
+        ]),
+      },
+    ],
+    faqs: [
+      { question: "Which personality test is best for self-awareness?", answer: "The Enneagram is best for deep motivations. DISC is best for understanding how others experience you. 16 Personalities is best for cognitive preferences. Strengths is best for natural talents. Take all four for a complete picture." },
+      { question: "How often should I reflect on my personality results?", answer: "Daily brief reflection (one minute) is more valuable than monthly deep dives. Ask each evening: \"Did I act in alignment with my values today, or did I react from autopilot?\"" },
+      { question: "Can personality tests replace therapy or coaching?", answer: "No. They are self-reflection tools, not mental health resources. They can complement therapy by providing a framework for discussion, but they are not a substitute for professional support." },
+      { question: "What if my results do not match how I see myself?", answer: "This is useful. The gap between test results and self-image reveals blind spots. Explore it with curiosity — the answer often reveals something important about how you see yourself versus how you behave." },
+      { question: "How do I use personality tests for growth without overthinking?", answer: "Pick one behavior to change. Track it for 30 days. Then pick another. Growth comes from small consistent practice, not reading more type descriptions." },
+    ],
+    ctaHeading: "Start building self-awareness",
+    ctaSubtext: "Four frameworks, one free test, complete results.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "How to use personality test results", url: "/blog/how-to-use-personality-test-results" },
+      { label: "16 Personalities career guide", url: "/blog/16-personalities-career" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {
