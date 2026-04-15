@@ -5144,6 +5144,181 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-16",
   },
+  "personality-test-team-building": {
+    slug: "personality-test-team-building",
+    metaTitle: "Personality Test for Team Building — Free Team Assessment Guide",
+    metaDesc:
+      "How to use personality tests for team building. DISC, Enneagram, and Strengths frameworks for better communication, role assignment, and conflict resolution. Free team assessments.",
+    canonicalUrl: "https://1test.me/blog/personality-test-team-building",
+    h1: "Personality Test for Team Building — Free Guide",
+    sections: [
+      {
+        heading: "Personality Test for Team Building — Free Guide",
+        html: p(
+          "Teams break down for predictable reasons. Someone talks too much in meetings. Someone else never speaks up. One person wants decisions made yesterday. Another wants two more weeks of analysis. These are not character flaws. They are personality differences — and personality tests give teams a language for understanding them."
+        ) +
+          p(
+            'This guide shows you how to use personality tests for team building, which frameworks work best, and how to run a team session that actually improves collaboration. <a href="/free-disc-test">Take the free DISC test</a> with your team, or read on for the full framework.'
+          ),
+      },
+      {
+        heading: "Why Personality Tests Help Teams",
+        html: p(
+          "Most team conflicts are not about competence or motivation. They are about differences in how people process information, make decisions, and communicate. Personality tests make these differences visible and give teams a shared vocabulary for talking about them."
+        ) +
+          p(
+            "Without personality language: \"He is being difficult.\" With personality language: \"He needs data before he decides — that is his high Conscientiousness.\" Same behavior, different understanding. The second version leads to better collaboration."
+        ) +
+          p(
+            "Research supports this. A 2015 study in <em>Administrative Science Quarterly</em> found that teams with high psychological safety — where members felt safe to be themselves — significantly outperformed teams without it. Personality assessments create psychological safety by normalizing differences and removing judgment."
+          ),
+      },
+      {
+        heading: "Which Personality Tests Work Best for Teams",
+        html: p(
+          "Not every personality framework is equally useful for team building. Here is what matters:"
+        ) +
+          p(
+            '<strong>DISC — Best for communication.</strong> If you run one team activity, make it DISC. It directly describes how people behave and communicate. A high D wants the bottom line. A high I wants to discuss ideas. A high S wants stability and context. A high C wants data and accuracy. When your team knows these styles, meetings get shorter and clearer. <a href="/free-disc-test">Take the free DISC test</a>.'
+          ) +
+          p(
+            '<strong>Strengths — Best for role assignment.</strong> When everyone on your team knows what they naturally do best, you can assign work based on ability instead of job title. The person with Strategic Thinking strengths should plan. The person with Empathy strengths should handle client relationships. The person with Analytical strengths should own data. <a href="/free-strengths-test">Take the free Strengths test</a>.'
+          ) +
+          p(
+            '<strong>Enneagram — Best for understanding motivation.</strong> DISC tells you how people act. Strengths tells you what they do well. The Enneagram tells you why they care. This matters for retention — a Type 3 Achiever needs visible impact. A Type 6 Loyalist needs trust and stability. A Type 9 Peacemaker needs harmony. Understanding motivation helps you keep people engaged. <a href="/free-enneagram-test">Take the free Enneagram test</a>.'
+          ) +
+          p(
+            '<strong>16 Personalities — Best for the big picture.</strong> The 16 Personalities framework gives the broadest view of cognitive style — how someone processes information, makes decisions, and recharges. Useful for understanding team composition balance. <a href="/free-personality-test">Take the free 16 Personalities test</a>.'
+          ),
+      },
+      {
+        heading: "How to Run a Team Personality Session",
+        html: p(
+          "Here is a practical, step-by-step guide for running a team personality session:"
+        ) +
+          p(
+            "<strong>Step 1: Choose one framework.</strong> Do not try to cover all four at once. Start with DISC for communication or Strengths for role clarity. You can add more frameworks later."
+          ) +
+          p(
+            "<strong>Step 2: Everyone takes the test before the session.</strong> Send the link (all frameworks are free on 1Test) and ask everyone to complete it before the meeting. This takes 5-15 minutes per person."
+          ) +
+          p(
+            '<strong>Step 3: Share results in a group setting.</strong> Do not collect results and distribute a report. Have each person share their own results and answer two questions: "What is one thing about my style that teammates should know?" and "What is one thing that frustrates me about how people communicate with me?"'
+          ) +
+          p(
+            "<strong>Step 4: Map team dynamics.</strong> Look at the team composition together. Are you heavy on D types who want to move fast but light on C types who verify quality? Do you have several high S team members who need process and stability? Map the patterns and discuss where they create strengths and where they create gaps."
+          ) +
+          p(
+            "<strong>Step 5: Create action items.</strong> End with specific agreements: \"When I need a quick decision, I will go to Sarah first.\" \"When I need thorough analysis, I will go to David first.\" \"In meetings, we will pause after 10 minutes of discussion to let introverts contribute in writing.\" Personality insights without action items are wasted."
+          ) +
+          p(
+            "Total time: 45-60 minutes. This single session can prevent months of miscommunication."
+          ),
+      },
+      {
+        heading: "Team Building Activities Using Personality Tests",
+        html: p(
+          "Beyond the formal session, here are practical activities that reinforce personality awareness on your team:"
+        ) +
+          p(
+            "<strong>DISC communication challenge.</strong> Pair team members with different DISC styles and give them a short task. A high D paired with a high S will approach the task differently. After the exercise, discuss what each person noticed about the other's communication style. This builds empathy faster than any lecture."
+          ) +
+          p(
+            "<strong>Strengths mapping exercise.</strong> List every function your team handles. Have each person mark which functions align with their top strengths. Look for overlaps (people fighting for the same work) and gaps (functions no one is naturally suited for). Reassign work based on strengths where possible."
+          ) +
+          p(
+            "<strong>Enneagram motivation check-in.</strong> During a regular team meeting, have each person share what motivates them based on their Enneagram type. This builds understanding of why teammates prioritize different things — and helps managers assign work that energizes rather than drains each person."
+          ) +
+          p(
+            "<strong>Cross-framework team profile.</strong> Build a one-page team profile showing each person's DISC style, top Strengths, and Enneagram type. Keep it visible in your team space. When conflicts arise, reference the profile instead of making assumptions about intent."
+          ),
+      },
+      {
+        heading: "Common Mistakes to Avoid",
+        html: p(
+          "<strong>Using personality tests for hiring.</strong> Personality assessments describe behavioral tendencies, not competence. Screening candidates based on DISC style or Enneagram type introduces bias and excludes qualified people. Use personality tests for team development — after someone joins the team."
+        ) +
+          p(
+            '<strong>Pigeonholing people.</strong> Your DISC style describes your behavioral tendency. It does not limit what you can do. A high S can lead. A high C can be creative. A high D can be empathetic. Use personality as a starting point for understanding, not a box to trap people in.'
+          ) +
+          p(
+            "<strong>Doing it once and forgetting.</strong> Personality awareness decays without reinforcement. Reference the team profile in onboarding, in retrospectives, and when conflicts arise. The value compounds over time."
+          ) +
+          p(
+            "<strong>Treating personality as destiny.</strong> Personality is one input among many. It does not override skills, experience, motivation, or effort. It explains tendencies — it does not predict outcomes."
+          ),
+      },
+      {
+        heading: "Free vs Paid Team Personality Assessments",
+        html: p(
+          "Many team personality assessments cost $20-50 per person. For a team of 10, that is $200-500. Here is what you actually get for that money:"
+        ) +
+          `<table class="content-table">
+<thead><tr><th>Feature</th><th>1Test (Free)</th><th>Paid Team Assessments</th></tr></thead>
+<tbody>
+<tr><td>Individual results</td><td>Complete profile, all frameworks</td><td>Complete profile, usually one framework</td></tr>
+<tr><td>Team report</td><td>Individual profiles (build your own team map)</td><td>Pre-built team composition report</td></tr>
+<tr><td>Cost per person</td><td>$0</td><td>$20-50</td></tr>
+<tr><td>Facilitator guide</td><td>Available in this article</td><td>Sometimes included</td></tr>
+<tr><td>Follow-up coaching</td><td>Not included</td><td>Sometimes included</td></tr>
+</tbody>
+</table>` +
+          p(
+            "The paid assessments add value mainly through pre-built team reports and facilitated sessions. If you have a budget and want professional facilitation, paid assessments are worth it. If you want to understand your team and can run your own session, free assessments give you the same core insights at zero cost."
+          ),
+      },
+      {
+        heading: "Getting Started",
+        html: p(
+          "The fastest way to start: have every team member <a href=\"/free-disc-test\">take the free DISC test</a> on 1Test (5-8 minutes each). Then schedule a 45-minute session where everyone shares their results and discusses communication preferences."
+        ) +
+          p(
+            "For a deeper team build, add <a href=\"/free-strengths-test\">Strengths</a> for role clarity and <a href=\"/free-enneagram-test\">Enneagram</a> for motivation. All three frameworks are free on 1Test with complete results and no paywall."
+          ) +
+          p(
+            'Read more: <a href="/blog/personality-team-dynamics-founders">Personality and team dynamics guide for founders</a> and <a href="/blog/disc-test-team-building">DISC test for team building</a>.'
+          ),
+      },
+    ],
+    faqs: [
+      {
+        question: "Can personality tests improve team building?",
+        answer:
+          "Yes. Personality tests give teams a shared, nonjudgmental language for understanding differences in communication, decision-making, and work style. When team members understand that a high D teammate needs bottom-line information while a high S teammate needs context, they adapt without taking preferences personally. The result is fewer conflicts and faster resolution.",
+      },
+      {
+        question: "Which personality test is best for team building?",
+        answer:
+          "DISC is the most practical for team building because it directly describes how people behave and communicate. It gives your team an immediate, actionable vocabulary. Strengths is the best complement for role assignment. Both are available free on 1Test with complete results.",
+      },
+      {
+        question: "How do I run a team personality session?",
+        answer:
+          'Choose one framework (start with DISC). Have everyone take the test before the session (5-8 minutes on 1Test). In the session, have each person share their results and answer: "What should teammates know about my style?" and "What frustrates me about how people communicate with me?" End with specific action items. Total time: 45-60 minutes.',
+      },
+      {
+        question: "Are free team personality assessments reliable?",
+        answer:
+          "Yes, when they are based on established research frameworks. DISC, Strengths, and Enneagram all have decades of research and practical application behind them. Free assessments on 1Test use these same validated frameworks. The difference between free and paid is typically in the presentation (pre-built team reports, facilitator guides) not in the underlying framework quality.",
+      },
+      {
+        question: "Should we use personality tests for hiring?",
+        answer:
+          "No. Personality assessments should not be used as hiring screens. They describe behavioral tendencies and preferences, not competence or potential. Using them to filter candidates introduces bias. Use personality tests for team development and communication after someone has been hired.",
+      },
+    ],
+    ctaHeading: "Build a better team with personality insights",
+    ctaSubtext: "Free DISC, Strengths, and Enneagram assessments for your whole team.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "Free Strengths test", url: "/free-strengths-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Free 16 Personalities test", url: "/free-personality-test" },
+      { label: "DISC team building guide", url: "/blog/disc-test-team-building" },
+    ],
+    datePublished: "2026-04-15",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

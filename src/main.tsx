@@ -157,6 +157,10 @@ createRoot(document.getElementById("root")!).render(
               path="/blog/enneagram-wings-explained"
               element={<BlogPage slug="enneagram-wings-explained" />}
             />
+            <Route
+              path="/blog/personality-test-team-building"
+              element={<BlogPage slug="personality-test-team-building" />}
+            />
             <Route path="/privacy-draft" element={<PrivacyPolicy />} />
             <Route path="/terms-draft" element={<TermsOfService />} />
             <Route path="/relationship/:id" element={<RelationshipReportPage />} />

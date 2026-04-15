@@ -336,6 +336,13 @@ const BLOG_FAQS = {
     { question: "How does your wing affect relationships?", answer: "Your wing influences how your core type shows up in relationships. A 2w1 serves through structure. A 2w3 serves through charm. Understanding your partner's wing helps you understand how their type expresses itself." },
     { question: "Do I need to know my wing to benefit from the Enneagram?", answer: "No. Your core type provides the most valuable insights. Focus on understanding your core type and growth path first. Return to wings when you want more detail." },
   ],
+  "/blog/personality-test-team-building": [
+    { question: "Can personality tests improve team building?", answer: "Yes. Personality tests give teams a shared, nonjudgmental language for understanding differences in communication, decision-making, and work style. The result is fewer conflicts and faster resolution." },
+    { question: "Which personality test is best for team building?", answer: "DISC is the most practical for team building because it directly describes how people behave and communicate. Strengths is the best complement for role assignment. Both are available free on 1Test." },
+    { question: "How do I run a team personality session?", answer: "Choose one framework (start with DISC). Have everyone take the test before the session. In the session, have each person share their results and answer what teammates should know about their style. End with specific action items. Total time: 45-60 minutes." },
+    { question: "Are free team personality assessments reliable?", answer: "Yes, when based on established research frameworks. DISC, Strengths, and Enneagram have decades of research behind them. Free assessments on 1Test use these same validated frameworks." },
+    { question: "Should we use personality tests for hiring?", answer: "No. Personality assessments should not be used as hiring screens. They describe behavioral tendencies, not competence. Use them for team development and communication after someone has been hired." },
+  ],
 };
 
 const SEO_DATA = {
@@ -582,6 +589,13 @@ const SEO_DATA = {
     description:
       "Understand Enneagram wings and how they influence your core type. Learn about wing theory, how to identify your wing, and what it means for personal growth.",
     canonicalUrl: "https://1test.me/blog/enneagram-wings-explained",
+    ogType: "article",
+  },
+  "/blog/personality-test-team-building": {
+    title: "Personality Test for Team Building — Free Team Assessment Guide",
+    description:
+      "How to use personality tests for team building. DISC, Enneagram, and Strengths frameworks for better communication and conflict resolution. Free team assessments.",
+    canonicalUrl: "https://1test.me/blog/personality-test-team-building",
     ogType: "article",
   },
 };
@@ -883,6 +897,16 @@ const BODY_CONTENT = {
       { heading: "How Wings Work", text: "Your wing must be adjacent to your core type (1-2-3-4-5-6-7-8-9-1). Most people have one dominant wing that stays consistent throughout life. If both wings feel equally strong, revisit your core type identification." },
       { heading: "Each Type's Wings Explained", text: "Every type has two wing variants with distinct expressions. For example, 1w9 (Idealist) is calm and inward-focused, while 1w2 (Advocate) is warm and service-oriented. Each wing adds a specific flavor to the core type." },
       { heading: "Using Your Wing for Growth", text: "Your wing provides a secondary growth direction. A 9w1 can use the 1-wing's purpose to overcome inertia. A 5w4 can use emotional depth to balance detachment. The wing is a modifier, not a separate personality." },
+    ],
+  },
+  "/blog/personality-test-team-building": {
+    h1: "Personality Test for Team Building — Free Guide",
+    sections: [
+      { heading: "Personality Test for Team Building — Free Guide", text: "Teams break down for predictable reasons — personality differences in how people process information, make decisions, and communicate. Personality tests make these differences visible and give teams a shared vocabulary." },
+      { heading: "Which Personality Tests Work Best for Teams", text: "DISC is best for communication — it directly describes how people behave and interact. Strengths is best for role assignment based on natural abilities. Enneagram is best for understanding motivation. 16 Personalities gives the big picture of cognitive style." },
+      { heading: "How to Run a Team Personality Session", text: "Choose one framework. Everyone takes the test before the session. Share results in a group setting — each person shares their style and communication preferences. Map team dynamics together. End with specific action items. Total time: 45-60 minutes." },
+      { heading: "Free vs Paid Team Assessments", text: "1Test offers free complete profiles across four frameworks. Paid assessments add pre-built team reports and facilitation. If you can run your own session, free assessments give the same core insights at zero cost." },
+      { heading: "Common Mistakes", text: "Do not use personality tests for hiring — they describe preferences, not competence. Do not pigeonhole people — DISC describes tendencies, not limits. Do not do it once and forget — personality awareness needs reinforcement." },
     ],
   },
 };
