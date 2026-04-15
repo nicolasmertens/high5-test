@@ -2,31 +2,74 @@ import { useState } from "react";
 import { usePayment } from "../contexts/PaymentContext";
 import { trackCheckoutStarted } from "../utils/analytics";
 
-const PRICE_DISPLAY = "$12";
+type Tier = "full_profile" | "ai_playbook" | "team_monthly";
+
+interface TierInfo {
+  id: Tier;
+  name: string;
+  price: string;
+  description: string;
+  features: string[];
+  mode: "payment" | "subscription";
+}
+
+const TIERS: TierInfo[] = [
+  {
+    id: "full_profile",
+    name: "Full Profile",
+    price: "$12",
+    description: "All 20 strengths ranked + detailed personality type, DISC profile, Enneagram with wing & tritype, career paths, and growth insights.",
+    features: [
+      "All 20 strengths ranked with detailed insights",
+      "Full personality type breakdown with dimension scores",
+      "Complete DISC profile with traits and communication tips",
+      "Enneagram wing, tritype, and stress/growth patterns",
+      "Career paths, book recommendations, stress patterns",
+      "Unified profile combining all four frameworks",
+    ],
+    mode: "payment",
+  },
+  {
+    id: "ai_playbook",
+    name: "AI Playbook",
+    price: "$19",
+    description: "Personalized career paths, growth plan, book recommendations, and communication guide — AI-generated per your profile.",
+    features: [
+      "Career paths matched to your unique profile",
+      "Personalized growth plan with actionable steps",
+      "Book and course recommendations per your strengths",
+      "Communication guide based on your personality type",
+      "Includes everything in the Full Profile",
+    ],
+    mode: "payment",
+  },
+];
 
 export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
   const { isLoading } = usePayment();
-  const [redirecting, setRedirecting] = useState(false);
+  const [redirecting, setRedirecting] = useState<Tier | null>(null);
 
   if (isLoading) return null;
 
-  const handleUpgrade = async () => {
-    trackCheckoutStarted("strengths", "full_profile");
-    setRedirecting(true);
+  const handleUpgrade = async (tier: Tier) => {
+    trackCheckoutStarted("strengths", tier);
+    setRedirecting(tier);
     try {
       const res = await fetch("/api/create-checkout-session", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ tier }),
       });
       if (!res.ok) throw new Error("Checkout session failed");
-      const { url } = await res.json();
-      window.location.href = url;
+      const data = await res.json();
+      window.location.href = data.url;
     } catch {
-      setRedirecting(false);
+      setRedirecting(null);
     }
   };
 
   if (variant === "teaser") {
+    const tier = TIERS[0];
     return (
       <div className="upgrade-teaser">
         <div className="upgrade-teaser-lock">&#128274;</div>
@@ -37,23 +80,23 @@ export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
           Enneagram with wing & tritype, plus career paths and growth insights.
         </p>
         <ul className="upgrade-features">
-          <li>All 20 strengths ranked with detailed insights</li>
-          <li>Full personality type breakdown with dimension scores</li>
-          <li>Complete DISC profile with traits and communication tips</li>
-          <li>Enneagram wing, tritype, and stress/growth patterns</li>
-          <li>Career paths, book recommendations, stress patterns</li>
-          <li>Unified profile combining all four frameworks</li>
+          {tier.features.map((f) => (
+            <li key={f}>{f}</li>
+          ))}
         </ul>
         <button
           className="btn-start btn-upgrade"
-          onClick={handleUpgrade}
-          disabled={redirecting}
+          onClick={() => handleUpgrade(tier.id)}
+          disabled={redirecting !== null}
         >
-          {redirecting ? "Redirecting to checkout..." : `Unlock Full Profile — ${PRICE_DISPLAY}`}
+          {redirecting === tier.id ? "Redirecting to checkout..." : `Unlock ${tier.name} — ${tier.price}`}
         </button>
         <p className="upgrade-subtitle">
           One-time purchase. Instant access. No subscription.
         </p>
+        <div className="upgrade-more-tiers">
+          <p>Also available: <button className="btn-link" onClick={() => handleUpgrade("ai_playbook")}>AI Playbook — $19</button></p>
+        </div>
       </div>
     );
   }
@@ -84,15 +127,20 @@ export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
           <span>Wing, tritype, stress patterns</span>
         </div>
       </div>
-      <button
-        className="btn-start btn-upgrade"
-        onClick={handleUpgrade}
-        disabled={redirecting}
-      >
-        {redirecting ? "Redirecting..." : `Unlock Full Profile — ${PRICE_DISPLAY}`}
-      </button>
+      <div className="upgrade-tier-buttons">
+        {TIERS.map((t) => (
+          <button
+            key={t.id}
+            className="btn-start btn-upgrade"
+            onClick={() => handleUpgrade(t.id)}
+            disabled={redirecting !== null}
+          >
+            {redirecting === t.id ? "Redirecting..." : `${t.name} — ${t.price}${t.mode === "subscription" ? "/mo" : ""}`}
+          </button>
+        ))}
+      </div>
       <p className="upgrade-subtitle">
-        One-time purchase. SSL-encrypted payment via Stripe.
+        SSL-encrypted payment via Stripe. Free tier stays free forever.
       </p>
     </div>
   );

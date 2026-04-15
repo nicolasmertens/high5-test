@@ -102,10 +102,13 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     if (event.type === "checkout.session.completed") {
       const session = event.data.object as Stripe.Checkout.Session;
+      const tier = session.metadata?.tier || "full_profile";
       console.log("Payment completed:", {
         sessionId: session.id,
         email: session.customer_details?.email,
         amount: session.amount_total,
+        tier,
+        mode: session.mode,
       });
 
       await sendGA4PurchaseEvent(session);

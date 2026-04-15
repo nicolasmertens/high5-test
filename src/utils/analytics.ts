@@ -2,7 +2,7 @@ import posthog from "posthog-js";
 
 export type Framework = "disc" | "personality" | "enneagram" | "strengths";
 
-type UpgradeType = "full_profile" | "ai_playbook";
+export type UpgradeType = "full_profile" | "ai_playbook" | "team_monthly";
 
 interface UTMParams {
   utm_source?: string;

@@ -23,10 +23,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       return res.status(200).json({
         paid: true,
         email: session.customer_details?.email || null,
+        tier: session.metadata?.tier || "full_profile",
       });
     }
 
-    return res.status(200).json({ paid: false, email: null });
+    return res.status(200).json({ paid: false, email: null, tier: null });
   } catch (err: any) {
     console.error("Session verification error:", err);
     return res.status(500).json({ error: err.message || "Verification failed" });
