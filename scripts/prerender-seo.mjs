@@ -250,7 +250,42 @@ const BLOG_FAQS = {
     { question: "Can your strengths change over time?", answer: "Your core strengths tend to be stable throughout adulthood, but how you express them evolves. The underlying talent stays the same, but the expression matures with experience." },
     { question: "Should I focus on improving my weaknesses or leveraging my strengths?", answer: "Research consistently supports focusing on strengths. People who use their strengths daily are more engaged, more productive, and more satisfied. Manage weaknesses through partnerships, systems, and delegation rather than trying to fix them." },
     { question: "How long does the strengths and weaknesses test take?", answer: "The 1Test assessment takes about 15 minutes and measures your strengths along with DISC, Enneagram, and 16 Personalities — all from a single assessment. You receive your complete profile with no paywall." },
-    { question: "Is this the same as a CliftonStrengths assessment?", answer: "No. 1Test uses validated personality measures from the International Personality Item Pool (IPIP) to measure similar constructs — your natural strengths and talents — but with a different methodology and no paywall. You get your full results free." },
+     { question: "Is this the same as a CliftonStrengths assessment?", answer: "No. 1Test uses validated personality measures from the International Personality Item Pool (IPIP) to measure similar constructs — your natural strengths and talents — but with a different methodology and no paywall. You get your full results free." },
+  ],
+  "/blog/disc-work-style": [
+    { question: "What is DISC work style?", answer: "DISC work style describes how your DISC behavioral profile — Dominance, Influence, Steadiness, or Conscientiousness — shows up in the workplace. It covers how you make decisions, handle deadlines, communicate with colleagues, respond to stress, and prefer to be managed. Most people are a blend of two DISC styles." },
+    { question: "How does my DISC type affect my job performance?", answer: "Your DISC type affects your job performance by shaping what conditions help you do your best work. High D types perform well with autonomy and clear goals. High I types perform well with collaboration and recognition. High S types perform well with stability and supportive teams. High C types perform well with clear standards and time for analysis." },
+    { question: "Can DISC help with career choices?", answer: "Yes. Your DISC type suggests the kinds of work environments where you naturally thrive. D types often gravitate toward leadership and entrepreneurship. I types often thrive in sales, marketing, and people-facing roles. S types tend to excel in support, coordination, and reliability-focused positions. C types often perform best in analytical, quality-focused, and research-driven roles." },
+    { question: "How do I find out my DISC type for work?", answer: "Take the free DISC test on 1Test. It takes 5-8 minutes and gives you your complete DISC profile — your primary and secondary styles, workplace communication tips, and growth strategies — with no paywall." },
+    { question: "Is DISC accurate for understanding work behavior?", answer: "DISC is a validated behavioral framework used by organizations worldwide for team building, communication training, and leadership development. It measures observable behavioral tendencies. For a more complete picture, combine DISC with the Enneagram and Strengths." },
+  ],
+  "/blog/enneagram-career": [
+    { question: "How can the Enneagram help with career decisions?", answer: "The Enneagram helps with career decisions by revealing your core motivation — the fundamental drive that determines whether a work environment energizes or drains you. When you know your type, you can evaluate career opportunities against what you genuinely need, rather than what looks impressive to others." },
+    { question: "Is the Enneagram accurate for career planning?", answer: "The Enneagram is most useful for career planning when combined with other self-knowledge. Knowing your type tells you what motivates you — but it does not tell you which specific job to take. Combine your Enneagram results with your Strengths profile, DISC style, and practical experience for the most accurate career guidance." },
+    { question: "What if my current career does not match my Enneagram type?", answer: "Most people do not have careers that perfectly match their Enneagram type. What matters is whether your work environment supports your core motivation. Focus on finding elements of your role that align with your motivation, and look for opportunities to add more." },
+    { question: "How do I find out my Enneagram type?", answer: "Take the free Enneagram test on 1Test. It takes 8-12 minutes and gives you your type, wing tendencies, growth and stress directions, and career-specific insights — all with no paywall." },
+    { question: "Can my Enneagram type change over my career?", answer: "Most Enneagram researchers consider your core type to be stable over your lifetime. What changes is your awareness of it and how you express it. Your career path may evolve significantly, but the core motivation that drives your best work tends to remain consistent." },
+  ],
+  "/blog/personality-assessment-science": [
+    { question: "Are personality assessments scientifically valid?", answer: "Some are, and some are not. The best way to tell is to check whether the assessment is built on established research frameworks, publishes its methodology, and makes realistic claims. The Big Five has the strongest empirical support. DISC, Enneagram, and 16 Personalities have varying levels of research support but are widely used and practically useful." },
+    { question: "What is the most scientifically backed personality test?", answer: "The Big Five (Five-Factor Model) has the strongest research foundation in academic personality psychology. However, other frameworks like 16 Personalities, DISC, and Enneagram offer practical insights that the Big Five alone does not emphasize." },
+    { question: "Can personality assessments predict job performance?", answer: "Personality assessments are one factor in job performance, not the only one. Research suggests that certain traits — particularly conscientiousness — correlate with performance across job types. But skills, experience, motivation, and team dynamics all matter." },
+    { question: "What is the difference between DISC, Enneagram, and 16 Personalities?", answer: "DISC measures behavioral style. The Enneagram measures core motivation. 16 Personalities measures cognitive preferences. Each framework gives you a different lens. Together, they provide a more complete self-understanding than any single test." },
+    { question: "How do I know if a personality test is legitimate?", answer: "Look for five things: published methodology, consistent results across retakes, realistic claims, transparency about what results you receive, and actionable output that you can apply to your life." },
+  ],
+  "/blog/free-vs-paid-personality-tests": [
+    { question: "What is the best free personality test in 2026?", answer: "1Test offers the most complete free personality assessment available. You get full results across four frameworks — 16 Personalities, DISC, Enneagram, and Strengths — with practical growth suggestions for each, and no paywall." },
+    { question: "Are paid personality tests worth it?", answer: "For personal self-understanding, free assessments like 1Test provide complete results and practical insights at no cost. Paid assessments are worth it when you want professional interpretation, team-level analysis, or a specific validated instrument required by your employer or counselor." },
+    { question: "Why do some personality tests cost money?", answer: "Most paid personality tests use a freemium model: the test is free to take, but detailed results cost money. 1Test gives you complete results for free because the optional Team and Pro tiers fund the platform — not individual paywalls." },
+    { question: "Can I trust free personality test results?", answer: "Yes, if the free assessment is built on validated frameworks and makes realistic claims about what personality tests can and cannot do. Be cautious of free tests that make diagnostic or predictive claims." },
+    { question: "How long does a free personality test take?", answer: "On 1Test, each framework takes 5-15 minutes depending on the assessment. You can take one framework or all four — each stands alone, and together they provide a more complete picture." },
+  ],
+  "/blog/personality-team-dynamics-founders": [
+    { question: "Can personality tests help with team building?", answer: "Yes. Personality tests give teams a shared, nonjudgmental language for understanding differences in communication, decision-making, and work style. The result is fewer conflicts, faster resolution, and more effective collaboration." },
+    { question: "Which personality test is best for startup teams?", answer: "For startup teams, start with DISC. It is the most practical for day-to-day team communication. Then add Strengths for role assignment and talent mapping. All four frameworks are available free on 1Test with complete results." },
+    { question: "How do I introduce personality tests to my team without making it awkward?", answer: "Make it voluntary, make it fun, and focus on application. Frame it as: we are taking 15 minutes to understand how we each prefer to work and communicate. Have everyone share their own style in a group setting." },
+    { question: "Can personality tests be used for hiring?", answer: "Personality assessments should not be used as hiring screens. They describe behavioral tendencies, not competence or potential. Use personality assessments for team development and communication — after someone has been hired." },
+    { question: "What is the fastest way to improve team communication?", answer: "Have every team member take DISC and share their results. Then have a 30-minute conversation where each person answers two questions about their communication style and what frustrates them. This single exercise can prevent months of miscommunication." },
   ],
 };
 
@@ -414,6 +449,41 @@ const SEO_DATA = {
     description:
       "Take a free strengths and weaknesses test. Identify your natural talents, understand your blind spots, and get practical tips for growth. Complete profile at 1Test.",
     canonicalUrl: "https://1test.me/blog/strengths-and-weaknesses-test",
+    ogType: "article",
+  },
+  "/blog/disc-work-style": {
+    title: "DISC Work Style — What Your Type Says About How You Work",
+    description:
+      "Discover what your DISC type reveals about your work style. Practical insights for every type — Dominance, Influence, Steadiness, Conscientiousness. Free DISC test.",
+    canonicalUrl: "https://1test.me/blog/disc-work-style",
+    ogType: "article",
+  },
+  "/blog/enneagram-career": {
+    title: "Enneagram Career — How to Use Your Type for Better Decisions",
+    description:
+      "Learn how to use the Enneagram for career decisions. Practical guidance for each type — what energizes you, what drains you, and what to do next. Free Enneagram test.",
+    canonicalUrl: "https://1test.me/blog/enneagram-career",
+    ogType: "article",
+  },
+  "/blog/personality-assessment-science": {
+    title: "The Science Behind Personality Assessments — What Research Shows",
+    description:
+      "Learn what the science says about personality assessments. Reliability, validity, the Big Five model, and how to evaluate test quality. Free personality test included.",
+    canonicalUrl: "https://1test.me/blog/personality-assessment-science",
+    ogType: "article",
+  },
+  "/blog/free-vs-paid-personality-tests": {
+    title: "Free vs Paid Personality Tests in 2026 — What You Get",
+    description:
+      "Compare free and paid personality tests in 2026. What you actually get, hidden paywalls to watch for, and which free tests give complete results. Free personality test.",
+    canonicalUrl: "https://1test.me/blog/free-vs-paid-personality-tests",
+    ogType: "article",
+  },
+  "/blog/personality-team-dynamics-founders": {
+    title: "Personality and Team Dynamics — A Guide for Founders",
+    description:
+      "How founders can use personality tests for better team dynamics. Practical guide for building, communicating, and resolving conflict. Free DISC and Strengths tests.",
+    canonicalUrl: "https://1test.me/blog/personality-team-dynamics-founders",
     ogType: "article",
   },
 };
@@ -601,6 +671,53 @@ const BODY_CONTENT = {
       { heading: "How Strengths and Weaknesses Are Connected", text: "Your weaknesses are not random — they are the shadow side of your strengths. High analytical thinking paired with low empathy: you solve complex problems but may miss emotional cues. High empathy paired with low assertiveness: you read people but struggle to advocate for yourself. High achievement drive paired with low patience: you deliver fast but may frustrate others. High creativity paired with low reliability: great ideas but inconsistent follow-through. Understanding these connections helps you build systems that compensate for weaknesses." },
       { heading: "Using Your Strengths Profile at Work", text: "Role selection — choose roles that let you use your top 3-5 strengths for at least 60% of your time. People who use their strengths daily are six times more likely to be engaged. Team composition — share your profile and learn others' strengths. The most effective teams have complementary strengths. Career decisions — let your strengths guide your career rather than chasing roles that sound impressive but do not fit your natural pattern. Managing weaknesses — do not try to turn weaknesses into strengths. Build partnerships, create systems, and delegate tasks that fall in your bottom strengths." },
       { heading: "How Strengths Testing Compares to Other Frameworks", text: "Strengths tell you what you are naturally good at. DISC tells you how you behave and communicate. The Enneagram tells you why you do what you do — your core motivation. 16 Personalities tells you how you process information and make decisions. Together, these four frameworks give you the most complete picture: what you do well (Strengths), how you act (DISC), why you act that way (Enneagram), and how you think (16 Personalities)." },
+    ],
+  },
+  "/blog/disc-work-style": {
+    h1: "What Your DISC Type Says About Your Work Style",
+    sections: [
+      { heading: "What Your DISC Type Says About Your Work Style", text: "Your DISC type does not just describe how you communicate — it shapes how you approach deadlines, handle conflict, make decisions, and collaborate with teammates. Understanding your DISC work style is one of the fastest ways to improve your effectiveness at work. The DISC framework divides behavioral tendencies into four styles: Dominance (D), Influence (I), Steadiness (S), and Conscientiousness (C). Most people are a blend of two styles, with one dominant." },
+      { heading: "DISC Type D — The Results-Driven Worker", text: "High D professionals want to move fast, make decisions, and see progress. They excel in leadership under pressure, driving results, and challenge-seeking. Common blind spots include overriding others, impatience with process, and neglecting relationships. Growth strategy: practice asking one question before making a decision — who else needs to be consulted?" },
+      { heading: "DISC Type I — The Relationship-Driven Worker", text: "High I professionals bring energy, enthusiasm, and connection to their work. They excel in building relationships, persuasion and buy-in, and positive culture. Common blind spots include overcommitting, avoiding difficult conversations, and losing details in the big picture. Growth strategy: build a system for tracking commitments and use relationship skills for honest conversations early." },
+      { heading: "DISC Type S — The Stability-Driven Worker", text: "High S professionals are the backbone of reliable teams. They excel in reliability and consistency, patient collaboration, and supporting others. Common blind spots include avoiding conflict, resistance to change, and under-advocating for themselves. Growth strategy: practice stating your opinion before asking for others — this prevents automatically aligning with whoever spoke first." },
+      { heading: "DISC Type C — The Quality-Driven Worker", text: "High C professionals catch what others miss. They excel in analytical rigor, quality assurance, and process design. Common blind spots include analysis paralysis, over-critiquing, and struggling with ambiguity. Growth strategy: set time limits on decisions and distinguish high-stakes choices from low-stakes ones." },
+      { heading: "How DISC Blends Show Up at Work", text: "Most people are a blend of two styles. D/I blends are fast-paced, people-oriented, and results-driven. D/C blends are fast-paced and detail-oriented. I/S blends are warm, supportive, and relationship-focused. S/C blends are steady, reliable, and thorough. Every blend has strengths — the goal is understanding yours." },
+    ],
+  },
+  "/blog/enneagram-career": {
+    h1: "How to Use the Enneagram for Career Decisions",
+    sections: [
+      { heading: "How to Use the Enneagram for Career Decisions", text: "Your career is one of the biggest investments of your time and energy. The Enneagram will not tell you which job title to pursue, but it will tell you what kinds of work environments energize you, what kinds drain you, and what core motivation drives your best work. That information is more useful than a list of job titles — because it helps you evaluate any career opportunity against who you actually are." },
+      { heading: "Career Decisions by Enneagram Type", text: "Each Enneagram type has environments where it naturally thrives and environments that drain it. Type 1s want to do things right — they thrive in quality-focused roles. Type 2s want to feel needed — they thrive in helping roles. Type 3s want to succeed — they thrive in competitive environments. Type 4s want authenticity — they thrive in creative roles. Type 5s want to understand — they thrive in research. Type 6s want security — they thrive in stable environments. Type 7s want variety — they thrive in dynamic roles. Type 8s want impact — they thrive in leadership. Type 9s want harmony — they thrive in mediation." },
+      { heading: "A Practical Framework for Using Your Type in Career Decisions", text: "Step 1: Identify your non-negotiables — what your type needs to stay energized. Step 2: Evaluate opportunities against your motivation, not just your skills. You can build skills in almost any area, but if the environment does not match your core motivation, you will eventually burn out. Step 3: Combine frameworks — your Enneagram tells you why, your Strengths tell you what, your DISC tells you how." },
+    ],
+  },
+  "/blog/personality-assessment-science": {
+    h1: "The Science Behind Personality Assessments",
+    sections: [
+      { heading: "The Science Behind Personality Assessments", text: "Personality assessments are everywhere — but how many are based on actual science? This is an honest look at what the research says about personality assessments — what they can do, what they cannot do, and how to evaluate their quality. Three criteria separate a useful assessment from a novelty quiz: reliability, validity, and transparency." },
+      { heading: "Reliability and Validity", text: "Reliability means consistent results over time. Quality assessments produce test-retest correlations of 0.70 or higher. Validity means the test measures what it claims — construct validity and predictive validity both matter. A 1991 meta-analysis by Barrick and Mount found that conscientiousness is a consistent predictor of job performance across all job types." },
+      { heading: "The Big Five — The Research Standard", text: "The Big Five (Five-Factor Model) has the strongest scientific support: Openness to Experience, Conscientiousness, Extraversion, Agreeableness, and Neuroticism. Its research base informs the other frameworks — 16 Personalities maps onto Big Five dimensions, DISC captures behavioral aspects of extraversion and agreeableness, and Strengths assessments often correlate with Big Five traits." },
+      { heading: "What Personality Assessments Cannot Do", text: "They cannot diagnose conditions, predict success, define your limits, or replace professional guidance. The quality of assessments varies enormously — look for published methodology, consistent results, realistic claims, transparency, and actionable output." },
+    ],
+  },
+  "/blog/free-vs-paid-personality-tests": {
+    h1: "Free vs Paid Personality Tests in 2026 — What You Actually Get",
+    sections: [
+      { heading: "Free vs Paid Personality Tests in 2026", text: "You search for a free personality test, take it, get your results — and then hit a paywall. This guide compares what free and paid personality tests actually give you, which free options are legitimate, and how to avoid wasting time on tests that tease you with partial results. Personality tests fall into three categories: truly free, freemium, and paid." },
+      { heading: "The Hidden Paywall Problem", text: "The most frustrating experience is the hidden paywall. Warning signs: vague marketing language, no sample results, and language like unlock your full potential or get your complete report. 1Test states upfront that all results are free with no paywall." },
+      { heading: "Comparing Free Personality Test Options", text: "1Test gives you complete results across four frameworks with no paywall. 16Personalities.com gives a good type description for one framework. Truity and HIGH5 lock detailed results behind paywalls. VIA Character Strengths offers free results with an academic focus. The bottom line: 1Test and 16Personalities offer the most complete free results." },
+      { heading: "Why 1Test Offers Everything for Free", text: "1Test gives away complete results because the business model is based on optional Team and Pro tiers — not on charging individuals for their own personality data. You get 16 Personalities, DISC, Enneagram, and Strengths — all free, all with complete results and growth suggestions." },
+    ],
+  },
+  "/blog/personality-team-dynamics-founders": {
+    h1: "Personality and Team Dynamics: A Guide for Founders",
+    sections: [
+      { heading: "Personality and Team Dynamics: A Guide for Founders", text: "Your early team defines everything. The wrong hire at seed stage costs more than the wrong hire at Series C. Understanding personality dynamics does not guarantee great hires, but it gives you a framework for understanding why teams work, why they break, and what to do about it. Startup teams face high proximity, high stakes, and high ambiguity — personality awareness is critical for all three." },
+      { heading: "Which Personality Frameworks Matter for Teams", text: "DISC — start here for teams. It directly describes how people behave and interact. Strengths — use for role assignment based on natural abilities. Enneagram — use for understanding motivation when things get hard. 16 Personalities — use for the big picture of team composition." },
+      { heading: "Using DISC to Prevent Team Conflict", text: "Most startup conflicts are about how to do things, not what to do. D vs S conflicts: the D wants speed, the S wants stability. I vs C conflicts: the I wants brainstorming, the C wants data. D vs C conflicts: the D wants to ship, the C wants to verify. The pattern: most team conflicts are about different processing and communication styles. DISC gives you a language for naming those differences without blame." },
+      { heading: "Using Strengths to Assign Roles in Early Teams", text: "Map tasks to strengths, not titles. Identify gaps where no one excels. Build complementary pairs — one person drives vision, another drives execution. Revisit quarterly as company needs change." },
+      { heading: "Common Mistakes Founders Make With Personality Tests", text: "Mistake 1: Using personality for hiring decisions — they describe preferences, not competence. Mistake 2: Pigeonholing people — DISC describes tendencies, not limits. Mistake 3: Treating personality as destiny. Mistake 4: Skipping follow-through — taking a test and doing nothing is worse than not taking it. Mistake 5: Using one framework and stopping." },
     ],
   },
 };

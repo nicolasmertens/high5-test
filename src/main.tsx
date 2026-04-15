@@ -109,6 +109,26 @@ createRoot(document.getElementById("root")!).render(
               path="/blog/strengths-and-weaknesses-test"
               element={<BlogPage slug="strengths-and-weaknesses-test" />}
             />
+            <Route
+              path="/blog/disc-work-style"
+              element={<BlogPage slug="disc-work-style" />}
+            />
+            <Route
+              path="/blog/enneagram-career"
+              element={<BlogPage slug="enneagram-career" />}
+            />
+            <Route
+              path="/blog/personality-assessment-science"
+              element={<BlogPage slug="personality-assessment-science" />}
+            />
+            <Route
+              path="/blog/free-vs-paid-personality-tests"
+              element={<BlogPage slug="free-vs-paid-personality-tests" />}
+            />
+            <Route
+              path="/blog/personality-team-dynamics-founders"
+              element={<BlogPage slug="personality-team-dynamics-founders" />}
+            />
             <Route path="/privacy-draft" element={<PrivacyPolicy />} />
             <Route path="/terms-draft" element={<TermsOfService />} />
             <Route path="/relationship/:id" element={<RelationshipReportPage />} />
