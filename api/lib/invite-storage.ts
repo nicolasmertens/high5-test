@@ -25,6 +25,7 @@ export interface Invite {
   inviterProfileHash: string;
   inviterName: string;
   inviteeEmail: string;
+  inviterEmail: string | null;
   inviteeProfileHash: string | null;
   referralCode: string;
   status: "pending" | "completed" | "expired";
@@ -49,6 +50,7 @@ export async function createInvite(data: {
   inviterProfileHash: string;
   inviterName: string;
   inviteeEmail: string;
+  inviterEmail?: string;
 }): Promise<{ invite: Invite; existingCount: number }> {
   const kv = getRedis();
 
@@ -70,6 +72,7 @@ export async function createInvite(data: {
     inviterProfileHash: data.inviterProfileHash,
     inviterName: data.inviterName,
     inviteeEmail: data.inviteeEmail.toLowerCase().trim(),
+    inviterEmail: data.inviterEmail?.toLowerCase().trim() || null,
     inviteeProfileHash: null,
     referralCode,
     status: "pending",

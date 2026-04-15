@@ -141,3 +141,141 @@ export function getNextEmailDelay(emailNumber: number): number {
   if (emailNumber <= 0 || emailNumber > 5) return 0;
   return EMAIL_SCHEDULES[emailNumber - 1] * 60 * 1000;
 }
+
+export async function sendInviteEmail(data: {
+  inviterName: string;
+  inviteeEmail: string;
+  referralCode: string;
+}): Promise<{ success: boolean; messageId?: string; error?: string }> {
+  const referralUrl = `https://1test.me/?ref=${data.referralCode}&utm_source=email&utm_medium=invite&utm_campaign=invite_email`;
+
+  const htmlContent = `<!DOCTYPE html>
+<html>
+<head><meta name="viewport" content="width=device-width,initial-scale=1"><title>1Test</title></head>
+<body style="margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f9fafb;color:#111827;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;margin:0 auto;">
+    <tr>
+      <td style="background:#111827;padding:24px 32px;color:#ffffff;font-size:20px;font-weight:bold;letter-spacing:-0.01em;">1Test</td>
+    </tr>
+    <tr>
+      <td style="padding:32px;font-size:16px;line-height:1.6;">
+        <p>${data.inviterName} just completed their free personality assessment on 1Test — and they'd like to compare profiles with you.</p>
+        <p>Take the free assessment (about 10 minutes) and you'll both get a personalized relationship report showing:</p>
+        <ul style="padding-left:20px;">
+          <li>How you communicate with each other</li>
+          <li>Where your strengths overlap and complement</li>
+          <li>How to avoid friction and work better together</li>
+        </ul>
+        <p>Your results stay private until you choose to share them.</p>
+        <div style="text-align:center;">
+          <a href="${referralUrl}" style="display:inline-block;background-color:#111827;color:#ffffff;padding:14px 32px;border-radius:6px;font-size:16px;font-weight:bold;text-decoration:none;margin:16px 0;">Take the Free Assessment →</a>
+        </div>
+        <p>— 1Test<br><span style="color:#6b7280;font-size:13px;">One Test. Four Frameworks.</span></p>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>`;
+
+  const plainTextContent = `${data.inviterName} wants to see how you work together
+
+${data.inviterName} just completed their free personality assessment on 1Test — and they'd like to compare profiles with you.
+
+Take the free assessment (about 10 minutes) and you'll both get a personalized relationship report showing:
+- How you communicate with each other
+- Where your strengths overlap and complement
+- How to avoid friction and work better together
+
+Your results stay private until you choose to share them.
+
+Take the Free Assessment:
+${referralUrl}
+
+— 1Test
+One Test. Four Frameworks.`;
+
+  try {
+    const result = await getResend().emails.send({
+      from: FROM_EMAIL,
+      to: data.inviteeEmail,
+      subject: `${data.inviterName} wants to see how you work together`,
+      html: htmlContent,
+      text: plainTextContent,
+      replyTo: REPLY_TO,
+    });
+
+    if (result.error) {
+      console.error(`Failed to send invite email to ${data.inviteeEmail}:`, result.error);
+      return { success: false, error: result.error.message };
+    }
+
+    return { success: true, messageId: result.data?.id };
+  } catch (err: unknown) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    console.error(`Error sending invite email to ${data.inviteeEmail}:`, message);
+    return { success: false, error: message };
+  }
+}
+
+export async function sendReportReadyEmail(data: {
+  inviterName: string;
+  inviterEmail: string;
+  inviteeName: string;
+  reportId: string;
+}): Promise<{ success: boolean; messageId?: string; error?: string }> {
+  const reportUrl = `https://1test.me/relationship/${data.reportId}?utm_source=email&utm_medium=notification&utm_campaign=report_ready`;
+
+  const htmlContent = `<!DOCTYPE html>
+<html>
+<head><meta name="viewport" content="width=device-width,initial-scale=1"><title>1Test</title></head>
+<body style="margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f9fafb;color:#111827;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;margin:0 auto;">
+    <tr>
+      <td style="background:#111827;padding:24px 32px;color:#ffffff;font-size:20px;font-weight:bold;letter-spacing:-0.01em;">1Test</td>
+    </tr>
+    <tr>
+      <td style="padding:32px;font-size:16px;line-height:1.6;">
+        <p>Hi ${data.inviterName},</p>
+        <p><strong>${data.inviteeName}</strong> completed their personality assessment. Your relationship report is ready!</p>
+        <div style="text-align:center;">
+          <a href="${reportUrl}" style="display:inline-block;background-color:#111827;color:#ffffff;padding:14px 32px;border-radius:6px;font-size:16px;font-weight:bold;text-decoration:none;margin:16px 0;">View Your Relationship Report →</a>
+        </div>
+        <p>— 1Test<br><span style="color:#6b7280;font-size:13px;">One Test. Four Frameworks.</span></p>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>`;
+
+  const plainTextContent = `Hi ${data.inviterName},
+
+${data.inviteeName} completed their personality assessment. Your relationship report is ready!
+
+View Your Relationship Report:
+${reportUrl}
+
+— 1Test
+One Test. Four Frameworks.`;
+
+  try {
+    const result = await getResend().emails.send({
+      from: FROM_EMAIL,
+      to: data.inviterEmail,
+      subject: `Your relationship report with ${data.inviteeName} is ready`,
+      html: htmlContent,
+      text: plainTextContent,
+      replyTo: REPLY_TO,
+    });
+
+    if (result.error) {
+      console.error(`Failed to send report ready email to ${data.inviterEmail}:`, result.error);
+      return { success: false, error: result.error.message };
+    }
+
+    return { success: true, messageId: result.data?.id };
+  } catch (err: unknown) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    console.error(`Error sending report ready email to ${data.inviterEmail}:`, message);
+    return { success: false, error: message };
+  }
+}

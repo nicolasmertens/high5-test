@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { createInvite, getInviteByReferralCode, getInvitesByProfile, completeInvite } from "./lib/invite-storage";
-import { getProfile, getProfileByReferralCode } from "./lib/profile-storage";
-import { postHogTrack } from "./lib/send";
+import { createInvite, getInviteByReferralCode, getInvitesByProfile } from "./lib/invite-storage";
+import { getProfile } from "./lib/profile-storage";
+import { postHogTrack, sendInviteEmail } from "./lib/send";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method === "POST") {
@@ -27,7 +27,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
 async function handleCreateInvite(req: VercelRequest, res: VercelResponse) {
   try {
-    const { inviterProfileHash, inviterName, inviteeEmail } = req.body;
+    const { inviterProfileHash, inviterName, inviteeEmail, inviterEmail } = req.body;
 
     if (!inviterProfileHash || !inviterName || !inviteeEmail) {
       return res.status(400).json({ error: "Missing required fields: inviterProfileHash, inviterName, inviteeEmail" });
@@ -47,6 +47,7 @@ async function handleCreateInvite(req: VercelRequest, res: VercelResponse) {
       inviterProfileHash,
       inviterName,
       inviteeEmail,
+      inviterEmail,
     });
 
     postHogTrack("invite_sent", {
@@ -55,6 +56,14 @@ async function handleCreateInvite(req: VercelRequest, res: VercelResponse) {
       referral_code: invite.referralCode,
       inviter_profile_hash: inviterProfileHash,
     }).catch(() => {});
+
+    sendInviteEmail({
+      inviterName,
+      inviteeEmail,
+      referralCode: invite.referralCode,
+    }).catch((err) => {
+      console.error("Failed to send invite email (non-blocking):", err);
+    });
 
     return res.status(201).json({
       id: invite.id,

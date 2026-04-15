@@ -3,7 +3,7 @@ import { getProfile } from "./lib/profile-storage";
 import { getReport, getReportsByProfile, storeReport } from "./lib/relationship-storage";
 import { generateRelationshipReport } from "./lib/compatibility";
 import { getInviteByReferralCode, completeInvite } from "./lib/invite-storage";
-import { postHogTrack } from "./lib/send";
+import { postHogTrack, sendReportReadyEmail } from "./lib/send";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method === "POST") {
@@ -68,6 +68,17 @@ async function handleCreateReport(req: VercelRequest, res: VercelResponse) {
       const invite = await getInviteByReferralCode(referralCode);
       if (invite && invite.status === "pending") {
         await completeInvite(invite.id, profileHashB);
+
+        if (invite.inviterEmail) {
+          sendReportReadyEmail({
+            inviterName: invite.inviterName,
+            inviterEmail: invite.inviterEmail,
+            inviteeName: "your colleague",
+            reportId,
+          }).catch((err) => {
+            console.error("Failed to send report ready email (non-blocking):", err);
+          });
+        }
       }
     }
 
