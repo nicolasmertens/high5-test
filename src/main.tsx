@@ -133,6 +133,18 @@ createRoot(document.getElementById("root")!).render(
               path="/blog/best-free-personality-test-2026"
               element={<BlogPage slug="best-free-personality-test-2026" />}
             />
+            <Route
+              path="/blog/personality-test-for-relationships"
+              element={<BlogPage slug="personality-test-for-relationships" />}
+            />
+            <Route
+              path="/blog/how-to-use-personality-test-results"
+              element={<BlogPage slug="how-to-use-personality-test-results" />}
+            />
+            <Route
+              path="/blog/personality-test-for-teams"
+              element={<BlogPage slug="personality-test-for-teams" />}
+            />
             <Route path="/privacy-draft" element={<PrivacyPolicy />} />
             <Route path="/terms-draft" element={<TermsOfService />} />
             <Route path="/relationship/:id" element={<RelationshipReportPage />} />

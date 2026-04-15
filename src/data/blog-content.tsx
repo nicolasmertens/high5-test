@@ -4395,6 +4395,487 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-15",
   },
+  "personality-test-for-relationships": {
+    slug: "personality-test-for-relationships",
+    metaTitle: "Personality Test for Relationships: How Compatibility Really Works",
+    metaDesc:
+      "Learn how personality tests can improve your relationships. Compare DISC, Enneagram, 16 Personalities, and Strengths for couples communication and conflict resolution.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-relationships",
+    h1: "Personality Test for Relationships: How Compatibility Really Works",
+    sections: [
+      {
+        heading: "Why Personality Tests Matter for Relationships",
+        html: p(
+          "You and your partner argue about the same things over and over. You feel like you are speaking different languages. What if the problem is not your relationship — it is your personality frameworks?"
+        ) +
+          p(
+            "Personality tests give you a shared vocabulary for understanding differences. When you know your partner communicates differently because of their personality type — not because they do not care — everything changes."
+          ) +
+          p(
+            "This guide explains how four major personality frameworks apply to relationships, which tests are most useful for couples, and how to use the results to improve communication without turning date night into a workshop."
+          ),
+      },
+      {
+        heading: "How Each Framework Helps Relationships",
+        html: h3("DISC and Communication Styles") +
+          p(
+            "DISC measures four behavioral styles: Dominance, Influence, Steadiness, and Conscientiousness. For couples, DISC is most useful for understanding communication patterns."
+          ) +
+          p(
+            "A high-D partner wants to get to the point. A high-S partner wants to talk through feelings first. Neither is wrong — but without understanding the difference, both feel frustrated."
+          ) +
+          p(
+            "<strong>Practical tip:</strong> If your partner is high-D, give them the bottom line first, then add context. If your partner is high-S, start with reassurance before diving into problems."
+          ) +
+          p(
+            '<a href="/free-disc-test">Take the free DISC test</a> to discover your communication style.'
+          ) +
+          h3("Enneagram and Core Motivations") +
+          p(
+            "The Enneagram identifies nine personality types, each driven by a core motivation and fear. In relationships, the Enneagram reveals why partners react differently to the same situation."
+          ) +
+          p(
+            "A Type 3 (Achiever) might interpret \"we need to talk\" as a performance review. A Type 9 (Peacemaker) might avoid the conversation entirely. Understanding these patterns helps couples navigate conflict without personalizing reactions."
+          ) +
+          p(
+            "<strong>Practical tip:</strong> Ask your partner \"what do you need most right now — to be heard, to fix the problem, or to feel safe?\" Their Enneagram type often predicts the answer."
+          ) +
+          p(
+            '<a href="/free-enneagram-test">Take the free Enneagram test</a> to explore your core motivations.'
+          ) +
+          h3("16 Personalities and Processing Styles") +
+          p(
+            "The 16 Personalities framework (based on four preference pairs) helps couples understand how each person processes information and makes decisions."
+          ) +
+          p(
+            "The Thinking-Feeling dimension is the most common source of relationship friction. A Thinking-type partner wants to analyze the problem logically. A Feeling-type partner wants emotional validation first. Both approaches are valid — the conflict comes from expecting the other person to use your approach."
+          ) +
+          p(
+            "<strong>Practical tip:</strong> Before a difficult conversation, agree on the goal: \"I want to understand your perspective\" works better than \"I want to solve this.\""
+          ) +
+          p(
+            '<a href="/free-16-personalities-test">Take the free 16 Personalities test</a> to find your type.'
+          ) +
+          h3("Strengths and Contribution Patterns") +
+          p(
+            "A strengths assessment reveals what each partner naturally does well. In relationships, this prevents resentment by clarifying expectations."
+          ) +
+          p(
+            "If one partner's top strength is Empathy and the other's is Strategy, they contribute differently to problem-solving. Neither is better — but if the strategic partner expects the empathic partner to \"just fix it,\" frustration builds."
+          ) +
+          p(
+            "<strong>Practical tip:</strong> List your top five strengths each, then discuss: \"When I contribute [strength], I feel valued. When I am expected to contribute [non-strength], I feel stressed.\""
+          ) +
+          p(
+            '<a href="/free-strengths-test">Take the free Strengths test</a> to identify your natural talents.'
+          ),
+      },
+      {
+        heading: "Using Personality Tests Together: A Step-by-Step Approach",
+        html: ol([
+          "<strong>Both partners take the same test independently.</strong> Do not compare answers during the test — you want genuine results.",
+          "<strong>Share results without judgment.</strong> \"Your type is X\" should never sound like \"You always do X.\"",
+          "<strong>Focus on one insight at a time.</strong> Do not try to overhaul your entire relationship in one conversation.",
+          "<strong>Create action agreements, not blame frames.</strong> Say \"When X happens, I will try Y\" instead of \"You always do X.\"",
+          "<strong>Revisit every few months.</strong> Your understanding of each other's personality deepens over time.",
+        ]),
+      },
+      {
+        heading: "What Personality Tests Cannot Do",
+        html: p(
+          "Personality tests are tools for understanding — not excuses for behavior. A high-D DISC style does not justify being dismissive. An Enneagram Type 8 does not excuse controlling behavior. A \"Thinking\" preference on 16 Personalities does not make emotional neglect acceptable."
+        ) +
+          p("Tests describe patterns, not destiny. Use them to build empathy, not walls.") +
+          p(
+            "Also, personality tests are not a substitute for professional relationship counseling. If your relationship involves abuse, manipulation, or persistent harm, seek help from a licensed professional."
+          ),
+      },
+    ],
+    faqs: [
+      {
+        question: "Which personality test is best for couples?",
+        answer:
+          "DISC is best for communication styles, Enneagram for understanding deep motivations, and 16 Personalities for processing and decision-making patterns. Take all four for a complete picture — they each reveal different aspects of your relationship dynamic.",
+      },
+      {
+        question: "Can personality tests predict relationship compatibility?",
+        answer:
+          "No personality test can predict whether a relationship will succeed. Compatibility depends on communication skills, shared values, emotional maturity, and effort. Personality tests help you understand differences, but they do not determine outcomes.",
+      },
+      {
+        question: "How accurate are free personality tests for relationships?",
+        answer:
+          "The accuracy depends on the test design and how honestly you answer. A well-constructed free test can provide useful relationship insights, especially when both partners take it and discuss results together.",
+      },
+      {
+        question: "Should we take the same personality test or different ones?",
+        answer:
+          "Start with the same test so you can compare results directly. DISC and 16 Personalities are the easiest starting points for couples. After that, explore Enneagram or Strengths for deeper insights.",
+      },
+      {
+        question: "How often should couples retake personality tests?",
+        answer:
+          "Most personality frameworks describe stable traits that do not change significantly over time. Retaking a test every 1-2 years is sufficient. However, you should revisit your results and discussion whenever you hit a new relationship challenge.",
+      },
+    ],
+    ctaHeading: "Take a personality test with your partner",
+    ctaSubtext: "Four frameworks, complete results, free for both of you.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Free Strengths assessment", url: "/free-strengths-test" },
+      { label: "Personality test for teams", url: "/blog/personality-test-for-teams" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "how-to-use-personality-test-results": {
+    slug: "how-to-use-personality-test-results",
+    metaTitle: "What to Do After Taking a Personality Test: A Practical Guide",
+    metaDesc:
+      "You took a personality test — now what? Learn how to actually use your DISC, Enneagram, 16 Personalities, or Strengths results to improve your career, relationships, and personal growth.",
+    canonicalUrl: "https://1test.me/blog/how-to-use-personality-test-results",
+    h1: "What to Do After Taking a Personality Test: A Practical Guide",
+    sections: [
+      {
+        heading: "You Got Your Results. Now What?",
+        html: p(
+          "Most people take a personality test, read their type description, say \"that sounds like me,\" and move on. The results sit in a browser tab and nothing changes."
+        ) +
+          p(
+            "That is a waste. Your personality results are a starting point, not a conclusion. This guide shows you how to turn your DISC, Enneagram, 16 Personalities, or Strengths results into specific actions for your career, relationships, and personal development."
+          ),
+      },
+      {
+        heading: "Step 1: Understand What Your Results Actually Mean",
+        html: p(
+          "Personality test results describe patterns — how you tend to think, act, and react. They do not define your limits or predict your future."
+        ) +
+          ul([
+            "<strong>DISC</strong> describes your behavioral style in different environments (work, stress, everyday)",
+            "<strong>Enneagram</strong> identifies your core motivation and the patterns that drive your decisions",
+            "<strong>16 Personalities</strong> maps how you process information, make decisions, and recharge",
+            "<strong>Strengths</strong> reveals what you naturally do well with minimal effort",
+          ]) +
+          p(
+            "Each framework measures something different. Taking multiple tests gives you a more complete self-portrait."
+          ),
+      },
+      {
+        heading: "Step 2: Identify Your Top Three Growth Areas",
+        html: p(
+          "Read your results looking for patterns that surprise you or confirm something you suspected. Then ask:"
+        ) +
+          ul([
+            "What is my biggest blind spot — the thing others see that I do not?",
+            "What strength am I underusing?",
+            "What tendency causes the most friction in my life?",
+          ]) +
+          p(
+            "Write these down. Be specific. \"I avoid conflict\" is vague. \"I avoid difficult conversations with my manager about workload, which leads to burnout\" is actionable."
+          ),
+      },
+      {
+        heading: "Step 3: Create a 30-Day Action Plan",
+        html: p(
+          "Pick one growth area and create three concrete actions for the next 30 days."
+        ) +
+          h3("If You Took DISC") +
+          p(
+            "Your DISC profile shows how you behave in different contexts. Use it to adjust your communication."
+          ) +
+          ul([
+            "<strong>High D (Dominance):</strong> Practice asking one more question before giving direction. Listen for 30 seconds longer than feels natural.",
+            "<strong>High I (Influence):</strong> Before presenting an idea, prepare one concrete data point. Enthusiasm is your strength — back it up.",
+            "<strong>High S (Steadiness):</strong> Identify one thing you want but have not asked for. Ask for it this week.",
+            "<strong>High C (Conscientiousness):</strong> Set a time limit on research. Decide with 70% of the information instead of waiting for 100%.",
+          ]) +
+          p(
+            '<a href="/free-disc-test">Take the free DISC test</a> if you have not already.'
+          ) +
+          h3("If You Took the Enneagram") +
+          p(
+            "Your Enneagram type reveals your core motivation and the patterns that run on autopilot."
+          ) +
+          p(
+            "<strong>Action:</strong> Identify your type's specific growth behavior (the direction of integration) and practice it once per day for 30 days."
+          ) +
+          ul([
+            "<strong>Example:</strong> A Type 1 growing toward Type 7 practices spontaneity. Try one unplanned activity per week.",
+            "<strong>Example:</strong> A Type 6 growing toward Type 9 practices inner calm. Try five minutes of quiet reflection before reacting to stress.",
+          ]) +
+          p(
+            '<a href="/free-enneagram-test">Take the free Enneagram test</a> to find your type.'
+          ) +
+          h3("If You Took 16 Personalities") +
+          p(
+            "Your 16 Personalities type shows how you process information and make decisions."
+          ) +
+          ul([
+            "<strong>Introverts:</strong> Schedule one deliberate social connection per week — a coffee, a call, a message to someone you have not spoken to recently.",
+            "<strong>Extroverts:</strong> Schedule 30 minutes of quiet reflection per day. Write down three observations.",
+            "<strong>Thinking types:</strong> Before your next decision, ask \"how will this affect the people involved?\"",
+            "<strong>Feeling types:</strong> Before your next decision, ask \"what does the evidence say?\"",
+          ]) +
+          p(
+            '<a href="/free-16-personalities-test">Take the free 16 Personalities test</a> if you have not yet.'
+          ) +
+          h3("If You Took a Strengths Assessment") +
+          p(
+            "Your strengths profile tells you where to invest energy and what to delegate or develop."
+          ) +
+          p(
+            "<strong>Action:</strong> Spend 80% of your work time using your top 5 strengths. For everything else, find a system, partner, or tool."
+          ) +
+          p(
+            "<strong>Example:</strong> If Empathy is a top strength, use it in client conversations, team meetings, and conflict resolution — not just when someone is upset."
+          ) +
+          p(
+            '<a href="/free-strengths-test">Take the free Strengths assessment</a> to find your natural talents.'
+          ),
+      },
+      {
+        heading: "Step 4: Share Your Results Strategically",
+        html: p(
+          "Telling the right people your personality type can accelerate growth."
+        ) +
+          ul([
+            "<strong>At work:</strong> Share your DISC profile with your manager. \"I work best when I have clear goals and autonomy\" is easier to say when backed by a framework.",
+            "<strong>With your partner:</strong> Compare your 16 Personalities types together. Focus on the differences and ask: \"What do you need from me that does not come naturally?\"",
+            "<strong>With a mentor or coach:</strong> Share your Enneagram type and ask for feedback on your blind spots.",
+          ]) +
+          p(
+            "Do not share results with everyone. Share them with people who will use the information to support your growth — not to label you."
+          ),
+      },
+      {
+        heading: "Step 5: Revisit and Adjust",
+        html: p(
+          "Personality is relatively stable, but your understanding of it deepens over time. Schedule a check-in:"
+        ) +
+          ul([
+            "<strong>30 days:</strong> Did you follow through on your action plan? What worked?",
+            "<strong>90 days:</strong> What patterns do you notice in how others respond to you differently?",
+            "<strong>6 months:</strong> Retake the test. Are your results consistent? Has your understanding evolved?",
+          ]),
+      },
+      {
+        heading: "Common Mistakes to Avoid",
+        html: ul([
+          "<strong>Using your type as an excuse.</strong> \"I am an introvert so I cannot lead meetings\" is a limitation you are choosing, not a fact of your personality.",
+          "<strong>Treating results as destiny.</strong> Personality describes tendencies, not capabilities. You can develop any skill — it just takes more effort outside your natural strengths.",
+          "<strong>Comparing types as better or worse.</strong> Every personality type has strengths and growth areas. No type is superior.",
+          "<strong>Taking one test and stopping.</strong> Each framework reveals different aspects of personality. Take at least two for a fuller picture.",
+        ]),
+      },
+    ],
+    faqs: [
+      {
+        question: "How accurate are personality test results?",
+        answer:
+          "No personality test is 100% accurate. Results depend on how honestly you answer, your mood, and the test's design. Use results as a starting point for self-reflection, not as absolute truth. If a result does not resonate, explore why — sometimes the most useful insights come from the results that surprise you.",
+      },
+      {
+        question: "Should I share my personality test results at work?",
+        answer:
+          "Sharing results with a trusted manager or team can improve communication. Frame it as \"here is how I work best\" rather than \"here is what I cannot do.\" DISC is the most workplace-friendly framework for this purpose.",
+      },
+      {
+        question: "Can my personality type change over time?",
+        answer:
+          "Your core personality patterns tend to stay stable throughout adulthood. However, your behavior, skills, and self-awareness can change significantly. You might always lean toward introversion, but you can become much more comfortable in social situations through practice.",
+      },
+      {
+        question: "How many personality tests should I take?",
+        answer:
+          "At minimum, take one test from a framework that measures behavior (DISC), one that measures motivation (Enneagram), and one that measures natural talents (Strengths). Three tests from different frameworks give you a well-rounded self-portrait.",
+      },
+      {
+        question: "What if my results from different tests seem contradictory?",
+        answer:
+          "Different tests measure different things. DISC measures behavior in context. Enneagram measures core motivation. 16 Personalities measures information processing. Strengths measures natural talent. These can look contradictory but actually describe different facets of the same person.",
+      },
+    ],
+    ctaHeading: "Take your first personality test",
+    ctaSubtext: "Four frameworks, actionable results, completely free.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Free Strengths assessment", url: "/free-strengths-test" },
+      { label: "Personality test for teams", url: "/blog/personality-test-for-teams" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "personality-test-for-teams": {
+    slug: "personality-test-for-teams",
+    metaTitle: "Personality Test for Teams: How to Build Stronger Work Relationships",
+    metaDesc:
+      "Discover how personality tests improve team dynamics, communication, and productivity. Practical guide for managers and team leads using DISC, Enneagram, 16 Personalities, and Strengths.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-teams",
+    h1: "Personality Test for Teams: How to Build Stronger Work Relationships",
+    sections: [
+      {
+        heading: "Why Teams Need Personality Tests",
+        html: p(
+          "Most team conflicts are not about the work. They are about how people approach the work, communicate about the work, and make decisions about the work."
+        ) +
+          p(
+            "A personality test gives your team a shared language for these differences. Instead of \"you are being difficult,\" it becomes \"you process information differently than I do — let me adjust my approach.\""
+        ) +
+          p(
+            "Teams that understand personality differences report better communication, faster conflict resolution, and higher engagement. Research from the Harvard Business Review shows that teams with diverse cognitive styles outperform homogeneous teams by 20-30% on complex problems — but only when they know how to leverage those differences."
+        ) +
+          p(
+            "This guide covers how to use personality tests with your team, which frameworks work best for team building, and how to avoid the common pitfalls."
+          ),
+      },
+      {
+        heading: "Which Framework Works Best for Your Team",
+        html: h3("DISC for Communication and Workflow") +
+          p(
+            "DISC is the most practical framework for teams because it maps directly to observable behavior. It tells you how someone prefers to communicate, make decisions, and handle pressure."
+          ) +
+          p("Team applications:") +
+          ul([
+            "<strong>Meeting structure:</strong> High-D members want quick decisions. High-I members want discussion. High-S members want time to process. High-C members want data. Structure meetings to accommodate all four.",
+            "<strong>Conflict resolution:</strong> DISC reveals why two team members clash — often it is a style difference, not a personal one.",
+            "<strong>Project assignment:</strong> Match tasks to behavioral strengths. Put high-D members on time-sensitive deliverables. Put high-C members on quality-critical work.",
+          ]) +
+          p(
+            '<a href="/free-disc-test">Take the free DISC test</a> for your team.'
+          ) +
+          h3("Enneagram for Motivation and Stress Response") +
+          p(
+            "The Enneagram goes deeper than behavior — it reveals core motivations and stress patterns. This is especially useful for managers who want to understand what drives each team member."
+          ) +
+          p("Team applications:") +
+          ul([
+            "<strong>Motivation:</strong> A Type 3 (Achiever) is motivated by recognition. A Type 5 (Investigator) is motivated by autonomy and expertise. Different people need different management styles.",
+            "<strong>Stress response:</strong> Under pressure, each type moves in a predictable direction. Knowing this helps managers intervene before burnout.",
+            "<strong>Team dynamics:</strong> When team members understand each other's motivations, they stop taking differences personally.",
+          ]) +
+          p(
+            '<a href="/free-enneagram-test">Take the free Enneagram test</a> for your team.'
+          ) +
+          h3("16 Personalities for Information Processing") +
+          p(
+            "The 16 Personalities framework helps teams understand how each member takes in information and makes decisions. The Thinking-Feeling and Judging-Perceiving dimensions are particularly useful for team composition."
+          ) +
+          p("Team applications:") +
+          ul([
+            "<strong>Decision-making:</strong> Balance Thinking types (logical analysis) with Feeling types (people impact) for better decisions.",
+            "<strong>Project planning:</strong> Judging types create structure. Perceiving types adapt to change. Both are essential on any project.",
+            "<strong>Communication:</strong> Introverts often process internally before sharing. Extroverts process by talking. Create space for both.",
+          ]) +
+          p(
+            '<a href="/free-16-personalities-test">Take the free 16 Personalities test</a> for your team.'
+          ) +
+          h3("Strengths for Role Assignment") +
+          p(
+            "A strengths assessment tells you what each team member does naturally well. Use it to assign roles that play to natural talents rather than forcing people into roles that require constant effort."
+          ) +
+          p("Team applications:") +
+          ul([
+            "<strong>Role design:</strong> Map team roles to individual strengths instead of job titles.",
+            "<strong>Collaboration:</strong> Pair people with complementary strengths. A strategic thinker paired with a strong executor can accomplish more than two generalists.",
+            "<strong>Development:</strong> Invest development time in amplifying strengths rather than fixing weaknesses. Research from Gallup shows that people who use their strengths daily are 6x more likely to be engaged at work.",
+          ]) +
+          p(
+            '<a href="/free-strengths-test">Take the free Strengths test</a> for your team.'
+          ),
+      },
+      {
+        heading: "How to Run a Team Personality Workshop",
+        html: h3("Before the Workshop") +
+          ol([
+            "Have every team member take the same test independently — do this at least two days before the workshop.",
+            "Collect results (with permission) and prepare a team map showing the distribution of types.",
+            "Prepare a brief explanation of the framework — keep it under 10 minutes.",
+          ]) +
+          h3("During the Workshop (60-90 minutes)") +
+          ol([
+            "<strong>Explain the framework (10 min).</strong> Cover the basics. No jargon.",
+            "<strong>Individual reflection (10 min).</strong> Each person reads their results and identifies one insight and one question.",
+            "<strong>Pair sharing (15 min).</strong> Pairs share their results with each other. Focus on \"what surprised you\" and \"what made sense.\"",
+            "<strong>Team mapping (15 min).</strong> Show the team distribution. Discuss: \"Where are we clustered? Where are we missing perspectives?\"",
+            "<strong>Action planning (20 min).</strong> Each person writes one communication agreement based on their type.",
+            "<strong>Wrap-up (10 min).</strong> Schedule a follow-up in 30 days.",
+          ]) +
+          h3("After the Workshop") +
+          ul([
+            "Post the team map somewhere visible (physical or digital).",
+            "Revisit agreements in 30 days.",
+            "Integrate type awareness into regular feedback and check-ins.",
+          ]),
+      },
+      {
+        heading: "Common Mistakes Teams Make with Personality Tests",
+        html: ul([
+          "<strong>Using types as labels.</strong> \"You are a D, so you cannot do detail work\" is limiting and incorrect. Types describe preferences, not capabilities.",
+          "<strong>Testing once and forgetting.</strong> The value comes from ongoing application, not the test itself.",
+          "<strong>Making hiring or firing decisions based on personality type.</strong> This is unethical, often illegal, and scientifically unsupported.",
+          "<strong>Ignoring team composition.</strong> A team of all one type will have blind spots. Diversity of personality types is a competitive advantage.",
+          "<strong>Treating test results as absolute truth.</strong> Tests are approximate. Use them to start conversations, not end them.",
+        ]),
+      },
+      {
+        heading: "Measuring the Impact",
+        html: p(
+          "Track these metrics before and after implementing personality-based team development:"
+        ) +
+          ul([
+            "<strong>Conflict frequency:</strong> How often do misunderstandings escalate?",
+            "<strong>Meeting effectiveness:</strong> Do meetings end with clear decisions and alignment?",
+            "<strong>Engagement scores:</strong> Do team members feel understood and valued?",
+            "<strong>Retention:</strong> Do people stay longer when they feel their natural style is accommodated?",
+          ]) +
+          p(
+            "You do not need perfect data. Even informal observations — \"we spent less time arguing about process this month\" — are valuable signals."
+          ),
+      },
+    ],
+    faqs: [
+      {
+        question: "Which personality test is best for team building?",
+        answer:
+          "DISC is the most practical for team building because it maps to observable behavior and is easy to understand. For deeper team dynamics, combine DISC with Enneagram or Strengths.",
+      },
+      {
+        question: "How much does a team personality test cost?",
+        answer:
+          "1Test offers free personality tests across four frameworks — DISC, Enneagram, 16 Personalities, and Strengths. Your entire team can test at no cost. Many other platforms charge $15-100 per person per test.",
+      },
+      {
+        question: "Should I share team personality results with everyone?",
+        answer:
+          "Only with explicit consent from each team member. Some people are comfortable sharing; others prefer privacy. Create an opt-in culture, not a mandatory disclosure policy.",
+      },
+      {
+        question: "Can personality tests help with remote team building?",
+        answer:
+          "Yes. Remote teams benefit even more from personality awareness because they miss the informal cues of in-person interaction. Knowing a teammate's DISC style helps you interpret their written communication correctly — a brief email from a high-D is not rude; it is efficient.",
+      },
+      {
+        question: "How often should teams retake personality tests?",
+        answer:
+          "Core personality is stable. Retaking every 1-2 years is sufficient. However, you should revisit team dynamics discussions quarterly, using the same framework as a reference point.",
+      },
+    ],
+    ctaHeading: "Get your team tested — free",
+    ctaSubtext: "Four frameworks, no cost per seat, instant results.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Free Strengths assessment", url: "/free-strengths-test" },
+      { label: "Personality test for relationships", url: "/blog/personality-test-for-relationships" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {
