@@ -4876,6 +4876,274 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-16",
   },
+  "personality-test-for-leadership": {
+    slug: "personality-test-for-leadership",
+    metaTitle: "Personality Test for Leadership: Which Traits Make Effective Leaders",
+    metaDesc:
+      "Discover how personality tests reveal leadership potential. Practical guide for aspiring and current leaders using DISC, Enneagram, 16 Personalities, and Strengths.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-leadership",
+    h1: "Personality Test for Leadership: Which Traits Make Effective Leaders",
+    sections: [
+      {
+        heading: "What Personality Tests Reveal About Leadership",
+        html: p(
+          "There is no single \"leader personality.\" Effective leaders come in every personality type. What matters is not your type — it is whether you understand your type and can adapt your leadership style to the people you lead."
+        ) +
+          p(
+            "Personality tests give leaders three things: self-awareness (how you naturally lead), empathy (how others experience your leadership), and adaptability (how to adjust your style for different situations and people)."
+          ) +
+          p(
+            "This guide covers how each personality framework applies to leadership, with practical advice you can use regardless of your type."
+          ),
+      },
+      {
+        heading: "DISC and Leadership Styles",
+        html: p("DISC describes four behavioral styles, each with distinct leadership strengths.") +
+          h3("D-Style Leaders (Dominance)") +
+          p("D-style leaders are decisive, results-driven, and comfortable taking charge. They set clear expectations and move fast.") +
+          p("<strong>Strengths:</strong> Quick decision-making, accountability, driving results") +
+          p("<strong>Growth areas:</strong> Listening before directing, patience with slower-paced team members, showing vulnerability") +
+          p("<strong>Practical tip:</strong> Before making a decision that affects your team, ask one person \"what am I missing?\" Then listen for 30 seconds without responding.") +
+          h3("I-Style Leaders (Influence)") +
+          p("I-style leaders are energetic, optimistic, and skilled at building relationships. They inspire through enthusiasm.") +
+          p("<strong>Strengths:</strong> Team morale, stakeholder communication, creative problem-solving") +
+          p("<strong>Growth areas:</strong> Follow-through on details, handling difficult conversations directly, maintaining focus") +
+          p("<strong>Practical tip:</strong> After every meeting, write down the three most important outcomes. Share them with the team.") +
+          h3("S-Style Leaders (Steadiness)") +
+          p("S-style leaders are patient, reliable, and deeply loyal to their teams. They build trust through consistency.") +
+          p("<strong>Strengths:</strong> Team stability, creating safe environments, long-term relationship building") +
+          p("<strong>Growth areas:</strong> Initiating difficult conversations, making unpopular decisions, self-advocacy") +
+          p("<strong>Practical tip:</strong> Schedule one \"uncomfortable conversation\" per week — a decision you have been putting off or feedback you have been avoiding.") +
+          h3("C-Style Leaders (Conscientiousness)") +
+          p("C-style leaders are analytical, thorough, and focused on quality. They build credibility through expertise.") +
+          p("<strong>Strengths:</strong> Strategic thinking, quality standards, data-driven decisions") +
+          p("<strong>Growth areas:</strong> Speed over perfection, delegating without micromanaging, showing vulnerability") +
+          p("<strong>Practical tip:</strong> Set a \"good enough\" threshold before starting any analysis. When you reach it, share your findings.") +
+          p('<a href="/free-disc-test">Take the free DISC test</a> to discover your leadership style.'),
+      },
+      {
+        heading: "Enneagram and Leadership Motivation",
+        html: p("The Enneagram reveals why you lead — your core motivation. A leader's unexamined motivation becomes their blind spot.") +
+          p("<strong>Body types (8, 9, 1)</strong> lead from instinct:") +
+          ul([
+            "<strong>Type 8:</strong> Leads with intensity and protection. Growth: vulnerability and trusting others.",
+            "<strong>Type 9:</strong> Leads by building consensus. Growth: asserting direction even when it creates conflict.",
+            "<strong>Type 1:</strong> Leads with integrity and standards. Growth: flexibility and accepting \"good enough.\"",
+          ]) +
+          p("<strong>Heart types (2, 3, 4)</strong> lead from emotion and relationship:") +
+          ul([
+            "<strong>Type 2:</strong> Leads through service. Growth: setting boundaries and receiving help.",
+            "<strong>Type 3:</strong> Leads through achievement. Growth: authenticity over image.",
+            "<strong>Type 4:</strong> Leads through originality. Growth: consistency and follow-through.",
+          ]) +
+          p("<strong>Head types (5, 6, 7)</strong> lead from analysis and strategy:") +
+          ul([
+            "<strong>Type 5:</strong> Leads through expertise. Growth: engaging emotionally.",
+            "<strong>Type 6:</strong> Leads through preparedness. Growth: trusting instincts.",
+            "<strong>Type 7:</strong> Leads through vision. Growth: depth over breadth.",
+          ]) +
+          p('<a href="/free-enneagram-test">Take the free Enneagram test</a> to discover your leadership motivation.'),
+      },
+      {
+        heading: "16 Personalities and Leadership Communication",
+        html: p("<strong>Thinking vs. Feeling:</strong> Thinking leaders focus on logic and efficiency. Feeling leaders focus on people and values. The best decisions consider both.") +
+          p("<strong>Judging vs. Perceiving:</strong> Judging leaders create structure. Perceiving leaders adapt. Teams need both.") +
+          p("<strong>Introversion vs. Extroversion:</strong> Introverted leaders excel at coaching and strategy. Extroverted leaders excel at communication and energizing groups.") +
+          p('<a href="/free-16-personalities-test">Take the free 16 Personalities test</a> to find your leadership style.'),
+      },
+      {
+        heading: "Strengths-Based Leadership",
+        html: p("The most effective leaders spend most of their time using natural strengths and build systems for everything else.") +
+          ol([
+            "Which strength do I use most often when leading?",
+            "Which strength am I underusing?",
+            "What leadership task consistently drains me?",
+          ]) +
+          p('<a href="/free-strengths-test">Take the free Strengths assessment</a> to identify your leadership strengths.'),
+      },
+      {
+        heading: "Building a Complementary Leadership Team",
+        html: p("No single type makes a complete leader. The most effective leadership teams combine complementary styles.") +
+          ul([
+            "Pair a visionary (high I or Enneagram 7) with an executor (high C)",
+            "Pair a people-focused leader (Feeling, high S) with a strategy-focused leader (Thinking, high D)",
+            "Pair a stabilizer (S-style) with a change agent (D-style)",
+          ]) +
+          p("Personality diversity in leadership is not nice-to-have — it is a strategic advantage."),
+      },
+    ],
+    faqs: [
+      { question: "What personality type makes the best leader?", answer: "No personality type is inherently better for leadership. Effective leadership depends on self-awareness, adaptability, and emotional intelligence — qualities available to every type." },
+      { question: "Can introverts be effective leaders?", answer: "Yes. Research from Harvard Business School found that introverted leaders can be more effective than extroverted leaders when managing proactive employees, because they are more likely to listen to and implement their team's ideas." },
+      { question: "How can I use personality tests to improve my leadership?", answer: "Take DISC to understand your behavioral style, share results with your team, and adapt your communication. Pair DISC with Enneagram for understanding your motivation and Strengths for role optimization." },
+      { question: "Should I use personality tests when hiring leaders?", answer: "No. Personality tests should not be used as hiring screens. They can inform development after hiring, but using them for candidate selection is ethically problematic and scientifically unsupported." },
+      { question: "How do I lead someone with a very different personality type?", answer: "Understand their type first. A high-S team member needs reassurance and time. A high-C needs data and logic. Adjusting your approach is not weakness — it is leadership." },
+    ],
+    ctaHeading: "Discover your leadership personality",
+    ctaSubtext: "Four frameworks, complete results, free assessment.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Free Strengths assessment", url: "/free-strengths-test" },
+      { label: "DISC conflict resolution", url: "/blog/disc-conflict-resolution" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "disc-conflict-resolution": {
+    slug: "disc-conflict-resolution",
+    metaTitle: "DISC Conflict Resolution: Resolve Workplace Disputes by Personality Type",
+    metaDesc:
+      "Learn how to use DISC personality types to resolve workplace conflicts. Practical strategies for managing disagreements between D, I, S, and C styles.",
+    canonicalUrl: "https://1test.me/blog/disc-conflict-resolution",
+    h1: "DISC Conflict Resolution: How to Resolve Workplace Disputes by Personality Type",
+    sections: [
+      {
+        heading: "Why DISC Helps Resolve Conflict",
+        html: p("Most workplace conflicts are not about the issue — they are about communication styles. Two people disagree, and each thinks the other is being difficult. In reality, they process the situation differently.") +
+          p("DISC gives you a framework for understanding these differences. When you know your style and your colleague's style, you can predict where friction will happen and prevent it.") +
+          p('<a href="/free-disc-test">Take the free DISC test</a> to identify your conflict style.'),
+      },
+      {
+        heading: "Conflict Patterns by DISC Style",
+        html: h3("D-Style Conflict") +
+          p("D styles see conflict as necessary for results. They address it directly. Others may experience this as aggressive or dismissive.") +
+          p("<strong>Triggers:</strong> Inefficiency, micromanagement, slow decisions, lack of ownership.") +
+          p("<strong>Strategy:</strong> Slow down. Ask a question before making a statement. Acknowledge their perspective first.") +
+          h3("I-Style Conflict") +
+          p("I styles dislike conflict and avoid it. When forced in, they may become emotional or take things personally.") +
+          p("<strong>Triggers:</strong> Exclusion, lack of recognition, rigid rules, being ignored.") +
+          p("<strong>Strategy:</strong> Stay focused on the specific issue. Separate the problem from the relationship.") +
+          h3("S-Style Conflict") +
+          p("S styles avoid conflict and suppress their needs. Over time, this leads to resentment.") +
+          p("<strong>Triggers:</strong> Sudden change, broken trust, feeling rushed, lack of appreciation.") +
+          p("<strong>Strategy:</strong> Express disagreement early. Use \"I need\" statements. Set regular check-ins.") +
+          h3("C-Style Conflict") +
+          p("C styles approach conflict analytically — gathering evidence and building logical arguments. Others may experience this as cold or pedantic.") +
+          p("<strong>Triggers:</strong> Inaccurate information, lack of process, being rushed, sloppy work.") +
+          p("<strong>Strategy:</strong> Lead with empathy before evidence. Acknowledge the emotional dimension."),
+      },
+      {
+        heading: "Common DISC Pair Conflicts",
+        html: p("<strong>D vs. S:</strong> D wants speed. S wants stability. Resolution: D explains reasoning, S voices concerns early, both agree on timeline.") +
+          p("<strong>D vs. C:</strong> D wants a decision now. C wants more data. Resolution: D specifies deadline upfront, C shares analysis incrementally.") +
+          p("<strong>I vs. C:</strong> I wants to brainstorm. C wants to verify. Resolution: Structure conversation — vision first, then analysis sequentially."),
+      },
+      {
+        heading: "A DISC Conflict Resolution Framework",
+        html: ol([
+          "<strong>Identify both styles.</strong> How does each person experience and express conflict?",
+          "<strong>Adjust your approach.</strong> D: be direct. I: be warm. S: be patient. C: be logical.",
+          "<strong>Address the issue, not the style.</strong> Adjust communication while addressing the actual problem.",
+          "<strong>Create a shared agreement.</strong> Specific commitments, written down, follow up in one week.",
+        ]),
+      },
+      {
+        heading: "When DISC Is Not Enough",
+        html: p("DISC explains communication differences but not everything:") +
+          ul([
+            "<strong>Value or ethics conflicts</strong> require escalation, not style adjustment.",
+            "<strong>Power imbalance conflicts</strong> need structural solutions, not personality awareness.",
+            "<strong>Chronic conflict</strong> may need neutral third-party mediation.",
+          ]) +
+          p("Use DISC where communication is the issue. Seek other resources when it is not."),
+      },
+    ],
+    faqs: [
+      { question: "Can DISC prevent all workplace conflicts?", answer: "No. DISC prevents many communication-based conflicts, but disagreements about goals, priorities, and values still happen. DISC helps navigate them more effectively." },
+      { question: "What if I do not know my colleague's DISC style?", answer: "Observe cues. Quick and results-focused? Likely high D. Enthusiastic? Likely high I. Patient? Likely high S. Analytical? Likely high C. Adjust based on observations." },
+      { question: "How do I handle conflict with the same DISC style?", answer: "Same-style conflicts share the same blind spots. Two high-D styles compete for control. Two high-C styles disagree on data. Bring in a third perspective from a different style." },
+      { question: "Is DISC conflict resolution backed by research?", answer: "The DISC model is based on William Marston's work (1928) and supported by decades of organizational psychology research on personality and team dynamics." },
+      { question: "Should teams do DISC training before conflicts happen?", answer: "Yes. Learn DISC before you need it. When a team understands styles in a neutral setting, they can reference that knowledge during disagreements without it feeling like an intervention." },
+    ],
+    ctaHeading: "Discover your DISC conflict style",
+    ctaSubtext: "Free DISC assessment with complete results.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Personality test for leadership", url: "/blog/personality-test-for-leadership" },
+      { label: "Personality test for teams", url: "/blog/personality-test-for-teams" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "enneagram-wings-explained": {
+    slug: "enneagram-wings-explained",
+    metaTitle: "Enneagram Wings Explained: How Your Wing Shapes Your Personality",
+    metaDesc:
+      "Understand Enneagram wings and how they influence your core type. Learn about wing theory, how to identify your wing, and what it means for personal growth.",
+    canonicalUrl: "https://1test.me/blog/enneagram-wings-explained",
+    h1: "Enneagram Wings Explained: How Your Wing Shapes Your Personality",
+    sections: [
+      {
+        heading: "What Are Enneagram Wings?",
+        html: p("Your Enneagram type describes your core motivation. But no one is a pure type. Most people have a secondary influence from one of the two adjacent types, called a \"wing.\"") +
+          p("The wing sits next to your core type on the Enneagram circle. Type 3 has adjacent types 2 and 4, so a Type 3 can be 3w2 or 3w4.") +
+          p("Your wing modifies your core type — adding nuance and secondary tendencies.") +
+          p('<a href="/free-enneagram-test">Take the free Enneagram test</a> to find your type and wing.'),
+      },
+      {
+        heading: "How Wings Work",
+        html: p("Your wing must be one of the two numbers adjacent to your core type on the Enneagram circle (1-2-3-4-5-6-7-8-9-1). You cannot have a non-adjacent wing.") +
+          p("Most people have one dominant wing that stays consistent throughout their life. Some teachers suggest you can develop the non-dominant wing over time, but the dominant wing is usually clear and stable.") +
+          p("If you feel both wings equally, you may not have identified your core type accurately. Revisit your core type first."),
+      },
+      {
+        heading: "Each Type's Wings Explained",
+        html: strong([
+          { label: "Type 1:", desc: "1w9 (Idealist) — calm, principled. 1w2 (Advocate) — warm, channels perfectionism into service." },
+          { label: "Type 2:", desc: "2w1 (Servant) — structured, disciplined. 2w3 (Host) — ambitious, helps visibly." },
+          { label: "Type 3:", desc: "3w2 (Charmer) — people-oriented. 3w4 (Professional) — introspective, competence-driven." },
+          { label: "Type 4:", desc: "4w3 (Aristocrat) — outgoing, achievement-focused. 4w5 (Bohemian) — withdrawn, creative." },
+          { label: "Type 5:", desc: "5w4 (Iconoclast) — creative, emotionally complex. 5w6 (Problem-Solver) — practical, systematic." },
+          { label: "Type 6:", desc: "6w5 (Defender) — analytical, knowledge-seeking. 6w7 (Buddy) — outgoing, connection-seeking." },
+          { label: "Type 7:", desc: "7w6 (Entertainer) — responsible, committed. 7w8 (Realist) — assertive, ambitious." },
+          { label: "Type 8:", desc: "8w7 (Maverick) — energetic, spontaneous. 8w9 (Bear) — grounded, patient." },
+          { label: "Type 9:", desc: "9w8 (Referee) — assertive when needed. 9w1 (Dreamer) — idealistic, principled." },
+        ]),
+      },
+      {
+        heading: "How to Identify Your Wing",
+        html: ol([
+          "<strong>Read both wing descriptions.</strong> One will resonate more.",
+          "<strong>Ask a trusted friend.</strong> Others see our wing influence clearly.",
+          "<strong>Look at stress behavior.</strong> A 3w2 becomes people-pleasing under stress. A 3w4 becomes withdrawn.",
+          "<strong>Do not overthink it.</strong> Focus on your core type first. The wing becomes clearer over time.",
+        ]) +
+          p('<a href="/free-enneagram-test">Take the free Enneagram test</a> to start exploring.'),
+      },
+      {
+        heading: "Using Your Wing for Growth",
+        html: p("Your wing gives you a second growth direction. Your core type has a primary integration path, and your wing offers additional development opportunities.") +
+          ul([
+            "A 9w1 can use the 1-wing's sense of purpose to overcome inertia.",
+            "A 5w4 can use the 4-wing's emotional depth to balance detachment.",
+            "A 7w6 can use the 6-wing's loyalty to counterbalance restlessness.",
+          ]) +
+          p("The wing is not a separate personality — it is a modifier. Use it as a lens for self-reflection, not an additional label."),
+      },
+    ],
+    faqs: [
+      { question: "Can your Enneagram wing change?", answer: "Most teachers agree your dominant wing stays consistent throughout life, similar to your core type. You may develop the non-dominant wing over time, but the dominant wing remains stronger." },
+      { question: "What if both wings feel equally strong?", answer: "This often means you have not accurately identified your core type. Revisit your core type first — it is always the primary influence. If your core type is correct, one wing will feel more natural." },
+      { question: "Are some wing combinations better than others?", answer: "No. Every wing combination has strengths and growth areas. The Enneagram describes patterns, not hierarchies. Your wing is a tool for self-understanding." },
+      { question: "How does your wing affect relationships?", answer: "Your wing influences how your core type shows up in relationships. A 2w1 serves through structure. A 2w3 serves through charm. Understanding your partner's wing helps you understand how their type expresses itself." },
+      { question: "Do I need to know my wing to benefit from the Enneagram?", answer: "No. Your core type provides the most valuable insights. Focus on understanding your core type and growth path first. Return to wings when you want more detail." },
+    ],
+    ctaHeading: "Discover your Enneagram type and wing",
+    ctaSubtext: "Free Enneagram assessment with complete results.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Enneagram types explained", url: "/blog/enneagram-types-explained" },
+      { label: "Enneagram growth paths", url: "/blog/enneagram-growth-paths" },
+      { label: "Personality test for relationships", url: "/blog/personality-test-for-relationships" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

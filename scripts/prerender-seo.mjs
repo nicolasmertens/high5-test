@@ -315,6 +315,27 @@ const BLOG_FAQS = {
     { question: "Can personality tests help with remote team building?", answer: "Yes. Remote teams benefit even more from personality awareness because they miss the informal cues of in-person interaction. Knowing a teammate's DISC style helps you interpret their written communication correctly — a brief email from a high-D is not rude; it is efficient." },
     { question: "How often should teams retake personality tests?", answer: "Core personality is stable. Retaking every 1-2 years is sufficient. However, you should revisit team dynamics discussions quarterly, using the same framework as a reference point." },
   ],
+  "/blog/personality-test-for-leadership": [
+    { question: "What personality type makes the best leader?", answer: "No personality type is inherently better for leadership. Effective leadership depends on self-awareness, adaptability, and emotional intelligence — qualities available to every type." },
+    { question: "Can introverts be effective leaders?", answer: "Yes. Research from Harvard Business School found that introverted leaders can be more effective than extroverted leaders when managing proactive employees, because they are more likely to listen to and implement their team's ideas." },
+    { question: "How can I use personality tests to improve my leadership?", answer: "Take DISC to understand your behavioral style, share results with your team, and adapt your communication. Pair DISC with Enneagram for understanding your motivation and Strengths for role optimization." },
+    { question: "Should I use personality tests when hiring leaders?", answer: "No. Personality tests should not be used as hiring screens. They can inform development after hiring, but using them for candidate selection is ethically problematic and scientifically unsupported." },
+    { question: "How do I lead someone with a very different personality type?", answer: "Understand their type first. A high-S team member needs reassurance and time. A high-C needs data and logic. Adjusting your approach is not weakness — it is leadership." },
+  ],
+  "/blog/disc-conflict-resolution": [
+    { question: "Can DISC prevent all workplace conflicts?", answer: "No. DISC prevents many communication-based conflicts, but disagreements about goals, priorities, and values still happen. DISC helps navigate them more effectively." },
+    { question: "What if I do not know my colleague's DISC style?", answer: "Observe cues. Quick and results-focused? Likely high D. Enthusiastic? Likely high I. Patient? Likely high S. Analytical? Likely high C. Adjust based on observations." },
+    { question: "How do I handle conflict with the same DISC style?", answer: "Same-style conflicts share the same blind spots. Two high-D styles compete for control. Two high-C styles disagree on data. Bring in a third perspective from a different style." },
+    { question: "Is DISC conflict resolution backed by research?", answer: "The DISC model is based on William Marston's work (1928) and supported by decades of organizational psychology research on personality and team dynamics." },
+    { question: "Should teams do DISC training before conflicts happen?", answer: "Yes. Learn DISC before you need it. When a team understands styles in a neutral setting, they can reference that knowledge during disagreements without it feeling like an intervention." },
+  ],
+  "/blog/enneagram-wings-explained": [
+    { question: "Can your Enneagram wing change?", answer: "Most teachers agree your dominant wing stays consistent throughout life, similar to your core type. You may develop the non-dominant wing over time, but the dominant wing remains stronger." },
+    { question: "What if both wings feel equally strong?", answer: "This often means you have not accurately identified your core type. Revisit your core type first — it is always the primary influence. If your core type is correct, one wing will feel more natural." },
+    { question: "Are some wing combinations better than others?", answer: "No. Every wing combination has strengths and growth areas. The Enneagram describes patterns, not hierarchies. Your wing is a tool for self-understanding." },
+    { question: "How does your wing affect relationships?", answer: "Your wing influences how your core type shows up in relationships. A 2w1 serves through structure. A 2w3 serves through charm. Understanding your partner's wing helps you understand how their type expresses itself." },
+    { question: "Do I need to know my wing to benefit from the Enneagram?", answer: "No. Your core type provides the most valuable insights. Focus on understanding your core type and growth path first. Return to wings when you want more detail." },
+  ],
 };
 
 const SEO_DATA = {
@@ -540,6 +561,27 @@ const SEO_DATA = {
     description:
       "Discover how personality tests improve team dynamics, communication, and productivity. Practical guide for managers and team leads using DISC, Enneagram, 16 Personalities, and Strengths.",
     canonicalUrl: "https://1test.me/blog/personality-test-for-teams",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-leadership": {
+    title: "Personality Test for Leadership: Which Traits Make Effective Leaders",
+    description:
+      "Discover how personality tests reveal leadership potential. Practical guide for aspiring and current leaders using DISC, Enneagram, 16 Personalities, and Strengths.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-leadership",
+    ogType: "article",
+  },
+  "/blog/disc-conflict-resolution": {
+    title: "DISC Conflict Resolution: Resolve Workplace Disputes by Personality Type",
+    description:
+      "Learn how to use DISC personality types to resolve workplace conflicts. Practical strategies for managing disagreements between D, I, S, and C styles.",
+    canonicalUrl: "https://1test.me/blog/disc-conflict-resolution",
+    ogType: "article",
+  },
+  "/blog/enneagram-wings-explained": {
+    title: "Enneagram Wings Explained: How Your Wing Shapes Your Personality",
+    description:
+      "Understand Enneagram wings and how they influence your core type. Learn about wing theory, how to identify your wing, and what it means for personal growth.",
+    canonicalUrl: "https://1test.me/blog/enneagram-wings-explained",
     ogType: "article",
   },
 };
@@ -812,6 +854,35 @@ const BODY_CONTENT = {
       { heading: "Which Framework Works Best for Your Team", text: "DISC is most practical for teams because it maps to observable behavior — useful for meeting structure, conflict resolution, and project assignment. Enneagram reveals core motivations and stress patterns for management. 16 Personalities helps with information processing and decision-making. Strengths enables better role assignment." },
       { heading: "How to Run a Team Personality Workshop", text: "Before: everyone takes the same test independently. During (60-90 min): explain framework, individual reflection, pair sharing, team mapping, action planning. After: post the team map, revisit agreements in 30 days, integrate type awareness into regular check-ins." },
       { heading: "Common Mistakes and Measuring Impact", text: "Avoid using types as labels, testing once and forgetting, making hiring decisions based on type, or treating results as absolute truth. Track conflict frequency, meeting effectiveness, engagement scores, and retention before and after implementation." },
+    ],
+  },
+  "/blog/personality-test-for-leadership": {
+    h1: "Personality Test for Leadership: Which Traits Make Effective Leaders",
+    sections: [
+      { heading: "What Personality Tests Reveal About Leadership", text: "There is no single leader personality. Effective leaders come in every type. Personality tests give leaders self-awareness, empathy, and adaptability. This guide covers how each framework applies to leadership with practical advice for every type." },
+      { heading: "DISC and Leadership Styles", text: "D-style leaders are decisive and results-driven — growth area: listening. I-style leaders are energetic and relationship-focused — growth area: follow-through. S-style leaders are patient and reliable — growth area: initiating difficult conversations. C-style leaders are analytical and thorough — growth area: speed over perfection." },
+      { heading: "Enneagram and Leadership Motivation", text: "Body types (8, 9, 1) lead from instinct. Heart types (2, 3, 4) lead from emotion. Head types (5, 6, 7) lead from analysis. Each type's unexamined motivation becomes their leadership blind spot." },
+      { heading: "Strengths-Based Leadership", text: "Spend 80% of time using natural strengths. Build systems or partnerships for everything else. Identify which strength you overuse, underuse, and what drains you. Pair complementary strengths on leadership teams." },
+      { heading: "Building a Complementary Leadership Team", text: "Pair visionaries with executors. Pair people-focused leaders with strategy-focused leaders. Pair stabilizers with change agents. Personality diversity in leadership is a strategic advantage, not nice-to-have." },
+    ],
+  },
+  "/blog/disc-conflict-resolution": {
+    h1: "DISC Conflict Resolution: How to Resolve Workplace Disputes by Personality Type",
+    sections: [
+      { heading: "Why DISC Helps Resolve Conflict", text: "Most workplace conflicts are about communication styles, not the issue. DISC helps you understand these differences and predict where friction will happen before it escalates." },
+      { heading: "Conflict Patterns by DISC Style", text: "D styles see conflict as necessary and address it directly — others may experience this as aggressive. I styles avoid conflict and become emotional — others see them as unfocused. S styles suppress needs until resentment builds — others see passivity. C styles approach conflict analytically — others see cold logic." },
+      { heading: "Common DISC Pair Conflicts", text: "D vs S: speed vs stability. D vs C: decision speed vs data needs. I vs C: brainstorming vs verification. Each pair has a specific resolution approach that acknowledges both styles." },
+      { heading: "A DISC Conflict Resolution Framework", text: "Four steps: identify both styles, adjust your approach to their style, address the issue not the style, create a written shared agreement with follow-up." },
+      { heading: "When DISC Is Not Enough", text: "DISC explains communication differences but not value conflicts, power imbalances, or chronic interpersonal issues. Use DISC where communication is the issue. Seek mediation or escalation when it is not." },
+    ],
+  },
+  "/blog/enneagram-wings-explained": {
+    h1: "Enneagram Wings Explained: How Your Wing Shapes Your Personality",
+    sections: [
+      { heading: "What Are Enneagram Wings?", text: "Your wing is a secondary influence from one of the two types adjacent to your core type on the Enneagram circle. It modifies your core type, adding nuance and secondary tendencies. A 3w2 and a 3w4 are both Type 3s, but they express their achievement drive differently." },
+      { heading: "How Wings Work", text: "Your wing must be adjacent to your core type (1-2-3-4-5-6-7-8-9-1). Most people have one dominant wing that stays consistent throughout life. If both wings feel equally strong, revisit your core type identification." },
+      { heading: "Each Type's Wings Explained", text: "Every type has two wing variants with distinct expressions. For example, 1w9 (Idealist) is calm and inward-focused, while 1w2 (Advocate) is warm and service-oriented. Each wing adds a specific flavor to the core type." },
+      { heading: "Using Your Wing for Growth", text: "Your wing provides a secondary growth direction. A 9w1 can use the 1-wing's purpose to overcome inertia. A 5w4 can use emotional depth to balance detachment. The wing is a modifier, not a separate personality." },
     ],
   },
 };

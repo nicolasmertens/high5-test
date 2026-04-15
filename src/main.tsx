@@ -145,6 +145,18 @@ createRoot(document.getElementById("root")!).render(
               path="/blog/personality-test-for-teams"
               element={<BlogPage slug="personality-test-for-teams" />}
             />
+            <Route
+              path="/blog/personality-test-for-leadership"
+              element={<BlogPage slug="personality-test-for-leadership" />}
+            />
+            <Route
+              path="/blog/disc-conflict-resolution"
+              element={<BlogPage slug="disc-conflict-resolution" />}
+            />
+            <Route
+              path="/blog/enneagram-wings-explained"
+              element={<BlogPage slug="enneagram-wings-explained" />}
+            />
             <Route path="/privacy-draft" element={<PrivacyPolicy />} />
             <Route path="/terms-draft" element={<TermsOfService />} />
             <Route path="/relationship/:id" element={<RelationshipReportPage />} />
