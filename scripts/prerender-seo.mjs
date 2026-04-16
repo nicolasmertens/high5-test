@@ -553,6 +553,27 @@ const BLOG_FAQS = {
     { question: "How long does personality-based growth take?", answer: "Behavior change: 4-8 weeks of consistent practice. Deep pattern change: 6-12 months. Start immediately with small actions." },
     { question: "What if my growth plan feels wrong?", answer: "Adjust it. Growth should feel challenging but not unnatural. If an action feels wrong for your type, you may be trying to become someone else." },
   ],
+  "/blog/personality-test-for-mentorship": [
+    { question: "Should mentor and mentee share personality results?", answer: "Yes, when both parties are comfortable. Shared results create a common vocabulary for communication differences." },
+    { question: "Should mentors and mentees have similar or different types?", answer: "Both work. Similar types build quick rapport. Different types offer broader perspective. The key is understanding and adapting to differences." },
+    { question: "Which personality test is best for mentorship?", answer: "DISC for communication style matching. Enneagram for understanding motivation. 16 Personalities for cognitive processing. Start with DISC." },
+    { question: "Can personality tests help with mentorship programs?", answer: "Yes. Organizations can use personality data to improve pair matching and give mentors guidance on adapting their style." },
+    { question: "What if my mentor has a different personality?", answer: "Different personalities create growth-oriented mentorships. Communicate preferences clearly and recognize that style differences often drive the most development." },
+  ],
+  "/blog/disc-communication-in-remote-teams": [
+    { question: "How is DISC different in remote vs. in-person?", answer: "Remote removes body language and shared context, making DISC differences more pronounced. Brief messages read differently without tone." },
+    { question: "Should my remote team take DISC together?", answer: "Yes. Taking DISC as a team and sharing results creates a shared vocabulary for communication preferences and reduces misinterpretation." },
+    { question: "Which DISC style struggles most with remote work?", answer: "High Influence types struggle most with isolation. High Steadiness types struggle with change unpredictability. Both can thrive with intentional support." },
+    { question: "How do I adapt my DISC style for remote?", answer: "High D: add context and warmth. High I: be more concise and follow through. High S: speak up proactively. High C: share conclusions first, data second." },
+    { question: "What is the biggest remote DISC mistake?", answer: "Assuming everyone processes information like you. A one-word message from a high D creates anxiety for a high S colleague. A long emotional message from a high I frustrates a high C." },
+  ],
+  "/blog/personality-test-for-retirement-planning": [
+    { question: "Can a personality test help me plan retirement?", answer: "Yes. It identifies what you will miss most about work — achievement, social connection, routine, or challenge — so you can plan activities that provide those needs." },
+    { question: "Which personality type has the hardest time retiring?", answer: "High achievement types (Type 3 Enneagram, high D DISC) struggle with identity loss. High structure types (high S DISC, Judging 16 Personalities) struggle with routine disruption." },
+    { question: "Should I take a personality test before retiring?", answer: "Yes. Understanding your personality helps design retirement that satisfies psychological needs, not just financial ones." },
+    { question: "What if my partner has a different retirement personality?", answer: "Different retirement personalities are common. One partner may want travel and activity, the other routine and quiet. Name the differences and plan for both." },
+    { question: "Is retirement planning just about money?", answer: "No. Financial readiness is necessary but not sufficient. Purpose, social connection, structure, and identity — all shaped by personality — determine satisfaction." },
+  ],
 };
 
 const SEO_DATA = {
@@ -1016,6 +1037,27 @@ const SEO_DATA = {
     description:
       "How to use personality tests for intentional personal growth. Growth paths by type, self-awareness development, and creating a development plan aligned with who you are.",
     canonicalUrl: "https://1test.me/blog/personality-test-for-personal-growth",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-mentorship": {
+    title: "Personality Test for Mentorship: Build Stronger Mentor-Mentee Pairs",
+    description:
+      "How personality tests improve mentorship by matching communication styles, identifying growth edges, and building trust between mentors and mentees.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-mentorship",
+    ogType: "article",
+  },
+  "/blog/disc-communication-in-remote-teams": {
+    title: "DISC Communication in Remote Teams: A Practical Guide",
+    description:
+      "How DISC personality types communicate in remote teams. Practical strategies for virtual meetings, async communication, and remote collaboration by DISC style.",
+    canonicalUrl: "https://1test.me/blog/disc-communication-in-remote-teams",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-retirement-planning": {
+    title: "Personality Test for Retirement Planning: Design Your Next Chapter",
+    description:
+      "How personality affects retirement satisfaction. Which retirement lifestyle fits your type, transition planning, and optimizing for purpose beyond finances.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-retirement-planning",
     ogType: "article",
   },
 };
@@ -1574,6 +1616,30 @@ const BODY_CONTENT = {
       { heading: "Why Most Growth Fails", text: "Generic advice does not account for starting point. Personality-informed growth aligns with your wiring — making it sustainable. The goal is not becoming someone else but becoming a healthier version of your type." },
       { heading: "Growth Paths by Framework", text: "Enneagram: deepest growth framework with specific integration and disintegration directions. DISC: develop your least-used dimension. 16 Personalities: develop less-preferred cognitive functions. Strengths: deepen top talents rather than fix weaknesses." },
       { heading: "Creating a Growth Plan", text: "Take a multi-framework assessment. Identify your growth edge per framework. Pick one growth action per month. Track your Enneagram stress pattern. Reassess every 6-12 months. Measure growth by behavior change, not type change." },
+    ],
+  },
+  "/blog/personality-test-for-mentorship": {
+    h1: "Personality Test for Mentorship: Build Stronger Mentor-Mentee Pairs",
+    sections: [
+      { heading: "Mentor-Mentee Matching", text: "DISC matching: high D mentor needs high I mentee accountability, may overwhelm high S. 16 Personalities: Thinking vs Feeling feedback differences. Enneagram: understanding motivation prevents reinforcing unhealthy patterns." },
+      { heading: "Adapting Mentoring Style", text: "High D mentee: give autonomy and challenge. High I mentee: encourage first, then coach. High S mentee: be patient, provide consistency. High C mentee: provide data, frameworks, and clear expectations." },
+      { heading: "Building Trust", text: "Share results. Name preferences. Check in on process, not just content. Recognize stress patterns. Adapt communication style to mentee's DISC type." },
+    ],
+  },
+  "/blog/disc-communication-in-remote-teams": {
+    h1: "DISC Communication in Remote Teams: A Practical Guide",
+    sections: [
+      { heading: "DISC in Remote Context", text: "Remote work removes body language and shared context, amplifying DISC differences. Brief messages get misread. Written communication favors C and S types while challenging I and D types." },
+      { heading: "Communication Preferences", text: "High D: brief, results-oriented, first-sentence ask. High I: video calls, context, stories, validation. High S: predictable rhythms, advance notice, written documentation. High C: detailed specs, data, time to think." },
+      { heading: "Building DISC-Informed Culture", text: "Have everyone take DISC. Create a team communication charter with preferred channels and response times. Post DISC profiles visibly. Review communication norms quarterly. Lead by example." },
+    ],
+  },
+  "/blog/personality-test-for-retirement-planning": {
+    h1: "Personality Test for Retirement Planning: Design Your Next Chapter",
+    sections: [
+      { heading: "Retirement by DISC Type", text: "High D: risk identity loss without achievement targets — plan advisory roles or goal-oriented hobbies. High I: risk social isolation — plan community engagement. High S: risk routine disruption — plan new routines before retiring. High C: risk intellectual stagnation — plan challenging learning." },
+      { heading: "What Each Framework Reveals", text: "DISC: what you will miss most. 16 Personalities: how you will spend your time. Enneagram: why you worked and what drives you now. Strengths: what to do with your talents." },
+      { heading: "Designing Retirement Around Personality", text: "Take the assessment. List what work provides beyond money. Match retirement activities to those needs. Start building retirement life before retiring. Reassess after six months when reality sets in." },
     ],
   },
 };

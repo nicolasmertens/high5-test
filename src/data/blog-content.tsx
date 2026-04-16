@@ -7291,6 +7291,188 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-16",
   },
+  "personality-test-for-mentorship": {
+    slug: "personality-test-for-mentorship",
+    metaTitle: "Personality Test for Mentorship: Build Stronger Mentor-Mentee Pairs",
+    metaDesc:
+      "Learn how personality tests improve mentorship by matching communication styles, identifying growth edges, and building trust between mentors and mentees.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-mentorship",
+    h1: "Personality Test for Mentorship: Build Stronger Mentor-Mentee Pairs",
+    sections: [
+      {
+        heading: "Why Personality Matters in Mentorship",
+        html: p("Effective mentorship depends on communication, trust, and mutual understanding — all shaped by personality. A mentor who gives direct, feedback-heavy guidance works well with a mentee who processes logically. The same mentor may overwhelm a mentee who processes emotionally and needs encouragement first.") +
+          p("When both parties understand their personality styles, they can adapt their communication, set clearer expectations, and build trust faster. <a href=\"/free-personality-test\">Take the free test</a> and share results with your mentor or mentee."),
+      },
+      {
+        heading: "Matching Mentor and Mentee Styles",
+        html: p("<strong>DISC matching:</strong> A high Dominance mentor pushes for results — great for a high Influence mentee who needs accountability, potentially overwhelming for a high Steadiness mentee who needs patience. A high Conscientiousness mentor provides structured guidance — ideal for a detail-oriented mentee, frustrating for a big-picture mentee.") +
+          p("<strong>16 Personalities matching:</strong> Thinking-type mentors give logical feedback. Feeling-type mentors give empathetic feedback. Neither is wrong — but a Feeling-type mentee receiving blunt Thinking-type feedback may feel criticized rather than coached.") +
+          p("<strong>Enneagram matching:</strong> A Type 3 mentor models achievement — excellent for a Type 3 mentee. But the same mentor may inadvertently reinforce a Type 3's tendency to tie self-worth to productivity. Understanding motivation helps mentors coach the whole person."),
+      },
+      {
+        heading: "Adapting Your Mentoring Style by DISC",
+        html: p("<strong>Mentoring a high D mentee:</strong> Give them autonomy and challenge. Be direct. Focus on outcomes. They will disengage if you micromanage.") +
+          p("<strong>Mentoring a high I mentee:</strong> Start with encouragement. Build rapport before giving feedback. They learn best through stories and examples.") +
+          p("<strong>Mentoring a high S mentee:</strong> Be patient. Give advance notice of changes. Provide consistent support. They build trust through reliability, not flash.") +
+          p("<strong>Mentoring a high C mentee:</strong> Provide data, frameworks, and clear expectations. They respect expertise and thoroughness. Follow through on commitments.") +
+          p("<strong>As a mentee:</strong> Understanding your DISC style helps you ask for what you need. Tell your mentor: I process feedback best when... I disengage when... I am most receptive when..."),
+      },
+      {
+        heading: "Building Trust Through Personality Awareness",
+        html: p("Trust in mentorship comes from feeling understood. When a mentor adapts their style to the mentee's personality, the mentee feels seen. When a mentee communicates their preferences clearly, the mentor feels respected.") +
+          p("Practical trust-builders:") +
+          ul([
+            "<strong>Share your results.</strong> Both mentor and mentee take the personality test and share results. This normalizes differences and creates a shared vocabulary.",
+            "<strong>Name your preferences.</strong> Mentor: \"I tend to give direct feedback. Let me know if you need it softer.\" Mentee: \"I process better when I have time to reflect before responding.\"",
+            "<strong>Check in on process, not just content.</strong> Periodically ask: Is this communication style working for you? What would you change?",
+            "<strong>Recognize stress patterns.</strong> Know how your mentee behaves under pressure. A Type 6 mentee may need more reassurance during uncertainty. A high D mentee may need clear direction instead of open-ended exploration.",
+          ]),
+      },
+    ],
+    faqs: [
+      { question: "Should mentor and mentee share personality results?", answer: "Yes, when both parties are comfortable. Shared results create a common vocabulary for communication differences and build mutual understanding." },
+      { question: "Should mentors and mentees have similar or different personality types?", answer: "Both work. Similar types build quick rapport. Different types offer broader perspective. The key is understanding and adapting to differences, not matching on type." },
+      { question: "Which personality test is best for mentorship?", answer: "DISC is most practical for communication style matching. Enneagram is deepest for understanding motivation. 16 Personalities helps with cognitive processing. Start with DISC." },
+      { question: "Can personality tests help with mentorship programs at scale?", answer: "Yes. Organizations running formal mentorship programs can use personality data to improve pair matching and give mentors guidance on adapting their style." },
+      { question: "What if my mentor has a very different personality?", answer: "Different personalities can create the most growth-oriented mentorships. Communicate your preferences clearly, ask your mentor to adapt their delivery, and recognize that the discomfort of different styles often leads to the most development." },
+    ],
+    ctaHeading: "Understand your mentorship style",
+    ctaSubtext: "Free personality test — four frameworks, full results.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "Personality test for leadership", url: "/blog/personality-test-for-leadership" },
+      { label: "DISC communication styles", url: "/blog/disc-communication-styles" },
+      { label: "Personality test for managers", url: "/blog/personality-test-for-managers" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "disc-communication-in-remote-teams": {
+    slug: "disc-communication-in-remote-teams",
+    metaTitle: "DISC Communication in Remote Teams: A Practical Guide",
+    metaDesc:
+      "Learn how DISC personality types communicate in remote teams. Practical strategies for virtual meetings, async communication, and remote collaboration by DISC style.",
+    canonicalUrl: "https://1test.me/blog/disc-communication-in-remote-teams",
+    h1: "DISC Communication in Remote Teams: A Practical Guide",
+    sections: [
+      {
+        heading: "Why DISC Matters More in Remote Work",
+        html: p("In an office, body language, hallway chats, and shared context smooth communication gaps. In remote work, most communication happens through text, video, or scheduled calls — where DISC differences become amplified and more likely to cause friction.") +
+          p("A high Dominance person sends a one-line Slack message: \"Done?\" They mean efficiency. A high Steadiness person reads it as pressure or frustration. A high Influence person sends a paragraph with emojis. A high Conscientiousness person reads it as unserious. Neither interpretation is correct — they are personality projections. <a href=\"/free-disc-test\">Take the free DISC test</a> to understand your remote communication style."),
+      },
+      {
+        heading: "Communication Preferences by DISC Type",
+        html: p("<strong>High Dominance:</strong> Prefers brief, results-oriented communication. Slack messages, bullet points, no preamble. Wants to see the ask in the first sentence. Gets frustrated by long emails without a clear point.") +
+          p("<strong>High Influence:</strong> Prefers video calls and voice messages. Wants context, stories, and personal connection. Gets frustrated by cold, data-only messages. Needs sign-off and validation.") +
+          p("<strong>High Steadiness:</strong> Prefers predictable communication rhythms. Values consistent one-on-ones, advance notice of changes, and written documentation. Gets anxious when communication is unpredictable or abrupt.") +
+          p("<strong>High Conscientiousness:</strong> Prefers detailed written communication. Wants specs, documentation, and time to think before responding. Gets frustrated by vague requests and decisions made without data."),
+      },
+      {
+        heading: "Remote Meeting Strategies by DISC",
+        html: p("<strong>Before meetings:</strong> Send agenda to all types. High D types read it and come prepared. High I types appreciate knowing the social structure. High S types feel less anxious. High C types research the topics in advance.") +
+          p("<strong>During meetings:</strong> Open with context for S and I types. Get to the point quickly for D types. Share data visually for C types. Give I types space to brainstorm. Do not let D types dominate.") +
+          p("<strong>After meetings:</strong> Send written summaries. S types review them for reassurance. C types reference them for accuracy. D types skim for action items. I types may not read them — follow up verbally for important points."),
+      },
+      {
+        heading: "Async Communication Best Practices",
+        html: p("Remote teams rely on async communication. Here is how to make it work across DISC styles:") +
+          ul([
+            "<strong>For high D:</strong> Lead with the ask. Example: \"Need your approval on X by Friday. Details below.\"",
+            "<strong>For high I:</strong> Include context and people impact. Example: \"The team really appreciated your presentation. Here is what we need next...\"",
+            "<strong>For high S:</strong> Give timeline and stability signals. Example: \"Here is the plan for next quarter. No changes to your current projects.\"",
+            "<strong>For high C:</strong> Provide data and sources. Example: \"Based on Q3 data (attached), I recommend...\"",
+          ]),
+      },
+      {
+        heading: "Building a DISC-Informed Remote Culture",
+        html: p("The most effective remote teams make personality awareness part of their operating system:") +
+          ol([
+            "<strong>Have everyone take DISC.</strong> <a href=\"/free-disc-test\">Free DISC test at 1Test</a> — full results, no paywall.",
+            "<strong>Create a team communication charter.</strong> Write down: preferred channels, response time expectations, meeting norms, and how each team member prefers to receive feedback.",
+            "<strong>Post DISC profiles visibly.</strong> Slack status, email signature, or team wiki. When everyone can see styles, adaptability increases.",
+            "<strong>Review quarterly.</strong> Communication norms need updating as the team grows. Revisit what is working and what is not.",
+            "<strong>Lead by example.</strong> Managers should share their own DISC style and adaptability goals first.",
+          ]),
+      },
+    ],
+    faqs: [
+      { question: "How is DISC different in remote vs. in-person?", answer: "Remote work removes body language and shared context, making DISC differences more pronounced. Brief messages read differently without tone. Written communication favors C and S types while challenging I and D types." },
+      { question: "Should my remote team take DISC together?", answer: "Yes. Taking DISC as a team and sharing results creates a shared vocabulary for communication preferences and reduces misinterpretation." },
+      { question: "Which DISC style struggles most with remote work?", answer: "High Influence types struggle most with isolation and reduced social connection. High Steadiness types struggle with change unpredictability. Both can thrive with intentional support." },
+      { question: "How do I adapt my DISC style for remote communication?", answer: "High D: add context and warmth. High I: be more concise and follow through. High S: speak up proactively. High C: share conclusions first, data second." },
+      { question: "What is the biggest DISC communication mistake in remote teams?", answer: "Assuming everyone processes information like you do. A high D sending one-word messages to a high S colleague creates anxiety. A high I writing long emotional messages to a high C colleague creates frustration." },
+    ],
+    ctaHeading: "Map your remote team's DISC styles",
+    ctaSubtext: "Free DISC assessment with full profile. No paywall.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "DISC communication styles", url: "/blog/disc-communication-styles" },
+      { label: "Personality test for remote workers", url: "/blog/personality-test-for-remote-workers" },
+      { label: "DISC for team building", url: "/blog/disc-test-team-building" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "personality-test-for-retirement-planning": {
+    slug: "personality-test-for-retirement-planning",
+    metaTitle: "Personality Test for Retirement Planning: Design Your Next Chapter",
+    metaDesc:
+      "Discover how your personality affects retirement satisfaction. Learn which retirement lifestyle fits your type, how to plan for the transition, and what to optimize for beyond finances.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-retirement-planning",
+    h1: "Personality Test for Retirement Planning: Design Your Next Chapter",
+    sections: [
+      {
+        heading: "Why Personality Matters in Retirement",
+        html: p("Retirement planning focuses heavily on finances — savings, investments, withdrawal rates. But the single biggest predictor of retirement satisfaction is not money. It is purpose, social connection, and identity — all shaped by personality.") +
+          p("A high Dominance DISC type who derives identity from achievement may feel lost without a title and targets. A high Steadiness type who values routine and relationships may struggle if retirement isolates them from their work community. Personality-aware retirement planning ensures you are not just financially ready but personally ready."),
+      },
+      {
+        heading: "Retirement Satisfaction by DISC Type",
+        html: p("<strong>High Dominance:</strong> Risk: loss of identity and influence. Retirement without structure feels purposeless. Plan for: advisory roles, consulting, board positions, competitive hobbies, or a second act that has targets and accountability.") +
+          p("<strong>High Influence:</strong> Risk: loss of social network. Work provides daily social connection. Retirement without intention can feel isolating. Plan for: community groups, volunteering, social hobbies, regular meetups, mentoring.") +
+          p("<strong>High Steadiness:</strong> Risk: loss of routine. Work provides daily structure and relationships. Retirement disrupts both. Plan for: new routines that start from day one, regular social commitments, part-time work or volunteering in a familiar environment.") +
+          p("<strong>High Conscientiousness:</strong> Risk: loss of competence and quality standards. Work provides intellectual challenge. Retirement without it feels shallow. Plan for: deep learning, research projects, skill-building, teaching, or consulting where expertise matters."),
+      },
+      {
+        heading: "How Each Framework Informs Retirement",
+        html: p("<strong><a href=\"/blog/disc-assessment-guide\">DISC</a></strong> tells you what you will miss most: achievement (D), social connection (I), routine and relationships (S), or intellectual challenge (C). Plan your retirement to replace what work provides.") +
+          p("<strong><a href=\"/blog/understanding-16-personalities\">16 Personalities</a></strong> tells you how you will spend your time. Introverted types may enjoy quiet hobbies and deep learning. Extraverted types need social engagement. Judging types want structure. Perceiving types want flexibility. Design your schedule accordingly.") +
+          p("<strong><a href=\"/blog/enneagram-types-explained\">Enneagram</a></strong> tells you why you worked. A Type 3 who worked for achievement needs a new purpose. A Type 9 who worked for peace needs to ensure retirement does not become withdrawal. A Type 5 who worked for knowledge needs intellectual stimulation.") +
+          p("<strong><a href=\"/free-strengths-test\">Strengths</a></strong> tells you what to do, not just what to avoid. If your top strengths are Learner and Input, plan for education and reading. If Achiever and Discipline, plan for goal-oriented projects."),
+      },
+      {
+        heading: "Designing Your Retirement Around Personality",
+        html: ol([
+          "<strong>Take a personality assessment.</strong> <a href=\"/free-personality-test\">1Test gives you four frameworks in one session</a>. Know what you need before you design around it.",
+          "<strong>List what work provides.</strong> Beyond money, what does work give you? Social connection? Structure? Purpose? Status? Intellectual challenge?",
+          "<strong>Match retirement activities to needs.</strong> If work gives you social connection, build that into retirement. If it gives you structure, create new routines before you retire.",
+          "<strong>Start before you retire.</strong> Do not wait until day one to build your retirement life. Start volunteering, join groups, begin hobbies — while you still have the identity and schedule of work.",
+          "<strong>Recheck after six months.</strong> The first six months of retirement often feel like a vacation. Six months in, reality sets in. Reassess whether your personality needs are being met.",
+        ]),
+      },
+    ],
+    faqs: [
+      { question: "Can a personality test help me plan retirement?", answer: "Yes. It identifies what you will miss most about work — achievement, social connection, routine, or intellectual challenge — so you can plan activities that provide those needs in retirement." },
+      { question: "Which personality type has the hardest time retiring?", answer: "High achievement-oriented types (Type 3 Enneagram, high D DISC) often struggle with identity loss. High structure-oriented types (high S DISC, Judging 16 Personalities) struggle with routine disruption." },
+      { question: "Should I take a personality test before retiring?", answer: "Yes. Understanding your personality helps you design a retirement that satisfies your psychological needs, not just your financial ones." },
+      { question: "What if my partner has a different personality?", answer: "Different retirement personalities are common. One partner may want travel and social activity, the other may want routine and quiet. Name the differences and plan for both." },
+      { question: "Is retirement planning just about money?", answer: "No. Financial readiness is necessary but not sufficient. Retirement satisfaction depends on purpose, social connection, structure, and identity — all shaped by personality." },
+    ],
+    ctaHeading: "Plan your retirement around your personality",
+    ctaSubtext: "Free test — four frameworks, full results. No paywall.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "Personality test for career change", url: "/blog/personality-test-for-career-change" },
+      { label: "Personality test for self-awareness", url: "/blog/personality-test-self-awareness" },
+      { label: "Strengths for career", url: "/blog/strengths-for-career" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {
