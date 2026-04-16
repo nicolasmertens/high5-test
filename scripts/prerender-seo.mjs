@@ -721,6 +721,27 @@ const BLOG_FAQS = {
     { question: "What careers suit Type 7?", answer: "Fast-paced, variety-rich roles: entrepreneurship, product management, creative direction, consulting, event planning, and any role where ideation and quick adaptation are valued more than consistency and routine." },
     { question: "How does Type 7 compare to Type 3?", answer: "Both are energetic and achievement-oriented, but Type 7 is driven by experience and possibility while Type 3 is driven by success and image. Type 7 wants to have a great time. Type 3 wants to have great results." },
   ],
+  "/blog/personality-test-for-job-interviews": [
+    { question: "Can you fail a personality test in an interview?", answer: "No. Personality tests measure style and preference, not competence. There is no pass or fail. The purpose is to assess fit between your natural tendencies and the role requirements." },
+    { question: "Should I answer honestly or tell employers what they want to hear?", answer: "Answer honestly. Validated assessments have consistency checks. Trying to game the test produces unreliable results that may hurt your candidacy more than honest answers would." },
+    { question: "Which personality test is most common in hiring?", answer: "DISC is the most common behavioral assessment in hiring, followed by 16 Personalities-type instruments and strengths-based assessments. Each measures different dimensions of work style." },
+    { question: "Can I ask an employer which test they use?", answer: "Yes, and you should. A transparent employer will tell you which assessment they use, what it measures, and how they use the results. If they will not disclose this, that is a concern." },
+    { question: "What if my personality type does not match the job?", answer: "It depends on the gap. Some mismatches are manageable with awareness and adaptation. Others indicate a poor fit that would make you miserable. Use the information to decide whether the role is right for you." },
+  ],
+  "/blog/personality-test-for-college-students": [
+    { question: "Should I choose my major based on my personality type?", answer: "Your personality type should inform your decision, not dictate it. Use it as one input alongside interests, skills, and values. Type tells you which environments will energize you, not which specific major to declare." },
+    { question: "Which personality test is best for college students?", answer: "The most useful combination is DISC (communication and work style), 16 Personalities (thinking and decision-making preferences), and Strengths (natural talents). Together they cover how you work, think, and what you do best." },
+    { question: "Can my personality type change during college?", answer: "Core personality traits are relatively stable after late adolescence, but your expression of them can shift. College experiences may develop your less-preferred functions, making you more versatile, but your underlying preferences tend to stay consistent." },
+    { question: "What if my type does not match my current major?", answer: "It depends on the gap. Some mismatch can be managed with study strategies and environment adjustments. If the mismatch is severe, consider whether the major's core demands align with your natural preferences." },
+    { question: "Should I share my personality results with employers?", answer: "Proactively, no. But if an employer asks you to take a personality test as part of their process, already knowing your profile lets you discuss your strengths and growth areas with confidence." },
+  ],
+  "/blog/disc-personality-in-the-workplace": [
+    { question: "Is DISC accurate enough for workplace decisions?", answer: "DISC measures behavioral style, not capability. It is validated for understanding communication preferences and team dynamics. It should inform how people work together, not determine who gets hired or promoted." },
+    { question: "How long does it take to learn DISC?", answer: "Basic DISC literacy takes about an hour. You can learn the four styles, identify your own, and start applying communication strategies immediately. Deeper application takes practice." },
+    { question: "Can people have multiple DISC styles?", answer: "Yes. Most people are a blend of two or more styles, with one being most dominant. Your DISC profile shows the relative strength of each dimension, giving a more nuanced picture than a single-letter type." },
+    { question: "Should DISC be used in hiring?", answer: "DISC can inform team composition and communication preferences in the context of hiring, but it should never be the sole factor. A candidate's DISC style is one data point about how they might prefer to work, not a measure of ability." },
+    { question: "How is DISC different from 16 Personalities?", answer: "DISC measures observable behavior — how you act and communicate. 16 Personalities measures cognitive preferences — how you think and process information. They complement each other. DISC is more actionable for communication; 16 Personalities gives deeper insight into decision-making and motivation." },
+  ],
 };
 
 const SEO_DATA = {
@@ -1352,6 +1373,27 @@ const SEO_DATA = {
     description:
       "Deep dive into Enneagram Type 7 (Enthusiast). Core motivation, growth direction to 5, stress direction to 1, relationship patterns, and practical advice for becoming a healthier Type 7.",
     canonicalUrl: "https://1test.me/blog/enneagram-type-7-enthusiast",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-job-interviews": {
+    title: "Personality Tests for Job Interviews: What Employers Look For and How to Prepare",
+    description:
+      "How personality tests are used in job interviews, what employers actually measure, how to prepare, and what your results mean. Not a pass-or-fail test — a fit assessment.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-job-interviews",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-college-students": {
+    title: "Personality Tests for College Students: Choose Majors, Careers, and Relationships Wisely",
+    description:
+      "How college students can use personality tests to pick a major, find internships that fit, understand study habits, and build self-awareness before entering the workforce.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-college-students",
+    ogType: "article",
+  },
+  "/blog/disc-personality-in-the-workplace": {
+    title: "DISC in the Workplace: How to Use DISC Profiles to Improve Teams, Communication, and Culture",
+    description:
+      "How DISC personality profiles improve workplace communication, team dynamics, leadership, and hiring. Practical guide for using DISC in professional settings.",
+    canonicalUrl: "https://1test.me/blog/disc-personality-in-the-workplace",
     ogType: "article",
   },
 };
@@ -2102,6 +2144,30 @@ const BODY_CONTENT = {
       { heading: "What Defines a Type 7", text: "Type 7s are driven by the need for varied, exciting experiences. They are enthusiastic, optimistic, quick-thinking, and versatile — always with a new idea or adventure. The core motivation is to experience life fully and avoid pain and limitation. The core fear is being trapped in emotional pain, deprivation, or boredom. This creates a powerful drive for possibility that produces extraordinary creativity when healthy, and scattered avoidance when overdriven." },
       { heading: "Growth Direction: Moving Toward Type 5", text: "When healthy, Type 7s integrate Type 5 (Investigator) qualities: focus, depth, and comfort with solitude. Growth practices include finishing before starting new projects, sitting with discomfort instead of escaping it, going deep on one interest for 90 days, and saying no to new commitments by auditing and cutting existing ones in half." },
       { heading: "Stress Direction and Key Relationships", text: "Under stress, Type 7s disintegrate toward Type 1 (Reformer) — becoming critical, perfectionistic, and rigid. In relationships, Type 7s bring fun and spontaneity but may avoid difficult conversations and emotional depth. At work, Type 7s excel at ideation and rapid learning but struggle with follow-through and overcommitment. Growth means building completion habits and staying present in hard conversations rather than redirecting to fun." },
+    ],
+  },
+  "/blog/personality-test-for-job-interviews": {
+    h1: "Personality Tests in Job Interviews: What Employers Measure and How to Prepare",
+    sections: [
+      { heading: "How Employers Use Personality Tests", text: "Personality tests in hiring are not about passing or failing — they are about fit. Employers use them to understand how a candidate is likely to communicate, handle pressure, collaborate, and approach work. Common frameworks include DISC (communication and behavioral style), 16 Personalities (cognitive preferences), and Strengths (natural talents). A recent SHRM survey found roughly 18% of employers use personality assessments in hiring, with higher adoption in mid-size and large organizations." },
+      { heading: "What Employers Actually Measure", text: "Employers are not looking for a specific type. They assess alignment between your natural tendencies and role demands: communication style (direct vs. diplomatic), conflict approach, decision-making style (data-driven vs. intuitive), stress response, and teamwork preference (collaborative vs. independent). No dimension is universally better — different roles need different profiles." },
+      { heading: "How to Prepare Without Gaming the Test", text: "The best preparation is self-awareness, not trying to guess what the employer wants. Most validated assessments have consistency checks, so gaming the test produces unreliable results. Better approach: take a personality test beforehand to know your profile, understand your blind spots, prepare examples for each dimension, and answer honestly. Authentic answers help both you and the employer assess genuine fit." },
+    ],
+  },
+  "/blog/personality-test-for-college-students": {
+    h1: "Personality Tests for College Students: Choosing majors, careers, and study strategies",
+    sections: [
+      { heading: "Why Personality Matters in College", text: "College is the first time many people get to choose their own path. Personality tests give you a framework for understanding your natural preferences before committing to a direction. Research on person-environment fit shows that alignment between personality and academic environment predicts satisfaction, persistence, and performance (Tracey and Robbins, 2006). A student whose personality matches their major is more likely to finish and feel good about it." },
+      { heading: "Choosing a Major That Fits Your Type", text: "Your personality type tells you which academic environments will energize you. Thinking-preference students thrive in analytical, logic-driven environments. Feeling-preference students thrive in people-centered, values-driven environments. Judging-preference students prefer structured curricula with clear deadlines. Perceiving-preference students prefer flexible curricula with open-ended exploration. Combining all four preference dimensions gives a specific picture of your ideal academic environment." },
+      { heading: "Study Strategies and Career Direction", text: "Your DISC style affects how you learn best: D styles learn through challenge and competition, I styles through discussion and teaching, S styles through consistency and methodical review, C styles through deep analysis and detail. Your personality data also helps filter internship and career opportunities — matching your natural work style preferences to role demands gives you an advantage most students lack." },
+    ],
+  },
+  "/blog/disc-personality-in-the-workplace": {
+    h1: "DISC in the Workplace: Using Behavioral Profiles to Build Better Teams",
+    sections: [
+      { heading: "Why DISC Works in Professional Settings", text: "DISC is the most widely used behavioral assessment in workplace settings because it measures observable behavior — not inner psychology. This makes it practical, easy to understand, and immediately actionable. Teams can learn DISC in an hour and start applying it the same day. Research shows that behavioral diversity predicts team performance better than demographic diversity alone (Bell et al., 2011). DISC gives teams a vocabulary for this diversity across four dimensions: Dominance, Influence, Steadiness, and Conscientiousness." },
+      { heading: "Communication, Teams, and Leadership by DISC Style", text: "Each DISC style has preferred communication patterns: D styles want the bottom line first, I styles want rapport before business, S styles want predictability and reassurance, C styles want data and logic. In teams, D contributors bring decisiveness, I contributors bring enthusiasm and relationships, S contributors bring reliability and follow-through, C contributors bring accuracy and quality. In leadership, D-style leaders drive results, I-style leaders inspire, S-style leaders build trust, and C-style leaders set standards." },
+      { heading: "Implementing DISC in Your Organization", text: "Start with awareness, not labeling. DISC describes behavioral tendencies, not capability. Make it voluntary and positive. Share results openly so teams can see each other's profiles. Never use DISC for hiring decisions alone — it should inform team composition and communication. Revisit and apply regularly, integrating DISC language into team rituals. Used well, DISC creates teams that communicate more effectively, resolve conflict faster, and leverage their diversity rather than fight it." },
     ],
   },
 };
