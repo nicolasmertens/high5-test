@@ -10116,6 +10116,244 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-16",
   },
+  "personality-test-for-career-counselors": {
+    slug: "personality-test-for-career-counselors",
+    metaTitle: "Personality Tests for Career Counselors: A Framework for Client Guidance",
+    metaDesc:
+      "How career counselors can use personality assessments to guide clients toward better career decisions. Practical frameworks, ethical considerations, and client communication strategies.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-career-counselors",
+    h1: "Personality Tests for Career Counselors: Guiding Clients with Data, Not Labels",
+    sections: [
+      {
+        heading: "Why Personality Data Matters in Career Counseling",
+        html: p("Career counselors work with clients facing some of the most consequential decisions of their lives. Personality assessments give both counselor and client a shared vocabulary for discussing work preferences, strengths, and potential blind spots — replacing vague impressions with structured insight.") +
+          p("Research on person-environment fit consistently shows that alignment between personality and work environment predicts job satisfaction, performance, and retention better than skills assessments alone (Kristof-Brown et al., 2005). Personality data helps counselors go beyond what clients can do and address where they will thrive.") +
+          p("The key is using assessments as one input among many — not as a definitive answer. Tests do not choose careers. They inform conversations that help clients choose better. <a href=\"/free-personality-test\">Take the free personality test</a> to see what the data looks like."),
+      },
+      {
+        heading: "Which Frameworks to Use and Why",
+        html: p("Different assessments serve different counseling needs:") +
+          ul([
+            "<strong>DISC</strong> — best for communication style, team dynamics, and workplace behavior. Ideal when a client needs to understand how they will interact with colleagues, managers, and clients. Quick to take, easy to explain.",
+            "<strong>16 Personalities</strong> — best for cognitive preferences, decision-making style, and work environment fit. Ideal when a client is choosing between career paths with fundamentally different environments (structured vs. flexible, people-oriented vs. data-oriented).",
+            "<strong>Strengths</strong> — best for identifying natural talents and building a career around what clients already do well. Ideal for clients who feel lost or undifferentiated — it gives them a specific list of capabilities to build on.",
+            "<strong>Enneagram</strong> — best for core motivation and growth patterns. Ideal when a client keeps repeating the same career mistakes (e.g., Type 3 chasing prestige over fulfillment, or Type 9 avoiding conflict).",
+          ]) +
+          p("Using multiple frameworks gives you a richer picture. A client's DISC style tells you how they work, their Enneagram type tells you why they work, and their strengths tell you what they do best."),
+      },
+      {
+        heading: "How to Interpret Results With Clients",
+        html: p("Interpreting results with clients requires care. Here is how to make the data useful:") +
+          ol([
+            "<strong>Start with strengths, not deficits.</strong> Clients come to career counseling feeling uncertain. Lead with what the data says they do well. This builds confidence and receptivity for the harder feedback.",
+            "<strong>Use the framework language.</strong> Instead of saying \"you avoid conflict,\" say \"your DISC S style values harmony — this means you may not advocate for yourself in competitive environments.\" Same data, different framing.",
+            "<strong>Connect results to real career examples.</strong> Do not stop at type descriptions. Translate: \"Your combination of high C and Enneagram Type 5 means you will thrive in roles requiring deep analysis and independent work — think data science, actuarial work, or specialized research.\"",
+            "<strong>Avoid prescriptive type-career mapping.</strong> Never say \"Type 3s should be in sales.\" Instead, say \"People with your profile often find fulfillment in roles where achievement is measurable and results are visible. Does that resonate with what energizes you?\"",
+            "<strong>Watch for client bias.</strong> Clients may over-identify with their type (\"I am a Type 4, I cannot do structured work\") or reject results they find unflattering. Both reactions limit the usefulness of the data.",
+          ]) +
+          p("The goal is always to open conversations, not close them. <a href=\"/blog/how-to-use-personality-test-results\">See our guide on using personality test results</a>."),
+      },
+      {
+        heading: "Ethical Considerations and Boundaries",
+        html: p("Career counselors have an ethical obligation to use assessments responsibly:") +
+          ul([
+            "Personality assessments are not diagnostic tools. They measure preferences and tendencies, not ability or potential.",
+            "Never use assessment results to limit a client's options. A high I client can thrive in detail-oriented work if they develop those skills. The data informs; it does not dictate.",
+            "Be transparent about what the test measures and its limitations. No personality test has perfect validity. Share confidence intervals or, at minimum, the framework's general reliability.",
+            "Avoid labeling language. Say \"your profile suggests\" rather than \"you are.\" People are more than their type.",
+            "Always position personality data alongside other inputs: skills, experience, values, market conditions, life circumstances.",
+          ]) +
+          p("The best counselors use personality data as a conversation catalyst, not a conclusion generator."),
+      },
+      {
+        heading: "Building a Client Profile Across Multiple Assessments",
+        html: p("The most effective career counselors use multiple assessments to build a composite picture. Here is a practical framework:") +
+          p("<strong>Step 1: Start with DISC.</strong> It is the fastest to take and easiest to explain. Use it to establish how the client prefers to communicate and what work environments will feel natural.") +
+          p("<strong>Step 2: Add 16 Personalities.</strong> This adds cognitive preferences — how the client processes information and makes decisions. Combined with DISC, you can predict both behavior and thinking style.") +
+          p("<strong>Step 3: Add Strengths.</strong> This shifts the conversation from preferences to capabilities. What does the client naturally do well? This is where career direction starts to crystallize.") +
+          p("<strong>Step 4: Add Enneagram.</strong> This provides motivational depth. Why does the client work? What drives them, what stresses them, what patterns do they repeat? The Enneagram adds the \"why\" layer on top of the \"how\" (DISC), \"what\" (Strengths), and \"who\" (16 Personalities) layers.") +
+          p("With all four frameworks, you have a multi-dimensional client profile that most career counselors never achieve. And your clients get the benefit of seeing themselves from four different angles, which produces better career decisions than any single framework alone. <a href=\"/free-personality-test\">Take the free test</a>."),
+      },
+    ],
+    faqs: [
+      { question: "Are personality tests validated for career counseling?", answer: "Yes, frameworks like DISC and IPIP-based assessments (which 1Test uses) have substantial validation evidence for workplace and career applications. However, validation is framework-specific — always check the evidence base for the assessment you use." },
+      { question: "Should I recommend a specific career based on test results?", answer: "No. Use test results to expand a client's options, not narrow them. Results suggest environments where a client may thrive, not specific jobs they should pursue. The client's values, skills, and life circumstances are equally important inputs." },
+      { question: "Which test should career counselors use first?", answer: "DISC is the most accessible starting point — quick to take, easy to explain, immediately actionable. Then layer on Strengths and 16 Personalities for depth. The Enneagram adds motivational insight for clients who want it." },
+      { question: "How do I handle clients who reject their results?", answer: "Explore why. Sometimes the assessment is wrong — no test is perfect. Sometimes the client is rejecting an uncomfortable truth. Ask what specifically feels off and use that as a conversation catalyst. Results are a starting point, not an endpoint." },
+      { question: "Can I use personality tests with clients who are changing careers?", answer: "Career transitions are one of the most useful applications. Personality data helps identify which parts of a client's previous career were aligned with their type (and should be replicated) and which were not (and should be avoided in the next phase)." },
+    ],
+    ctaHeading: "Give your clients the full picture",
+    ctaSubtext: "Free personality test — DISC, Enneagram, Strengths, and 16 Personalities. Four frameworks, one complete profile.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "Personality test for career change", url: "/blog/personality-test-for-career-change" },
+      { label: "How to use personality test results", url: "/blog/how-to-use-personality-test-results" },
+      { label: "Personality test for hiring", url: "/blog/personality-test-for-hiring" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "personality-test-for-couples-counseling": {
+    slug: "personality-test-for-couples-counseling",
+    metaTitle: "Personality Tests in Couples Counseling: Using Assessments to Improve Communication",
+    metaDesc:
+      "How couples counselors can use personality assessments to help partners understand each other. Practical frameworks, session strategies, and ethical considerations.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-couples-counseling",
+    h1: "Personality Tests in Couples Counseling: Helping Partners Understand Each Other",
+    sections: [
+      {
+        heading: "The Role of Personality Data in Couples Work",
+        html: p("Couples counselors spend a significant portion of sessions helping partners understand that their differences are real, not wrong. Personality assessments provide an external, validated framework for this conversation — moving discussions from \"you always do this\" to \"your DISC style naturally prioritizes X, while your partner's style prioritizes Y.\"") +
+          p("This reframing is powerful because it replaces blame with understanding. When a partner sees that their spouse's need for structure is a DISC C preference rather than \"controlling behavior,\" the conversation shifts from accusation to adaptation. Research on couples therapy effectiveness consistently shows that shifting from blame to understanding predicts better outcomes (Gottman and Silver, 2015).") +
+          p("Important: personality tests in couples counseling are conversation tools, not diagnostic instruments. They support the therapeutic process; they do not replace it. <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "Using DISC to Decode Communication Patterns",
+        html: p("DISC is the most immediately useful framework for couples work because it measures observable behavior — how partners communicate, make decisions, and handle conflict. Here is how each style shows up in relationships:") +
+          p("<strong>High D partners</strong> are direct, decisive, and results-oriented. They may come across as impatient or controlling. Their growth edge: slowing down, listening, and validating their partner's feelings before moving to solutions.") +
+          p("<strong>High I partners</strong> are enthusiastic, social, and expressive. They may come across as unfocused or oversimplified. Their growth edge: following through, staying present in hard conversations rather than deflecting with humor, and honoring their partner's need for depth.") +
+          p("<strong>High S partners</strong> are patient, supportive, and reliable. They may come across as avoidant or passive. Their growth edge: initiating difficult conversations, stating their needs directly, and being willing to disrupt harmony when something needs to be addressed.") +
+          p("<strong>High C partners</strong> are analytical, accurate, and systematic. They may come across as critical or emotionally distant. Their growth edge: leading with empathy before analysis, accepting good-enough solutions, and recognizing that their partner's emotional experience is valid even when it is not logical.") +
+          p("Most conflicts are not about the content — they are about style. DISC helps couples see this. <a href=\"/free-disc-test\">Take the free DISC test</a>."),
+      },
+      {
+        heading: "Using Enneagram to Understand Core Motivations",
+        html: p("While DISC explains how partners behave, the Enneagram explains why. This is valuable in couples counseling because many recurring arguments are not about surface behavior — they are about unmet core needs.") +
+          p("Common dynamics:") +
+          ul([
+            "<strong>Type 3 + Type 4:</strong> achiever + individualist. 3 wants results and recognition. 4 wants emotional depth and authenticity. 3 may feel 4 is self-indulgent. 4 may feel 3 is superficial.",
+            "<strong>Type 6 + Type 7:</strong> loyalist + enthusiast. 6 wants security and certainty. 7 wants variety and possibility. 6 may feel 7 is irresponsible. 7 may feel 6 is anxious and limiting.",
+            "<strong>Type 1 + Type 9:</strong> reformer + peacemaker. 1 wants improvement and integrity. 9 wants harmony and comfort. 1 may feel 9 is lazy. 9 may feel 1 is critical and rigid.",
+          ]) +
+          p("The Enneagram gives each partner compassion for the other's core motivation. When a Type 6 partner understands that their Type 7 spouse is not being careless but is seeking stimulation to manage their own anxiety, the conflict pattern loosens. <a href=\"/free-enneagram-test\">Take the free Enneagram test</a>."),
+      },
+      {
+        heading: "Practical Session Strategies",
+        html: p("Here is how to integrate personality assessments into couples counseling sessions:") +
+          ol([
+            "<strong>Have both partners take assessments independently.</strong> Do not have them take tests together — you want honest results, not social desirability bias. Use the same framework for both partners so you can compare directly.",
+            "<strong>Present results side by side.</strong> Show both profiles simultaneously. This makes similarities and differences visible and objective, reducing the \"it is just you\" dynamic.",
+            "<strong>Start with strengths.</strong> Before discussing differences, highlight what each partner brings. High D brings decisiveness. High S brings stability. Type 3 brings achievement. Type 9 brings calm. Every style has relational gifts.",
+            "<strong>Map conflict patterns to style differences.</strong> When a couple describes their recurring argument, translate it into style language. \"What you are describing is a D style need for quick resolution meeting an S style need to process slowly. Neither is wrong — you are on different timelines.\"",
+            "<strong>Assign homework based on style.</strong> Give each partner a specific exercise that builds their growth edge. High D: practice asking your partner for input before deciding. High S: practice bringing up one concern within 24 hours instead of sitting on it.",
+          ]) +
+          p("The goal is always mutual understanding, not one partner adapting to the other. Both partners grow."),
+      },
+      {
+        heading: "Ethical Considerations for Counselors",
+        html: p("Important boundaries for using personality assessments in couples work:") +
+          ul([
+            "Personality assessments are not diagnostic tools. They measure behavioral tendencies and preferences, not psychopathology.",
+            "Never use test results to validate one partner's position over the other. The data is a bridge, not a weapon.",
+            "Be careful with pathologizing language. Do not say \"your Type makes you bad at X.\" Say \"your profile suggests you may need to work harder at X.\"",
+            "If one partner weaponizes results (\"the test says you are wrong\"), address this directly. The assessment is a tool for understanding, not ammunition.",
+            "Personality data does not excuse harmful behavior. A high D style does not justify controlling behavior. A high S style does not justify chronic avoidance. Style explains tendency — it does not excuse damage.",
+          ]) +
+          p("Used well, personality assessments accelerate the understanding that takes months of traditional therapy to achieve. Used poorly, they entrench the blame dynamic they are meant to dissolve. The difference is in how the counselor frames and facilitates the conversation. <a href=\"/blog/personality-test-for-couples\">See our couples personality test guide</a>."),
+      },
+    ],
+    faqs: [
+      { question: "Are personality tests appropriate for couples counseling?", answer: "Yes, as conversation tools. They help partners understand behavioral differences and core motivations. They are not diagnostic instruments and should support, not replace, the therapeutic process." },
+      { question: "Which framework works best for couples?", answer: "DISC is the most immediately useful for understanding communication and conflict patterns. The Enneagram adds depth by explaining core motivations. Using both gives a richer picture than either alone." },
+      { question: "What if partners get different personality types?", answer: "Different types are normal and often complementary. The goal is not for partners to match but for them to understand each other's natural tendencies and adapt accordingly." },
+      { question: "Can personality tests predict relationship success?", answer: "No. Personality data shows communication patterns and potential friction points, but relationship success depends on many factors including values, commitment, emotional maturity, and willingness to grow. Personality is one input, not a predictor." },
+      { question: "How do I handle a partner who rejects their results?", answer: "Explore why. Sometimes the test is inaccurate — no assessment is perfect. Sometimes the partner is resisting an uncomfortable insight. Use the rejection as a conversation catalyst rather than evidence." },
+    ],
+    ctaHeading: "Help couples understand each other",
+    ctaSubtext: "Free personality test — DISC for communication patterns, Enneagram for core motivations. Both partners, one shared framework.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "Personality test for couples", url: "/blog/personality-test-for-couples" },
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "strengths-swot-analysis": {
+    slug: "strengths-swot-analysis",
+    metaTitle: "Strengths SWOT Analysis: Using Personality Data to Map Your Opportunities and Threats",
+    metaDesc:
+      "How to use your personality strengths to build a personal SWOT analysis. Practical framework combining strengths assessment with strategic planning for career and personal growth.",
+    canonicalUrl: "https://1test.me/blog/strengths-swot-analysis",
+    h1: "Strengths SWOT Analysis: Turning What You Do Best into a Strategic Advantage",
+    sections: [
+      {
+        heading: "What Is a Strengths SWOT Analysis?",
+        html: p("A traditional SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) is a business strategy tool. A Strengths SWOT applies the same framework to your individual personality profile — using your strengths assessment data to identify what you do well, where you struggle, where your strengths create opportunities, and what threats your blind spots create.") +
+          p("The key insight: your personality profile does not just tell you what you are good at. It tells you where your strengths become blind spots, where your natural style creates unexpected advantages, and which environments will amplify or diminish your capabilities. This is more useful than a simple list of strengths.") +
+          p("<a href=\"/free-strengths-test\">Take the free Strengths test</a> to get your profile, then build your SWOT below."),
+      },
+      {
+        heading: "Strengths: What Your Profile Says You Do Best",
+        html: p("Your strengths assessment identifies the capabilities that come naturally to you — the things you do well without excessive effort. These are your SWOT Strengths. The important nuance is that your top strengths are not just things you are good at; they are things you are good at that also energize you.") +
+          p("How to map your strengths to your SWOT:") +
+          ul([
+            "<strong>Review your top 5 strengths.</strong> These are your natural advantages. Write them in the Strengths column.",
+            "<strong>Contextualize each strength.</strong> \"Analytical thinking\" means different things in different roles. In data science, it is a core competency. In sales, it may be less directly relevant but still valuable for understanding patterns in client behavior.",
+            "<strong>Ask: where have I been praised for this?</strong> Real-world feedback validates your profile. If people consistently compliment your strategic thinking, your Strategic strength is confirmed and should feature prominently in your Strengths column.",
+          ]) +
+          p("Your Strengths are the foundation of your SWOT. Everything else flows from understanding what you naturally do well. <a href=\"/blog/strengths-and-weaknesses-guide\">See our strengths and weaknesses guide</a>."),
+      },
+      {
+        heading: "Weaknesses: Where Your Strengths Become Blind Spots",
+        html: p("In a Strengths SWOT, weaknesses are not random things you are bad at — they are the flip side of your strengths. Every strength has a corresponding overuse risk:") +
+          ul([
+            "<strong>Strategic thinkers</strong> may overthink and delay action.",
+            "<strong>Empathetic collaborators</strong> may avoid necessary conflict.",
+            "<strong>Driven achievers</strong> may rush past important nuance.",
+            "<strong>Detail-oriented analysts</strong> may get stuck in perfectionism.",
+            "<strong>Enthusiastic visionaries</strong> may under-deliver on execution.",
+          ]) +
+          p("Your weaknesses are not flaws — they are the natural cost of your strengths. A Strengths SWOT does not ask you to fix your weaknesses (a losing game). It asks you to manage them by building systems, partnerships, and habits that compensate.") +
+          p("Practical approach: for each item in your Weaknesses column, ask: \"Can I delegate this, automate it, or build a habit that covers it?\" You will not turn weaknesses into strengths. You will make them manageable. <a href=\"/blog/personality-test-for-self-confidence\">See our self-confidence guide</a>."),
+      },
+      {
+        heading: "Opportunities: Where Your Strengths Meet Unmet Needs",
+        html: p("Opportunities in a Strengths SWOT are situations where your natural strengths are in demand and supply is limited. This is where personality data meets market reality.") +
+          p("How to identify opportunities:") +
+          ul([
+            "<strong>Look for mismatches between your strengths and your current role.</strong> If your Strengths profile is high in Strategic and Ideation but you are in an execution-heavy role, you have an opportunity to move toward strategy, product, or advisory roles.",
+            "<strong>Scan for growing fields that match your profile.</strong> Data-driven decision-making, remote team leadership, cross-functional collaboration — these are growing needs that match specific strength profiles.",
+            "<strong>Ask: what do people come to me for?</strong> Your colleagues' requests reveal your strengths in action. If people consistently ask you to mediate conflicts, your Relator strength is a marketable skill.",
+            "<strong>Combine strengths for unique positioning.</strong> Individual strengths are common. Combinations are rare. Strategic + Empathy + Communication is a rare combination that creates unique opportunities in coaching, consulting, and leadership.",
+          ]) +
+          p("The best opportunities sit at the intersection of what you do well, what the market needs, and what most people cannot do easily. <a href=\"/blog/strengths-for-career\">See strengths for career guide</a>."),
+      },
+      {
+        heading: "Threats: Where Your Blind Spots Meet Real Risks",
+        html: p("Threats in a Strengths SWOT are situations where your weaknesses are activated and the stakes are high. These are not hypothetical concerns — they are specific, observable risks that your profile makes you vulnerable to:") +
+          ul([
+            "<strong>High Achievers (Type 3, high D)</strong> — threat: burnout from relentless goal pursuit. Mitigation: schedule recovery time and measure non-achievement metrics (relationships, health, learning).",
+            "<strong>Deep Thinkers (Type 5, high C)</strong> — threat: invisibility in organizations that reward self-promotion. Mitigation: build a visibility practice. Share your thinking in progress, not just finished work.",
+            "<strong>Empathetic Givers (Type 2, high S)</strong> — threat: boundary erosion and resentment from over-giving. Mitigation: define what you will and will not do before the need arises.",
+            "<strong>Creative Visionaries (Type 7, high I)</strong> — threat: scattered effort and missed deadlines. Mitigation: use accountability systems and commit to outcomes before starting new projects.",
+          ]) +
+          p("Your Strengths SWOT should include at least 2-3 specific threats with concrete mitigation strategies. This is not pessimism — it is realistic preparation.") +
+          p("The complete Strengths SWOT framework gives you a strategic map of your career that most people never build. Start with your strengths, understand your blind spots, identify where your profile creates unique opportunities, and prepare for the threats your profile makes you vulnerable to. <a href=\"/free-strengths-test\">Take the free Strengths test</a> to begin."),
+      },
+    ],
+    faqs: [
+      { question: "Is a Strengths SWOT different from a regular SWOT?", answer: "Yes. A regular SWOT is a general strategic analysis. A Strengths SWOT uses your personality assessment data to fill in each quadrant, making the analysis specific to your profile rather than generic." },
+      { question: "Which personality test should I use for a Strengths SWOT?", answer: "A strengths assessment is the most direct input. Adding DISC (behavioral style) and Enneagram (core motivation) gives you a richer picture for the weaknesses and threats quadrants." },
+      { question: "Should I try to fix my weaknesses?", answer: "No. The research-backed approach is to manage weaknesses so they do not derail you, then invest in amplifying your strengths. Weakness management is about building compensating systems, not reversing your natural tendencies." },
+      { question: "How often should I update my Strengths SWOT?", answer: "Annually or when you change roles. Your strengths profile is relatively stable, but your opportunities and threats shift with your career stage, industry, and market conditions." },
+      { question: "Can I do a Strengths SWOT for my team?", answer: "Yes. Map each team member's top strengths, identify collective weaknesses, look for opportunities where the team's combined strengths match market needs, and identify threats where the team's blind spots overlap. This is one of the highest-value team exercises you can run." },
+    ],
+    ctaHeading: "Build your Strengths SWOT",
+    ctaSubtext: "Free Strengths test — identify your top strengths, then map them to opportunities and threats.",
+    ctaFramework: "strengths",
+    ctaUrl: "/free-strengths-test",
+    crossLinks: [
+      { label: "Free Strengths test", url: "/free-strengths-test" },
+      { label: "Strengths and weaknesses guide", url: "/blog/strengths-and-weaknesses-guide" },
+      { label: "Strengths for career", url: "/blog/strengths-for-career" },
+      { label: "Personality test for personal growth", url: "/blog/personality-test-for-personal-growth" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

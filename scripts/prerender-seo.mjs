@@ -742,6 +742,27 @@ const BLOG_FAQS = {
     { question: "Should DISC be used in hiring?", answer: "DISC can inform team composition and communication preferences in the context of hiring, but it should never be the sole factor. A candidate's DISC style is one data point about how they might prefer to work, not a measure of ability." },
     { question: "How is DISC different from 16 Personalities?", answer: "DISC measures observable behavior — how you act and communicate. 16 Personalities measures cognitive preferences — how you think and process information. They complement each other. DISC is more actionable for communication; 16 Personalities gives deeper insight into decision-making and motivation." },
   ],
+  "/blog/personality-test-for-career-counselors": [
+    { question: "Are personality tests validated for career counseling?", answer: "Yes, frameworks like DISC and IPIP-based assessments have substantial validation evidence for workplace and career applications. However, validation is framework-specific — always check the evidence base for the assessment you use." },
+    { question: "Should I recommend a specific career based on test results?", answer: "No. Use test results to expand a client's options, not narrow them. Results suggest environments where a client may thrive, not specific jobs they should pursue. Values, skills, and life circumstances are equally important inputs." },
+    { question: "Which test should career counselors use first?", answer: "DISC is the most accessible starting point — quick to take, easy to explain, immediately actionable. Then layer on Strengths and 16 Personalities for depth. The Enneagram adds motivational insight for clients who want it." },
+    { question: "How do I handle clients who reject their results?", answer: "Explore why. Sometimes the assessment is wrong — no test is perfect. Sometimes the client is rejecting an uncomfortable insight. Ask what specifically feels off and use that as a conversation catalyst." },
+    { question: "Can I use personality tests with clients who are changing careers?", answer: "Career transitions are one of the most useful applications. Personality data helps identify which parts of a client's previous career were aligned with their type and which were not, guiding better choices for the next phase." },
+  ],
+  "/blog/personality-test-for-couples-counseling": [
+    { question: "Are personality tests appropriate for couples counseling?", answer: "Yes, as conversation tools. They help partners understand behavioral differences and core motivations. They are not diagnostic instruments and should support, not replace, the therapeutic process." },
+    { question: "Which framework works best for couples?", answer: "DISC is the most immediately useful for understanding communication and conflict patterns. The Enneagram adds depth by explaining core motivations. Using both gives a richer picture than either alone." },
+    { question: "What if partners get different personality types?", answer: "Different types are normal and often complementary. The goal is not for partners to match but for them to understand each other's natural tendencies and adapt accordingly." },
+    { question: "Can personality tests predict relationship success?", answer: "No. Personality data shows communication patterns and potential friction points, but relationship success depends on many factors including values, commitment, and willingness to grow. Personality is one input, not a predictor." },
+    { question: "How do I handle a partner who rejects their results?", answer: "Explore why. Sometimes the test is inaccurate — no assessment is perfect. Sometimes the partner is resisting an uncomfortable insight. Use the rejection as a conversation catalyst rather than evidence." },
+  ],
+  "/blog/strengths-swot-analysis": [
+    { question: "Is a Strengths SWOT different from a regular SWOT?", answer: "Yes. A regular SWOT is a general strategic analysis. A Strengths SWOT uses your personality assessment data to fill in each quadrant, making the analysis specific to your profile rather than generic." },
+    { question: "Which personality test should I use for a Strengths SWOT?", answer: "A strengths assessment is the most direct input. Adding DISC (behavioral style) and Enneagram (core motivation) gives you a richer picture for the weaknesses and threats quadrants." },
+    { question: "Should I try to fix my weaknesses?", answer: "No. The research-backed approach is to manage weaknesses so they do not derail you, then invest in amplifying your strengths. Weakness management is about building compensating systems, not reversing your natural tendencies." },
+    { question: "How often should I update my Strengths SWOT?", answer: "Annually or when you change roles. Your strengths profile is relatively stable, but your opportunities and threats shift with your career stage, industry, and market conditions." },
+    { question: "Can I do a Strengths SWOT for my team?", answer: "Yes. Map each team member's top strengths, identify collective weaknesses, look for opportunities where the team's combined strengths match market needs, and identify threats where the team's blind spots overlap. This is one of the highest-value team exercises you can run." },
+  ],
 };
 
 const SEO_DATA = {
@@ -1394,6 +1415,27 @@ const SEO_DATA = {
     description:
       "How DISC personality profiles improve workplace communication, team dynamics, leadership, and hiring. Practical guide for using DISC in professional settings.",
     canonicalUrl: "https://1test.me/blog/disc-personality-in-the-workplace",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-career-counselors": {
+    title: "Personality Tests for Career Counselors: A Framework for Client Guidance",
+    description:
+      "How career counselors can use personality assessments to guide clients toward better career decisions. Practical frameworks, ethical considerations, and client communication strategies.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-career-counselors",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-couples-counseling": {
+    title: "Personality Tests in Couples Counseling: Using Assessments to Improve Communication",
+    description:
+      "How couples counselors can use personality assessments to help partners understand each other. Practical frameworks, session strategies, and ethical considerations.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-couples-counseling",
+    ogType: "article",
+  },
+  "/blog/strengths-swot-analysis": {
+    title: "Strengths SWOT Analysis: Using Personality Data to Map Your Opportunities and Threats",
+    description:
+      "How to use your personality strengths to build a personal SWOT analysis. Practical framework combining strengths assessment with strategic planning for career and personal growth.",
+    canonicalUrl: "https://1test.me/blog/strengths-swot-analysis",
     ogType: "article",
   },
 };
@@ -2168,6 +2210,30 @@ const BODY_CONTENT = {
       { heading: "Why DISC Works in Professional Settings", text: "DISC is the most widely used behavioral assessment in workplace settings because it measures observable behavior — not inner psychology. This makes it practical, easy to understand, and immediately actionable. Teams can learn DISC in an hour and start applying it the same day. Research shows that behavioral diversity predicts team performance better than demographic diversity alone (Bell et al., 2011). DISC gives teams a vocabulary for this diversity across four dimensions: Dominance, Influence, Steadiness, and Conscientiousness." },
       { heading: "Communication, Teams, and Leadership by DISC Style", text: "Each DISC style has preferred communication patterns: D styles want the bottom line first, I styles want rapport before business, S styles want predictability and reassurance, C styles want data and logic. In teams, D contributors bring decisiveness, I contributors bring enthusiasm and relationships, S contributors bring reliability and follow-through, C contributors bring accuracy and quality. In leadership, D-style leaders drive results, I-style leaders inspire, S-style leaders build trust, and C-style leaders set standards." },
       { heading: "Implementing DISC in Your Organization", text: "Start with awareness, not labeling. DISC describes behavioral tendencies, not capability. Make it voluntary and positive. Share results openly so teams can see each other's profiles. Never use DISC for hiring decisions alone — it should inform team composition and communication. Revisit and apply regularly, integrating DISC language into team rituals. Used well, DISC creates teams that communicate more effectively, resolve conflict faster, and leverage their diversity rather than fight it." },
+    ],
+  },
+  "/blog/personality-test-for-career-counselors": {
+    h1: "Personality Tests for Career Counselors: Guiding Clients with Data, Not Labels",
+    sections: [
+      { heading: "Why Personality Data Matters in Career Counseling", text: "Career counselors work with clients facing consequential decisions. Personality assessments give both counselor and client a shared vocabulary for discussing work preferences, strengths, and potential blind spots — replacing vague impressions with structured insight. Research on person-environment fit shows that alignment between personality and work environment predicts satisfaction and performance better than skills assessments alone (Kristof-Brown et al., 2005)." },
+      { heading: "Which Frameworks to Use and How to Interpret Results", text: "Different assessments serve different counseling needs. DISC is best for communication style and team dynamics. 16 Personalities is best for cognitive preferences and work environment fit. Strengths is best for identifying natural talents and building around capabilities. Enneagram is best for core motivation and growth patterns. Using multiple frameworks gives a richer picture — DISC tells you how, Strengths tells you what, Enneagram tells you why." },
+      { heading: "Ethical Considerations and Building Client Profiles", text: "Never use assessments to limit options or validate one partner over another. Lead with strengths, use framework language, and connect results to real career examples. Build a composite profile across multiple assessments: DISC for behavior, 16 Personalities for thinking style, Strengths for capabilities, Enneagram for motivation. This multi-dimensional approach produces better career decisions than any single framework alone." },
+    ],
+  },
+  "/blog/personality-test-for-couples-counseling": {
+    h1: "Personality Tests in Couples Counseling: Helping Partners Understand Each Other",
+    sections: [
+      { heading: "The Role of Personality Data in Couples Work", text: "Couples counselors spend significant time helping partners understand that their differences are real, not wrong. Personality assessments provide an external, validated framework for this conversation — moving discussions from blame to understanding. When a partner sees that their spouse's need for structure is a DISC C preference rather than controlling behavior, the conversation shifts from accusation to adaptation." },
+      { heading: "Using DISC and Enneagram in Sessions", text: "DISC explains how partners behave — communication style, conflict approach, decision-making speed. The Enneagram explains why — core motivations, stress patterns, growth directions. Common conflict patterns map directly to style differences. DISC gives couples behavioral strategies. The Enneagram gives them compassion for each other's core drives. Using both is more powerful than either alone." },
+      { heading: "Practical Session Strategies and Ethics", text: "Have both partners take assessments independently, present results side by side, start with strengths, map conflict patterns to style differences, and assign homework based on each partner's growth edge. Ethical boundaries: never use results to validate one partner over the other, avoid pathologizing language, and remember that personality does not excuse harmful behavior. The counselor's framing determines whether assessments accelerate understanding or entrench blame." },
+    ],
+  },
+  "/blog/strengths-swot-analysis": {
+    h1: "Strengths SWOT Analysis: Turning What You Do Best into a Strategic Advantage",
+    sections: [
+      { heading: "What Is a Strengths SWOT Analysis?", text: "A traditional SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) is a business strategy tool. A Strengths SWOT applies the same framework to your individual personality profile — using your strengths assessment data to identify what you do well, where you struggle, where your strengths create opportunities, and what threats your blind spots create. Your personality profile does not just tell you what you are good at; it tells you where your strengths become blind spots and which environments amplify or diminish your capabilities." },
+      { heading: "Mapping Your Strengths and Weaknesses", text: "Your strengths assessment identifies capabilities that come naturally and energize you. In the Weaknesses quadrant, every strength has a corresponding overuse risk: strategic thinkers may overthink, empathetic collaborators may avoid conflict, driven achievers may rush past nuance, detail-oriented analysts may get stuck in perfectionism, and enthusiastic visionaries may under-deliver on execution. Your weaknesses are not flaws — they are the natural cost of your strengths. The approach is to manage them through systems and partnerships, not to fix them." },
+      { heading: "Identifying Opportunities and Threats", text: "Opportunities are situations where your natural strengths are in demand and supply is limited — mismatches between your current role and your profile, growing fields that match your strengths, and unique combinations of strengths that create rare positioning. Threats are situations where your weaknesses are activated at high stakes: high achievers face burnout, deep thinkers face invisibility, empathetic givers face boundary erosion, and creative visionaries face scattered effort. Your Strengths SWOT should include 2-3 specific threats with concrete mitigation strategies." },
     ],
   },
 };
