@@ -5922,6 +5922,211 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-16",
   },
+  "personality-test-for-students": {
+    slug: "personality-test-for-students",
+    metaTitle: "Personality Test for Students: Finding Your Path After Graduation",
+    metaDesc:
+      "How college and high school students can use personality tests to choose majors, plan careers, and build self-awareness. Practical guide covering DISC, Enneagram, 16 Personalities, and Strengths.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-students",
+    h1: "Personality Test for Students: Finding Your Path After Graduation",
+    sections: [
+      {
+        heading: "Why Students Should Take Personality Tests",
+        html: p("You are about to make one of the most expensive decisions of your life: what to study and where to work. Most students base this on parents' advice, salary projections, or what friends are doing. Personality tests give you a different input: self-knowledge.") +
+          p('<a href="/free-personality-test">Take the free personality test</a> — all four frameworks, complete results.'),
+      },
+      {
+        heading: "DISC: Choosing Your Work Environment",
+        html: p("<strong>High D students</strong> thrive in competitive, fast-paced environments — startups, sales, entrepreneurship.") +
+          p("<strong>High I students</strong> thrive in collaborative, social environments — marketing, consulting, media.") +
+          p("<strong>High S students</strong> thrive in stable, supportive environments — healthcare, education, operations.") +
+          p("<strong>High C students</strong> thrive in analytical, detail-oriented environments — engineering, research, finance, law.") +
+          p('<a href="/free-disc-test">Take the free DISC test</a> to discover your work style.'),
+      },
+      {
+        heading: "16 Personalities: Choosing Your Major",
+        html: p("Introverts often prefer independent study — research, writing, programming. Extroverts prefer group work — business, communications, teaching.") +
+          p("Sensing types prefer practical applications — engineering, nursing, accounting. Intuitive types prefer theory — philosophy, entrepreneurship, creative fields.") +
+          p("Thinking types prefer logic — computer science, economics, law. Feeling types prefer human impact — social work, education, public health.") +
+          p("No preference locks you into or out of any field. These are patterns, not rules.") +
+          p('<a href="/free-16-personalities-test">Take the free 16 Personalities test</a> to find your type.'),
+      },
+      {
+        heading: "Enneagram: Understanding Your Motivation",
+        html: p("The Enneagram explains why you are drawn to certain paths:") +
+          ul([
+            "Type 1: drawn to fields with clear standards and ethics",
+            "Type 2: drawn to helping professions — healthcare, education",
+            "Type 3: drawn to competitive, status-oriented fields — business, law",
+            "Type 4: drawn to creative, self-expressive fields — art, writing, design",
+            "Type 5: drawn to knowledge-intensive fields — research, technology",
+            "Type 7: drawn to varied, exciting fields — entrepreneurship, media",
+          ]) +
+          p('<a href="/free-enneagram-test">Take the free Enneagram test</a> to discover your motivation.'),
+      },
+      {
+        heading: "Strengths: Identifying Natural Talents",
+        html: p("A strengths assessment tells you what you do effortlessly:") +
+          ol([
+            "Choose projects and electives that use your top strengths",
+            "Stop fixing weaknesses — amplify strengths instead",
+            "Build study groups with complementary strengths",
+            "Talk about your strengths in job interviews",
+          ]) +
+          p('<a href="/free-strengths-test">Take the free Strengths test</a> to identify your natural talents.'),
+      },
+      {
+        heading: "A Student's Action Plan",
+        html: ol([
+          "Take all four tests with honest answers",
+          "Discuss results with someone who knows you well",
+          "Use results to narrow options, not to decide",
+          "Revisit each semester as your understanding deepens",
+        ]),
+      },
+    ],
+    faqs: [
+      { question: "Can a personality test tell me what to major in?", answer: "No. It tells you about preferences, motivations, and talents. Use this to narrow options and make informed decisions. It is one input alongside interests, skills, and practical considerations." },
+      { question: "Are personality tests accurate for teenagers?", answer: "Results for students aged 16+ are generally reliable for understanding broad preferences. They may shift slightly as you mature — retake every 1-2 years." },
+      { question: "Should I put my personality type on my resume?", answer: "Not directly. Translate results into resume language: 'Thrives in fast-paced environments' instead of 'high-D DISC type.' Use the vocabulary, not the labels." },
+      { question: "What if my type does not match what I am studying?", answer: "Common and not necessarily a problem. The question is whether the mismatch costs you energy. Decide whether the field is worth the energy cost." },
+      { question: "Which test should I take first?", answer: "Start with 16 Personalities for broad overview, then DISC for communication style and Strengths for talents. Or take all four at once on 1Test — free, 15 minutes per framework." },
+    ],
+    ctaHeading: "Start your self-discovery",
+    ctaSubtext: "Free personality test with four frameworks, complete results.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Free Strengths test", url: "/free-strengths-test" },
+      { label: "16 Personalities career guide", url: "/blog/16-personalities-career" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "disc-personality-test-free": {
+    slug: "disc-personality-test-free",
+    metaTitle: "DISC Personality Test Free: Complete Guide to Your Behavioral Style",
+    metaDesc:
+      "Take the free DISC personality test and understand your behavioral style. Learn what DISC measures, how to read your results, and how to apply DISC at work and in relationships.",
+    canonicalUrl: "https://1test.me/blog/disc-personality-test-free",
+    h1: "DISC Personality Test Free: Complete Guide to Your Behavioral Style",
+    sections: [
+      {
+        heading: "What Is the DISC Personality Test?",
+        html: p("DISC measures four dimensions of personality: Dominance, Influence, Steadiness, and Conscientiousness. It describes how you tend to communicate, make decisions, and respond to your environment. Unlike intelligence or clinical tests, DISC measures observable behavior.") +
+          p("The model was developed by William Marston in 1928 and has been used in organizational development for decades.") +
+          p('<a href="/free-disc-test">Take the free DISC test now</a> — complete results, no paywall.'),
+      },
+      {
+        heading: "What DISC Measures",
+        html: p("<strong>Dominance (D):</strong> How you handle problems. High D: direct, decisive, competitive. Low D: cautious, collaborative.") +
+          p("<strong>Influence (I):</strong> How you handle people. High I: outgoing, enthusiastic, optimistic. Low I: reserved, analytical.") +
+          p("<strong>Steadiness (S):</strong> How you handle pace. High S: patient, reliable, calm. Low S: dynamic, flexible.") +
+          p("<strong>Conscientiousness (C):</strong> How you handle procedures. High C: analytical, detail-oriented, systematic. Low C: flexible, big-picture.") +
+          p("Most people have two dominant dimensions. A high D, high I profile is very different from a high D, high C profile."),
+      },
+      {
+        heading: "How to Apply Your DISC Results",
+        html: p("<strong>At work:</strong> Share your profile with your team. Adjust communication to others' styles. Choose matching projects. Build complementary partnerships.") +
+          p("<strong>In relationships:</strong> Understand why your partner communicates differently. Predict friction patterns. Create agreements honoring both styles.") +
+          p("<strong>For growth:</strong> Identify your stress behavior. Practice less-preferred behaviors. Use DISC to understand conflicts objectively."),
+      },
+      {
+        heading: "DISC Compared to Other Frameworks",
+        html: p("DISC measures observable behavior — best for communication and teamwork. <a href=\"/free-enneagram-test\">Enneagram</a> measures core motivation — best for personal growth. <a href=\"/free-16-personalities-test\">16 Personalities</a> measures cognitive preferences — best for career planning. <a href=\"/free-strengths-test\">Strengths</a> measures natural talents — best for role optimization.") +
+          p('For the most complete picture, <a href="/free-personality-test">take all four</a>.'),
+      },
+    ],
+    faqs: [
+      { question: "Is the DISC test really free?", answer: "Yes. 1Test offers a complete DISC assessment with full results at no cost. No paywall, no hidden fees, no email required." },
+      { question: "How long does the DISC test take?", answer: "About 5-8 minutes. You rate how well statements describe you. No right or wrong answers." },
+      { question: "How accurate is the DISC test?", answer: "DISC measures behavioral tendencies accurately for typical professional and social settings. Results may vary slightly depending on mood or context." },
+      { question: "Can my DISC profile change?", answer: "Your core style is relatively stable, but you can develop less-preferred dimensions through practice. Retaking every 1-2 years can show subtle shifts." },
+      { question: "What is the difference between DISC and other tests?", answer: "DISC focuses on behavior (what you do). Enneagram focuses on motivation (why you do it). 16 Personalities focuses on processing (how you think). Strengths focuses on talent (what comes easily)." },
+    ],
+    ctaHeading: "Take the free DISC test",
+    ctaSubtext: "Complete DISC profile with results in 5-8 minutes.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Free Strengths test", url: "/free-strengths-test" },
+      { label: "DISC communication styles", url: "/blog/disc-communication-styles" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "enneagram-test-free-online": {
+    slug: "enneagram-test-free-online",
+    metaTitle: "Free Enneagram Test Online: Discover Your Type and Growth Path",
+    metaDesc:
+      "Take the free Enneagram test online and discover your type, wing, and growth directions. Learn what the Enneagram measures, how to interpret results, and how to use them for personal growth.",
+    canonicalUrl: "https://1test.me/blog/enneagram-test-free-online",
+    h1: "Free Enneagram Test Online: Discover Your Type and Growth Path",
+    sections: [
+      {
+        heading: "What the Enneagram Measures",
+        html: p("The Enneagram identifies nine types, each driven by a core motivation. Unlike behavioral frameworks that describe what you do, the Enneagram describes why you do it. It reveals your core motivation, core fear, growth direction, and stress direction.") +
+          p('<a href="/free-enneagram-test">Take the free Enneagram test now</a> — complete results, no paywall.'),
+      },
+      {
+        heading: "The Nine Enneagram Types",
+        html: p("<strong>Type 1 (Reformer):</strong> Motivated by being right. Fear: being wrong. Growth: toward 7 (spontaneity). Stress: toward 4 (self-critical).") +
+          p("<strong>Type 2 (Helper):</strong> Motivated by being loved. Fear: being unwanted. Growth: toward 4 (authenticity). Stress: toward 8 (controlling).") +
+          p("<strong>Type 3 (Achiever):</strong> Motivated by success. Fear: failing. Growth: toward 6 (cooperation). Stress: toward 9 (apathy).") +
+          p("<strong>Type 4 (Individualist):</strong> Motivated by uniqueness. Fear: insignificance. Growth: toward 1 (discipline). Stress: toward 2 (clingy).") +
+          p("<strong>Type 5 (Investigator):</strong> Motivated by knowledge. Fear: incompetence. Growth: toward 8 (confident action). Stress: toward 7 (scattered).") +
+          p("<strong>Type 6 (Loyalist):</strong> Motivated by security. Fear: being unsupported. Growth: toward 9 (inner calm). Stress: toward 3 (competitive).") +
+          p("<strong>Type 7 (Enthusiast):</strong> Motivated by satisfaction. Fear: deprivation. Growth: toward 5 (focused depth). Stress: toward 1 (critical).") +
+          p("<strong>Type 8 (Challenger):</strong> Motivated by control. Fear: being controlled. Growth: toward 2 (vulnerability). Stress: toward 5 (withdrawn).") +
+          p("<strong>Type 9 (Peacemaker):</strong> Motivated by harmony. Fear: conflict and loss. Growth: toward 3 (decisive action). Stress: toward 6 (anxious)."),
+      },
+      {
+        heading: "How to Interpret Your Results",
+        html: p("<strong>Core type:</strong> Your primary type describing your deepest motivation and fear. Most people recognize it immediately.") +
+          p("<strong>Wing:</strong> The adjacent type that modifies your core. A 3w4 is more creative; a 3w2 is more relational. <a href=\"/blog/enneagram-wings-explained\">Learn about wings</a>.") +
+          p("<strong>Growth and stress directions:</strong> How you behave under healthy versus pressure conditions."),
+      },
+      {
+        heading: "Using the Enneagram for Growth",
+        html: ol([
+          "<strong>Confirm your type.</strong> Read the full description. If it does not fit, check adjacent types.",
+          "<strong>Observe your patterns.</strong> For one week, notice when your core motivation or fear drives behavior.",
+          "<strong>Practice your growth direction.</strong> One behavior from your growth type, daily.",
+          "<strong>Catch your stress pattern.</strong> When moving toward stress, pause and ask: What am I afraid of? What do I need?",
+        ]),
+      },
+      {
+        heading: "The Enneagram in Daily Life",
+        html: p("<strong>At work:</strong> Choose roles aligned with your motivation, manage stress patterns, communicate needs. <a href=\"/blog/enneagram-in-workplace\">Workplace guide</a>.") +
+          p("<strong>In relationships:</strong> Understand why you and your partner react differently. Build empathy for their motivation. <a href=\"/blog/personality-test-for-relationships\">Relationship guide</a>.") +
+          p("<strong>Personal growth:</strong> The deepest self-awareness framework. Reveals unconscious patterns and gives specific growth directions."),
+      },
+      {
+        heading: "Combining With Other Frameworks",
+        html: p('Pair the Enneagram with <a href="/free-disc-test">DISC</a> (behavior), <a href="/free-16-personalities-test">16 Personalities</a> (cognition), and <a href="/free-strengths-test">Strengths</a> (talent). Or <a href="/free-personality-test">take all four at once</a>.'),
+      },
+    ],
+    faqs: [
+      { question: "Is this Enneagram test really free?", answer: "Yes. 1Test offers a complete Enneagram assessment with type, wing tendencies, and growth directions — no cost, no paywall, no email required." },
+      { question: "How long does the test take?", answer: "About 8-12 minutes. You rate how well statements describe you. Answer honestly — no right or wrong answers." },
+      { question: "How accurate is the Enneagram test?", answer: "It describes core motivational patterns that are generally stable throughout adulthood. Results are a strong starting point for self-exploration. If results do not resonate, explore adjacent types." },
+      { question: "Can my Enneagram type change?", answer: "Most teachers believe your core type is stable for life. Your behavior and self-awareness within the type can change significantly — you become a healthier version of your type." },
+      { question: "What if two types seem equally like me?", answer: "Look at core fears and motivations, not just behavior. Your core type is the one whose fear and motivation you recognize at the deepest level." },
+    ],
+    ctaHeading: "Take the free Enneagram test",
+    ctaSubtext: "Discover your type, wing, and growth path. No paywall.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "Enneagram types explained", url: "/blog/enneagram-types-explained" },
+      { label: "Enneagram wings explained", url: "/blog/enneagram-wings-explained" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

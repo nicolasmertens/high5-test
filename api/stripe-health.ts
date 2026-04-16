@@ -21,6 +21,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     try {
       const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
         apiVersion: "2026-03-25.dahlia",
+        timeout: 30000,
       });
       const products = await stripe.products.list({ limit: 1 });
       stripeTest = `ok (${products.data.length} product(s) accessible)`;
@@ -29,11 +30,22 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
   }
 
+  let dnsTest = "not_tested";
+  try {
+    const dnsResult = await fetch("https://api.stripe.com/v1/products?limit=1", {
+      headers: { Authorization: `Bearer ${process.env.STRIPE_SECRET_KEY}` },
+    });
+    dnsTest = `fetch_status: ${dnsResult.status}`;
+  } catch (fetchErr: any) {
+    dnsTest = `fetch_error: ${fetchErr.message}`;
+  }
+
   return res.status(200).json({
     keyPresent,
     keyPrefix,
     keyLength,
     priceIds,
     stripeTest,
+    dnsTest,
   });
 }
