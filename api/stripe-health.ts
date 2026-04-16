@@ -4,7 +4,7 @@ import Stripe from "stripe";
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   const key = (process.env.STRIPE_SECRET_KEY || "").trim();
   const keyPresent = key.length > 0;
-  const keyPrefix = key ? key.substring(0, 7) : "MISSING";
+  const keyPrefix = key ? key.substring(0, 3) + "..." : "MISSING";
   const keyLength = key.length;
 
   const priceIds = {
