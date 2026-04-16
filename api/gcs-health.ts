@@ -35,9 +35,15 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
   }
 
+  const clientEmail = process.env.GCS_CLIENT_EMAIL || "";
+  const clientEmailMasked = clientEmail.length > 4 ? clientEmail.slice(0, 2) + "***@" + clientEmail.split("@")[1] : "MISSING_OR_SHORT";
+  const projectId = process.env.GCS_PROJECT_ID || "MISSING";
+
   return res.status(200).json({
     envVars: { b64Present, rawKeyPresent, projectIdPresent, clientEmailPresent, bucketNamePresent },
     keyNormalization: { decodedKeyStartsWithBegin, decodedKeyLength, source },
+    clientEmailMasked,
+    projectId,
     authResult,
   });
 }
