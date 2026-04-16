@@ -6501,6 +6501,214 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-16",
   },
+  "personality-test-for-entrepreneurs": {
+    slug: "personality-test-for-entrepreneurs",
+    metaTitle: "Personality Test for Entrepreneurs: Know Your Founder Profile",
+    metaDesc:
+      "Discover how personality tests help entrepreneurs understand their founder profile, build complementary co-founder teams, and make better business decisions. Practical guide for startup founders.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-entrepreneurs",
+    h1: "Personality Test for Entrepreneurs: Know Your Founder Profile",
+    sections: [
+      {
+        heading: "Why Entrepreneurs Need Personality Insight",
+        html: p("Building a company requires self-awareness. Your personality shapes how you raise money, hire, sell, handle pressure, and make decisions under uncertainty. Founders who understand their personality make fewer unforced errors — they know when to lean into their strengths and when to bring in help for their blind spots.") +
+          p("Research on entrepreneurial success shows that personality traits — especially conscientiousness, openness to experience, and emotional stability — predict venture outcomes (Zhao and Seibert, 2006). But no single personality type makes a successful founder. Every type succeeds with the right team and self-awareness.") +
+          p('<a href="/free-personality-test">Take the free test</a> and discover your founder profile across four frameworks.'),
+      },
+      {
+        heading: "What Each Framework Reveals for Founders",
+        html: p("<strong><a href=\"/free-strengths-test\">Strengths</a></strong> tells you what you should personally do versus delegate. A founder with strong Strategic and Ideation should own vision and product direction. A founder with strong Achiever and Discipline should own execution systems. <a href=\"/blog/best-free-strengths-assessment\">Learn more about Strengths</a>.") +
+          p("<strong><a href=\"/blog/disc-assessment-guide\">DISC</a></strong> reveals your communication and leadership style. High Dominance founders drive hard but may steamroll. High Influence founders sell well but may overcommit. High Steadiness founders build loyal teams but may avoid necessary pivots. High Conscientiousness founders build quality products but may ship too slowly.") +
+          p("<strong><a href=\"/blog/understanding-16-personalities\">16 Personalities</a></strong> shows how you process information under pressure. Intuitive types see big-picture opportunities but miss details. Sensing types execute precisely but may miss market shifts. Thinking types make logical decisions but may undervalue team morale.") +
+          p("<strong><a href=\"/free-enneagram-test\">Enneagram</a></strong> reveals your core motivation as a founder. Type 3 founders are driven by achievement — they ship fast but may cut corners. Type 8 founders are driven by control — they lead strongly but may micromanage. Type 7 founders are driven by possibility — they innovate constantly but may lose focus."),
+      },
+      {
+        heading: "Co-Founder Compatibility",
+        html: p("The most common reason co-founder relationships fail is not strategy — it is personality clash. One founder wants to move fast; the other wants to be thorough. One wants to sell aggressively; the other wants to build perfectly. Both perspectives have merit. The failure comes from not understanding and respecting the difference.") +
+          p("Use personality tests to:") +
+          ul([
+            "<strong>Map complementary strengths.</strong> A visionary + an operator is the classic founder duo. Use Strengths to identify who plays what role.",
+            "<strong>Anticipate friction.</strong> DISC profiles predict communication conflicts. A high D founder and high S founder will argue about pace — name it early.",
+            "<strong>Align on decision-making.</strong> 16 Personalities Thinking vs. Feeling differences show up in hiring, pricing, and firing decisions.",
+            "<strong>Understand motivation gaps.</strong> Enneagram types reveal why each founder shows up. If motivations diverge, the partnership will too.",
+          ]),
+      },
+      {
+        heading: "Hiring Your First Team Using Personality Data",
+        html: p("Early hires shape company culture permanently. Use personality data to build a balanced founding team:") +
+          ol([
+            "<strong>Know your gaps.</strong> If you are strong on vision but weak on operations, your first hire should be operational. DISC and Strengths reveal these gaps clearly.",
+            "<strong>Hire for complement, not clone.</strong> A team of five people with the same personality type is not a team — it is an echo chamber.",
+            "<strong>Use DISC for customer-facing roles.</strong> Sales needs Influence. Customer success needs Steadiness. Quality needs Conscientiousness.",
+            "<strong>Use 16 Personalities for role alignment.</strong> Intuitive types suit strategy roles. Sensing types suit implementation roles.",
+          ]),
+      },
+      {
+        heading: "Managing Stress and Burnout",
+        html: p("Founders face extreme pressure. Your personality determines how you respond to that pressure — and what kind of support you need.") +
+          p("<strong>DISC stress responses:</strong> High D becomes dictatorial. High I becomes scattered. High S becomes stubborn. High C becomes paralyzed by analysis. <a href=\"/blog/personality-test-stress-management\">See stress management guide</a>.") +
+          p("<strong>Enneagram stress directions:</strong> Each type has a predictable stress pattern. Knowing yours lets you catch burnout early and take specific corrective action. <a href=\"/blog/enneagram-growth-paths\">See Enneagram growth paths</a>.") +
+          p("The most important personality insight for founders is not what you are good at — it is how you break under pressure. Know that pattern, and build systems to catch it."),
+      },
+    ],
+    faqs: [
+      { question: "What personality type makes the best entrepreneur?", answer: "No single type is best. Research shows conscientiousness and openness correlate with entrepreneurial success, but every personality type can build a successful company with the right team and self-awareness." },
+      { question: "Should co-founders take personality tests together?", answer: "Yes. Both founders should take the same test and compare results. Focus on identifying complementary strengths and potential friction points before they become conflicts." },
+      { question: "How do I use personality data in hiring?", answer: "Map your team's personality gaps first. Then hire to fill those gaps. Use DISC for communication style fit and Strengths for role alignment. Never screen candidates out based on type alone." },
+      { question: "Can personality tests predict startup success?", answer: "No. Personality tests predict patterns of behavior, not business outcomes. They help you understand your tendencies, build complementary teams, and manage stress — all of which improve your odds." },
+      { question: "Which test is best for founders?", answer: "Use multiple frameworks. Strengths for role allocation, DISC for communication and sales, 16 Personalities for decision-making style, Enneagram for motivation and stress patterns. 1Test gives all four from one session." },
+    ],
+    ctaHeading: "Discover your founder profile",
+    ctaSubtext: "Free test — Strengths, 16 Personalities, DISC, and Enneagram.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "Personality team dynamics for founders", url: "/blog/personality-team-dynamics-founders" },
+      { label: "Strengths-based leadership", url: "/blog/strengths-based-leadership" },
+      { label: "Personality test for leadership", url: "/blog/personality-test-for-leadership" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "disc-personality-in-sales": {
+    slug: "disc-personality-in-sales",
+    metaTitle: "DISC Personality in Sales: Sell to Every Communication Style",
+    metaDesc:
+      "Learn how DISC personality types approach buying and selling. Adapt your sales strategy to each DISC profile, close more deals, and build stronger client relationships.",
+    canonicalUrl: "https://1test.me/blog/disc-personality-in-sales",
+    h1: "DISC Personality in Sales: Adapt Your Approach to Every Buyer",
+    sections: [
+      {
+        heading: "Why DISC Matters in Sales",
+        html: p("Every buyer has a preferred communication style. When you match that style, trust builds faster and objections decrease. When you mismatch it — for example, overwhelming a methodical buyer with enthusiasm — deals stall for reasons the buyer cannot always articulate.") +
+          p("DISC gives you a framework for reading and adapting to buyer communication styles. It does not replace product knowledge or sales skill. It amplifies both by ensuring your message lands the way you intend.") +
+          p('<a href="/free-disc-test">Take the free DISC test</a> to understand your own sales style first.'),
+      },
+      {
+        heading: "The Four DISC Buyer Profiles",
+        html: p("<strong>D (Dominance) buyers</strong> want bottom-line results. They decide quickly, value competence, and respect directness. They lose patience with small talk, excessive detail, and anything that feels like a waste of time. Pitch: lead with outcomes, keep it brief, show ROI.") +
+          p("<strong>I (Influence) buyers</strong> want connection and excitement. They decide based on relationships and stories. They respond to social proof, enthusiasm, and vision. They may overcommit and need help following through. Pitch: build rapport, tell stories, paint the big picture.") +
+          p("<strong>S (Steadiness) buyers</strong> want security and predictability. They decide slowly, value trust, and dislike pressure. They need time, evidence, and reassurance. Rushing them kills the deal. Pitch: be patient, provide evidence, show low risk, give time.") +
+          p("<strong>C (Conscientiousness) buyers</strong> want accuracy and logic. They decide analytically, value data, and distrust hype. They need specifications, comparisons, and proof points. Emotional appeals backfire. Pitch: provide data, show methodology, be precise, expect questions."),
+      },
+      {
+        heading: "Reading Your Buyer's DISC Style",
+        html: p("You will not always have a DISC profile for your buyer. But you can read behavioral cues:") +
+          ul([
+            "<strong>D buyers:</strong> brief emails, direct questions, checks their watch, interrupts to get to the point.",
+            "<strong>I buyers:</strong> chatty, tells stories, talks about other people, enthusiastic body language.",
+            "<strong>S buyers:</strong> listens patiently, asks about implementation and support, involves others in decisions.",
+            "<strong>C buyers:</strong> asks detailed technical questions, requests documentation, compares competitors, takes notes.",
+          ]),
+      },
+      {
+        heading: "Adapting Your Sales Process by DISC Type",
+        html: p("<strong>Discovery calls:</strong> With D types, get to the problem quickly. With I types, build rapport first. With S types, ask about their current situation and pain points gently. With C types, ask about their evaluation criteria upfront.") +
+          p("<strong>Presentations:</strong> D types want a one-page executive summary. I types want a story-driven deck. S types want case studies and references. C types want a technical appendix.") +
+          p("<strong>Follow-up:</strong> D types want next steps with dates. I types want a check-in call. S types want a timeline with milestones. C types want written documentation they can review independently.") +
+          p("<strong>Closing:</strong> D types decide when they see clear ROI. I types decide when they feel the relationship is right. S types decide when risk feels low. C types decide when the data supports it."),
+      },
+      {
+        heading: "Your Own DISC Style as a Seller",
+        html: p("Your natural DISC style is your default selling mode. High D sellers are great closers but may push too hard. High I sellers are great at building relationships but may skip qualifying. High S sellers build deep trust but may avoid asking for the close. High C sellers present flawlessly but may over-prepare and under-connect.") +
+          p("The best sellers can flex across all four styles. Start by understanding your own style — then practice the ones that do not come naturally. <a href=\"/blog/disc-sales-training\">See our DISC sales training guide</a> for exercises."),
+      },
+    ],
+    faqs: [
+      { question: "Can DISC help me close more deals?", answer: "Yes, when used to adapt your communication to each buyer's style. DISC helps you read buyer preferences and adjust your approach — leading to faster trust and fewer stalled deals." },
+      { question: "How do I identify a buyer's DISC style without testing them?", answer: "Read behavioral cues. D types are direct and fast-paced. I types are chatty and enthusiastic. S types are patient and thorough. C types are analytical and detail-oriented." },
+      { question: "Which DISC style is best for sales?", answer: "No style is inherently best. High I styles excel at relationship selling. High D styles excel at consultative closing. High C styles excel at technical sales. The best sellers flex across styles." },
+      { question: "Should I share my DISC profile with clients?", answer: "It depends on the relationship. Sharing can build trust in established relationships. In early-stage sales, focus on reading and adapting to the buyer's style rather than disclosing your own." },
+      { question: "How is this different from DISC sales training?", answer: "This article covers the framework and buyer profiles. Formal DISC sales training includes role-play exercises, call planning templates, and ongoing coaching to build style-flexing as a habit." },
+    ],
+    ctaHeading: "Understand your sales DISC profile",
+    ctaSubtext: "Free DISC assessment with full results. No paywall.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "DISC sales training", url: "/blog/disc-sales-training" },
+      { label: "DISC communication styles", url: "/blog/disc-communication-styles" },
+      { label: "DISC personality types explained", url: "/blog/disc-personality-types-explained" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "enneagram-growth-coaching": {
+    slug: "enneagram-growth-coaching",
+    metaTitle: "Enneagram Growth Coaching: Use Your Type to Grow Purposefully",
+    metaDesc:
+      "Learn how to use the Enneagram for personal growth coaching. Discover growth paths, stress patterns, and practical exercises for each of the nine types.",
+    canonicalUrl: "https://1test.me/blog/enneagram-growth-coaching",
+    h1: "Enneagram Growth Coaching: A Practical Guide by Type",
+    sections: [
+      {
+        heading: "Why the Enneagram Works for Growth",
+        html: p("The Enneagram is the deepest self-awareness framework among the major personality systems. While DISC describes behavior and 16 Personalities describes cognition, the Enneagram describes motivation — the why behind what you do. This makes it uniquely powerful for personal growth.") +
+          p("Each Enneagram type has a specific growth direction (integration) and stress direction (disintegration). These are not random — they map predictable patterns of healthy and unhealthy behavior. Knowing your type means knowing your growth path and your breakdown pattern.") +
+          p('<a href="/free-enneagram-test">Take the free Enneagram test</a> to identify your type, then use this guide to build your growth plan.'),
+      },
+      {
+        heading: "Growth Paths by Type",
+        html: p("<strong>Type 1 (Reformer) — Growth to 7:</strong> Practice spontaneity. Schedule unstructured time. When you catch yourself criticizing, ask: Is this a standard or a preference? Let good enough be good enough once a day.") +
+          p("<strong>Type 2 (Helper) — Growth to 4:</strong> Practice authentic self-expression. Notice when you give to get love. Ask: What do I need right now? Say no once a day without apologizing.") +
+          p("<strong>Type 3 (Achiever) — Growth to 6:</strong> Practice cooperation over competition. Notice when you are performing instead of being real. Ask: Who am I when no one is watching? Spend time on something with no measurable outcome.") +
+          p("<strong>Type 4 (Individualist) — Growth to 1:</strong> Practice discipline. Notice when you indulge melancholy instead of acting. Ask: What is one small thing I can finish today? Ship something imperfect.") +
+          p("<strong>Type 5 (Investigator) — Growth to 8:</strong> Practice confident action. Notice when you gather more information instead of deciding. Ask: Do I know enough to act? Take one bold step without full preparation.") +
+          p("<strong>Type 6 (Loyalist) — Growth to 9:</strong> Practice inner calm. Notice when worst-case thinking drives decisions. Ask: What is the most likely outcome? Meditate or journal for five minutes daily.") +
+          p("<strong>Type 7 (Enthusiast) — Growth to 5:</strong> Practice focused depth. Notice when you add options instead of committing. Ask: What happens if I finish this before starting something new? Complete one project before starting another.") +
+          p("<strong>Type 8 (Challenger) — Growth to 2:</strong> Practice vulnerability. Notice when strength becomes intimidation. Ask: What would happen if I showed uncertainty? Share one real feeling with someone you trust.") +
+          p("<strong>Type 9 (Peacemaker) — Growth to 3:</strong> Practice decisive action. Notice when you merge with others' priorities instead of setting your own. Ask: What do I want? Set one personal goal and pursue it visibly."),
+      },
+      {
+        heading: "Stress Patterns to Watch",
+        html: p("Each type has a predictable stress direction. Recognizing these patterns is how you catch yourself before burnout:") +
+          ul([
+            "Type 1 under stress moves to 4: self-critical, moody, withdrawn.",
+            "Type 2 under stress moves to 8: controlling, manipulative, aggressive.",
+            "Type 3 under stress moves to 9: apathetic, disengaged, procrastinating.",
+            "Type 4 under stress moves to 2: clingy, people-pleasing, needy.",
+            "Type 5 under stress moves to 7: scattered, impulsive, overstimulated.",
+            "Type 6 under stress moves to 3: competitive, image-conscious, workaholic.",
+            "Type 7 under stress moves to 1: critical, perfectionistic, rigid.",
+            "Type 8 under stress moves to 5: withdrawn, secretive, emotionally distant.",
+            "Type 9 under stress moves to 6: anxious, suspicious, indecisive.",
+          ]),
+      },
+      {
+        heading: "Building a Daily Growth Practice",
+        html: ol([
+          "<strong>Know your type.</strong> Confirm it through self-reflection, not just a test result. Read the full description and see if it resonates at the deepest level.",
+          "<strong>Track your stress pattern daily.</strong> Each evening, ask: Did I move toward my stress type today? What triggered it?",
+          "<strong>Practice one growth behavior daily.</strong> Pick one action from your growth type. Small and consistent beats dramatic and occasional.",
+          "<strong>Journal weekly.</strong> Write about moments you caught your stress pattern and chose your growth direction instead.",
+          "<strong>Retake every 12 months.</strong> Your type should not change, but your self-awareness within the type deepens. <a href=\"/free-enneagram-test\">Retake the test</a> to check.",
+        ]),
+      },
+      {
+        heading: "Combining the Enneagram With Other Frameworks",
+        html: p("The Enneagram reveals why you act. <a href=\"/free-disc-test\">DISC</a> reveals how you act. <a href=\"/free-16-personalities-test\">16 Personalities</a> reveals how you think. <a href=\"/free-strengths-test\">Strengths</a> reveals what comes easily. Together, they give a complete picture of motivation, behavior, cognition, and talent.") +
+          p("For coaching, start with the Enneagram for deep motivation work. Add DISC when communication issues arise. Add Strengths for career alignment. Add 16 Personalities for team dynamics. <a href=\"/free-personality-test\">Take all four at 1Test</a> in about 15 minutes."),
+      },
+    ],
+    faqs: [
+      { question: "Can I use the Enneagram for self-coaching?", answer: "Yes. Start by confirming your type, then practice your growth direction daily. Track your stress pattern weekly. The Enneagram gives specific, actionable growth paths for each type." },
+      { question: "How is Enneagram coaching different from therapy?", answer: "The Enneagram is a self-awareness tool, not a therapeutic method. It describes patterns and growth directions. Therapy addresses clinical conditions, trauma, and emotional health. They complement each other but serve different purposes." },
+      { question: "What if I cannot identify my Enneagram type?", answer: "Read about the types adjacent to your test result. Look at core fears and motivations rather than behavior. Your type is the one whose fear you recognize at the deepest level." },
+      { question: "How long does Enneagram growth take?", answer: "Growth is ongoing. Most people notice changes within weeks of daily practice. Significant pattern change typically takes months of consistent effort." },
+      { question: "Should I share my Enneagram type with others?", answer: "Sharing builds mutual understanding in close relationships. In professional settings, share only when it serves communication and trust. The Enneagram is a tool for empathy, not labeling." },
+    ],
+    ctaHeading: "Start your Enneagram growth journey",
+    ctaSubtext: "Free Enneagram test with type, wing, and growth paths.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Enneagram growth paths", url: "/blog/enneagram-growth-paths" },
+      { label: "Enneagram types explained", url: "/blog/enneagram-types-explained" },
+      { label: "Enneagram wings explained", url: "/blog/enneagram-wings-explained" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

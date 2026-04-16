@@ -469,6 +469,27 @@ const BLOG_FAQS = {
     { question: "Should I change careers based on test results?", answer: "Use results as one input. Combine with skills assessment, market research, financial planning, and real-world testing." },
     { question: "How do I know if a career fits my personality?", answer: "Look for overlap between your profile and the daily work. If your strengths are analytical and the role is relational, it is a poor fit." },
   ],
+  "/blog/personality-test-for-entrepreneurs": [
+    { question: "What personality type makes the best entrepreneur?", answer: "No single type is best. Conscientiousness and openness correlate with success, but every type can succeed with the right team and self-awareness." },
+    { question: "Should co-founders take personality tests together?", answer: "Yes. Compare results to identify complementary strengths and potential friction points before they become conflicts." },
+    { question: "How do I use personality data in hiring?", answer: "Map team gaps first, then hire to fill them. Use DISC for communication style, Strengths for role alignment. Never screen out based on type alone." },
+    { question: "Can personality tests predict startup success?", answer: "No. They predict behavioral patterns, not outcomes. They help build complementary teams and manage stress, which improves odds." },
+    { question: "Which test is best for founders?", answer: "Use multiple frameworks. Strengths for role allocation, DISC for communication, 16 Personalities for decisions, Enneagram for motivation and stress." },
+  ],
+  "/blog/disc-personality-in-sales": [
+    { question: "Can DISC help me close more deals?", answer: "Yes, when used to adapt communication to each buyer's style. DISC helps read buyer preferences and adjust approach for faster trust." },
+    { question: "How do I identify a buyer's DISC style?", answer: "Read cues. D types are direct and fast. I types are chatty and enthusiastic. S types are patient and thorough. C types are analytical and detailed." },
+    { question: "Which DISC style is best for sales?", answer: "No style is inherently best. High I excels at relationship selling. High D excels at closing. High C excels at technical sales. Best sellers flex across styles." },
+    { question: "Should I share my DISC profile with clients?", answer: "It depends on the relationship. Focus on reading and adapting to the buyer's style rather than disclosing your own in early-stage sales." },
+    { question: "How is this different from DISC sales training?", answer: "This covers the framework and profiles. Formal training includes role-play, call planning templates, and coaching to build style-flexing habits." },
+  ],
+  "/blog/enneagram-growth-coaching": [
+    { question: "Can I use the Enneagram for self-coaching?", answer: "Yes. Confirm your type, practice your growth direction daily, and track your stress pattern weekly. The Enneagram gives specific, actionable growth paths." },
+    { question: "How is Enneagram coaching different from therapy?", answer: "The Enneagram is a self-awareness tool, not therapy. It describes patterns and growth directions. Therapy addresses clinical conditions and trauma. They complement each other." },
+    { question: "What if I cannot identify my type?", answer: "Read about adjacent types. Look at core fears and motivations, not behavior. Your type has the fear you recognize at the deepest level." },
+    { question: "How long does Enneagram growth take?", answer: "Growth is ongoing. Noticeable changes within weeks of daily practice. Significant pattern change typically takes months of consistent effort." },
+    { question: "Should I share my Enneagram type?", answer: "Share in close relationships for mutual understanding. In professional settings, share only when it serves communication and trust." },
+  ],
 };
 
 const SEO_DATA = {
@@ -848,6 +869,27 @@ const SEO_DATA = {
     description:
       "How personality tests help you identify work aligned with your natural strengths, communication style, and motivations. Practical career change guide.",
     canonicalUrl: "https://1test.me/blog/personality-test-for-career-change",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-entrepreneurs": {
+    title: "Personality Test for Entrepreneurs: Know Your Founder Profile",
+    description:
+      "How personality tests help entrepreneurs understand their founder profile, build complementary co-founder teams, and make better business decisions.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-entrepreneurs",
+    ogType: "article",
+  },
+  "/blog/disc-personality-in-sales": {
+    title: "DISC Personality in Sales: Sell to Every Communication Style",
+    description:
+      "How DISC personality types approach buying and selling. Adapt your sales strategy to each DISC profile and close more deals.",
+    canonicalUrl: "https://1test.me/blog/disc-personality-in-sales",
+    ogType: "article",
+  },
+  "/blog/enneagram-growth-coaching": {
+    title: "Enneagram Growth Coaching: Use Your Type to Grow Purposefully",
+    description:
+      "Use the Enneagram for personal growth coaching. Growth paths, stress patterns, and practical exercises for each of the nine types.",
+    canonicalUrl: "https://1test.me/blog/enneagram-growth-coaching",
     ogType: "article",
   },
 };
@@ -1310,6 +1352,30 @@ const BODY_CONTENT = {
       { heading: "Why Personality Matters for Career Change", text: "Person-job fit predicts satisfaction, performance, and retention better than almost any other factor. A personality test tells you what conditions you need to thrive — not what job to take." },
       { heading: "Using Each Framework", text: "Strengths: what you do well naturally. DISC: what work environment suits you. 16 Personalities: how you process information and make decisions. Enneagram: why you work — your core motivation." },
       { heading: "Career Change Process", text: "Take a multi-framework test. Identify must-haves from results. Generate career options where must-haves overlap. Research reality through conversations and job descriptions. Test before committing through shadowing or freelancing." },
+    ],
+  },
+  "/blog/personality-test-for-entrepreneurs": {
+    h1: "Personality Test for Entrepreneurs: Know Your Founder Profile",
+    sections: [
+      { heading: "Why Entrepreneurs Need Personality Insight", text: "Your personality shapes how you raise money, hire, sell, handle pressure, and make decisions. Founders who understand their personality make fewer unforced errors." },
+      { heading: "Co-Founder Compatibility", text: "The most common co-founder failure is personality clash, not strategy. Use Strengths for complementary roles, DISC for communication friction, 16 Personalities for decision-making alignment, Enneagram for motivation gaps." },
+      { heading: "Hiring and Stress Management", text: "Map personality gaps and hire for complement. Know your DISC stress response: D becomes dictatorial, I becomes scattered, S becomes stubborn, C becomes paralyzed. Build systems to catch burnout early." },
+    ],
+  },
+  "/blog/disc-personality-in-sales": {
+    h1: "DISC Personality in Sales: Adapt Your Approach to Every Buyer",
+    sections: [
+      { heading: "Four DISC Buyer Profiles", text: "D buyers: bottom-line results, decide quickly, respect directness. I buyers: connection and stories, decide on relationships, respond to social proof. S buyers: security and predictability, decide slowly, need reassurance. C buyers: accuracy and logic, decide analytically, distrust hype." },
+      { heading: "Reading Buyer Style", text: "D: brief emails, direct questions, checks watch. I: chatty, tells stories, enthusiastic. S: listens patiently, asks about implementation, involves others. C: detailed technical questions, requests documentation, takes notes." },
+      { heading: "Adapting Your Process", text: "Discovery: D wants problem quickly, I wants rapport, S wants gentle exploration, C wants evaluation criteria. Presentation: D wants one-page summary, I wants stories, S wants case studies, C wants technical appendix. Close: D decides on ROI, I on relationship, S on low risk, C on data." },
+    ],
+  },
+  "/blog/enneagram-growth-coaching": {
+    h1: "Enneagram Growth Coaching: A Practical Guide by Type",
+    sections: [
+      { heading: "Why the Enneagram Works for Growth", text: "The deepest self-awareness framework. Describes motivation — the why behind what you do. Each type has specific growth (integration) and stress (disintegration) directions mapping predictable healthy and unhealthy patterns." },
+      { heading: "Growth Paths", text: "Type 1 to 7: practice spontaneity. Type 2 to 4: practice authenticity. Type 3 to 6: practice cooperation. Type 4 to 1: practice discipline. Type 5 to 8: practice bold action. Type 6 to 9: practice inner calm. Type 7 to 5: practice focus. Type 8 to 2: practice vulnerability. Type 9 to 3: practice decisive action." },
+      { heading: "Daily Growth Practice", text: "Know your type. Track stress pattern daily. Practice one growth behavior daily. Journal weekly. Retake every 12 months. Combine with DISC for behavior, 16 Personalities for cognition, Strengths for talent." },
     ],
   },
 };
