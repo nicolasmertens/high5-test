@@ -30,6 +30,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(500).json({ error: "Server misconfiguration: missing Stripe key" });
   }
 
+  const keyPrefix = process.env.STRIPE_SECRET_KEY.substring(0, 8);
+  console.log("STRIPE_SECRET_KEY prefix:", keyPrefix, "length:", process.env.STRIPE_SECRET_KEY.length);
+
   try {
     const { tier = "full_profile" } = req.body || {};
     const config = TIER_CONFIG[tier];
