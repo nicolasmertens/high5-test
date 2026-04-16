@@ -10354,6 +10354,204 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-16",
   },
+  "disc-personality-test-results": {
+    slug: "disc-personality-test-results",
+    metaTitle: "How to Read Your DISC Personality Test Results: A Complete Guide",
+    metaDesc:
+      "Complete guide to understanding your DISC test results — what each score means, how to interpret your profile, and what to do with your DISC insights at work and in relationships.",
+    canonicalUrl: "https://1test.me/blog/disc-personality-test-results",
+    h1: "How to Read Your DISC Personality Test Results",
+    sections: [
+      {
+        heading: "What Your DISC Results Tell You",
+        html: p("Your DISC results show your behavioral tendencies across four dimensions: Dominance (direct, results-oriented), Influence (enthusiastic, people-oriented), Steadiness (patient, reliable), and Conscientiousness (analytical, detail-oriented). Most people score highest on one or two dimensions — that is your primary style. The relative heights of your scores create a profile that describes how you tend to act and communicate.") +
+          p("Important: there is no best DISC profile. Every style has strengths and blind spots. A high D profile is not better than a high S profile — they are effective in different situations. The value of your results is in understanding your natural tendencies so you can play to your strengths and manage your blind spots.") +
+          p('<a href="/free-disc-test">Take the free DISC test</a> to get your results.'),
+      },
+      {
+        heading: "Understanding Each Dimension Score",
+        html: p("<strong>Dominance (D)</strong> — Measures how directly you approach problems and challenges. A high D score means you are decisive, comfortable with conflict, and focused on results. A low D score means you prefer collaboration, consensus, and a more measured approach.") +
+          p("<strong>Influence (I)</strong> — Measures how you interact with people and your level of enthusiasm. A high I score means you are outgoing, persuasive, and energized by social interaction. A low I score means you prefer working independently, are more reserved, and communicate more selectively.") +
+          p("<strong>Steadiness (S)</strong> — Measures your preference for pace and consistency. A high S score means you are patient, reliable, and prefer steady, predictable environments. A low S score means you are comfortable with change, faster-paced, and more flexible.") +
+          p("<strong>Conscientiousness (C)</strong> — Measures how you approach accuracy and quality. A high C score means you are analytical, systematic, and focused on doing things correctly. A low C score means you are more comfortable with ambiguity, faster to act, and less detail-focused.") +
+          p("Your profile is the combination of all four scores, not just your highest one. A D/I profile (high D, high I, low S, low C) behaves very differently from a D/C profile (high D, low I, low S, high C), even though both are D-dominant. <a href=\"/blog/disc-personality-types-explained\">See our complete DISC type guide</a>."),
+      },
+      {
+        heading: "Common DISC Profile Combinations",
+        html: p("Most people have a primary and secondary style. Here are the most common combinations and what they tend to look like:") +
+          p("<strong>D/I (Commander)</strong> — Bold, fast-moving, and persuasive. Natural leaders who drive results and rally people. Growth edge: listening, patience, and following through on details.") +
+          p("<strong>D/C (Precision Driver)</strong> — Decisive and detail-oriented. They want results, but they want the right results. Growth edge: flexibility and speed — sometimes good enough beats perfect.") +
+          p("<strong>I/S (Counselor)</strong> — Warm, empathetic, and relationship-focused. Natural connectors who build trust effortlessly. Growth edge: assertiveness and boundary-setting.") +
+          p("<strong>I/D (Promoter)</strong> — Charismatic and action-oriented. Persuasive communicators who rally people around ideas. Growth edge: follow-through and depth over breadth.") +
+          p("<strong>S/I (Relater)</strong> — Friendly, steady, and approachable. They create warm, stable environments. Growth edge: initiating change and speaking up about their own needs.") +
+          p("<strong>C/S (Analyst)</strong> — Methodical, careful, and systematic. They produce high-quality, reliable work. Growth edge: speed and comfort with ambiguity — not every decision needs perfect data.") +
+          p("These are tendencies, not cages. Everyone can flex into other styles when the situation requires it. The question is how much energy it costs you. <a href=\"/free-disc-test\">Take the free DISC test</a> to see your profile."),
+      },
+      {
+        heading: "What to Do With Your Results",
+        html: p("Your DISC results are most useful when you apply them to specific situations:") +
+          p("<strong>At work:</strong> Share your profile with your team. When colleagues know you are a high C who values thoroughness, they can give you advance notice on deadlines. When they know you are a high I who processes by talking, they can give you space to think out loud. This reduces friction without requiring anyone to change who they are.") +
+          p("<strong>In relationships:</strong> Use your profile to understand recurring communication patterns. A high D married to a high S often argues about pace — the D wants to decide now, the S wants to think about it. Just knowing this is a style difference, not a care difference, can change the dynamic. <a href=\"/blog/personality-test-for-couples\">See our couples guide</a>.") +
+          p("<strong>For personal growth:</strong> Your lowest DISC score is your growth edge. If you scored lowest on I, practice being more expressive and social in small ways. If you scored lowest on D, practice making small decisions faster and asserting your position. You will not turn your low dimension into your high one — but you can become more versatile. <a href=\"/blog/how-to-use-personality-test-results\">See our guide on using personality test results</a>."),
+      },
+    ],
+    faqs: [
+      { question: "Can your DISC profile change over time?", answer: "Your core DISC tendencies are relatively stable, but your behavioral expression can shift. New roles, relationships, and experiences often bring out different dimensions of your profile. A high S who takes a management role may develop more D behaviors while maintaining their S preference." },
+      { question: "What is the most common DISC profile?", answer: "There is no single most common profile because DISC measures relative tendencies, not absolute scores. However, the S/C combination (steady and detail-oriented) appears frequently in the general population, particularly in administrative, operations, and support roles." },
+      { question: "Is a high D score bad?", answer: "No. High D means you are decisive, direct, and results-oriented. This is effective in leadership, sales, entrepreneurship, and crisis management. The challenge is knowing when to flex — listening more, slowing down, or giving others space to contribute." },
+      { question: "What if my scores are balanced across all four dimensions?", answer: "Balanced scores mean you flex easily across styles. This is an advantage in roles that require adaptability. The challenge is that you may lack a clear, distinctive strength — your versatility is itself your strength." },
+      { question: "How accurate is the DISC assessment?", answer: "DISC measures behavioral tendencies, not innate traits. It is validated for workplace and interpersonal applications. Its accuracy depends on honest responding. Research on IPIP-based DISC instruments shows acceptable reliability for individual feedback and team development." },
+    ],
+    ctaHeading: "Get your DISC results now",
+    ctaSubtext: "Free DISC test — full profile with all four dimensions, no paywall.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "DISC personality types explained", url: "/blog/disc-personality-types-explained" },
+      { label: "DISC communication styles", url: "/blog/disc-communication-styles" },
+      { label: "DISC assessment guide", url: "/blog/disc-assessment-guide" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "personality-test-for-first-time-managers": {
+    slug: "personality-test-for-first-time-managers",
+    metaTitle: "Personality Tests for First-Time Managers: Understanding Your Leadership Style",
+    metaDesc:
+      "How first-time managers can use personality tests to understand their leadership style, communicate with direct reports, and avoid common new-manager mistakes.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-first-time-managers",
+    h1: "Personality Tests for First-Time Managers: Know Your Style Before You Lead",
+    sections: [
+      {
+        heading: "Why First-Time Managers Need Self-Awareness",
+        html: p("First-time managers face a fundamental challenge: the skills that got them promoted (individual contribution, technical expertise, high performance) are not the skills they need now (communication, delegation, coaching, conflict resolution). The biggest risk for new managers is not incompetence — it is defaulting to their natural style without understanding how it affects their team.") +
+          p("Personality tests give new managers a framework for understanding their natural tendencies before they start leading. Without this awareness, a high-D manager defaults to command-and-control, a high-I manager defaults to friendly-but-vague, a high-S manager defaults to avoiding tough conversations, and a high-C manager defaults to micromanaging quality. Each of these default styles creates predictable problems with direct reports.") +
+          p('<a href="/free-personality-test">Take the free personality test</a> before your first day as a manager.'),
+      },
+      {
+        heading: "Your DISC Style as a New Manager",
+        html: p("Your DISC profile describes your natural management style — and its blind spots:") +
+          p("<strong>High D new managers</strong> are decisive and results-oriented. They set clear expectations and push for outcomes. Risk: they may be too directive, skip consensus-building, and miss that team members need context and buy-in, not just instructions. Growth: practice asking before telling. Replace three directives per day with three questions.") +
+          p("<strong>High I new managers</strong> are enthusiastic and relationship-oriented. They build rapport quickly and make work feel fun. Risk: they may avoid conflict, give vague feedback, and struggle to hold people accountable because they want to be liked. Growth: practice delivering specific, direct feedback. Replace sugar-coating with kind clarity.") +
+          p("<strong>High S new managers</strong> are supportive and patient. They create stability and trust. Risk: they may delay difficult conversations, over-accommodate underperformers, and hesitate to push for change. Growth: practice initiating. Replace three things you are tolerating per week with three direct conversations about them.") +
+          p("<strong>High C new managers</strong> are thorough and quality-focused. They set high standards and build systematic processes. Risk: they may micromanage, over-engineer, and make team members feel nothing is ever good enough. Growth: practice delegation. Assign a task, define done, and let your team member get there their way. <a href=\"/blog/disc-leadership-style\">See our DISC leadership guide</a>."),
+      },
+      {
+        heading: "Managing Your Team by Understanding Their Styles",
+        html: p("Your DISC profile tells you how you lead. Your team's DISC profiles tell you how they need to be led. The most common new-manager mistake is managing everyone the way they would want to be managed:") +
+          ul([
+            "<strong>High D team members</strong> want autonomy, challenge, and direct feedback. They energize under stretch goals. They disengage when micromanaged or given vague direction.",
+            "<strong>High I team members</strong> want collaboration, recognition, and variety. They energize when included in decisions. They disengage when isolated or given repetitive work without social interaction.",
+            "<strong>High S team members</strong> want stability, clear expectations, and time to adjust. They energize in supportive, predictable environments. They disengage when surprised with sudden changes or unclear priorities.",
+            "<strong>High C team members</strong> want accuracy, clear processes, and room to analyze. They energize when given well-defined problems to solve. They disengage when asked to move fast with incomplete information or when quality expectations are ambiguous.",
+          ]) +
+          p("The best managers adapt their style to each team member. This does not mean being a different person — it means delivering the same message in a way that lands for each style. <a href=\"/blog/personality-test-for-managers\">See our full management guide</a>."),
+      },
+      {
+        heading: "Common New-Manager Pitfalls by Personality",
+        html: p("Each personality type has predictable pitfalls in the transition from contributor to manager:") +
+          ul([
+            "<strong>Type A / High D:</strong> Doing it yourself because it is faster. This prevents your team from learning. Delegate the outcome, not the process.",
+            "<strong>People-pleaser / High I:</strong> Saying yes to everything and overcommitting your team. Practice saying: let me check capacity before I commit.",
+            "<strong>Conflict-avoider / High S:</strong> Tolerating underperformance because the confrontation feels worse than the problem. Every week you delay, the harder it gets.",
+            "<strong>Perfectionist / High C:</strong> Redoing your team's work because it does not meet your standards. Define done clearly, review against that standard, and accept 80% when 80% is sufficient.",
+          ]),
+      },
+      {
+        heading: "Building Your Manager Toolkit",
+        html: p("Personality awareness is your first tool as a new manager. Here is how to build on it:") +
+          ol([
+            "<strong>Take the full personality profile.</strong> DISC, Enneagram, Strengths, and 16 Personalities together give you a multi-dimensional picture: how you act (DISC), why you are driven (Enneagram), what you do best (Strengths), and how you think (16 Personalities).",
+            "<strong>Ask your team to take DISC.</strong> Share results openly. This creates a shared vocabulary for communication and makes style differences visible and normal.",
+            "<strong>Schedule a 1-on-1 style conversation.</strong> For each direct report, ask: How do you prefer to receive feedback? How do you prefer to communicate? What is your ideal pace? What stresses you out? Their answers will map closely to their DISC profile.",
+            "<strong>Track your default patterns.</strong> For two weeks, note every time your default style shows up in a management situation. The patterns will be obvious — and once you see them, you can start choosing differently.",
+          ]) +
+          p("The best managers are not those who have no weaknesses. They are the ones who know their weaknesses and build systems and relationships that compensate for them. <a href=\"/free-disc-test\">Take the free DISC test</a>."),
+      },
+    ],
+    faqs: [
+      { question: "Should new managers share their personality results with their team?", answer: "Yes, when done voluntarily and positively. Sharing your DISC style helps your team understand how to communicate with you. Frame it as: here is how I work best, and here is what I am working on. Then ask them to share their preferences too." },
+      { question: "Which personality test is best for new managers?", answer: "DISC is the most practical starting point for management because it directly maps to communication and leadership style. Add Strengths to understand what you will gravitate toward as a manager, and Enneagram to understand your stress triggers." },
+      { question: "Can personality tests predict who will be a good manager?", answer: "No. There is no management personality. Every style can be effective — the question is whether the manager has self-awareness about their default patterns and the flexibility to adapt. DISC-aware managers consistently outperform DISC-unaware managers." },
+      { question: "What if my style does not match my team?", answer: "Style mismatches are normal and often productive. A high D manager with a high S team needs to slow down and provide more context. A high S manager with a high D team needs to be more direct and decisive. The mismatch becomes a problem only when the manager is unaware of it." },
+      { question: "I am about to become a manager for the first time. When should I take the test?", answer: "Before your first day if possible. The earlier you understand your default style, the sooner you can start building awareness instead of discovering patterns through mistakes." },
+    ],
+    ctaHeading: "Know your style before you lead",
+    ctaSubtext: "Free personality test — DISC, Enneagram, Strengths, and 16 Personalities. Start your management journey with self-awareness.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "DISC leadership style", url: "/blog/disc-leadership-style" },
+      { label: "Personality test for managers", url: "/blog/personality-test-for-managers" },
+      { label: "Personality test for leadership", url: "/blog/personality-test-for-leadership" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "16-personalities-test-free": {
+    slug: "16-personalities-test-free",
+    metaTitle: "Free 16 Personalities Test — Get Your Type and Career Matches",
+    metaDesc:
+      "Take the free 16 Personalities test and get your type, career matches, and growth insights. No paywall, no email required. Full results instantly.",
+    canonicalUrl: "https://1test.me/blog/16-personalities-test-free",
+    h1: "Free 16 Personalities Test: Your Type, Career Matches, and Growth Path",
+    sections: [
+      {
+        heading: "What the 16 Personalities Test Measures",
+        html: p("The 16 Personalities framework (based on the Big Five personality model, not the trademarked MBTI system) categorizes personality into 16 types based on four preference dimensions: Introversion vs. Extraversion (how you get energy), Intuition vs. Sensing (how you take in information), Thinking vs. Feeling (how you make decisions), and Judging vs. Perceiving (how you organize your life).") +
+          p("Your type is a combination of these four preferences. For example, an INTJ (Introverted, Intuitive, Thinking, Judging) tends to be strategic, independent, and focused on long-term systems. An ESFP (Extraverted, Sensing, Feeling, Perceiving) tends to be spontaneous, warm, and focused on present experiences.") +
+          p("The test does not put you in a box — it describes your natural tendencies. Most people can flex into their opposite preferences, but it costs energy. Knowing your type means knowing which modes are energizing and which are draining. <a href=\"/free-personality-test\">Take the free test now</a>."),
+      },
+      {
+        heading: "Where 16 Personalities Helps Most",
+        html: p("The 16 Personalities framework is most useful for understanding:") +
+          ul([
+            "<strong>Career fit.</strong> Certain types thrive in certain environments. INTJs tend to excel in strategic, analytical roles. ESFJs tend to excel in supportive, people-oriented roles. Your type does not dictate your career — but it tells you which work environments will energize you and which will drain you.",
+            "<strong>Communication style.</strong> Thinking types tend to lead with data and logic. Feeling types tend to lead with values and impact. Judging types tend to prefer structure and closure. Perceiving types tend to prefer flexibility and exploration. Knowing your type helps you communicate more effectively with people who have different preferences.",
+            "<strong>Stress patterns.</strong> Each type has predictable stress triggers. Introverts get stressed by excessive social demands. Perceiving types get stressed by rigid deadlines. Knowing your stress patterns lets you build proactive coping strategies instead of reacting to burnout.",
+            "<strong>Relationship dynamics.</strong> Personality type differences create predictable friction patterns. Understanding these patterns helps couples, families, and teams navigate disagreements without blaming each other for being different. <a href=\"/blog/16-personalities-relationships\">See our 16 Personalities relationships guide</a>.",
+          ]),
+      },
+      {
+        heading: "What Makes This Free Test Different",
+        html: p("1Test's free personality test includes the 16 Personalities framework alongside three others — DISC, Enneagram, and Strengths. Here is why that matters:") +
+          p("<strong>Multiple frameworks give you a more complete picture.</strong> 16 Personalities tells you how you think. DISC tells you how you act. Enneagram tells you why you are driven. Strengths tells you what you do best. No single framework captures your full personality. Using four frameworks gives you depth that one alone cannot provide.") +
+          p("<strong>No paywall, no email gate.</strong> You get your full results immediately — type, description, career matches, growth areas. No \"unlock your full results for $29\" screens.") +
+          p("<strong>Practical output, not just a label.</strong> Your results include specific growth suggestions, career recommendations, and relationship insights — not just a four-letter code and a description. <a href=\"/free-personality-test\">Take the free test now</a>.") +
+          p("<a href=\"/blog/understanding-16-personalities\">See our deep guide to the 16 Personalities framework</a>."),
+      },
+      {
+        heading: "How to Use Your Results",
+        html: p("After taking the test, here is how to get the most from your 16 Personalities results:") +
+          ol([
+            "<strong>Read your type description, not just your letters.</strong> The four-letter code is an abbreviation. The full description includes your cognitive functions, growth edges, workplace preferences, and relationship patterns.",
+            "<strong>Check your career recommendations.</strong> Your type description includes career environments where you will thrive and environments that will drain you. Use this to evaluate your current role and future options.",
+            "<strong>Read your stress section.</strong> Each type has predictable stress triggers and coping patterns. Knowing yours helps you prevent burnout instead of recovering from it.",
+            "<strong>Cross-reference with your other profiles.</strong> If your 16 Personalities type is INTJ and your DISC profile is high C, your Enneagram is Type 5, and your top Strength is Analytical — you have a consistent picture of someone who thrives in deep, independent, strategic work. When multiple frameworks point in the same direction, trust the signal.",
+            "<strong>Share with people you work and live with.</strong> Personality type is most useful when both people in a relationship understand their differences. Share your results with your partner, your team, or your manager.",
+          ]) +
+          p("The goal is not to label yourself — it is to understand yourself well enough to make better decisions about your career, relationships, and growth. <a href=\"/blog/how-to-use-personality-test-results\">See our guide on using results effectively</a>."),
+      },
+    ],
+    faqs: [
+      { question: "Is the 16 Personalities test the same as the trademarked MBTI?", answer: "No. 1Test uses a framework based on the Big Five personality model that categorizes personality into 16 types. It uses similar four-letter codes for convenience, but the assessment methodology and theoretical basis are different. We do not use the trademarked MBTI name or system." },
+      { question: "How long does the free test take?", answer: "The full personality test takes about 10-15 minutes and covers all four frameworks: 16 Personalities, DISC, Enneagram, and Strengths. You get your complete results immediately after finishing." },
+      { question: "Can your personality type change?", answer: "Your core personality traits are relatively stable in adulthood, but your behavioral expression can shift. New roles, relationships, and deliberate practice can develop your less-preferred functions. You do not change your type, but you become more versatile." },
+      { question: "Which career should I choose based on my type?", answer: "Your type suggests environments that will energize you, not specific jobs. Look for roles that match your preferences: Introverts generally do better with focused, independent work. Extraverts generally do better with collaborative, social work. Use type as one input alongside skills, interests, and market demand." },
+      { question: "What if I get a different type each time I take the test?", answer: "If your preferences are close to the middle on one or more dimensions, you may get different results each time. This means you are more balanced on that dimension rather than strongly preferring one side. Focus on the dimensions that are consistent across takes." },
+    ],
+    ctaHeading: "Take the free 16 Personalities test",
+    ctaSubtext: "Full results — 16 Personalities, DISC, Enneagram, and Strengths. No paywall, no email required.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "Understanding 16 Personalities", url: "/blog/understanding-16-personalities" },
+      { label: "16 Personalities relationships", url: "/blog/16-personalities-relationships" },
+      { label: "16 Personalities career guide", url: "/blog/16-personalities-career-guide" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

@@ -402,6 +402,18 @@ createRoot(document.getElementById("root")!).render(
               path="/blog/strengths-swot-analysis"
               element={<BlogPage slug="strengths-swot-analysis" />}
             />
+            <Route
+              path="/blog/disc-personality-test-results"
+              element={<BlogPage slug="disc-personality-test-results" />}
+            />
+            <Route
+              path="/blog/personality-test-for-first-time-managers"
+              element={<BlogPage slug="personality-test-for-first-time-managers" />}
+            />
+            <Route
+              path="/blog/16-personalities-test-free"
+              element={<BlogPage slug="16-personalities-test-free" />}
+            />
             <Route path="/privacy-draft" element={<PrivacyPolicy />} />
             <Route path="/terms-draft" element={<TermsOfService />} />
             <Route path="/relationship/:id" element={<RelationshipReportPage />} />

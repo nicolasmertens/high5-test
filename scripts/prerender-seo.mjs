@@ -763,6 +763,27 @@ const BLOG_FAQS = {
     { question: "How often should I update my Strengths SWOT?", answer: "Annually or when you change roles. Your strengths profile is relatively stable, but your opportunities and threats shift with your career stage, industry, and market conditions." },
     { question: "Can I do a Strengths SWOT for my team?", answer: "Yes. Map each team member's top strengths, identify collective weaknesses, look for opportunities where the team's combined strengths match market needs, and identify threats where the team's blind spots overlap. This is one of the highest-value team exercises you can run." },
   ],
+  "/blog/disc-personality-test-results": [
+    { question: "Can your DISC profile change over time?", answer: "Your core DISC tendencies are relatively stable, but your behavioral expression can shift. New roles, relationships, and experiences often bring out different dimensions. A high S who takes a management role may develop more D behaviors while maintaining their S preference." },
+    { question: "What is the most common DISC profile?", answer: "There is no single most common profile because DISC measures relative tendencies. However, the S/C combination (steady and detail-oriented) appears frequently, particularly in administrative, operations, and support roles." },
+    { question: "Is a high D score bad?", answer: "No. High D means you are decisive, direct, and results-oriented. This is effective in leadership, sales, entrepreneurship, and crisis management. The challenge is knowing when to flex — listening more, slowing down, or giving others space to contribute." },
+    { question: "What if my scores are balanced across all four dimensions?", answer: "Balanced scores mean you flex easily across styles. This is an advantage in roles that require adaptability. The challenge is that you may lack a clear, distinctive strength — your versatility is itself your strength." },
+    { question: "How accurate is the DISC assessment?", answer: "DISC measures behavioral tendencies, not innate traits. It is validated for workplace and interpersonal applications. Its accuracy depends on honest responding. Research on IPIP-based DISC instruments shows acceptable reliability for individual feedback and team development." },
+  ],
+  "/blog/personality-test-for-first-time-managers": [
+    { question: "Should new managers share their personality results with their team?", answer: "Yes, when done voluntarily and positively. Sharing your DISC style helps your team understand how to communicate with you. Frame it as: here is how I work best, and here is what I am working on. Then ask them to share their preferences too." },
+    { question: "Which personality test is best for new managers?", answer: "DISC is the most practical starting point for management because it directly maps to communication and leadership style. Add Strengths to understand what you will gravitate toward as a manager, and Enneagram to understand your stress triggers." },
+    { question: "Can personality tests predict who will be a good manager?", answer: "No. There is no management personality. Every style can be effective — the question is whether the manager has self-awareness about their default patterns and the flexibility to adapt." },
+    { question: "What if my style does not match my team?", answer: "Style mismatches are normal and often productive. A high D manager with a high S team needs to slow down and provide more context. The mismatch becomes a problem only when the manager is unaware of it." },
+    { question: "I am about to become a manager. When should I take the test?", answer: "Before your first day if possible. The earlier you understand your default style, the sooner you can start building awareness instead of discovering patterns through mistakes." },
+  ],
+  "/blog/16-personalities-test-free": [
+    { question: "Is the 16 Personalities test the same as MBTI?", answer: "No. 1Test uses a framework based on the Big Five personality model that categorizes personality into 16 types. It uses similar four-letter codes for convenience, but the assessment methodology and theoretical basis are different. We do not use the trademarked MBTI name or system." },
+    { question: "How long does the free test take?", answer: "The full personality test takes about 10-15 minutes and covers all four frameworks: 16 Personalities, DISC, Enneagram, and Strengths. You get your complete results immediately after finishing." },
+    { question: "Can your personality type change?", answer: "Your core traits are relatively stable in adulthood, but your behavioral expression can shift. New roles and deliberate practice can develop your less-preferred functions. You do not change your type, but you become more versatile." },
+    { question: "Which career should I choose based on my type?", answer: "Your type suggests environments that will energize you, not specific jobs. Introverts generally do better with focused, independent work. Extraverts generally do better with collaborative, social work. Use type as one input alongside skills, interests, and market demand." },
+    { question: "What if I get a different type each time I take the test?", answer: "If your preferences are close to the middle on one or more dimensions, you may get different results each time. This means you are more balanced on that dimension. Focus on the dimensions that are consistent across takes." },
+  ],
 };
 
 const SEO_DATA = {
@@ -1436,6 +1457,27 @@ const SEO_DATA = {
     description:
       "How to use your personality strengths to build a personal SWOT analysis. Practical framework combining strengths assessment with strategic planning for career and personal growth.",
     canonicalUrl: "https://1test.me/blog/strengths-swot-analysis",
+    ogType: "article",
+  },
+  "/blog/disc-personality-test-results": {
+    title: "How to Read Your DISC Personality Test Results: A Complete Guide",
+    description:
+      "Complete guide to understanding your DISC test results — what each score means, how to interpret your profile, and what to do with your DISC insights at work and in relationships.",
+    canonicalUrl: "https://1test.me/blog/disc-personality-test-results",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-first-time-managers": {
+    title: "Personality Tests for First-Time Managers: Understanding Your Leadership Style",
+    description:
+      "How first-time managers can use personality tests to understand their leadership style, communicate with direct reports, and avoid common new-manager mistakes.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-first-time-managers",
+    ogType: "article",
+  },
+  "/blog/16-personalities-test-free": {
+    title: "Free 16 Personalities Test — Get Your Type and Career Matches",
+    description:
+      "Take the free 16 Personalities test and get your type, career matches, and growth insights. No paywall, no email required. Full results instantly.",
+    canonicalUrl: "https://1test.me/blog/16-personalities-test-free",
     ogType: "article",
   },
 };
@@ -2234,6 +2276,30 @@ const BODY_CONTENT = {
       { heading: "What Is a Strengths SWOT Analysis?", text: "A traditional SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) is a business strategy tool. A Strengths SWOT applies the same framework to your individual personality profile — using your strengths assessment data to identify what you do well, where you struggle, where your strengths create opportunities, and what threats your blind spots create. Your personality profile does not just tell you what you are good at; it tells you where your strengths become blind spots and which environments amplify or diminish your capabilities." },
       { heading: "Mapping Your Strengths and Weaknesses", text: "Your strengths assessment identifies capabilities that come naturally and energize you. In the Weaknesses quadrant, every strength has a corresponding overuse risk: strategic thinkers may overthink, empathetic collaborators may avoid conflict, driven achievers may rush past nuance, detail-oriented analysts may get stuck in perfectionism, and enthusiastic visionaries may under-deliver on execution. Your weaknesses are not flaws — they are the natural cost of your strengths. The approach is to manage them through systems and partnerships, not to fix them." },
       { heading: "Identifying Opportunities and Threats", text: "Opportunities are situations where your natural strengths are in demand and supply is limited — mismatches between your current role and your profile, growing fields that match your strengths, and unique combinations of strengths that create rare positioning. Threats are situations where your weaknesses are activated at high stakes: high achievers face burnout, deep thinkers face invisibility, empathetic givers face boundary erosion, and creative visionaries face scattered effort. Your Strengths SWOT should include 2-3 specific threats with concrete mitigation strategies." },
+    ],
+  },
+  "/blog/disc-personality-test-results": {
+    h1: "How to Read Your DISC Personality Test Results",
+    sections: [
+      { heading: "What Your DISC Results Tell You", text: "Your DISC results show your behavioral tendencies across four dimensions: Dominance, Influence, Steadiness, and Conscientiousness. Most people score highest on one or two dimensions — that is your primary style. The relative heights of your scores create a profile that describes how you tend to act and communicate. There is no best DISC profile. Every style has strengths and blind spots. The value is in understanding your natural tendencies so you can play to your strengths and manage your blind spots." },
+      { heading: "Common DISC Profile Combinations", text: "Most people have a primary and secondary style. D/I (Commander) profiles are bold and persuasive. D/C (Precision Driver) profiles are decisive and detail-oriented. I/S (Counselor) profiles are warm and relationship-focused. I/D (Promoter) profiles are charismatic and action-oriented. S/I (Relater) profiles are friendly and steady. C/S (Analyst) profiles are methodical and systematic. These are tendencies, not cages — everyone can flex into other styles when the situation requires it." },
+      { heading: "What to Do With Your Results", text: "Your DISC results are most useful when applied to specific situations. At work: share your profile with your team so colleagues can adapt their communication to your style. In relationships: use your profile to understand recurring communication patterns and friction points. For personal growth: your lowest DISC score is your growth edge — practice small behaviors in that dimension to become more versatile. You will not change your type, but you can become more flexible." },
+    ],
+  },
+  "/blog/personality-test-for-first-time-managers": {
+    h1: "Personality Tests for First-Time Managers: Know Your Style Before You Lead",
+    sections: [
+      { heading: "Why First-Time Managers Need Self-Awareness", text: "First-time managers face a fundamental challenge: the skills that got them promoted are not the skills they need now. The biggest risk is defaulting to their natural style without understanding how it affects their team. Without awareness, a high-D manager defaults to command-and-control, a high-I manager defaults to friendly-but-vague, a high-S manager defaults to avoiding tough conversations, and a high-C manager defaults to micromanaging quality. Personality tests give new managers a framework for understanding their natural tendencies before they start leading." },
+      { heading: "Your DISC Style and Managing Your Team", text: "High D managers are decisive but may be too directive. High I managers build rapport but may avoid conflict. High S managers create trust but may tolerate underperformance. High C managers set high standards but may micromanage. The best managers adapt their style to each team member. High D team members want autonomy. High I team members want collaboration. High S team members want clear expectations. High C team members want room to analyze. Managing everyone the way you would want to be managed is the most common new-manager mistake." },
+      { heading: "Building Your Manager Toolkit", text: "Take the full personality profile (DISC, Enneagram, Strengths, and 16 Personalities) for a multi-dimensional picture. Ask your team to take DISC so you have a shared communication vocabulary. Schedule style-specific 1-on-1 conversations about feedback preferences, communication style, pace, and stress triggers. Track your default management patterns for two weeks to identify your automatic responses. The best managers are not those who have no weaknesses — they are the ones who know their weaknesses and build systems and relationships that compensate." },
+    ],
+  },
+  "/blog/16-personalities-test-free": {
+    h1: "Free 16 Personalities Test: Your Type, Career Matches, and Growth Path",
+    sections: [
+      { heading: "What the 16 Personalities Test Measures", text: "The 16 Personalities framework (based on the Big Five personality model, not the trademarked MBTI system) categorizes personality into 16 types based on four preference dimensions: Introversion vs. Extraversion, Intuition vs. Sensing, Thinking vs. Feeling, and Judging vs. Perceiving. Your type describes your natural tendencies — which modes are energizing and which are draining. Most people can flex into opposite preferences, but it costs energy." },
+      { heading: "Where 16 Personalities Helps Most", text: "The framework is most useful for understanding career fit (which work environments energize you), communication style (how you prefer to give and receive information), stress patterns (each type has predictable stress triggers), and relationship dynamics (personality differences create predictable friction patterns). 1Test includes 16 Personalities alongside DISC, Enneagram, and Strengths — because no single framework captures your full personality. Multiple frameworks give you depth that one alone cannot provide." },
+      { heading: "How to Use Your Results", text: "Read your full type description, not just your letters. Check career recommendations for environment fit. Read your stress section to prevent burnout. Cross-reference with your other profiles — when multiple frameworks point in the same direction, trust the signal. Share results with people you work and live with. The goal is not to label yourself — it is to understand yourself well enough to make better decisions about your career, relationships, and growth." },
     ],
   },
 };
