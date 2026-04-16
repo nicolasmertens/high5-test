@@ -58,7 +58,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     return res.status(200).json({ url: session.url, sessionId: session.id });
   } catch (err: any) {
-    console.error("Stripe checkout error:", err);
-    return res.status(500).json({ error: err.message || "Checkout failed" });
+    console.error("Stripe checkout error:", err?.type, err?.message, err?.stack);
+    const detail = err?.raw?.message || err?.message || "Checkout failed";
+    const errType = err?.type || "unknown";
+    return res.status(500).json({ error: detail, errorType: errType });
   }
 }
