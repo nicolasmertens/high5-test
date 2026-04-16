@@ -29,7 +29,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   const filterResult = checkInboundHeaders(body);
   if (filterResult.filtered) {
-    await logFilteredEmail(body, filterResult.rule);
+    try {
+      await logFilteredEmail(body, filterResult.rule);
+    } catch (logErr) {
+      console.error("Failed to log filtered email:", logErr);
+    }
     return res.status(200).json({
       received: true,
       filtered: true,
