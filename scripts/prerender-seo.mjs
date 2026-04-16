@@ -672,14 +672,35 @@ const BLOG_FAQS = {
     { question: "What are the blind spots of DISC type C?", answer: "Common blind spots include perfectionism, analysis paralysis, slow decision-making, and a tendency to be overly critical. C types can also struggle with ambiguity and may over-research when action is needed. These are not weaknesses — they are growth areas that become manageable with awareness and practice." },
     { question: "How should I communicate with a C type?", answer: "Lead with data, be precise, give them time to analyze, and respect their attention to detail. Avoid vague language, overgeneralizations, and pressuring for instant decisions. C types respond best to clear, evidence-based communication." },
   ],
-  "/blog/16-personalities-career-guide": [
-    { question: "Which personality type is best for careers?", answer: "No type is inherently better for careers. Each type thrives in different environments. Analysts thrive in analytical, strategic roles. Diplomats thrive in people-focused, mission-driven roles. Sentinels thrive in structured, reliable environments. Explorers thrive in dynamic, hands-on roles. The best career fit matches your preferences, not a universal ideal." },
-    { question: "Can my personality type limit my career options?", answer: "No. Your type describes preferences, not capabilities. Any type can succeed in any career. The difference is energy cost. A career aligned with your preferences feels energizing. One misaligned with your preferences drains you faster. Focus on energy alignment, not type restriction." },
-    { question: "How do I find a career that matches my personality?", answer: "Start by understanding your preferences: how you recharge, process information, make decisions, and structure your time. Then look for roles and organizations where those preferences are assets. Combine your personality results with your Strengths profile and DISC style for a more specific career picture. Take the free personality test on 1Test to get started." },
-    { question: "Should I choose a career based on my personality test?", answer: "Use personality test results as one input alongside your skills, interests, values, and practical circumstances. A test helps you understand which environments align with your preferences, but it should not be the only factor. The best career decisions combine self-knowledge with real-world experience and opportunity." },
-    { question: "What if my career does not match my personality type?", answer: "Most people do not have careers that perfectly match their type. What matters is whether your work environment supports your core preferences in some way. Focus on finding aspects of your role that align with your preferences, and look for opportunities to add more of what energizes you." },
+"/blog/16-personalities-career-guide": [
+    { question: "Which personality type is best for careers?", answer: "No type is inherently better for careers. Each type thrives in different environments. The key is matching your preferences to your environment." },
+    { question: "Can my personality type limit my career options?", answer: "No. Your type describes preferences, not capabilities. Any type can succeed in any career. Focus on energy alignment, not type restriction." },
+    { question: "How do I find a career that matches my personality?", answer: "Understand your preferences for recharge, information processing, decision-making, and structure. Look for roles where those preferences are assets. Combine with your Strengths and DISC style." },
+    { question: "Should I choose a career based on my personality test?", answer: "Use test results as one input alongside skills, interests, and practical circumstances. Personality helps identify fitting environments but should not be the only factor." },
+    { question: "What if my career does not match my type?", answer: "Most people lack perfect type-career alignment. Focus on finding aspects of your role that align with your preferences and opportunities to add what energizes you." },
   ],
- };
+  "/blog/enneagram-type-1-reformer": [
+    { question: "Is Type 1 the same as being a perfectionist?", answer: "Type 1s often have perfectionist tendencies, but not all perfectionists are Type 1. Type 1 perfectionism is driven by a moral sense of rightness, not just performance standards." },
+    { question: "Can Type 1s learn to relax their standards?", answer: "Yes. The goal is distinguishing between standards (essential) and preferences (flexible). Healthy Type 1s maintain high standards without rigidity." },
+    { question: "How does Type 1 handle criticism?", answer: "Type 1s are often their own harshest critics. External criticism feels validating of worst fears. Learning to separate feedback from self-worth is key growth." },
+    { question: "What is the best career for Type 1?", answer: "Quality assurance, compliance, editing, law, engineering — roles where doing things right matters more than doing them fast." },
+    { question: "How does Type 1 compare to Type 3?", answer: "Both are achievement-oriented, but Type 1 is driven by correctness while Type 3 is driven by success. Type 1 wants it right. Type 3 wants it impressive." },
+  ],
+  "/blog/enneagram-type-2-helper": [
+    { question: "Are all Type 2s overly accommodating?", answer: "No. Healthy Type 2s give freely without expectation. Unhealthy Type 2s give to get love, creating resentment. The difference is awareness and boundary-setting." },
+    { question: "How is Type 2 different from being a people-pleaser?", answer: "Type 2 is a core motivation, not just behavior. People-pleasing can be a coping strategy for any type. Type 2s genuinely care, but may struggle to receive." },
+    { question: "Can Type 2s learn to receive?", answer: "Yes. Practice saying thank you without deflecting, asking for help, and letting others give without immediately reciprocating." },
+    { question: "What careers suit Type 2?", answer: "People-oriented roles: coaching, counseling support, HR, nursing, teaching, customer success, nonprofit leadership." },
+    { question: "How does Type 2 handle conflict?", answer: "Type 2s often avoid conflict to preserve relationships. Under extreme stress, they can erupt with Type 8 energy. Learning to address small issues early prevents both avoidance and explosion." },
+  ],
+  "/blog/personality-test-for-addiction-recovery": [
+    { question: "Can a personality test help with addiction recovery?", answer: "As a self-awareness tool, yes — not as treatment. Tests help understand stress patterns, triggers, and strengths, which supports recovery planning alongside professional help." },
+    { question: "Which personality types are most vulnerable to addiction?", answer: "No type is inherently vulnerable. Each type has different triggers and coping patterns. Anyone can develop addiction regardless of type." },
+    { question: "Should treatment programs use personality tests?", answer: "Some do. Personality-informed recovery planning helps match activities to type, improving engagement. It should complement, not replace, evidence-based treatment." },
+    { question: "How is this different from therapy?", answer: "Completely different. Therapy is clinical treatment. Personality tests are self-awareness tools. This article is not clinical advice. If struggling, seek professional help." },
+    { question: "Can personality tests prevent relapse?", answer: "They can contribute by improving self-awareness of triggers and stress patterns. But prevention requires professional support, community, and evidence-based approaches, not just self-knowledge." },
+  ],
+};
 
 const SEO_DATA = {
   "/free-strengths-test": {
@@ -1268,6 +1289,27 @@ const SEO_DATA = {
     description:
       "Complete career guide for all 16 personality types. Which types thrive in which environments, how each type approaches career decisions, and best career matches by type.",
     canonicalUrl: "https://1test.me/blog/16-personalities-career-guide",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-1-reformer": {
+    title: "Enneagram Type 1 Reformer: Traits, Growth, and Stress Patterns",
+    description:
+      "Deep dive into Enneagram Type 1 (Reformer). Core motivation, growth direction, stress patterns, and practical advice for becoming a healthier Type 1.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-1-reformer",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-2-helper": {
+    title: "Enneagram Type 2 Helper: Traits, Growth, and Stress Patterns",
+    description:
+      "Deep dive into Enneagram Type 2 (Helper). Core motivation, growth direction to 4, stress direction to 8, relationship patterns, and practical advice for becoming a healthier Type 2.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-2-helper",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-addiction-recovery": {
+    title: "Personality Tests in Recovery: Self-Awareness Tools for Building a New Life",
+    description:
+      "How personality tests support addiction recovery by building self-awareness, identifying triggers, and choosing recovery activities that match your type. Not a treatment — a self-awareness tool.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-addiction-recovery",
     ogType: "article",
   },
 };
@@ -1970,6 +2012,30 @@ const BODY_CONTENT = {
       { heading: "How Your Personality Type Connects to Career Fit", text: "Your personality type does not dictate your career, but it tells you which work environments energize you, which drain you, and what kind of impact you are wired to make. When your work environment matches your personality preferences, you have more energy, better performance, and higher satisfaction. Research on person-environment fit supports this — alignment between personality and work environment predicts satisfaction and performance better than skills alone." },
       { heading: "Career Paths by Type Group", text: "Analysts (NT types) thrive in complex, analytical environments — software engineering, data science, strategy consulting. Diplomats (NF types) thrive in mission-driven, people-focused environments — counseling, coaching, nonprofit leadership. Sentinels (SJ types) thrive in structured, reliable environments — operations, accounting, project management. Explorers (SP types) thrive in dynamic, hands-on environments — emergency services, entrepreneurship, skilled trades. Each group has distinct energizers and drainers." },
       { heading: "Using Your Type to Navigate Career Transitions", text: "Career transitions are where personality type matters most. Start with your non-negotiables — what your type needs to stay energized. Evaluate opportunities against your preferences, not just your skills. Combine frameworks: your 16 Personalities type tells you how you think, DISC tells you how you communicate, Strengths tells you what you do best, and Enneagram tells you why you are driven. Watch for your type's pitfall during transition — Thinking types may over-analyze, Feeling types may stay too long, Judging types may commit too early, Perceiving types may explore endlessly." },
+    ],
+  },
+  "/blog/enneagram-type-1-reformer": {
+    h1: "Enneagram Type 1 (Reformer): The Drive for Integrity and Improvement",
+    sections: [
+      { heading: "What Defines a Type 1", text: "Type 1s are driven by a deep sense of right and wrong. They have an internal compass that points toward integrity, improvement, and doing things correctly. This makes them principled, disciplined, and reliable — but also prone to self-criticism and perfectionism when unhealthy. The core motivation of Type 1 is to be good, right, and morally upright. The core fear is being wrong, corrupt, or defective." },
+      { heading: "Growth Direction: Moving Toward Type 7", text: "When healthy, Type 1s integrate the positive qualities of Type 7 (Enthusiast). They become more spontaneous, joyful, and open to possibility. Practical growth practices include: practicing spontaneity by scheduling unstructured time, challenging your inner critic by distinguishing standards from preferences, letting good enough be good enough by shipping work at 90% quality, and finding joy in the process rather than just the outcome." },
+      { heading: "Stress Direction and Key Relationships", text: "Under stress, Type 1s disintegrate toward Type 4 (Individualist) — becoming self-critical, moody, and withdrawn. In relationships, Type 1s bring integrity and reliability but often project their inner critic onto partners. At work, Type 1s excel in roles requiring quality, ethics, and systematic improvement. Their growth edge is learning to delegate and distinguish between essential standards and flexible preferences." },
+    ],
+  },
+  "/blog/enneagram-type-2-helper": {
+    h1: "Enneagram Type 2 (Helper): The Drive to Connect and Care",
+    sections: [
+      { heading: "What Defines a Type 2", text: "Type 2s are driven by the need to be loved and needed. They are warm, empathetic, generous, and relationship-focused — the first to offer help, remember birthdays, and notice when someone is struggling. Their superpower is emotional intelligence and genuine care for others. The core motivation of Type 2 is to feel loved and appreciated. The core fear is being unwanted, unloved, or unworthy of love." },
+      { heading: "Growth Direction: Moving Toward Type 4", text: "When healthy, Type 2s integrate the positive qualities of Type 4 (Individualist). They become more self-aware, authentic, and in touch with their own needs. Practical growth practices include: asking yourself what you need, saying no without apologizing, noticing giving-to-get patterns by checking your motives, and developing your own identity apart from relationships." },
+      { heading: "Stress Direction and Key Relationships", text: "Under stress, Type 2s disintegrate toward Type 8 (Challenger) — becoming controlling, demanding, and aggressive. In relationships, Type 2s bring warmth and emotional support but often lose themselves in caregiving. At work, Type 2s excel in people-oriented roles but struggle with overextension and boundary-setting. Learning to receive without immediately reciprocating is a core growth area." },
+    ],
+  },
+  "/blog/personality-test-for-addiction-recovery": {
+    h1: "Personality Tests in Recovery: Self-Awareness Tools, Not Treatment",
+    sections: [
+      { heading: "An Important Disclaimer", text: "Personality tests are self-awareness tools, not treatment for addiction or any other condition. If you are struggling with substance use or behavioral addiction, professional help from licensed counselors, therapists, and medical providers should be your primary resource. Personality tests can complement professional support but cannot replace it. That said, understanding your personality can be genuinely useful in recovery as a lens for self-awareness." },
+      { heading: "Understanding Your Triggers by Personality", text: "Different personality types have different vulnerability patterns. DISC High D types may use substances to enhance performance or maintain control, triggered by feeling powerless. DISC High I types may use in social settings, triggered by rejection. High S types may use to maintain comfort, triggered by disruption. High C types may use to manage anxiety, triggered by failure. Enneagram Type 7 may chase stimulation, Type 3 may use to maintain performance, and Type 6 may use to manage anxiety." },
+      { heading: "Building Self-Awareness for Recovery", text: "Research on relapse prevention identifies self-awareness as a key protective factor (Marlatt and Donovan, 2005). Personality tests contribute through pattern recognition — knowing your type's stress patterns helps catch relapse risk early. Self-compassion — understanding that certain patterns are type-related, not character flaws, reduces shame. Proactive planning — building recovery activities around your natural strengths. Personality tests cannot diagnose, replace treatment, or predict who will develop addiction, but they can give you more information about your patterns and vulnerabilities." },
     ],
   },
 };

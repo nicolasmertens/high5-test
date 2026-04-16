@@ -9464,6 +9464,215 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-16",
   },
+  "enneagram-type-1-reformer": {
+    slug: "enneagram-type-1-reformer",
+    metaTitle: "Enneagram Type 1 Reformer: Traits, Growth, and Stress Patterns",
+    metaDesc:
+      "Deep dive into Enneagram Type 1 (Reformer). Core motivation, growth direction, stress patterns, and practical advice for becoming a healthier Type 1.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-1-reformer",
+    h1: "Enneagram Type 1 (Reformer): The Drive for Integrity and Improvement",
+    sections: [
+      {
+        heading: "What Defines a Type 1",
+        html: p("Type 1s are driven by a deep sense of right and wrong. They have an internal compass that points toward integrity, improvement, and doing things correctly. This makes them principled, disciplined, and reliable — but also prone to self-criticism and perfectionism when unhealthy.") +
+          p("The core motivation of Type 1 is to be good, right, and morally upright. The core fear is being wrong, corrupt, or defective. This combination creates a powerful drive for excellence that, when channeled well, produces extraordinary quality and ethical leadership. When overdriven, it creates rigidity and judgment.") +
+          p('<a href="/free-enneagram-test">Take the free Enneagram test</a> to confirm your type.'),
+      },
+      {
+        heading: "Growth Direction: Moving Toward Type 7",
+        html: p("When healthy, Type 1s integrate the positive qualities of Type 7 (Enthusiast). They become more spontaneous, joyful, and open to possibility. Instead of seeing only what needs fixing, they start noticing what is already working.") +
+          p("Practical growth practices for Type 1:") +
+          ul([
+            "<strong>Practice spontaneity.</strong> Schedule unstructured time where nothing needs to be accomplished. Let yourself play without a purpose.",
+            "<strong>Challenge your inner critic.</strong> When you notice self-judgment, ask: Is this a standard or a preference? Not everything that could be improved needs to be.",
+            "<strong>Let good enough be good enough.</strong> Start shipping work at 90% quality. Notice that the world does not end when things are imperfect.",
+            "<strong>Find joy in the process.</strong> Type 1s often focus on the outcome. Practice enjoying the activity itself, regardless of the result.",
+          ]),
+      },
+      {
+        heading: "Stress Direction: Moving Toward Type 4",
+        html: p("Under stress, Type 1s disintegrate toward Type 4 (Individualist). They become self-critical, moody, and withdrawn. The inner critic amplifies, and what was previously constructive improvement drive becomes paralyzing self-doubt.") +
+          p("Signs you are moving toward 4:") +
+          ul([
+            "Everything feels personal — criticism stings more than usual.",
+            "You compare yourself to others and find yourself lacking.",
+            "You withdraw from others because no one understands your standards.",
+            "Small imperfections feel catastrophic.",
+            "You replay past mistakes on a loop.",
+          ]) +
+          p("Recovery: recognize the pattern. When you notice self-critical spiraling, pause and ask: Am I being fair to myself? Would I judge a friend this harshly? The answer is almost always no. <a href=\"/blog/enneagram-growth-coaching\">See our Enneagram growth coaching guide</a>."),
+      },
+      {
+        heading: "Type 1 in Relationships",
+        html: p("Type 1s bring integrity, reliability, and high standards to relationships. They are the partner who remembers commitments, follows through on promises, and holds the relationship to a high ethical standard.") +
+          p("Growth edge: Type 1s often project their inner critic onto their partner. What sounds like helpful feedback may land as judgment. Learning to distinguish between standards (non-negotiable) and preferences (flexible) transforms Type 1 relationships.") +
+          p("Best practices: tell your partner when you are being critical out of care versus frustration. Ask: Is this something that needs fixing, or something I need to accept? Practice expressing appreciation as often as you express improvement suggestions. <a href=\"/blog/personality-test-for-couples\">See our couples guide</a>."),
+      },
+      {
+        heading: "Type 1 at Work",
+        html: p("Type 1s excel in roles that require quality, ethics, and systematic improvement. They are the detail-oriented project manager, the quality-focused engineer, the principled leader who holds the line when others cut corners.") +
+          p("Best work environments for Type 1s: structured, quality-focused, with clear standards and ethical expectations. They struggle in chaotic environments where anything goes and in roles where mediocrity is tolerated.") +
+          p("Growth at work: delegate more. Type 1s often hold onto tasks because others will not do them to the same standard. This creates bottlenecks and burnout. Trust your team to deliver at 80% while you focus on the 20% that only you can do. <a href=\"/blog/strengths-based-leadership\">See strengths-based leadership</a>."),
+      },
+    ],
+    faqs: [
+      { question: "Is Type 1 the same as being a perfectionist?", answer: "Type 1s often have perfectionist tendencies, but not all perfectionists are Type 1. Type 1 perfectionism is driven by a moral sense of rightness, not just aesthetic or performance standards." },
+      { question: "Can Type 1s learn to relax their standards?", answer: "Yes. The goal is not to abandon standards but to distinguish between standards (essential) and preferences (flexible). Healthy Type 1s maintain high standards without being rigid." },
+      { question: "How does Type 1 handle criticism?", answer: "Type 1s are often their own harshest critics. External criticism feels validating of their worst fears. Learning to separate feedback from self-worth is a key growth area." },
+      { question: "What is the best career for Type 1?", answer: "Roles requiring quality, ethics, and systematic improvement: quality assurance, compliance, editing, law, engineering, and any role where doing things right matters more than doing them fast." },
+      { question: "How does Type 1 compare to Type 3?", answer: "Both are achievement-oriented, but Type 1 is driven by correctness while Type 3 is driven by success. Type 1 wants to do it right. Type 3 wants to do it impressively." },
+    ],
+    ctaHeading: "Discover your Enneagram type",
+    ctaSubtext: "Free Enneagram test with type, wing, and growth paths.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Enneagram types explained", url: "/blog/enneagram-types-explained" },
+      { label: "Enneagram growth paths", url: "/blog/enneagram-growth-paths" },
+      { label: "Enneagram growth coaching", url: "/blog/enneagram-growth-coaching" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "enneagram-type-2-helper": {
+    slug: "enneagram-type-2-helper",
+    metaTitle: "Enneagram Type 2 Helper: Traits, Growth, and Stress Patterns",
+    metaDesc:
+      "Deep dive into Enneagram Type 2 (Helper). Core motivation, growth direction to 4, stress direction to 8, relationship patterns, and practical advice for becoming a healthier Type 2.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-2-helper",
+    h1: "Enneagram Type 2 (Helper): The Drive to Connect and Care",
+    sections: [
+      {
+        heading: "What Defines a Type 2",
+        html: p("Type 2s are driven by the need to be loved and needed. They are warm, empathetic, generous, and relationship-focused — the first to offer help, remember birthdays, and notice when someone is struggling. Their superpower is emotional intelligence and genuine care for others.") +
+          p("The core motivation of Type 2 is to feel loved and appreciated. The core fear is being unwanted, unloved, or unworthy of love. This creates a powerful drive to give, support, and connect — which is beautiful when healthy and depleting when overdriven.") +
+          p('<a href="/free-enneagram-test">Take the free Enneagram test</a> to confirm your type.'),
+      },
+      {
+        heading: "Growth Direction: Moving Toward Type 4",
+        html: p("When healthy, Type 2s integrate the positive qualities of Type 4 (Individualist). They become more self-aware, authentic, and in touch with their own needs. Instead of only focusing on others, they learn to honor their own feelings and desires.") +
+          p("Practical growth practices for Type 2:") +
+          ul([
+            "<strong>Ask yourself what you need.</strong> Type 2s are so attuned to others that they lose touch with their own needs. Practice noticing and stating your needs, even small ones.",
+            "<strong>Say no without apologizing.</strong> Start with one no per day. Notice that relationships do not end when you set boundaries.",
+            "<strong>Notice giving-to-get patterns.</strong> When you give, check your motive. Are you giving freely, or do you expect something in return? Honest self-inquiry here is transformative.",
+            "<strong>Develop your own identity apart from relationships.</strong> What do you enjoy when no one else is watching? Pursue it.",
+          ]),
+      },
+      {
+        heading: "Stress Direction: Moving Toward Type 8",
+        html: p("Under stress, Type 2s disintegrate toward Type 8 (Challenger). They become controlling, demanding, and aggressive — the opposite of their usual warmth. This looks like: \"After everything I have done for you, you owe me.\" The giving that was generous becomes transactional, and the frustration that was suppressed erupts.") +
+          p("Signs you are moving toward 8:") +
+          ul([
+            "You feel entitled to others' time and attention because you have earned it.",
+            "You manipulate situations to feel needed — creating problems so you can solve them.",
+            "You become direct and forceful in ways that surprise you and others.",
+            "You resent people who do not reciprocate your generosity.",
+            "You feel angry at the world for not appreciating you enough.",
+          ]),
+      },
+      {
+        heading: "Type 2 in Relationships",
+        html: p("Type 2s bring warmth, emotional support, and genuine care to relationships. They are the partner who remembers what you need before you ask, who celebrates your wins, and who shows up during hard times without being asked.") +
+          p("Growth edge: Type 2s often lose themselves in relationships. Their identity becomes entwined with their role as caregiver, and they struggle to express their own needs. When their generosity is not reciprocated, resentment builds silently until it erupts.") +
+          p("Best practices: tell your partner what you need, not just what they need. Practice receiving without immediately giving back. Learn that being loved for who you are — not what you do — is the deepest form of connection. <a href=\"/blog/personality-test-for-couples\">See our couples guide</a>."),
+      },
+      {
+        heading: "Type 2 at Work",
+        html: p("Type 2s excel in people-oriented roles: human resources, coaching, customer success, nursing, teaching, and team leadership. They build loyalty and trust quickly and are often the emotional glue that holds teams together.") +
+          p("Common challenge at work: Type 2s overextend themselves for colleagues and struggle to say no. They take on emotional labor that is not in their job description and burn out from invisible work. Setting clear boundaries around availability and emotional investment is essential.") +
+          p("Growth at work: practice delegating emotional support. You do not have to be the team therapist. Let colleagues manage their own emotions sometimes. <a href=\"/blog/personality-test-for-managers\">See personality test for managers</a>."),
+      },
+    ],
+    faqs: [
+      { question: "Are all Type 2s overly accommodating?", answer: "No. Healthy Type 2s give freely without expectation. Unhealthy Type 2s give to get love, which creates resentment. The difference is awareness and boundary-setting." },
+      { question: "How is Type 2 different from being a people-pleaser?", answer: "Type 2 is a core motivation, not just behavior. People-pleasing can be a coping strategy for any type. Type 2s genuinely care about others, but may also struggle to receive." },
+      { question: "Can Type 2s learn to receive?", answer: "Absolutely. It is a core growth area. Practice saying thank you without deflecting, asking for help, and letting others give to you without immediately reciprocating." },
+      { question: "What careers suit Type 2?", answer: "People-oriented roles: coaching, counseling support, human resources, nursing, teaching, customer success, and nonprofit leadership. Any role where emotional intelligence and relationship-building are valued." },
+      { question: "How does Type 2 handle conflict?", answer: "Type 2s often avoid conflict to preserve relationships. When pushed too far, they can erupt with surprising force (moving toward Type 8). Learning to address small issues early prevents both avoidance and explosion." },
+    ],
+    ctaHeading: "Discover your Enneagram type",
+    ctaSubtext: "Free Enneagram test with type, wing, and growth paths.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Enneagram types explained", url: "/blog/enneagram-types-explained" },
+      { label: "Enneagram growth paths", url: "/blog/enneagram-growth-paths" },
+      { label: "Enneagram growth coaching", url: "/blog/enneagram-growth-coaching" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "personality-test-for-addiction-recovery": {
+    slug: "personality-test-for-addiction-recovery",
+    metaTitle: "Personality Tests in Recovery: Self-Awareness Tools for Building a New Life",
+    metaDesc:
+      "How personality tests support addiction recovery by building self-awareness, identifying triggers, and choosing recovery activities that match your type. Not a treatment — a self-awareness tool.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-addiction-recovery",
+    h1: "Personality Tests in Recovery: Self-Awareness Tools, Not Treatment",
+    sections: [
+      {
+        heading: "An Important Disclaimer",
+        html: p("Personality tests are self-awareness tools, not treatment for addiction or any other condition. If you are struggling with substance use or behavioral addiction, professional help from licensed counselors, therapists, and medical providers should be your primary resource. Personality tests can complement professional support, but they cannot replace it.") +
+          p("That said, understanding your personality can be genuinely useful in recovery — not as treatment, but as a lens for self-awareness. Knowing your stress patterns, coping tendencies, and natural strengths gives you more information to work with in your recovery journey."),
+      },
+      {
+        heading: "Understanding Your Triggers by Personality",
+        html: p("Different personality types have different vulnerability patterns:") +
+          p("<strong>DISC High D:</strong> may use substances to enhance performance or maintain control. Trigger: feeling powerless or ineffective.") +
+          p("<strong>DISC High I:</strong> may use substances in social settings to amplify connection. Trigger: social rejection or loneliness.") +
+          p("<strong>DISC High S:</strong> may use substances to maintain comfort and avoid change. Trigger: unexpected disruption or loss of stability.") +
+          p("<strong>DISC High C:</strong> may use substances to manage anxiety and achieve perfection. Trigger: failure or perceived incompetence." +
+          p("<strong>Enneagram Type 7:</strong> may chase stimulation and avoid discomfort. Trigger: boredom or emotional pain. <strong>Type 3:</strong> may use to maintain performance. Trigger: failure or exposure. <strong>Type 6:</strong> may use to manage anxiety. Trigger: uncertainty or fear.")),
+      },
+      {
+        heading: "Choosing Recovery Activities That Fit Your Type",
+        html: p("Recovery programs work best when they fit the person, not just the condition. Your personality affects which recovery activities resonate:") +
+          p("<strong>Extraverts</strong> often thrive in group meetings and peer support. The social connection is recovery itself. <strong>Introverts</strong> may prefer journaling, one-on-one counseling, and reflective practices. Forcing an introvert into large group settings can backfire.") +
+          p("<strong>Judging types</strong> benefit from structured recovery programs with clear steps and milestones. <strong>Perceiving types</strong> may chafe at rigid programs and need more flexibility — daily check-ins rather than 90-day curricula.") +
+          p("<strong>Thinkers</strong> respond to cognitive-behavioral approaches and evidence-based methods. <strong>Feelers</strong> respond to group connection, shared stories, and values-based motivation.") +
+          p("<a href=\"/free-personality-test\">Take the free test</a> to understand your recovery-relevant personality patterns."),
+      },
+      {
+        heading: "Building Self-Awareness for Relapse Prevention",
+        html: p("Research on relapse prevention consistently identifies self-awareness as a key protective factor (Marlatt and Donovan, 2005). Personality tests contribute to self-awareness in three ways:") +
+          ol([
+            "<strong>Pattern recognition.</strong> Knowing that your type tends to react to stress with withdrawal (Type 9), aggression (Type 8), or overwork (Type 3) helps you catch relapse risk early.",
+            "<strong>Self-compassion.</strong> Understanding that certain patterns are type-related — not character flaws — reduces shame, which is itself a relapse trigger.",
+            "<strong>Proactive planning.</strong> You can build recovery activities around your natural strengths rather than forcing yourself into activities that do not fit.",
+          ]),
+      },
+      {
+        heading: "What Personality Tests Cannot Do",
+        html: p("Personality tests cannot:") +
+          ul([
+            "Diagnose addiction or any other condition.",
+            "Replace professional treatment, counseling, or medical care.",
+            "Predict who will develop addiction or who will recover.",
+            "Serve as a standalone recovery tool.",
+          ]) +
+          p("What they can do is give you more information about yourself — your patterns, your vulnerabilities, and your strengths. That information is useful in recovery, just as it is in any growth context. If you are in recovery, use personality tests as one of many tools alongside professional support. <a href=\"/blog/personality-test-for-personal-growth\">See our personal growth guide</a>."),
+      },
+    ],
+    faqs: [
+      { question: "Can a personality test help with addiction recovery?", answer: "As a self-awareness tool, yes — not as treatment. Personality tests help you understand your stress patterns, triggers, and natural strengths, which supports recovery planning alongside professional help." },
+      { question: "Which personality types are most vulnerable to addiction?", answer: "No type is inherently vulnerable. Each type has different triggers and coping patterns. Anyone can develop addiction regardless of type. Personality knowledge helps understand patterns, not predict risk." },
+      { question: "Should treatment programs use personality tests?", answer: "Some do, and research supports it. Personality-informed recovery planning helps match activities to type, which improves engagement. It should complement, not replace, evidence-based treatment." },
+      { question: "How is this different from therapy?", answer: "Completely different. Therapy is clinical treatment. Personality tests are self-awareness tools that reveal patterns. This article is not clinical advice — if you are struggling, seek professional help." },
+      { question: "Can personality tests prevent relapse?", answer: "They can contribute by improving self-awareness of triggers and stress patterns. But prevention requires professional support, community connection, and evidence-based approaches, not just self-knowledge." },
+    ],
+    ctaHeading: "Build self-awareness for your recovery journey",
+    ctaSubtext: "Free personality test — four frameworks, full results. Not treatment. Self-awareness.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "Personality test for self-awareness", url: "/blog/personality-test-self-awareness" },
+      { label: "Personality test for personal growth", url: "/blog/personality-test-for-personal-growth" },
+      { label: "Personality test for stress management", url: "/blog/personality-test-stress-management" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {
