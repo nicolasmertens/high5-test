@@ -21,7 +21,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     try {
       const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
         apiVersion: "2026-03-25.dahlia",
-        timeout: 30000,
+        httpClient: Stripe.createFetchHttpClient(),
       });
       const products = await stripe.products.list({ limit: 1 });
       stripeTest = `ok (${products.data.length} product(s) accessible)`;

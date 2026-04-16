@@ -3,6 +3,7 @@ import Stripe from "stripe";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: "2026-03-25.dahlia",
+  httpClient: Stripe.createFetchHttpClient(),
 });
 
 const TIER_CONFIG: Record<string, { priceId: string; mode: "payment" | "subscription" }> = {
