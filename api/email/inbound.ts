@@ -1,5 +1,6 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { storeInboundEmail } from "../lib/inbound-email.js";
+import { checkInboundHeaders, logFilteredEmail } from "../lib/inbound-filter.js";
 import type { ResendInboundPayload } from "../lib/inbound-types.js";
 
 export const config = {
@@ -24,6 +25,16 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   if (!body || !body.from || !body.subject) {
     return res.status(400).json({ error: "Invalid payload: missing required fields" });
+  }
+
+  const filterResult = checkInboundHeaders(body);
+  if (filterResult.filtered) {
+    await logFilteredEmail(body, filterResult.rule);
+    return res.status(200).json({
+      received: true,
+      filtered: true,
+      rule: filterResult.rule,
+    });
   }
 
   try {

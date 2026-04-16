@@ -8,6 +8,7 @@ export interface ResendInboundPayload {
   html: string;
   text: string;
   reply_to: string[];
+  headers: Array<{ name: string; value: string }>;
   attachments: Array<{
     id: string;
     filename: string;
@@ -28,6 +29,15 @@ export type EmailCategory =
   | "pricing";
 
 export type EmailStatus = "new" | "triaged" | "responded" | "closed";
+
+export interface FilteredEmailLog {
+  id: string;
+  resendId: string;
+  from: string;
+  subject: string;
+  matchedRule: "precedence_bulk" | "list_unsubscribe";
+  filteredAt: number;
+}
 
 export interface InboundEmail {
   id: string;
