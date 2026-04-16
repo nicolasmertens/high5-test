@@ -34,7 +34,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       return res.status(404).json({ error: "Subscriber not found" });
     }
   } catch (err: unknown) {
-    console.error("Unsubscribe error:", err);
+    const message = err instanceof Error ? err.message : "Internal server error";
+    console.error("Unsubscribe error:", message);
+    if (message.includes("invalid_grant") || message.includes("GCS credentials incomplete") || message.includes("GCS_BUCKET_NAME")) {
+      return res.status(503).json({ error: "Service temporarily unavailable" });
+    }
     return res.status(500).json({ error: "Internal server error" });
   }
 }

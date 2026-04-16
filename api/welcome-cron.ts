@@ -78,6 +78,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   } catch (err: unknown) {
     console.error("Welcome cron error:", err);
     const message = err instanceof Error ? err.message : "Internal server error";
+    if (message.includes("invalid_grant") || message.includes("GCS credentials incomplete") || message.includes("GCS_BUCKET_NAME")) {
+      return res.status(503).json({ error: "Service temporarily unavailable" });
+    }
     return res.status(500).json({ error: message });
   }
 }

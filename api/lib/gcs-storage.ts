@@ -3,13 +3,34 @@ import { Storage } from "@google-cloud/storage";
 let storageInstance: Storage | null = null;
 let bucketInstance: ReturnType<Storage["bucket"]> | null = null;
 
+function normalizePrivateKey(key: string | undefined): string | undefined {
+  if (!key) return undefined;
+  let normalized = key.trim();
+  if ((normalized.startsWith('"') && normalized.endsWith('"')) || (normalized.startsWith("'") && normalized.endsWith("'"))) {
+    normalized = normalized.slice(1, -1);
+  }
+  normalized = normalized.replace(/\\r\\n/g, "\n").replace(/\\n/g, "\n");
+  if (!normalized.includes("\n") && normalized.includes("-----BEGIN PRIVATE KEY-----")) {
+    normalized = normalized.replace(/-----BEGIN PRIVATE KEY-----/, "-----BEGIN PRIVATE KEY-----\n").replace(/-----END PRIVATE KEY-----/, "\n-----END PRIVATE KEY-----");
+  }
+  return normalized;
+}
+
 function getStorage(): Storage {
   if (!storageInstance) {
+    const projectId = process.env.GCS_PROJECT_ID;
+    const clientEmail = process.env.GCS_CLIENT_EMAIL;
+    const privateKey = normalizePrivateKey(process.env.GCS_PRIVATE_KEY);
+
+    if (!projectId || !clientEmail || !privateKey) {
+      throw new Error(`GCS credentials incomplete: projectId=${!!projectId} clientEmail=${!!clientEmail} privateKey=${!!privateKey}`);
+    }
+
     storageInstance = new Storage({
-      projectId: process.env.GCS_PROJECT_ID,
+      projectId,
       credentials: {
-        client_email: process.env.GCS_CLIENT_EMAIL,
-        private_key: process.env.GCS_PRIVATE_KEY?.replace(/\\n/g, "\n"),
+        client_email: clientEmail,
+        private_key: privateKey,
       },
     });
   }

@@ -65,9 +65,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   } catch (err: unknown) {
     console.error("Subscribe error:", err);
     const message = err instanceof Error ? err.message : "Internal server error";
-    if (message.includes("UPSTASH_REDIS")) {
+    if (message.includes("invalid_grant") || message.includes("GCS credentials incomplete") || message.includes("GCS_BUCKET_NAME")) {
+      console.error("Infrastructure error:", message);
       return res.status(503).json({ error: "Service temporarily unavailable. Please try again." });
     }
-    return res.status(500).json({ error: message });
+    return res.status(500).json({ error: "Internal server error" });
   }
 }
