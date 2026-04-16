@@ -595,6 +595,27 @@ const BLOG_FAQS = {
     { question: "Should couples compare personality results?", answer: "Yes. Comparing results creates shared vocabulary for differences and reduces misinterpretation." },
     { question: "Can compatibility change over time?", answer: "Types do not change, but compatibility improves as both parties develop flexibility and communication skills." },
   ],
+  "/blog/personality-test-for-teaching": [
+    { question: "Can personality tests help teachers?", answer: "Yes. Personality tests give teachers a structured framework for understanding why students respond differently to the same lesson. They help teachers adapt instruction, communication, and feedback to reach every student rather than only those whose style matches the teacher's default." },
+    { question: "Which personality test is best for teachers?", answer: "Start with 16 Personalities for a broad understanding of how students process information and make decisions. Add DISC for classroom behavior and communication patterns. Use Strengths for identifying what each student naturally does well. The 1Test assessment covers all four frameworks in about 15 minutes." },
+    { question: "Should I give personality tests to my students?", answer: "For students aged 16 and older, personality assessments can be a valuable self-awareness tool. For younger students, it is more effective for the teacher to understand personality frameworks and adapt instruction based on observation. Always make assessments voluntary and use results for development, not labeling." },
+    { question: "How do I adapt my teaching style for different personalities?", answer: "Start by knowing your own personality type. Teachers naturally teach in their own style, which works well for students who share that style but may leave out students who do not. Add variety: both group work and independent time, both structured rubrics and open-ended projects, both direct feedback and encouraging comments." },
+    { question: "Can personality tests harm students?", answer: "Personality assessments are not harmful when used appropriately. They become harmful when used to limit expectations, sort students into rigid tracks, or label students in front of peers. Use results to expand understanding of each student, not to narrow their possibilities." },
+  ],
+  "/blog/enneagram-type-3-achiever": [
+    { question: "What is Enneagram Type 3?", answer: "Type 3, the Achiever, is driven by a need to feel valuable and successful. Threes are goal-oriented, adaptable, and focused on results. They excel at setting targets, reading what others value, and delivering impressive outcomes. Their core fear is being worthless or exposed as a failure." },
+    { question: "What is the growth direction for Type 3?", answer: "Type 3 grows toward Type 6. When healthy, Threes develop cooperation, loyalty, and genuine trust in others. They shift from chasing personal achievement for its own sake to building authentic partnerships and working toward shared goals." },
+    { question: "What is the stress direction for Type 3?", answer: "Type 3 moves toward Type 9 under stress. When pushed too hard, Threes become apathetic, disengaged, and emotionally numb. They stop caring about goals they once pursued energetically and may numb themselves with distractions." },
+    { question: "How do I know if I am a Type 3?", answer: "Take the free Enneagram test on 1Test. It takes about 8-12 minutes, and you receive your type, wing tendencies, growth direction, and stress direction — all free with no paywall." },
+    { question: "How can Type 3 Achievers grow?", answer: "The most important growth practice for Threes is distinguishing authentic desire from image-driven striving. Ask yourself regularly: Do I want this because it matters to me, or because it looks impressive? Build genuine relationships based on who you are, not what you achieve." },
+  ],
+  "/blog/disc-type-d-dominance": [
+    { question: "What is DISC type D (Dominance)?", answer: "DISC type D, or Dominance, describes people who are direct, results-oriented, and decisive. They prioritize action and efficiency, prefer bottom-line communication, and are energized by challenges and competition. Most people have a blend of DISC styles, with one or two being dominant." },
+    { question: "How do I know if I am a high D?", answer: "Take the free DISC test on 1Test. It takes about 5-8 minutes, and you receive your scores across all four dimensions — Dominance, Influence, Steadiness, and Conscientiousness — plus your primary style and practical tips. No paywall." },
+    { question: "Is DISC type D good for leadership?", answer: "D types make effective leaders in fast-paced, results-oriented environments. They excel at making tough decisions, driving outcomes, and challenging the status quo. The most effective D leaders also develop patience, listening skills, and empathy." },
+    { question: "How should I communicate with a D type?", answer: "Be direct, get to the point, focus on outcomes, and give options rather than prescriptions. D types respect confidence and brevity. Avoid long preambles, excessive detail, and hedging. If you disagree, say so directly." },
+    { question: "What are the blind spots of DISC type D?", answer: "D types can overlook other people's feelings, rush decisions without enough input, and steamroll colleagues who need more time or information. They may equate speed with effectiveness when patience would produce better results. The growth area for D types is developing empathy, patience, and collaboration." },
+  ],
 };
 
 const SEO_DATA = {
@@ -1100,6 +1121,27 @@ const SEO_DATA = {
     description:
       "Personality compatibility across DISC, 16 Personalities, and Enneagram. What makes types compatible, common friction points, and building strong relationships across differences.",
     canonicalUrl: "https://1test.me/blog/personality-type-compatibility",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-teaching": {
+    title: "Personality Tests for Teachers — Understand Students and Adapt Your Style",
+    description:
+      "How personality tests help teachers understand student differences, adapt teaching styles, and improve classroom dynamics. Free personality test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-teaching",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-3-achiever": {
+    title: "Enneagram Type 3 Achiever — Core Motivation, Growth, and Practical Advice",
+    description:
+      "Deep dive into Enneagram Type 3 Achiever: core motivation, core fear, growth direction to 6, stress direction to 9, and practical advice for Threes. Free Enneagram test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-3-achiever",
+    ogType: "article",
+  },
+  "/blog/disc-type-d-dominance": {
+    title: "DISC Type D Dominance — Traits, Communication, Strengths, and Growth",
+    description:
+      "Deep dive into DISC D (Dominance) type: traits, communication style, strengths, blind spots, working with D types, and growth areas. Free DISC test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/disc-type-d-dominance",
     ogType: "article",
   },
 };
@@ -1706,6 +1748,30 @@ const BODY_CONTENT = {
       { heading: "DISC Compatibility", text: "Same-style pairs: understand intuitively but share blind spots. Complementary pairs: balance but require communication. Opposite pairs: most growth potential and most initial friction. D+S and I+C are classic complements." },
       { heading: "16 Personalities Compatibility", text: "Similar types share understanding but miss perspective. Complementary types bring different strengths. Thinking vs Feeling is the most common friction dimension — it is about information priority, not compatibility." },
       { heading: "Building Cross-Type Compatibility", text: "Understand, do not judge. Adapt communication, not values. Name the personality dimension at play. Compatibility improves with effort and self-awareness, regardless of type combination." },
+    ],
+  },
+  "/blog/personality-test-for-teaching": {
+    h1: "How Personality Tests Help Teachers Understand Every Student",
+    sections: [
+      { heading: "Why Personality Matters in Teaching", text: "Students process information, respond to pressure, and engage with learning in ways that reflect their personality type. When teachers understand these differences, they can adapt their approach to reach every student — not just the ones whose style matches their own. Personality assessments give teachers a structured framework for understanding why students respond differently to the same lesson." },
+      { heading: "Personality Types in the Classroom", text: "Extraverted students learn through discussion and group work. Introverted students learn through reflection and independent time. Sensing students want concrete examples and step-by-step instructions. Intuitive students want big-picture concepts and creative exploration. Balancing instructional methods reaches all types." },
+      { heading: "Practical Strategies for Teachers", text: "Use personality data to group students strategically, deliver feedback in the style each student processes best, offer assignment format options, practice personality-aware classroom management, and share insights with parents. The most effective teachers know their own type and adapt their style to reach students who process differently." },
+    ],
+  },
+  "/blog/enneagram-type-3-achiever": {
+    h1: "Enneagram Type 3: The Achiever — Complete Guide to Motivation, Growth, and Blind Spots",
+    sections: [
+      { heading: "What Drives Type 3", text: "Type 3 is driven by a need to feel valuable and successful. Threes are goal-oriented, adaptable, and focused on results. They excel at reading what others value and delivering it. At their best, they are inspiring leaders and role models. At their worst, they lose touch with authenticity in the pursuit of image." },
+      { heading: "Growth Direction — Toward Type 6", text: "When healthy, Threes develop cooperation, loyalty, and genuine trust in others. They shift from chasing personal achievement to building authentic partnerships. Growth practices include distinguishing authentic desire from image-driven striving, sharing vulnerability with trusted people, and pursuing activities that have no measurable outcome." },
+      { heading: "Stress Direction — Toward Type 9", text: "Under pressure, Threes become apathetic, disengaged, and emotionally numb — taking on the negative qualities of Type 9. They stop caring about goals they once pursued energetically and may numb themselves with distractions. The antidote is reconnecting with genuine desire rather than pushing harder." },
+    ],
+  },
+  "/blog/disc-type-d-dominance": {
+    h1: "DISC Type D Dominance: Complete Guide to Traits, Strengths, and Growth",
+    sections: [
+      { heading: "What DISC D Means", text: "The D in DISC stands for Dominance. People with high D scores are direct, results-oriented, and decisive. They prioritize action over analysis, outcomes over process, and efficiency over comfort. They are energized by challenges, comfortable with conflict, and motivated by autonomy." },
+      { heading: "Strengths and Blind Spots", text: "D types drive results, make tough decisions, take initiative, challenge the status quo, and thrive under pressure. Their blind spots include overlooking feelings, rushing decisions, steamrolling colleagues who need more time, losing interest in routine execution, and micromanaging when trust is low." },
+      { heading: "Growth Areas for the D Type", text: "The most effective D types develop patience, listening skills, empathy, and collaboration. Not everything needs to happen now. Listening for understanding rather than for a chance to respond produces better decisions. Empathy is a skill, not a trait. Combining drive with others' strengths produces better results than working alone." },
     ],
   },
 };
