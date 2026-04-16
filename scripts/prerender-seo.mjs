@@ -700,6 +700,27 @@ const BLOG_FAQS = {
     { question: "How is this different from therapy?", answer: "Completely different. Therapy is clinical treatment. Personality tests are self-awareness tools. This article is not clinical advice. If struggling, seek professional help." },
     { question: "Can personality tests prevent relapse?", answer: "They can contribute by improving self-awareness of triggers and stress patterns. But prevention requires professional support, community, and evidence-based approaches, not just self-knowledge." },
   ],
+  "/blog/enneagram-type-4-individualist": [
+    { question: "Are all Type 4s artists?", answer: "No. Type 4s value originality and authenticity, which often expresses through creative work, but many thrive in analytical, strategic, or caregiving roles. The common thread is a desire to do meaningful, distinctive work." },
+    { question: "How is Type 4 different from depression?", answer: "Type 4 is a personality pattern, not a mental health condition. Type 4s may be more vulnerable to melancholy, but sadness is one feeling among many. If you experience persistent hopelessness or loss of function, seek professional support." },
+    { question: "Can Type 4s learn to be more practical?", answer: "Yes. Growth toward Type 1 means becoming more objective, disciplined, and action-oriented. Type 4s who integrate Type 1 qualities become both deeply feeling and effectively grounded." },
+    { question: "What careers suit Type 4?", answer: "Roles that value originality and depth: design, writing, therapy, coaching, brand strategy, curation, research, and any creative field. Type 4s also thrive in environments with autonomy, purpose, and room for personal expression." },
+    { question: "How does Type 4 compare to Type 5?", answer: "Both withdraw, but for different reasons. Type 4 withdraws to protect their emotional interior. Type 5 withdraws to protect their energy and think. Type 4 feels deeply; Type 5 thinks deeply." },
+  ],
+  "/blog/enneagram-type-5-investigator": [
+    { question: "Are Type 5s always introverts?", answer: "While most Type 5s lean introverted, the type is about energy conservation and knowledge-seeking, not social preference. Some Type 5s are socially engaged but still need substantial alone time to recharge and process." },
+    { question: "How is Type 5 different from just being introverted?", answer: "Introversion is about where you get energy. Type 5 is a core motivation pattern — the need to be competent and the fear of depletion. Not all introverts are Type 5s, and Type 5 is about more than social energy." },
+    { question: "Can Type 5s become good leaders?", answer: "Yes, especially when they integrate Type 8 qualities. Type 5 leaders bring clarity, strategic thinking, and calm under pressure. The growth edge is being visible and communicative rather than operating from behind the scenes." },
+    { question: "What careers suit Type 5?", answer: "Knowledge-intensive roles: research, data science, engineering, architecture, specialized consulting, technical writing, and any field where deep expertise and independent thinking are valued." },
+    { question: "How does Type 5 handle conflict?", answer: "Type 5s typically withdraw from conflict to process internally. They may delay responding, which partners interpret as avoidance. Growth means engaging sooner and expressing your position clearly even when it feels incomplete." },
+  ],
+  "/blog/enneagram-type-7-enthusiast": [
+    { question: "Are all Type 7s extroverts?", answer: "Most Type 7s are socially energized, but the type is about experiential breadth, not social preference. Some pursue variety through ideas, books, and solo adventures. The drive is for new experiences, not necessarily social ones." },
+    { question: "How is Type 7 different from ADHD?", answer: "Type 7 is a personality pattern, not a clinical condition. While Type 7s share traits with ADHD (novelty-seeking, distractibility), they are different frameworks. ADHD is a neurodevelopmental condition. Type 7 is a motivational pattern. They can coexist but are not the same." },
+    { question: "Can Type 7s learn to follow through?", answer: "Absolutely. Growth toward Type 5 means developing focus and depth. The key is channeling enthusiasm — choosing one pursuit to go deep on while maintaining breadth as a hobby rather than a primary mode." },
+    { question: "What careers suit Type 7?", answer: "Fast-paced, variety-rich roles: entrepreneurship, product management, creative direction, consulting, event planning, and any role where ideation and quick adaptation are valued more than consistency and routine." },
+    { question: "How does Type 7 compare to Type 3?", answer: "Both are energetic and achievement-oriented, but Type 7 is driven by experience and possibility while Type 3 is driven by success and image. Type 7 wants to have a great time. Type 3 wants to have great results." },
+  ],
 };
 
 const SEO_DATA = {
@@ -1310,6 +1331,27 @@ const SEO_DATA = {
     description:
       "How personality tests support addiction recovery by building self-awareness, identifying triggers, and choosing recovery activities that match your type. Not a treatment — a self-awareness tool.",
     canonicalUrl: "https://1test.me/blog/personality-test-for-addiction-recovery",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-4-individualist": {
+    title: "Enneagram Type 4 Individualist: Traits, Growth, and Stress Patterns",
+    description:
+      "Deep dive into Enneagram Type 4 (Individualist). Core motivation, growth direction to 1, stress direction to 2, relationship patterns, and practical advice for becoming a healthier Type 4.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-4-individualist",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-5-investigator": {
+    title: "Enneagram Type 5 Investigator: Traits, Growth, and Stress Patterns",
+    description:
+      "Deep dive into Enneagram Type 5 (Investigator). Core motivation, growth direction to 8, stress direction to 7, relationship patterns, and practical advice for becoming a healthier Type 5.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-5-investigator",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-7-enthusiast": {
+    title: "Enneagram Type 7 Enthusiast: Traits, Growth, and Stress Patterns",
+    description:
+      "Deep dive into Enneagram Type 7 (Enthusiast). Core motivation, growth direction to 5, stress direction to 1, relationship patterns, and practical advice for becoming a healthier Type 7.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-7-enthusiast",
     ogType: "article",
   },
 };
@@ -2036,6 +2078,30 @@ const BODY_CONTENT = {
       { heading: "An Important Disclaimer", text: "Personality tests are self-awareness tools, not treatment for addiction or any other condition. If you are struggling with substance use or behavioral addiction, professional help from licensed counselors, therapists, and medical providers should be your primary resource. Personality tests can complement professional support but cannot replace it. That said, understanding your personality can be genuinely useful in recovery as a lens for self-awareness." },
       { heading: "Understanding Your Triggers by Personality", text: "Different personality types have different vulnerability patterns. DISC High D types may use substances to enhance performance or maintain control, triggered by feeling powerless. DISC High I types may use in social settings, triggered by rejection. High S types may use to maintain comfort, triggered by disruption. High C types may use to manage anxiety, triggered by failure. Enneagram Type 7 may chase stimulation, Type 3 may use to maintain performance, and Type 6 may use to manage anxiety." },
       { heading: "Building Self-Awareness for Recovery", text: "Research on relapse prevention identifies self-awareness as a key protective factor (Marlatt and Donovan, 2005). Personality tests contribute through pattern recognition — knowing your type's stress patterns helps catch relapse risk early. Self-compassion — understanding that certain patterns are type-related, not character flaws, reduces shame. Proactive planning — building recovery activities around your natural strengths. Personality tests cannot diagnose, replace treatment, or predict who will develop addiction, but they can give you more information about your patterns and vulnerabilities." },
+    ],
+  },
+  "/blog/enneagram-type-4-individualist": {
+    h1: "Enneagram Type 4 (Individualist): The Drive for Authenticity and Depth",
+    sections: [
+      { heading: "What Defines a Type 4", text: "Type 4s are driven by the need to be unique, authentic, and emotionally honest. They experience feelings deeply, notice beauty others miss, and long for a sense of significance. The core motivation is to understand their identity and be seen for who they truly are. The core fear is being ordinary, defective, or emotionally disconnected. This creates a rich inner world that produces extraordinary art, insight, and emotional depth when healthy — and perpetual lack when overdriven." },
+      { heading: "Growth Direction: Moving Toward Type 1", text: "When healthy, Type 4s integrate Type 1 (Reformer) qualities: objectivity, discipline, and groundedness. Growth practices include distinguishing feeling from fact, committing to consistent action even without inspiration, focusing on what you have rather than what is missing, and staying present instead of comparing your chapter 2 to someone else's chapter 20." },
+      { heading: "Stress Direction and Key Relationships", text: "Under stress, Type 4s disintegrate toward Type 2 (Helper) — becoming people-pleasing, clingy, and emotionally dependent. In relationships, Type 4s bring emotional depth and authenticity but may idealize partners and withdraw when feeling misunderstood. At work, Type 4s excel in roles valuing originality and aesthetic sensitivity but can resist mundane tasks. Growth means separating identity from output and channeling depth into the right moments." },
+    ],
+  },
+  "/blog/enneagram-type-5-investigator": {
+    h1: "Enneagram Type 5 (Investigator): The Drive for Knowledge and Competence",
+    sections: [
+      { heading: "What Defines a Type 5", text: "Type 5s are driven by the need to understand, observe, and conserve energy. They are analytical, independent, and perceptive — seeing patterns others miss and valuing depth over breadth. The core motivation is to be capable and knowledgeable. The core fear is being useless, helpless, or depleted. This creates a powerful drive for mastery that produces extraordinary expertise when healthy, and withdrawal when overdriven." },
+      { heading: "Growth Direction: Moving Toward Type 8", text: "When healthy, Type 5s integrate Type 8 (Challenger) qualities: decisiveness, physical presence, and willingness to take up space. Growth practices include moving from thinking to doing without needing one more piece of information, sharing thinking earlier at 70% certainty, staying physically present in overwhelming moments, and asking for help sooner rather than after exhausting every solo option." },
+      { heading: "Stress Direction and Key Relationships", text: "Under stress, Type 5s disintegrate toward Type 7 (Enthusiast) — becoming scattered, distractible, and impulsive. In relationships, Type 5s bring thoughtfulness and independence but can become so self-sufficient that partners feel shut out. At work, Type 5s excel at deep expertise and strategic thinking but may under-communicate and hoard information. Growth means sharing expertise proactively and increasing visibility." },
+    ],
+  },
+  "/blog/enneagram-type-7-enthusiast": {
+    h1: "Enneagram Type 7 (Enthusiast): The Drive for Experience and Possibility",
+    sections: [
+      { heading: "What Defines a Type 7", text: "Type 7s are driven by the need for varied, exciting experiences. They are enthusiastic, optimistic, quick-thinking, and versatile — always with a new idea or adventure. The core motivation is to experience life fully and avoid pain and limitation. The core fear is being trapped in emotional pain, deprivation, or boredom. This creates a powerful drive for possibility that produces extraordinary creativity when healthy, and scattered avoidance when overdriven." },
+      { heading: "Growth Direction: Moving Toward Type 5", text: "When healthy, Type 7s integrate Type 5 (Investigator) qualities: focus, depth, and comfort with solitude. Growth practices include finishing before starting new projects, sitting with discomfort instead of escaping it, going deep on one interest for 90 days, and saying no to new commitments by auditing and cutting existing ones in half." },
+      { heading: "Stress Direction and Key Relationships", text: "Under stress, Type 7s disintegrate toward Type 1 (Reformer) — becoming critical, perfectionistic, and rigid. In relationships, Type 7s bring fun and spontaneity but may avoid difficult conversations and emotional depth. At work, Type 7s excel at ideation and rapid learning but struggle with follow-through and overcommitment. Growth means building completion habits and staying present in hard conversations rather than redirecting to fun." },
     ],
   },
 };

@@ -9673,6 +9673,216 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-16",
   },
+  "enneagram-type-4-individualist": {
+    slug: "enneagram-type-4-individualist",
+    metaTitle: "Enneagram Type 4 Individualist: Traits, Growth, and Stress Patterns",
+    metaDesc:
+      "Deep dive into Enneagram Type 4 (Individualist). Core motivation, growth direction to 1, stress direction to 2, relationship patterns, and practical advice for becoming a healthier Type 4.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-4-individualist",
+    h1: "Enneagram Type 4 (Individualist): The Drive for Authenticity and Depth",
+    sections: [
+      {
+        heading: "What Defines a Type 4",
+        html: p("Type 4s are driven by the need to be unique, authentic, and emotionally honest. They experience feelings deeply, notice beauty others miss, and long for a sense of significance that feels like it is just out of reach. This makes them creative, empathetic, and deeply self-aware — but also prone to melancholy and envy when unhealthy.") +
+          p("The core motivation of Type 4 is to understand their identity and be seen for who they truly are. The core fear is being ordinary, defective, or emotionally disconnected. This creates a rich inner world that, when healthy, produces extraordinary art, insight, and emotional depth. When overdriven, it creates a sense of perpetual lack — the feeling that something essential is missing.") +
+          p('<a href="/free-enneagram-test">Take the free Enneagram test</a> to confirm your type.'),
+      },
+      {
+        heading: "Growth Direction: Moving Toward Type 1",
+        html: p("When healthy, Type 4s integrate the positive qualities of Type 1 (Reformer). They become more objective, disciplined, and grounded in reality. Instead of getting lost in emotional weather patterns, they develop principles to guide their actions and find purpose beyond their feelings.") +
+          p("Practical growth practices for Type 4:") +
+          ul([
+            "<strong>Distinguish feeling from fact.</strong> Your emotions are real, but they are not always accurate guides. When you feel defective, ask: Is this a feeling or a fact? Most of the time, it is a feeling.",
+            "<strong>Commit to consistent action.</strong> Type 4s often wait for inspiration. Growth means doing the work even when you do not feel inspired. Discipline is not the enemy of creativity — it is the container that lets creativity ship.",
+            "<strong>Focus on what you have.</strong> The Type 4 shadow fixates on what is missing. Practice gratitude as a daily discipline, not because it fixes the feeling, but because it broadens your perspective beyond the缺口.",
+            "<strong>Stay present instead of comparing.</strong> When you compare your chapter 2 to someone else's chapter 20, you feel defective. Comparison is the thief of your already-present abundance.",
+          ]),
+      },
+      {
+        heading: "Stress Direction: Moving Toward Type 2",
+        html: p("Under stress, Type 4s disintegrate toward Type 2 (Helper). They become people-pleasing, clingy, and emotionally dependent — offering help and connection in exchange for validation. The independence and authenticity that define healthy 4s gives way to a desperate need to be seen and loved.") +
+          p("Signs you are moving toward 2:") +
+          ul([
+            "You abandon your own needs to attend to someone else's — but you resent them for not reciprocating.",
+            "You become overly dramatic or emotional to get attention.",
+            "You attach your self-worth to whether someone is paying attention to you.",
+            "You help others not from genuine care but from a need to feel important.",
+            "You feel jealous when others receive attention you believe should be yours.",
+          ]) +
+          p("Recovery: notice when your giving becomes transactional. Ask: Am I helping because I want to, or because I need something in return? <a href=\"/blog/enneagram-growth-coaching\">See our Enneagram growth coaching guide</a>."),
+      },
+      {
+        heading: "Type 4 in Relationships",
+        html: p("Type 4s bring emotional depth, authenticity, and a desire for genuine connection to relationships. They are the partner who truly sees you — not who you present to the world, but who you actually are. This creates intimacy that few other types can match.") +
+          p("Growth edge: Type 4s idealize partners, then feel disillusioned when reality does not match the fantasy. They also withdraw when they feel misunderstood, which creates distance that confirms their fear of being fundamentally different from everyone else.") +
+          p("Best practices: communicate your needs directly rather than hoping your partner will sense them. Distinguish between your emotional weather and the actual state of the relationship. Practice accepting your partner as they are rather than who you imagine they could become. <a href=\"/blog/personality-test-for-couples\">See our couples guide</a>."),
+      },
+      {
+        heading: "Type 4 at Work",
+        html: p("Type 4s excel in roles that value originality, emotional intelligence, and aesthetic sensitivity: design, writing, therapy, the arts, brand strategy, and any role where seeing things differently is the job. They bring depth to projects that others approach superficially.") +
+          p("Common challenge: Type 4s can idealize work the way they idealize relationships — imagining the perfect role, then feeling disappointed by reality. They may also resist mundane tasks that feel beneath their creative identity, which can create friction in structured environments.") +
+          p("Growth at work: separate your identity from your output. Not every deliverable needs to be a creative expression. The most successful Type 4s learn to channel their depth into the right moments while shipping solid work on the less-inspired days. <a href=\"/blog/strengths-based-leadership\">See strengths-based leadership</a>."),
+      },
+    ],
+    faqs: [
+      { question: "Are all Type 4s artists?", answer: "No. Type 4s value originality and authenticity, which often expresses through creative work, but many Type 4s thrive in analytical, strategic, or caregiving roles. The common thread is a desire to do meaningful, distinctive work." },
+      { question: "How is Type 4 different from depression?", answer: "Type 4 is a personality pattern, not a mental health condition. Type 4s may be more vulnerable to melancholy, but sadness is one feeling among many — not the whole picture. If you experience persistent hopelessness or loss of function, seek professional support." },
+      { question: "Can Type 4s learn to be more practical?", answer: "Yes. Growth toward Type 1 means becoming more objective, disciplined, and action-oriented. Type 4s who integrate Type 1 qualities become both deeply feeling and effectively grounded." },
+      { question: "What careers suit Type 4?", answer: "Roles that value originality and depth: design, writing, therapy, coaching, brand strategy, curation, research, and any creative field. Type 4s also thrive in environments with autonomy, purpose, and room for personal expression." },
+      { question: "How does Type 4 compare to Type 5?", answer: "Both withdraw, but for different reasons. Type 4 withdraws to protect their emotional interior. Type 5 withdraws to protect their energy and think. Type 4 feels deeply; Type 5 thinks deeply." },
+    ],
+    ctaHeading: "Discover your Enneagram type",
+    ctaSubtext: "Free Enneagram test with type, wing, and growth paths.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Enneagram types explained", url: "/blog/enneagram-types-explained" },
+      { label: "Enneagram growth paths", url: "/blog/enneagram-growth-paths" },
+      { label: "Enneagram growth coaching", url: "/blog/enneagram-growth-coaching" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "enneagram-type-5-investigator": {
+    slug: "enneagram-type-5-investigator",
+    metaTitle: "Enneagram Type 5 Investigator: Traits, Growth, and Stress Patterns",
+    metaDesc:
+      "Deep dive into Enneagram Type 5 (Investigator). Core motivation, growth direction to 8, stress direction to 7, relationship patterns, and practical advice for becoming a healthier Type 5.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-5-investigator",
+    h1: "Enneagram Type 5 (Investigator): The Drive for Knowledge and Competence",
+    sections: [
+      {
+        heading: "What Defines a Type 5",
+        html: p("Type 5s are driven by the need to understand, observe, and conserve energy. They are analytical, independent, and perceptive — the person who sees patterns others miss and who values depth over breadth in every area of life. Their natural curiosity makes them experts in their chosen domains.") +
+          p("The core motivation of Type 5 is to be capable and knowledgeable. The core fear is being useless, helpless, or depleted. This creates a powerful drive for mastery that, when healthy, produces extraordinary expertise and clear thinking. When overdriven, it creates withdrawal, hoarding of energy, and reluctance to engage.") +
+          p('<a href="/free-enneagram-test">Take the free Enneagram test</a> to confirm your type.'),
+      },
+      {
+        heading: "Growth Direction: Moving Toward Type 8",
+        html: p("When healthy, Type 5s integrate the positive qualities of Type 8 (Challenger). They become more decisive, physically present, and willing to take up space. Instead of retreating to observe, they step forward with confidence and use their knowledge to lead and impact the world directly.") +
+          p("Practical growth practices for Type 5:") +
+          ul([
+            "<strong>Move from thinking to doing.</strong> Type 5s often believe they need one more piece of information before acting. You do not. Set time limits on research and commit to action, even imperfect action.",
+            "<strong>Share your thinking earlier.</strong> You do not have to be 100% certain to contribute. Share your 70% solution and refine with input. Waiting for perfection means waiting forever.",
+            "<strong>Stay physically present.</strong> Type 5s go inward when overwhelmed. Practice staying in the room, in the conversation, in your body — even when you would rather withdraw to process.",
+            "<strong>Ask for help sooner.</strong> Independence is a strength until it becomes isolation. Let people in before you have run out of every option.",
+          ]),
+      },
+      {
+        heading: "Stress Direction: Moving Toward Type 7",
+        html: p("Under stress, Type 5s disintegrate toward Type 7 (Enthusiast). They become scattered, distractible, and impulsive — jumping between ideas without depth, seeking stimulation to escape the inner emptiness that usually drives them inward.") +
+          p("Signs you are moving toward 7:") +
+          ul([
+            "You start many projects and finish none of them.",
+            "You chase novelty and stimulation instead of going deep on one thing.",
+            "You feel restless and unable to focus on the work that usually grounds you.",
+            "You become talkative and energetic in ways that feel unlike your normal self.",
+            "You overcommit socially or professionally to avoid being alone with your thoughts.",
+          ]) +
+          p("Recovery: recognize when you are fleeing depth for distraction. Ground yourself in one task and one conversation at a time. <a href=\"/blog/enneagram-growth-coaching\">See our Enneagram growth coaching guide</a>."),
+      },
+      {
+        heading: "Type 5 in Relationships",
+        html: p("Type 5s bring thoughtfulness, independence, and intellectual depth to relationships. They are the partner who listens carefully, remembers details, and offers well-considered perspectives. They respect boundaries and rarely overwhelm their partner with emotional demands.") +
+          p("Growth edge: Type 5s can become so self-sufficient that their partner feels shut out. They may retreat to their inner world and forget that relationships require active sharing — not just coexisting in the same space. Emotional expression does not come naturally, and partners may read withdrawal as lack of care.") +
+          p("Best practices: volunteer your thoughts and feelings rather than waiting to be asked. Schedule regular check-ins with your partner. Remember that emotional presence is as valuable as intellectual contribution. <a href=\"/blog/personality-test-for-couples\">See our couples guide</a>."),
+      },
+      {
+        heading: "Type 5 at Work",
+        html: p("Type 5s excel in roles that require deep expertise, independent analysis, and strategic thinking: research, data science, engineering, architecture, specialized consulting, and any domain where mastery is valued over social presence. They are the person you go to when you need the right answer, not the loudest one.") +
+          p("Common challenge: Type 5s can become siloed, hoarding information and avoiding collaboration. They may also under-communicate, assuming that the quality of their work should speak for itself. In team environments, this can make their brilliance invisible.") +
+          p("Growth at work: share your expertise proactively. Others cannot benefit from your knowledge if they do not know you have it. Communicate progress on projects even when the work is not finished. Visibility is not vanity — it is how your impact scales. <a href=\"/blog/personality-test-for-managers\">See personality test for managers</a>."),
+      },
+    ],
+    faqs: [
+      { question: "Are Type 5s always introverts?", answer: "While most Type 5s lean introverted, the type is about energy conservation and knowledge-seeking, not social preference. Some Type 5s are socially engaged but still need substantial alone time to recharge and process." },
+      { question: "How is Type 5 different from just being introverted?", answer: "Introversion is about where you get energy. Type 5 is a core motivation pattern — the need to be competent and the fear of depletion. Not all introverts are Type 5s, and Type 5 is about more than social energy." },
+      { question: "Can Type 5s become good leaders?", answer: "Yes, especially when they integrate Type 8 qualities. Type 5 leaders bring clarity, strategic thinking, and calm under pressure. The growth edge is being visible and communicative rather than operating from behind the scenes." },
+      { question: "What careers suit Type 5?", answer: "Knowledge-intensive roles: research, data science, engineering, architecture, specialized consulting, technical writing, and any field where deep expertise and independent thinking are valued." },
+      { question: "How does Type 5 handle conflict?", answer: "Type 5s typically withdraw from conflict to process internally. They may delay responding, which partners interpret as avoidance. Growth means engaging sooner rather than retreating, and expressing your position clearly even when it feels incomplete." },
+    ],
+    ctaHeading: "Discover your Enneagram type",
+    ctaSubtext: "Free Enneagram test with type, wing, and growth paths.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Enneagram types explained", url: "/blog/enneagram-types-explained" },
+      { label: "Enneagram growth paths", url: "/blog/enneagram-growth-paths" },
+      { label: "Enneagram growth coaching", url: "/blog/enneagram-growth-coaching" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "enneagram-type-7-enthusiast": {
+    slug: "enneagram-type-7-enthusiast",
+    metaTitle: "Enneagram Type 7 Enthusiast: Traits, Growth, and Stress Patterns",
+    metaDesc:
+      "Deep dive into Enneagram Type 7 (Enthusiast). Core motivation, growth direction to 5, stress direction to 1, relationship patterns, and practical advice for becoming a healthier Type 7.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-7-enthusiast",
+    h1: "Enneagram Type 7 (Enthusiast): The Drive for Experience and Possibility",
+    sections: [
+      {
+        heading: "What Defines a Type 7",
+        html: p("Type 7s are driven by the need for varied, exciting experiences. They are enthusiastic, optimistic, quick-thinking, and versatile — the person who always has a new idea, a new plan, and a new adventure to propose. Their natural curiosity and energy make them magnetic and fun to be around.") +
+          p("The core motivation of Type 7 is to experience life fully and avoid pain and limitation. The core fear is being trapped in emotional pain, deprivation, or boredom. This creates a powerful drive for possibility that, when healthy, produces extraordinary creativity and vision. When overdriven, it creates avoidance, scattered energy, and an inability to stay present with discomfort.") +
+          p('<a href="/free-enneagram-test">Take the free Enneagram test</a> to confirm your type.'),
+      },
+      {
+        heading: "Growth Direction: Moving Toward Type 5",
+        html: p("When healthy, Type 7s integrate the positive qualities of Type 5 (Investigator). They become more focused, deep, and comfortable with solitude. Instead of chasing the next experience, they develop the capacity to go deep on one thing and find richness in sustained attention.") +
+          p("Practical growth practices for Type 7:") +
+          ul([
+            "<strong>Finish before starting.</strong> The most powerful skill for a Type 7 is completion. Before adding a new project, finish one you have already started. The satisfaction of completion is deeper than the rush of novelty.",
+            "<strong>Sit with discomfort.</strong> When you feel the urge to escape, distract, or plan something new, pause. Notice the discomfort without acting on it. Most of the time, it will pass within minutes if you let it.",
+            "<strong>Go deep on one thing.</strong> Choose one interest and commit to it for 90 days. Not forever — just long enough to experience what depth feels like. The richness is on the other side of boredom.",
+            "<strong>Practice saying no.</strong> Every yes to a new experience is a no to depth in an existing one. Audit your commitments and cut half of them.",
+          ]),
+      },
+      {
+        heading: "Stress Direction: Moving Toward Type 1",
+        html: p("Under stress, Type 7s disintegrate toward Type 1 (Reformer). They become critical, perfectionistic, and rigid — the opposite of their usual flexibility. This looks like suddenly demanding that everything be done correctly, obsessing over details, and judging others for not meeting impossibly high standards.") +
+          p("Signs you are moving toward 1:") +
+          ul([
+            "You become unusually critical of small mistakes — yours and others'.",
+            "You fixate on details that normally do not bother you.",
+            "Your language shifts from possibilities to shoulds and musts.",
+            "You feel trapped by commitments you usually enjoy.",
+            "You lose your natural optimism and see only what is wrong.",
+          ]) +
+          p("Recovery: recognize that the perfectionism is a defense against underlying anxiety about losing options. Give yourself permission to be imperfect and remind yourself that you chose this life, these commitments, and these people. <a href=\"/blog/enneagram-growth-coaching\">See our Enneagram growth coaching guide</a>."),
+      },
+      {
+        heading: "Type 7 in Relationships",
+        html: p("Type 7s bring fun, spontaneity, and genuine enthusiasm to relationships. They are the partner who plans surprises, suggests adventures, and keeps the energy light when things get heavy. Their optimism is contagious and their curiosity keeps relationships dynamic.") +
+          p("Growth edge: Type 7s avoid difficult conversations, emotional depth, and conflict. When a relationship requires staying present with pain or working through something slowly, they may check out, redirect, or suggest that the solution is simply to do something fun. Partners feel unseen when their pain is met with a plan for a weekend trip.") +
+          p("Best practices: practice staying in the hard conversation. Tell your partner: I want to be present for this even though my instinct is to escape. Schedule emotional check-ins the way you schedule adventures. Depth is not the enemy of fun — it is what makes fun sustainable. <a href=\"/blog/personality-test-for-couples\">See our couples guide</a>."),
+      },
+      {
+        heading: "Type 7 at Work",
+        html: p("Type 7s excel in roles that value ideation, versatility, and rapid learning: startups, product management, creative direction, strategy, entrepreneurship, and any environment where things move fast and variety is built into the job. They are the person who sees possibilities no one else sees.") +
+          p("Common challenge: Type 7s start more projects than they finish, get bored with follow-through, and may avoid the unglamorous work that turns ideas into results. They also tend to overcommit, saying yes to everything and then feeling overwhelmed by the volume of obligations they created.") +
+          p("Growth at work: build a completion habit. Track your ideas in a backlog rather than starting all of them. Use time-blocking to force focus on one task at a time. Your creativity is a superpower, but it only produces results when paired with discipline. <a href=\"/blog/personality-test-for-entrepreneurs\">See personality test for entrepreneurs</a>."),
+      },
+    ],
+    faqs: [
+      { question: "Are all Type 7s extroverts?", answer: "Most Type 7s are socially energized, but the type is about experiential breadth, not social preference. Some Type 7s pursue variety through ideas, books, and solo adventures. The drive is for new experiences, not necessarily social ones." },
+      { question: "How is Type 7 different from ADHD?", answer: "Type 7 is a personality pattern, not a clinical condition. While Type 7s share traits with ADHD (novelty-seeking, distractibility), they are different frameworks. ADHD is a neurodevelopmental condition. Type 7 is a motivational pattern. They can coexist but are not the same." },
+      { question: "Can Type 7s learn to follow through?", answer: "Absolutely. Growth toward Type 5 means developing focus and depth. The key is not suppressing your enthusiasm but channeling it — choosing one pursuit to go deep on while maintaining your breadth of interests as a hobby rather than a primary mode." },
+      { question: "What careers suit Type 7?", answer: "Fast-paced, variety-rich roles: entrepreneurship, product management, creative direction, consulting, event planning, and any role where ideation and quick adaptation are valued more than consistency and routine." },
+      { question: "How does Type 7 compare to Type 3?", answer: "Both are energetic and achievement-oriented, but Type 7 is driven by experience and possibility while Type 3 is driven by success and image. Type 7 wants to have a great time. Type 3 wants to have great results." },
+    ],
+    ctaHeading: "Discover your Enneagram type",
+    ctaSubtext: "Free Enneagram test with type, wing, and growth paths.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Enneagram types explained", url: "/blog/enneagram-types-explained" },
+      { label: "Enneagram growth paths", url: "/blog/enneagram-growth-paths" },
+      { label: "Enneagram growth coaching", url: "/blog/enneagram-growth-coaching" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {
