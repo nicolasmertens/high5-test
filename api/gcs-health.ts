@@ -36,8 +36,17 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         },
       });
       const bucket = storage.bucket(bucketName);
-      const [exists] = await bucket.exists();
-      authResult = exists ? "ok" : "auth_ok_bucket_not_found";
+      const testFile = bucket.file("1test/__health_check");
+      try {
+        await testFile.download({ count: 0 });
+        authResult = "ok";
+      } catch (fileErr: any) {
+        if (fileErr.code === 404) {
+          authResult = "ok";
+        } else {
+          throw fileErr;
+        }
+      }
     } catch (err: any) {
       authResult = `error: ${err.code || "unknown"} - ${err.message || String(err)}`;
     }
