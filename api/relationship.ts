@@ -1,9 +1,9 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { getProfile } from "./lib/profile-storage";
-import { getReport, getReportsByProfile, storeReport } from "./lib/relationship-storage";
-import { generateRelationshipReport } from "./lib/compatibility";
-import { getInviteByReferralCode, completeInvite } from "./lib/invite-storage";
-import { postHogTrack, sendReportReadyEmail } from "./lib/send";
+import { getProfile } from "./lib/profile-storage.js";
+import { getReport, getReportsByProfile, storeReport } from "./lib/relationship-storage.js";
+import { generateRelationshipReport } from "./lib/compatibility.js";
+import { getInviteByReferralCode, completeInvite } from "./lib/invite-storage.js";
+import { postHogTrack, sendReportReadyEmail } from "./lib/send.js";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method === "POST") {

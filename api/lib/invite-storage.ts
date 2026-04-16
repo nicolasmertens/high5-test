@@ -1,5 +1,5 @@
-import { gcsGet, gcsSetWithTTL, gcsSet, gcsList } from "./gcs-storage";
-import type { StoredProfile } from "./profile-storage";
+import { gcsGet, gcsSetWithTTL, gcsSet, gcsList } from "./gcs-storage.js";
+import type { StoredProfile } from "./profile-storage.js";
 
 const INVITE_TTL = 7 * 24 * 60 * 60;
 

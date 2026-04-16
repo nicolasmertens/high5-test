@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { createInvite, getInviteByReferralCode, getInvitesByProfile } from "./lib/invite-storage";
-import { getProfile } from "./lib/profile-storage";
-import { postHogTrack, sendInviteEmail } from "./lib/send";
+import { createInvite, getInviteByReferralCode, getInvitesByProfile } from "./lib/invite-storage.js";
+import { getProfile } from "./lib/profile-storage.js";
+import { postHogTrack, sendInviteEmail } from "./lib/send.js";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method === "POST") {

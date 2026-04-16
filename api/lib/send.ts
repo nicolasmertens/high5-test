@@ -1,8 +1,8 @@
 import { Resend } from "resend";
-import type { WelcomeEmailData, Subscriber } from "./types";
-import { WELCOME_SEQUENCE, FROM_EMAIL, REPLY_TO, EMAIL_SCHEDULES } from "./types";
-import { htmlEmails } from "./email-html";
-import { plainTextEmails } from "./email-text";
+import type { WelcomeEmailData, Subscriber } from "./types.js";
+import { WELCOME_SEQUENCE, FROM_EMAIL, REPLY_TO, EMAIL_SCHEDULES } from "./types.js";
+import { htmlEmails } from "./email-html.js";
+import { plainTextEmails } from "./email-text.js";
 
 const UTM_PARAMS = {
   utm_source: "email",

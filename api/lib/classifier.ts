@@ -1,4 +1,4 @@
-import type { EmailCategory } from "./inbound-types";
+import type { EmailCategory } from "./inbound-types.js";
 
 const CATEGORY_KEYWORDS: Record<EmailCategory, string[]> = {
   refund: [

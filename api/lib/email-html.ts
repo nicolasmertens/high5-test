@@ -1,4 +1,4 @@
-import type { WelcomeEmailData } from "./types";
+import type { WelcomeEmailData } from "./types.js";
 
 function esc(s: string): string {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");

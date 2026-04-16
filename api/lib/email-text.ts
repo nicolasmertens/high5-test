@@ -1,4 +1,4 @@
-import type { WelcomeEmailData } from "./types";
+import type { WelcomeEmailData } from "./types.js";
 
 export function plainTextEmail1(d: WelcomeEmailData): string {
   return `Hi ${d.firstName},

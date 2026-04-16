@@ -1,4 +1,4 @@
-import { gcsGet, gcsSetWithTTL, gcsList } from "./gcs-storage";
+import { gcsGet, gcsSetWithTTL, gcsList } from "./gcs-storage.js";
 
 const REPORT_TTL = 60 * 60 * 24 * 90;
 

@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { storeInboundEmail } from "../lib/inbound-email";
-import type { ResendInboundPayload } from "../lib/inbound-types";
+import { storeInboundEmail } from "../lib/inbound-email.js";
+import type { ResendInboundPayload } from "../lib/inbound-types.js";
 
 export const config = {
   maxDuration: 30,

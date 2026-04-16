@@ -1,6 +1,6 @@
 import { Resend } from "resend";
-import { FROM_EMAIL, REPLY_TO } from "./types";
-import type { EmailCategory } from "./inbound-types";
+import { FROM_EMAIL, REPLY_TO } from "./types.js";
+import type { EmailCategory } from "./inbound-types.js";
 
 const SITE_URL = "https://1test.me";
 const PRIVACY_URL = `${SITE_URL}/privacy`;

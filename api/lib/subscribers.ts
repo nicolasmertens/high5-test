@@ -1,5 +1,5 @@
-import { gcsGet, gcsSet, gcsExists, gcsList, gcsDelete } from "./gcs-storage";
-import type { Subscriber } from "./types";
+import { gcsGet, gcsSet, gcsExists, gcsList, gcsDelete } from "./gcs-storage.js";
+import type { Subscriber } from "./types.js";
 
 export async function createSubscriber(data: {
   email: string;

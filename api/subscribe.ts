@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { createSubscriber, getSubscriberByEmail, updateSubscriber } from "./lib/subscribers";
-import { sendWelcomeEmail } from "./lib/send";
-import { EMAIL_SCHEDULES } from "./lib/types";
+import { createSubscriber, getSubscriberByEmail, updateSubscriber } from "./lib/subscribers.js";
+import { sendWelcomeEmail } from "./lib/send.js";
+import { EMAIL_SCHEDULES } from "./lib/types.js";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== "POST") {

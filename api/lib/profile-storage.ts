@@ -1,4 +1,4 @@
-import { gcsGet, gcsSet, gcsSetWithTTL, gcsGet as gcsGetIdx } from "./gcs-storage";
+import { gcsGet, gcsSet, gcsSetWithTTL, gcsGet as gcsGetIdx } from "./gcs-storage.js";
 
 export interface StoredProfile {
   profileHash: string;

@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { getSubscriber, updateSubscriber, getScheduledSubscribers } from "./lib/subscribers";
-import { sendWelcomeEmail, postHogTrack } from "./lib/send";
-import { EMAIL_SCHEDULES } from "./lib/types";
+import { getSubscriber, updateSubscriber, getScheduledSubscribers } from "./lib/subscribers.js";
+import { sendWelcomeEmail, postHogTrack } from "./lib/send.js";
+import { EMAIL_SCHEDULES } from "./lib/types.js";
 
 export const config = {
   maxDuration: 60,

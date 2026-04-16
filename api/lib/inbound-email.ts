@@ -1,8 +1,8 @@
-import type { InboundEmail, EmailCategory, EmailStatus } from "./inbound-types";
-import { classifyEmail, shouldAutoRespond, shouldFlagForReview, isRefundRequest } from "./classifier";
-import { sendAutoResponse } from "./auto-responder";
-import { postHogTrack } from "./send";
-import { gcsGet, gcsSet, gcsList, gcsSetWithTTL } from "./gcs-storage";
+import type { InboundEmail, EmailCategory, EmailStatus } from "./inbound-types.js";
+import { classifyEmail, shouldAutoRespond, shouldFlagForReview, isRefundRequest } from "./classifier.js";
+import { sendAutoResponse } from "./auto-responder.js";
+import { postHogTrack } from "./send.js";
+import { gcsGet, gcsSet, gcsList, gcsSetWithTTL } from "./gcs-storage.js";
 
 function emailKey(id: string): string {
   return `inbound/${id}.json`;
