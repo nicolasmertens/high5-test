@@ -103,6 +103,6 @@ export async function gcsDelete(path: string): Promise<void> {
 }
 
 export async function gcsList(prefix: string): Promise<string[]> {
-  const [files] = getBucket().getFiles({ prefix: gcsKey(prefix) });
+  const [files] = await getBucket().getFiles({ prefix: gcsKey(prefix) });
   return files.map((f) => f.name.replace(PREFIX, ""));
 }
