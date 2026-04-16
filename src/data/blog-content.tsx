@@ -10552,6 +10552,213 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-16",
   },
+  "personality-test-for-midlife-career-change": {
+    slug: "personality-test-for-midlife-career-change",
+    metaTitle: "Personality Tests for Midlife Career Changes: Finding Work That Fits Who You Are Now",
+    metaDesc:
+      "How midlife career changers can use personality tests to identify transferable strengths, avoid past mistakes, and choose a direction that fits who they are now — not who they were at 25.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-midlife-career-change",
+    h1: "Personality Tests for Midlife Career Changes: Finding Work That Fits Who You Are Now",
+    sections: [
+      {
+        heading: "Why Midlife Career Changes Are Different",
+        html: p("Career changes at 40 or 50 are fundamentally different from career choices at 25. You have decades of experience, a clearer sense of what you cannot tolerate, and often less tolerance for work that does not fit. But you also have fixed costs, relationships, and a professional identity that may feel hard to leave.") +
+          p("Personality tests are particularly useful at this stage because they help you separate three things that often get confused: what you have been doing (your role), what you are good at (your skills), and who you are (your personality). Midlife career changes go wrong when people change roles but not environments — leaving a bad job only to land in another one that drains them in the same way.") +
+          p('<a href="/free-personality-test">Take the free personality test</a> to understand your current profile.'),
+      },
+      {
+        heading: "What Your Results Tell You About Your Next Chapter",
+        html: p("Your personality profile reveals patterns that matter more at midlife than early career:") +
+          p("<strong>Your DISC style</strong> tells you which work environments will energize or drain you. If you are a high S who has spent 20 years in high-D sales environments, no wonder you are exhausted. Your next chapter should prioritize stability, predictability, and supportive teams.") +
+          p("<strong>Your Enneagram type</strong> tells you why you have been recurring patterns. Type 3s often chase prestigious roles that do not fulfill them. Type 6s often stay in secure jobs that no longer grow them. Type 9s often delay change until a crisis forces it. Knowing your core motivation helps you choose a direction that aligns with who you actually are, not who you have been performing.") +
+          p("<strong>Your Strengths</strong> tell you what you can bring to a new field that most candidates cannot. A career changer with Strategic, Achiever, and Relator strengths has a combination that is rare and valuable — even if they have no formal experience in the new domain.") +
+          p("<strong>Your 16 Personalities type</strong> tells you whether you need structure or flexibility, people or projects, strategy or execution. This is critical for choosing a work environment, not just a job title. <a href=\"/blog/personality-test-for-career-change\">See our career change guide</a>."),
+      },
+      {
+        heading: "Transferable Strengths: Your Bridge to a New Field",
+        html: p("The biggest fear of midlife career changers is that their experience is not transferable. It almost always is — you just need to translate it. Your personality profile helps you see how:") +
+          ul([
+            "<strong>High D professionals</strong> bring decisiveness, comfort with risk, and results orientation. These transfer to entrepreneurship, project management, consulting, and leadership roles in any industry.",
+            "<strong>High I professionals</strong> bring persuasion, relationship-building, and energy. These transfer to sales, marketing, coaching, community building, and any client-facing role.",
+            "<strong>High S professionals</strong> bring reliability, team cohesion, and follow-through. These transfer to operations, program management, HR, and any role that requires building and maintaining systems.",
+            "<strong>High C professionals</strong> bring accuracy, quality, and analysis. These transfer to data roles, compliance, research, and any domain that requires deep expertise and systematic thinking.",
+          ]) +
+          p("The skills are transferable. The question is whether the new environment fits your personality. <a href=\"/free-disc-test\">Take the free DISC test</a>."),
+      },
+      {
+        heading: "Common Midlife Career Change Mistakes by Personality",
+        html: p("Each personality type has predictable pitfalls in career transitions:") +
+          ul([
+            "<strong>Type 3 (Achiever)</strong> — chases prestige or compensation instead of fulfillment. You made your first career about looking successful. Do not make your second one the same mistake. Ask: what would I do if no one would ever see my title?",
+            "<strong>Type 6 (Loyalist)</strong> — stays too long and leaves too cautiously. Your security needs make you wait for a crisis to force the change. Make the move earlier, when it is a choice rather than an emergency.",
+            "<strong>Type 9 (Peacemaker)</strong> — minimizes the problem and delays the change. You tell yourself it is not that bad. It probably is. Start exploring options before you are forced to.",
+            "<strong>High C professionals</strong> — over-research and under-act. You need 100% certainty before you make a move. In career transitions, 70% certainty is enough. The remaining 30% you learn by doing.",
+          ]),
+      },
+      {
+        heading: "Building Your Midlife Career Change Plan",
+        html: p("Use your personality profile as the foundation of your transition plan:") +
+          ol([
+            "<strong>Take the full personality profile.</strong> DISC, Enneagram, Strengths, and 16 Personalities give you a multi-dimensional picture of how you work, why you are driven, what you do best, and how you think.",
+            "<strong>Map your current job against your profile.</strong> What fits? What does not? Most midlife career changers discover that 40-60% of their current role is misaligned with their personality. That misalignment is your energy drain.",
+            "<strong>Identify transferable strengths.</strong> Your top 3-5 strengths are the bridge to your next chapter. They apply across industries, even if your technical experience does not.",
+            "<strong>Choose a direction that fits your profile.</strong> Look for roles where your DISC style, Enneagram motivation, and top strengths align. The overlap between what you are good at and what energizes you is where your next career should live.",
+            "<strong>Test before you leap.</strong> Volunteer, consult, or do project work in your target field before committing. This is where your personality profile helps most — if the test environment energizes rather than drains you, you are on the right track.",
+          ]) +
+          p("A midlife career change is not starting over. It is redirecting 20+ years of accumulated skill and experience toward work that fits who you are now. Your personality profile is the map that makes the redirect precise. <a href=\"/free-personality-test\">Take the free test</a>."),
+      },
+    ],
+    faqs: [
+      { question: "Is it too late to change careers at 40 or 50?", answer: "No. The average person changes careers 5-7 times. Midlife career changers often succeed faster because they bring transferable skills, professional networks, and self-knowledge that early-career entrants lack." },
+      { question: "Which personality test is most useful for career changers?", answer: "The most useful combination is DISC (work environment fit), Strengths (transferable capabilities), and Enneagram (core motivation). 16 Personalities adds cognitive preference data. Together they tell you where you will thrive, what you can transfer, and why you are making the change." },
+      { question: "What if my personality test says I should stay in my current field?", answer: "Personality tests do not tell you what to do — they tell you about your preferences and tendencies. If your profile aligns with your current field but you are unhappy, the problem may be your specific role, company, or manager rather than your career direction." },
+      { question: "Can personality really guide a career change?", answer: "Personality data is one input among many, but it is an underused one. Skills assessments tell you what you can do. Experience tells you what you have done. Personality tells you what will energize you — and energy is the resource that midlife career changers need most." },
+      { question: "How do I explain a career change to employers?", answer: "Frame it around transferable strengths and intentional direction, not escape. Say: I am directing my experience toward X because my strengths in Y are a better fit. Your personality profile gives you the vocabulary to make this case credibly." },
+    ],
+    ctaHeading: "Find work that fits who you are now",
+    ctaSubtext: "Free personality test — four frameworks, full results. Your next chapter starts with self-awareness.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "Personality test for career change", url: "/blog/personality-test-for-career-change" },
+      { label: "Strengths for career", url: "/blog/strengths-for-career" },
+      { label: "16 Personalities career guide", url: "/blog/16-personalities-career-guide" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "disc-conflict-management": {
+    slug: "disc-conflict-management",
+    metaTitle: "DISC Conflict Management: How Each Style Handles Disagreement and Resolution",
+    metaDesc:
+      "How DISC personality styles approach conflict, what triggers each style, and practical strategies for resolving disagreements based on behavioral preferences.",
+    canonicalUrl: "https://1test.me/blog/disc-conflict-management",
+    h1: "DISC Conflict Management: Resolving Disagreements by Understanding Behavioral Styles",
+    sections: [
+      {
+        heading: "How Each DISC Style Experiences Conflict",
+        html: p("Conflict is inevitable, but how you experience it depends heavily on your DISC style. Understanding these differences is the first step to resolving disagreements constructively:") +
+          p("<strong>D styles</strong> experience conflict as a challenge to be won. They engage directly, assert their position forcefully, and are comfortable with confrontation. They may steamroll others, not because they are insensitive, but because they interpret disagreement as something to be resolved through decisive action.") +
+          p("<strong>I styles</strong> experience conflict as a threat to relationships. They may deflect, make jokes, or change the subject because they value harmony over resolution. When forced to confront, they can become dramatic or emotional. They want everyone to feel good, even if the problem remains unsolved.") +
+          p("<strong>S styles</strong> experience conflict as deeply uncomfortable. They tend to accommodate, suppress their own needs, and avoid raising issues until resentment builds. When they finally engage, it is often about accumulated small issues rather than the presenting problem.") +
+          p("<strong>C styles</strong> experience conflict as a problem to be analyzed. They withdraw to process, gather data, and build a logical case. They may seem cold or detached during disagreements, but they are usually just thinking. They engage most constructively when they have time to prepare their position.") +
+          p('<a href="/free-disc-test">Take the free DISC test</a> to understand your conflict style.'),
+      },
+      {
+        heading: "Conflict Triggers by DISC Style",
+        html: p("Each DISC style has specific triggers that push them from productive disagreement into destructive conflict:") +
+          ul([
+            "<strong>D triggers:</strong> being told what to do, having their authority questioned, inefficiency, indecisiveness, and being told to slow down without a clear reason.",
+            "<strong>I triggers:</strong> being ignored or excluded, public criticism, rigid rules that prevent creative expression, and feeling like their contributions are not valued.",
+            "<strong>S triggers:</strong> unexpected changes, being rushed, aggressive or confrontational communication, and feeling like their loyalty is being taken for granted.",
+            "<strong>C triggers:</strong> inaccurate information, vague expectations, being asked to act without data, and having their work criticized without specific, constructive feedback.",
+          ]) +
+          p(" knowing the triggers helps you prevent escalation. If your colleague is a high C, do not spring a decision on them. If your partner is a high S, do not surprise them with a major change. <a href=\"/blog/disc-communication-styles\">See our DISC communication guide</a>."),
+      },
+      {
+        heading: "Resolution Strategies by Style Pairing",
+        html: p("Different style pairings require different resolution approaches:") +
+          p("<strong>D vs. S:</strong> The D wants to decide now; the S needs time to process. Resolution: the D slows down and gives the S advance notice of decisions. The S speaks up sooner rather than accumulating resentment.") +
+          p("<strong>I vs. C:</strong> The I wants to talk it out; the C wants to think it through. Resolution: the I gives the C time to process before demanding a response. The C commits to a specific time to discuss rather than withdrawing indefinitely.") +
+          p("<strong>D vs. I:</strong> The D wants to win; the I wants everyone to feel good. Resolution: frame the resolution as a shared outcome. The D gets a decision. The I gets to maintain the relationship. Both needs are met.") +
+          p("<strong>S vs. C:</strong> The S wants harmony; the C wants accuracy. Resolution: the C shares their concerns directly instead of analyzing silently. The S acknowledges that addressing the issue now prevents bigger problems later.") +
+          p("The meta-strategy for all pairings: name the style difference explicitly. When both parties understand that the conflict is partly a style mismatch — not a personal attack — the conversation becomes more productive. <a href=\"/blog/disc-conflict-resolution\">See our DISC conflict resolution guide</a>."),
+      },
+      {
+        heading: "Your Conflict Growth Edge",
+        html: p("Every style has a conflict growth edge — the skill they need to develop to handle disagreements more effectively:") +
+          p("<strong>D: Practice listening before deciding.</strong> Your default is to act. In conflict, shift from asserting to asking. Three questions before each statement of position. You will find that most conflicts resolve faster when the other person feels heard.") +
+          p("<strong>I: Practice staying in the hard conversation.</strong> Your default is to lighten the mood. In conflict, resist the urge to deflect or joke. Stay present, be specific, and trust that the relationship can handle the disagreement.") +
+          p("<strong>S: Practice speaking up sooner.</strong> Your default is to accommodate. In conflict, name your needs early — before resentment builds. The longer you wait, the bigger the explosion when it finally comes.") +
+          p("<strong>C: Practice sharing your thinking in progress.</strong> Your default is to process privately and present a complete case. In conflict, share your reasoning as it develops. People cannot engage with a position they cannot see.") +
+          p("Conflict is not a personality flaw — it is a personality difference. Understanding DISC does not eliminate conflict, but it does make it resolvable. <a href=\"/free-disc-test\">Take the free DISC test</a>."),
+      },
+    ],
+    faqs: [
+      { question: "Which DISC style handles conflict best?", answer: "No style handles conflict best — they handle it differently. D styles are direct and decisive but may steamroll. S styles are accommodating but may suppress their needs. Each style has strengths and growth edges in conflict." },
+      { question: "Can DISC help with workplace conflict?", answer: "Yes. DISC gives teams a shared vocabulary for understanding behavioral differences. When conflicts are reframed as style differences rather than personal attacks, they resolve faster and more constructively." },
+      { question: "What if two people with the same DISC style are in conflict?", answer: "Same-style conflicts tend to amplify the style's weaknesses. Two high Ds escalate quickly. Two high Ss avoid the conversation. Two high Cs debate endlessly. Awareness of shared blind spots helps both parties recognize the pattern." },
+      { question: "Is there a DISC style that avoids conflict?", answer: "High S and high I styles are most likely to avoid conflict — S because they value harmony, I because they value relationships. But all styles can avoid conflict when they perceive the cost of engaging as too high." },
+      { question: "How is DISC conflict management different from other conflict resolution approaches?", answer: "DISC is behavioral rather than positional. Instead of teaching a single conflict resolution method, it helps each person understand their default conflict style and adapt their approach based on who they are in conflict with. The method changes based on the style pairing." },
+    ],
+    ctaHeading: "Understand your conflict style",
+    ctaSubtext: "Free DISC test — know how you handle disagreement and how to adapt to others.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "DISC communication styles", url: "/blog/disc-communication-styles" },
+      { label: "DISC conflict resolution at work", url: "/blog/disc-conflict-resolution-at-work" },
+      { label: "Personality test for conflict resolution", url: "/blog/personality-test-for-conflict-resolution" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "enneagram-wing-influence": {
+    slug: "enneagram-wing-influence",
+    metaTitle: "Enneagram Wings: How Your Wing Influences Your Type, Behavior, and Growth",
+    metaDesc:
+      "Complete guide to Enneagram wings — what they are, how they modify your core type, and how to use your wing for growth. Covers all nine types with wing variations.",
+    canonicalUrl: "https://1test.me/blog/enneagram-wing-influence",
+    h1: "Enneagram Wings: Understanding How Your Wing Shapes Your Type",
+    sections: [
+      {
+        heading: "What Are Enneagram Wings",
+        html: p("Your Enneagram type describes your core motivation and fear. Your wing is the adjacent type that adds flavor, nuance, and additional traits to your core type. Every type has two possible wings — the types on either side of it on the Enneagram diagram. A Type 1 can have a 9-wing or a 2-wing. A Type 5 can have a 4-wing or a 6-wing.") +
+          p("Most people lean more toward one wing than the other, though some people access both wings at different times. Your wing does not change your core type — it modifies it. Think of your type as your primary operating system and your wing as a customization layer that shifts how your type expresses itself.") +
+          p('<a href="/free-enneagram-test">Take the free Enneagram test</a> to discover your type and wing.'),
+      },
+      {
+        heading: "How Wings Modify Each Type",
+        html: p("Here is how each wing influences its core type:") +
+          p("<strong>Type 1 with 9-wing (The Idealist)</strong> — More relaxed, patient, and receptive than other 1s. The 9-wing softens the inner critic and adds a contemplative quality. Growth: more at peace with imperfection. Challenge: may procrastinate under the weight of their own standards.") +
+          p("<strong>Type 1 with 2-wing (The Advocate)</strong> — More relational, warm, and service-oriented than other 1s. The 2-wing directs their reform energy toward helping people, not just correcting systems. Growth: more empathetic and less judgmental. Challenge: may become self-righteous about helping.") +
+          p("<strong>Type 3 with 2-wing (The Charmer)</strong> — More interpersonal, charming, and other-oriented than other 3s. The 2-wing adds genuine care for others, not just strategic networking. Growth: more authentic relationships. Challenge: may confuse achievement with love.") +
+          p("<strong>Type 3 with 4-wing (The Professional)</strong> — More introspective, creative, and image-conscious than other 3s. The 4-wing adds depth and a desire for authenticity. Growth: more genuine self-expression. Challenge: may struggle more with vulnerability and feeling like an impostor.") +
+          p("<strong>Type 5 with 4-wing (The Iconoclast)</strong> — More creative, emotional, and drawn to the unusual than other 5s. The 4-wing adds depth of feeling and aesthetic sensitivity. Growth: more self-aware and artistically expressive. Challenge: more prone to withdrawal and melancholy.") +
+          p("<strong>Type 5 with 6-wing (The Problem Solver)</strong> — More analytical, loyal, and security-conscious than other 5s. The 6-wing adds caution and thoroughness. Growth: more engaged and collaborative. Challenge: may become more anxious and suspicious.") +
+          p("Wings matter because they explain why two people of the same type can look quite different. A 1w9 and a 1w2 share the same core motivation but express it in meaningfully different ways. <a href=\"/blog/enneagram-types-explained\">See all Enneagram types explained</a>."),
+      },
+      {
+        heading: "Using Your Wing for Growth",
+        html: p("Your wing is not just a modifier — it is a growth pathway. Here is how to use it:") +
+          ul([
+            "<strong>When you are stuck in your core type's fixation, your wing can provide a way out.</strong> A Type 6 caught in anxiety and worst-case thinking can access their 7-wing for optimism and possibility. A Type 8 caught in control and confrontation can access their 9-wing for patience and receptivity.",
+            "<strong>Your lesser-developed wing represents untapped potential.</strong> If you are a 2w1, you probably use your 1-wing already — it makes you more principled. But if you are a 2w3, you may have underdeveloped 3 qualities (achievement focus, strategic thinking) that could accelerate your growth.",
+            "<strong>Wings shift under stress and growth.</strong> Some people find that their wing expression changes over time or in different environments. This is normal and healthy — you are not stuck with one wing forever.",
+          ]) +
+          p("The practical approach: identify which wing you lean toward, notice how it shows up in your daily life, and deliberately develop the qualities of your less-used wing when you need more flexibility. <a href=\"/blog/enneagram-growth-paths\">See our Enneagram growth paths guide</a>."),
+      },
+      {
+        heading: "Common Misconceptions About Wings",
+        html: p("Wings are often misunderstood. Here are clarifications:") +
+          ul([
+            "<strong>Myth: Your wing is equally important as your type.</strong> Reality: Your core type drives your motivation. Your wing modifies expression. A 9w1 is still a 9 — the 1-wing adds a flavor of idealism and self-discipline, but the core motivation remains harmony and peace.",
+            "<strong>Myth: You can have a non-adjacent wing.</strong> Reality: By convention, wings are the two types adjacent to your core type on the Enneagram circle. A Type 4 cannot have a 7-wing. This is a structural feature of the system, not a limitation.",
+            "<strong>Myth: Your wing never changes.</strong> Reality: While your core type is stable, you may access different wings at different life stages. Some people initially relate more to one wing and later develop the other. This is growth, not inconsistency.",
+            "<strong>Myth: If you do not relate to either wing, you typed yourself wrong.</strong> Reality: Some people relate strongly to one wing, some relate moderately to both, and some relate to neither. If neither wing resonates, your core type may still be correct — wings are a secondary influence, not a confirmation test.",
+          ]) +
+          p("The best way to verify your wing is to read descriptions of both and notice which set of traits you express more often, especially under stress. Your wing often shows up in your instinctual reactions before your core type takes over. <a href=\"/blog/enneagram-wings-explained\">See our detailed wings guide</a>."),
+      },
+    ],
+    faqs: [
+      { question: "Can you have two Enneagram wings?", answer: "Most people lean toward one wing, but you can access both at different times, especially under different conditions. Having a strong primary wing and a moderate secondary wing is common. The key question is which wing you default to most often." },
+      { question: "How do I find my Enneagram wing?", answer: "Read descriptions of both wings for your type and notice which resonates more. Your wing often shows up in your stress patterns, social style, and instinctual reactions. You can also take a comprehensive Enneagram assessment that measures wing influence." },
+      { question: "Is your wing genetic or learned?", answer: "The Enneagram does not make claims about whether types and wings are genetic or learned. Personality is understood to be an interaction between inherent tendencies and environmental influences. Your wing may be influenced by both." },
+      { question: "Does your wing change throughout life?", answer: "Your core type is stable, but your wing expression can shift. Life experiences, relationships, and personal growth may develop your less-used wing. This is healthy development, not your type changing." },
+      { question: "How is the wing different from the stress and growth directions?", answer: "Your wing modifies your core type's expression. The stress and growth directions are how you behave under pressure (integration and disintegration). They are distinct — your wing is always present, while stress and growth patterns appear in specific conditions." },
+    ],
+    ctaHeading: "Discover your Enneagram type and wing",
+    ctaSubtext: "Free Enneagram test — type, wing, and growth paths. No paywall.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Enneagram types explained", url: "/blog/enneagram-types-explained" },
+      { label: "Enneagram wings explained", url: "/blog/enneagram-wings-explained" },
+      { label: "Enneagram growth paths", url: "/blog/enneagram-growth-paths" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

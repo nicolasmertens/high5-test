@@ -784,6 +784,27 @@ const BLOG_FAQS = {
     { question: "Which career should I choose based on my type?", answer: "Your type suggests environments that will energize you, not specific jobs. Introverts generally do better with focused, independent work. Extraverts generally do better with collaborative, social work. Use type as one input alongside skills, interests, and market demand." },
     { question: "What if I get a different type each time I take the test?", answer: "If your preferences are close to the middle on one or more dimensions, you may get different results each time. This means you are more balanced on that dimension. Focus on the dimensions that are consistent across takes." },
   ],
+  "/blog/personality-test-for-midlife-career-change": [
+    { question: "Is it too late to change careers at 40 or 50?", answer: "No. The average person changes careers 5-7 times. Midlife career changers often succeed faster because they bring transferable skills, professional networks, and self-knowledge that early-career entrants lack." },
+    { question: "Which personality test is most useful for career changers?", answer: "The most useful combination is DISC (work environment fit), Strengths (transferable capabilities), and Enneagram (core motivation). 16 Personalities adds cognitive preference data. Together they tell you where you will thrive, what you can transfer, and why you are making the change." },
+    { question: "What if my personality test says I should stay in my current field?", answer: "Personality tests do not tell you what to do — they tell you about your preferences and tendencies. If your profile aligns with your current field but you are unhappy, the problem may be your specific role, company, or manager rather than your career direction." },
+    { question: "Can personality really guide a career change?", answer: "Personality data is one input among many, but it is an underused one. Skills assessments tell you what you can do. Experience tells you what you have done. Personality tells you what will energize you — and energy is the resource midlife career changers need most." },
+    { question: "How do I explain a career change to employers?", answer: "Frame it around transferable strengths and intentional direction, not escape. Say: I am directing my experience toward X because my strengths in Y are a better fit. Your personality profile gives you the vocabulary to make this case credibly." },
+  ],
+  "/blog/disc-conflict-management": [
+    { question: "Which DISC style handles conflict best?", answer: "No style handles conflict best — they handle it differently. D styles are direct and decisive but may steamroll. S styles are accommodating but may suppress their needs. Each style has strengths and growth edges in conflict." },
+    { question: "Can DISC help with workplace conflict?", answer: "Yes. DISC gives teams a shared vocabulary for understanding behavioral differences. When conflicts are reframed as style differences rather than personal attacks, they resolve faster and more constructively." },
+    { question: "What if two people with the same DISC style are in conflict?", answer: "Same-style conflicts tend to amplify the style's weaknesses. Two high Ds escalate quickly. Two high Ss avoid the conversation. Awareness of shared blind spots helps both parties recognize the pattern." },
+    { question: "Is there a DISC style that avoids conflict?", answer: "High S and high I styles are most likely to avoid conflict — S because they value harmony, I because they value relationships. But all styles can avoid conflict when they perceive the cost of engaging as too high." },
+    { question: "How is DISC conflict management different from other approaches?", answer: "DISC is behavioral rather than positional. Instead of teaching a single conflict resolution method, it helps each person understand their default conflict style and adapt their approach based on who they are in conflict with. The method changes based on the style pairing." },
+  ],
+  "/blog/enneagram-wing-influence": [
+    { question: "Can you have two Enneagram wings?", answer: "Most people lean toward one wing, but you can access both at different times. Having a strong primary wing and a moderate secondary wing is common. The key question is which wing you default to most often." },
+    { question: "How do I find my Enneagram wing?", answer: "Read descriptions of both wings for your type and notice which resonates more. Your wing often shows up in your stress patterns, social style, and instinctual reactions. You can also take a comprehensive Enneagram assessment that measures wing influence." },
+    { question: "Is your wing genetic or learned?", answer: "The Enneagram does not make claims about whether types and wings are genetic or learned. Personality is understood to be an interaction between inherent tendencies and environmental influences." },
+    { question: "Does your wing change throughout life?", answer: "Your core type is stable, but your wing expression can shift. Life experiences and personal growth may develop your less-used wing. This is healthy development, not your type changing." },
+    { question: "How is the wing different from the stress and growth directions?", answer: "Your wing modifies your core type's expression. The stress and growth directions are how you behave under pressure. Your wing is always present, while stress and growth patterns appear in specific conditions." },
+  ],
 };
 
 const SEO_DATA = {
@@ -1478,6 +1499,27 @@ const SEO_DATA = {
     description:
       "Take the free 16 Personalities test and get your type, career matches, and growth insights. No paywall, no email required. Full results instantly.",
     canonicalUrl: "https://1test.me/blog/16-personalities-test-free",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-midlife-career-change": {
+    title: "Personality Tests for Midlife Career Changes: Finding Work That Fits Who You Are Now",
+    description:
+      "How midlife career changers can use personality tests to identify transferable strengths, avoid past mistakes, and choose a direction that fits who they are now — not who they were at 25.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-midlife-career-change",
+    ogType: "article",
+  },
+  "/blog/disc-conflict-management": {
+    title: "DISC Conflict Management: How Each Style Handles Disagreement and Resolution",
+    description:
+      "How DISC personality styles approach conflict, what triggers each style, and practical strategies for resolving disagreements based on behavioral preferences.",
+    canonicalUrl: "https://1test.me/blog/disc-conflict-management",
+    ogType: "article",
+  },
+  "/blog/enneagram-wing-influence": {
+    title: "Enneagram Wings: How Your Wing Influences Your Type, Behavior, and Growth",
+    description:
+      "Complete guide to Enneagram wings — what they are, how they modify your core type, and how to use your wing for growth. Covers all nine types with wing variations.",
+    canonicalUrl: "https://1test.me/blog/enneagram-wing-influence",
     ogType: "article",
   },
 };
@@ -2300,6 +2342,30 @@ const BODY_CONTENT = {
       { heading: "What the 16 Personalities Test Measures", text: "The 16 Personalities framework (based on the Big Five personality model, not the trademarked MBTI system) categorizes personality into 16 types based on four preference dimensions: Introversion vs. Extraversion, Intuition vs. Sensing, Thinking vs. Feeling, and Judging vs. Perceiving. Your type describes your natural tendencies — which modes are energizing and which are draining. Most people can flex into opposite preferences, but it costs energy." },
       { heading: "Where 16 Personalities Helps Most", text: "The framework is most useful for understanding career fit (which work environments energize you), communication style (how you prefer to give and receive information), stress patterns (each type has predictable stress triggers), and relationship dynamics (personality differences create predictable friction patterns). 1Test includes 16 Personalities alongside DISC, Enneagram, and Strengths — because no single framework captures your full personality. Multiple frameworks give you depth that one alone cannot provide." },
       { heading: "How to Use Your Results", text: "Read your full type description, not just your letters. Check career recommendations for environment fit. Read your stress section to prevent burnout. Cross-reference with your other profiles — when multiple frameworks point in the same direction, trust the signal. Share results with people you work and live with. The goal is not to label yourself — it is to understand yourself well enough to make better decisions about your career, relationships, and growth." },
+    ],
+  },
+  "/blog/personality-test-for-midlife-career-change": {
+    h1: "Personality Tests for Midlife Career Changes: Finding Work That Fits Who You Are Now",
+    sections: [
+      { heading: "Why Midlife Career Changes Are Different", text: "Career changes at 40 or 50 are fundamentally different from career choices at 25. You have decades of experience, a clearer sense of what you cannot tolerate, and often less tolerance for work that does not fit. Personality tests help you separate what you have been doing (your role), what you are good at (your skills), and who you are (your personality). Midlife career changes go wrong when people change roles but not environments — leaving a bad job only to land in another one that drains them the same way." },
+      { heading: "What Your Results Tell You About Your Next Chapter", text: "Your DISC style tells you which work environments will energize or drain you. Your Enneagram type tells you why you have recurring patterns — Type 3s often chase prestige, Type 6s often stay in security too long, Type 9s often delay change. Your Strengths tell you what transferable capabilities you bring to a new field. Your 16 Personalities type tells you whether you need structure or flexibility, people or projects. Together, these frameworks give you a precise map of where to direct your next chapter." },
+      { heading: "Transferable Strengths and Common Mistakes", text: "Your top strengths are the bridge to your next career — they apply across industries even if your technical experience does not. Each personality type also has predictable midlife career change pitfalls: Type 3s chase prestige over fulfillment, Type 6s stay too long, Type 9s minimize problems, and high Cs over-research and under-act. Your personality profile is the map that makes your redirect precise." },
+    ],
+  },
+  "/blog/disc-conflict-management": {
+    h1: "DISC Conflict Management: Resolving Disagreements by Understanding Behavioral Styles",
+    sections: [
+      { heading: "How Each DISC Style Experiences Conflict", text: "D styles experience conflict as a challenge to be won — they engage directly and may steamroll others. I styles experience conflict as a threat to relationships — they deflect, joke, or change the subject. S styles experience conflict as deeply uncomfortable — they accommodate, suppress needs, and avoid raising issues until resentment builds. C styles experience conflict as a problem to be analyzed — they withdraw to process and build a logical case. Understanding these differences is the first step to resolving disagreements constructively." },
+      { heading: "Conflict Triggers and Resolution Strategies", text: "Each DISC style has specific conflict triggers: D triggers include having authority questioned and indecisiveness; I triggers include being ignored and public criticism; S triggers include unexpected changes and being rushed; C triggers include inaccurate information and vague expectations. Resolution strategies depend on style pairing: D vs S requires slowing down and giving advance notice; I vs C requires giving processing time before demanding response; D vs I requires framing resolution as shared outcome; S vs C requires direct sharing of concerns rather than silent analysis." },
+      { heading: "Your Conflict Growth Edge", text: "Every style has a conflict growth edge. D: practice listening before deciding. I: practice staying in hard conversations rather than deflecting. S: practice speaking up sooner before resentment builds. C: practice sharing thinking in progress rather than waiting for a complete case. Conflict is not a personality flaw — it is a personality difference. Understanding DISC makes it resolvable." },
+    ],
+  },
+  "/blog/enneagram-wing-influence": {
+    h1: "Enneagram Wings: Understanding How Your Wing Shapes Your Type",
+    sections: [
+      { heading: "What Are Enneagram Wings", text: "Your Enneagram type describes your core motivation and fear. Your wing is the adjacent type that adds flavor, nuance, and additional traits to your core type. Every type has two possible wings — the types on either side on the Enneagram diagram. A Type 1 can have a 9-wing or a 2-wing. Most people lean toward one wing. Your wing does not change your core type — it modifies how your type expresses itself." },
+      { heading: "How Wings Modify Each Type", text: "Wings explain why two people of the same type can look different. 1w9 (The Idealist) is more relaxed and patient. 1w2 (The Advocate) is more relational and service-oriented. 3w2 (The Charmer) is more interpersonal. 3w4 (The Professional) is more introspective and image-conscious. 5w4 (The Iconoclast) is more creative and emotional. 5w6 (The Problem Solver) is more analytical and loyal. Your wing adds a secondary flavor to your core type's expression." },
+      { heading: "Using Your Wing for Growth and Common Misconceptions", text: "Your wing is a growth pathway: when stuck in your core type's fixation, your wing can provide a way out. Your lesser-developed wing represents untapped potential. Common misconceptions: wings are not equal to your core type (they modify expression), wings are always adjacent to your type, your wing expression can shift over time, and not relating to either wing does not mean you typed yourself wrong. The best way to verify your wing is to notice which set of adjacent traits you express more often, especially under stress." },
     ],
   },
 };
