@@ -3,7 +3,18 @@ import { Storage } from "@google-cloud/storage";
 let storageInstance: Storage | null = null;
 let bucketInstance: ReturnType<Storage["bucket"]> | null = null;
 
-function normalizePrivateKey(key: string | undefined): string | undefined {
+export function getPrivateKey(): string | undefined {
+  const b64 = process.env.GCS_PRIVATE_KEY_BASE64;
+  if (b64) {
+    try {
+      const decoded = Buffer.from(b64, "base64").toString("utf8");
+      if (decoded.startsWith("-----BEGIN PRIVATE KEY-----")) {
+        return decoded;
+      }
+    } catch {}
+  }
+
+  const key = process.env.GCS_PRIVATE_KEY;
   if (!key) return undefined;
   let normalized = key.trim();
   if ((normalized.startsWith('"') && normalized.endsWith('"')) || (normalized.startsWith("'") && normalized.endsWith("'"))) {
@@ -20,7 +31,7 @@ function getStorage(): Storage {
   if (!storageInstance) {
     const projectId = process.env.GCS_PROJECT_ID;
     const clientEmail = process.env.GCS_CLIENT_EMAIL;
-    const privateKey = normalizePrivateKey(process.env.GCS_PRIVATE_KEY);
+    const privateKey = getPrivateKey();
 
     if (!projectId || !clientEmail || !privateKey) {
       throw new Error(`GCS credentials incomplete: projectId=${!!projectId} clientEmail=${!!clientEmail} privateKey=${!!privateKey}`);
