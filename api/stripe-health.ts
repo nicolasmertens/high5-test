@@ -2,24 +2,23 @@ import type { VercelRequest, VercelResponse } from "@vercel/node";
 import Stripe from "stripe";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  const keyPresent = !!process.env.STRIPE_SECRET_KEY;
-  const keyPrefix = process.env.STRIPE_SECRET_KEY
-    ? process.env.STRIPE_SECRET_KEY.substring(0, 7)
-    : "MISSING";
-  const keyLength = process.env.STRIPE_SECRET_KEY?.length || 0;
+  const key = (process.env.STRIPE_SECRET_KEY || "").trim();
+  const keyPresent = key.length > 0;
+  const keyPrefix = key ? key.substring(0, 7) : "MISSING";
+  const keyLength = key.length;
 
   const priceIds = {
-    STRIPE_PRICE_ID: !!process.env.STRIPE_PRICE_ID,
-    STRIPE_PRICE_ID_FULL_PROFILE: !!process.env.STRIPE_PRICE_ID_FULL_PROFILE,
-    STRIPE_PRICE_ID_AI_PLAYBOOK: !!process.env.STRIPE_PRICE_ID_AI_PLAYBOOK,
-    STRIPE_PRICE_ID_TEAM_MONTHLY: !!process.env.STRIPE_PRICE_ID_TEAM_MONTHLY,
-    STRIPE_WEBHOOK_SECRET: !!process.env.STRIPE_WEBHOOK_SECRET,
+    STRIPE_PRICE_ID: !!(process.env.STRIPE_PRICE_ID || "").trim(),
+    STRIPE_PRICE_ID_FULL_PROFILE: !!(process.env.STRIPE_PRICE_ID_FULL_PROFILE || "").trim(),
+    STRIPE_PRICE_ID_AI_PLAYBOOK: !!(process.env.STRIPE_PRICE_ID_AI_PLAYBOOK || "").trim(),
+    STRIPE_PRICE_ID_TEAM_MONTHLY: !!(process.env.STRIPE_PRICE_ID_TEAM_MONTHLY || "").trim(),
+    STRIPE_WEBHOOK_SECRET: !!(process.env.STRIPE_WEBHOOK_SECRET || "").trim(),
   };
 
   let stripeTest = "not_tested";
   if (keyPresent) {
     try {
-      const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+      const stripe = new Stripe(key, {
         apiVersion: "2026-03-25.dahlia",
         httpClient: Stripe.createFetchHttpClient(),
       });
@@ -30,22 +29,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
   }
 
-  let dnsTest = "not_tested";
-  try {
-    const dnsResult = await fetch("https://api.stripe.com/v1/products?limit=1", {
-      headers: { Authorization: `Bearer ${process.env.STRIPE_SECRET_KEY}` },
-    });
-    dnsTest = `fetch_status: ${dnsResult.status}`;
-  } catch (fetchErr: any) {
-    dnsTest = `fetch_error: ${fetchErr.message}`;
-  }
-
   return res.status(200).json({
     keyPresent,
     keyPrefix,
     keyLength,
     priceIds,
     stripeTest,
-    dnsTest,
   });
 }

@@ -1,7 +1,9 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import Stripe from "stripe";
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+const trim = (v: string | undefined) => (v || "").trim();
+
+const stripe = new Stripe(trim(process.env.STRIPE_SECRET_KEY), {
   apiVersion: "2026-03-25.dahlia",
   httpClient: Stripe.createFetchHttpClient(),
 });

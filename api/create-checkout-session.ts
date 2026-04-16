@@ -1,22 +1,24 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import Stripe from "stripe";
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+const stripe = new Stripe(trim(process.env.STRIPE_SECRET_KEY), {
   apiVersion: "2026-03-25.dahlia",
   httpClient: Stripe.createFetchHttpClient(),
 });
 
+const trim = (v: string | undefined) => (v || "").trim();
+
 const TIER_CONFIG: Record<string, { priceId: string; mode: "payment" | "subscription" }> = {
   full_profile: {
-    priceId: process.env.STRIPE_PRICE_ID_FULL_PROFILE || process.env.STRIPE_PRICE_ID || "",
+    priceId: trim(process.env.STRIPE_PRICE_ID_FULL_PROFILE) || trim(process.env.STRIPE_PRICE_ID) || "",
     mode: "payment",
   },
   ai_playbook: {
-    priceId: process.env.STRIPE_PRICE_ID_AI_PLAYBOOK || "",
+    priceId: trim(process.env.STRIPE_PRICE_ID_AI_PLAYBOOK) || "",
     mode: "payment",
   },
   team_monthly: {
-    priceId: process.env.STRIPE_PRICE_ID_TEAM_MONTHLY || "",
+    priceId: trim(process.env.STRIPE_PRICE_ID_TEAM_MONTHLY) || "",
     mode: "subscription",
   },
 };
@@ -26,13 +28,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  if (!process.env.STRIPE_SECRET_KEY) {
-    console.error("STRIPE_SECRET_KEY is not set");
+  if (!process.env.STRIPE_SECRET_KEY?.trim()) {
     return res.status(500).json({ error: "Server misconfiguration: missing Stripe key" });
   }
-
-  const keyPrefix = process.env.STRIPE_SECRET_KEY.substring(0, 8);
-  console.log("STRIPE_SECRET_KEY prefix:", keyPrefix, "length:", process.env.STRIPE_SECRET_KEY.length);
 
   try {
     const { tier = "full_profile" } = req.body || {};

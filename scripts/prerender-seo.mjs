@@ -399,6 +399,27 @@ const BLOG_FAQS = {
     { question: "Can personality tests help with performance management?", answer: "Indirectly. Understanding personality helps deliver feedback the way each person receives it best. Content stays the same — delivery adapts." },
     { question: "Should I share my results with my team?", answer: "Yes. Sharing builds trust and models vulnerability." },
   ],
+  "/blog/personality-test-for-students": [
+    { question: "Can a personality test tell me what to major in?", answer: "No. It tells you about preferences, motivations, and talents. Use this to narrow options. It is one input alongside interests, skills, and practical considerations." },
+    { question: "Are personality tests accurate for teenagers?", answer: "Results for students aged 16+ are generally reliable for understanding broad preferences. They may shift slightly as you mature — retake every 1-2 years." },
+    { question: "Should I put my personality type on my resume?", answer: "Not directly. Translate results into resume language. Use the vocabulary, not the labels." },
+    { question: "What if my type does not match what I am studying?", answer: "Common. The question is whether the mismatch costs you energy. Decide whether the field is worth the energy cost." },
+    { question: "Which test should I take first?", answer: "Start with 16 Personalities for broad overview, then DISC and Strengths. Or take all four at once on 1Test." },
+  ],
+  "/blog/disc-personality-test-free": [
+    { question: "Is the DISC test really free?", answer: "Yes. 1Test offers a complete DISC assessment with full results at no cost. No paywall, no hidden fees." },
+    { question: "How long does the DISC test take?", answer: "About 5-8 minutes. You rate how well statements describe you." },
+    { question: "How accurate is the DISC test?", answer: "DISC measures behavioral tendencies accurately for typical professional and social settings." },
+    { question: "Can my DISC profile change?", answer: "Your core style is relatively stable, but you can develop less-preferred dimensions. Retaking every 1-2 years can show shifts." },
+    { question: "What is the difference between DISC and other tests?", answer: "DISC focuses on behavior. Enneagram on motivation. 16 Personalities on processing. Strengths on talent." },
+  ],
+  "/blog/enneagram-test-free-online": [
+    { question: "Is this Enneagram test really free?", answer: "Yes. Complete assessment with type, wing, and growth directions — no cost, no paywall." },
+    { question: "How long does the test take?", answer: "About 8-12 minutes. Answer honestly — no right or wrong answers." },
+    { question: "How accurate is the Enneagram test?", answer: "It describes core motivational patterns that are generally stable. Results are a strong starting point for self-exploration." },
+    { question: "Can my Enneagram type change?", answer: "Most teachers believe your core type is stable for life. Your behavior and self-awareness within the type can change significantly." },
+    { question: "What if two types seem equally like me?", answer: "Look at core fears and motivations, not just behavior. Your core type has the deepest fear/motivation recognition." },
+  ],
   "/blog/16-personalities-relationships": [
     { question: "Which personality types are most compatible?", answer: "No type pair is inherently more compatible. Success depends on self-awareness, communication skills, and mutual effort." },
     { question: "Can 16 Personalities predict relationship success?", answer: "No. It describes patterns that affect relationships but does not determine outcomes. Emotional maturity, shared values, and communication matter more." },
@@ -715,6 +736,27 @@ const SEO_DATA = {
     description:
       "Discover how personality tests help managers lead more effectively. Practical guide covering DISC, Enneagram, 16 Personalities, and Strengths for management development.",
     canonicalUrl: "https://1test.me/blog/personality-test-for-managers",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-students": {
+    title: "Personality Test for Students: Finding Your Path After Graduation",
+    description:
+      "How college and high school students can use personality tests to choose majors, plan careers, and build self-awareness. Guide covering DISC, Enneagram, 16 Personalities, and Strengths.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-students",
+    ogType: "article",
+  },
+  "/blog/disc-personality-test-free": {
+    title: "DISC Personality Test Free: Complete Guide to Your Behavioral Style",
+    description:
+      "Take the free DISC personality test and understand your behavioral style. Learn what DISC measures, how to read results, and how to apply DISC.",
+    canonicalUrl: "https://1test.me/blog/disc-personality-test-free",
+    ogType: "article",
+  },
+  "/blog/enneagram-test-free-online": {
+    title: "Free Enneagram Test Online: Discover Your Type and Growth Path",
+    description:
+      "Take the free Enneagram test online and discover your type, wing, and growth directions. Learn what the Enneagram measures and how to use results for growth.",
+    canonicalUrl: "https://1test.me/blog/enneagram-test-free-online",
     ogType: "article",
   },
   "/blog/16-personalities-relationships": {
@@ -1103,6 +1145,31 @@ const BODY_CONTENT = {
       { heading: "DISC Management Style", text: "High D: set goals, expect results — slow down for others. High I: lead with relationships — create structure and have hard conversations. High S: lead with patience — make faster decisions and advocate upward. High C: lead with clarity — give positive feedback unrelated to deliverables." },
       { heading: "Enneagram Management Motivation", text: "Type 1 manages to improve (stress: critical). Type 3 manages to achieve (stress: image-focused). Type 8 manages to protect (stress: controlling). Type 9 manages for harmony (stress: passive). Knowing your stress pattern is the first step to managing it." },
       { heading: "Development Plan", text: "Month 1: Take all four assessments, share with team. Month 2: Pick one high-impact adjustment, practice daily. Month 3: Get feedback, adjust based on what you hear." },
+    ],
+  },
+  "/blog/personality-test-for-students": {
+    h1: "Personality Test for Students: Finding Your Path After Graduation",
+    sections: [
+      { heading: "Why Students Need Personality Tests", text: "Personality tests give students self-knowledge for choosing majors, internships, and career paths. Better than relying on parents' advice or salary projections alone." },
+      { heading: "DISC Work Environments", text: "High D: competitive, fast-paced. High I: collaborative, social. High S: stable, supportive. High C: analytical, detail-oriented. Match your environment to your style." },
+      { heading: "16 Personalities Majors", text: "Introverts prefer independent study. Extroverts prefer group work. Sensing types prefer practical applications. Intuitive types prefer theory. No preference locks you out of any field." },
+      { heading: "Enneagram Motivation for Students", text: "Type 1: fields with standards. Type 2: helping professions. Type 3: competitive fields. Type 4: creative fields. Type 5: knowledge-intensive. Type 7: varied, exciting paths." },
+    ],
+  },
+  "/blog/disc-personality-test-free": {
+    h1: "DISC Personality Test Free: Complete Guide to Your Behavioral Style",
+    sections: [
+      { heading: "What Is DISC", text: "DISC measures four behavioral dimensions: Dominance, Influence, Steadiness, Conscientiousness. Developed by William Marston in 1928. Measures observable behavior, not intelligence or clinical conditions." },
+      { heading: "Reading Your Results", text: "Most people have two dominant dimensions. D+I: charismatic leader. D+C: independent expert. I+S: team builder. S+C: reliable specialist. Each blend has distinct strengths." },
+      { heading: "Applying DISC", text: "At work: share profile, adjust communication, choose matching projects. In relationships: understand differences, predict friction. For growth: identify stress behavior, practice less-preferred behaviors." },
+    ],
+  },
+  "/blog/enneagram-test-free-online": {
+    h1: "Free Enneagram Test Online: Discover Your Type and Growth Path",
+    sections: [
+      { heading: "What the Enneagram Measures", text: "Nine types, each driven by a core motivation. Unlike behavioral frameworks, the Enneagram describes why you do what you do — core motivation, core fear, growth direction, stress direction." },
+      { heading: "The Nine Types", text: "Type 1: right/wrong. Type 2: loved/unwanted. Type 3: success/failure. Type 4: unique/insignificant. Type 5: knowledgeable/incapable. Type 6: secure/unsupported. Type 7: satisfied/deprived. Type 8: strong/controlled. Type 9: peaceful/conflicted." },
+      { heading: "Using Results for Growth", text: "Confirm type, observe patterns for one week, practice growth direction daily, catch stress patterns and pause. The Enneagram is the deepest self-awareness tool among the four frameworks." },
     ],
   },
   "/blog/16-personalities-relationships": {

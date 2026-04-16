@@ -3,7 +3,9 @@ import Stripe from "stripe";
 import { getSubscriberByEmail, suppressSubscriber } from "./lib/subscribers.js";
 import { postHogTrack } from "./lib/send.js";
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+const trim = (v: string | undefined) => (v || "").trim();
+
+const stripe = new Stripe(trim(process.env.STRIPE_SECRET_KEY), {
   apiVersion: "2026-03-25.dahlia",
   httpClient: Stripe.createFetchHttpClient(),
 });
@@ -98,7 +100,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const event = stripe.webhooks.constructEvent(
       rawBody,
       sig,
-      process.env.STRIPE_WEBHOOK_SECRET!
+      trim(process.env.STRIPE_WEBHOOK_SECRET)
     );
 
     if (event.type === "checkout.session.completed") {
