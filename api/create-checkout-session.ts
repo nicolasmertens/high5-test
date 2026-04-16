@@ -25,12 +25,17 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
+  if (!process.env.STRIPE_SECRET_KEY) {
+    console.error("STRIPE_SECRET_KEY is not set");
+    return res.status(500).json({ error: "Server misconfiguration: missing Stripe key" });
+  }
+
   try {
     const { tier = "full_profile" } = req.body || {};
     const config = TIER_CONFIG[tier];
 
     if (!config || !config.priceId) {
-      return res.status(400).json({ error: `Unknown or unconfigured tier: ${tier}` });
+      return res.status(400).json({ error: `Unknown or unconfigured tier: ${tier}. Available: ${Object.keys(TIER_CONFIG).join(", ")}. priceId: ${config?.priceId || "MISSING"}` });
     }
 
     const protocol = req.headers["x-forwarded-proto"] || "https";
