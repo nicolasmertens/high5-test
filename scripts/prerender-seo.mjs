@@ -427,6 +427,27 @@ const BLOG_FAQS = {
     { question: "Should we take the test together?", answer: "Yes. Take it independently then compare. Focus on: What do you need from me that does not come naturally?" },
     { question: "How does personality affect friendships vs. romantic relationships?", answer: "Same patterns, but romantic relationships amplify differences because they involve more shared decisions about time, money, and planning." },
   ],
+  "/blog/big-five-personality-traits": [
+    { question: "Is the Big Five the most scientifically validated personality model?", answer: "It is one of the most extensively researched models in personality psychology, with decades of cross-cultural studies supporting its five-factor structure." },
+    { question: "Can my Big Five scores change over time?", answer: "Yes. Conscientiousness and Agreeableness tend to increase with age. Life events, intentional practice, and therapy can also shift scores." },
+    { question: "How is the Big Five different from 16 Personalities?", answer: "The Big Five measures five traits on a spectrum. 16 Personalities uses four dimensions to create 16 categorical types." },
+    { question: "Which Big Five trait best predicts job performance?", answer: "Conscientiousness is the most consistent predictor of job performance across occupations (Barrick and Mount, 1991)." },
+    { question: "Does 1Test use the Big Five?", answer: "1Test uses four frameworks — Strengths, 16 Personalities, DISC, and Enneagram — which overlap with Big Five dimensions." },
+  ],
+  "/blog/personality-test-for-hiring": [
+    { question: "Can employers require a personality test?", answer: "In most jurisdictions, yes — but the test must be job-related, non-discriminatory, and consistent with business necessity." },
+    { question: "Which personality test is best for hiring?", answer: "DISC is the most practical for hiring because it describes observable workplace behavior. Avoid using deep motivation frameworks for selection." },
+    { question: "Are personality tests discriminatory?", answer: "They can be if used improperly. Tests must comply with EEOC guidelines and measure job-relevant traits without adverse impact on protected groups." },
+    { question: "Should candidates see their hiring test results?", answer: "Yes. Transparency builds trust and gives candidates useful self-knowledge regardless of the hiring outcome." },
+    { question: "How much weight should personality tests carry in hiring?", answer: "About 10-15% of the overall decision. Personality data supplements — not replaces — interviews, skills assessments, and references." },
+  ],
+  "/blog/personality-test-accuracy": [
+    { question: "Are personality tests scientifically valid?", answer: "Many are. The Big Five, 16 Personalities, and DISC have substantial research supporting their reliability and validity." },
+    { question: "Can I get a different result if I retake a personality test?", answer: "Yes, but usually only slightly. Major differences usually come from different mood, context, or answering aspirationally." },
+    { question: "Which personality test is the most accurate?", answer: "No single test is most accurate across all purposes. Using multiple frameworks gives the most complete picture." },
+    { question: "Do personality tests discriminate?", answer: "Well-designed tests measure preferences and patterns, not abilities. Tests used in employment must comply with equal opportunity regulations." },
+    { question: "How often should I retake a personality test?", answer: "Every 12-24 months is reasonable. Core personality is mostly stable but can shift over time." },
+  ],
 };
 
 const SEO_DATA = {
@@ -764,6 +785,27 @@ const SEO_DATA = {
     description:
       "Explore how the 16 personality types interact in relationships. Understand compatibility patterns, communication differences, and how to bridge type gaps.",
     canonicalUrl: "https://1test.me/blog/16-personalities-relationships",
+    ogType: "article",
+  },
+  "/blog/big-five-personality-traits": {
+    title: "Big Five Personality Traits Explained: OCEAN Model Guide",
+    description:
+      "Learn about the Big Five personality traits (Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism). Understand the OCEAN model and how it compares to other frameworks.",
+    canonicalUrl: "https://1test.me/blog/big-five-personality-traits",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-hiring": {
+    title: "Using Personality Tests in Hiring: What Works and What to Avoid",
+    description:
+      "Learn how companies use personality tests in hiring responsibly. Which frameworks fit recruitment, legal considerations, and best practices.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-hiring",
+    ogType: "article",
+  },
+  "/blog/personality-test-accuracy": {
+    title: "How Accurate Are Personality Tests? What the Research Says",
+    description:
+      "Understand how accurate personality tests really are. Test-retest reliability, validity, what affects accuracy, and how to get the most truthful results.",
+    canonicalUrl: "https://1test.me/blog/personality-test-accuracy",
     ogType: "article",
   },
 };
@@ -1178,6 +1220,30 @@ const BODY_CONTENT = {
       { heading: "Four Dimensions in Relationships", text: "Introversion vs Extroversion: recharge differences. Sensing vs Intuition: facts vs meaning. Thinking vs Feeling: logic vs values (most common friction). Judging vs Perceiving: plans vs flexibility. Each has specific resolution strategies." },
       { heading: "Compatibility Patterns", text: "Same type: deep understanding, shared blind spots. Complementary: natural balance, more communication needed. Opposite: maximum diversity, highest effort. No pattern guarantees success." },
       { heading: "Practical Strategies", text: "Thinking + Feeling: validate before solving, signal readiness for logic. Judging + Perceiving: question real deadlines, honor them. Introvert + Extrovert: communicate recharge needs early." },
+    ],
+  },
+  "/blog/big-five-personality-traits": {
+    h1: "Big Five Personality Traits: The OCEAN Model Explained",
+    sections: [
+      { heading: "The Five Traits", text: "Openness: appetite for novelty and creativity. Conscientiousness: organization and discipline. Extraversion: energy source and social orientation. Agreeableness: cooperation and empathy. Neuroticism: stress response and emotional reactivity. Each measured on a spectrum, not as categories." },
+      { heading: "Big Five vs Other Frameworks", text: "Big Five measures broad traits on a spectrum. 16 Personalities uses categorical types. DISC focuses on observable workplace behavior. Enneagram explores core motivations. Each reveals something different — using multiple frameworks gives the most complete picture." },
+      { heading: "Big Five at Work", text: "Conscientiousness predicts job performance across most roles (Barrick and Mount, 1991). Openness predicts success in creative fields. Extraversion correlates with leadership. Teams benefit from a mix of trait levels." },
+    ],
+  },
+  "/blog/personality-test-for-hiring": {
+    h1: "Using Personality Tests in Hiring: A Practical Guide",
+    sections: [
+      { heading: "Which Frameworks Fit Hiring", text: "DISC: most practical — describes observable workplace behavior. 16 Personalities: adds cognitive processing style. Strengths: identifies natural talents for role placement. Enneagram: better for post-hire team development, not selection." },
+      { heading: "Legal Considerations", text: "Never use personality tests as the sole hiring basis. No type is inherently better for any job. Tests must comply with EEOC guidelines: job-related, non-discriminatory, consistent with business necessity. Be transparent with candidates." },
+      { heading: "Best Practices", text: "Define what matters before testing. Choose the right framework for the question. Look for fit patterns, not perfect matches. Use results in interviews, not as filters. Build balanced teams with diverse work styles." },
+    ],
+  },
+  "/blog/personality-test-accuracy": {
+    h1: "How Accurate Are Personality Tests? What Research Actually Shows",
+    sections: [
+      { heading: "Reliability and Validity", text: "Reliability: consistent results over time. Big Five shows test-retest correlations of 0.70-0.90 across weeks and months. Validity: measuring what it claims. Mood, context, and impression management can affect individual results." },
+      { heading: "Framework Comparison", text: "Big Five: highest academic research base, strong reliability and validity. 16 Personalities: high face validity, good dimensional reliability. DISC: strong behavioral validity, high test-retest when context is similar. Enneagram: high practical reliability, strong face validity for motivations." },
+      { heading: "Getting Accurate Results", text: "Answer as you are, not as you want to be. Think about typical behavior. Take the test when relaxed. Retake after 6-12 months for confirmation. Cross-reference with multiple frameworks for convergence." },
     ],
   },
 };

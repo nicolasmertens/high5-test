@@ -210,6 +210,18 @@ createRoot(document.getElementById("root")!).render(
               path="/blog/enneagram-test-free-online"
               element={<BlogPage slug="enneagram-test-free-online" />}
             />
+            <Route
+              path="/blog/big-five-personality-traits"
+              element={<BlogPage slug="big-five-personality-traits" />}
+            />
+            <Route
+              path="/blog/personality-test-for-hiring"
+              element={<BlogPage slug="personality-test-for-hiring" />}
+            />
+            <Route
+              path="/blog/personality-test-accuracy"
+              element={<BlogPage slug="personality-test-accuracy" />}
+            />
             <Route path="/privacy-draft" element={<PrivacyPolicy />} />
             <Route path="/terms-draft" element={<TermsOfService />} />
             <Route path="/relationship/:id" element={<RelationshipReportPage />} />

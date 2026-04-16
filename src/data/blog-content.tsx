@@ -6127,6 +6127,191 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-16",
   },
+  "big-five-personality-traits": {
+    slug: "big-five-personality-traits",
+    metaTitle: "Big Five Personality Traits Explained: OCEAN Model Guide",
+    metaDesc:
+      "Learn about the Big Five personality traits (Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism). Understand what the OCEAN model measures and how it compares to other frameworks.",
+    canonicalUrl: "https://1test.me/blog/big-five-personality-traits",
+    h1: "Big Five Personality Traits: The OCEAN Model Explained",
+    sections: [
+      {
+        heading: "What Are the Big Five Personality Traits?",
+        html: p("The Big Five, also called the Five-Factor Model, is one of the most widely studied personality frameworks in academic psychology. It describes personality along five dimensions: Openness to Experience, Conscientiousness, Extraversion, Agreeableness, and Neuroticism. The acronym OCEAN makes them easy to remember.") +
+          p("Unlike type-based systems that sort you into a category, the Big Five measures each trait on a spectrum. You might score high on Conscientiousness and moderate on Extraversion, for example. This gives a more nuanced profile than a single label."),
+      },
+      {
+        heading: "The Five Traits Explained",
+        html: p("<strong>Openness to Experience</strong> describes your appetite for novelty, creativity, and new ideas. High scorers enjoy abstract thinking, artistic expression, and exploring unfamiliar concepts. Low scorers prefer routine, practical tasks, and established methods.") +
+          p("<strong>Conscientiousness</strong> measures how organized, disciplined, and goal-directed you are. High scorers plan ahead, follow through, and pay attention to detail. Low scorers are more spontaneous, flexible, and comfortable with ambiguity.") +
+          p("<strong>Extraversion</strong> captures how you recharge and where you direct your energy. High scorers gain energy from social interaction, enjoy group settings, and tend to be talkative. Low scorers recharge through solitude, prefer depth over breadth in relationships, and think before speaking.") +
+          p("<strong>Agreeableness</strong> reflects how you approach cooperation and social harmony. High scorers value empathy, trust, and helping others. Low scorers are more direct, competitive, and willing to challenge the status quo.") +
+          p("<strong>Neuroticism</strong> (sometimes called Emotional Stability in reverse) measures how you respond to stress. High scorers experience stronger emotional reactions and may feel anxious or self-critical under pressure. Low scorers remain calm and resilient in difficult situations."),
+      },
+      {
+        heading: "How the Big Five Differs From Other Frameworks",
+        html: p("The Big Five measures broad personality dimensions on a spectrum. <a href=\"/blog/understanding-16-personalities\">16 Personalities</a> uses categorical types based on four dimensions. <a href=\"/blog/disc-assessment-guide\">DISC</a> focuses on observable behavior in professional settings. <a href=\"/blog/enneagram-types-explained\">The Enneagram</a> explores core motivations and fears.") +
+          p("Each framework reveals something different. The Big Five is strong for academic research and broad personality description. DISC is practical for communication. The Enneagram is deep for self-awareness. <a href=\"/free-personality-test\">Taking multiple frameworks</a> gives the most complete picture."),
+      },
+      {
+        heading: "Using the Big Five at Work",
+        html: p("<strong>Career alignment:</strong> High Conscientiousness predicts job performance across most roles (Barrick and Mount, 1991). High Openness predicts success in creative fields. High Extraversion correlates with leadership effectiveness.") +
+          p("<strong>Team composition:</strong> Teams benefit from a mix of high and low scorers on each trait. A team of all high Extraverts may talk over each other. A team of all high Agreeableness may avoid necessary conflict.") +
+          p("<strong>Manager-employee fit:</strong> High Conscientiousness employees work well with autonomy. Low Conscientiousness employees may need more structure. High Openness employees thrive with creative freedom."),
+      },
+      {
+        heading: "How 1Test Relates to the Big Five",
+        html: p("1Test measures personality across four frameworks — <a href=\"/free-strengths-test\">Strengths</a>, <a href=\"/free-16-personalities-test\">16 Personalities</a>, <a href=\"/free-disc-test\">DISC</a>, and <a href=\"/free-enneagram-test\">Enneagram</a> — from a single test session. These frameworks overlap with Big Five dimensions. For example, 16 Personalities Extraversion maps closely to Big Five Extraversion, and DISC Conscientiousness relates to Big Five Conscientiousness.") +
+          p("By combining frameworks, you get the depth of the Enneagram, the behavioral clarity of DISC, the cognitive patterns of 16 Personalities, and the talent focus of Strengths — all in about 15 minutes."),
+      },
+    ],
+    faqs: [
+      { question: "Is the Big Five the most scientifically validated personality model?", answer: "It is one of the most extensively researched models in personality psychology, with decades of cross-cultural studies supporting its five-factor structure." },
+      { question: "Can my Big Five scores change over time?", answer: "Yes. Research shows that Conscientiousness and Agreeableness tend to increase with age. Life events, intentional practice, and therapy can also shift scores over time." },
+      { question: "How is the Big Five different from 16 Personalities?", answer: "The Big Five measures five traits on a spectrum. 16 Personalities uses four dimensions to create 16 categorical types. They share similar foundations but present results differently." },
+      { question: "Which Big Five trait best predicts job performance?", answer: "Conscientiousness is the most consistent predictor of job performance across occupations, according to meta-analytic research by Barrick and Mount (1991)." },
+      { question: "Does 1Test use the Big Five?", answer: "1Test uses four frameworks — Strengths, 16 Personalities, DISC, and Enneagram — which overlap with Big Five dimensions. The multi-framework approach gives a broader picture than any single model." },
+    ],
+    ctaHeading: "Discover your personality across four frameworks",
+    ctaSubtext: "One free test. Strengths, 16 Personalities, DISC, and Enneagram.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "Understanding 16 Personalities", url: "/blog/understanding-16-personalities" },
+      { label: "DISC assessment guide", url: "/blog/disc-assessment-guide" },
+      { label: "Personality assessment science", url: "/blog/personality-assessment-science" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "personality-test-for-hiring": {
+    slug: "personality-test-for-hiring",
+    metaTitle: "Using Personality Tests in Hiring: What Works and What to Avoid",
+    metaDesc:
+      "Learn how companies use personality tests in hiring responsibly. Understand which frameworks fit recruitment, legal considerations, and best practices for personality-based selection.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-hiring",
+    h1: "Using Personality Tests in Hiring: A Practical Guide",
+    sections: [
+      {
+        heading: "Why Companies Use Personality Tests in Hiring",
+        html: p("Personality assessments help hiring teams go beyond resumes and interviews. They reveal how a candidate communicates, handles stress, approaches problems, and fits with team dynamics. According to a 2022 SHRM survey, about 18% of US employers use personality tests during hiring.") +
+          p("Used correctly, personality data supplements — but never replaces — interviews, references, and skills assessments. The goal is to understand work style preferences, not to screen people out based on type alone."),
+      },
+      {
+        heading: "Which Frameworks Fit Hiring Best",
+        html: p("<strong><a href=\"/blog/disc-assessment-guide\">DISC</a></strong> is the most practical framework for hiring. It describes observable behavior: how a candidate communicates, makes decisions, and responds to pace and pressure. A sales team benefits from high Influence profiles. A quality assurance role suits high Conscientiousness profiles.") +
+          p("<strong><a href=\"/blog/understanding-16-personalities\">16 Personalities</a></strong> adds cognitive processing style. It reveals how someone takes in information and makes decisions. Useful for understanding team dynamics and manager-report fit.") +
+          p("<strong><a href=\"/free-strengths-test\">Strengths</a></strong> identifies natural talents. Useful for placing people in roles where they will excel rather than trying to fix weaknesses.") +
+          p("<strong><a href=\"/free-enneagram-test\">Enneagram</a></strong> is less suited for hiring — it reveals deep motivations that are personal. Better used for team development after someone is hired."),
+      },
+      {
+        heading: "Legal and Ethical Considerations",
+        html: ul([
+          "<strong>Never use personality tests as the sole basis for hiring decisions.</strong> They describe preferences, not competence.",
+          "<strong>Avoid discriminating by type.</strong> No personality type is inherently better for any job. Focus on work style fit, not type labels.",
+          "<strong>Ensure assessments comply with local employment law.</strong> In the US, the EEOC requires that employment tests be job-related and consistent with business necessity.",
+          "<strong>Be transparent.</strong> Tell candidates what you are assessing and why. Share results with them.",
+          "<strong>Respect privacy.</strong> Personality data is personal. Store it securely and limit access to hiring teams.",
+        ]),
+      },
+      {
+        heading: "Best Practices for Hiring With Personality Data",
+        html: ol([
+          "<strong>Define what matters first.</strong> Before testing, identify the work style behaviors that matter for the role. Examples: comfort with ambiguity, preference for collaboration vs. independence, communication pace.",
+          "<strong>Choose the right framework.</strong> Use DISC for behavior and communication. Use Strengths for talent alignment. Use 16 Personalities for cognitive style.",
+          "<strong>Look for fit, not perfection.</strong> No candidate will perfectly match a profile. Look for patterns — does their overall style fit the team and role?",
+          "<strong>Use results in interviews, not as filters.</strong> Ask follow-up questions based on results. A high Steadiness DISC profile? Ask how they handle rapid change.",
+          "<strong>Build balanced teams.</strong> Use personality data to create teams with diverse work styles, not to clone existing top performers.",
+        ]),
+      },
+      {
+        heading: "Common Mistakes to Avoid",
+        html: p("<strong>Typing and filtering:</strong> Screening out candidates based on personality type is both unethical and legally risky. A common example is rejecting introverts for sales roles — many top performers in sales are introverted.") +
+          p("<strong>Over-weighting test results:</strong> Personality data should be 10-15% of your hiring decision. Skills, experience, references, and interview performance matter more.") +
+          p("<strong>Using the wrong framework:</strong> The Enneagram is excellent for personal growth but inappropriate for hiring. DISC and Strengths are more appropriate for workplace applications."),
+      },
+    ],
+    faqs: [
+      { question: "Can employers require a personality test?", answer: "In most jurisdictions, yes — but with conditions. The test must be job-related, non-discriminatory, and consistent with business necessity. Candidates should be informed about how results are used." },
+      { question: "Which personality test is best for hiring?", answer: "DISC is the most practical for hiring because it describes observable workplace behavior. Strengths assessments are useful for role placement. Avoid using deep motivation frameworks like the Enneagram for selection." },
+      { question: "Are personality tests discriminatory?", answer: "They can be if used improperly. Any employment test must comply with EEOC guidelines and local law. Tests must measure job-relevant traits and must not produce adverse impact on protected groups." },
+      { question: "Should candidates see their hiring test results?", answer: "Yes. Transparency builds trust and gives candidates useful self-knowledge regardless of the hiring outcome." },
+      { question: "How much weight should personality tests carry in hiring?", answer: "About 10-15% of the overall decision. Personality data supplements interviews, skills assessments, and references — it does not replace them." },
+    ],
+    ctaHeading: "Assess personality for team building",
+    ctaSubtext: "Free DISC, Strengths, and 16 Personalities — no paywall.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "DISC for team building", url: "/blog/disc-test-team-building" },
+      { label: "Personality test for managers", url: "/blog/personality-test-for-managers" },
+      { label: "DISC management style", url: "/blog/disc-management-style" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "personality-test-accuracy": {
+    slug: "personality-test-accuracy",
+    metaTitle: "How Accurate Are Personality Tests? What the Research Says",
+    metaDesc:
+      "Understand how accurate personality tests really are. Learn about test-retest reliability, validity, what affects accuracy, and how to get the most truthful results from any personality assessment.",
+    canonicalUrl: "https://1test.me/blog/personality-test-accuracy",
+    h1: "How Accurate Are Personality Tests? What Research Actually Shows",
+    sections: [
+      {
+        heading: "What Accuracy Means for Personality Tests",
+        html: p("Personality tests do not measure something physical like height or weight. They measure patterns in how people think, feel, and behave. Accuracy in personality testing means two things: <strong>reliability</strong> (consistent results over time) and <strong>validity</strong> (measuring what it claims to measure).") +
+          p("A well-designed personality test produces results that are mostly stable over months and years, with some natural variation depending on context, mood, and life changes. No personality test is perfectly precise — and any test claiming 100% accuracy should be treated with skepticism."),
+      },
+      {
+        heading: "Reliability: Do Results Stay Consistent?",
+        html: p("<strong>Test-retest reliability</strong> is the most common way to evaluate consistency. If you take the same test two weeks apart, you should get similar results. Research on the Big Five shows test-retest correlations of 0.70 to 0.90 across weeks and months (McCrae et al., 2011).") +
+          p("<strong>What causes variation:</strong> Mood affects responses — you may answer differently on a stressful day. Context matters — people answer differently at work versus at home. Intentional impression management — candidates in hiring situations may answer how they think the employer wants.") +
+          p("1Test addresses this by using multiple items per trait, which averages out random variation and reduces the impact of any single question."),
+      },
+      {
+        heading: "Validity: Does the Test Measure What It Claims?",
+        html: p("<strong>Construct validity</strong> asks whether the test actually captures the personality trait it names. For example, does an Extraversion score really reflect sociability and energy from social interaction? Research-backed frameworks like <a href=\"/blog/big-five-personality-traits\">the Big Five</a> and <a href=\"/blog/disc-assessment-guide\">DISC</a> have strong construct validity from decades of study.") +
+          p("<strong>Predictive validity</strong> asks whether test scores predict real-world behavior. Research shows that Conscientiousness scores predict job performance (Barrick and Mount, 1991). DISC profiles predict communication patterns. The Enneagram has less formal predictive research but strong face validity — people consistently recognize their patterns."),
+      },
+      {
+        heading: "How Frameworks Compare on Accuracy",
+        html: p("<strong>Big Five / OCEAN:</strong> Highest academic research base. Strong reliability and validity data. Measures broad traits on a spectrum.") +
+          p("<strong>16 Personalities:</strong> Based on similar dimensions to the Big Five but presented as categorical types. High face validity — people recognize their type. Good reliability for the four dimensions.") +
+          p("<strong>DISC:</strong> Strong behavioral validity — it accurately describes how people act in observable ways. Test-retest reliability is high when taken in similar contexts.") +
+          p("<strong>Enneagram:</strong> Lower formal research base but high practical reliability. People rarely change their identified type over time. Strong face validity for core motivations.") +
+          p("<strong>Strengths:</strong> Good test-retest reliability for top strengths. Validity is supported by workplace outcome studies."),
+      },
+      {
+        heading: "How to Get the Most Accurate Results",
+        html: ol([
+          "<strong>Answer as you are, not as you want to be.</strong> Social desirability bias — answering what sounds good — is the biggest threat to accuracy.",
+          "<strong>Think about your typical behavior.</strong> Not your best day or worst day. Your average Tuesday.",
+          "<strong>Take the test when you are relaxed.</strong> Extreme stress, excitement, or fatigue can shift your responses.",
+          "<strong>Retake after 6-12 months.</strong> One result is informative. Two results are more reliable. If they match, you have a stable profile.",
+          "<strong>Cross-reference with multiple frameworks.</strong> If your DISC, 16 Personalities, and Strengths profiles all point in the same direction, that convergence increases confidence. <a href=\"/free-personality-test\">Take all four at 1Test</a>.",
+        ]),
+      },
+    ],
+    faqs: [
+      { question: "Are personality tests scientifically valid?", answer: "Many are. The Big Five, 16 Personalities, and DISC have substantial research supporting their reliability and validity. The key is using a well-designed test backed by research, not a random internet quiz." },
+      { question: "Can I get a different result if I retake a personality test?", answer: "Yes, but usually only slightly. Most people get very similar results on retake. Major differences usually come from different mood, context, or answering aspirationally rather than honestly." },
+      { question: "Which personality test is the most accurate?", answer: "No single test is most accurate across all purposes. The Big Five has the strongest academic research base. DISC is most accurate for workplace behavior. The Enneagram is most insightful for core motivations. Using multiple frameworks gives the most complete picture." },
+      { question: "Do personality tests discriminate?", answer: "Well-designed tests do not discriminate — they measure preferences and patterns, not abilities. No personality type is better than another. Tests used in employment must comply with equal opportunity regulations." },
+      { question: "How often should I retake a personality test?", answer: "Every 12-24 months is reasonable. Core personality is mostly stable, but life experiences, intentional growth, and context changes can shift some traits over time." },
+    ],
+    ctaHeading: "Get your personality profile across four frameworks",
+    ctaSubtext: "One free test. Strengths, 16 Personalities, DISC, and Enneagram.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "Big Five personality traits", url: "/blog/big-five-personality-traits" },
+      { label: "Personality assessment science", url: "/blog/personality-assessment-science" },
+      { label: "Free vs paid personality tests", url: "/blog/free-vs-paid-personality-tests" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {
