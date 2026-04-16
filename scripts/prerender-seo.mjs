@@ -616,6 +616,27 @@ const BLOG_FAQS = {
     { question: "How should I communicate with a D type?", answer: "Be direct, get to the point, focus on outcomes, and give options rather than prescriptions. D types respect confidence and brevity. Avoid long preambles, excessive detail, and hedging. If you disagree, say so directly." },
     { question: "What are the blind spots of DISC type D?", answer: "D types can overlook other people's feelings, rush decisions without enough input, and steamroll colleagues who need more time or information. They may equate speed with effectiveness when patience would produce better results. The growth area for D types is developing empathy, patience, and collaboration." },
   ],
+  "/blog/personality-test-for-negotiation": [
+    { question: "How does personality affect negotiation?", answer: "Personality shapes your default negotiation style — how assertive you are, how much you prioritize the relationship, how you handle conflict, and how you make decisions under pressure. DISC describes your observable behavior at the table. The Enneagram describes your underlying motivation. Understanding both helps you adapt your approach and read the other side more effectively." },
+    { question: "Which DISC type is the best negotiator?", answer: "No DISC type is inherently better at negotiation. High D types excel at assertive, results-driven negotiations. High I types excel at relationship-based negotiations. High S types excel at collaborative, trust-building negotiations. High C types excel at analytical, detail-oriented negotiations. The best negotiators adapt their style to the situation and the counterpart." },
+    { question: "Can personality tests predict negotiation outcomes?", answer: "No. Personality tests describe behavioral tendencies and motivations — they do not predict who will win a negotiation. They help you understand your default approach and prepare more effectively. The outcome of a negotiation depends on preparation, strategy, alternatives, and the specific dynamics of the situation." },
+    { question: "How do I prepare for a negotiation with a very different personality type?", answer: "First, identify their likely DISC style through observation. Then prepare your communication in their style: be direct and outcomes-focused for D types, relational and enthusiastic for I types, patient and thorough for S types, and data-driven and logical for C types. Prepare backup approaches in your own style in case your first approach does not land." },
+    { question: "What if my negotiation counterpart has not taken a personality test?", answer: "You can estimate their likely DISC style by observing their behavior. Do they get straight to the point (D)? Do they start with small talk and enthusiasm (I)? Do they want context and reassurance (S)? Do they ask for data and specifics (C)? You do not need their test results to adapt your approach — informed observation works well enough." },
+  ],
+  "/blog/enneagram-type-9-peacemaker": [
+    { question: "What is Enneagram Type 9?", answer: "Type 9, the Peacemaker, is driven by a need for inner and outer harmony. Nines are warm, accepting, steady, and naturally see multiple perspectives. Their core fear is conflict and loss of connection. Growth direction is toward Type 3 (decisive action and self-focus). Stress direction is toward Type 6 (anxiety and indecision)." },
+    { question: "How do I know if I am an Enneagram Type 9?", answer: "Take the free Enneagram test on 1Test. It takes about 8-12 minutes, and you receive your type, wing tendencies, growth direction, and stress direction — all free with no paywall. You can also look for these patterns: you often go along with others to avoid conflict, you sometimes lose track of your own opinions, and you feel most yourself when things are peaceful and stable." },
+    { question: "What is the growth direction for Type 9?", answer: "Type 9 grows toward Type 3. When healthy, Nines develop decisiveness, self-direction, and the ability to pursue their own goals with energy and focus. The key practice is learning to name and pursue your own desires rather than automatically merging with others' priorities." },
+    { question: "What is the stress direction for Type 9?", answer: "Under stress, Type 9 moves toward Type 6. They become more anxious, suspicious, and paralyzed by indecision. Nines under stress tend to overthink, seek excessive reassurance, procrastinate more intensely, and numb out through distraction or comfort habits." },
+    { question: "Is Type 9 compatible with other Enneagram types?", answer: "Any two types can have a healthy relationship. Nines often connect well with Types 1 and 8 because these types help the Nine find direction and assertiveness. Nines may clash with types that demand constant intensity or rapid change. The key is self-awareness — understanding your patterns helps you navigate any relationship more effectively." },
+  ],
+  "/blog/disc-type-s-steadiness": [
+    { question: "What is DISC type S (Steadiness)?", answer: "DISC type S, or Steadiness, describes people who are patient, reliable, team-oriented, and consistent. They prioritize stability and harmony, prefer a measured pace, and excel at follow-through, listening, and creating supportive environments. Most people have a blend of styles, with S being one component of their profile." },
+    { question: "How do I know if I am a high S?", answer: "Take the free DISC test on 1Test. It takes about 5-8 minutes, and you receive your scores across all four dimensions — Dominance, Influence, Steadiness, and Conscientiousness — plus your primary style and practical tips. No paywall." },
+    { question: "Is DISC type S good for leadership?", answer: "S types make effective leaders in stable, people-oriented environments. They excel at building trust, developing team members, and creating consistent processes. The most effective S leaders also develop the ability to make decisive calls and address conflict directly when needed." },
+    { question: "What are the blind spots of DISC type S?", answer: "Common blind spots include conflict avoidance, slow adaptation to change, over-accommodation (saying yes when they should say no), difficulty advocating for themselves, and passive decision-making. These are not weaknesses — they are growth areas that become manageable with awareness and practice." },
+    { question: "How should I communicate with an S type?", answer: "Give context before action, be patient with their pace, show the impact on people, provide stability and consistency, and ask for their opinion directly — they often have valuable insights they will not volunteer unprompted. S types respond best to warm, genuine, and unhurried communication." },
+  ],
 };
 
 const SEO_DATA = {
@@ -1142,6 +1163,27 @@ const SEO_DATA = {
     description:
       "Deep dive into DISC D (Dominance) type: traits, communication style, strengths, blind spots, working with D types, and growth areas. Free DISC test at 1Test.",
     canonicalUrl: "https://1test.me/blog/disc-type-d-dominance",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-negotiation": {
+    title: "Personality Test for Negotiation — How Your Type Shapes Outcomes",
+    description:
+      "Learn how personality tests help in negotiation. Understand your negotiation style by DISC type, prepare for counterpart styles, and use personality awareness to reach better outcomes.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-negotiation",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-9-peacemaker": {
+    title: "Enneagram Type 9 Peacemaker — Motivation, Growth, and Practical Advice",
+    description:
+      "Deep dive into Enneagram Type 9 (Peacemaker): core motivation, core fear, growth direction to Type 3, stress direction to Type 6, and practical advice for growth. Free Enneagram test.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-9-peacemaker",
+    ogType: "article",
+  },
+  "/blog/disc-type-s-steadiness": {
+    title: "DISC Type S Steadiness — Traits, Strengths, Blind Spots, and Growth",
+    description:
+      "Deep dive into DISC S (Steadiness) type: traits, communication style, strengths, blind spots, working with S types, and growth areas. Free DISC test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/disc-type-s-steadiness",
     ogType: "article",
   },
 };
@@ -1772,6 +1814,30 @@ const BODY_CONTENT = {
       { heading: "What DISC D Means", text: "The D in DISC stands for Dominance. People with high D scores are direct, results-oriented, and decisive. They prioritize action over analysis, outcomes over process, and efficiency over comfort. They are energized by challenges, comfortable with conflict, and motivated by autonomy." },
       { heading: "Strengths and Blind Spots", text: "D types drive results, make tough decisions, take initiative, challenge the status quo, and thrive under pressure. Their blind spots include overlooking feelings, rushing decisions, steamrolling colleagues who need more time, losing interest in routine execution, and micromanaging when trust is low." },
       { heading: "Growth Areas for the D Type", text: "The most effective D types develop patience, listening skills, empathy, and collaboration. Not everything needs to happen now. Listening for understanding rather than for a chance to respond produces better decisions. Empathy is a skill, not a trait. Combining drive with others' strengths produces better results than working alone." },
+    ],
+  },
+  "/blog/personality-test-for-negotiation": {
+    h1: "Personality Test for Negotiation — How Your Type Shapes Outcomes",
+    sections: [
+      { heading: "Why Personality Matters in Negotiation", text: "Negotiation is about people with different styles, priorities, and motivations trying to reach agreement. Your personality shapes how you prepare, communicate under pressure, and respond to the other side's moves. Understanding your DISC style, Enneagram motivation, and Strengths profile helps you adapt your approach instead of relying on a default that may not fit the situation." },
+      { heading: "Negotiation Styles by DISC Type", text: "High D negotiators push for quick closes and direct outcomes. High I negotiators build rapport first and focus on relationships. High S negotiators prefer collaborative agreements and long-term trust. High C negotiators rely on data, logic, and thorough preparation. Each style has strengths and risks — and each can be effective when adapted to the counterpart." },
+      { heading: "Building a Negotiation Strategy With Personality Awareness", text: "Know your default style and prepare for your counterpart's style. Develop multiple approaches. Watch for stress responses — each DISC type has predictable stress patterns. Combine frameworks for depth: DISC tells you how they behave, Enneagram tells you what they really want, and Strengths tells you what they are naturally good at." },
+    ],
+  },
+  "/blog/enneagram-type-9-peacemaker": {
+    h1: "Enneagram Type 9: The Peacemaker — Complete Guide to Motivation, Growth, and Blind Spots",
+    sections: [
+      { heading: "What Drives Type 9", text: "Type 9 is driven by a need for inner and outer peace. The core fear is conflict, loss, and fragmentation. Nines are warm, accepting, steady, and genuinely present for others. They often lose themselves in others' priorities, making their core growth challenge learning to name and pursue their own desires." },
+      { heading: "Growth and Stress Directions", text: "Type 9 grows toward Type 3 — becoming more decisive, self-directed, and focused on personal goals. Under stress, Type 9 moves toward Type 6 — becoming anxious, suspicious, and paralyzed by indecision. The growth practice for Nines is learning that asserting needs is not the same as creating conflict, and that voicing opinions is not aggression." },
+      { heading: "Practical Advice for Type 9 Growth", text: "Practice micro-assertiveness in small daily decisions. Track what you actually want but do not voice. Set a 60-second timer for small decisions to practice choosing without over-deliberating. Address conflict early — a five-minute conversation now prevents a five-hour argument later. Combine Enneagram with DISC and Strengths for a complete growth picture." },
+    ],
+  },
+  "/blog/disc-type-s-steadiness": {
+    h1: "DISC Type S (Steadiness): Complete Guide to Traits, Strengths, and Growth",
+    sections: [
+      { heading: "What DISC S Means", text: "The S in DISC stands for Steadiness. People with high S scores are patient, reliable, team-oriented, and consistent. They prioritize stability, harmony, and steady progress. They are the anchors of their teams — following through on commitments, listening carefully, and creating environments where others feel safe and supported." },
+      { heading: "Strengths and Blind Spots", text: "S types are loyal, supportive, excellent listeners, process-oriented, and effective at conflict resolution. Their blind spots include conflict avoidance, slow adaptation to change, over-accommodation, difficulty advocating for themselves, and passive decision-making. Each blind spot is a growth area that becomes manageable with awareness and practice." },
+      { heading: "Working With and Managing S Types", text: "Give context before action — S types perform best when they understand why. Be patient with their pace. Show the impact on people. Provide stability and minimize unnecessary changes. Ask for their opinion directly — they often have valuable insights they will not volunteer unprompted. Recognize their contributions publicly, since S types rarely promote their own work." },
     ],
   },
 };

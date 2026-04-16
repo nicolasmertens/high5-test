@@ -8161,6 +8161,462 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-16",
   },
+
+  "personality-test-for-negotiation": {
+    slug: "personality-test-for-negotiation",
+    metaTitle: "Personality Test for Negotiation — How Your Type Shapes Outcomes",
+    metaDesc:
+      "Learn how personality tests help in negotiation. Understand your negotiation style by DISC type, prepare for counterpart styles, and use personality awareness to reach better outcomes.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-negotiation",
+    h1: "Personality Test for Negotiation — How Your Type Shapes Outcomes",
+    sections: [
+      {
+        heading: "Why Personality Matters in Negotiation",
+        html: p(
+          "Negotiation is not just about strategy and tactics. It is about two or more people with different styles, priorities, and motivations trying to reach an agreement. Your personality shapes how you prepare, how you communicate under pressure, and how you respond to the other side's moves — often without you realizing it."
+        ) +
+          p(
+            "A high-D negotiator pushes for a quick close. A high-S negotiator wants to make sure everyone feels good about the deal. An Enneagram Type 8 negotiator fights for control. A Type 9 negotiator works to keep the peace. These differences are not random — they are predictable patterns that personality frameworks can help you understand and leverage. <a href=\"/free-personality-test\">Take the free personality test</a> to discover your negotiation style, or read on to learn how each framework applies."
+          ) +
+          p(
+            "Research on personality and negotiation consistently shows that self-awareness improves outcomes. A 2008 study published in the <em>Journal of Personality and Social Psychology</em> (Thompson, 2008) found that negotiators who understood their own behavioral tendencies achieved better results than those who relied on instinct alone."
+          ) +
+          p(
+            "Personality does not determine the outcome of a negotiation. But it determines the default approach you bring to the table — and understanding that approach gives you the ability to adapt."
+          ),
+      },
+      {
+        heading: "Negotiation Styles by DISC Type",
+        html: p(
+          "DISC is the most practical framework for negotiation because it describes observable behavior — exactly what happens at the table."
+        ) +
+          h3("High D (Dominance) Negotiators") +
+          p(
+            "<strong>Default style:</strong> Direct, assertive, results-focused. High D negotiators push for outcomes, make opening offers early, and are comfortable with conflict."
+          ) +
+          p(
+            "<strong>Strengths:</strong> Decisiveness, willingness to make tough calls, ability to advocate strongly for their position."
+          ) +
+          p(
+            "<strong>Risks:</strong> May push too hard and damage the relationship, skip important details, or miss creative solutions because they are focused on speed rather than exploration."
+          ) +
+          p(
+            "<strong>Growth strategy:</strong> Slow down. Ask more questions. Listen for the other side's underlying interests rather than just their stated position. The strongest D negotiators combine assertiveness with genuine curiosity."
+          ) +
+          h3("High I (Influence) Negotiators") +
+          p(
+            "<strong>Default style:</strong> Relational, enthusiastic, optimistic. High I negotiators build rapport first, use stories and persuasion, and focus on the relationship."
+          ) +
+          p(
+            "<strong>Strengths:</strong> Creating trust, generating creative options, keeping the conversation positive and forward-moving."
+          ) +
+          p(
+            "<strong>Risks:</strong> May overcommit to preserve the relationship, avoid difficult issues, or give away too much because they prioritize harmony over terms."
+          ) +
+          p(
+            "<strong>Growth strategy:</strong> Prepare specific numbers and walk-away points before the negotiation. Use your relational strengths to build trust, but stick to your prepared terms when it matters. The strongest I negotiators combine warmth with clear boundaries."
+          ) +
+          h3("High S (Steadiness) Negotiators") +
+          p(
+            "<strong>Default style:</strong> Patient, thorough, relationship-oriented. High S negotiators prefer a collaborative approach, want to understand all perspectives, and move at a measured pace."
+          ) +
+          p(
+            "<strong>Strengths:</strong> Building long-term trust, identifying shared interests, and creating agreements that both sides can sustain."
+          ) +
+          p(
+            "<strong>Risks:</strong> May concede too much to avoid conflict, struggle with aggressive counterparts, and take too long to reach a decision."
+          ) +
+          p(
+            "<strong>Growth strategy:</strong> Set clear boundaries before the negotiation starts. Practice saying no calmly. Prepare for pressure tactics so you are not caught off guard. The strongest S negotiators combine patience with firmness."
+          ) +
+          h3("High C (Conscientiousness) Negotiators") +
+          p(
+            "<strong>Default style:</strong> Analytical, detail-oriented, logical. High C negotiators prepare extensively, rely on data, and want to understand every term before agreeing."
+          ) +
+          p(
+            "<strong>Strengths:</strong> Thorough preparation, logical argumentation, and the ability to identify flaws in the other side's proposals."
+          ) +
+          p(
+            "<strong>Risks:</strong> May over-analyze and miss the window for agreement, focus on data at the expense of the relationship, or appear cold and inflexible."
+          ) +
+          p(
+            "<strong>Growth strategy:</strong> Set time limits on your analysis. Recognize that negotiations involve human dynamics, not just data. Build in time for relationship-building alongside your logical preparation. The strongest C negotiators combine rigor with flexibility."
+          ) +
+          p(
+            'Most negotiators are a blend of two styles. <a href="/free-disc-test">Take the free DISC test</a> to discover your negotiation profile.'
+          ),
+      },
+      {
+        heading: "Preparing for Your Counterpart's Style",
+        html: p(
+          "Understanding your own style is half the battle. The other half is reading and adapting to your counterpart's style."
+        ) +
+          strong([
+            { label: "Negotiating with a High D.", desc: "Be direct and concise. Present options, not open-ended questions. Show you have alternatives. Respect their time and get to the point. They will respect confidence more than warmth." },
+            { label: "Negotiating with a High I.", desc: "Start with a personal connection. Build rapport before getting into terms. Use stories and examples. Give them room to talk. They will engage more when they feel a relationship is being built." },
+            { label: "Negotiating with a High S.", desc: "Give them time and context. Explain the reasons behind your proposals. Do not rush or pressure. Show how the agreement benefits both sides. They will engage more when they feel the process is fair and unhurried." },
+            { label: "Negotiating with a High C.", desc: "Come prepared with data. Present your logic clearly. Be precise with terms and numbers. They will engage more when they see that your proposal is well-researched and logically sound." },
+          ]) +
+          p(
+            "The key principle is simple: negotiate in the style of your counterpart, not your own. This does not mean being inauthentic — it means adjusting your communication so the other side can hear your message clearly."
+          ) +
+          p(
+            'For strategies on handling conflict in negotiation, see our guide to <a href="/blog/disc-conflict-resolution">DISC conflict resolution</a>. For the broader connection between personality and <a href="/blog/personality-test-for-conflict-resolution">conflict resolution</a>, that guide covers the full framework picture.'
+          ),
+      },
+      {
+        heading: "Negotiation Through the Enneagram",
+        html: p(
+          "DISC tells you how someone negotiates. The Enneagram tells you why they negotiate — what drives them underneath the surface."
+        ) +
+          p("<strong>Type 1 (Reformer):</strong> Negotiates for fairness and correct outcomes. May deadlock on principle. Prepare by acknowledging their sense of ethics and showing how the deal is fair.") +
+          p("<strong>Type 3 (Achiever):</strong> Negotiates for results and recognition. May rush to close because they want a win. Prepare by understanding whether they are negotiating for substance or status — and address both.") +
+          p("<strong>Type 6 (Loyalist):</strong> Negotiates for security and predictability. May over-analyze risk and slow the deal. Prepare by providing guarantees, references, and clear terms that reduce uncertainty.") +
+          p("<strong>Type 8 (Challenger):</strong> Negotiates for control and impact. May see the negotiation as a contest of will. Prepare by being direct, holding your ground, and demonstrating that you are not easily intimidated.") +
+          p("<strong>Type 9 (Peacemaker):</strong> Negotiates for harmony and consensus. May avoid tough terms or defer to the other side too much. Prepare by creating a collaborative frame and giving them space to voice their actual needs.") +
+          p(
+            'Understanding the Enneagram helps you look past positions to interests — the underlying motivation that drives what someone says they want. <a href="/free-enneagram-test">Take the free Enneagram test</a> to discover your core motivation.'
+          ),
+      },
+      {
+        heading: "Building a Negotiation Strategy With Personality Awareness",
+        html: p(
+          "Personality awareness does not replace negotiation strategy. It adds a layer of understanding that makes your strategy more effective."
+        ) +
+          ol([
+            "<strong>1. Know your default.</strong> Take a personality test before a significant negotiation. Know whether you tend to push, accommodate, analyze, or connect. Your default is not wrong — but it may not be the best approach for this specific counterpart.",
+            "<strong>2. Prepare for the other side.</strong> Observe their DISC style in early conversations. Are they direct (D)? Enthusiastic (I)? Patient (S)? Analytical (C)? Adjust your preparation to match.",
+            "<strong>3. Develop multiple approaches.</strong> Prepare at least two ways to present each point — one in your default style, and one in your counterpart's style. If your default approach does not land, you have a backup ready.",
+            "<strong>4. Watch for stress responses.</strong> Under pressure, negotiators revert to their style's stress pattern. High D becomes more aggressive. High I becomes more scattered. High S shuts down. High C becomes more rigid. Recognizing stress responses helps you de-escalate.",
+            "<strong>5. Combine frameworks for depth.</strong> DISC tells you how they will behave. Enneagram tells you what they really want. Strengths tells you what they are naturally good at. Together, they give you a negotiation profile that no single framework can match.",
+          ]) +
+          p(
+            'For more on how personality supports leadership decisions, see our guide to <a href="/blog/personality-test-for-leadership">personality tests for leadership</a>. For communication strategies that support negotiation, see <a href="/blog/disc-communication-styles">DISC communication styles</a>.'
+          ),
+      },
+    ],
+    faqs: [
+      {
+        question: "How does personality affect negotiation?",
+        answer:
+          "Personality shapes your default negotiation style — how assertive you are, how much you prioritize the relationship, how you handle conflict, and how you make decisions under pressure. DISC describes your observable behavior at the table. The Enneagram describes your underlying motivation. Understanding both helps you adapt your approach and read the other side more effectively.",
+      },
+      {
+        question: "Which DISC type is the best negotiator?",
+        answer:
+          "No DISC type is inherently better at negotiation. High D types excel at assertive, results-driven negotiations. High I types excel at relationship-based negotiations. High S types excel at collaborative, trust-building negotiations. High C types excel at analytical, detail-oriented negotiations. The best negotiators adapt their style to the situation and the counterpart.",
+      },
+      {
+        question: "Can personality tests predict negotiation outcomes?",
+        answer:
+          "No. Personality tests describe behavioral tendencies and motivations — they do not predict who will win a negotiation. They help you understand your default approach and prepare more effectively. The outcome of a negotiation depends on preparation, strategy, alternatives, and the specific dynamics of the situation.",
+      },
+      {
+        question: "How do I prepare for a negotiation with a very different personality type?",
+        answer:
+          "First, identify their likely DISC style through observation. Then prepare your communication in their style: be direct and outcomes-focused for D types, relational and enthusiastic for I types, patient and thorough for S types, and data-driven and logical for C types. Prepare backup approaches in your own style in case your first approach does not land.",
+      },
+      {
+        question: "What if my negotiation counterpart has not taken a personality test?",
+        answer:
+          "You can estimate their likely DISC style by observing their behavior. Do they get straight to the point (D)? Do they start with small talk and enthusiasm (I)? Do they want context and reassurance (S)? Do they ask for data and specifics (C)? You do not need their test results to adapt your approach — informed observation works well enough.",
+      },
+    ],
+    ctaHeading: "Ready to find your negotiation style?",
+    ctaSubtext: "One free test, four frameworks, complete picture.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "DISC communication styles", url: "/blog/disc-communication-styles" },
+      { label: "Personality test for conflict resolution", url: "/blog/personality-test-for-conflict-resolution" },
+      { label: "DISC conflict resolution", url: "/blog/disc-conflict-resolution" },
+      { label: "Personality test for leadership", url: "/blog/personality-test-for-leadership" },
+    ],
+    datePublished: "2026-04-16",
+  },
+
+  "enneagram-type-9-peacemaker": {
+    slug: "enneagram-type-9-peacemaker",
+    metaTitle: "Enneagram Type 9 Peacemaker — Motivation, Growth, and Practical Advice",
+    metaDesc:
+      "Deep dive into Enneagram Type 9 (Peacemaker): core motivation, core fear, growth direction to Type 3, stress direction to Type 6, and practical advice for growth. Free Enneagram test.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-9-peacemaker",
+    h1: "Enneagram Type 9: The Peacemaker — Complete Guide to Motivation, Growth, and Blind Spots",
+    sections: [
+      {
+        heading: "What Drives Type 9",
+        html: p(
+          "Type 9 is the Peacemaker. At their core, Nines are driven by a need for inner and outer peace. They want harmony in their relationships, stability in their environment, and a sense that everything is fundamentally okay. When things are peaceful, Nines are at their best — warm, accepting, steady, and genuinely present for the people around them."
+        ) +
+          p(
+            "The core motivation of Type 9 is to maintain peace and harmony. The core fear is conflict, loss, and fragmentation — the sense that things are falling apart or that connection will be broken. This fear drives many Nine behaviors: avoiding difficult conversations, merging with others' agendas, procrastinating on decisions, and numbing out when things feel overwhelming."
+          ) +
+          p(
+            "Nines are often misunderstood as lazy or disengaged. In reality, Nines have enormous energy — but they often direct it toward maintaining peace and comfort rather than toward their own agenda. The challenge for Nines is not a lack of ability. It is a lack of access to their own desires and priorities, which tend to get lost in the sweep of keeping everyone else comfortable."
+          ) +
+          p(
+            "Healthy Nines are some of the most grounding, stabilizing people in any room. They see multiple perspectives, mediate between opposing sides, and create environments where others feel safe. Unhealthy Nines lose themselves in the background, avoid conflict to the point of self-neglect, and struggle to advocate for what they actually want."
+          ) +
+          p(
+            'Understanding your Nine patterns is the first step toward growth. <a href="/free-enneagram-test">Take the free Enneagram test</a> to confirm your type and discover your growth direction.'
+          ),
+      },
+      {
+        heading: "Growth Direction — Toward Type 3",
+        html: p(
+          "When healthy, Nines grow toward the positive qualities of Type 3 — the Achiever. This means becoming more decisive, more energetic, and more focused on their own goals and accomplishments."
+        ) +
+          p(
+            "The growth direction to Type 3 is significant because it addresses the Nine's core challenge: losing themselves in others' priorities. When a Nine integrates toward 3, they stop simply going along with what others want and start identifying and pursuing their own objectives. They become more self-directed, more assertive, and more willing to be visible."
+        ) +
+          p("Practical growth practices for Nines moving toward 3:") +
+          ul([
+            "<strong>Name your own desire.</strong> Before agreeing to something, pause and ask: What do I actually want? If the answer is unclear, take time to figure it out before committing.",
+            "<strong>Set specific goals.</strong> Nines often drift because they have not defined what they are drifting toward. Write down three specific goals for the next month — not goals others have for you, but goals you genuinely want.",
+            "<strong>Practice being visible.</strong> Nines tend to make themselves small to maintain harmony. Practice speaking up first in meetings, sharing your opinion unprompted, and taking credit for your work.",
+            "<strong>Make decisions faster.</strong> Nines often delay decisions to avoid the conflict of choosing. Set time limits for decisions. A good decision now beats a perfect decision next week.",
+            "<strong>Distinguish harmony from avoidance.</strong> Real harmony comes from working through disagreement, not from suppressing it. Practice addressing small conflicts directly before they grow.",
+          ]) +
+          p(
+            'The key insight: growth for Nines is not about becoming aggressive or selfish. It is about recognizing that your needs and desires matter as much as everyone else\'s. For more on growth directions, see our guide to <a href="/blog/enneagram-growth-paths">Enneagram growth paths</a>.'
+          ),
+      },
+      {
+        heading: "Stress Direction — Toward Type 6",
+        html: p(
+          "Under prolonged stress, Nines move toward the negative qualities of Type 6 — the Loyalist. They become more anxious, more suspicious, and more paralyzed by indecision."
+        ) +
+          p(
+            "A stressed Nine does not typically look anxious in the obvious way a Type 6 might. Instead, the anxiety often goes underground. Nines under stress may:"
+          ) +
+          ul([
+            "<strong>Overthink everything.</strong> The natural Nine tendency to see all perspectives becomes analysis paralysis. Every option seems risky, so no decision gets made.",
+            "<strong>Become defensively suspicious.</strong> Normally trusting, Nines start questioning others' motives. They may assume people are taking advantage of their accommodating nature.",
+            "<strong>Seek reassurance compulsively.</strong> Nines under stress may over-consult others before making decisions, seeking safety in consensus rather than trusting their own judgment.",
+            "<strong>Procrastinate more intensely.</strong> Routine Nine procrastination becomes total avoidance. Tasks pile up, deadlines pass, and the Nine feels increasingly overwhelmed but cannot take action.",
+            "<strong>Num out more frequently.</strong> The already-present Nine tendency to distract and dissociate intensifies. Social media, television, unnecessary busywork, and comfort habits become escapes from the anxiety."
+          ]) +
+          p(
+            "The path out of this stress pattern is recognizing it early. If you notice yourself overthinking simple decisions, distrusting people you normally trust, or numbing out more than usual, these are signs you are moving toward Type 6 stress. The antidote is to reconnect with your own priorities — which is exactly what Type 3 integration offers."
+          ),
+      },
+      {
+        heading: "Type 9 at Work and in Relationships",
+        html: p(
+          "<strong>At work,</strong> Nines excel as mediators, team builders, and steady contributors. They see all sides of an issue, create consensus without forcing it, and provide a calm presence that steadies teams during uncertainty. The best managers who are Nines create environments where everyone feels heard."
+        ) +
+          p(
+            "The workplace challenge for Nines is self-advocacy. Nines often do excellent work without promoting it, accept projects they do not want rather than disappointing someone, and struggle to push back when their workload is unreasonable. Over time, this leads to burnout and resentment — the very feelings Nines try to avoid."
+          ) +
+          p(
+            "<strong>In relationships,</strong> Nines are warm, supportive, and genuinely interested in their partner's happiness. They are natural listeners, easy to be around, and rarely create unnecessary drama. They create emotional stability that partners deeply value."
+          ) +
+          p(
+            "The relationship challenge for Nines is staying connected to their own needs. Nines may merge with their partner's preferences so thoroughly that they lose track of what they enjoy, what they need, and what bothers them. Over time, this can lead to a sense of numb disconnection — not from the partner, but from themselves."
+          ) +
+          p(
+            "Growth for Nines in both contexts means learning that asserting your needs is not the same as creating conflict. Voicing your opinion is not aggression. Setting a boundary is not rejection. These distinctions are critical for Nines to internalize."
+          ) +
+          p(
+            'For more on how Enneagram types approach work, see our guide to <a href="/blog/enneagram-types-explained">Enneagram types explained</a> and <a href="/blog/enneagram-wings-explained">Enneagram wings explained</a>.'
+          ),
+      },
+      {
+        heading: "Practical Advice for Type 9 Growth",
+        html: p(
+          "Growth for Nines is about reclaiming your own voice and energy — not becoming someone else, but becoming a more fully expressed version of yourself."
+        ) +
+          strong([
+            { label: "Practice micro-assertiveness.", desc: "Start with small things: what restaurant to go to, what movie to watch, which tasks to prioritize. Each time you express a preference instead of deferring, you strengthen the muscle of self-advocacy." },
+            { label: "Track what you actually want.", desc: "Keep a daily list: one thing you wanted but did not voice. Over time, patterns will emerge that reveal your priorities — priorities you may not have realized you had." },
+            { label: "Exercise your decisiveness muscle.", desc: "Set a 60-second timer for small decisions. Do not overthink. The goal is to practice choosing, not to make perfect choices. You can always adjust later." },
+            { label: "Address conflict early.", desc: "Nines tend to let small irritations build until they become unavoidable problems. Practice raising concerns when they are small. A five-minute conversation now prevents a five-hour argument later." },
+            { label: "Combine frameworks for self-understanding.", desc: "Your Enneagram tells you why you avoid conflict (core fear of disconnection). Your DISC tells you how you behave when冲突 arises (likely high S — patient and accommodating). Your Strengths reveal what you naturally bring to the table. Together, they give you a complete picture of your negotiation, communication, and growth profile." },
+          ]) +
+          p(
+            'For personalized growth coaching based on your Enneagram type, see our guide to <a href="/blog/enneagram-growth-coaching">Enneagram growth coaching</a>.'
+          ),
+      },
+    ],
+    faqs: [
+      {
+        question: "What is Enneagram Type 9?",
+        answer:
+          "Type 9, the Peacemaker, is driven by a need for inner and outer harmony. Nines are warm, accepting, steady, and naturally see multiple perspectives. Their core fear is conflict and loss of connection. Growth direction is toward Type 3 (decisive action and self-focus). Stress direction is toward Type 6 (anxiety and indecision).",
+      },
+      {
+        question: "How do I know if I am an Enneagram Type 9?",
+        answer:
+          "Take the free Enneagram test on 1Test. It takes about 8-12 minutes, and you receive your type, wing tendencies, growth direction, and stress direction — all free with no paywall. You can also look for these patterns: you often go along with others to avoid conflict, you sometimes lose track of your own opinions, and you feel most yourself when things are peaceful and stable.",
+      },
+      {
+        question: "What is the growth direction for Type 9?",
+        answer:
+          "Type 9 grows toward Type 3. When healthy, Nines develop decisiveness, self-direction, and the ability to pursue their own goals with energy and focus. The key practice is learning to name and pursue your own desires rather than automatically merging with others' priorities.",
+      },
+      {
+        question: "What is the stress direction for Type 9?",
+        answer:
+          "Under stress, Type 9 moves toward Type 6. They become more anxious, suspicious, and paralyzed by indecision. Nines under stress tend to overthink, seek excessive reassurance, procrastinate more intensely, and numb out through distraction or comfort habits.",
+      },
+      {
+        question: "Is Type 9 compatible with other Enneagram types?",
+        answer:
+          "Any two types can have a healthy relationship. Nines often connect well with Types 1 and 8 because these types help the Nine find direction and assertiveness. Nines may clash with Types that demand constant intensity or rapid change. The key is self-awareness — understanding your patterns helps you navigate any relationship more effectively.",
+      },
+    ],
+    ctaHeading: "Ready to discover your Enneagram type?",
+    ctaSubtext: "8-12 minutes, complete results, no paywall.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Enneagram types explained", url: "/blog/enneagram-types-explained" },
+      { label: "Enneagram growth paths", url: "/blog/enneagram-growth-paths" },
+      { label: "Enneagram wings explained", url: "/blog/enneagram-wings-explained" },
+      { label: "Enneagram growth coaching", url: "/blog/enneagram-growth-coaching" },
+    ],
+    datePublished: "2026-04-16",
+  },
+
+  "disc-type-s-steadiness": {
+    slug: "disc-type-s-steadiness",
+    metaTitle: "DISC Type S (Steadiness) — Traits, Strengths, Blind Spots, and Growth",
+    metaDesc:
+      "Deep dive into DISC S (Steadiness) type: traits, communication style, strengths, blind spots, working with S types, and growth areas. Free DISC test included.",
+    canonicalUrl: "https://1test.me/blog/disc-type-s-steadiness",
+    h1: "DISC Type S (Steadiness): Complete Guide to Traits, Strengths, and Growth",
+    sections: [
+      {
+        heading: "What DISC S Means",
+        html: p(
+          "The S in DISC stands for Steadiness. People with high S scores are patient, reliable, team-oriented, and consistent. They prioritize stability, harmony, and steady progress over speed, excitement, or competition."
+        ) +
+          p(
+            "High S individuals are the anchors of their teams and relationships. They follow through on commitments, listen carefully before responding, and create environments where others feel safe and supported. They are the people you count on to remember details, meet deadlines, and keep projects on track without drama."
+        ) +
+          p("Key traits of the S type:") +
+          ul([
+            "<strong>Patient:</strong> S types do not rush. They prefer a steady, deliberate pace and give others time to process and contribute.",
+            "<strong>Reliable:</strong> When an S type commits to something, they follow through. Consistency is one of their hallmark strengths.",
+            "<strong>Team-oriented:</strong> S types prioritize the group over individual recognition. They are genuinely invested in how decisions affect other people.",
+            "<strong>Consistent:</strong> S types value routine and predictability. They perform at their best in stable environments with clear expectations.",
+          ]) +
+          p(
+            "Most people with a high S score also have a secondary style — often I (Influence) or C (Conscientiousness). An S/I blend is warm, supportive, and people-focused. An S/C blend is thorough, careful, and quality-focused. <a href=\"/free-disc-test\">Take the free DISC test</a> to discover your blend."
+          ),
+      },
+      {
+        heading: "Communication Style and Strengths",
+        html: p(
+          "<strong>S type communication style:</strong> Warm, measured, and thoughtful. High S communicators prefer written or one-on-one communication over large group settings. They listen before they speak, ask clarifying questions, and make sure everyone feels heard."
+        ) +
+          p("The core strengths of S types in professional and personal contexts:") +
+          ul([
+            "<strong>Loyalty:</strong> S types build deep, long-term relationships. They are the colleagues who stay on the team for years and the friends who show up consistently. Research on workplace loyalty consistently identifies steady, relationship-focused employees as the most likely to stay with an organization.",
+            "<strong>Supportiveness:</strong> S types naturally support others. They share credit, offer help unprompted, and notice when someone is struggling. This makes them excellent teammates and managers of people.",
+            "<strong>Listening:</strong> S types are naturally strong listeners. They hear what people say and what they mean. This makes them effective mediators, coaches, and advisors.",
+            "<strong>Process orientation:</strong> S types follow processes reliably. They do not skip steps, they document what works, and they maintain systems that keep teams functioning smoothly.",
+            "<strong>Conflict resolution:</strong> S types dislike conflict, but they are skilled at de-escalating it. They naturally seek common ground and create solutions that account for everyone's needs.",
+          ]) +
+          p(
+            "These strengths make S types invaluable in roles that require consistency, teamwork, and long-term relationship building — project management, coaching, human resources, healthcare, education, and operations."
+          ) +
+          p(
+            'For more on S type communication strategies, see our guide to <a href="/blog/disc-communication-styles">DISC communication styles</a>.'
+          ),
+      },
+      {
+        heading: "Blind Spots and Growth Areas",
+        html: p(
+          "Every strength has a shadow side. The S type's strengths of patience, loyalty, and supportiveness become blind spots when they are overused or applied in situations that require a different approach."
+        ) +
+          p("<strong>Common blind spots for S types:</strong>") +
+          ul([
+            "<strong>Conflict avoidance:</strong> S types tend to suppress their own needs and opinions to maintain harmony. This leads to unspoken resentment, missed opportunities, and decisions that do not reflect their input. Growth practice: state one opinion in every meeting, even if it is small.",
+            "<strong>Slow to change:</strong> S types prefer what is familiar and predictable. When the environment shifts rapidly, they may resist or delay adapting — not because they cannot, but because they need more context and time to feel comfortable. Growth practice: voluntarily try one new approach each week.",
+            "<strong>Over-accommodation:</strong> S types often say yes to requests that overload their capacity. They do not want to disappoint others, so they take on more than they can sustain. Growth practice: say no to one request this week that does not align with your priorities.",
+            "<strong>Difficulty advocating for themselves:</strong> S types are excellent advocates for others but struggle to advocate for their own needs, promotions, boundaries, and recognition. Growth practice: prepare and deliver one self-advocacy statement this week — for example, stating a specific contribution you made in a project review.",
+            "<strong>Passive decision-making:</strong> S types may wait for someone else to decide or default to the group's preference rather than asserting their own. Over time, this erodes their influence and satisfaction. Growth practice: make three small decisions today without consulting anyone first.",
+          ]) +
+          p(
+            "The goal is not to eliminate these tendencies — it is to recognize when they are holding you back and consciously choose a different approach."
+          ),
+      },
+      {
+        heading: "Working With and Managing S Types",
+        html: p(
+          "If you work with or manage someone who has a high S style, here is how to bring out their best:"
+        ) +
+          p("<strong>Give context before action.</strong> S types perform best when they understand why something is happening. Do not just assign a task — explain the reasoning behind it.") +
+          p("<strong>Be patient with pace.</strong> S types process thoroughly. Give them time to think, prepare, and contribute rather than demanding instant responses.") +
+          p("<strong>Show the impact on people.</strong> S types care deeply about how decisions affect others. Frame goals and changes in terms of human impact, not just metrics.") +
+          p("<strong>Provide stability.</strong> S types thrive when they know what to expect. Minimize unnecessary changes, and when change is required, explain what stays the same.") +
+          p("<strong>Ask for their opinion directly.</strong> S types often have valuable insights they will not volunteer unprompted. Create space for their input by asking directly: What do you think we should do here?") +
+          p("<strong>Recognize their contributions.</strong> S types rarely promote their own work. As a manager, make sure to acknowledge and credit their contributions publicly.") +
+          p(
+            'For strategies on managing all DISC styles, see our guide to <a href="/blog/disc-management-style">DISC management style</a>.'
+          ),
+      },
+      {
+        heading: "Growth and the Full Picture",
+        html: p(
+          "The most effective S types do not try to become D types. They develop flexibility — the ability to shift into a more assertive, direct, or fast-paced mode when the situation requires it, without losing their natural steadiness."
+        ) +
+          p("Specific growth strategies for S types:") +
+          ol([
+            "<strong>Practice initiating.</strong> Start conversations, propose ideas, and make decisions before being asked. You do not need to change your personality — you need to expand your range.",
+            "<strong>Build assertiveness gradually.</strong> Start with small assertions: what you want for lunch, which movie to watch, which task to tackle first. Each small act of self-advocacy builds the muscle for bigger moments.",
+            "<strong>Set a decision timer.</strong> For decisions that do not require extensive analysis, set a five-minute timer and commit to your choice when it goes off. This prevents the S type tendency to over-deliberate.",
+            "<strong>Create change voluntarily.</strong> Regularly introduce small changes into your routine — a new route to work, a different meeting format, a new tool. This builds your comfort with change so you are prepared when larger changes happen.",
+            "<strong>Track your own priorities.</strong> S types often lose sight of what matters to them because they are focused on what matters to others. Keep a running list of your priorities and review it weekly.",
+          ]) +
+          p(
+            "Your S style is a significant strength. The goal is not to stop being steady — it is to add flexibility to your steadiness so you can navigate a wider range of situations effectively."
+          ) +
+          p(
+            'For a complete picture of how your DISC style connects to your broader personality, combine it with your <a href="/blog/disc-personality-types-explained">full DISC profile</a>, <a href="/blog/disc-work-style">work style</a>, and other frameworks. Take the <a href="/free-disc-test">free DISC test</a> to discover your complete profile.'
+          ),
+      },
+    ],
+    faqs: [
+      {
+        question: "What is DISC type S (Steadiness)?",
+        answer:
+          "DISC type S, or Steadiness, describes people who are patient, reliable, team-oriented, and consistent. They prioritize stability and harmony, prefer a measured pace, and excel at follow-through, listening, and creating supportive environments. Most people have a blend of styles, with S being one component of their profile.",
+      },
+      {
+        question: "How do I know if I am a high S?",
+        answer:
+          "Take the free DISC test on 1Test. It takes about 5-8 minutes, and you receive your scores across all four dimensions — Dominance, Influence, Steadiness, and Conscientiousness — plus your primary style and practical tips. No paywall.",
+      },
+      {
+        question: "Is DISC type S good for leadership?",
+        answer:
+          "S types make effective leaders in stable, people-oriented environments. They excel at building trust, developing team members, and creating consistent processes. The most effective S leaders also develop the ability to make decisive calls and address conflict directly when needed.",
+      },
+      {
+        question: "What are the blind spots of DISC type S?",
+        answer:
+          "Common blind spots include conflict avoidance, slow adaptation to change, over-accommodation (saying yes when they should say no), difficulty advocating for themselves, and passive decision-making. These are not weaknesses — they are growth areas that become manageable with awareness and practice.",
+      },
+      {
+        question: "How should I communicate with an S type?",
+        answer:
+          "Give context before action, be patient with their pace, show the impact on people, provide stability and consistency, and ask for their opinion directly — they often have valuable insights they will not volunteer unprompted. S types respond best to warm, genuine, and unhurried communication.",
+      },
+    ],
+    ctaHeading: "Ready to find your DISC style?",
+    ctaSubtext: "5-8 minutes, full results, no paywall.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "DISC personality types explained", url: "/blog/disc-personality-types-explained" },
+      { label: "DISC communication styles", url: "/blog/disc-communication-styles" },
+      { label: "DISC management style", url: "/blog/disc-management-style" },
+      { label: "DISC work style", url: "/blog/disc-work-style" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {
