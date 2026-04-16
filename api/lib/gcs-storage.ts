@@ -29,8 +29,9 @@ export function getPrivateKey(): string | undefined {
 
 function getStorage(): Storage {
   if (!storageInstance) {
-    const projectId = process.env.GCS_PROJECT_ID;
-    const clientEmail = process.env.GCS_CLIENT_EMAIL;
+    const projectId = (process.env.GCS_PROJECT_ID || "").trim();
+    const clientEmail = (process.env.GCS_CLIENT_EMAIL || "").trim();
+    const bucketName = (process.env.GCS_BUCKET_NAME || "").trim();
     const privateKey = getPrivateKey();
 
     if (!projectId || !clientEmail || !privateKey) {
@@ -50,7 +51,7 @@ function getStorage(): Storage {
 
 export function getBucket() {
   if (!bucketInstance) {
-    const bucketName = process.env.GCS_BUCKET_NAME;
+    const bucketName = (process.env.GCS_BUCKET_NAME || "").trim();
     if (!bucketName) throw new Error("GCS_BUCKET_NAME must be set");
     bucketInstance = getStorage().bucket(bucketName);
   }
