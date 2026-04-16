@@ -385,6 +385,27 @@ const BLOG_FAQS = {
     { question: "Should teams know their manager's DISC style?", answer: "Yes. It helps them interpret behavior correctly and prevents misunderstanding." },
     { question: "How do I manage a team with mixed DISC styles?", answer: "Set clear team goals, then adapt communication per individual. In meetings: quick updates for D, discussion for I, processing for S, data for C." },
   ],
+  "/blog/enneagram-in-workplace": [
+    { question: "Is the Enneagram appropriate for workplace use?", answer: "Yes, when used for team development, communication, and self-awareness. Many Fortune 500 companies use it in leadership development. It should not be used for hiring or performance reviews." },
+    { question: "How do I introduce the Enneagram to my team?", answer: "Start with a voluntary workshop. Everyone takes the test beforehand, then discuss results. Frame it as understanding how each person works best." },
+    { question: "Which Enneagram types make the best managers?", answer: "No type is inherently better. Type 8 excels in crisis, Type 2 at development, Type 5 at strategy, Type 3 at results. The best managers know their type and adapt." },
+    { question: "How does the Enneagram compare to DISC?", answer: "DISC is better for observable behavior and communication. The Enneagram is better for deep motivation and stress patterns. Use both." },
+    { question: "Can the Enneagram help with retention?", answer: "Indirectly, yes. When employees feel understood and managed in alignment with their motivation, they are more engaged and likely to stay." },
+  ],
+  "/blog/personality-test-for-managers": [
+    { question: "Do I need to be a certain personality type to manage well?", answer: "No. Effective managers come from every type. The common factor is self-awareness and adaptability." },
+    { question: "Which test should managers take first?", answer: "DISC is the best starting point because it describes communication and behavioral style directly. Pair it with Enneagram for motivation." },
+    { question: "How do I manage someone very different from me?", answer: "Understand their type first, then adjust communication to match their style. It is not about changing who you are — it is adding tools to your toolkit." },
+    { question: "Can personality tests help with performance management?", answer: "Indirectly. Understanding personality helps deliver feedback the way each person receives it best. Content stays the same — delivery adapts." },
+    { question: "Should I share my results with my team?", answer: "Yes. Sharing builds trust and models vulnerability." },
+  ],
+  "/blog/16-personalities-relationships": [
+    { question: "Which personality types are most compatible?", answer: "No type pair is inherently more compatible. Success depends on self-awareness, communication skills, and mutual effort." },
+    { question: "Can 16 Personalities predict relationship success?", answer: "No. It describes patterns that affect relationships but does not determine outcomes. Emotional maturity, shared values, and communication matter more." },
+    { question: "What if we have opposite types?", answer: "Opposite types can be highly complementary when both respect differences. Avoid 'my way is the right way.' Both approaches are valid." },
+    { question: "Should we take the test together?", answer: "Yes. Take it independently then compare. Focus on: What do you need from me that does not come naturally?" },
+    { question: "How does personality affect friendships vs. romantic relationships?", answer: "Same patterns, but romantic relationships amplify differences because they involve more shared decisions about time, money, and planning." },
+  ],
 };
 
 const SEO_DATA = {
@@ -680,6 +701,27 @@ const SEO_DATA = {
     description:
       "Learn how your DISC style affects your management approach. Practical guide for managers to adapt their leadership to each team member's DISC personality type.",
     canonicalUrl: "https://1test.me/blog/disc-management-style",
+    ogType: "article",
+  },
+  "/blog/enneagram-in-workplace": {
+    title: "Enneagram in the Workplace: A Practical Guide for Teams and Managers",
+    description:
+      "Learn how to use the Enneagram in the workplace to improve team dynamics, management, and communication. Practical applications for each of the nine types.",
+    canonicalUrl: "https://1test.me/blog/enneagram-in-workplace",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-managers": {
+    title: "Personality Test for Managers: How to Lead Based on Who You Are",
+    description:
+      "Discover how personality tests help managers lead more effectively. Practical guide covering DISC, Enneagram, 16 Personalities, and Strengths for management development.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-managers",
+    ogType: "article",
+  },
+  "/blog/16-personalities-relationships": {
+    title: "16 Personalities and Relationships: How Types Interact and Connect",
+    description:
+      "Explore how the 16 personality types interact in relationships. Understand compatibility patterns, communication differences, and how to bridge type gaps.",
+    canonicalUrl: "https://1test.me/blog/16-personalities-relationships",
     ogType: "article",
   },
 };
@@ -1044,6 +1086,31 @@ const BODY_CONTENT = {
       { heading: "Management Styles by Type", text: "D-Style: direct, results-oriented — may overwhelm quieter members. I-Style: enthusiastic, collaborative — may avoid difficult feedback. S-Style: patient, supportive — may avoid necessary conflict. C-Style: analytical, thorough — may micromanage." },
       { heading: "Managing Each Type", text: "High D: give ownership of outcomes, be direct. High I: recognize publicly, give variety. High S: give time to adjust, clear expectations. High C: provide reasoning, give time to analyze." },
       { heading: "Common Friction Pairs", text: "D Manager + S Employee: speed vs stability. I Manager + C Employee: enthusiasm vs data. S Manager + D Employee: consensus vs action. Each pair needs specific mutual adjustments." },
+    ],
+  },
+  "/blog/enneagram-in-workplace": {
+    h1: "Enneagram in the Workplace: A Practical Guide for Teams and Managers",
+    sections: [
+      { heading: "Why the Enneagram Belongs at Work", text: "The Enneagram reveals motivation — the why behind behavior. It explains whether someone avoids conflict because they fear disconnection (Type 2), loss of stability (Type 6), or disrupting peace (Type 9). That why changes management approach." },
+      { heading: "The Nine Types at Work", text: "Type 1: detail-oriented, integrity-driven. Type 2: supportive, relational. Type 3: goal-oriented, efficient. Type 4: creative, meaning-driven. Type 5: analytical, knowledge-driven. Type 6: responsible, risk-aware. Type 7: energetic, idea-generating. Type 8: decisive, protective. Type 9: patient, harmonizing. Each has specific strengths and stress patterns managers must understand." },
+      { heading: "Team Applications", text: "Diverse types create natural balance. Conflict resolution starts with naming motivational differences. One-on-ones should explore motivation, energy drains, and working style preferences." },
+      { heading: "Limitations", text: "Cannot predict job performance. Should not be used for hiring. Not a substitute for fixing structural problems. Should not label or limit people." },
+    ],
+  },
+  "/blog/personality-test-for-managers": {
+    h1: "Personality Test for Managers: How to Lead Based on Who You Are",
+    sections: [
+      { heading: "DISC Management Style", text: "High D: set goals, expect results — slow down for others. High I: lead with relationships — create structure and have hard conversations. High S: lead with patience — make faster decisions and advocate upward. High C: lead with clarity — give positive feedback unrelated to deliverables." },
+      { heading: "Enneagram Management Motivation", text: "Type 1 manages to improve (stress: critical). Type 3 manages to achieve (stress: image-focused). Type 8 manages to protect (stress: controlling). Type 9 manages for harmony (stress: passive). Knowing your stress pattern is the first step to managing it." },
+      { heading: "Development Plan", text: "Month 1: Take all four assessments, share with team. Month 2: Pick one high-impact adjustment, practice daily. Month 3: Get feedback, adjust based on what you hear." },
+    ],
+  },
+  "/blog/16-personalities-relationships": {
+    h1: "16 Personalities and Relationships: How Types Interact and Connect",
+    sections: [
+      { heading: "Four Dimensions in Relationships", text: "Introversion vs Extroversion: recharge differences. Sensing vs Intuition: facts vs meaning. Thinking vs Feeling: logic vs values (most common friction). Judging vs Perceiving: plans vs flexibility. Each has specific resolution strategies." },
+      { heading: "Compatibility Patterns", text: "Same type: deep understanding, shared blind spots. Complementary: natural balance, more communication needed. Opposite: maximum diversity, highest effort. No pattern guarantees success." },
+      { heading: "Practical Strategies", text: "Thinking + Feeling: validate before solving, signal readiness for logic. Judging + Perceiving: question real deadlines, honor them. Introvert + Extrovert: communicate recharge needs early." },
     ],
   },
 };

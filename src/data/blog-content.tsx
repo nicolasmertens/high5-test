@@ -5732,6 +5732,196 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-16",
   },
+  "enneagram-in-workplace": {
+    slug: "enneagram-in-workplace",
+    metaTitle: "Enneagram in the Workplace: A Practical Guide for Teams and Managers",
+    metaDesc:
+      "Learn how to use the Enneagram in the workplace to improve team dynamics, management, and communication. Practical applications for each of the nine types at work.",
+    canonicalUrl: "https://1test.me/blog/enneagram-in-workplace",
+    h1: "Enneagram in the Workplace: A Practical Guide for Teams and Managers",
+    sections: [
+      {
+        heading: "Why the Enneagram Belongs in the Workplace",
+        html: p("The Enneagram reveals motivation — the \"why\" behind how people act. When a team member avoids conflict, DISC tells you they might be an S style. The Enneagram tells you whether they fear disconnection (Type 2), loss of stability (Type 6), or disrupting peace (Type 9). That \"why\" changes how you manage them.") +
+          p('<a href="/free-enneagram-test">Take the free Enneagram test</a> to discover your workplace type.'),
+      },
+      {
+        heading: "The Nine Types at Work",
+        html: p("<strong>Type 1 (Reformer):</strong> Detail-oriented, driven by standards. Strength: accuracy and integrity. Stress: critical and rigid. Manage with: clear quality standards and autonomy.") +
+          p("<strong>Type 2 (Helper):</strong> Supportive, relational. Strength: empathy and relationship building. Stress: people-pleasing, neglects own needs. Manage with: explicit recognition and boundary support.") +
+          p("<strong>Type 3 (Achiever):</strong> Goal-oriented, efficient. Strength: productivity and persuasion. Stress: image-focused, cuts corners. Manage with: clear goals, public recognition, permission to be authentic.") +
+          p("<strong>Type 4 (Individualist):</strong> Creative, emotionally aware. Strength: originality and depth. Stress: moody, withdrawn. Manage with: creative freedom within structure.") +
+          p("<strong>Type 5 (Investigator):</strong> Analytical, independent. Strength: expertise and systematic thinking. Stress: detached, hoards information. Manage with: time and space to think.") +
+          p("<strong>Type 6 (Loyalist):</strong> Responsible, risk-aware. Strength: preparedness and loyalty. Stress: anxious, indecisive. Manage with: clear expectations and consistency.") +
+          p("<strong>Type 7 (Enthusiast):</strong> Energetic, optimistic. Strength: vision and versatility. Stress: scattered, impulsive. Manage with: clear project scope, help finishing.") +
+          p("<strong>Type 8 (Challenger):</strong> Decisive, protective. Strength: strength and crisis management. Stress: confrontational, controlling. Manage with: candor and ownership of problems.") +
+          p("<strong>Type 9 (Peacemaker):</strong> Patient, inclusive. Strength: consensus building and harmony. Stress: passive, conflict-avoidant. Manage with: direct questions and explicit space for their voice."),
+      },
+      {
+        heading: "Team Applications",
+        html: p("<strong>Team composition:</strong> Diverse Enneagram types create natural balance — Type 3 drives results, Type 6 manages risk, Type 7 generates ideas, Type 1 ensures quality, Type 9 maintains harmony.") +
+          p("<strong>Conflict resolution:</strong> Most conflicts stem from motivational differences. Name the difference: \"You want to move fast and I want to cover risks. How do we do both?\"") +
+          p("<strong>One-on-ones:</strong> Ask: What motivates you most? What drains your energy? What would you change about how we work together?"),
+      },
+      {
+        heading: "What the Enneagram Cannot Do at Work",
+        html: ul([
+          "It cannot predict job performance — type does not determine competence",
+          "It should not be used for hiring decisions — this is unethical and may be illegal",
+          "It is not a substitute for fixing structural workplace problems",
+          "It should not be used to label or limit people",
+        ]),
+      },
+    ],
+    faqs: [
+      { question: "Is the Enneagram appropriate for workplace use?", answer: "Yes, when used for team development, communication, and self-awareness. Many Fortune 500 companies use it in leadership development. It should not be used for hiring or performance reviews." },
+      { question: "How do I introduce the Enneagram to my team?", answer: "Start with a voluntary workshop. Everyone takes the test beforehand, then discuss results. Frame it as understanding how each person works best, not putting people in boxes." },
+      { question: "Which Enneagram types make the best managers?", answer: "No type is inherently better. Type 8 excels in crisis. Type 2 excels at development. Type 5 excels at strategy. Type 3 excels at results. The best managers know their type and adapt." },
+      { question: "How does the Enneagram compare to DISC for workplace use?", answer: "DISC is better for observable behavior and communication. The Enneagram is better for deep motivation and stress patterns. Use both — DISC for everyday communication, Enneagram for development." },
+      { question: "Can the Enneagram help with employee retention?", answer: "Indirectly, yes. When employees feel understood and managed in ways aligned with their motivation, they are more engaged and more likely to stay." },
+    ],
+    ctaHeading: "Discover your workplace Enneagram type",
+    ctaSubtext: "Free Enneagram assessment with complete results.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "Enneagram types explained", url: "/blog/enneagram-types-explained" },
+      { label: "Personality test for managers", url: "/blog/personality-test-for-managers" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "personality-test-for-managers": {
+    slug: "personality-test-for-managers",
+    metaTitle: "Personality Test for Managers: How to Lead Based on Who You Are",
+    metaDesc:
+      "Discover how personality tests help managers lead more effectively. Practical guide covering DISC, Enneagram, 16 Personalities, and Strengths for management development.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-managers",
+    h1: "Personality Test for Managers: How to Lead Based on Who You Are",
+    sections: [
+      {
+        heading: "Why Managers Need Personality Tests",
+        html: p("Most management training teaches skills — delegation, feedback, planning. The harder part is self-awareness: understanding your defaults, blind spots, and how your style affects each person differently. Personality tests give managers a structured way to understand themselves and adapt.") +
+          p('<a href="/free-personality-test">Take the free personality test</a> — all four frameworks at once.'),
+      },
+      {
+        heading: "DISC: Your Management Communication Style",
+        html: p("<strong>High D managers</strong> set clear goals and expect results. Adjust: slow down for S-style employees, bring data for C-style, ask before telling.") +
+          p("<strong>High I managers</strong> lead through relationships and enthusiasm. Adjust: create structure, have difficult conversations, write down decisions.") +
+          p("<strong>High S managers</strong> lead through patience and consistency. Adjust: make unpopular decisions faster, advocate upward, address underperformance early.") +
+          p("<strong>High C managers</strong> lead through clarity and quality. Adjust: give positive feedback unrelated to deliverables, accept speed over perfection, communicate the why.") +
+          p('<a href="/free-disc-test">Take the free DISC test</a> to discover your management style.'),
+      },
+      {
+        heading: "Enneagram: Your Management Motivation",
+        html: p("The Enneagram reveals why you manage the way you do:") +
+          ul([
+            "<strong>Type 1:</strong> Manages to improve. Stress: becomes critical. Team feels nothing is ever good enough.",
+            "<strong>Type 2:</strong> Manages to support. Stress: becomes intrusive, resentful.",
+            "<strong>Type 3:</strong> Manages to achieve. Stress: becomes image-focused, sacrifices team well-being.",
+            "<strong>Type 6:</strong> Manages for safety. Stress: becomes anxious, micromanages.",
+            "<strong>Type 8:</strong> Manages to protect and drive. Stress: becomes controlling.",
+            "<strong>Type 9:</strong> Manages for harmony. Stress: becomes passive, fails to address problems.",
+          ]) +
+          p('<a href="/free-enneagram-test">Take the free Enneagram test</a> to understand your management motivation.'),
+      },
+      {
+        heading: "16 Personalities: Your Decision-Making Style",
+        html: p("<strong>Thinking managers</strong> decide based on logic. Growth: ask \"how will this affect people?\" <strong>Feeling managers</strong> decide based on values. Growth: ask \"what does the evidence say?\"") +
+          p("<strong>Judging managers</strong> prefer structure. Growth: build flexibility. <strong>Perceiving managers</strong> prefer adaptability. Growth: set external deadlines.") +
+          p('<a href="/free-16-personalities-test">Take the free 16 Personalities test</a> to map your decision-making.'),
+      },
+      {
+        heading: "Strengths: Your Management Advantage",
+        html: ol([
+          "Identify your top 5 strengths — these are your management superpowers.",
+          "Design your role around them. Delegate your non-strengths.",
+          "Watch for overuse — under stress, strengths become liabilities.",
+        ]) +
+          p('<a href="/free-strengths-test">Take the free Strengths test</a> to find your management superpowers.'),
+      },
+      {
+        heading: "A Manager's Personality Development Plan",
+        html: p("<strong>Month 1: Self-Discovery.</strong> Take all four assessments. Share with your team. Ask: Does this match how you experience me?") +
+          p("<strong>Month 2: One Adjustment.</strong> Pick the highest-impact change. Practice daily for 30 days. Tell your team what you are working on.") +
+          p("<strong>Month 3: Feedback Loop.</strong> Ask each person: What has changed? What still needs to change? Adjust based on what you hear."),
+      },
+    ],
+    faqs: [
+      { question: "Do I need to be a certain personality type to be a good manager?", answer: "No. Effective managers come from every type. The common factor is self-awareness and adaptability — knowing your defaults and adjusting to the people you lead." },
+      { question: "Which personality test should managers take first?", answer: "DISC is the best starting point because it directly describes communication and behavioral style. Pair it with Enneagram for deeper motivation insights." },
+      { question: "How do I manage someone with a very different personality?", answer: "Understand their type first. Then adjust communication to match their style. This is not about changing who you are — it is adding tools to your management toolkit." },
+      { question: "Can personality tests help with performance management?", answer: "Indirectly. Understanding personality helps you deliver feedback in the way each person receives it best. The content stays the same — the delivery adapts to the receiver." },
+      { question: "Should I share my personality results with my team?", answer: "Yes. Sharing builds trust and models vulnerability. Tell your team: Here is my style, what I am working on, and how you can help me be a better manager." },
+    ],
+    ctaHeading: "Discover your management personality",
+    ctaSubtext: "Four frameworks, complete results, free assessment.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "DISC management style", url: "/blog/disc-management-style" },
+      { label: "Personality test for leadership", url: "/blog/personality-test-for-leadership" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "16-personalities-relationships": {
+    slug: "16-personalities-relationships",
+    metaTitle: "16 Personalities and Relationships: How Types Interact and Connect",
+    metaDesc:
+      "Explore how the 16 personality types interact in relationships. Understand compatibility patterns, communication differences, and how to bridge type gaps.",
+    canonicalUrl: "https://1test.me/blog/16-personalities-relationships",
+    h1: "16 Personalities and Relationships: How Types Interact and Connect",
+    sections: [
+      {
+        heading: "How Personality Types Affect Relationships",
+        html: p("The 16 Personalities framework does not predict relationship success. But it explains why certain patterns repeat — why you argue about the same things, why some friendships feel effortless, why some colleagues energize you.") +
+          p('<a href="/free-16-personalities-test">Take the free 16 Personalities test</a> if you do not know your type.'),
+      },
+      {
+        heading: "The Four Dimensions in Relationships",
+        html: p("<strong>Introversion vs. Extroversion:</strong> Introverts recharge alone. Extroverts recharge with people. Resolution: schedule both social and alone time in advance.") +
+          p("<strong>Sensing vs. Intuition:</strong> Sensing types focus on facts. Intuitive types focus on meaning. Resolution: do both — facts first, then meaning.") +
+          p("<strong>Thinking vs. Feeling:</strong> The most common relationship friction. Thinking partners analyze. Feeling partners need validation first. Resolution: ask \"Do you want me to listen or help solve this?\"") +
+          p("<strong>Judging vs. Perceiving:</strong> Judging types want plans. Perceiving types want flexibility. Resolution: create \"planned spontaneity\" — block time without specifying the activity."),
+      },
+      {
+        heading: "Compatibility Patterns",
+        html: p("<strong>Same type:</strong> Deep understanding, shared blind spots. <strong>Complementary types:</strong> Natural balance, more communication needed. <strong>Opposite types:</strong> Maximum diversity, highest communication effort.") +
+          p("No pattern guarantees success. All require self-awareness and effort."),
+      },
+      {
+        heading: "Practical Strategies by Common Pair",
+        html: p("<strong>Thinking + Feeling:</strong> Thinking partner validates emotion before offering solutions. Feeling partner signals readiness for logical input: \"Now I would like your perspective.\"") +
+          p("<strong>Judging + Perceiving:</strong> Judging partner asks \"Does this need to be decided today?\" Perceiving partner honors real deadlines.") +
+          p("<strong>Introvert + Extrovert:</strong> Introvert communicates recharge needs before exhaustion. Extrovert gives space and trusts the return."),
+      },
+      {
+        heading: "Combining Frameworks for Relationship Insight",
+        html: p('<a href="/free-disc-test">DISC</a> adds behavioral communication style. <a href="/free-enneagram-test">The Enneagram</a> adds core motivation. <a href="/free-strengths-test">Strengths</a> adds natural talent. Combine all four for the most complete relationship picture.'),
+      },
+    ],
+    faqs: [
+      { question: "Which personality types are most compatible?", answer: "No type pair is inherently more compatible. Success depends on self-awareness, communication skills, and mutual effort. Two mature people of any type can build a strong relationship." },
+      { question: "Can 16 Personalities predict relationship success?", answer: "No. It describes communication and processing patterns that affect relationships, but does not determine outcomes. Emotional maturity, shared values, and communication skills matter more." },
+      { question: "What if my partner and I have opposite types?", answer: "Opposite types can be highly complementary when both people respect their differences. The key is avoiding 'my way is the right way.' Both approaches are valid." },
+      { question: "Should we take the personality test together?", answer: "Yes. Take it independently then compare results. Focus on: 'What do you need from me that does not come naturally?' The answers are usually more useful than type descriptions." },
+      { question: "How does personality affect friendships vs. romantic relationships?", answer: "Same patterns apply, but romantic relationships amplify differences because they involve more shared decisions about time, money, and planning. Friendships have more flexibility." },
+    ],
+    ctaHeading: "Discover your personality type for relationships",
+    ctaSubtext: "Free 16 Personalities test with complete results.",
+    ctaFramework: "all",
+    ctaUrl: "/free-16-personalities-test",
+    crossLinks: [
+      { label: "Free 16 Personalities test", url: "/free-16-personalities-test" },
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "Personality test for relationships", url: "/blog/personality-test-for-relationships" },
+      { label: "16 Personalities career guide", url: "/blog/16-personalities-career" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {
