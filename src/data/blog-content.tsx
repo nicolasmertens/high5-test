@@ -7103,6 +7103,194 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-16",
   },
+  "personality-test-for-conflict-resolution": {
+    slug: "personality-test-for-conflict-resolution",
+    metaTitle: "Personality Test for Conflict Resolution: Resolve Disagreements Faster",
+    metaDesc:
+      "Learn how personality tests help you resolve conflicts by understanding different communication styles, conflict triggers, and resolution strategies tailored to each personality type.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-conflict-resolution",
+    h1: "Personality Test for Conflict Resolution: Resolve Disagreements Faster",
+    sections: [
+      {
+        heading: "Why Most Conflicts Are Personality Conflicts",
+        html: p("Most interpersonal conflicts are not about substance — they are about style. Two people disagree on how to communicate, how fast to decide, how much risk to take, or how directly to address problems. When you both understand your personality styles, the conflict stops being personal and starts being structural.") +
+          p("Personality tests give you a vocabulary for differences. Instead of thinking your colleague is stubborn, you recognize they are high Conscientiousness on DISC and need more data before deciding. Instead of thinking your partner does not care, you recognize they express care differently based on their <a href=\"/free-enneagram-test\">Enneagram type</a>."),
+      },
+      {
+        heading: "How Each Framework Explains Conflict",
+        html: p("<strong><a href=\"/blog/disc-communication-styles\">DISC</a></strong> explains communication-based conflict. D types want quick decisions and direct language. I types want discussion and enthusiasm. S types want harmony and gradual change. C types want data and thoroughness. Most DISC conflicts come from pace and directness differences.") +
+          p("<strong><a href=\"/blog/understanding-16-personalities\">16 Personalities</a></strong> explains decision-based conflict. Thinking vs. Feeling is the most common friction point — one person prioritizes logic, the other prioritizes impact on people. Judging vs. Perceiving is the second — one wants closure, the other wants flexibility.") +
+          p("<strong><a href=\"/blog/enneagram-types-explained\">Enneagram</a></strong> explains motivation-based conflict. Type 8 needs control and may dominate. Type 9 needs peace and may withdraw. Type 1 needs correctness and may criticize. Type 3 needs achievement and may cut corners. Understanding these motivations transforms how you see conflict behavior.") +
+          p("<strong><a href=\"/free-strengths-test\">Strengths</a></strong> explains contribution-based conflict. When two people have opposing strengths — one analytical, one relational — they may disagree on what matters most. Neither is wrong; they prioritize differently."),
+      },
+      {
+        heading: "Conflict Resolution Strategies by Style",
+        html: p("<strong>Person with high Dominance (DISC):</strong> They want results fast. Do not take their directness personally. Come prepared with bottom-line options. Say: \"Here are two options with trade-offs. Which do you prefer?\"") +
+          p("<strong>Person with high Influence (DISC):</strong> They want to feel heard and maintain the relationship. Start with connection before jumping to solutions. Say: \"I value our relationship, and I want us to find something that works for both of us.\"") +
+          p("<strong>Person with high Steadiness (DISC):</strong> They want stability and dislike sudden change. Do not surprise them. Give time to process. Say: \"I know this is a change. Here is what stays the same, and here is what is different.\"") +
+          p("<strong>Person with high Conscientiousness (DISC):</strong> They want data and logical process. Do not appeal to emotions. Present evidence. Say: \"Here is the data, here is my analysis, and here is what I recommend based on it.\" <a href=\"/blog/disc-conflict-resolution\">See full DISC conflict resolution guide</a>."),
+      },
+      {
+        heading: "A Step-by-Step Conflict Resolution Process",
+        html: ol([
+          "<strong>Identify the personality dimension at play.</strong> Is this about communication pace? Decision-making style? Core motivation? Naming the dimension reduces blame.",
+          "<strong>Acknowledge both perspectives.</strong> Both styles have strengths. The D type's urgency is not wrong. The S type's caution is not wrong. Both are valid responses to different priorities.",
+          "<strong>Find the structural solution.</strong> Instead of changing the person, change the process. A J type and P type couple can use flexible deadlines with hard boundaries. A Thinking type and Feeling type team can use a decision matrix that includes both criteria.",
+          "<strong>Agree on a communication norm.</strong> For recurring conflicts, set a rule: the D type will give 24 hours notice before deadlines. The F type will share impact data proactively.",
+          "<strong>Follow up.</strong> Check in after one week. Did the solution work? Adjust if needed.",
+        ]),
+      },
+      {
+        heading: "When Conflict Goes Beyond Personality",
+        html: p("Personality differences explain most everyday conflict. But some conflicts stem from values misalignment, power imbalances, or harmful behavior — not personality. If a conflict involves harassment, dishonesty, or fundamentally different values, personality frameworks will not resolve it. Seek mediation or professional support.") +
+          p("For the conflicts that are about style — which is most of them — understanding personality transforms disagreements from personal attacks into structural differences. <a href=\"/free-personality-test\">Take the free test</a> and share results with the people you conflict with most."),
+      },
+    ],
+    faqs: [
+      { question: "Can personality tests prevent conflict?", answer: "They cannot prevent all conflict, but they reduce the frequency and intensity of personality-based conflicts by giving people vocabulary for their differences." },
+      { question: "Which personality test is best for conflict resolution?", answer: "DISC is most practical for communication-based conflicts. Enneagram is deepest for motivation-based conflicts. 16 Personalities helps with decision-making conflicts. Start with DISC." },
+      { question: "What if both people have the same personality type?", answer: "Same-type conflicts arise from similar blind spots — two high D types may clash on who leads. The resolution framework still applies: name the dimension and find a structural solution." },
+      { question: "Should I share my personality results during a conflict?", answer: "Share proactively, not during a heated moment. In calm contexts, sharing builds understanding. During conflict, it can feel like a weapon rather than a tool." },
+      { question: "How is this different from DISC conflict resolution?", answer: "This article covers conflict resolution across all four frameworks. The DISC-specific guide focuses only on DISC. For general conflict resolution, this is more comprehensive. For DISC-specific strategies, see that guide." },
+    ],
+    ctaHeading: "Resolve conflict with personality insight",
+    ctaSubtext: "Free test across four frameworks. Understand your conflict style.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "DISC conflict resolution", url: "/blog/disc-conflict-resolution" },
+      { label: "DISC communication styles", url: "/blog/disc-communication-styles" },
+      { label: "Personality test for relationships", url: "/blog/personality-test-for-relationships" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "personality-test-for-self-confidence": {
+    slug: "personality-test-for-self-confidence",
+    metaTitle: "Personality Test for Self-Confidence: Understand How Your Type Affects Confidence",
+    metaDesc:
+      "Discover how your personality type influences self-confidence. Learn which traits boost confidence, which create doubt, and how to build authentic confidence aligned with your natural strengths.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-self-confidence",
+    h1: "Personality Test for Self-Confidence: How Your Type Affects Confidence",
+    sections: [
+      {
+        heading: "Your Personality Shapes Your Confidence",
+        html: p("Self-confidence is not one thing — it is shaped by your personality. A high Dominance (D) DISC type expresses confidence through directness and decisiveness. A high Steadiness (S) type expresses confidence through reliability and consistency. Both are confident — they just look different.") +
+          p("Understanding your personality helps you recognize where your confidence comes naturally and where it needs development. It also helps you stop comparing yourself to people whose confidence looks different from yours. <a href=\"/free-personality-test\">Take the free test</a> to understand your confidence style."),
+      },
+      {
+        heading: "Confidence Patterns by DISC Type",
+        html: p("<strong>High Dominance:</strong> Confident in decisions and taking charge. May overconfidently skip details. Growth: confidence in outcomes is strong — build confidence in process by slowing down and gathering input.") +
+          p("<strong>High Influence:</strong> Confident in social situations and selling ideas. May lose confidence when social approval is absent. Growth: separate confidence from applause — your value is not dependent on others' enthusiasm.") +
+          p("<strong>High Steadiness:</strong> Confident in reliability and follow-through. May doubt themselves in unfamiliar or high-pressure situations. Growth: trust that your consistent approach works even in new contexts.") +
+          p("<strong>High Conscientiousness:</strong> Confident in quality and accuracy. May doubt themselves when information is incomplete. Growth: accept that confident decisions can be made with less than 100% of the data."),
+      },
+      {
+        heading: "Confidence and the Enneagram",
+        html: p("The Enneagram reveals a deeper layer: what undermines your confidence and what restores it.") +
+          p("<strong>Type 3 (Achiever):</strong> Confidence is tied to achievement. When producing results, confidence is high. When failing, confidence collapses. Growth: separate self-worth from output.") +
+          p("<strong>Type 6 (Loyalist):</strong> Confidence is tied to certainty. When the path is clear, confidence rises. Under uncertainty, doubt takes over. Growth: practice acting with confidence even when certainty is limited.") +
+          p("<strong>Type 9 (Peacemaker):</strong> Confidence is tied to harmony. When things are peaceful, confidence is stable. In conflict, confidence shrinks. Growth: assertiveness is not aggression — your perspective matters.") +
+          p("Every type has a confidence pattern rooted in its core motivation. <a href=\"/blog/enneagram-types-explained\">See all nine types explained</a>."),
+      },
+      {
+        heading: "Building Authentic Confidence by Type",
+        html: p("Authentic confidence is not about becoming someone else — it is about trusting your natural strengths while developing the areas that hold you back.") +
+          ul([
+            "<strong>Build on your strengths first.</strong> <a href=\"/free-strengths-test\">Identify your top strengths</a>. Confidence grows fastest when you operate from strength rather than trying to fix weakness.",
+            "<strong>Recognize your confidence saboteur.</strong> Each type has a pattern that undermines confidence. D types: ignoring feedback. I types: seeking constant approval. S types: avoiding visibility. C types: over-researching.",
+            "<strong>Practice confidence in small doses.</strong> If speaking up in meetings is hard, start by asking one question. If making quick decisions is hard, practice with low-stakes choices.",
+            "<strong>Stop comparing across types.</strong> An extravert's confidence looks loud. An introvert's confidence looks quiet. Both are valid. Do not measure your confidence by someone else's expression of it.",
+          ]),
+      },
+      {
+        heading: "When Low Confidence Goes Beyond Personality",
+        html: p("Personality explains some confidence patterns, but not all. Persistent self-doubt, avoidance of all challenge, or fear of judgment that limits your life may go beyond personality. In those cases, personality tests are a starting point for self-understanding, not a substitute for professional support.") +
+          p("For personality-based confidence — the doubt that comes from not understanding your natural style — the framework shift is powerful. When you realize that your confidence looks different because your personality is different, not because you are deficient, everything changes. <a href=\"/blog/personality-test-self-awareness\">See our self-awareness guide</a> for more."),
+      },
+    ],
+    faqs: [
+      { question: "Can a personality test tell me why I lack confidence?", answer: "It can identify patterns. If your confidence dips in specific situations — social settings, decision-making, conflict — your personality type explains why and offers specific growth strategies." },
+      { question: "Which personality type is most confident?", answer: "No type is inherently more confident. High D and Type 3 express confidence most visibly, but all types have authentic confidence. It just looks different for each." },
+      { question: "How do I build confidence if I am introverted?", answer: "Introverted confidence is quiet — it comes from depth, preparation, and thoughtful contribution. Build on that. Practice sharing your thinking in smaller settings first." },
+      { question: "Is low confidence a personality trait?", answer: "Not directly. However, certain personality patterns create conditions for self-doubt — perfectionism (Type 1, high C), people-pleasing (Type 2, high I), and uncertainty avoidance (Type 6, high S). Addressing the pattern builds confidence." },
+      { question: "Should I take a personality test to improve confidence?", answer: "It is a helpful starting point. Understanding your type gives you vocabulary for your confidence patterns and specific growth directions. Pair it with action — test insight without practice does not build confidence." },
+    ],
+    ctaHeading: "Build confidence from self-understanding",
+    ctaSubtext: "Free personality test — four frameworks, full results.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "Personality test for self-awareness", url: "/blog/personality-test-self-awareness" },
+      { label: "Strengths-based leadership", url: "/blog/strengths-based-leadership" },
+      { label: "Enneagram growth paths", url: "/blog/enneagram-growth-paths" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "personality-test-for-personal-growth": {
+    slug: "personality-test-for-personal-growth",
+    metaTitle: "Personality Test for Personal Growth: Use Your Type to Grow on Purpose",
+    metaDesc:
+      "Learn how to use personality tests for intentional personal growth. Discover growth paths for each type, build self-awareness, and create a development plan aligned with who you are.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-personal-growth",
+    h1: "Personality Test for Personal Growth: Use Your Type to Grow on Purpose",
+    sections: [
+      {
+        heading: "Why Most Personal Growth Fails",
+        html: p("Most personal growth efforts fail because they try to make you into someone else. Generic advice — be more confident, speak up more, stop procrastinating — does not account for your starting point. If you are naturally introverted, \"speak up more\" is the wrong goal. The right goal is to contribute meaningfully in your way.") +
+          p("Personality-informed growth starts from who you are. It asks: what are my natural strengths, what are my patterns, and what specific growth actions fit my type? This makes growth sustainable because it aligns with your wiring rather than fighting it."),
+      },
+      {
+        heading: "Growth Paths by Framework",
+        html: p("<strong><a href=\"/blog/enneagram-growth-coaching\">Enneagram</a></strong> is the deepest growth framework. Each type has a specific growth direction (your integration point) and a specific stress direction (your disintegration point). Knowing both lets you recognize when you are growing and when you are slipping. <a href=\"/free-enneagram-test\">Take the free Enneagram test</a>.") +
+          p("<strong><a href=\"/blog/disc-assessment-guide\">DISC</a></strong> is the most practical for behavioral growth. Your growth edge is developing the DISC dimensions you use least. A high D type grows by practicing patience. A high S type grows by practicing assertiveness. <a href=\"/free-disc-test\">Take the free DISC test</a>.") +
+          p("<strong><a href=\"/blog/understanding-16-personalities\">16 Personalities</a></strong> is most useful for cognitive growth. Your growth edge is developing your less-preferred cognitive functions. A Thinking type grows by practicing empathy. A Perceiving type grows by practicing planning. <a href=\"/free-personality-test\">Take the free test</a>.") +
+          p("<strong><a href=\"/free-strengths-test\">Strengths</a></strong> is most effective for performance growth. Rather than fixing weaknesses, deepen your top strengths. Excellence in a strength creates more impact than adequacy in a weakness."),
+      },
+      {
+        heading: "Creating a Personal Growth Plan",
+        html: ol([
+          "<strong>Take a multi-framework assessment.</strong> <a href=\"/free-personality-test\">1Test gives you four frameworks in one session</a>. You get Enneagram (motivation), DISC (behavior), 16 Personalities (cognition), and Strengths (talent).",
+          "<strong>Identify your growth edge.</strong> For each framework, what is the dimension you use least? That is your growth opportunity. Example: if you are high Steadiness on DISC, assertiveness is your growth edge.",
+          "<strong>Pick one growth action per month.</strong> Small, specific, repeatable. Example: I will state my opinion in one meeting per week (not: I will become more assertive).",
+          "<strong>Track your stress pattern.</strong> Use the Enneagram to identify when you move toward stress. When you catch it, practice your growth direction instead.",
+          "<strong>Reassess every 6-12 months.</strong> Retake the test. Your type should not change, but your self-awareness within it deepens. Adjust your growth plan based on what you have learned.",
+        ]),
+      },
+      {
+        heading: "Common Growth Traps by Type",
+        html: p("<strong>Type 3 (Achiever) trap:</strong> confusing growth with achievement. Real growth for a 3 is learning to be valued for who you are, not what you produce.") +
+          p("<strong>High D (DISC) trap:</strong> confusing growth with going faster. Real growth for a high D is slowing down to listen and include.") +
+          p("<strong>Introvert trap:</strong> trying to become more extroverted instead of developing confident introversion. Growth is not becoming someone else — it is becoming a healthier version of who you are.") +
+          p("<strong>Perfectionist trap:</strong> waiting until you are ready to grow. Perfectionism is not a growth strategy. Start before you feel ready."),
+      },
+      {
+        heading: "Measuring Growth Without Testing Yourself Into a Box",
+        html: p("A personality test describes patterns, not limits. The goal is not to say \"I am a Type 9, so I cannot be assertive.\" The goal is to say \"I am a Type 9, so assertiveness is my growth edge — and I practice it deliberately.\"") +
+          p("Measure growth by behavior change, not by type change. If you start speaking up in meetings, that is growth — even if your DISC profile still shows high Steadiness. The type describes your starting point. Growth is the distance you travel from there.") +
+          p("Combine frameworks for the most complete picture. DISC tells you what behaviors to practice. 16 Personalities tells you what cognitive skills to develop. Enneagram tells you what motivations to examine. Strengths tells you what talents to amplify. <a href=\"/free-personality-test\">Start with the free test</a>."),
+      },
+    ],
+    faqs: [
+      { question: "Can personality tests help me grow?", answer: "Yes, when used correctly. They identify your starting point, reveal your growth edge, and give specific directions for development. The key is treating them as maps, not boxes." },
+      { question: "Which framework is best for personal growth?", answer: "The Enneagram is deepest for motivation-based growth. DISC is most practical for behavioral growth. Strengths is most effective for performance growth. Using all three gives the most complete growth plan." },
+      { question: "Should I try to change my personality type?", answer: "No. Your type is stable. Growth means becoming a healthier version of your type, not changing types. An evolved Type 8 leads with strength and vulnerability. An unevolved Type 8 leads only with control." },
+      { question: "How long does personality-based growth take?", answer: "You can start implementing growth actions immediately. Noticeable behavior change typically takes 4-8 weeks of consistent practice. Deep pattern change takes 6-12 months." },
+      { question: "What if my growth plan does not feel right?", answer: "Adjust it. Growth should feel challenging but not unnatural. If a growth action feels wrong for your type, you may be trying to become someone else rather than a healthier version of yourself." },
+    ],
+    ctaHeading: "Start your personal growth journey",
+    ctaSubtext: "Free test — Enneagram, DISC, 16 Personalities, and Strengths.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "Personality test for self-awareness", url: "/blog/personality-test-self-awareness" },
+      { label: "Enneagram growth paths", url: "/blog/enneagram-growth-paths" },
+      { label: "Enneagram growth coaching", url: "/blog/enneagram-growth-coaching" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

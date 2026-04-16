@@ -532,6 +532,27 @@ const BLOG_FAQS = {
     { question: "Can personality tests help with remote work burnout?", answer: "Indirectly yes. Knowing your personality helps recognize unique burnout patterns — isolation for extraverts, overwork for Judging types, boundary issues for Perceiving types." },
     { question: "Should remote teams share personality profiles?", answer: "Yes, when everyone opts in. Shared profiles help adapt communication and build empathy for different remote work styles." },
   ],
+  "/blog/personality-test-for-conflict-resolution": [
+    { question: "Can personality tests prevent conflict?", answer: "They reduce frequency and intensity of personality-based conflicts by giving vocabulary for differences. They cannot prevent all conflict." },
+    { question: "Which test is best for conflict resolution?", answer: "DISC for communication-based conflicts. Enneagram for motivation-based conflicts. 16 Personalities for decision-making conflicts. Start with DISC." },
+    { question: "What if both people have the same type?", answer: "Same-type conflicts arise from similar blind spots. The resolution framework still applies: name the dimension and find a structural solution." },
+    { question: "Should I share results during a conflict?", answer: "Share proactively in calm contexts, not during heated moments. During conflict it can feel like a weapon. Before conflict it builds understanding." },
+    { question: "How is this different from DISC conflict resolution?", answer: "This covers all four frameworks. The DISC guide focuses on DISC-specific strategies. This is more comprehensive for general conflict resolution." },
+  ],
+  "/blog/personality-test-for-self-confidence": [
+    { question: "Can a personality test tell me why I lack confidence?", answer: "It can identify patterns. If confidence dips in specific situations — social, decision, conflict — your type explains why and offers growth strategies." },
+    { question: "Which personality type is most confident?", answer: "No type is inherently more confident. High D and Type 3 express confidence most visibly, but all types have authentic confidence that looks different." },
+    { question: "How do introverts build confidence?", answer: "Introverted confidence is quiet — depth, preparation, thoughtful contribution. Build on that. Practice sharing thinking in smaller settings first." },
+    { question: "Is low confidence a personality trait?", answer: "Not directly, but certain patterns create conditions for self-doubt — perfectionism (Type 1, high C), people-pleasing (Type 2, high I), uncertainty avoidance (Type 6, high S)." },
+    { question: "Should I take a personality test to improve confidence?", answer: "It is a helpful starting point. Understanding your type gives vocabulary for confidence patterns and specific growth directions. Pair it with action." },
+  ],
+  "/blog/personality-test-for-personal-growth": [
+    { question: "Can personality tests help me grow?", answer: "Yes, when used as maps not boxes. They identify your starting point, reveal growth edges, and give specific development directions." },
+    { question: "Which framework is best for personal growth?", answer: "Enneagram for motivation-based growth. DISC for behavioral growth. Strengths for performance growth. All three together give the most complete growth plan." },
+    { question: "Should I try to change my personality type?", answer: "No. Your type is stable. Growth means becoming a healthier version of your type, not changing types." },
+    { question: "How long does personality-based growth take?", answer: "Behavior change: 4-8 weeks of consistent practice. Deep pattern change: 6-12 months. Start immediately with small actions." },
+    { question: "What if my growth plan feels wrong?", answer: "Adjust it. Growth should feel challenging but not unnatural. If an action feels wrong for your type, you may be trying to become someone else." },
+  ],
 };
 
 const SEO_DATA = {
@@ -974,6 +995,27 @@ const SEO_DATA = {
     description:
       "How personality affects remote work success. Which traits predict satisfaction, managing remote teams, and optimizing work-from-home by personality type.",
     canonicalUrl: "https://1test.me/blog/personality-test-for-remote-workers",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-conflict-resolution": {
+    title: "Personality Test for Conflict Resolution: Resolve Disagreements Faster",
+    description:
+      "How personality tests help resolve conflicts by understanding communication styles, conflict triggers, and resolution strategies for each personality type.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-conflict-resolution",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-self-confidence": {
+    title: "Personality Test for Self-Confidence: How Your Type Affects Confidence",
+    description:
+      "How personality type influences self-confidence. Which traits boost confidence, which create doubt, and how to build authentic confidence aligned with your strengths.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-self-confidence",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-personal-growth": {
+    title: "Personality Test for Personal Growth: Use Your Type to Grow on Purpose",
+    description:
+      "How to use personality tests for intentional personal growth. Growth paths by type, self-awareness development, and creating a development plan aligned with who you are.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-personal-growth",
     ogType: "article",
   },
 };
@@ -1508,6 +1550,30 @@ const BODY_CONTENT = {
       { heading: "Personality and Remote Work", text: "Remote work amplifies personality differences because communication is reduced to text and video. Introverts often thrive; extraverts need intentional social connection. Judging types self-structure; Perceiving types need external accountability." },
       { heading: "Optimizing by Personality", text: "Introverts: schedule focus blocks, use async communication. Extraverts: schedule daily social touchpoints. Judging types: create structured routines. Perceiving types: build minimum structure with accountability." },
       { heading: "Managing Remote Teams", text: "Map team personality. Adapt communication frequency by DISC style. Use both sync and async. Build personality-appropriate social interaction. Watch for isolation signals in relationship-oriented types." },
+    ],
+  },
+  "/blog/personality-test-for-conflict-resolution": {
+    h1: "Personality Test for Conflict Resolution: Resolve Disagreements Faster",
+    sections: [
+      { heading: "Why Most Conflicts Are Personality", text: "Most interpersonal conflicts are about style, not substance. Personality tests give vocabulary for differences, transforming conflicts from personal attacks into structural differences." },
+      { heading: "Conflict by Framework", text: "DISC: pace and directness conflicts. 16 Personalities: Thinking vs Feeling and Judging vs Perceiving friction. Enneagram: motivation-based conflict — control, peace, achievement, correctness. Strengths: contribution priority conflicts." },
+      { heading: "Resolution Strategy", text: "Identify the personality dimension. Acknowledge both perspectives. Find a structural solution instead of trying to change the person. Agree on communication norms. Follow up after one week." },
+    ],
+  },
+  "/blog/personality-test-for-self-confidence": {
+    h1: "Personality Test for Self-Confidence: How Your Type Affects Confidence",
+    sections: [
+      { heading: "Confidence by DISC Type", text: "High D: confident in decisions, may overconfidently skip details. High I: confident socially, may lose confidence without approval. High S: confident in reliability, may doubt in new situations. High C: confident in quality, may doubt when data is incomplete." },
+      { heading: "Confidence and Enneagram", text: "Type 3: confidence tied to achievement. Type 6: confidence tied to certainty. Type 9: confidence tied to harmony. Every type has a confidence pattern rooted in its core motivation." },
+      { heading: "Building Authentic Confidence", text: "Build on strengths first. Recognize your confidence saboteur. Practice confidence in small doses. Stop comparing across types — an extravert's confidence is loud, an introvert's is quiet. Both are valid." },
+    ],
+  },
+  "/blog/personality-test-for-personal-growth": {
+    h1: "Personality Test for Personal Growth: Use Your Type to Grow on Purpose",
+    sections: [
+      { heading: "Why Most Growth Fails", text: "Generic advice does not account for starting point. Personality-informed growth aligns with your wiring — making it sustainable. The goal is not becoming someone else but becoming a healthier version of your type." },
+      { heading: "Growth Paths by Framework", text: "Enneagram: deepest growth framework with specific integration and disintegration directions. DISC: develop your least-used dimension. 16 Personalities: develop less-preferred cognitive functions. Strengths: deepen top talents rather than fix weaknesses." },
+      { heading: "Creating a Growth Plan", text: "Take a multi-framework assessment. Identify your growth edge per framework. Pick one growth action per month. Track your Enneagram stress pattern. Reassess every 6-12 months. Measure growth by behavior change, not type change." },
     ],
   },
 };
