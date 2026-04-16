@@ -6910,6 +6910,199 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-16",
   },
+  "personality-test-for-friendships": {
+    slug: "personality-test-for-friendships",
+    metaTitle: "Personality Test for Friendships: Why You Click With Some People",
+    metaDesc:
+      "Discover how personality tests explain friendship dynamics. Understand why you connect with certain people, how to navigate personality differences in friendships, and build deeper connections.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-friendships",
+    h1: "Personality Test for Friendships: Why You Click With Some People",
+    sections: [
+      {
+        heading: "Why Some Friendships Click and Others Drain",
+        html: p("Friendship chemistry is partly personality. When two people share similar communication styles and energy preferences, connection feels effortless. When styles clash, even well-meaning friendships feel draining.") +
+          p("This does not mean you should only befriend people like you. The most rewarding friendships often cross personality lines — but they require more intentionality. Understanding personality differences gives you a framework for navigating them.") +
+          p('<a href="/free-personality-test">Take the free personality test</a> and share it with friends to compare.'),
+      },
+      {
+        heading: "How Each Framework Explains Friendship Dynamics",
+        html: p("<strong><a href=\"/blog/disc-communication-styles\">DISC</a></strong> explains communication friction. A high Dominance friend texts one-word answers. A high Influence friend sends voice notes. A high Steadiness friend never cancels plans. A high Conscientiousness friend arrives exactly on time. None of these are wrong — they are different communication languages.") +
+          p("<strong><a href=\"/blog/understanding-16-personalities\">16 Personalities</a></strong> explains energy dynamics. Introvert-introvert friendships are quiet and deep. Extrovert-extrovert friendships are high-energy and social. Introvert-extrovert friendships need negotiated recharge time.") +
+          p("<strong><a href=\"/blog/enneagram-types-explained\">Enneagram</a></strong> explains why friends act the way they do. A Type 2 friend always helps because being needed is their core motivation. A Type 7 friend always suggests new activities because novelty drives them. Understanding motivation prevents misinterpretation.") +
+          p("<strong><a href=\"/free-strengths-test\">Strengths</a></strong> explains what each friend naturally contributes. Complementary strengths make friendships stronger — one friend plans, the other brings spontaneity."),
+      },
+      {
+        heading: "Navigating Personality Differences in Friendships",
+        html: p("<strong>The planner vs. the spontaneous friend:</strong> The Judging-type friend wants plans. The Perceiving-type friend prefers to see how the day goes. Solution: agree on a loose framework — time and location — and leave details flexible.") +
+          p("<strong>The direct vs. the gentle friend:</strong> The Thinking-type friend gives blunt feedback. The Feeling-type friend softens everything. Solution: the direct friend adds context. The gentle friend practices honesty over comfort occasionally.") +
+          p("<strong>The social vs. the homebody friend:</strong> The Extravert wants to go out. The Introvert wants to stay in. Solution: alternate. Some nights out, some nights in. Both friends compromise equally.") +
+          p("<strong>The deep-conversation vs. the activity friend:</strong> Intuitive types want to discuss ideas. Sensing types want to do things together. Solution: do both — activity first, conversation after."),
+      },
+      {
+        heading: "Building Better Friendships With Personality Awareness",
+        html: ol([
+          "<strong>Know your own style.</strong> Understand what you need from friendships — and what drains you.",
+          "<strong>Recognize your friends' styles.</strong> Observe how they communicate, recharge, and make decisions.",
+          "<strong>Stop taking differences personally.</strong> A friend who takes two days to text back is not ignoring you — they may process differently.",
+          "<strong>Communicate your needs.</strong> Tell your friends: I need quiet recharge time. I prefer direct communication. I like plans, not spontaneity.",
+          "<strong>Appreciate the complement.</strong> The friend who balances you is the friend who grows you.",
+        ]),
+      },
+    ],
+    faqs: [
+      { question: "Do similar personalities make better friends?", answer: "Similar personalities connect more easily but may share blind spots. Complementary personalities take more effort but create more balanced friendships. Both work well with self-awareness." },
+      { question: "Can personality tests help resolve friend conflicts?", answer: "Indirectly, yes. Understanding that a conflict stems from personality differences — not bad intentions — reduces blame and opens problem-solving." },
+      { question: "Which personality framework is best for understanding friendships?", answer: "DISC for communication patterns. 16 Personalities for energy and processing style. Enneagram for understanding motivation. Using all four gives the most complete picture." },
+      { question: "Should friends take personality tests together?", answer: "It can be a fun and insightful activity. Compare results, discuss differences, and ask: What do you need from me that does not come naturally?" },
+      { question: "What if my best friend and I have opposite personalities?", answer: "Opposite-personality friendships can be the most growth-oriented. The key is mutual respect for differences rather than trying to change each other." },
+    ],
+    ctaHeading: "Discover your friendship personality",
+    ctaSubtext: "Free test — four frameworks, full results, no paywall.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "Personality test for relationships", url: "/blog/personality-test-for-relationships" },
+      { label: "Personality test for couples", url: "/blog/personality-test-for-couples" },
+      { label: "DISC communication styles", url: "/blog/disc-communication-styles" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "strengths-and-weaknesses-guide": {
+    slug: "strengths-and-weaknesses-guide",
+    metaTitle: "Strengths and Weaknesses Guide: A Balanced Approach to Growth",
+    metaDesc:
+      "Learn how to identify, understand, and develop your strengths and weaknesses. A practical guide to focusing on what you do well while managing areas for improvement.",
+    canonicalUrl: "https://1test.me/blog/strengths-and-weaknesses-guide",
+    h1: "Strengths and Weaknesses: A Balanced Approach to Personal Growth",
+    sections: [
+      {
+        heading: "The Strengths-First Approach",
+        html: p("Traditional development focuses on fixing weaknesses. The strengths-first approach argues that you get exponentially more return from investing in what you already do well. You can reach excellence in a strength. A weakness, at best, reaches adequacy.") +
+          p("This does not mean ignoring weaknesses. It means managing weaknesses to the point where they do not hold you back, then spending the majority of your development energy amplifying strengths. <a href=\"/free-strengths-test\">Take the free Strengths test</a> to identify your top talents."),
+      },
+      {
+        heading: "How to Identify Your Real Strengths",
+        html: p("Strengths are not just things you are good at. They are activities that meet three criteria:") +
+          ul([
+            "<strong>You do them well naturally.</strong> Without extra effort or training, you perform above average.",
+            "<strong>You enjoy doing them.</strong> The activity energizes rather than drains you, even when it is challenging.",
+            "<strong>You learn them quickly.</strong> New skills in this area come faster than expected.",
+          ]) +
+          p("If something meets all three criteria, it is a strength. If it meets only one or two, it may be a learned skill or a situational ability — useful, but not a natural strength."),
+      },
+      {
+        heading: "Understanding Weaknesses Productively",
+        html: p("A weakness is any activity that consistently drains your energy, where you perform below average despite effort, or where learning feels slow and forced. Weaknesses are not character flaws — they are areas where your natural talents do not align.") +
+          p("Productive approaches to weaknesses:") +
+          ul([
+            "<strong>Delegate.</strong> In a team context, find someone whose strengths cover your weakness.",
+            "<strong>Partner.</strong> In personal relationships, lean on complementary strengths.",
+            "<strong>Build minimum viable competence.</strong> If the weakness blocks your progress, develop it to adequacy — not excellence.",
+            "<strong>Redesign the role.</strong> Sometimes the solution is changing the situation, not yourself.",
+          ]),
+      },
+      {
+        heading: "Building a Strengths-Based Development Plan",
+        html: ol([
+          "<strong>Map your strengths.</strong> Use a strengths assessment to identify your top 3-5 natural talents. <a href=\"/free-strengths-test\">Free Strengths test</a>.",
+          "<strong>Map your weaknesses.</strong> Identify 2-3 areas that drain you or hold you back.",
+          "<strong>Allocate development time:</strong> 70% strengths development, 20% related skills, 10% weakness management.",
+          "<strong>Design your role around strengths.</strong> Volunteer for projects that use your strengths. Negotiate responsibilities toward your talents.",
+          "<strong>Build complementary partnerships.</strong> Find people whose strengths cover your gaps.",
+          "<strong>Review quarterly.</strong> Strengths deepen over time. Weakness management needs periodic adjustment.",
+        ]),
+      },
+      {
+        heading: "Combining Strengths With Other Frameworks",
+        html: p("Strengths tell you what you do well. <a href=\"/blog/disc-assessment-guide\">DISC</a> tells you how you communicate. <a href=\"/blog/understanding-16-personalities\">16 Personalities</a> tells you how you think. <a href=\"/blog/enneagram-types-explained\">Enneagram</a> tells you why you act. Together, they give a complete picture of talent, behavior, cognition, and motivation.") +
+          p("For example: high Analytical strength + DISC Conscientiousness + 16 Personalities Thinking + Enneagram Type 5 = a profile that excels at data-driven research and strategic analysis. Understanding the full profile helps you choose roles, build teams, and grow purposefully."),
+      },
+    ],
+    faqs: [
+      { question: "Should I focus only on strengths and ignore weaknesses?", answer: "No. Manage weaknesses to adequacy so they do not hold you back, then invest the majority of your development energy in amplifying strengths." },
+      { question: "How do I identify my strengths?", answer: "Look for activities where you perform well naturally, feel energized, and learn quickly. A formal strengths assessment like 1Test's can accelerate this identification." },
+      { question: "Can weaknesses become strengths?", answer: "Rarely. A genuine weakness can improve to adequacy with effort, but it is unlikely to become a true strength. That effort is usually better invested in deepening an existing strength." },
+      { question: "How many strengths should I focus on?", answer: "Three to five. Trying to develop too many strengths simultaneously dilutes your focus. Deepen your top strengths before adding new ones." },
+      { question: "What is the difference between a skill and a strength?", answer: "A skill is something you learned to do adequately. A strength is something you do well naturally, enjoy, and learn quickly. Skills can become strengths if they align with natural talent." },
+    ],
+    ctaHeading: "Discover your strengths and weaknesses",
+    ctaSubtext: "Free Strengths assessment with full results. No paywall.",
+    ctaFramework: "strengths",
+    ctaUrl: "/free-strengths-test",
+    crossLinks: [
+      { label: "Free Strengths test", url: "/free-strengths-test" },
+      { label: "Strengths and weaknesses test", url: "/blog/strengths-and-weaknesses-test" },
+      { label: "Strengths for career", url: "/blog/strengths-for-career" },
+      { label: "Best free strengths assessment", url: "/blog/best-free-strengths-assessment" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "personality-test-for-remote-workers": {
+    slug: "personality-test-for-remote-workers",
+    metaTitle: "Personality Test for Remote Workers: Thrive Working From Anywhere",
+    metaDesc:
+      "Learn how personality affects remote work success. Discover which traits predict remote work satisfaction, how to manage remote teams, and how to optimize your work-from-home setup by personality type.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-remote-workers",
+    h1: "Personality Test for Remote Workers: Thrive Working From Anywhere",
+    sections: [
+      {
+        heading: "Why Personality Matters More in Remote Work",
+        html: p("In an office, personality differences are smoothed by physical proximity — casual conversations, body language, and shared context. In remote work, communication is reduced to text, video calls, and scheduled meetings. Personality differences become amplified because there are fewer social cues to bridge the gaps.") +
+          p("Understanding personality helps remote workers communicate more effectively, manage their energy, and build stronger virtual relationships. It helps managers adapt their leadership style to distributed teams."),
+      },
+      {
+        heading: "Which Personality Traits Affect Remote Work",
+        html: p("<strong>Introversion vs. Extraversion:</strong> Introverts often thrive in remote work — they control their environment and recharge naturally. Extraverts may struggle with isolation and need intentional social connection through virtual co-working or regular video calls.") +
+          p("<strong>Judging vs. Perceiving:</strong> Judging types adapt easily to remote work because they self-structure. Perceiving types need external accountability — clear deadlines, regular check-ins, and visible task boards.") +
+          p("<strong>DISC Steadiness:</strong> High S types value stable relationships and may feel disconnected remotely. They need consistent one-on-ones and informal check-ins.") +
+          p("<strong>DISC Dominance:</strong> High D types value autonomy and results — they often excel remotely. Risk: may become disconnected from team dynamics."),
+      },
+      {
+        heading: "Optimizing Your Remote Work by Personality",
+        html: p("<strong>For introverts:</strong> Schedule focus blocks. Communicate preferences clearly — let your team know you process best asynchronously. Use written communication as your primary tool. <a href=\"/blog/introvert-extrovert-test\">See introvert-extrovert guide</a>.") +
+          p("<strong>For extraverts:</strong> Schedule daily social touchpoints. Use video calls instead of email when possible. Join virtual co-working sessions. Protect time for informal conversation, not just task discussion.") +
+          p("<strong>For Judging types:</strong> Create a structured daily routine. Set clear work hours. Use project management tools consistently. Share your schedule with your team.") +
+          p("<strong>For Perceiving types:</strong> Build minimum structure — fixed start time, daily priority list, weekly review. Use accountability partners. Set personal deadlines before real deadlines."),
+      },
+      {
+        heading: "Managing Remote Teams With Personality Data",
+        html: p("Remote managers need more intentional communication because they cannot rely on hallway conversations and visual cues.") +
+          ul([
+            "<strong>Map the team's personality.</strong> Have everyone take <a href=\"/free-personality-test\">the free test</a>. Create a team profile showing DISC styles and 16 Personalities types.",
+            "<strong>Adapt communication frequency.</strong> High S and high I types need more frequent check-ins. High D and high C types prefer less frequent but more structured updates.",
+            "<strong>Use the right medium.</strong> Extroverts and high I types prefer video calls. Introverts and high C types prefer written updates. Use both.",
+            "<strong>Build virtual team dynamics.</strong> Create opportunities for personality-appropriate social interaction — optional coffee chats for extraverts, async discussion threads for introverts.",
+            "<strong>Watch for isolation signals.</strong> High S and Feeling types may not speak up when struggling remotely. Schedule proactive check-ins.",
+          ]),
+      },
+      {
+        heading: "Remote Work Communication by DISC Type",
+        html: p("<strong>High D remote workers:</strong> Prefer brief updates, clear expectations, and autonomy. Communicate via short messages or structured meetings. Give them ownership of outcomes.") +
+          p("<strong>High I remote workers:</strong> Prefer video calls, brainstorming sessions, and social interaction. Schedule regular face time. Keep camera-on culture optional but available.") +
+          p("<strong>High S remote workers:</strong> Prefer predictable schedules, clear processes, and relationship continuity. Maintain regular one-on-ones. Give advance notice of changes.") +
+          p("<strong>High C remote workers:</strong> Prefer written documentation, clear specs, and structured workflows. Use detailed briefs and written agendas. Expect and welcome questions."),
+      },
+    ],
+    faqs: [
+      { question: "Do introverts make better remote workers?", answer: "Not necessarily better, but often more naturally comfortable. Introverts control their environment and recharge independently. Extraverts can thrive remotely with intentional social connection strategies." },
+      { question: "How do I manage a remote team with different personalities?", answer: "Map the team's personality profiles. Adapt communication frequency and medium to each style. Use both sync and async communication. Watch for isolation in relationship-oriented types." },
+      { question: "Which personality test is best for remote teams?", answer: "DISC for communication preferences and management style. 16 Personalities for energy and structure needs. Both are immediately actionable for remote team dynamics." },
+      { question: "Can personality tests help with remote work burnout?", answer: "Indirectly, yes. Knowing your personality helps you recognize your unique burnout patterns — isolation for extraverts, overwork for Judging types, boundary-blurring for Perceiving types." },
+      { question: "Should remote teams share personality profiles?", answer: "Yes, when everyone opts in. Shared profiles help team members adapt communication and build empathy for different remote work styles." },
+    ],
+    ctaHeading: "Optimize your remote work style",
+    ctaSubtext: "Free personality test — four frameworks, full results.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "Personality test for teams", url: "/blog/personality-test-for-teams" },
+      { label: "DISC work style", url: "/blog/disc-work-style" },
+      { label: "Personality test for managers", url: "/blog/personality-test-for-managers" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

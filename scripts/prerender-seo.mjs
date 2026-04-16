@@ -511,6 +511,27 @@ const BLOG_FAQS = {
     { question: "How accurate is 16 Personalities for work?", answer: "It reliably describes cognitive preferences. It does not predict job performance. Use as a communication and team-building tool." },
     { question: "Can my workplace personality type change?", answer: "Core preferences are stable. You can develop flexibility in less-preferred dimensions, but your natural style remains the same." },
   ],
+  "/blog/personality-test-for-friendships": [
+    { question: "Do similar personalities make better friends?", answer: "Similar personalities connect more easily but may share blind spots. Complementary personalities take more effort but create more balanced friendships." },
+    { question: "Can personality tests help resolve friend conflicts?", answer: "Indirectly yes. Understanding conflicts stem from personality differences reduces blame and opens problem-solving." },
+    { question: "Which framework is best for understanding friendships?", answer: "DISC for communication patterns. 16 Personalities for energy style. Enneagram for motivation. All four give the most complete picture." },
+    { question: "Should friends take personality tests together?", answer: "It can be fun and insightful. Compare results, discuss differences, and ask what each person needs." },
+    { question: "What if my best friend has the opposite personality?", answer: "Opposite-personality friendships can be the most growth-oriented. Mutual respect for differences is the key." },
+  ],
+  "/blog/strengths-and-weaknesses-guide": [
+    { question: "Should I focus only on strengths?", answer: "No. Manage weaknesses to adequacy so they do not hold you back, then invest the majority of development energy in amplifying strengths." },
+    { question: "How do I identify my strengths?", answer: "Look for activities where you perform well naturally, feel energized, and learn quickly. A formal assessment accelerates identification." },
+    { question: "Can weaknesses become strengths?", answer: "Rarely. A weakness can improve to adequacy with effort, but is unlikely to become a true strength. Effort is usually better invested in existing strengths." },
+    { question: "How many strengths should I focus on?", answer: "Three to five. Trying to develop too many simultaneously dilutes focus. Deepen top strengths before adding new ones." },
+    { question: "What is the difference between a skill and a strength?", answer: "A skill is learned adequacy. A strength is natural talent plus enjoyment plus fast learning. Skills can become strengths if they align with natural talent." },
+  ],
+  "/blog/personality-test-for-remote-workers": [
+    { question: "Do introverts make better remote workers?", answer: "Not better, but often more naturally comfortable. Extraverts can thrive remotely with intentional social connection strategies." },
+    { question: "How do I manage a remote team with different personalities?", answer: "Map personality profiles. Adapt communication frequency and medium. Use both sync and async. Watch for isolation in relationship-oriented types." },
+    { question: "Which test is best for remote teams?", answer: "DISC for communication preferences and management style. 16 Personalities for energy and structure needs. Both are immediately actionable for remote dynamics." },
+    { question: "Can personality tests help with remote work burnout?", answer: "Indirectly yes. Knowing your personality helps recognize unique burnout patterns — isolation for extraverts, overwork for Judging types, boundary issues for Perceiving types." },
+    { question: "Should remote teams share personality profiles?", answer: "Yes, when everyone opts in. Shared profiles help adapt communication and build empathy for different remote work styles." },
+  ],
 };
 
 const SEO_DATA = {
@@ -932,6 +953,27 @@ const SEO_DATA = {
     description:
       "How the 16 personality types show up at work. Team dynamics, communication patterns, and building effective workplace relationships.",
     canonicalUrl: "https://1test.me/blog/16-personalities-in-the-workplace",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-friendships": {
+    title: "Personality Test for Friendships: Why You Click With Some People",
+    description:
+      "How personality tests explain friendship dynamics. Why you connect with certain people and how to navigate personality differences in friendships.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-friendships",
+    ogType: "article",
+  },
+  "/blog/strengths-and-weaknesses-guide": {
+    title: "Strengths and Weaknesses Guide: A Balanced Approach to Growth",
+    description:
+      "How to identify, understand, and develop your strengths and weaknesses. A practical guide to focusing on what you do well while managing areas for improvement.",
+    canonicalUrl: "https://1test.me/blog/strengths-and-weaknesses-guide",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-remote-workers": {
+    title: "Personality Test for Remote Workers: Thrive Working From Anywhere",
+    description:
+      "How personality affects remote work success. Which traits predict satisfaction, managing remote teams, and optimizing work-from-home by personality type.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-remote-workers",
     ogType: "article",
   },
 };
@@ -1442,6 +1484,30 @@ const BODY_CONTENT = {
       { heading: "Four Dimensions at Work", text: "I vs E: energy source — quiet focus vs. interactive energy. S vs N: information processing — facts vs. patterns. T vs F: decision-making — logic vs. values (most common friction). J vs P: work organization — plans vs. flexibility." },
       { heading: "Communication Strategies", text: "Introverts: send agenda before meetings, allow written input. Extraverts: allow discussion, follow up in writing. Sensing types: be specific, use examples. Intuitive types: share vision, explain why. Thinking types: be logical, present trade-offs. Feeling types: acknowledge impact, explain values." },
       { heading: "Making It Work for Teams", text: "Have everyone take the test. Map the team's type distribution. Discuss natural strengths and blind spots. Agree on communication norms based on composition. Revisit quarterly." },
+    ],
+  },
+  "/blog/personality-test-for-friendships": {
+    h1: "Personality Test for Friendships: Why You Click With Some People",
+    sections: [
+      { heading: "Friendship Chemistry and Personality", text: "DISC explains communication friction between friends. 16 Personalities explains energy dynamics. Enneagram explains motivation. Strengths explains what each friend naturally contributes." },
+      { heading: "Navigating Differences", text: "Planner vs spontaneous: agree on loose frameworks. Direct vs gentle: add context or practice honesty. Social vs homebody: alternate. Deep-conversation vs activity: do both." },
+      { heading: "Building Better Friendships", text: "Know your style. Recognize friends' styles. Stop taking differences personally. Communicate your needs. Appreciate complementary friendships for growth." },
+    ],
+  },
+  "/blog/strengths-and-weaknesses-guide": {
+    h1: "Strengths and Weaknesses: A Balanced Approach to Personal Growth",
+    sections: [
+      { heading: "The Strengths-First Approach", text: "Invest in what you do well rather than fixing every weakness. Manage weaknesses to adequacy, then spend 70% of development energy on amplifying strengths. Excellence in a strength; adequacy in a weakness." },
+      { heading: "Identifying Real Strengths", text: "Three criteria: you do it well naturally, you enjoy it, you learn it quickly. All three = a strength. One or two = a learned skill or situational ability." },
+      { heading: "Development Plan", text: "Map strengths and weaknesses. Allocate 70% to strengths, 20% to related skills, 10% to weakness management. Design your role around strengths. Build complementary partnerships. Review quarterly." },
+    ],
+  },
+  "/blog/personality-test-for-remote-workers": {
+    h1: "Personality Test for Remote Workers: Thrive Working From Anywhere",
+    sections: [
+      { heading: "Personality and Remote Work", text: "Remote work amplifies personality differences because communication is reduced to text and video. Introverts often thrive; extraverts need intentional social connection. Judging types self-structure; Perceiving types need external accountability." },
+      { heading: "Optimizing by Personality", text: "Introverts: schedule focus blocks, use async communication. Extraverts: schedule daily social touchpoints. Judging types: create structured routines. Perceiving types: build minimum structure with accountability." },
+      { heading: "Managing Remote Teams", text: "Map team personality. Adapt communication frequency by DISC style. Use both sync and async. Build personality-appropriate social interaction. Watch for isolation signals in relationship-oriented types." },
     ],
   },
 };
