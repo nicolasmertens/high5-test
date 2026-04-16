@@ -7473,6 +7473,184 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-16",
   },
+  "personality-test-for-volunteers": {
+    slug: "personality-test-for-volunteers",
+    metaTitle: "Personality Test for Volunteers: Find the Right Volunteer Role for You",
+    metaDesc:
+      "Discover how personality tests help volunteers find roles that match their strengths. Learn which volunteer opportunities fit each personality type for maximum impact and satisfaction.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-volunteers",
+    h1: "Personality Test for Volunteers: Find the Role That Fits Your Type",
+    sections: [
+      {
+        heading: "Why Personality Matters in Volunteering",
+        html: p("Volunteering is most impactful — and most sustainable — when the role matches your natural strengths. A people-oriented person tutoring one-on-one will feel energized. That same person managing a spreadsheet-heavy logistics role will burn out, even though both roles help the organization.") +
+          p("Personality tests help you identify volunteer roles where you will contribute effectively and stay engaged long-term. <a href=\"/free-personality-test\">Take the free test</a> to find your volunteer profile."),
+      },
+      {
+        heading: "Volunteer Roles by DISC Type",
+        html: p("<strong>High Dominance:</strong> Thrives in leadership, crisis response, fundraising, and board roles. Wants to see measurable impact. Best fit: campaign chair, disaster response coordinator, advocacy lead.") +
+          p("<strong>High Influence:</strong> Thrives in people-facing, community-building, and event roles. Wants social connection and enthusiasm. Best fit: event coordinator, outreach ambassador, mentor, fundraiser.") +
+          p("<strong>High Steadiness:</strong> Thrives in consistent, supportive, behind-the-scenes roles. Wants reliability and meaningful relationships. Best fit: tutoring, patient support, admin assistance, long-term mentoring.") +
+          p("<strong>High Conscientiousness:</strong> Thrives in detail-oriented, analytical, and quality-focused roles. Wants clear expectations and competence. Best fit: data analysis, financial oversight, grant writing, compliance review."),
+      },
+      {
+        heading: "Volunteer Roles by 16 Personalities Dimension",
+        html: p("<strong>Introverts</strong> prefer one-on-one or behind-the-scenes roles: tutoring, writing, data management, research. <strong>Extraverts</strong> prefer group-facing roles: events, outreach, public speaking, community organizing.") +
+          p("<strong>Sensing types</strong> prefer practical, hands-on volunteering: food banks, habitat builds, direct service. <strong>Intuitive types</strong> prefer strategic and visionary roles: program design, strategic planning, advocacy.") +
+          p("<strong>Thinking types</strong> prefer roles with clear logic: budgeting, logistics, program evaluation. <strong>Feeling types</strong> prefer roles with direct human impact: mentoring, counseling support, community care.") +
+          p("<strong>Judging types</strong> prefer structured, scheduled roles: weekly commitments, organized programs. <strong>Perceiving types</strong> prefer flexible, on-call roles: event-based volunteering, short-term projects."),
+      },
+      {
+        heading: "Matching Strengths to Volunteer Impact",
+        html: p("Your <a href=\"/free-strengths-test\">Strengths</a> profile shows what you do best. Volunteering from strength means you contribute more and feel more fulfilled:") +
+          p("<strong>Relator strengths:</strong> Long-term mentoring, peer support, community building. <strong>Achiever strengths:</strong> High-output roles like sorting drives, data entry campaigns, build days.") +
+          p("<strong>Strategic strengths:</strong> Program design, organizational planning, advocacy strategy. <strong>Empathy strengths:</strong> Crisis hotlines, patient support, grief groups, newcomer orientation.") +
+          p("The key principle: volunteer from your strengths, not from guilt. The role that needs you most is the one where your natural talents create outsized impact."),
+      },
+      {
+        heading: "Avoiding Volunteer Burnout by Personality",
+        html: p("Burnout in volunteering happens when the role drains rather than energizes. High D types burn out in roles with no decision-making authority. High I types burn out when isolated. High S types burn out when the environment is chaotic. High C types burn out when expectations are unclear.") +
+          p("Prevent burnout by matching role to personality. If you feel drained after volunteering, it is likely a mismatch — not a character flaw. Find the role that leaves you energized and the organization will keep you longer. <a href=\"/blog/personality-test-stress-management\">See our stress management guide</a> for more on preventing burnout."),
+      },
+    ],
+    faqs: [
+      { question: "Which personality type is best for volunteering?", answer: "No type is best. Every volunteer organization needs all kinds — leaders, organizers, supporters, and analysts. The best volunteer matches personality to role." },
+      { question: "Should volunteer organizations use personality tests?", answer: "Yes, especially for role placement. Matching volunteers to roles that fit their personality increases satisfaction, retention, and impact." },
+      { question: "What if I am introverted and want to volunteer?", answer: "Many high-impact volunteer roles suit introverts: tutoring, writing, data management, research, and behind-the-scenes support. Do not assume volunteering requires extroversion." },
+      { question: "How do I find volunteer roles that match my personality?", answer: "Take a personality test, then use the framework that resonates most to guide your search. DISC for role type, 16 Personalities for work environment, Strengths for specific contributions." },
+      { question: "Can volunteering help me discover my personality type?", answer: "Indirectly, yes. Volunteering puts you in new situations that reveal your natural preferences. Combined with a formal assessment, volunteer experience helps confirm your type." },
+    ],
+    ctaHeading: "Find your volunteer personality",
+    ctaSubtext: "Free test — DISC, 16 Personalities, Enneagram, and Strengths.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "Personality test for career change", url: "/blog/personality-test-for-career-change" },
+      { label: "Strengths-based leadership", url: "/blog/strengths-based-leadership" },
+      { label: "Personality test for teams", url: "/blog/personality-test-for-teams" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "disc-conflict-resolution-at-work": {
+    slug: "disc-conflict-resolution-at-work",
+    metaTitle: "DISC Conflict Resolution at Work: Resolve Team Disagreements Effectively",
+    metaDesc:
+      "Learn how to resolve workplace conflicts using DISC personality types. Practical strategies for each DISC style, team conflict patterns, and manager techniques.",
+    canonicalUrl: "https://1test.me/blog/disc-conflict-resolution-at-work",
+    h1: "DISC Conflict Resolution at Work: Resolve Team Disagreements by Type",
+    sections: [
+      {
+        heading: "Why DISC Explains Most Workplace Conflicts",
+        html: p("Most workplace disagreements are not about substance — they are about style. A high D manager wants a quick decision. A high C analyst wants more data. Both care about the outcome. The conflict is not about what to decide — it is about how fast to decide it.") +
+          p("DISC gives teams a common language for style differences. Instead of labeling a colleague as difficult, you recognize they operate from a different DISC profile. This shifts conflict from personal to structural. <a href=\"/free-disc-test\">Take the free DISC test</a> to understand your conflict style."),
+      },
+      {
+        heading: "Conflict Patterns by DISC Pair",
+        html: p("<strong>D vs. S:</strong> The most common workplace conflict. D wants speed; S wants stability. D pushes; S resists. Resolution: D gives advance notice of changes. S commits to clear timelines.") +
+          p("<strong>D vs. C:</strong> D wants decisive action; C wants thorough analysis. D sees C as slow. C sees D as reckless. Resolution: D sets decision deadlines. C commits to providing analysis by that deadline.") +
+          p("<strong>I vs. C:</strong> I wants enthusiasm and big-picture vision; C wants data and precision. I sees C as negative. C sees I as superficial. Resolution: I leads with vision, then provides supporting detail. C leads with data, then acknowledges the human impact.") +
+          p("<strong>I vs. S:</strong> I wants rapid change and excitement; S wants gradual evolution and stability. I sees S as resistant. S sees I as impulsive. Resolution: I gives S time to adjust. S commits to trying new approaches within a reasonable timeline."),
+      },
+      {
+        heading: "Manager Techniques for Each DISC Style in Conflict",
+        html: p("<strong>When D types are in conflict:</strong> Do not take their bluntness personally. Address the issue head-on and focus on outcomes. Say: \"I know you want to move fast. Here is what we gain from taking one more day.\" <a href=\"/blog/disc-management-style\">See DISC management style</a>.") +
+          p("<strong>When I types are in conflict:</strong> They may avoid confrontation and let resentment build. Create a safe space for honest feedback. Say: \"I value your perspective. What is really bothering you about this?\"") +
+          p("<strong>When S types are in conflict:</strong> They may acquiesce to keep peace even when they disagree. Pull them aside privately. Ask clearly. Say: \"I want your honest opinion, even if it differs from the group.\"") +
+          p("<strong>When C types are in conflict:</strong> They may over-analyze and resist emotional arguments. Present data and logic. Say: \"Here is the evidence. What else do you need to feel confident in this decision?\""),
+      },
+      {
+        heading: "A DISC-Based Conflict Resolution Process",
+        html: ol([
+          "<strong>Identify the DISC dimension at play.</strong> Is this about pace (D vs. S)? Precision (C vs. I)? Control (D vs. everyone)? Naming the dimension removes personal blame.",
+          "<strong>Acknowledge both styles.</strong> Both perspectives have value. Speed matters. Accuracy matters. Stability matters. Vision matters.",
+          "<strong>Find the structural solution.</strong> Change the process, not the person. If D and C conflict on pace, set a decision timeline that includes analysis time.",
+          "<strong>Create a communication agreement.</strong> Establish how this type of decision will be handled in the future.",
+          "<strong>Follow up after one week.</strong> Check whether the solution is working. Adjust if needed.",
+        ]),
+      },
+    ],
+    faqs: [
+      { question: "How is this different from general conflict resolution?", answer: "This approach addresses the personality dimension of conflict specifically. It gives type-specific strategies rather than generic communication advice." },
+      { question: "What if both people have the same DISC type?", answer: "Same-type conflicts arise from similar blind spots. Two high D types may clash on who leads. Two high S types may avoid necessary conflict. The resolution framework still applies." },
+      { question: "Should teams share DISC profiles?", answer: "Yes. Sharing DISC profiles creates a common language for differences and reduces misinterpretation. Use it as a team-building tool, not a labeling tool." },
+      { question: "Can DISC prevent workplace conflict?", answer: "It cannot prevent all conflict, but it reduces frequency and intensity by giving teams vocabulary for style differences and specific strategies for each pair." },
+      { question: "What if the conflict is not about personality?", answer: "DISC addresses style-based conflicts. If a conflict is about policy, ethics, or resource allocation, personality frameworks will not resolve it. Use appropriate conflict resolution methods for substantive disputes." },
+    ],
+    ctaHeading: "Understand your workplace conflict style",
+    ctaSubtext: "Free DISC assessment with full profile. No paywall.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "DISC conflict resolution", url: "/blog/disc-conflict-resolution" },
+      { label: "DISC management style", url: "/blog/disc-management-style" },
+      { label: "Personality test for conflict resolution", url: "/blog/personality-test-for-conflict-resolution" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "personality-type-compatibility": {
+    slug: "personality-type-compatibility",
+    metaTitle: "Personality Type Compatibility: Which Types Work Best Together?",
+    metaDesc:
+      "Explore personality compatibility across DISC, 16 Personalities, and Enneagram. Understand what makes types compatible, common friction points, and how to build strong relationships across differences.",
+    canonicalUrl: "https://1test.me/blog/personality-type-compatibility",
+    h1: "Personality Type Compatibility: Which Types Work Best Together?",
+    sections: [
+      {
+        heading: "What Compatibility Really Means",
+        html: p("Personality compatibility is not about finding your perfect match. It is about understanding how different types interact, where friction naturally occurs, and how to bridge differences. The most compatible couples and teams are not those with identical types — they are those who understand and respect their differences.") +
+          p("No personality combination is doomed or guaranteed to succeed. Compatibility depends on self-awareness, communication skills, and mutual effort more than type matching. <a href=\"/free-personality-test\">Take the free test</a> and compare with your partner or team."),
+      },
+      {
+        heading: "DISC Compatibility Patterns",
+        html: p("<strong>Same-style pairs:</strong> Two D types understand each other's pace but may clash on who leads. Two I types enjoy each other's energy but may lack follow-through. Two S types create stability but may avoid necessary change. Two C types respect each other's standards but may overanalyze together.") +
+          p("<strong>Complementary pairs:</strong> D and S are classic complements — D drives action, S provides stability. I and C balance enthusiasm with precision. The key is recognizing that complementary styles create tension by design, and that tension is productive when managed.") +
+          p("<strong>Opposite pairs:</strong> D and S, I and C — these pairs offer the most growth potential and the most initial friction. Success requires both parties to adapt their communication style. <a href=\"/blog/disc-communication-styles\">See DISC communication styles</a>."),
+      },
+      {
+        heading: "16 Personalities Compatibility",
+        html: p("Research on type compatibility suggests three patterns:") +
+          p("<strong>Similar types</strong> understand each other intuitively but share blind spots. Two Introverts may never initiate social plans. Two Perceivers may never finalize decisions.") +
+          p("<strong>Complementary types</strong> bring different strengths but need more communication. A Thinking-Judging type and a Feeling-Perceiving type can build a balanced partnership if they negotiate decision-making processes.") +
+          p("<strong>The most common friction dimension</strong> is Thinking vs. Feeling — not because these types are incompatible, but because they prioritize different information when making decisions. Thinking types prioritize logic. Feeling types prioritize impact on people. Both are valid. The conflict arises when each side assumes their priority is universal.") +
+          p("<a href=\"/blog/16-personalities-relationships\">See our full 16 Personalities relationships guide</a>."),
+      },
+      {
+        heading: "Enneagram Compatibility Insights",
+        html: p("The Enneagram offers the deepest compatibility insight because it reveals motivation, not just behavior. Two people can have compatible behavior but conflicting motivations:") +
+          p("A Type 3 (Achiever) and Type 9 (Peacemaker) may get along on the surface — both adapt to others. But their motivations differ: Type 3 is driven by success and image. Type 9 is driven by maintaining peace and avoiding conflict. Under stress, Type 3 pushes harder while Type 9 withdraws.") +
+          p("The most productive compatibility approach with the Enneagram is not matching types — it is understanding each type's core motivation and fear. When you know that your partner's withdrawal comes from a fear of conflict (Type 9), not disinterest, you can respond with empathy instead of frustration. <a href=\"/free-enneagram-test\">Take the free Enneagram test</a>."),
+      },
+      {
+        heading: "Building Compatibility Across Types",
+        html: p("The three principles of cross-type compatibility:") +
+          ol([
+            "<strong>Understand, do not judge.</strong> Your partner's or colleague's behavior makes sense from their personality. Before reacting, ask: What need is this behavior meeting?",
+            "<strong>Adapt your communication, not your values.</strong> You do not need to change who you are. You do need to change how you deliver your message so the other person can receive it.",
+            "<strong>Name the dimension.</strong> When friction arises, name the personality dimension at play. This is not a D-vs-S conflict — it is a pace disagreement. This is not a Thinking-vs-Feeling conflict — it is an information-priority difference.",
+          ]),
+      },
+    ],
+    faqs: [
+      { question: "Which personality types are most compatible?", answer: "No type pair is inherently most compatible. Complementary types offer balance but require communication. Similar types understand each other intuitively but share blind spots. Compatibility depends on effort, not type matching." },
+      { question: "Can opposite personality types have a good relationship?", answer: "Yes, often the best ones. Opposite types offer growth potential and complementary strengths. The key is understanding and adapting rather than trying to change each other." },
+      { question: "Does personality compatibility matter more than shared values?", answer: "Shared values matter more for long-term compatibility. Personality affects how you communicate and process information. Values affect whether you want the same things. Both matter." },
+      { question: "Should couples and teams compare personality results?", answer: "Yes. Comparing results creates shared vocabulary for differences and reduces misinterpretation. It is one of the most productive conversations you can have." },
+      { question: "Can compatibility change over time?", answer: "The types do not change, but compatibility can improve as both parties develop flexibility and communication skills. People who understand their differences grow together. People who do not may grow apart." },
+    ],
+    ctaHeading: "Discover your compatibility profile",
+    ctaSubtext: "Free test — four frameworks. Compare with your partner or team.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "16 Personalities relationships", url: "/blog/16-personalities-relationships" },
+      { label: "Personality test for couples", url: "/blog/personality-test-for-couples" },
+      { label: "Personality test for conflict resolution", url: "/blog/personality-test-for-conflict-resolution" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

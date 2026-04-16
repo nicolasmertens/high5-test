@@ -574,6 +574,27 @@ const BLOG_FAQS = {
     { question: "What if my partner has a different retirement personality?", answer: "Different retirement personalities are common. One partner may want travel and activity, the other routine and quiet. Name the differences and plan for both." },
     { question: "Is retirement planning just about money?", answer: "No. Financial readiness is necessary but not sufficient. Purpose, social connection, structure, and identity — all shaped by personality — determine satisfaction." },
   ],
+  "/blog/personality-test-for-volunteers": [
+    { question: "Which personality type is best for volunteering?", answer: "No type is best. Every organization needs leaders, organizers, supporters, and analysts. The best volunteer matches personality to role." },
+    { question: "Should volunteer organizations use personality tests?", answer: "Yes, especially for role placement. Matching volunteers to roles that fit their personality increases satisfaction, retention, and impact." },
+    { question: "What if I am introverted and want to volunteer?", answer: "Many high-impact roles suit introverts: tutoring, writing, data management, research, and behind-the-scenes support." },
+    { question: "How do I find volunteer roles that match my personality?", answer: "Take a personality test, then use the framework that resonates most. DISC for role type, 16 Personalities for work environment, Strengths for specific contributions." },
+    { question: "Can volunteering help me discover my personality type?", answer: "Indirectly, yes. Volunteering puts you in new situations that reveal natural preferences. Combined with a formal assessment, volunteer experience helps confirm your type." },
+  ],
+  "/blog/disc-conflict-resolution-at-work": [
+    { question: "How is this different from general conflict resolution?", answer: "This addresses the personality dimension specifically. Type-specific strategies rather than generic communication advice." },
+    { question: "What if both people have the same DISC type?", answer: "Same-type conflicts arise from similar blind spots. Two high D types may clash on who leads. The resolution framework still applies: name the dimension and find a structural solution." },
+    { question: "Should teams share DISC profiles?", answer: "Yes. Sharing creates a common language for differences and reduces misinterpretation." },
+    { question: "Can DISC prevent workplace conflict?", answer: "It reduces frequency and intensity by giving teams vocabulary for style differences and specific strategies for each pair." },
+    { question: "What if the conflict is not about personality?", answer: "DISC addresses style-based conflicts. Policy, ethics, or resource allocation conflicts need different resolution methods." },
+  ],
+  "/blog/personality-type-compatibility": [
+    { question: "Which personality types are most compatible?", answer: "No pair is inherently most compatible. Complementary types offer balance but need communication. Similar types understand each other but share blind spots. Compatibility depends on effort." },
+    { question: "Can opposite types have a good relationship?", answer: "Yes, often the best ones. Opposite types offer growth potential and complementary strengths. The key is understanding and adapting." },
+    { question: "Does compatibility matter more than shared values?", answer: "Shared values matter more long-term. Personality affects communication and processing. Values affect whether you want the same things. Both matter." },
+    { question: "Should couples compare personality results?", answer: "Yes. Comparing results creates shared vocabulary for differences and reduces misinterpretation." },
+    { question: "Can compatibility change over time?", answer: "Types do not change, but compatibility improves as both parties develop flexibility and communication skills." },
+  ],
 };
 
 const SEO_DATA = {
@@ -1058,6 +1079,27 @@ const SEO_DATA = {
     description:
       "How personality affects retirement satisfaction. Which retirement lifestyle fits your type, transition planning, and optimizing for purpose beyond finances.",
     canonicalUrl: "https://1test.me/blog/personality-test-for-retirement-planning",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-volunteers": {
+    title: "Personality Test for Volunteers: Find the Right Volunteer Role for You",
+    description:
+      "How personality tests help volunteers find roles that match their strengths. Which volunteer opportunities fit each personality type for maximum impact and satisfaction.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-volunteers",
+    ogType: "article",
+  },
+  "/blog/disc-conflict-resolution-at-work": {
+    title: "DISC Conflict Resolution at Work: Resolve Team Disagreements Effectively",
+    description:
+      "How to resolve workplace conflicts using DISC personality types. Practical strategies for each DISC style, team conflict patterns, and manager techniques.",
+    canonicalUrl: "https://1test.me/blog/disc-conflict-resolution-at-work",
+    ogType: "article",
+  },
+  "/blog/personality-type-compatibility": {
+    title: "Personality Type Compatibility: Which Types Work Best Together?",
+    description:
+      "Personality compatibility across DISC, 16 Personalities, and Enneagram. What makes types compatible, common friction points, and building strong relationships across differences.",
+    canonicalUrl: "https://1test.me/blog/personality-type-compatibility",
     ogType: "article",
   },
 };
@@ -1640,6 +1682,30 @@ const BODY_CONTENT = {
       { heading: "Retirement by DISC Type", text: "High D: risk identity loss without achievement targets — plan advisory roles or goal-oriented hobbies. High I: risk social isolation — plan community engagement. High S: risk routine disruption — plan new routines before retiring. High C: risk intellectual stagnation — plan challenging learning." },
       { heading: "What Each Framework Reveals", text: "DISC: what you will miss most. 16 Personalities: how you will spend your time. Enneagram: why you worked and what drives you now. Strengths: what to do with your talents." },
       { heading: "Designing Retirement Around Personality", text: "Take the assessment. List what work provides beyond money. Match retirement activities to those needs. Start building retirement life before retiring. Reassess after six months when reality sets in." },
+    ],
+  },
+  "/blog/personality-test-for-volunteers": {
+    h1: "Personality Test for Volunteers: Find the Role That Fits Your Type",
+    sections: [
+      { heading: "Volunteer Roles by DISC", text: "High D: leadership, crisis response, fundraising. High I: events, outreach, mentoring. High S: tutoring, admin, long-term support. High C: data analysis, grant writing, compliance." },
+      { heading: "Roles by 16 Personalities", text: "Introverts: one-on-one, behind-the-scenes roles. Extraverts: group-facing, events. Sensing types: hands-on, direct service. Intuitive types: strategic, program design. Thinking: logistics, evaluation. Feeling: mentoring, community care." },
+      { heading: "Avoiding Burnout", text: "High D burns out without decision authority. High I burns out when isolated. High S burns out in chaotic environments. High C burns out when expectations are unclear. Match role to personality and the organization keeps you longer." },
+    ],
+  },
+  "/blog/disc-conflict-resolution-at-work": {
+    h1: "DISC Conflict Resolution at Work: Resolve Team Disagreements by Type",
+    sections: [
+      { heading: "Common DISC Conflict Pairs", text: "D vs S: pace vs stability. D vs C: action vs analysis. I vs C: enthusiasm vs precision. I vs S: change vs gradual evolution. Each pair has specific resolution strategies." },
+      { heading: "Manager Techniques", text: "D types: address head-on, focus on outcomes. I types: create safe space for honest feedback. S types: ask clearly in private, they may not speak up in groups. C types: present data and logic, ask what evidence they need." },
+      { heading: "Resolution Process", text: "Identify the DISC dimension. Acknowledge both styles. Find the structural solution (change the process, not the person). Create a communication agreement. Follow up after one week." },
+    ],
+  },
+  "/blog/personality-type-compatibility": {
+    h1: "Personality Type Compatibility: Which Types Work Best Together?",
+    sections: [
+      { heading: "DISC Compatibility", text: "Same-style pairs: understand intuitively but share blind spots. Complementary pairs: balance but require communication. Opposite pairs: most growth potential and most initial friction. D+S and I+C are classic complements." },
+      { heading: "16 Personalities Compatibility", text: "Similar types share understanding but miss perspective. Complementary types bring different strengths. Thinking vs Feeling is the most common friction dimension — it is about information priority, not compatibility." },
+      { heading: "Building Cross-Type Compatibility", text: "Understand, do not judge. Adapt communication, not values. Name the personality dimension at play. Compatibility improves with effort and self-awareness, regardless of type combination." },
     ],
   },
 };
