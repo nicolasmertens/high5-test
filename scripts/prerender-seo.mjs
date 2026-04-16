@@ -490,6 +490,27 @@ const BLOG_FAQS = {
     { question: "How long does Enneagram growth take?", answer: "Growth is ongoing. Noticeable changes within weeks of daily practice. Significant pattern change typically takes months of consistent effort." },
     { question: "Should I share my Enneagram type?", answer: "Share in close relationships for mutual understanding. In professional settings, share only when it serves communication and trust." },
   ],
+  "/blog/personality-test-for-parents": [
+    { question: "Can I give my child a personality test?", answer: "1Test is designed for adults. For children, observe behavioral patterns and preferences. Use DISC and 16 Personalities concepts to understand their style without formal testing." },
+    { question: "What if my child has the opposite personality?", answer: "Opposite parent-child personalities are common and complementary. The key is respecting differences rather than trying to make your child more like you." },
+    { question: "Which personality test is best for parents?", answer: "DISC for communication and discipline style. Enneagram for fear-driven parenting patterns. 16 Personalities for cognitive processing differences. All four give the most complete picture." },
+    { question: "Can personality tests help with sibling conflict?", answer: "Indirectly yes. Understanding siblings have different personalities helps you mediate more fairly. What feels natural to one child may feel imposed upon another." },
+    { question: "Will knowing my personality make me a better parent?", answer: "It helps you parent more intentionally. You recognize when reactions are personality defaults rather than what your child needs. That awareness leads to better choices." },
+  ],
+  "/blog/disc-leadership-style": [
+    { question: "Which DISC style makes the best leader?", answer: "No style is inherently best. D excels in turnarounds. I excels in change management. S excels in stable growth. C excels in quality-focused environments." },
+    { question: "Can I change my DISC leadership style?", answer: "Your core style is stable, but you can develop flexibility. Effective leaders learn all four styles situationally." },
+    { question: "How do I manage someone with a different DISC style?", answer: "Adapt your communication. D types want outcomes. I types want recognition. S types want support. C types want data and clarity." },
+    { question: "Should my leadership team take DISC?", answer: "Yes. Mapping DISC across leadership reveals communication gaps, decision-making biases, and team balance. High-ROI team exercise." },
+    { question: "How is DISC leadership different from other models?", answer: "DISC focuses on observable behavior and communication. More practical and immediately actionable than abstract leadership theories." },
+  ],
+  "/blog/16-personalities-in-the-workplace": [
+    { question: "Which 16 Personalities type is best for the workplace?", answer: "No type is inherently best. Each contributes differently. Effective teams have type diversity so all perspectives are represented." },
+    { question: "Should employers test employees with 16 Personalities?", answer: "Use it for team development and communication, not hiring or promotion. Share results transparently and let people opt in." },
+    { question: "What if most of my team is the same type?", answer: "Homogeneous teams have shared blind spots. Consider the team's weakest dimension and hire for it or build compensating processes." },
+    { question: "How accurate is 16 Personalities for work?", answer: "It reliably describes cognitive preferences. It does not predict job performance. Use as a communication and team-building tool." },
+    { question: "Can my workplace personality type change?", answer: "Core preferences are stable. You can develop flexibility in less-preferred dimensions, but your natural style remains the same." },
+  ],
 };
 
 const SEO_DATA = {
@@ -890,6 +911,27 @@ const SEO_DATA = {
     description:
       "Use the Enneagram for personal growth coaching. Growth paths, stress patterns, and practical exercises for each of the nine types.",
     canonicalUrl: "https://1test.me/blog/enneagram-growth-coaching",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-parents": {
+    title: "Personality Test for Parents: Understand Your Parenting Style",
+    description:
+      "How personality tests help parents understand their parenting style, connect with children who have different personalities, and reduce family friction.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-parents",
+    ogType: "article",
+  },
+  "/blog/disc-leadership-style": {
+    title: "DISC Leadership Style: How Each DISC Profile Leads",
+    description:
+      "Discover your DISC leadership style. Strengths, blind spots, and growth areas for Dominance, Influence, Steadiness, and Conscientiousness leaders.",
+    canonicalUrl: "https://1test.me/blog/disc-leadership-style",
+    ogType: "article",
+  },
+  "/blog/16-personalities-in-the-workplace": {
+    title: "16 Personalities in the Workplace: Types, Teams, and Communication",
+    description:
+      "How the 16 personality types show up at work. Team dynamics, communication patterns, and building effective workplace relationships.",
+    canonicalUrl: "https://1test.me/blog/16-personalities-in-the-workplace",
     ogType: "article",
   },
 };
@@ -1376,6 +1418,30 @@ const BODY_CONTENT = {
       { heading: "Why the Enneagram Works for Growth", text: "The deepest self-awareness framework. Describes motivation — the why behind what you do. Each type has specific growth (integration) and stress (disintegration) directions mapping predictable healthy and unhealthy patterns." },
       { heading: "Growth Paths", text: "Type 1 to 7: practice spontaneity. Type 2 to 4: practice authenticity. Type 3 to 6: practice cooperation. Type 4 to 1: practice discipline. Type 5 to 8: practice bold action. Type 6 to 9: practice inner calm. Type 7 to 5: practice focus. Type 8 to 2: practice vulnerability. Type 9 to 3: practice decisive action." },
       { heading: "Daily Growth Practice", text: "Know your type. Track stress pattern daily. Practice one growth behavior daily. Journal weekly. Retake every 12 months. Combine with DISC for behavior, 16 Personalities for cognition, Strengths for talent." },
+    ],
+  },
+  "/blog/personality-test-for-parents": {
+    h1: "Personality Test for Parents: Understand Your Parenting Style",
+    sections: [
+      { heading: "DISC Parenting Styles", text: "High D: decisive, clear expectations, risk of controlling. High I: enthusiastic, encouraging, risk of inconsistency. High S: patient, nurturing, risk of avoiding conflict. High C: organized, quality-focused, risk of over-criticism." },
+      { heading: "Understanding Your Child", text: "Children show preferences early. Introverted children need quiet recharge. Extroverted children need social time. Conscientious children want rules. Spontaneous children resist rigid schedules. Adapt parenting to match." },
+      { heading: "Practical Steps", text: "Take the test yourself. Observe your child's patterns. Name your differences openly. Adapt communication style. Revisit as children grow — what works at 5 may not work at 15." },
+    ],
+  },
+  "/blog/disc-leadership-style": {
+    h1: "DISC Leadership Style: How Each Profile Leads Differently",
+    sections: [
+      { heading: "Four DISC Leadership Styles", text: "D (Driver): decisive, results-oriented, risks steamrolling. I (Motivator): inspiring, optimistic, risks overcommitting. S (Stabilizer): patient, builds trust, risks avoiding conflict. C (Analyst): analytical, thorough, risks overanalyzing." },
+      { heading: "Leading Different DISC Styles", text: "D team members: give autonomy, focus on outcomes. I team members: give recognition, allow variety. S team members: give stability, explain changes. C team members: give clear expectations, provide data." },
+      { heading: "Building DISC Balance", text: "No single style is complete. All D means high burnout. All I means low follow-through. All S means slow decisions. All C means analysis paralysis. Diverse leadership teams perform best." },
+    ],
+  },
+  "/blog/16-personalities-in-the-workplace": {
+    h1: "16 Personalities in the Workplace: Types, Teams, and Communication",
+    sections: [
+      { heading: "Four Dimensions at Work", text: "I vs E: energy source — quiet focus vs. interactive energy. S vs N: information processing — facts vs. patterns. T vs F: decision-making — logic vs. values (most common friction). J vs P: work organization — plans vs. flexibility." },
+      { heading: "Communication Strategies", text: "Introverts: send agenda before meetings, allow written input. Extraverts: allow discussion, follow up in writing. Sensing types: be specific, use examples. Intuitive types: share vision, explain why. Thinking types: be logical, present trade-offs. Feeling types: acknowledge impact, explain values." },
+      { heading: "Making It Work for Teams", text: "Have everyone take the test. Map the team's type distribution. Discuss natural strengths and blind spots. Agree on communication norms based on composition. Revisit quarterly." },
     ],
   },
 };

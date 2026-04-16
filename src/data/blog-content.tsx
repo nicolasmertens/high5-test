@@ -6709,6 +6709,207 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-16",
   },
+  "personality-test-for-parents": {
+    slug: "personality-test-for-parents",
+    metaTitle: "Personality Test for Parents: Understand Your Parenting Style",
+    metaDesc:
+      "Discover how personality tests help parents understand their parenting style, connect with children who have different personalities, and reduce family friction. Practical guide for moms and dads.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-parents",
+    h1: "Personality Test for Parents: Understand Your Parenting Style",
+    sections: [
+      {
+        heading: "Why Personality Matters in Parenting",
+        html: p("Your personality shapes how you discipline, communicate, show affection, and handle stress as a parent. When your parenting style clashes with your child's personality, friction increases — not because either of you is wrong, but because you process the world differently.") +
+          p("Understanding your personality helps you parent more intentionally. Instead of reacting on autopilot, you can recognize when your default response is driven by your personality rather than what your child needs in that moment."),
+      },
+      {
+        heading: "Your DISC Style as a Parent",
+        html: p("<strong>High Dominance parents</strong> are decisive and set clear expectations. Strength: children know where they stand. Risk: may come across as controlling. Adaptation: ask more questions before deciding, especially with sensitive children.") +
+          p("<strong>High Influence parents</strong> are enthusiastic and expressive. Strength: children feel loved and encouraged. Risk: may struggle with consistency and follow-through. Adaptation: set clear routines even when they feel boring.") +
+          p("<strong>High Steadiness parents</strong> are patient and nurturing. Strength: children feel safe and supported. Risk: may avoid necessary conflict. Adaptation: practice delivering firm boundaries calmly.") +
+          p("<strong>High Conscientiousness parents</strong> are organized and thorough. Strength: children have structure and quality standards. Risk: may be overly critical. Adaptation: celebrate effort, not just results."),
+      },
+      {
+        heading: "Understanding Your Child's Personality",
+        html: p("Children show personality preferences early. An introverted child needs quiet recharge time after school. An extroverted child needs social interaction. A highly conscientious child wants clear rules. A spontaneous child resists rigid schedules.") +
+          p("Common friction points:") +
+          ul([
+            "<strong>Parent high D, child high S:</strong> parent moves fast, child needs time to adjust. Slow down and give advance notice of changes.",
+            "<strong>Parent high C, child high I:</strong> parent focuses on homework quality, child wants to talk and play. Schedule both — study time and unstructured fun.",
+            "<strong>Parent introvert, child extrovert:</strong> parent needs quiet, child needs interaction. Set clear recharge boundaries while ensuring the child gets social time.",
+            "<strong>Parent Judging type, child Perceiving type:</strong> parent wants plans, child wants flexibility. Build flexible frameworks instead of rigid schedules.",
+          ]),
+      },
+      {
+        heading: "Using the Enneagram as a Parent",
+        html: p("The Enneagram reveals your core motivation as a parent. A Type 2 parent's deepest fear is being unloved — they may overgive and struggle with boundaries. A Type 1 parent fears being wrong — they may be overly critical. A Type 6 parent fears uncertainty — they may be overprotective.") +
+          p("Knowing your Enneagram type helps you catch when your parenting is driven by your own fear rather than your child's actual need. <a href=\"/free-enneagram-test\">Take the free Enneagram test</a> to identify your type."),
+      },
+      {
+        heading: "Practical Steps for Parents",
+        html: ol([
+          "<strong>Take the test yourself first.</strong> <a href=\"/free-personality-test\">Start with 1Test</a> — you get four frameworks in one session.",
+          "<strong>Observe your child's patterns.</strong> Do they recharge alone or with people? Do they prefer structure or spontaneity? Are they direct or gentle in communication?",
+          "<strong>Name your differences.</strong> With older children, share your results and talk about how you are different. This normalizes differences and reduces conflict.",
+          "<strong>Adapt your communication.</strong> If your child is indirect, ask open questions instead of demanding answers. If your child is direct, be straightforward instead of hinting.",
+          "<strong>Revisit as children grow.</strong> Personality becomes more visible as children develop. What works at age 5 may not work at age 15.",
+        ]),
+      },
+    ],
+    faqs: [
+      { question: "Can I give my child a personality test?", answer: "1Test is designed for adults. For children, observe their behavioral patterns and preferences. You can use DISC and 16 Personalities concepts to understand their style without formal testing." },
+      { question: "What if my child has the opposite personality?", answer: "Opposite parent-child personalities are common and can be highly complementary. The key is understanding and respecting differences rather than trying to make your child more like you." },
+      { question: "Which personality test is best for parents?", answer: "DISC is most practical for understanding communication and discipline style. The Enneagram helps you recognize fear-driven parenting. 16 Personalities shows cognitive processing differences. All four give the most complete picture." },
+      { question: "Can personality tests help with sibling conflict?", answer: "Indirectly, yes. Understanding that siblings have different personalities helps you mediate conflicts more fairly. What feels natural to one child may feel imposed upon another." },
+      { question: "Will knowing my personality make me a better parent?", answer: "It helps you parent more intentionally. You will recognize when your reactions are driven by your personality defaults rather than what your child needs. That awareness leads to better choices." },
+    ],
+    ctaHeading: "Understand your parenting personality",
+    ctaSubtext: "Free test — DISC, 16 Personalities, Enneagram, and Strengths.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "Personality test for relationships", url: "/blog/personality-test-for-relationships" },
+      { label: "Personality test for couples", url: "/blog/personality-test-for-couples" },
+      { label: "DISC communication styles", url: "/blog/disc-communication-styles" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "disc-leadership-style": {
+    slug: "disc-leadership-style",
+    metaTitle: "DISC Leadership Style: How Each DISC Profile Leads",
+    metaDesc:
+      "Discover your DISC leadership style. Learn the strengths, blind spots, and growth areas for Dominance, Influence, Steadiness, and Conscientiousness leaders. Build more effective leadership.",
+    canonicalUrl: "https://1test.me/blog/disc-leadership-style",
+    h1: "DISC Leadership Style: How Each Profile Leads Differently",
+    sections: [
+      {
+        heading: "Your DISC Profile Shapes Your Leadership",
+        html: p("DISC describes how you communicate, make decisions, and respond to pressure — all core leadership behaviors. Your DISC profile does not determine whether you are a good leader. It determines your leadership style, your natural strengths, and the blind spots you need to manage.") +
+          p('<a href="/free-disc-test">Take the free DISC test</a> to identify your leadership profile, then use this guide to lead more effectively.'),
+      },
+      {
+        heading: "The Four DISC Leadership Styles",
+        html: p("<strong>D (Dominance) Leaders — The Driver</strong>") +
+          p("Natural strengths: decisive, results-oriented, comfortable with conflict, drives accountability. These leaders cut through ambiguity and push teams to deliver.") +
+          p("Blind spots: may steamroll dissent, undervalue relationships, create burnout through relentless pace. May struggle with empathy and patience.") +
+          p("Growth: practice listening before deciding. Ask your team what they think — and wait for the answer. <a href=\"/blog/disc-management-style\">See DISC management style</a>.") +
+          p("<strong>I (Influence) Leaders — The Motivator</strong>") +
+          p("Natural strengths: inspiring, optimistic, builds strong relationships, sells vision. These leaders rally people around a shared purpose and make work feel meaningful.") +
+          p("Blind spots: may overcommit, avoid difficult conversations, lack follow-through on details. May struggle with accountability and structure.") +
+          p("Growth: build systems for follow-through. Schedule the hard conversations — do not wait for them to feel easy.") +
+          p("<strong>S (Steadiness) Leaders — The Stabilizer</strong>") +
+          p("Natural strengths: patient, reliable, builds deep trust, creates psychological safety. These leaders develop loyal, cohesive teams that perform consistently.") +
+          p("Blind spots: may avoid necessary conflict, resist change, struggle with speed. May over-accommodate at the expense of results.") +
+          p("Growth: practice delivering direct feedback. Embrace change as growth, not threat.") +
+          p("<strong>C (Conscientiousness) Leaders — The Analyst</strong>") +
+          p("Natural strengths: analytical, thorough, quality-focused, makes evidence-based decisions. These leaders build high-quality systems and avoid costly mistakes.") +
+          p("Blind spots: may overanalyze, be overly critical, create bottlenecks through perfectionism. May struggle with speed and people-connection.") +
+          p("Growth: set decision deadlines. Ship at 80% quality. Invest time in relationship-building, not just analysis."),
+      },
+      {
+        heading: "Leading Teams With Different DISC Styles",
+        html: p("The most effective leaders adapt their communication to each team member's DISC style:") +
+          ul([
+            "<strong>Leading D-style team members:</strong> give autonomy, focus on outcomes, be direct, avoid micromanaging.",
+            "<strong>Leading I-style team members:</strong> give recognition, allow social interaction, provide variety, check in on details.",
+            "<strong>Leading S-style team members:</strong> give stability, explain changes in advance, be patient, show appreciation.",
+            "<strong>Leading C-style team members:</strong> give clear expectations, provide data, allow time for analysis, respect their process.",
+          ]),
+      },
+      {
+        heading: "Building a Leadership Team With DISC Balance",
+        html: p("No single DISC style makes a complete leader. The best leadership teams have DISC diversity — a D leader drives results, an S leader builds culture, an I leader drives engagement, a C leader ensures quality.") +
+          p("If your leadership team lacks DISC diversity, you will see predictable gaps: all D means high burnout. All I means low follow-through. All S means slow decisions. All C means analysis paralysis.") +
+          p("<a href=\"/blog/disc-test-team-building\">See DISC for team building</a> for practical exercises to map and balance your team."),
+      },
+    ],
+    faqs: [
+      { question: "Which DISC style makes the best leader?", answer: "No DISC style is inherently best. D styles excel in turnaround situations. I styles excel in change management. S styles excel in stable growth. C styles excel in quality-focused environments." },
+      { question: "Can I change my DISC leadership style?", answer: "Your core style is stable, but you can develop flexibility. Effective leaders learn to use all four styles situationally, even if one comes naturally." },
+      { question: "How do I manage someone with a different DISC style?", answer: "Adapt your communication. D types want bottom-line outcomes. I types want enthusiasm and recognition. S types want patience and support. C types want data and clarity." },
+      { question: "Should my whole leadership team take DISC?", answer: "Yes. Mapping DISC across your leadership team reveals communication gaps, decision-making biases, and team balance. It is one of the highest-ROI team exercises." },
+      { question: "How is DISC leadership different from other leadership models?", answer: "DISC focuses on observable behavior and communication. It is more practical and immediately actionable than abstract leadership theories. You can apply DISC insights the same day." },
+    ],
+    ctaHeading: "Discover your DISC leadership style",
+    ctaSubtext: "Free DISC assessment with full profile. No paywall.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "Free DISC test", url: "/free-disc-test" },
+      { label: "DISC management style", url: "/blog/disc-management-style" },
+      { label: "Personality test for leadership", url: "/blog/personality-test-for-leadership" },
+      { label: "Strengths-based leadership", url: "/blog/strengths-based-leadership" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "16-personalities-in-the-workplace": {
+    slug: "16-personalities-in-the-workplace",
+    metaTitle: "16 Personalities in the Workplace: Types, Teams, and Communication",
+    metaDesc:
+      "Learn how the 16 personality types show up at work. Understand team dynamics, communication patterns, and how to build more effective workplace relationships using 16 Personalities.",
+    canonicalUrl: "https://1test.me/blog/16-personalities-in-the-workplace",
+    h1: "16 Personalities in the Workplace: Types, Teams, and Communication",
+    sections: [
+      {
+        heading: "How 16 Personalities Applies at Work",
+        html: p("The 16 Personalities framework describes how people take in information, make decisions, and organize their work. These four dimensions — Introversion/Extraversion, Sensing/Intuition, Thinking/Feeling, Judging/Perceiving — shape workplace behavior in predictable ways.") +
+          p("Understanding these dimensions helps you communicate more effectively, reduce conflict, and build teams where people work in roles that fit their natural style. <a href=\"/free-personality-test\">Take the free test</a> to find your workplace type."),
+      },
+      {
+        heading: "The Four Dimensions at Work",
+        html: p("<strong>Introversion vs. Extraversion (energy source):</strong> Introverts do their best work in quiet, focused environments. They think before speaking and prefer written communication. Extraverts do their best work in interactive environments. They think out loud and prefer meetings and calls. Neither is better — both are necessary. Friction happens when introverts feel steamrolled in meetings or extraverts feel shut out by silent colleagues.") +
+          p("<strong>Sensing vs. Intuition (information processing):</strong> Sensing types focus on facts, details, and practical application. They trust experience and precedent. Intuitive types focus on patterns, possibilities, and big-picture meaning. They trust theories and innovation. Friction happens when sensing types see intuitive ideas as unrealistic and intuitive types see sensing approaches as unimaginative.") +
+          p("<strong>Thinking vs. Feeling (decision-making):</strong> Thinking types prioritize logic, efficiency, and consistency. Feeling types prioritize values, impact on people, and harmony. This is the most common workplace friction point. Neither approach is wrong — effective decisions need both.") +
+          p("<strong>Judging vs. Perceiving (work organization):</strong> Judging types prefer structure, plans, and closure. They meet deadlines by planning ahead. Perceiving types prefer flexibility, spontaneity, and open options. They meet deadlines by pulling things together at the last minute. Friction happens when J types see P types as unreliable and P types see J types as rigid."),
+      },
+      {
+        heading: "Type Distribution and Team Composition",
+        html: p("Some types are more common than others. Thinking-Judging types (especially ESTJ and ISTJ) are overrepresented in management. Intuitive-Feeling types (especially INFJ and ENFP) are common in creative and people-focused roles. Intuitive-Thinking types (especially INTJ and ENTJ) are common in strategy and technology.") +
+          p("Team composition matters more than any individual type. A team of all Thinking types may make logical but culturally destructive decisions. A team of all Feeling types may prioritize harmony over necessary confrontation. A team of all Judging types may plan perfectly but miss opportunities that require flexibility.") +
+          p("Use <a href=\"/blog/personality-test-for-teams\">personality data for team building</a> to map your team and identify gaps."),
+      },
+      {
+        heading: "Communication Strategies by Dimension",
+        html: p("<strong>Communicating with Introverts:</strong> Send agenda before meetings. Allow written input. Do not put them on the spot. Give processing time after asking questions.") +
+          p("<strong>Communicating with Extraverts:</strong> Allow discussion time. Think out loud with them. Follow up verbal conversations with written summaries.") +
+          p("<strong>Communicating with Sensing types:</strong> Be specific. Use examples. Reference data. Explain the how, not just the why.") +
+          p("<strong>Communicating with Intuitive types:</strong> Share the vision. Explain the why. Allow room for exploration. Do not get bogged down in implementation details too early.") +
+          p("<strong>Communicating with Thinking types:</strong> Be logical. Present pros and cons. Avoid emotional appeals. Be direct.") +
+          p("<strong>Communicating with Feeling types:</strong> Acknowledge impact on people. Explain the values behind decisions. Be diplomatic. Show you care."),
+      },
+      {
+        heading: "Making 16 Personalities Work for Your Team",
+        html: p("The highest-value application is not typing people — it is building shared vocabulary for differences. When a team understands that the Thinking-Feeling dimension explains recurring disagreements about hiring, and the Judging-Perceiving dimension explains recurring arguments about deadlines, the conflict stops being personal and starts being structural.") +
+          p("Steps to implement:") +
+          ol([
+            "<strong>Have everyone take the test.</strong> <a href=\"/free-personality-test\">Use 1Test</a> — free, full results, four frameworks.",
+            "<strong>Map the team.</strong> Create a simple chart showing each person's type.",
+            "<strong>Discuss patterns.</strong> Where are the team's natural strengths? Where are the blind spots?",
+            "<strong>Agree on communication norms.</strong> Based on the team's composition, set rules: agenda before meetings, written follow-ups, decision deadlines.",
+            "<strong>Revisit quarterly.</strong> Personality does not change, but team dynamics do.",
+          ]),
+      },
+    ],
+    faqs: [
+      { question: "Which 16 Personalities type is best for the workplace?", answer: "No type is inherently best. Each type contributes differently. Effective teams have type diversity so that all perspectives — analytical, creative, structured, flexible — are represented." },
+      { question: "Should employers test employees with 16 Personalities?", answer: "Use it for team development and communication improvement, not for hiring or promotion decisions. Share results transparently and let people opt in." },
+      { question: "What if most of my team is the same type?", answer: "Homogeneous teams have shared strengths and shared blind spots. Consider the team's weakest dimension and either hire for it or build processes that compensate." },
+      { question: "How accurate is 16 Personalities for work?", answer: "It reliably describes cognitive processing preferences. It does not predict job performance. Use it as a communication and team-building tool, not a selection tool." },
+      { question: "Can my workplace personality type change?", answer: "Your core preferences are stable. You can develop flexibility in less-preferred dimensions, but your natural style remains the same." },
+    ],
+    ctaHeading: "Map your team's personality types",
+    ctaSubtext: "Free 16 Personalities test with full results. No paywall.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "Understanding 16 Personalities", url: "/blog/understanding-16-personalities" },
+      { label: "Personality test for teams", url: "/blog/personality-test-for-teams" },
+      { label: "DISC for team building", url: "/blog/disc-test-team-building" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {
