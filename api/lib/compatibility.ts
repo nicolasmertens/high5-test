@@ -61,35 +61,9 @@ export function computeStrengthsScore(
   return Math.round(raw * 100);
 }
 
-export interface PersonalityPairData {
-  label: string;
-  dynamic: string;
-  tip: string;
-  score: number;
-}
-
 export function computePersonalityScore(typeA: string, typeB: string): number {
   const pair = getPersonalityPair(typeA, typeB);
   return pair.score;
-}
-
-export function getPersonalityPair(typeA: string, typeB: string): PersonalityPairData {
-  const key = `${typeA}-${typeB}`;
-  const reverseKey = `${typeB}-${typeA}`;
-  return PERSONALITY_PAIRS[key] ?? PERSONALITY_PAIRS[reverseKey] ?? DEFAULT_PAIR;
-}
-
-export interface EnneagramPairData {
-  label: string;
-  dynamic: string;
-  atBest: string;
-  underStress: string;
-}
-
-export function getEnneagramPair(typeA: number, typeB: number): EnneagramPairData {
-  const key = `${typeA}-${typeB}`;
-  const reverseKey = `${typeB}-${typeA}`;
-  return ENNEAGRAM_PAIRS[key] ?? ENNEAGRAM_PAIRS[reverseKey] ?? DEFAULT_ENNEAGRAM_PAIR;
 }
 
 const DISC_ADVICE: Record<string, Record<string, { howA: string; howB: string; meeting: string; tips: string[] }>> = {
@@ -199,7 +173,7 @@ const DISC_ADVICE: Record<string, Record<string, { howA: string; howB: string; m
   },
 };
 
-interface PersonalityPairEntry {
+export interface PersonalityPairEntry {
   label: string;
   dynamic: string;
   tip: string;
@@ -267,7 +241,7 @@ function defaultPersonalityPair(typeA: string, typeB: string): PersonalityPairEn
 
 const DEFAULT_PAIR: PersonalityPairEntry = { label: "The Unknown Pair", dynamic: "Every personality combination has potential for great collaboration.", tip: "Focus on understanding each other's communication preferences.", score: 50 };
 
-function getPersonalityPair(typeA: string, typeB: string): PersonalityPairEntry {
+export function getPersonalityPair(typeA: string, typeB: string): PersonalityPairEntry {
   const key = `${typeA}-${typeB}`;
   const reverseKey = `${typeB}-${typeA}`;
   if (PERSONALITY_PAIRS[key]) return PERSONALITY_PAIRS[key];
@@ -275,7 +249,7 @@ function getPersonalityPair(typeA: string, typeB: string): PersonalityPairEntry 
   return defaultPersonalityPair(typeA, typeB);
 }
 
-interface EnneagramPairEntry {
+export interface EnneagramPairEntry {
   label: string;
   dynamic: string;
   atBest: string;
@@ -355,7 +329,7 @@ const DEFAULT_ENNEAGRAM_PAIR: EnneagramPairEntry = {
   underStress: "Falling back on type habits without awareness of each other's needs.",
 };
 
-function getEnneagramPair(typeA: number, typeB: number): EnneagramPairEntry {
+export function getEnneagramPair(typeA: number, typeB: number): EnneagramPairEntry {
   const key = `${typeA}-${typeB}`;
   const reverseKey = `${typeB}-${typeA}`;
   if (ENNEAGRAM_PAIRS[key]) return ENNEAGRAM_PAIRS[key];
