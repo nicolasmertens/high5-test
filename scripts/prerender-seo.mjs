@@ -448,6 +448,27 @@ const BLOG_FAQS = {
     { question: "Do personality tests discriminate?", answer: "Well-designed tests measure preferences and patterns, not abilities. Tests used in employment must comply with equal opportunity regulations." },
     { question: "How often should I retake a personality test?", answer: "Every 12-24 months is reasonable. Core personality is mostly stable but can shift over time." },
   ],
+  "/blog/personality-test-for-couples": [
+    { question: "Can personality tests predict relationship compatibility?", answer: "No. Self-awareness and communication skills matter more than personality similarity. Tests give vocabulary for understanding differences." },
+    { question: "Should we take the same test?", answer: "Yes. Take the same test so you have comparable frameworks. 1Test gives four frameworks from one session." },
+    { question: "What if we have opposite types?", answer: "Opposite types can be highly complementary when both understand and respect differences." },
+    { question: "How often should couples retake tests?", answer: "Every 12-18 months. Core personality is stable, but the conversation deepens over time." },
+    { question: "Which personality test is best for couples?", answer: "DISC for communication, 16 Personalities for cognitive differences, Enneagram for motivation understanding. All four gives the most complete picture." },
+  ],
+  "/blog/strengths-based-leadership": [
+    { question: "Can anyone be a strengths-based leader?", answer: "Yes. It is about identifying and leading from whatever your strengths are. Every strength profile can produce effective leadership." },
+    { question: "Should I ignore my weaknesses?", answer: "No. Manage weaknesses to adequacy, especially if they affect your role. But invest most development energy in amplifying strengths." },
+    { question: "How do I find my leadership strengths?", answer: "Take a strengths assessment. 1Test identifies your top talents across five domains — free, with full results." },
+    { question: "What if my team has overlapping strengths?", answer: "Map strengths across the team. Too much overlap in one area with gaps in another creates lopsided teams. Hire or partner to fill gaps." },
+    { question: "How is strengths-based leadership different?", answer: "It starts from your unique talents and builds your style around them, rather than fitting a standard leadership competency mold." },
+  ],
+  "/blog/personality-test-for-career-change": [
+    { question: "Can a personality test tell me what career to choose?", answer: "No. It describes preferences, strengths, and motivations to narrow your search. You still need to research and test specific roles." },
+    { question: "Which personality test is best for career change?", answer: "Multiple frameworks give the best picture. Strengths for talents, DISC for environment, 16 Personalities for thinking style, Enneagram for motivation." },
+    { question: "What if my personality does not match my career?", answer: "Common and often explains dissatisfaction. Moving toward roles that fit your profile increases satisfaction and reduces burnout." },
+    { question: "Should I change careers based on test results?", answer: "Use results as one input. Combine with skills assessment, market research, financial planning, and real-world testing." },
+    { question: "How do I know if a career fits my personality?", answer: "Look for overlap between your profile and the daily work. If your strengths are analytical and the role is relational, it is a poor fit." },
+  ],
 };
 
 const SEO_DATA = {
@@ -806,6 +827,27 @@ const SEO_DATA = {
     description:
       "Understand how accurate personality tests really are. Test-retest reliability, validity, what affects accuracy, and how to get the most truthful results.",
     canonicalUrl: "https://1test.me/blog/personality-test-accuracy",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-couples": {
+    title: "Personality Test for Couples: Understand Each Other Better",
+    description:
+      "How personality tests help couples communicate better, resolve conflicts, and deepen connection. Which frameworks work best for relationships.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-couples",
+    ogType: "article",
+  },
+  "/blog/strengths-based-leadership": {
+    title: "Strengths-Based Leadership: Lead From What You Do Best",
+    description:
+      "Learn how strengths-based leadership works. Discover your natural leadership talents, build complementary teams, and lead authentically.",
+    canonicalUrl: "https://1test.me/blog/strengths-based-leadership",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-career-change": {
+    title: "Using a Personality Test for Career Change: Find Work That Fits You",
+    description:
+      "How personality tests help you identify work aligned with your natural strengths, communication style, and motivations. Practical career change guide.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-career-change",
     ogType: "article",
   },
 };
@@ -1244,6 +1286,30 @@ const BODY_CONTENT = {
       { heading: "Reliability and Validity", text: "Reliability: consistent results over time. Big Five shows test-retest correlations of 0.70-0.90 across weeks and months. Validity: measuring what it claims. Mood, context, and impression management can affect individual results." },
       { heading: "Framework Comparison", text: "Big Five: highest academic research base, strong reliability and validity. 16 Personalities: high face validity, good dimensional reliability. DISC: strong behavioral validity, high test-retest when context is similar. Enneagram: high practical reliability, strong face validity for motivations." },
       { heading: "Getting Accurate Results", text: "Answer as you are, not as you want to be. Think about typical behavior. Take the test when relaxed. Retake after 6-12 months for confirmation. Cross-reference with multiple frameworks for convergence." },
+    ],
+  },
+  "/blog/personality-test-for-couples": {
+    h1: "Personality Test for Couples: Understand Each Other Better",
+    sections: [
+      { heading: "Why Couples Take Personality Tests", text: "Personality tests give couples a shared vocabulary for understanding differences. Self-awareness and empathy predict relationship quality more than personality similarity. Tests give a starting point for building awareness." },
+      { heading: "Which Frameworks Help Couples", text: "DISC: communication style differences. 16 Personalities: cognitive differences (Thinking vs Feeling is the most common friction). Enneagram: deep motivation understanding. Strengths: what each person naturally brings to the relationship." },
+      { heading: "Taking the Test Together", text: "Take independently. Share without judgment. Ask: What do you need from me that does not come naturally? Identify friction patterns. Make a plan for each friction point." },
+    ],
+  },
+  "/blog/strengths-based-leadership": {
+    h1: "Strengths-Based Leadership: Lead From What You Do Best",
+    sections: [
+      { heading: "What Is Strengths-Based Leadership", text: "Build your leadership style around what you naturally do well. Three principles: know your strengths, lead from your strengths, build a team that complements your weaknesses." },
+      { heading: "Leading From Your Strengths", text: "Executing strengths: lead by making things happen. Influencing strengths: lead by rallying people. Relationship strengths: lead by developing people. Thinking strengths: lead by seeing patterns and anticipating problems." },
+      { heading: "Building a Complementary Team", text: "Map team strengths. Identify gaps in strength domains. Hire or partner for gaps. Align roles to strengths. Review quarterly. The most effective move is building a team whose strengths fill your gaps." },
+    ],
+  },
+  "/blog/personality-test-for-career-change": {
+    h1: "Using a Personality Test for Career Change: Find Work That Fits",
+    sections: [
+      { heading: "Why Personality Matters for Career Change", text: "Person-job fit predicts satisfaction, performance, and retention better than almost any other factor. A personality test tells you what conditions you need to thrive — not what job to take." },
+      { heading: "Using Each Framework", text: "Strengths: what you do well naturally. DISC: what work environment suits you. 16 Personalities: how you process information and make decisions. Enneagram: why you work — your core motivation." },
+      { heading: "Career Change Process", text: "Take a multi-framework test. Identify must-haves from results. Generate career options where must-haves overlap. Research reality through conversations and job descriptions. Test before committing through shadowing or freelancing." },
     ],
   },
 };

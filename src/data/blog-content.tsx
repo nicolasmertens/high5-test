@@ -6312,6 +6312,195 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-16",
   },
+  "personality-test-for-couples": {
+    slug: "personality-test-for-couples",
+    metaTitle: "Personality Test for Couples: Understand Each Other Better",
+    metaDesc:
+      "Discover how personality tests help couples communicate better, resolve conflicts, and deepen connection. Learn which frameworks work best for relationships and how to use results together.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-couples",
+    h1: "Personality Test for Couples: Understand Each Other Better",
+    sections: [
+      {
+        heading: "Why Couples Take Personality Tests",
+        html: p("Personality tests give couples a shared vocabulary for understanding differences. Instead of arguing about who is right, you can recognize that you process information differently, recharge differently, and make decisions differently — and that is normal.") +
+          p("Research on relationship satisfaction shows that self-awareness and empathy predict relationship quality more than personality similarity (Luo and Klohnen, 2005). A personality test gives both partners a starting point for building that awareness.") +
+          p('<a href="/free-personality-test">Take the free test together</a> — each person completes it independently, then compare results.'),
+      },
+      {
+        heading: "Which Frameworks Help Couples Most",
+        html: p("<strong><a href=\"/blog/disc-communication-styles\">DISC</a></strong> shows communication style differences. If one partner is high Dominance (direct, fast-paced) and the other is high Steadiness (patient, thoughtful), they will naturally approach conversations differently. Knowing this prevents misinterpreting pace as indifference or directness as criticism.") +
+          p("<strong><a href=\"/blog/understanding-16-personalities\">16 Personalities</a></strong> reveals cognitive differences. The most common friction points in couples are Thinking vs. Feeling (logic-first vs. values-first decisions) and Judging vs. Perceiving (structured vs. flexible planning).") +
+          p("<strong><a href=\"/blog/enneagram-types-explained\">Enneagram</a></strong> goes deeper into motivations. Understanding why your partner acts the way they do — not just how — builds deeper empathy. A Type 2 partner helps because being needed is their core motivation, not because they are weak.") +
+          p("<strong><a href=\"/free-strengths-test\">Strengths</a></strong> highlights what each person naturally brings to the relationship. Complementary strengths reduce resentment — you stop expecting your partner to be good at everything."),
+      },
+      {
+        heading: "How to Take a Personality Test as a Couple",
+        html: ol([
+          "<strong>Take independently.</strong> Each partner completes the test on their own. Answer honestly — not how you think your partner wants you to answer.",
+          "<strong>Share results without judgment.</strong> No personality type is better. Differences are not deficiencies.",
+          "<strong>Ask one question:</strong> \"What do you need from me that does not come naturally?\" This is the most useful question a personality test enables.",
+          "<strong>Identify friction patterns.</strong> Look at where your types differ. Those are likely your recurring conflict areas.",
+          "<strong>Make a plan.</strong> For each friction point, agree on a strategy. Example: a Judging type handles vacation logistics; a Perceiving type handles spontaneous discoveries.",
+        ]),
+      },
+      {
+        heading: "Common Personality Friction Points",
+        html: p("<strong>Communication pace:</strong> One partner processes out loud; the other needs time to think. Neither is wrong — they are different. DISC helps identify this.") +
+          p("<strong>Decision-making:</strong> Logic-first vs. values-first. Neither approach is better. 16 Personalities Thinking vs. Feeling explains this dynamic.") +
+          p("<strong>Recharge needs:</strong> One partner recharges socially; the other needs solitude. This is the most common daily friction. 16 Personalities Introversion vs. Extraversion maps this directly.") +
+          p("<strong>Conflict style:</strong> Some types address conflict immediately; others withdraw to process. Understanding that withdrawal is processing — not avoidance — reduces escalation. The Enneagram explains stress responses that drive conflict patterns."),
+      },
+      {
+        heading: "Beyond the Test: Building Lasting Understanding",
+        html: p("A personality test is a starting point, not a solution. The real value comes from ongoing conversations about differences. Revisit your results when you hit a conflict. Ask: \"Is this a personality difference or an actual disagreement?\" Often it is the former.") +
+          p("Retake every 12-18 months. Your results will be mostly stable, but the conversation about them deepens as your relationship grows. <a href=\"/blog/personality-test-for-relationships\">See our full relationship guide</a> for more strategies."),
+      },
+    ],
+    faqs: [
+      { question: "Can personality tests predict relationship compatibility?", answer: "No. Research shows that self-awareness and communication skills matter more than personality similarity. Tests give you vocabulary for understanding differences, not a compatibility score." },
+      { question: "Should we take the same test or different ones?", answer: "Take the same test so you have comparable frameworks. 1Test gives you four frameworks from one test session, so you can compare across DISC, 16 Personalities, Enneagram, and Strengths." },
+      { question: "What if we have opposite personality types?", answer: "Opposite types can be highly complementary. The key is understanding and respecting differences rather than trying to change each other. Opposite types often report the highest relationship satisfaction when both are self-aware." },
+      { question: "How often should couples retake personality tests?", answer: "Every 12-18 months. Core personality is stable, but the conversation about differences deepens over time." },
+      { question: "Which personality test is best for couples?", answer: "DISC for communication patterns. 16 Personalities for cognitive differences. Enneagram for deeper motivation understanding. Taking all four gives the most complete picture." },
+    ],
+    ctaHeading: "Take the free personality test together",
+    ctaSubtext: "Both partners get full results across four frameworks. No paywall.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "Personality test for relationships", url: "/blog/personality-test-for-relationships" },
+      { label: "16 Personalities relationships", url: "/blog/16-personalities-relationships" },
+      { label: "DISC communication styles", url: "/blog/disc-communication-styles" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "strengths-based-leadership": {
+    slug: "strengths-based-leadership",
+    metaTitle: "Strengths-Based Leadership: Lead From What You Do Best",
+    metaDesc:
+      "Learn how strengths-based leadership works. Discover your natural leadership talents, build complementary teams, and lead authentically without trying to fix weaknesses.",
+    canonicalUrl: "https://1test.me/blog/strengths-based-leadership",
+    h1: "Strengths-Based Leadership: Lead From What You Do Best",
+    sections: [
+      {
+        heading: "What Is Strengths-Based Leadership?",
+        html: p("Strengths-based leadership means building your leadership style around what you naturally do well, rather than trying to fix every weakness. Research from Gallup found that leaders who focus on strengths every day are more likely to be engaged at work and report higher team performance.") +
+          p("The approach has three principles: know your strengths, lead from your strengths, and build a team that complements your weaknesses. This does not mean ignoring weaknesses — it means managing them through team composition rather than personal struggle."),
+      },
+      {
+        heading: "Discovering Your Leadership Strengths",
+        html: p('<a href="/free-strengths-test">Take the free Strengths assessment</a> to identify your top natural talents across five domains: Executing, Influencing, Relationship Building, Strategic Thinking, and Analytical.') +
+          p("Your top strengths shape your leadership style. A leader with strong Achiever and Discipline thrives on execution and structure. A leader with strong Empathy and Developer naturally coaches and develops people. A leader with strong Strategic and Ideation excels at vision and innovation.") +
+          p("No strength profile makes a better leader. Each creates a different leadership style that works in different contexts."),
+      },
+      {
+        heading: "Leading From Your Strengths",
+        html: p("<strong>Executing strengths</strong> (Achiever, Discipline, Responsibility, Arranger): You lead by making things happen reliably. Build systems, track progress, and deliver consistently. Risk: over-controlling. Mitigation: delegate outcomes, not tasks.") +
+          p("<strong>Influencing strengths</strong> (Command, Communication, Competition, Woo): You lead by rallying people and driving action. Cast vision, build buy-in, and push for results. Risk: steamrolling quieter voices. Mitigation: create space for input before deciding.") +
+          p("<strong>Relationship strengths</strong> (Empathy, Developer, Connectedness, Relator): You lead by developing people and building trust. Coach, listen, and invest in growth. Risk: avoiding hard conversations. Mitigation: schedule difficult feedback promptly.") +
+          p("<strong>Thinking strengths</strong> (Strategic, Ideation, Analytical, Learner): You lead by seeing patterns and anticipating problems. Analyze, plan, and innovate. Risk: analysis paralysis. Mitigation: set decision deadlines."),
+      },
+      {
+        heading: "Building a Complementary Team",
+        html: p("The most effective leadership move is building a team whose strengths fill your gaps. If you are strong on vision but weak on execution, hire a disciplined operator. If you are strong on analysis but weak on communication, partner with someone who has Influencing strengths.") +
+          p("Steps to build a complementary team:") +
+          ol([
+            "<strong>Map your team's strengths.</strong> Have everyone take <a href=\"/free-strengths-test\">the Strengths assessment</a>.",
+            "<strong>Identify gaps.</strong> Which strength domains are missing or underrepresented?",
+            "<strong>Hire or partner for gaps.</strong> Do not clone yourself — fill the missing pieces.",
+            "<strong>Align roles to strengths.</strong> Put analytical thinkers on data problems, relationship builders on client management.",
+            "<strong>Review quarterly.</strong> Strengths do not change much, but team needs do.",
+          ]),
+      },
+      {
+        heading: "Strengths-Based Leadership vs. Fixing Weaknesses",
+        html: p("Traditional leadership development often focuses on fixing weaknesses. The strengths-based approach argues that you get more return from investing in what you already do well. You can reach excellence in a strength. A weakness, at best, reaches adequacy.") +
+          p("This does not mean ignoring fatal flaws. If a weakness directly undermines your leadership — like poor communication in a customer-facing role — address it to the level of adequacy. Then invest the majority of your development energy in amplifying strengths.") +
+          p("Read more about <a href=\"/blog/how-to-use-personality-test-results\">using personality test results for growth</a> and <a href=\"/blog/personality-test-for-leadership\">personality tests for leadership development</a>."),
+      },
+    ],
+    faqs: [
+      { question: "Can anyone be a strengths-based leader?", answer: "Yes. Strengths-based leadership is not about having specific strengths — it is about identifying and leading from whatever your strengths are. Every strength profile can produce effective leadership." },
+      { question: "Should I ignore my weaknesses entirely?", answer: "No. Manage weaknesses to the level of adequacy, especially if they directly affect your role. But invest the majority of your development energy in amplifying your strengths." },
+      { question: "How do I find out my leadership strengths?", answer: "Take a strengths assessment. The 1Test Strengths assessment identifies your top talents across five domains — free, with full results." },
+      { question: "What if my team has overlapping strengths?", answer: "Teams with too much overlap in one area and gaps in another become lopsided. Map strengths across the team and hire or partner to fill gaps." },
+      { question: "How is this different from other leadership approaches?", answer: "Most leadership development focuses on a standard set of competencies. Strengths-based leadership starts from your unique talents and builds your style around them, rather than trying to fit a mold." },
+    ],
+    ctaHeading: "Discover your leadership strengths",
+    ctaSubtext: "Free Strengths assessment with full results. No paywall.",
+    ctaFramework: "strengths",
+    ctaUrl: "/free-strengths-test",
+    crossLinks: [
+      { label: "Free Strengths test", url: "/free-strengths-test" },
+      { label: "Personality test for leadership", url: "/blog/personality-test-for-leadership" },
+      { label: "Strengths for career", url: "/blog/strengths-for-career" },
+      { label: "Personality test for managers", url: "/blog/personality-test-for-managers" },
+    ],
+    datePublished: "2026-04-16",
+  },
+  "personality-test-for-career-change": {
+    slug: "personality-test-for-career-change",
+    metaTitle: "Using a Personality Test for Career Change: Find Work That Fits You",
+    metaDesc:
+      "Thinking about a career change? Learn how personality tests help you identify work that aligns with your natural strengths, communication style, and motivations. Practical guide with frameworks and steps.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-career-change",
+    h1: "Using a Personality Test for Career Change: Find Work That Fits",
+    sections: [
+      {
+        heading: "Why Personality Matters for Career Change",
+        html: p("Career change often fails when people choose based on salary projections or prestige without considering fit. Research shows that person-job fit — how well your personality aligns with your work — predicts satisfaction, performance, and retention better than almost any other factor (Kristof-Brown et al., 2005).") +
+          p("A personality test does not tell you what job to take. It tells you what conditions you need to thrive: how you communicate, what motivates you, what drains you, and what comes naturally. That information narrows your career search to roles where you are more likely to succeed."),
+      },
+      {
+        heading: "Using Each Framework for Career Clarity",
+        html: p("<strong><a href=\"/free-strengths-test\">Strengths</a></strong> tells you what you do well naturally. If your top strengths are analytical and strategic, data-heavy roles fit. If your strengths are relational and empathetic, people-focused roles fit. <a href=\"/blog/strengths-for-career\">See strengths for career guide</a>.") +
+          p("<strong><a href=\"/blog/disc-assessment-guide\">DISC</a></strong> tells you what work environment suits you. High Dominance: fast-paced, competitive, autonomous. High Influence: collaborative, social, visible. High Steadiness: stable, supportive, predictable. High Conscientiousness: structured, detail-oriented, quality-focused.") +
+          p("<strong><a href=\"/blog/understanding-16-personalities\">16 Personalities</a></strong> tells you how you process information and make decisions. Intuitive types prefer big-picture strategy. Sensing types prefer practical application. Thinking types prefer logical analysis. Feeling types prefer people impact.") +
+          p("<strong><a href=\"/free-enneagram-test\">Enneagram</a></strong> tells you why you work. A Type 3 is motivated by achievement. A Type 9 is motivated by peace. A Type 5 is motivated by mastery. Understanding your core motivation helps you choose work that feels meaningful, not just tolerable. <a href=\"/blog/enneagram-career-paths\">See Enneagram career paths</a>."),
+      },
+      {
+        heading: "A Step-by-Step Career Change Process",
+        html: ol([
+          "<strong>Take a multi-framework personality test.</strong> <a href=\"/free-personality-test\">Start with 1Test</a> — you get Strengths, 16 Personalities, DISC, and Enneagram in one session.",
+          "<strong>Identify your must-haves.</strong> From your results, list: preferred work environment (DISC), natural talents (Strengths), thinking style (16 Personalities), and core motivation (Enneagram).",
+          "<strong>Generate career options.</strong> For each must-have, list careers that match. Where lists overlap, you have high-fit candidates.",
+          "<strong>Research reality.</strong> Talk to people in those roles. Read job descriptions. Check salary data. Confirm that the day-to-day work matches what your personality profile suggests.",
+          "<strong>Test before you commit.</strong> Shadow, freelance, volunteer, or take a course. Experience the work before making the full leap.",
+        ]),
+      },
+      {
+        heading: "Common Career Change Mistakes",
+        html: p("<strong>Chasing prestige over fit.</strong> A promotion that takes you further from your natural strengths is not a win. It is a path to burnout.") +
+          p("<strong>Ignoring environment.</strong> Two roles with the same title can feel completely different depending on team size, pace, and autonomy. Your DISC profile tells you what environment you need.") +
+          p("<strong>Assuming personality limits you.</strong> A personality test describes preferences, not capabilities. You can succeed in roles that do not match your type — it just takes more energy. The goal is finding roles that energize rather than drain you.") +
+          p("<strong>Testing once and treating it as destiny.</strong> Retake after life changes. Your results should be stable, but a major career change can shift how you see yourself."),
+      },
+      {
+        heading: "When Personality Fits, Performance Follows",
+        html: p("The best career change is one where your personality and the role align. Not perfectly — no job is a perfect fit — but enough that your natural strengths get used daily, your work environment matches your preferences, and your core motivation gets satisfied.") +
+          p("Start with <a href=\"/free-personality-test\">the free 1Test assessment</a>. Get your profile across four frameworks. Then use the patterns to guide your career search — not as a rulebook, but as a compass."),
+      },
+    ],
+    faqs: [
+      { question: "Can a personality test tell me what career to choose?", answer: "No. A personality test describes your preferences, strengths, and motivations. It narrows your career search to roles that fit your profile, but you still need to research specific jobs and test them through experience." },
+      { question: "Which personality test is best for career change?", answer: "Using multiple frameworks gives the best picture. Strengths identifies natural talents. DISC reveals preferred work environment. 16 Personalities shows thinking style. Enneagram reveals core motivation. 1Test gives all four in one session." },
+      { question: "What if my personality does not match my current career?", answer: "That is common and often explains dissatisfaction. You can adapt to a mismatched role, but it costs extra energy. Long-term, moving toward roles that fit your personality profile increases satisfaction and reduces burnout." },
+      { question: "Should I change careers based on personality test results?", answer: "Use results as one input, not the only input. Combine personality data with skills assessment, market research, financial planning, and real-world testing (shadowing, freelancing) before committing to a change." },
+      { question: "How do I know if a career fits my personality?", answer: "Look for overlap between your profile and the daily work. If your Strengths are analytical and the role is relational, it is a poor fit. If your DISC style needs autonomy and the role is micromanaged, friction is inevitable." },
+    ],
+    ctaHeading: "Find work that fits your personality",
+    ctaSubtext: "Free test — Strengths, 16 Personalities, DISC, and Enneagram.",
+    ctaFramework: "all",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Free personality test", url: "/free-personality-test" },
+      { label: "Personality test for career", url: "/blog/personality-test-for-career" },
+      { label: "Strengths for career", url: "/blog/strengths-for-career" },
+      { label: "Enneagram career paths", url: "/blog/enneagram-career-paths" },
+    ],
+    datePublished: "2026-04-16",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {
