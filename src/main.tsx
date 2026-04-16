@@ -342,6 +342,18 @@ createRoot(document.getElementById("root")!).render(
               path="/blog/disc-type-i-influence"
               element={<BlogPage slug="disc-type-i-influence" />}
             />
+            <Route
+              path="/blog/enneagram-type-8-challenger"
+              element={<BlogPage slug="enneagram-type-8-challenger" />}
+            />
+            <Route
+              path="/blog/disc-type-c-conscientiousness"
+              element={<BlogPage slug="disc-type-c-conscientiousness" />}
+            />
+            <Route
+              path="/blog/16-personalities-career-guide"
+              element={<BlogPage slug="16-personalities-career-guide" />}
+            />
             <Route path="/privacy-draft" element={<PrivacyPolicy />} />
             <Route path="/terms-draft" element={<TermsOfService />} />
             <Route path="/relationship/:id" element={<RelationshipReportPage />} />

@@ -658,6 +658,27 @@ const BLOG_FAQS = {
      { question: "What are the blind spots of DISC type I?", answer: "Common blind spots include overcommitting, lack of follow-through on projects that lose novelty, disorganization, avoiding difficult conversations to keep things positive, and moving between topics so quickly that engagement feels shallow. These are not weaknesses — they are growth areas that become manageable with awareness and practice." },
      { question: "How should I communicate with an I type?", answer: "Start with a personal connection before getting to business. Give them room to talk through ideas. Acknowledge their contributions. Be enthusiastic and match their energy. When you need them to follow through, be specific about deadlines and expectations — clear structure helps I types deliver on their commitments." },
    ],
+  "/blog/enneagram-type-8-challenger": [
+    { question: "What is Enneagram Type 8?", answer: "Type 8, the Challenger, is driven by a need to be strong, in control, and self-reliant. Their core fear is being controlled, vulnerable, or appearing weak. Eights are decisive, direct, protective, and energetic. They confront problems head-on and bring intensity to everything they do." },
+    { question: "What is the growth direction for Type 8?", answer: "Type 8 grows toward Type 2. When healthy, Eights develop empathy, generosity, and genuine care for others. They shift from protecting themselves to protecting and nurturing the people around them. The key practice is learning that vulnerability is a strength, not a weakness." },
+    { question: "What is the stress direction for Type 8?", answer: "Under stress, Type 8 moves toward Type 5. They become withdrawn, secretive, and paranoid about others' motives. They pull back from connection, hoard information, and overthink instead of act. This withdrawal pattern is often confusing for people who know the Eight as a direct, present force." },
+    { question: "How do I know if I am an Enneagram Type 8?", answer: "Take the free Enneagram test on 1Test. It takes about 8-12 minutes, and you receive your type, wing tendencies, growth direction, and stress direction — all free with no paywall. You can also look for these patterns: you naturally take charge, you respect people who stand up to you, you struggle with vulnerability, and you feel energized by challenges." },
+    { question: "How can Type 8 Challengers grow?", answer: "The most important growth practice for Eights is recognizing that vulnerability and asking for help are signs of strength, not weakness. Practice asking questions before giving directives. Delegate decisions and resist overriding them. Channel your energy into genuine care for others rather than control. The most effective Type 8 leaders create space for others to contribute." },
+  ],
+  "/blog/disc-type-c-conscientiousness": [
+    { question: "What is DISC type C (Conscientiousness)?", answer: "DISC type C describes people who are analytical, detail-oriented, quality-focused, and systematic. They prioritize accuracy and correctness, prefer data-driven decisions, and bring thoroughness that catches what others miss. Most people have a blend of DISC styles, with C being one component of their profile." },
+    { question: "How do I know if I am a high C?", answer: "Take the free DISC test on 1Test. It takes about 5-8 minutes, and you receive your scores across all four dimensions — Dominance, Influence, Steadiness, and Conscientiousness — plus your primary style and practical tips. No paywall." },
+    { question: "Is DISC type C good for leadership?", answer: "C types make effective leaders in environments that require precision, quality, and analytical decision-making. They excel at strategic planning, process design, and risk management. The most effective C leaders also develop the ability to make timely decisions and communicate with warmth, not just accuracy." },
+    { question: "What are the blind spots of DISC type C?", answer: "Common blind spots include perfectionism, analysis paralysis, slow decision-making, and a tendency to be overly critical. C types can also struggle with ambiguity and may over-research when action is needed. These are not weaknesses — they are growth areas that become manageable with awareness and practice." },
+    { question: "How should I communicate with a C type?", answer: "Lead with data, be precise, give them time to analyze, and respect their attention to detail. Avoid vague language, overgeneralizations, and pressuring for instant decisions. C types respond best to clear, evidence-based communication." },
+  ],
+  "/blog/16-personalities-career-guide": [
+    { question: "Which personality type is best for careers?", answer: "No type is inherently better for careers. Each type thrives in different environments. Analysts thrive in analytical, strategic roles. Diplomats thrive in people-focused, mission-driven roles. Sentinels thrive in structured, reliable environments. Explorers thrive in dynamic, hands-on roles. The best career fit matches your preferences, not a universal ideal." },
+    { question: "Can my personality type limit my career options?", answer: "No. Your type describes preferences, not capabilities. Any type can succeed in any career. The difference is energy cost. A career aligned with your preferences feels energizing. One misaligned with your preferences drains you faster. Focus on energy alignment, not type restriction." },
+    { question: "How do I find a career that matches my personality?", answer: "Start by understanding your preferences: how you recharge, process information, make decisions, and structure your time. Then look for roles and organizations where those preferences are assets. Combine your personality results with your Strengths profile and DISC style for a more specific career picture. Take the free personality test on 1Test to get started." },
+    { question: "Should I choose a career based on my personality test?", answer: "Use personality test results as one input alongside your skills, interests, values, and practical circumstances. A test helps you understand which environments align with your preferences, but it should not be the only factor. The best career decisions combine self-knowledge with real-world experience and opportunity." },
+    { question: "What if my career does not match my personality type?", answer: "Most people do not have careers that perfectly match their type. What matters is whether your work environment supports your core preferences in some way. Focus on finding aspects of your role that align with your preferences, and look for opportunities to add more of what energizes you." },
+  ],
  };
 
 const SEO_DATA = {
@@ -1226,6 +1247,27 @@ const SEO_DATA = {
     description:
       "Deep dive into DISC I (Influence) type: traits, communication style, strengths, blind spots, working with I types, and growth areas. Free DISC test at 1Test.",
     canonicalUrl: "https://1test.me/blog/disc-type-i-influence",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-8-challenger": {
+    title: "Enneagram Type 8 Challenger — Core Motivation, Growth, and Practical Advice",
+    description:
+      "Deep dive into Enneagram Type 8 (Challenger): core motivation (control), core fear (vulnerability), growth direction to 2, stress direction to 5, and practical advice for growth. Free Enneagram test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-8-challenger",
+    ogType: "article",
+  },
+  "/blog/disc-type-c-conscientiousness": {
+    title: "DISC Type C Conscientiousness — Traits, Strengths, Blind Spots, and Growth",
+    description:
+      "Deep dive into DISC C (Conscientiousness) type: traits, communication style, strengths, blind spots, working with C types, and growth areas. Free DISC test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/disc-type-c-conscientiousness",
+    ogType: "article",
+  },
+  "/blog/16-personalities-career-guide": {
+    title: "16 Personalities Career Guide — Best Careers for Every Type | 1Test",
+    description:
+      "Complete career guide for all 16 personality types. Which types thrive in which environments, how each type approaches career decisions, and best career matches by type.",
+    canonicalUrl: "https://1test.me/blog/16-personalities-career-guide",
     ogType: "article",
   },
 };
@@ -1898,12 +1940,36 @@ const BODY_CONTENT = {
       { heading: "Practical Growth for Sixes", text: "Practice deciding without full certainty — set deadlines for medium-stakes decisions. Limit reassurance-seeking by writing down your own answer before asking others. Distinguish productive vigilance (identifies real risks) from anxiety loops (replays scenarios without action). Build trust incrementally through small vulnerabilities. Combine Enneagram with DISC and Strengths for a complete picture of your professional and relational patterns." },
     ],
   },
-  "/blog/disc-type-i-influence": {
+"/blog/disc-type-i-influence": {
     h1: "DISC Type I (Influence): Complete Guide to Traits, Strengths, and Growth",
     sections: [
-      { heading: "What DISC I Means", text: "The I in DISC stands for Influence. People with high I scores are enthusiastic, optimistic, sociable, and persuasive. They prioritize relationships, ideas, and positive energy. High I individuals are the energizers of their teams — they bring people together, generate enthusiasm, and make others feel included and valued through warmth and energy rather than authority." },
+      { heading: "What DISC I Means", text: "The I in DISC stands for Influence. People with high I scores are enthusiastic, optimistic, sociable, and persuasive. They prioritize relationships and ideas, prefer fast-paced and collaborative environments, and excel at building connections, motivating teams, and networking. Most people have a blend of DISC styles, with I being one component of their profile." },
       { heading: "Strengths and Blind Spots", text: "I types excel at building relationships, motivating teams, networking, creative ideation, and persuasion. Their blind spots include overcommitting, lack of follow-through on projects that lose novelty, disorganization, avoiding difficult conversations, and moving between topics so quickly that engagement feels shallow. Each blind spot is a growth area manageable with awareness and practice." },
-      { heading: "Working With and Growing as an I Type", text: "Give I types room to think out loud, acknowledge their contributions, be specific about expectations, and pair them with execution-focused partners (often high C or high S colleagues). Growth strategies include writing commitments down immediately, practicing saying no, using the two-minute rule for small tasks, scheduling follow-up time, and building depth in three key professional relationships." },
+      { heading: "Working With and Growing as an I Type", text: "Give I types room to think out loud, acknowledge their contributions, be specific about expectations, and pair them with execution-focused partners. Growth strategies include writing commitments down immediately, practicing saying no, using the two-minute rule for small tasks, scheduling follow-up time, and building depth in key professional relationships." },
+    ],
+  },
+  "/blog/enneagram-type-8-challenger": {
+    h1: "Enneagram Type 8 (Challenger): Complete Guide to Motivation, Growth, and Relationships",
+    sections: [
+      { heading: "What Is Enneagram Type 8?", text: "Enneagram Type 8, the Challenger, is driven by a need for control, independence, and strength. Eights are decisive, direct, and protective leaders who confront problems head-on. Their core fear is being controlled, vulnerable, or appearing weak. This fear runs so deep that many Eights do not recognize it as fear — they experience it as a drive for independence and a refusal to be pushed around." },
+      { heading: "Core Motivation, Fear, and Growth Direction", text: "Core motivation: To be strong, in control, and self-reliant. Core fear: Being controlled, vulnerability, or appearing weak. Growth direction toward Type 2: When healthy, Eights develop empathy, generosity, and genuine care for others. Stress direction toward Type 5: Under pressure, Eights withdraw, become secretive, and overthink instead of act. Understanding these directions gives you a personalized roadmap for growth." },
+      { heading: "Strengths, Blind Spots, and Growth Strategies", text: "Key strengths include decisiveness, courage, protectiveness, direct communication, and resilience. Blind spots include dominance, insensitivity, control-seeking, and all-or-nothing thinking. Growth strategies: practice asking before telling, identify your vulnerability triggers, build genuine connections through care, delegate with trust, and combine frameworks for a fuller picture. The most impactful growth area for Eights is learning that vulnerability is strength, not weakness." },
+    ],
+  },
+  "/blog/disc-type-c-conscientiousness": {
+    h1: "DISC Type C (Conscientiousness): Complete Guide to Traits, Strengths, and Growth",
+    sections: [
+      { heading: "What DISC C Means", text: "The C in DISC stands for Conscientiousness. People with high C scores are analytical, detail-oriented, quality-focused, and systematic. They prioritize accuracy and correctness, prefer structured and logical approaches, and bring a level of thoroughness that catches what others miss. Most people have a blend of DISC styles, with C being one component of their profile." },
+      { heading: "Strengths and Blind Spots", text: "C types excel at accuracy, thoroughness, logical thinking, quality standards, and process design. Their blind spots include perfectionism, analysis paralysis, slow decision-making, and a tendency to be overly critical. The most impactful growth area for C types is learning to distinguish between decisions that require thoroughness and decisions that just need to get made." },
+      { heading: "Working With and Growing as a C Type", text: "When working with C types, lead with data, be precise, give them time to analyze, and respect their attention to detail. For growth: set decision deadlines, practice good enough for low-stakes decisions, lead with appreciation before offering critique, and share your thinking in progress rather than waiting for perfection. Your DISC style is one dimension — combine it with Enneagram, Strengths, and 16 Personalities for a complete picture." },
+    ],
+  },
+  "/blog/16-personalities-career-guide": {
+    h1: "16 Personalities Career Guide: Finding Work That Fits Your Type",
+    sections: [
+      { heading: "How Your Personality Type Connects to Career Fit", text: "Your personality type does not dictate your career, but it tells you which work environments energize you, which drain you, and what kind of impact you are wired to make. When your work environment matches your personality preferences, you have more energy, better performance, and higher satisfaction. Research on person-environment fit supports this — alignment between personality and work environment predicts satisfaction and performance better than skills alone." },
+      { heading: "Career Paths by Type Group", text: "Analysts (NT types) thrive in complex, analytical environments — software engineering, data science, strategy consulting. Diplomats (NF types) thrive in mission-driven, people-focused environments — counseling, coaching, nonprofit leadership. Sentinels (SJ types) thrive in structured, reliable environments — operations, accounting, project management. Explorers (SP types) thrive in dynamic, hands-on environments — emergency services, entrepreneurship, skilled trades. Each group has distinct energizers and drainers." },
+      { heading: "Using Your Type to Navigate Career Transitions", text: "Career transitions are where personality type matters most. Start with your non-negotiables — what your type needs to stay energized. Evaluate opportunities against your preferences, not just your skills. Combine frameworks: your 16 Personalities type tells you how you think, DISC tells you how you communicate, Strengths tells you what you do best, and Enneagram tells you why you are driven. Watch for your type's pitfall during transition — Thinking types may over-analyze, Feeling types may stay too long, Judging types may commit too early, Perceiving types may explore endlessly." },
     ],
   },
 };
