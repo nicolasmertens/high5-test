@@ -330,6 +330,18 @@ createRoot(document.getElementById("root")!).render(
               path="/blog/disc-type-s-steadiness"
               element={<BlogPage slug="disc-type-s-steadiness" />}
             />
+            <Route
+              path="/blog/personality-test-for-networking"
+              element={<BlogPage slug="personality-test-for-networking" />}
+            />
+            <Route
+              path="/blog/enneagram-type-6-loyalist"
+              element={<BlogPage slug="enneagram-type-6-loyalist" />}
+            />
+            <Route
+              path="/blog/disc-type-i-influence"
+              element={<BlogPage slug="disc-type-i-influence" />}
+            />
             <Route path="/privacy-draft" element={<PrivacyPolicy />} />
             <Route path="/terms-draft" element={<TermsOfService />} />
             <Route path="/relationship/:id" element={<RelationshipReportPage />} />

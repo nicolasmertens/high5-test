@@ -636,8 +636,29 @@ const BLOG_FAQS = {
     { question: "Is DISC type S good for leadership?", answer: "S types make effective leaders in stable, people-oriented environments. They excel at building trust, developing team members, and creating consistent processes. The most effective S leaders also develop the ability to make decisive calls and address conflict directly when needed." },
     { question: "What are the blind spots of DISC type S?", answer: "Common blind spots include conflict avoidance, slow adaptation to change, over-accommodation (saying yes when they should say no), difficulty advocating for themselves, and passive decision-making. These are not weaknesses — they are growth areas that become manageable with awareness and practice." },
     { question: "How should I communicate with an S type?", answer: "Give context before action, be patient with their pace, show the impact on people, provide stability and consistency, and ask for their opinion directly — they often have valuable insights they will not volunteer unprompted. S types respond best to warm, genuine, and unhurried communication." },
-  ],
-};
+   ],
+   "/blog/personality-test-for-networking": [
+     { question: "Can a personality test help me network better?", answer: "Yes. Personality tests help you understand your natural networking style, identify your strengths and blind spots, and adapt your approach to different types of people. Instead of following generic networking advice, you build a strategy that fits who you actually are." },
+     { question: "Which personality test is best for networking?", answer: "DISC is the most directly useful for networking because it describes observable behavior in social and professional situations. 16 Personalities adds insight into your energy management at events. Enneagram reveals your underlying motivation for building connections. Together, they give you a complete networking profile." },
+     { question: "How do introverts network effectively?", answer: "Introverts network best through depth, not breadth. Focus on one-on-one conversations, choose smaller events, prepare conversation starters, and follow up with personal messages. Quality connections matter more than quantity. Introverts often build the deepest and most valuable professional relationships because they listen carefully and follow through consistently." },
+     { question: "How do I identify someone's personality type at a networking event?", answer: "Observe their behavior. Direct and results-focused? Likely high D. Enthusiastic and chatty? Likely high I. Warm and unhurried? Likely high S. Analytical and precise? Likely high C. You do not need their test results to adapt your communication — informed observation works well enough to adjust your approach." },
+     { question: "Should I share my personality type when networking?", answer: "Share it when it serves the connection. Saying \"I am more of a one-on-one person\" helps a high I understand why you want to step away from the group. Saying \"I like to come prepared\" signals to a high C that you respect their style. Share it as a tool for better communication, not as a label." },
+   ],
+   "/blog/enneagram-type-6-loyalist": [
+     { question: "What is Enneagram Type 6?", answer: "Type 6, the Loyalist, is driven by a need for security, support, and guidance. Sixes are responsible, loyal, and vigilant. Their core fear is being unsupported, abandoned, or without guidance. Growth direction is toward Type 9 (inner calm and trust). Stress direction is toward Type 3 (competitive, workaholic, image-conscious)." },
+     { question: "How do I know if I am an Enneagram Type 6?", answer: "Take the free Enneagram test on 1Test. It takes about 8-12 minutes, and you receive your type, wing tendencies, growth direction, and stress direction — all free with no paywall. You can also look for these patterns: you tend to anticipate what could go wrong, you seek reassurance before making decisions, and you form deep loyalties to people and organizations you trust." },
+     { question: "What is the growth direction for Type 6?", answer: "Type 6 grows toward Type 9. When healthy, Sixes develop inner calm, trust, and acceptance. They stop scanning for threats and start trusting that they can handle whatever comes. The key practice is learning to trust your own judgment rather than constantly seeking external validation and reassurance." },
+     { question: "What is the stress direction for Type 6?", answer: "Under stress, Type 6 moves toward Type 3. They become competitive, image-conscious, and workaholic. Sixes under stress channel their anxiety into relentless productivity as a way of proving their worth and securing their position. They may chase achievements to earn security rather than from genuine desire." },
+     { question: "Can Type 6 Loyalists be leaders?", answer: "Yes. Sixes make effective leaders in roles that require preparation, risk awareness, and team loyalty. They excel at building stable teams, anticipating challenges, and creating systems that protect their people. The most effective Six leaders learn to trust their own judgment and make decisions without requiring complete certainty." },
+   ],
+   "/blog/disc-type-i-influence": [
+     { question: "What is DISC type I (Influence)?", answer: "DISC type I, or Influence, describes people who are enthusiastic, optimistic, sociable, and persuasive. They prioritize relationships and ideas, prefer fast-paced and collaborative environments, and excel at building connections, motivating teams, and networking. Most people have a blend of DISC styles, with I being one component of their profile." },
+     { question: "How do I know if I am a high I?", answer: "Take the free DISC test on 1Test. It takes about 5-8 minutes, and you receive your scores across all four dimensions — Dominance, Influence, Steadiness, and Conscientiousness — plus your primary style and practical tips. No paywall." },
+     { question: "Is DISC type I good for leadership?", answer: "I types make effective leaders in environments that require motivation, buy-in, and team energy. They excel at rallying people around a vision, building morale, and creating an inclusive team culture. The most effective I leaders also develop follow-through, structure, and the ability to deliver tough feedback when needed." },
+     { question: "What are the blind spots of DISC type I?", answer: "Common blind spots include overcommitting, lack of follow-through on projects that lose novelty, disorganization, avoiding difficult conversations to keep things positive, and moving between topics so quickly that engagement feels shallow. These are not weaknesses — they are growth areas that become manageable with awareness and practice." },
+     { question: "How should I communicate with an I type?", answer: "Start with a personal connection before getting to business. Give them room to talk through ideas. Acknowledge their contributions. Be enthusiastic and match their energy. When you need them to follow through, be specific about deadlines and expectations — clear structure helps I types deliver on their commitments." },
+   ],
+ };
 
 const SEO_DATA = {
   "/free-strengths-test": {
@@ -1184,6 +1205,27 @@ const SEO_DATA = {
     description:
       "Deep dive into DISC S (Steadiness) type: traits, communication style, strengths, blind spots, working with S types, and growth areas. Free DISC test at 1Test.",
     canonicalUrl: "https://1test.me/blog/disc-type-s-steadiness",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-networking": {
+    title: "Personality Test for Networking — Connect Better by Knowing Your Type",
+    description:
+      "Learn how personality tests improve professional networking. Discover your networking style by DISC type, adapt to different personalities at events, and build authentic connections. Free test.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-networking",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-6-loyalist": {
+    title: "Enneagram Type 6 Loyalist — Core Motivation, Growth, and Practical Advice",
+    description:
+      "Deep dive into Enneagram Type 6 (Loyalist): core motivation (security), core fear (being unsupported), growth direction to 9, stress direction to 3, and practical advice for growth. Free Enneagram test.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-6-loyalist",
+    ogType: "article",
+  },
+  "/blog/disc-type-i-influence": {
+    title: "DISC Type I Influence — Traits, Strengths, Blind Spots, and Growth",
+    description:
+      "Deep dive into DISC I (Influence) type: traits, communication style, strengths, blind spots, working with I types, and growth areas. Free DISC test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/disc-type-i-influence",
     ogType: "article",
   },
 };
@@ -1838,6 +1880,30 @@ const BODY_CONTENT = {
       { heading: "What DISC S Means", text: "The S in DISC stands for Steadiness. People with high S scores are patient, reliable, team-oriented, and consistent. They prioritize stability, harmony, and steady progress. They are the anchors of their teams — following through on commitments, listening carefully, and creating environments where others feel safe and supported." },
       { heading: "Strengths and Blind Spots", text: "S types are loyal, supportive, excellent listeners, process-oriented, and effective at conflict resolution. Their blind spots include conflict avoidance, slow adaptation to change, over-accommodation, difficulty advocating for themselves, and passive decision-making. Each blind spot is a growth area that becomes manageable with awareness and practice." },
       { heading: "Working With and Managing S Types", text: "Give context before action — S types perform best when they understand why. Be patient with their pace. Show the impact on people. Provide stability and minimize unnecessary changes. Ask for their opinion directly — they often have valuable insights they will not volunteer unprompted. Recognize their contributions publicly, since S types rarely promote their own work." },
+    ],
+  },
+  "/blog/personality-test-for-networking": {
+    h1: "Personality Test for Networking: How to Connect Better by Knowing Your Type",
+    sections: [
+      { heading: "Why Personality Matters for Networking", text: "Networking advice treats everyone the same, but personality shapes how you naturally connect. Introverts burn out trying to work the room, while extroverts feel stifled in one-on-one settings. Personality frameworks help you network strategically — working with your natural style rather than against it. Research shows diverse, authentic connections predict career success more reliably than the sheer number of contacts." },
+      { heading: "Networking by DISC Type", text: "High D types network strategically with clear goals but may seem transactional. High I types thrive socially but risk confusing quantity with quality. High S types build deep trust but hesitate to approach new people. High C types prepare thoroughly but may over-research instead of attending. Each style has strengths and growth areas that become clear once you understand your DISC profile." },
+      { heading: "Adapting and Building Authentic Connections", text: "Effective networking means adapting to others' styles while staying authentic to your own. Be direct and outcome-focused with D types, warm and engaging with I types, genuine and unhurried with S types, and precise and substantive with C types. Combine DISC with Enneagram, Strengths, and 16 Personalities for a complete networking strategy that covers behavior, motivation, talent, and energy management." },
+    ],
+  },
+  "/blog/enneagram-type-6-loyalist": {
+    h1: "Enneagram Type 6 (Loyalist): Complete Guide to Motivation, Growth, and Stress",
+    sections: [
+      { heading: "What Type 6 Means", text: "Type 6, the Loyalist, is driven by a need for security and support. Sixes are responsible, committed, and vigilant — they anticipate problems, prepare for challenges, and form deep loyalties. They are the most complex Enneagram type because they express fear in two ways: counterphobic Sixes confront fears directly, while phobic Sixes manage anxiety through caution and reassurance-seeking." },
+      { heading: "Growth and Stress Directions", text: "Type 6 grows toward Type 9 (The Peacemaker), developing inner calm, trust, and acceptance. Healthy Sixes stop scanning for threats and start trusting their own judgment. Under stress, Sixes move toward Type 3 (The Achiever), becoming competitive, image-conscious, and workaholic — channeling anxiety into relentless productivity to prove their worth and secure their position." },
+      { heading: "Practical Growth for Sixes", text: "Practice deciding without full certainty — set deadlines for medium-stakes decisions. Limit reassurance-seeking by writing down your own answer before asking others. Distinguish productive vigilance (identifies real risks) from anxiety loops (replays scenarios without action). Build trust incrementally through small vulnerabilities. Combine Enneagram with DISC and Strengths for a complete picture of your professional and relational patterns." },
+    ],
+  },
+  "/blog/disc-type-i-influence": {
+    h1: "DISC Type I (Influence): Complete Guide to Traits, Strengths, and Growth",
+    sections: [
+      { heading: "What DISC I Means", text: "The I in DISC stands for Influence. People with high I scores are enthusiastic, optimistic, sociable, and persuasive. They prioritize relationships, ideas, and positive energy. High I individuals are the energizers of their teams — they bring people together, generate enthusiasm, and make others feel included and valued through warmth and energy rather than authority." },
+      { heading: "Strengths and Blind Spots", text: "I types excel at building relationships, motivating teams, networking, creative ideation, and persuasion. Their blind spots include overcommitting, lack of follow-through on projects that lose novelty, disorganization, avoiding difficult conversations, and moving between topics so quickly that engagement feels shallow. Each blind spot is a growth area manageable with awareness and practice." },
+      { heading: "Working With and Growing as an I Type", text: "Give I types room to think out loud, acknowledge their contributions, be specific about expectations, and pair them with execution-focused partners (often high C or high S colleagues). Growth strategies include writing commitments down immediately, practicing saying no, using the two-minute rule for small tasks, scheduling follow-up time, and building depth in three key professional relationships." },
     ],
   },
 };
