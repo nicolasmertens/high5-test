@@ -7,6 +7,11 @@ const TESTS = [
   { label: "Top 5 Strengths", to: "/free-strengths-test" },
 ];
 
+const LEARN = [
+  { label: "Blog", to: "/blog" },
+  { label: "Pricing", to: "/pricing" },
+];
+
 const LEGAL = [
   { label: "Privacy Policy", to: "/privacy-draft" },
   { label: "Terms of Service", to: "/terms-draft" },
@@ -31,9 +36,11 @@ export function Footer() {
         </div>
         <div className="footer-col">
           <h4 className="footer-heading">Learn</h4>
-          <Link to="/blog" className="footer-link">
-            Blog
-          </Link>
+          {LEARN.map((l) => (
+            <Link key={l.to} to={l.to} className="footer-link">
+              {l.label}
+            </Link>
+          ))}
         </div>
         <div className="footer-col">
           <h4 className="footer-heading">Legal</h4>

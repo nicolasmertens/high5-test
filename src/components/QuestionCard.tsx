@@ -38,6 +38,7 @@ export function QuestionCard({
   const hasAnswered = value !== undefined;
   const [animating, setAnimating] = useState(false);
   const [direction, setDirection] = useState<"next" | "prev">("next");
+  const [showSaved, setShowSaved] = useState(false);
   const trackedMilestones = useRef(new Set<number>());
 
   useEffect(() => {
@@ -100,10 +101,17 @@ export function QuestionCard({
 
   const handleSliderClick = () => {
     if (!hasAnswered) {
-      // First interaction — set to 50 (neutral), user explicitly chose it
       onAnswer(question.id, 50);
     }
   };
+
+  useEffect(() => {
+    if (value !== undefined) {
+      setShowSaved(true);
+      const t = setTimeout(() => setShowSaved(false), 1500);
+      return () => clearTimeout(t);
+    }
+  }, [value]);
 
   return (
     <div className="question-container">
@@ -112,6 +120,7 @@ export function QuestionCard({
       </div>
       <div className="progress-text">
         {index + 1} / {total}
+        {showSaved && <span className="progress-saved">Progress saved</span>}
       </div>
 
       <div

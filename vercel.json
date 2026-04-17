@@ -30,6 +30,7 @@
     { "source": "/blog/introvert-extrovert-test", "destination": "/blog/introvert-extrovert-test/index.html" },
     { "source": "/blog/strengths-and-weaknesses-test", "destination": "/blog/strengths-and-weaknesses-test/index.html" },
     { "source": "/relationship/:id", "destination": "/index.html" },
+    { "source": "/pricing", "destination": "/pricing/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

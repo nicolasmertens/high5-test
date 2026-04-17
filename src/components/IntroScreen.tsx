@@ -98,6 +98,10 @@ export function IntroScreen({ onStart, onResume, hasSavedProgress }: Props) {
         first instinct — there are no right or wrong answers.
       </p>
 
+      <p className="intro-social-proof">
+        Join thousands who have discovered their strengths — free, no signup required.
+      </p>
+
       <div className="intro-actions">
         {hasSavedProgress && onResume && (
           <button className="btn-start" onClick={handleResume}>
@@ -118,8 +122,17 @@ export function IntroScreen({ onStart, onResume, hasSavedProgress }: Props) {
           International Personality Item Pool
         </a>
         . Not affiliated with any trademark holder.{" "}
-        <a href="/privacy-draft">Privacy</a> · <a href="/terms-draft">Terms</a>
+        <a href="/pricing">Pricing</a> · <a href="/privacy-draft">Privacy</a> · <a href="/terms-draft">Terms</a>
       </p>
+
+      <div className="sticky-mobile-cta">
+        <button
+          className="btn-start"
+          onClick={hasSavedProgress ? onResume : onStart}
+        >
+          {hasSavedProgress ? "Continue Where You Left Off" : "Start Assessment"}
+        </button>
+      </div>
     </div>
   );
 }
