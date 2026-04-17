@@ -1,9 +1,10 @@
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useCallback } from "react";
 import { useSearchParams } from "react-router-dom";
 import { SEOHead } from "./SEOHead";
 import { UpgradePrompt } from "./UpgradePrompt";
 import { usePayment } from "../contexts/PaymentContext";
 import { getCareerSuggestions, getStressInfo, getLeadershipStyle } from "./ActionBranches";
+import type { StrengthScore } from "../hooks/useAssessment";
 
 interface PlaybookData {
   personalityType: string;
@@ -14,6 +15,16 @@ interface PlaybookData {
   enneagramPrimary: number;
   topStrengths: string[];
   strengthScores: Record<string, number>;
+}
+
+interface AiPlaybookContent {
+  growthPlan: { phase: string; focus: string; actions: string[] }[];
+  careerPaths: string[];
+  communicationGuide: { style: string; tips: string[] };
+  stressManagement: { best: string; stress: string; recovery: string[] };
+  leadershipDevelopment: string;
+  strengthsInsight: string;
+  isAiGenerated: true;
 }
 
 function getGrowthPlan(personalityType: string): { phase: string; focus: string; actions: string[] }[] {
@@ -93,24 +104,25 @@ function getCommunicationGuide(discCode: string): { style: string; tips: string[
 export function PlaybookPage() {
   const [searchParams] = useSearchParams();
   const { isPaid, email } = usePayment();
+  const profileHash = searchParams.get("profile");
   const [playbookStatus, setPlaybookStatus] = useState<string | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [aiContent, setAiContent] = useState<AiPlaybookContent | null>(null);
+  const [loading, setLoading] = useState(!!profileHash);
+  const [generating, setGenerating] = useState(false);
   const [profileData, setProfileData] = useState<PlaybookData | null>(null);
 
   useEffect(() => {
     const hash = searchParams.get("profile");
-    if (!hash) {
-      setLoading(false);
-      return;
-    }
+    if (!hash) return;
 
     Promise.all([
       fetch(`/api/get-profile?hash=${hash}`).then((r) => r.ok ? r.json() : null),
       email ? fetch(`/api/playbook/status?email=${encodeURIComponent(email)}`).then((r) => r.ok ? r.json() : null) : Promise.resolve(null),
     ])
       .then(([profile, status]) => {
+        const updates: { profileData?: PlaybookData | null; playbookStatus?: string | null; loading?: boolean } = {};
         if (profile) {
-          setProfileData({
+          updates.profileData = {
             personalityType: profile.personalityType,
             personalityLabel: "",
             discStyle: profile.discStyle,
@@ -119,40 +131,103 @@ export function PlaybookPage() {
             enneagramPrimary: profile.enneagramPrimary,
             topStrengths: profile.topStrengths,
             strengthScores: profile.strengthScores,
-          });
+          };
         }
         if (status) {
-          setPlaybookStatus(status.status);
+          updates.playbookStatus = status.status;
         }
+        updates.loading = false;
+        if (updates.profileData) setProfileData(updates.profileData);
+        if (updates.playbookStatus !== undefined) setPlaybookStatus(updates.playbookStatus ?? null);
         setLoading(false);
       })
-      .catch(() => setLoading(false));
+      .catch(() => { setLoading(false); });
   }, [searchParams, email]);
 
+  useEffect(() => {
+    if (playbookStatus === "completed" && email) {
+      fetch(`/api/playbook/content?email=${encodeURIComponent(email)}`)
+        .then((r) => r.ok ? r.json() : null)
+        .then((data) => {
+          if (data?.hasContent && data?.content) {
+            setAiContent(data.content);
+          }
+        })
+        .catch(() => {});
+    }
+  }, [playbookStatus, email]);
+
   const growthPlan = useMemo(() => {
+    if (aiContent?.growthPlan?.length) return aiContent.growthPlan;
     if (!profileData) return [];
     return getGrowthPlan(profileData.personalityType);
-  }, [profileData]);
+  }, [profileData, aiContent]);
 
   const commGuide = useMemo(() => {
+    if (aiContent?.communicationGuide) return aiContent.communicationGuide;
     if (!profileData) return null;
     return getCommunicationGuide(profileData.discPrimary);
-  }, [profileData]);
+  }, [profileData, aiContent]);
 
   const careers = useMemo(() => {
+    if (aiContent?.careerPaths?.length) return aiContent.careerPaths;
     if (!profileData) return [];
-    return getCareerSuggestions(profileData.personalityType, profileData.topStrengths.map((s, i) => ({ strength: { id: s, name: s }, score: 100 - i * 5 } as any)));
-  }, [profileData]);
+    return getCareerSuggestions(profileData.personalityType, profileData.topStrengths.map((s, i) => ({ strength: { id: s, name: s }, score: 100 - i * 5, rank: i + 1 } as StrengthScore)));
+  }, [profileData, aiContent]);
 
   const stress = useMemo(() => {
+    if (aiContent?.stressManagement) {
+      return {
+        best: aiContent.stressManagement.best,
+        stress: aiContent.stressManagement.stress,
+      };
+    }
     if (!profileData) return null;
     return getStressInfo(profileData.enneagramPrimary);
-  }, [profileData]);
+  }, [profileData, aiContent]);
 
   const leadership = useMemo(() => {
+    if (aiContent?.leadershipDevelopment) return aiContent.leadershipDevelopment;
     if (!profileData) return "";
     return getLeadershipStyle(profileData.discPrimary, profileData.personalityType);
-  }, [profileData]);
+  }, [profileData, aiContent]);
+
+  const handleGenerate = useCallback(async () => {
+    if (!email || !profileData || generating) return;
+    setGenerating(true);
+    try {
+      const res = await fetch("/api/playbook/generate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email,
+          profileHash: searchParams.get("profile"),
+          personalityType: profileData.personalityType,
+          topStrengths: profileData.topStrengths,
+          discStyle: profileData.discStyle,
+          enneagramWing: profileData.enneagramWing,
+          personalityLabel: profileData.personalityLabel,
+          discPrimary: profileData.discPrimary,
+          enneagramPrimary: profileData.enneagramPrimary,
+          strengthScores: profileData.strengthScores,
+        }),
+      });
+      const data = await res.json();
+      if (res.ok && data.status === "completed") {
+        setPlaybookStatus("completed");
+      } else if (res.status === 409 && data.status === "completed") {
+        setPlaybookStatus("completed");
+      } else if (res.status === 409 && data.status === "generating") {
+        setPlaybookStatus("generating");
+      } else {
+        setPlaybookStatus("failed");
+      }
+    } catch {
+      setPlaybookStatus("failed");
+    } finally {
+      setGenerating(false);
+    }
+  }, [email, profileData, searchParams, generating]);
 
   if (loading) {
     return (
@@ -179,24 +254,7 @@ export function PlaybookPage() {
     );
   }
 
-  const handleGenerate = async () => {
-    if (!email || !profileData) return;
-    try {
-      await fetch("/api/playbook/generate", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          email,
-          profileHash: searchParams.get("profile"),
-          personalityType: profileData.personalityType,
-          topStrengths: profileData.topStrengths,
-          discStyle: profileData.discStyle,
-          enneagramWing: profileData.enneagramWing,
-        }),
-      });
-      setPlaybookStatus("pending");
-    } catch {}
-  };
+  const isAiContent = aiContent !== null;
 
   return (
     <div className="playbook-page">
@@ -207,117 +265,165 @@ export function PlaybookPage() {
       />
 
       <div className="playbook-header">
-        <span className="playbook-badge">AI PLAYBOOK</span>
+        <span className={`playbook-badge ${isAiContent ? "badge-ai" : "badge-template"}`}>
+          {isAiContent ? "AI-GENERATED" : "TEMPLATE"}
+        </span>
         <h1>Your Personalized Growth Plan</h1>
         <p className="playbook-subtitle">
           Built for <strong>{profileData.personalityType}</strong> with {profileData.discStyle} DISC and Enneagram {profileData.enneagramWing}
         </p>
       </div>
 
-      {playbookStatus === "not_requested" && (
+      {playbookStatus === "not_requested" && !isAiContent && (
         <div className="playbook-generate-section">
-          <p>Your playbook is ready to generate. This creates a personalized action plan based on your unique profile.</p>
-          <button className="btn-start btn-upgrade" onClick={handleGenerate}>
-            Generate My Playbook
+          <p>Your personalized AI playbook is ready to generate. Get career paths, communication tips, and a growth plan tailored to your unique profile.</p>
+          <button className="btn-start btn-upgrade" onClick={handleGenerate} disabled={generating}>
+            {generating ? "Generating..." : "Generate My AI Playbook"}
           </button>
         </div>
       )}
 
-      {playbookStatus === "pending" && (
+      {playbookStatus === "pending" && !isAiContent && (
         <div className="playbook-generate-section">
-          <p>Your playbook is being generated. This usually takes 1-2 minutes.</p>
+          <p>Your playbook request has been submitted. This usually takes 1-2 minutes.</p>
           <button className="btn-start" onClick={() => window.location.reload()}>
             Check Status
           </button>
         </div>
       )}
 
-      {(playbookStatus === "completed" || !playbookStatus || playbookStatus === "not_requested") && (
-        <>
-          <section className="playbook-section">
-            <div className="playbook-section-icon">📈</div>
-            <h2>30 / 60 / 90 Day Growth Plan</h2>
-            <div className="growth-phases">
-              {growthPlan.map((phase) => (
-                <div key={phase.phase} className="growth-phase">
-                  <h3>{phase.phase}</h3>
-                  <p className="growth-focus">{phase.focus}</p>
-                  <ul className="growth-actions">
-                    {phase.actions.map((a) => (
-                      <li key={a}>{a}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </section>
+      {playbookStatus === "generating" && !isAiContent && (
+        <div className="playbook-generate-section">
+          <div className="compare-spinner" />
+          <p>Your AI playbook is being generated. This usually takes 15-30 seconds...</p>
+        </div>
+      )}
 
-          <section className="playbook-section">
-            <div className="playbook-section-icon">💼</div>
-            <h2>Career Paths Matched to You</h2>
-            <p className="playbook-section-desc">
-              Based on your {profileData.personalityType} profile, these directions align with your natural strengths and thinking style.
-            </p>
-            <div className="career-tags">
-              {careers.map((c) => (
-                <span key={c} className="career-tag">{c}</span>
-              ))}
-            </div>
-          </section>
+      {playbookStatus === "failed" && !isAiContent && (
+        <div className="playbook-generate-section">
+          <p>Something went wrong generating your playbook. Please try again.</p>
+          <button className="btn-start btn-upgrade" onClick={handleGenerate} disabled={generating}>
+            {generating ? "Retrying..." : "Try Again"}
+          </button>
+        </div>
+      )}
 
-          {commGuide && (
-            <section className="playbook-section">
-              <div className="playbook-section-icon">💬</div>
-              <h2>Communication Guide</h2>
-              <p className="playbook-section-desc">
-                Your style: <strong>{commGuide.style}</strong>
-              </p>
-              <ul className="comm-guide-tips">
-                {commGuide.tips.map((tip) => (
-                  <li key={tip}>{tip}</li>
+      <section className="playbook-section">
+        <div className="playbook-section-icon">📈</div>
+        <h2>30 / 60 / 90 Day Growth Plan</h2>
+        {aiContent?.growthPlan?.length ? (
+          <div className="growth-phases">
+            {growthPlan.map((phase) => (
+              <div key={phase.phase} className="growth-phase">
+                <h3>{phase.phase}</h3>
+                <p className="growth-focus">{phase.focus}</p>
+                <ul className="growth-actions">
+                  {phase.actions.map((a) => (
+                    <li key={a}>{a}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="growth-phases">
+            {growthPlan.map((phase) => (
+              <div key={phase.phase} className="growth-phase">
+                <h3>{phase.phase}</h3>
+                <p className="growth-focus">{phase.focus}</p>
+                <ul className="growth-actions">
+                  {phase.actions.map((a) => (
+                    <li key={a}>{a}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        )}
+      </section>
+
+      <section className="playbook-section">
+        <div className="playbook-section-icon">💼</div>
+        <h2>Career Paths Matched to You</h2>
+        <p className="playbook-section-desc">
+          Based on your {profileData.personalityType} profile, these directions align with your natural strengths and thinking style.
+        </p>
+        <div className="career-tags">
+          {careers.map((c) => (
+            <span key={c} className="career-tag">{c}</span>
+          ))}
+        </div>
+      </section>
+
+      {commGuide && (
+        <section className="playbook-section">
+          <div className="playbook-section-icon">💬</div>
+          <h2>Communication Guide</h2>
+          <p className="playbook-section-desc">
+            Your style: <strong>{commGuide.style}</strong>
+          </p>
+          <ul className="comm-guide-tips">
+            {commGuide.tips.map((tip) => (
+              <li key={tip}>{tip}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {stress && (
+        <section className="playbook-section">
+          <div className="playbook-section-icon">⚡</div>
+          <h2>Stress Management</h2>
+          <div className="stress-grid">
+            <div className="stress-item stress-normal">
+              <strong>At your best</strong>
+              <p>{stress.best}</p>
+            </div>
+            <div className="stress-item stress-bad">
+              <strong>Under stress</strong>
+              <p>{stress.stress}</p>
+            </div>
+          </div>
+          {aiContent?.stressManagement?.recovery && aiContent.stressManagement.recovery.length > 0 && (
+            <div className="stress-recovery">
+              <h4>Recovery strategies</h4>
+              <ul>
+                {aiContent.stressManagement.recovery.map((r: string, i: number) => (
+                  <li key={i}>{r}</li>
                 ))}
               </ul>
-            </section>
-          )}
-
-          {stress && (
-            <section className="playbook-section">
-              <div className="playbook-section-icon">⚡</div>
-              <h2>Stress Management</h2>
-              <div className="stress-grid">
-                <div className="stress-item stress-normal">
-                  <strong>At your best</strong>
-                  <p>{stress.best}</p>
-                </div>
-                <div className="stress-item stress-bad">
-                  <strong>Under stress</strong>
-                  <p>{stress.stress}</p>
-                </div>
-              </div>
-            </section>
-          )}
-
-          <section className="playbook-section">
-            <div className="playbook-section-icon">👑</div>
-            <h2>Leadership Development</h2>
-            <p className="playbook-section-desc">{leadership}</p>
-          </section>
-
-          <section className="playbook-section playbook-top-strengths">
-            <div className="playbook-section-icon">💪</div>
-            <h2>Your Strengths Profile</h2>
-            <div className="playbook-strength-list">
-              {profileData.topStrengths.map((s, i) => (
-                <div key={s} className="playbook-strength-item">
-                  <span className="playbook-strength-rank">#{i + 1}</span>
-                  <span className="playbook-strength-name">{s}</span>
-                  <span className="playbook-strength-score">{profileData.strengthScores[s] || 0}%</span>
-                </div>
-              ))}
             </div>
-          </section>
-        </>
+          )}
+        </section>
       )}
+
+      <section className="playbook-section">
+        <div className="playbook-section-icon">👑</div>
+        <h2>Leadership Development</h2>
+        <p className="playbook-section-desc">{leadership}</p>
+      </section>
+
+      {aiContent?.strengthsInsight && (
+        <section className="playbook-section">
+          <div className="playbook-section-icon">🎯</div>
+          <h2>Your Strengths Insight</h2>
+          <p className="playbook-section-desc">{aiContent.strengthsInsight}</p>
+        </section>
+      )}
+
+      <section className="playbook-section playbook-top-strengths">
+        <div className="playbook-section-icon">💪</div>
+        <h2>Your Strengths Profile</h2>
+        <div className="playbook-strength-list">
+          {profileData.topStrengths.map((s, i) => (
+            <div key={s} className="playbook-strength-item">
+              <span className="playbook-strength-rank">#{i + 1}</span>
+              <span className="playbook-strength-name">{s}</span>
+              <span className="playbook-strength-score">{profileData.strengthScores[s] || 0}%</span>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <div className="playbook-actions">
         <a href="/" className="btn-start">Back to Home</a>
