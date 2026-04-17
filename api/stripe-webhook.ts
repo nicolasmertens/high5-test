@@ -2,6 +2,7 @@ import type { VercelRequest, VercelResponse } from "@vercel/node";
 import Stripe from "stripe";
 import { getSubscriberByEmail, suppressSubscriber } from "./lib/subscribers.js";
 import { postHogTrack } from "./lib/send.js";
+import { storePayment, type StoredPayment } from "./lib/payment-storage.js";
 
 const trim = (v: string | undefined) => (v || "").trim();
 
@@ -119,6 +120,22 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       const email = session.customer_details?.email;
       if (email) {
         await suppressWelcomeEmails(email);
+      }
+
+      const payment: StoredPayment = {
+        sessionId: session.id,
+        email: email || "",
+        tier,
+        amount: session.amount_total || 0,
+        currency: session.currency || "usd",
+        paidAt: Date.now(),
+      };
+      if (payment.email) {
+        try {
+          await storePayment(payment);
+        } catch (err) {
+          console.error("Failed to store payment record:", err);
+        }
       }
     }
 
