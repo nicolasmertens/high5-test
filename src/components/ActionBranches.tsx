@@ -3,21 +3,166 @@ import { type PersonalityResult, type EnneagramResult, type DISCResult } from ".
 import { ShareButtons } from "./ShareButtons";
 import { InviteSection } from "./InviteSection";
 import { CommunitiesBlock } from "./CommunitiesBlock";
+import { LogoIcon } from "./LogoIcon";
+import { BonusBlock } from "./BonusBlock";
+import { getBookRecommendations, getAffiliateUrl } from "../data/books";
+import { trackBookClick } from "../utils/analytics";
+import { type IntakeAnswers } from "../careerData/segmentConfig";
+import {
+  getBlockSegment,
+  BLOCK_ORDER,
+  BLOCK_OVERRIDES,
+  type BlockId,
+} from "../careerData/blockSegmentConfig";
 
 interface Props {
   results: StrengthScore[];
   personality: PersonalityResult;
   enneagram: EnneagramResult;
   disc: DISCResult;
+  intakeAnswers: IntakeAnswers | null;
 }
 
-export function ActionBranches({ results, personality, enneagram, disc }: Props) {
+export function ActionBranches({ results, personality, enneagram, disc, intakeAnswers }: Props) {
   const top5 = results.slice(0, 5);
   const bottom5 = results.slice(15);
+  const books = getBookRecommendations(personality.type, top5.map((r) => r.strength.id), enneagram.primary.type);
+
+  const segment = getBlockSegment(intakeAnswers);
+  const blockOrder = BLOCK_ORDER[segment];
+  const overrides = BLOCK_OVERRIDES[segment] ?? {};
+
+  function renderBlock(id: BlockId) {
+    switch (id) {
+      case "books": {
+        const o = overrides.books;
+        return (
+          <section key="books" className="branch-card">
+            <div className="branch-icon">📚</div>
+            <h3>{o?.title ?? "Books For Your Profile"}</h3>
+            <p className="branch-desc">
+              {o?.subtitle ??
+                "Curated reading based on your strengths and personality type — books that will resonate with how you think and what drives you."}
+            </p>
+            <div className="branch-preview">
+              {books.map((book) => (
+                <div key={book.id} className="book-row">
+                  <div className="book-info">
+                    <a
+                      href={getAffiliateUrl(book.asin)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="book-title book-link"
+                      onClick={() => trackBookClick(book.id, "paid")}
+                    >
+                      {book.title}
+                    </a>
+                    <span className="book-author">{book.author}</span>
+                  </div>
+                  <span className="book-why">{book.why}</span>
+                </div>
+              ))}
+            </div>
+          </section>
+        );
+      }
+      case "careers": {
+        const o = overrides.careers;
+        return (
+          <section key="careers" className="branch-card">
+            <div className="branch-icon">💼</div>
+            <h3>{o?.title ?? "Career Paths That Fit You"}</h3>
+            <p className="branch-desc">
+              {o?.subtitle ??
+                `Based on your ${personality.type} personality and top strengths (${top5.map((r) => r.strength.name).join(", ")}), these career directions naturally align with how you're wired.`}
+            </p>
+            <div className="branch-preview">
+              <div className="career-tags">
+                {getCareerSuggestions(personality.type, top5).map((career) => (
+                  <span key={career} className="career-tag">
+                    {career}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      }
+      case "famous":
+        return (
+          <section key="famous" className="branch-card">
+            <div className="branch-icon">⭐</div>
+            <h3>Famous People Like You</h3>
+            <p className="branch-desc">
+              Notable {personality.type}s who share your personality pattern.
+            </p>
+            <div className="branch-preview">
+              <div className="famous-tags">
+                {getFamousPeople(personality.type).map((person) => (
+                  <span key={person} className="famous-tag">
+                    {person}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      case "stress":
+        return (
+          <section key="stress" className="branch-card">
+            <div className="branch-icon"><LogoIcon size={20} /></div>
+            <h3>You Under Stress</h3>
+            <p className="branch-desc">
+              As an Enneagram {enneagram.wingLabel} ({enneagram.primary.name}),
+              stress pushes you toward different behaviors than your usual self.
+            </p>
+            <div className="branch-preview">
+              <div className="stress-grid">
+                <div className="stress-item stress-normal">
+                  <strong>At your best</strong>
+                  <p>{getStressInfo(enneagram.primary.type).best}</p>
+                </div>
+                <div className="stress-item stress-bad">
+                  <strong>Under stress</strong>
+                  <p>{getStressInfo(enneagram.primary.type).stress}</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        );
+      case "leadership":
+        return (
+          <section key="leadership" className="branch-card">
+            <div className="branch-icon">👑</div>
+            <h3>Your Leadership Style</h3>
+            <p className="branch-desc">
+              How your {disc.style} DISC profile and {personality.type} personality shape
+              the way you lead — and what to watch out for.
+            </p>
+            <div className="branch-preview">
+              <div className="leadership-preview">
+                <p>{getLeadershipStyle(disc.primary.code, personality.type)}</p>
+              </div>
+            </div>
+          </section>
+        );
+      case "communities": {
+        const o = overrides.communities;
+        return (
+          <CommunitiesBlock
+            key="communities"
+            personalityType={personality.type}
+            isPaid={true}
+            titleOverride={o?.subtitle ?? o?.title}
+          />
+        );
+      }
+    }
+  }
 
   return (
     <div className="branches">
-      {/* Communication & Relationships */}
+      {/* Communication — always first for paid users */}
       <section className="branch-card">
         <div className="branch-icon">💬</div>
         <h3>How You Communicate</h3>
@@ -60,10 +205,9 @@ export function ActionBranches({ results, personality, enneagram, disc }: Props)
             </span>
           </div>
         </div>
-
       </section>
 
-      {/* Blind Spots & Growth Areas */}
+      {/* Blind Spots — always second for paid users */}
       <section className="branch-card">
         <div className="branch-icon">🪞</div>
         <h3>Your Blind Spots</h3>
@@ -80,112 +224,15 @@ export function ActionBranches({ results, personality, enneagram, disc }: Props)
             </div>
           ))}
         </div>
-
       </section>
 
-      {/* Career Paths */}
-      <section className="branch-card">
-        <div className="branch-icon">💼</div>
-        <h3>Career Paths That Fit You</h3>
-        <p className="branch-desc">
-          Based on your {personality.type} personality and top strengths (
-          {top5.map((r) => r.strength.name).join(", ")}), these career
-          directions naturally align with how you're wired.
-        </p>
-        <div className="branch-preview">
-          <div className="career-tags">
-            {getCareerSuggestions(personality.type, top5).map((career) => (
-              <span key={career} className="career-tag">
-                {career}
-              </span>
-            ))}
-          </div>
-        </div>
+      {/* Segment-ordered promotable blocks */}
+      {blockOrder.map((id) => renderBlock(id))}
 
-      </section>
+      {/* Bonus block — one per segment */}
+      <BonusBlock segment={segment} />
 
-      {/* Books */}
-      <section className="branch-card">
-        <div className="branch-icon">📚</div>
-        <h3>Books For Your Profile</h3>
-        <p className="branch-desc">
-          Curated reading based on your strengths and personality type —
-          books that will resonate with how you think and what drives you.
-        </p>
-        <div className="branch-preview">
-          {getBookSuggestions(personality.type, enneagram.primary.type).map((book) => (
-            <div key={book.title} className="book-row">
-              <div className="book-info">
-                <span className="book-title">{book.title}</span>
-                <span className="book-author">{book.author}</span>
-              </div>
-              <span className="book-why">{book.why}</span>
-            </div>
-          ))}
-        </div>
-
-      </section>
-
-      {/* Famous People Like You */}
-      <section className="branch-card">
-        <div className="branch-icon">⭐</div>
-        <h3>Famous People Like You</h3>
-        <p className="branch-desc">
-          Notable {personality.type}s who share your personality pattern.
-        </p>
-        <div className="branch-preview">
-          <div className="famous-tags">
-            {getFamousPeople(personality.type).map((person) => (
-              <span key={person} className="famous-tag">
-                {person}
-              </span>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Under Stress */}
-      <section className="branch-card">
-        <div className="branch-icon">⚡</div>
-        <h3>You Under Stress</h3>
-        <p className="branch-desc">
-          As an Enneagram {enneagram.wingLabel} ({enneagram.primary.name}),
-          stress pushes you toward different behaviors than your usual self.
-        </p>
-        <div className="branch-preview">
-          <div className="stress-grid">
-            <div className="stress-item stress-normal">
-              <strong>At your best</strong>
-              <p>{getStressInfo(enneagram.primary.type).best}</p>
-            </div>
-            <div className="stress-item stress-bad">
-              <strong>Under stress</strong>
-              <p>{getStressInfo(enneagram.primary.type).stress}</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Leadership Style */}
-      <section className="branch-card">
-        <div className="branch-icon">👑</div>
-        <h3>Your Leadership Style</h3>
-        <p className="branch-desc">
-How your {disc.style} DISC profile and {personality.type} personality shape
-      the way you lead — and what to watch out for.
-        </p>
-        <div className="branch-preview">
-          <div className="leadership-preview">
-            <p>{getLeadershipStyle(disc.primary.code, personality.type)}</p>
-          </div>
-        </div>
-
-      </section>
-
-      {/* Communities */}
-      <CommunitiesBlock personalityType={personality.type} isPaid={true} />
-
-      {/* Share & LinkedIn */}
+      {/* Share — always last before Invite */}
       <section className="branch-card branch-card-highlight">
         <div className="branch-icon">🔗</div>
         <h3>Share Your Profile</h3>
@@ -202,7 +249,7 @@ How your {disc.style} DISC profile and {personality.type} personality shape
         </div>
       </section>
 
-      {/* Team / Invite */}
+      {/* Invite — always last */}
       <section className="branch-card branch-card-highlight">
         <InviteSection
           results={results}
@@ -244,41 +291,6 @@ export function getCareerSuggestions(
   return careers[personalityType] || careers["ENTP"];
 }
 
-export function getBookSuggestions(
-  personalityType: string,
-  enneagramType: number,
-): { title: string; author: string; why: string }[] {
-  const books: { title: string; author: string; why: string }[] = [];
-
-  // Based on Enneagram
-  if (enneagramType === 3) {
-    books.push({ title: "The Success Principles", author: "Jack Canfield", why: "Feeds your drive to achieve" });
-    books.push({ title: "Ego Is the Enemy", author: "Ryan Holiday", why: "Balances your achievement drive" });
-  } else if (enneagramType === 7) {
-    books.push({ title: "Essentialism", author: "Greg McKeown", why: "Helps you focus your scattered energy" });
-  } else if (enneagramType === 8) {
-    books.push({ title: "Dare to Lead", author: "Brené Brown", why: "Channels your power through vulnerability" });
-  } else if (enneagramType === 1) {
-    books.push({ title: "The Gifts of Imperfection", author: "Brené Brown", why: "Softens your inner critic" });
-  }
-
-  // Based on personality type
-  if (personalityType.includes("NT")) {
-    books.push({ title: "Thinking, Fast and Slow", author: "Daniel Kahneman", why: "Your kind of deep analytical read" });
-    books.push({ title: "Zero to One", author: "Peter Thiel", why: "Matches your innovative thinking" });
-  } else if (personalityType.includes("NF")) {
-    books.push({ title: "Man's Search for Meaning", author: "Viktor Frankl", why: "Speaks to your need for purpose" });
-  } else if (personalityType.includes("SJ")) {
-    books.push({ title: "Atomic Habits", author: "James Clear", why: "Systems thinking you'll love" });
-  } else if (personalityType.includes("SP")) {
-    books.push({ title: "The 4-Hour Workweek", author: "Tim Ferriss", why: "Matches your action-oriented style" });
-  }
-
-  // Universal good add
-  books.push({ title: "Now, Discover Your Strengths", author: "Marcus Buckingham", why: "Deepens your understanding of strength-based growth" });
-
-  return books.slice(0, 4);
-}
 
 export function getFamousPeople(personalityType: string): string[] {
   const famous: Record<string, string[]> = {

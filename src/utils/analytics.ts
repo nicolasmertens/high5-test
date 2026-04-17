@@ -605,3 +605,18 @@ export function trackCareerAdviceShared(data: {
     share_channel: data.shareChannel,
   });
 }
+
+export function trackBookClick(bookId: string, source: "free" | "paid"): void {
+  posthog.capture("book_click", {
+    book_id: bookId,
+    source,
+    $referrer: "amazon",
+  });
+}
+
+export function trackBonusBlockViewed(segment: string): void {
+  posthog.capture("bonus_block_viewed", {
+    segment,
+    page_path: window.location.pathname,
+  });
+}

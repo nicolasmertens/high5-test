@@ -80,9 +80,10 @@ function getCommunities(personalityType: string, isPaid: boolean): CommunityLink
 interface Props {
   personalityType: string;
   isPaid: boolean;
+  titleOverride?: string;
 }
 
-export function CommunitiesBlock({ personalityType, isPaid }: Props) {
+export function CommunitiesBlock({ personalityType, isPaid, titleOverride }: Props) {
   const viewed = useRef(false);
   const communities = getCommunities(personalityType, isPaid);
 
@@ -106,7 +107,7 @@ export function CommunitiesBlock({ personalityType, isPaid }: Props) {
   return (
     <section className="branch-card">
       <div className="branch-icon">🌐</div>
-      <h3>Communities For Your Type</h3>
+      <h3>{titleOverride ?? "Communities For Your Type"}</h3>
       <p className="branch-desc">
         Connect with people who think like you — join {personalityType} communities
         {isPaid

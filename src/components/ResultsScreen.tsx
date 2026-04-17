@@ -18,6 +18,8 @@ import { usePayment } from "../contexts/PaymentContext";
 import { trackUpgradeViewed, trackResultsViewed, trackBlockViewed, trackUpsellClick, trackCTAClicked, trackShareCardViewed } from "../utils/analytics";
 import { getShareCopy } from "../data/share-copy";
 import { FrameworkDot } from "./FrameworkDotStrip";
+import { loadIntakeAnswers } from "../careerData/segmentConfig";
+import { getBlockSegment, AI_PLAYBOOK_TITLE } from "../careerData/blockSegmentConfig";
 
 interface Props {
   results: StrengthScore[];
@@ -43,6 +45,10 @@ export function ResultsScreen({ results, onRestart }: Props) {
   const resultsViewedTracked = useRef(false);
   const shareCardViewedTracked = useRef(false);
   const top5 = results.slice(0, 5);
+
+  const intakeAnswers = useMemo(() => loadIntakeAnswers(), []);
+  const blockSegment = useMemo(() => getBlockSegment(intakeAnswers), [intakeAnswers]);
+  const aiPlaybookTitle = AI_PLAYBOOK_TITLE[blockSegment] ?? "AI Playbook — Your Personalized Action Plan";
 
   useEffect(() => {
     const ref = getInviteRef();
@@ -345,6 +351,7 @@ export function ResultsScreen({ results, onRestart }: Props) {
             personality={personality}
             enneagram={enneagram}
             disc={disc}
+            intakeAnswers={intakeAnswers}
           />
 
           <CareerPathBlock
@@ -438,7 +445,7 @@ export function ResultsScreen({ results, onRestart }: Props) {
             personality={personality}
             enneagram={enneagram}
             disc={disc}
-            intakeAnswers={null}
+            intakeAnswers={intakeAnswers}
           />
 
           <CareerPathBlock
@@ -503,7 +510,7 @@ export function ResultsScreen({ results, onRestart }: Props) {
           <BlockTracker name="ai_playbook_teaser" />
           <section className="branch-card branch-card-highlight playbook-teaser">
             <div className="branch-icon">🤖</div>
-            <h3>AI Playbook — Your Personalized Action Plan</h3>
+            <h3>{aiPlaybookTitle}</h3>
             <p className="branch-desc">
               Get a personalized action plan generated from your unique profile.
               Career paths, communication guide, 30/60/90 day growth plan — built
