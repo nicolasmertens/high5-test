@@ -1,56 +1,21 @@
 import { SEOHead } from "./SEOHead";
 import { useNavigate } from "react-router-dom";
+import { blogPosts } from "../data/blog-content";
 
-const POSTS = [
-  {
-    slug: "best-free-strengths-assessment",
-    title: "Best Free Strengths Assessment in 2026 — Complete Comparison",
-    description:
-      "Compare free strengths assessments: 1Test, HIGH5, Truity, VIA. Full results vs paywall, actionable insights, and which test is right for you.",
-  },
-  {
-    slug: "disc-communication-styles",
-    title: "DISC Communication Styles — Work Better With Every Type",
-    description:
-      "Learn the four DISC communication styles and how to adapt your approach for Dominance, Influence, Steadiness, and Conscientiousness. Free DISC test included.",
-  },
-  {
-    slug: "enneagram-career-paths",
-    title: "Enneagram Career Paths — What Your Type Means for Your Work",
-    description:
-      "Explore career paths for each Enneagram type. Learn which environments energize you, which drain you, and how to use your type for career decisions. Free Enneagram test.",
-  },
-  {
-    slug: "personality-test-for-career",
-    title: "Personality Test for Career — Find Work That Fits You",
-    description:
-      "Learn how your personality type connects to career fit. Practical guidance for every type. Take the free personality test with career insights.",
-  },
-  {
-    slug: "disc-vs-enneagram-vs-strengths",
-    title: "DISC vs Enneagram vs Strengths — Which Free Test Is Right for You?",
-    description:
-      "Not sure which personality assessment to take? Compare DISC, Enneagram, Strengths, and 16 Personalities side by side. Take all four free at 1Test.",
-  },
-  {
-    slug: "which-personality-test-right-for-you",
-    title: "Which Personality Test Is Right for You? Free Guide",
-    description:
-      "Not sure which personality test to take? This guide compares DISC, Enneagram, Strengths, and 16 Personalities so you can pick the right one — or take all four free at 1Test.",
-  },
-  {
-    slug: "understanding-16-personalities",
-    title: "16 Personalities Explained — Complete Guide to the Framework",
-    description:
-      "What are the 16 Personalities? Learn what each type means, how the framework works, and how it relates to DISC, Enneagram, and Strengths. Take all four free at 1Test.",
-  },
-  {
-    slug: "disc-assessment-guide",
-    title: "DISC Assessment Guide — What It Is, How It Works, Why It Matters",
-    description:
-      "Complete guide to the DISC assessment: what it measures, how to read your profile, and how to use DISC at work and in teams. Take the free DISC test at 1Test.",
-  },
+const CATEGORIES = [
+  { label: "DISC", filter: (slug: string) => slug.startsWith("disc-") || slug.includes("-disc-") },
+  { label: "Enneagram", filter: (slug: string) => slug.startsWith("enneagram-") || slug.includes("-enneagram-") },
+  { label: "16 Personalities", filter: (slug: string) => slug.startsWith("16-personalities") || slug.includes("16-personalities") },
+  { label: "Strengths", filter: (slug: string) => slug.startsWith("strengths-") || slug.includes("-strengths") },
+  { label: "Career", filter: (slug: string) => slug.includes("career") || slug.includes("job") || slug.includes("work") || slug.includes("manager") },
+  { label: "Relationships", filter: (slug: string) => slug.includes("relationship") || slug.includes("couple") || slug.includes("friend") || slug.includes("compati") },
 ];
+
+const ALL_POSTS = Object.values(blogPosts).map((post) => ({
+  slug: post.slug,
+  title: post.metaTitle,
+  description: post.metaDesc,
+}));
 
 export function BlogIndex() {
   const navigate = useNavigate();
@@ -58,8 +23,8 @@ export function BlogIndex() {
   return (
     <div className="blog-index">
       <SEOHead
-        title="Blog — 1Test"
-        description="Personality insights, framework guides, and practical self-development advice. Learn about Strengths, DISC, Enneagram, and 16 Personalities."
+        title="Blog — 1Test | Personality Test Guides & Insights"
+        description="100+ guides on DISC, Enneagram, 16 Personalities, and Strengths assessments. Practical advice for career, teams, and personal growth."
         canonicalUrl="https://1test.me/blog"
       />
 
@@ -67,26 +32,71 @@ export function BlogIndex() {
         <h1>1Test Blog</h1>
         <p>
           Personality insights, framework guides, and practical advice for
-          understanding yourself better.
+          understanding yourself and working better with others.
         </p>
       </header>
 
-      <div className="blog-index-grid">
-        {POSTS.map((post) => (
+      <nav className="blog-category-nav" aria-label="Blog categories">
+        {CATEGORIES.map((cat) => (
           <a
-            key={post.slug}
-            href={`/blog/${post.slug}`}
-            className="blog-index-card"
-            onClick={(e) => {
-              e.preventDefault();
-              navigate(`/blog/${post.slug}`);
-            }}
+            key={cat.label}
+            href={`#cat-${cat.label.toLowerCase().replace(/\s+/g, "-")}`}
+            className="blog-category-pill"
           >
-            <h2>{post.title}</h2>
-            <p>{post.description}</p>
+            {cat.label}
           </a>
         ))}
-      </div>
+      </nav>
+
+      {CATEGORIES.map((cat) => {
+        const posts = ALL_POSTS.filter((p) => cat.filter(p.slug));
+        if (posts.length === 0) return null;
+        return (
+          <section
+            key={cat.label}
+            id={`cat-${cat.label.toLowerCase().replace(/\s+/g, "-")}`}
+            className="blog-category-section"
+          >
+            <h2 className="blog-category-heading">{cat.label}</h2>
+            <div className="blog-index-grid">
+              {posts.map((post) => (
+                <a
+                  key={post.slug}
+                  href={`/blog/${post.slug}`}
+                  className="blog-index-card"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    navigate(`/blog/${post.slug}`);
+                  }}
+                >
+                  <h3>{post.title}</h3>
+                  <p>{post.description}</p>
+                </a>
+              ))}
+            </div>
+          </section>
+        );
+      })}
+
+      <section className="blog-category-section">
+        <h2 className="blog-category-heading">All Posts ({ALL_POSTS.length})</h2>
+        <div className="blog-index-grid">
+          {ALL_POSTS.map((post) => (
+            <a
+              key={post.slug}
+              href={`/blog/${post.slug}`}
+              className="blog-index-card"
+              onClick={(e) => {
+                e.preventDefault();
+                navigate(`/blog/${post.slug}`);
+              }}
+            >
+              <h3>{post.title}</h3>
+              <p>{post.description}</p>
+            </a>
+          ))}
+        </div>
+      </section>
 
       <div className="landing-cta">
         <h2>Ready to discover your personality?</h2>
