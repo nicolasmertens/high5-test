@@ -3,7 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import { SEOHead } from "./SEOHead";
 import { UpgradePrompt } from "./UpgradePrompt";
 import { usePayment } from "../contexts/PaymentContext";
-import { getCareerSuggestions, getStressInfo, getLeadershipStyle } from "./ActionBranches";
+import { getCareerSuggestions, getStressInfo, getLeadershipStyle } from "../data/profileContent";
 import { LogoIcon } from "./LogoIcon";
 import type { StrengthScore } from "../hooks/useAssessment";
 

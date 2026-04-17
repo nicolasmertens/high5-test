@@ -1,6 +1,14 @@
 import type { IntakeAnswers } from "./segmentConfig";
 
+// Segment-configurable content block IDs (reorderable per audience)
 export type BlockId = "books" | "careers" | "famous" | "stress" | "leadership" | "communities";
+
+// Full set of content block IDs rendered inside the results page
+export type ContentBlockId =
+  | BlockId
+  | "communication"  // paid-only: DISC communication guide
+  | "blind_spots"    // paid-only: bottom-5 strengths
+  | "bonus";         // paid-only: segment-specific bonus content
 
 // Internal routing key — maps spec segment names to stable identifiers
 export type SegmentKey =
@@ -62,6 +70,17 @@ export const BLOCK_OVERRIDES: Partial<Record<SegmentKey, Partial<Record<BlockId,
     communities: { subtitle: "Find Your People" },
   },
 };
+
+// Returns the ordered content block IDs for the results page.
+// Free users get only the segment-ordered promotable blocks.
+// Paid users also get paid-only blocks prepended and the bonus block appended.
+export function getContentBlockIds(isPaid: boolean, segment: SegmentKey): ContentBlockId[] {
+  const segmentOrdered = BLOCK_ORDER[segment] as ContentBlockId[];
+  if (isPaid) {
+    return ["communication", "blind_spots", ...segmentOrdered, "bonus"];
+  }
+  return segmentOrdered;
+}
 
 // Overrides for the AI Playbook block title in ResultsScreen.
 export const AI_PLAYBOOK_TITLE: Partial<Record<SegmentKey, string>> = {

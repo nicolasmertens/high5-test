@@ -3,8 +3,7 @@ import { type StrengthScore } from "../hooks/useAssessment";
 import { domainColors, domainLabels } from "../data/strengths";
 import { derivePersonalityType, deriveEnneagram, deriveDISC } from "../data/derivations";
 import { DetailedResults } from "./DetailedResults";
-import { ActionBranches } from "./ActionBranches";
-import { FreeValueBlocks } from "./FreeValueBlocks";
+import { ContentBlocks } from "./results/ContentBlocks";
 import { UpgradePrompt } from "./UpgradePrompt";
 import { ShareCard } from "./ShareCard";
 import { ShareButtons } from "./ShareButtons";
@@ -21,9 +20,12 @@ import { FrameworkDot } from "./FrameworkDotStrip";
 import { loadIntakeAnswers } from "../careerData/segmentConfig";
 import { getBlockSegment, AI_PLAYBOOK_TITLE } from "../careerData/blockSegmentConfig";
 
+import { type Variant } from "../utils/abTesting";
+
 interface Props {
   results: StrengthScore[];
   onRestart: () => void;
+  emailCaptureVariant?: Variant;
 }
 
 function BlockTracker({ name }: { name: string }) {
@@ -37,7 +39,7 @@ function BlockTracker({ name }: { name: string }) {
   return null;
 }
 
-export function ResultsScreen({ results, onRestart }: Props) {
+export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }: Props) {
   const [showDetailed, setShowDetailed] = useState(false);
   const [inviterInfo, setInviterInfo] = useState<{ name: string; profileHash: string; personalityType: string } | null>(null);
   const { isPaid, tier } = usePayment();
@@ -356,12 +358,13 @@ export function ResultsScreen({ results, onRestart }: Props) {
             </div>
           </div>
 
-          <ActionBranches
+          <ContentBlocks
             results={results}
             personality={personality}
             enneagram={enneagram}
             disc={disc}
             intakeAnswers={intakeAnswers}
+            isPaid={true}
           />
 
           <CareerPathBlock
@@ -399,6 +402,18 @@ export function ResultsScreen({ results, onRestart }: Props) {
         </>
       ) : (
         <>
+          {emailCaptureVariant === "C" && (
+            <EmailCapture
+              frameworkName="Strengths"
+              frameworkType={top5[0]?.strength?.name || "Achiever"}
+              oneSentenceTraitSummary={
+                top5[0]?.strength?.description ||
+                "You have unique strengths that set you apart"
+              }
+              captureLocation="results_page_top"
+            />
+          )}
+
           <div className="bridge-teaser">
             <h3>We also found your personality type and Enneagram</h3>
             <p className="bridge-subtitle">
@@ -450,12 +465,13 @@ export function ResultsScreen({ results, onRestart }: Props) {
             );
           })()}
 
-          <FreeValueBlocks
+          <ContentBlocks
             results={results}
             personality={personality}
             enneagram={enneagram}
             disc={disc}
             intakeAnswers={intakeAnswers}
+            isPaid={false}
           />
 
           <CareerPathBlock
@@ -499,14 +515,17 @@ export function ResultsScreen({ results, onRestart }: Props) {
             </div>
           </div>
 
-          <EmailCapture
-            frameworkName="Strengths"
-            frameworkType={top5[0]?.strength?.name || "Achiever"}
-            oneSentenceTraitSummary={
-              top5[0]?.strength?.description ||
-              "You have unique strengths that set you apart"
-            }
-          />
+          {emailCaptureVariant === "A" && (
+            <EmailCapture
+              frameworkName="Strengths"
+              frameworkType={top5[0]?.strength?.name || "Achiever"}
+              oneSentenceTraitSummary={
+                top5[0]?.strength?.description ||
+                "You have unique strengths that set you apart"
+              }
+              captureLocation="results_page_post"
+            />
+          )}
 
           <InviteSection
             results={results}
