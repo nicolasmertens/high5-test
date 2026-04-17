@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { usePayment } from "../contexts/PaymentContext";
-import { trackCheckoutStarted, trackCTAClicked, trackUpsellClick } from "../utils/analytics";
+import { trackCheckoutStarted, trackCTAClicked, trackUpsellClick, trackUpsellView } from "../utils/analytics";
 
 type Tier = "full_profile" | "ai_playbook" | "team_monthly";
 
@@ -48,6 +48,17 @@ const TIERS: TierInfo[] = [
 export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
   const { isLoading } = usePayment();
   const [redirecting, setRedirecting] = useState<Tier | null>(null);
+  const viewTracked = useRef(false);
+
+  useEffect(() => {
+    if (!isLoading && !viewTracked.current) {
+      viewTracked.current = true;
+      trackUpsellView({
+        sourceSection: variant === "teaser" ? "upgrade_teaser" : "upgrade_full",
+        tier: "full_profile",
+      });
+    }
+  }, [isLoading, variant]);
 
   if (isLoading) return null;
 
