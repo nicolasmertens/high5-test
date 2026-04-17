@@ -1,4 +1,13 @@
 import posthog from "posthog-js";
+import i18n from "../i18n";
+
+function getLanguage(): string {
+  try {
+    return i18n.language || "en";
+  } catch {
+    return "en";
+  }
+}
 
 export type Framework = "disc" | "personality" | "enneagram" | "strengths";
 
@@ -105,6 +114,7 @@ export function trackPageView(pagePath: string, pageTitle: string): void {
     $current_url: pagePath,
     page_title: pageTitle,
     device_type: getDeviceType(),
+    language: getLanguage(),
     ...utmParams,
   });
 }
@@ -116,6 +126,7 @@ export function trackTestStarted(framework: Framework | "all", landingPage?: str
   posthog.capture("test_started", {
     framework,
     landing_page: landingPage || window.location.pathname,
+    language: getLanguage(),
     ...utmParams,
   });
 }
@@ -151,6 +162,7 @@ export function trackTestCompleted(
   posthog.capture("test_completed", {
     framework,
     question_count: questionCount,
+    language: getLanguage(),
     ...(timeSpent !== undefined ? { time_spent_seconds: timeSpent } : {}),
     ...utmParams,
   });
@@ -374,7 +386,7 @@ export function trackProfileStored(profileHash: string): void {
 
 export function trackCTAClicked(data: {
   ctaText: string;
-  ctaLocation: "intro_hero" | "intro_resume" | "landing_hero" | "landing_bottom" | "bridge_teaser" | "upgrade_teaser" | "upgrade_full";
+  ctaLocation: "intro_hero" | "intro_resume" | "landing_hero" | "landing_bottom" | "bridge_teaser" | "upgrade_teaser" | "upgrade_full" | "playbook_teaser";
   pagePath?: string;
 }): void {
   posthog.capture("cta_clicked", {
@@ -446,6 +458,7 @@ export function trackBlockViewed(blockName: string, isPaid: boolean): void {
 export function trackHomepageView(): void {
   posthog.capture("homepage_view", {
     page_path: "/",
+    language: getLanguage(),
     ...utmParams,
   });
 }
@@ -454,6 +467,7 @@ export function trackHeroCTAClick(ctaText: string): void {
   posthog.capture("hero_cta_click", {
     cta_text: ctaText,
     page_path: "/",
+    language: getLanguage(),
     ...utmParams,
   });
 }
@@ -462,6 +476,7 @@ export function trackFrameworkCardClick(framework: string): void {
   posthog.capture("framework_card_click", {
     framework,
     page_path: "/",
+    language: getLanguage(),
     ...utmParams,
   });
 }
