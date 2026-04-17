@@ -6,6 +6,7 @@ import {
 } from "../data/derivations";
 import { domainColors, domainLabels } from "../data/strengths";
 import { SEOHead } from "./SEOHead";
+import { FrameworkDot } from "./FrameworkDotStrip";
 
 interface Props {
   results: StrengthScore[];
@@ -52,7 +53,7 @@ export function DetailedResults({
       {/* Personality Type Section */}
       <section className="detail-section mbti-section">
         <div className="section-header">
-          <h2>Your Personality Type</h2>
+          <h2 style={{ display: 'flex', alignItems: 'center', gap: 6 }}><FrameworkDot framework="personality" size={8} />Your Personality Type</h2>
           <span className="confidence-badge">
             {personality.confidence}% confidence
           </span>
@@ -120,7 +121,7 @@ export function DetailedResults({
       {/* DISC Section */}
       <section className="detail-section disc-section">
         <div className="section-header">
-          <h2>Your DISC Profile</h2>
+          <h2 style={{ display: 'flex', alignItems: 'center', gap: 6 }}><FrameworkDot framework="disc" size={8} />Your DISC Profile</h2>
           <span className="confidence-badge">
             {disc.confidence}% confidence
           </span>
@@ -192,7 +193,7 @@ export function DetailedResults({
       {/* Enneagram Section */}
       <section className="detail-section enneagram-section">
         <div className="section-header">
-          <h2>Your Enneagram Type</h2>
+          <h2 style={{ display: 'flex', alignItems: 'center', gap: 6 }}><FrameworkDot framework="enneagram" size={8} />Your Enneagram Type</h2>
           <span className="confidence-badge">
             {enneagram.confidence}% confidence
           </span>

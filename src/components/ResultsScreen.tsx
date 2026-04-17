@@ -17,6 +17,7 @@ import { getStoredReferralCode, getStoredProfileHash, getInviteRef } from "../ut
 import { usePayment } from "../contexts/PaymentContext";
 import { trackUpgradeViewed, trackResultsViewed, trackBlockViewed, trackUpsellClick, trackCTAClicked, trackShareCardViewed } from "../utils/analytics";
 import { getShareCopy } from "../data/share-copy";
+import { FrameworkDot } from "./FrameworkDotStrip";
 
 interface Props {
   results: StrengthScore[];
@@ -182,7 +183,7 @@ export function ResultsScreen({ results, onRestart }: Props) {
         canonicalUrl="https://1test.me/results"
         ogImage={ogImageUrl}
       />
-      <h1>Your Top 5 Strengths</h1>
+      <h1 style={{ display: 'flex', alignItems: 'center', gap: 6 }}><FrameworkDot framework="strengths" size={8} />Your Top 5 Strengths</h1>
       <p className="results-subtitle">
         Your unique combination out of 1,860,480 possible sequences
       </p>
