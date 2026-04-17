@@ -1575,6 +1575,76 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/strengths-swot-analysis",
     ogType: "article",
   },
+  "/de": {
+    title: "1Test — Ein Test. Vier Frameworks. Kenne dich selbst.",
+    description:
+      "Mache einen kostenlosen 15-Minuten-Test und erhalte deine Stärken-, 16-Persönlichkeiten-, DISC- und Enneagramm-Ergebnisse. Keine weiteren Tests nötig.",
+    canonicalUrl: "https://1test.me/de/",
+    ogType: "website",
+  },
+  "/de/free-disc-test": {
+    title: "Kostenloser DISC-Test — Entdecke deinen Verhaltensstil | 1Test",
+    description:
+      "Mache ein kostenloses DISC-Assessment und entdecke dein Dominanz-, Einfluss-, Stetigkeits- und Gewissenhaftigkeitsprofil. Verstehe, wie du kommunizierst und mit anderen zusammenarbeitest.",
+    canonicalUrl: "https://1test.me/de/free-disc-test",
+    ogType: "website",
+  },
+  "/de/free-enneagram-test": {
+    title: "Kostenloser Enneagramm-Test — Entdecke deine Kernmotivation | 1Test",
+    description:
+      "Mache einen kostenlosen Enneagramm-Test und entdecke deinen Typ, deine Flügel-Tendenzen und deinen Wachstumspfad. Verstehe das Warum hinter dem, was du tust.",
+    canonicalUrl: "https://1test.me/de/free-enneagram-test",
+    ogType: "website",
+  },
+  "/de/free-personality-test": {
+    title: "Kostenloser 16-Persönlichkeiten-Test — Kenne deinen Typ | 1Test",
+    description:
+      "Mache einen kostenlosen 16-Persönlichkeiten-Test und entdecke deinen Typ, deine kognitiven Präferenzen und wie sie deine Arbeit, Beziehungen und Entwicklung prägen.",
+    canonicalUrl: "https://1test.me/de/free-personality-test",
+    ogType: "website",
+  },
+  "/de/free-strengths-test": {
+    title: "Kostenloser Stärken-Test — Entdecke deine Top 5 | 1Test",
+    description:
+      "Mache ein kostenloses Stärken-Assessment und entdecke deine Top-5-Stärken im Ranking. Sieh, was dich einzigartig macht und wie du deine Stärken bei der Arbeit einsetzt.",
+    canonicalUrl: "https://1test.me/de/free-strengths-test",
+    ogType: "website",
+  },
+  "/fr": {
+    title: "1Test — Un test. Quatre modèles. Connais-toi toi-même.",
+    description:
+      "Passez un test gratuit de 15 minutes et obtenez vos résultats Forces, 16 Personnalités, DISC et Ennéagramme. Pas besoin de tests supplémentaires.",
+    canonicalUrl: "https://1test.me/fr/",
+    ogType: "website",
+  },
+  "/fr/free-disc-test": {
+    title: "Test DISC gratuit — Découvrez votre style comportemental | 1Test",
+    description:
+      "Passez une évaluation DISC gratuite et découvrez votre profil Dominance, Influence, Stabilité et Conformité. Comprenez comment vous communiquez et travaillez avec les autres.",
+    canonicalUrl: "https://1test.me/fr/free-disc-test",
+    ogType: "website",
+  },
+  "/fr/free-enneagram-test": {
+    title: "Test Ennéagramme gratuit — Découvrez votre motivation profonde | 1Test",
+    description:
+      "Passez un test Ennéagramme gratuit et découvrez votre type, vos tendances d'aile et votre parcours de croissance. Comprenez le pourquoi de ce que vous faites.",
+    canonicalUrl: "https://1test.me/fr/free-enneagram-test",
+    ogType: "website",
+  },
+  "/fr/free-personality-test": {
+    title: "Test 16 Personnalités gratuit — Connaissez votre type | 1Test",
+    description:
+      "Passez un test 16 Personnalités gratuit et découvrez votre type, vos préférences cognitives et comment elles façonnent votre travail, vos relations et votre croissance.",
+    canonicalUrl: "https://1test.me/fr/free-personality-test",
+    ogType: "website",
+  },
+  "/fr/free-strengths-test": {
+    title: "Test de forces gratuit — Découvrez votre Top 5 | 1Test",
+    description:
+      "Passez une évaluation de forces gratuite et découvrez vos 5 forces naturelles principales, classées. Voyez ce qui vous rend unique et comment utiliser vos forces au travail.",
+    canonicalUrl: "https://1test.me/fr/free-strengths-test",
+    ogType: "website",
+  },
 };
 
 const BODY_CONTENT = {
@@ -2459,6 +2529,66 @@ const BODY_CONTENT = {
       { heading: "How the Enneagram Relates to Career", text: "Your Enneagram type does not just describe your personality. It reveals what drives you — the core motivation that shapes every career decision you make, from the jobs you gravitate toward to the ones that drain you." },
       { heading: "Career Paths by Enneagram Type", text: "Type 1 (Reformer): law, ethics, editing, quality assurance, healthcare. Type 2 (Helper): counseling, healthcare, nonprofit, education. Type 3 (Achiever): sales, marketing, executive roles, entrepreneurship. Type 4 (Individualist): creative fields, design, writing, therapy. Type 5 (Investigator): research, technology, analysis, academia. Type 6 (Loyalist): project management, legal, risk, operations. Type 7 (Enthusiast): entrepreneurship, travel, strategy, consulting. Type 8 (Challenger): leadership, law, entrepreneurship, executive. Type 9 (Peacemaker): counseling, HR, mediation, customer success." },
       { heading: "Using Enneagram for Career Decisions", text: "Look for work that engages your type's core motivation. Types 1 and 6 want to contribute to something meaningful and structured. Types 3 and 8 want impact and influence. Types 2, 9, and 7 want connection and variety. Types 4 and 5 want depth and authenticity. Pair your Enneagram with DISC and Strengths for a complete picture." },
+    ],
+  },
+  "/de": {
+    h1: "Erkennen, was dich antreibt",
+    sections: [
+      { heading: "Ein kostenloser Test. Vier Persönlichkeitsframeworks. Ergebnisse, die du sofort anwenden kannst.", text: "Mache einen kostenlosen 15-Minuten-Test und erhalte deine Stärken-, 16-Persönlichkeiten-, DISC- und Enneagramm-Ergebnisse. Keine weiteren Tests nötig." },
+    ],
+  },
+  "/de/free-disc-test": {
+    h1: "Kostenloses DISC-Assessment",
+    sections: [
+      { heading: "Kostenloses DISC-Assessment", text: "Entdecke deinen Verhaltensstil — wie du kommunizierst, Entscheidungen triffst und auf verschiedene Situationen reagierst." },
+    ],
+  },
+  "/de/free-enneagram-test": {
+    h1: "Kostenloser Enneagramm-Test",
+    sections: [
+      { heading: "Kostenloser Enneagramm-Test", text: "Entdecke deine Kernmotivation — das Warum hinter dem, was du tust, deinen Wachstumspfad und wie du auf Stress reagierst." },
+    ],
+  },
+  "/de/free-personality-test": {
+    h1: "Kostenloser Persönlichkeitstest",
+    sections: [
+      { heading: "Kostenloser Persönlichkeitstest", text: "Entdecke deinen Persönlichkeitstyp — wie du Informationen verarbeitest, Entscheidungen triffst und Energie tankst. Praktische Erkenntnisse für Arbeit und Leben." },
+    ],
+  },
+  "/de/free-strengths-test": {
+    h1: "Kostenloses Stärken-Assessment",
+    sections: [
+      { heading: "Kostenloses Stärken-Assessment", text: "Entdecke deine natürlichen Stärken — was du ohne Anstrengung am besten kannst. 20 Stärken von stärkster bis entwickelnder." },
+    ],
+  },
+  "/fr": {
+    h1: "Découvrez ce qui vous anime",
+    sections: [
+      { heading: "Un test gratuit. Quatre modèles de personnalité. Des résultats exploitables dès aujourd'hui.", text: "Passez un test gratuit de 15 minutes et obtenez vos résultats Forces, 16 Personnalités, DISC et Ennéagramme. Pas besoin de tests supplémentaires." },
+    ],
+  },
+  "/fr/free-disc-test": {
+    h1: "Évaluation DISC gratuite",
+    sections: [
+      { heading: "Évaluation DISC gratuite", text: "Découvrez votre style comportemental — comment vous communiquez, prenez des décisions et réagissez à différentes situations." },
+    ],
+  },
+  "/fr/free-enneagram-test": {
+    h1: "Test Ennéagramme gratuit",
+    sections: [
+      { heading: "Test Ennéagramme gratuit", text: "Découvrez votre motivation profonde — le pourquoi de ce que vous faites, votre parcours de croissance et comment vous réagissez au stress." },
+    ],
+  },
+  "/fr/free-personality-test": {
+    h1: "Test de personnalité gratuit",
+    sections: [
+      { heading: "Test de personnalité gratuit", text: "Découvrez votre type de personnalité — comment vous traitez l'information, prenez des décisions et rechargez. Des insights pratiques pour le travail et la vie." },
+    ],
+  },
+  "/fr/free-strengths-test": {
+    h1: "Évaluation de forces gratuite",
+    sections: [
+      { heading: "Évaluation de forces gratuite", text: "Découvrez vos forces naturelles — ce que vous faites le mieux sans effort. 20 forces classées de la plus forte à la plus en développement." },
     ],
   },
  };
