@@ -1,8 +1,5 @@
-import { ImageResponse } from "@vercel/og";
-
-export const config = {
-  runtime: "edge",
-};
+import type { VercelRequest, VercelResponse } from "@vercel/node";
+import sharp from "sharp";
 
 const DOMAIN_COLORS: Record<string, string> = {
   doing: "#f59e0b",
@@ -11,201 +8,126 @@ const DOMAIN_COLORS: Record<string, string> = {
   motivating: "#10b981",
 };
 
-export default async function handler(request: Request): Promise<Response> {
-  if (request.method !== "GET") {
-    return new Response(JSON.stringify({ error: "Method not allowed" }), {
-      status: 405,
-      headers: { "Content-Type": "application/json" },
-    });
+interface OgParams {
+  personalityType: string;
+  discStyle: string;
+  enneagramWing: string;
+  topStrength: string;
+  strengthDomain: string;
+  isPaid: boolean;
+}
+
+function escapeXml(s: string): string {
+  return s
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function buildSvg(params: OgParams): string {
+  const { personalityType, discStyle, enneagramWing, topStrength, strengthDomain, isPaid } = params;
+  const domainColor = DOMAIN_COLORS[strengthDomain] || "#f59e0b";
+  const escapedType = escapeXml(personalityType);
+  const escapedDisc = escapeXml(discStyle);
+  const escapedEnneagram = escapeXml(enneagramWing);
+  const escapedStrength = escapeXml(topStrength);
+
+  let frameworkSection: string;
+
+  if (isPaid) {
+    frameworkSection = `
+      <text x="600" y="380" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700" fill="white" letter-spacing="-2">${escapedType}</text>
+      <g transform="translate(260, 420)">
+        <rect x="0" y="0" width="160" height="60" rx="12" fill="rgba(255,255,255,0.08)" />
+        <text x="80" y="22" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" letter-spacing="0.5">DISC</text>
+        <text x="80" y="48" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="white" font-weight="700">${escapedDisc || "\u2014"}</text>
+      </g>
+      <g transform="translate(440, 420)">
+        <rect x="0" y="0" width="160" height="60" rx="12" fill="rgba(255,255,255,0.08)" />
+        <text x="80" y="22" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" letter-spacing="0.5">ENNEAGRAM</text>
+        <text x="80" y="48" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="white" font-weight="700">${escapedEnneagram || "\u2014"}</text>
+      </g>
+      <g transform="translate(620, 420)">
+        <rect x="0" y="0" width="160" height="60" rx="12" fill="rgba(255,255,255,0.08)" />
+        <text x="80" y="22" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" letter-spacing="0.5">TOP STRENGTH</text>
+        <text x="80" y="48" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="${domainColor}" font-weight="700">${escapedStrength}</text>
+      </g>`;
+  } else {
+    frameworkSection = `
+      <text x="600" y="390" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="80" font-weight="700" fill="white" letter-spacing="-2">${escapedType}</text>
+      <g transform="translate(420, 430)">
+        <rect x="0" y="0" width="360" height="70" rx="12" fill="rgba(255,255,255,0.08)" />
+        <text x="180" y="28" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" letter-spacing="0.5">#1 STRENGTH</text>
+        <text x="180" y="56" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="${domainColor}" font-weight="700">${escapedStrength}</text>
+      </g>`;
   }
 
-  const { searchParams } = new URL(request.url);
-  const type = searchParams.get("type");
-  const disc = searchParams.get("disc") || "";
-  const enneagram = searchParams.get("enneagram") || "";
-  const strength = searchParams.get("strength");
-  const domain = searchParams.get("domain") || "doing";
-  const paid = searchParams.get("paid");
+  return `<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <g transform="translate(64, 32)">
+    <rect x="0" y="0" width="40" height="40" rx="8" fill="url(#logo-grad)"/>
+    <defs>
+      <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#7c3aed"/>
+        <stop offset="100%" stop-color="#6366f1"/>
+      </linearGradient>
+    </defs>
+    <text x="13" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="white">1T</text>
+  </g>
+  <text x="124" y="60" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="white" letter-spacing="-0.4">1Test</text>
+  <text x="1136" y="60" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9ca3af">One Test. Four Frameworks.</text>
+
+  <!-- Profile -->
+  ${frameworkSection}
+
+  <!-- Footer -->
+  <text x="600" y="598" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#6b7280">${isPaid ? "Discover your strengths \u2014 1test.me" : "Take the free test \u2014 1test.me"}</text>
+</svg>`;
+}
+
+export default async function handler(req: VercelRequest, res: VercelResponse) {
+  if (req.method !== "GET") {
+    return res.status(405).json({ error: "Method not allowed" });
+  }
+
+  const { type, disc, enneagram, strength, domain, paid } = req.query;
 
   if (!type || !strength) {
-    return new Response(JSON.stringify({ error: "Missing required params: type, strength" }), {
-      status: 400,
-      headers: { "Content-Type": "application/json" },
-    });
+    return res.status(400).json({ error: "Missing required params: type, strength" });
   }
 
-  const isPaid = paid === "1" || paid === "true";
-  const domainColor = DOMAIN_COLORS[domain] || "#f59e0b";
+  const params: OgParams = {
+    personalityType: String(type),
+    discStyle: String(disc || ""),
+    enneagramWing: String(enneagram || ""),
+    topStrength: String(strength),
+    strengthDomain: String(domain || "doing"),
+    isPaid: paid === "1" || paid === "true",
+  };
 
   try {
-    const [boldRes, regularRes] = await Promise.all([
-      fetch("https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-700-normal.woff2"),
-      fetch("https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-400-normal.woff2"),
-    ]);
+    const svg = buildSvg(params);
+    const pngBuffer = await sharp(Buffer.from(svg))
+      .png()
+      .toBuffer();
 
-    const [boldData, regularData] = await Promise.all([
-      boldRes.arrayBuffer(),
-      regularRes.arrayBuffer(),
-    ]);
-
-    const element = {
-      type: "div",
-      props: {
-        style: {
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "space-between",
-          width: "100%",
-          height: "100%",
-          background: "linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #111827 100%)",
-          padding: "48px 64px",
-          fontFamily: "Inter",
-        },
-        children: [
-          {
-            type: "div",
-            props: {
-              style: { display: "flex", justifyContent: "space-between", alignItems: "center" },
-              children: [
-                {
-                  type: "div",
-                  props: {
-                    style: { display: "flex", alignItems: "center", gap: "12px" },
-                    children: [
-                      {
-                        type: "div",
-                        props: {
-                          style: { display: "flex", alignItems: "center", justifyContent: "center", width: "40px", height: "40px", background: "linear-gradient(135deg, #7c3aed, #6366f1)", borderRadius: "8px", color: "#ffffff", fontSize: "18px", fontWeight: 700 },
-                          children: "1T",
-                        },
-                      },
-                      {
-                        type: "div",
-                        props: {
-                          style: { fontSize: "20px", color: "#ffffff", fontWeight: 700, letterSpacing: "-0.02em" },
-                          children: "1Test",
-                        },
-                      },
-                    ],
-                  },
-                },
-                {
-                  type: "div",
-                  props: {
-                    style: { fontSize: "14px", color: "#9ca3af" },
-                    children: "One Test. Four Frameworks.",
-                  },
-                },
-              ],
-            },
-          },
-          {
-            type: "div",
-            props: {
-              style: { display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", flexGrow: 1 },
-              children: isPaid
-                ? [
-                    {
-                      type: "div",
-                      props: {
-                        style: { fontSize: "72px", color: "#ffffff", fontWeight: 700, letterSpacing: "-0.03em", lineHeight: 1.1 },
-                        children: type,
-                      },
-                    },
-                    {
-                      type: "div",
-                      props: {
-                        style: { display: "flex", gap: "16px", marginTop: "40px" },
-                        children: [
-                          {
-                            type: "div",
-                            props: {
-                              style: { display: "flex", flexDirection: "column", alignItems: "center", background: "rgba(255,255,255,0.08)", borderRadius: "12px", padding: "16px 24px" },
-                              children: [
-                                { type: "div", props: { style: { fontSize: "12px", color: "#9ca3af", letterSpacing: "0.05em", textTransform: "uppercase" }, children: "DISC" } },
-                                { type: "div", props: { style: { fontSize: "24px", color: "#ffffff", fontWeight: 700, marginTop: "4px" }, children: disc || "\u2014" } },
-                              ],
-                            },
-                          },
-                          {
-                            type: "div",
-                            props: {
-                              style: { display: "flex", flexDirection: "column", alignItems: "center", background: "rgba(255,255,255,0.08)", borderRadius: "12px", padding: "16px 24px" },
-                              children: [
-                                { type: "div", props: { style: { fontSize: "12px", color: "#9ca3af", letterSpacing: "0.05em", textTransform: "uppercase" }, children: "Enneagram" } },
-                                { type: "div", props: { style: { fontSize: "24px", color: "#ffffff", fontWeight: 700, marginTop: "4px" }, children: enneagram || "\u2014" } },
-                              ],
-                            },
-                          },
-                          {
-                            type: "div",
-                            props: {
-                              style: { display: "flex", flexDirection: "column", alignItems: "center", background: "rgba(255,255,255,0.08)", borderRadius: "12px", padding: "16px 24px" },
-                              children: [
-                                { type: "div", props: { style: { fontSize: "12px", color: "#9ca3af", letterSpacing: "0.05em", textTransform: "uppercase" }, children: "Top Strength" } },
-                                { type: "div", props: { style: { fontSize: "24px", color: domainColor, fontWeight: 700, marginTop: "4px" }, children: strength } },
-                              ],
-                            },
-                          },
-                        ],
-                      },
-                    },
-                  ]
-                : [
-                    {
-                      type: "div",
-                      props: {
-                        style: { fontSize: "80px", color: "#ffffff", fontWeight: 700, letterSpacing: "-0.03em", lineHeight: 1.1 },
-                        children: type,
-                      },
-                    },
-                    {
-                      type: "div",
-                      props: {
-                        style: { display: "flex", flexDirection: "column", alignItems: "center", background: "rgba(255,255,255,0.08)", borderRadius: "12px", padding: "16px 32px", marginTop: "40px" },
-                        children: [
-                          { type: "div", props: { style: { fontSize: "12px", color: "#9ca3af", letterSpacing: "0.05em", textTransform: "uppercase" }, children: "#1 Strength" } },
-                          { type: "div", props: { style: { fontSize: "28px", color: domainColor, fontWeight: 700, marginTop: "4px" }, children: strength } },
-                        ],
-                      },
-                    },
-                  ],
-            },
-          },
-          {
-            type: "div",
-            props: {
-              style: { display: "flex", justifyContent: "center" },
-              children: [
-                {
-                  type: "div",
-                  props: {
-                    style: { fontSize: "16px", color: "#6b7280" },
-                    children: isPaid ? "Discover your strengths \u2014 1test.me" : "Take the free test \u2014 1test.me",
-                  },
-                },
-              ],
-            },
-          },
-        ],
-      },
-    };
-
-    return new ImageResponse(element as React.ReactNode, {
-      width: 1200,
-      height: 630,
-      fonts: [
-        { name: "Inter", data: regularData, weight: 400, style: "normal" },
-        { name: "Inter", data: boldData, weight: 700, style: "normal" },
-      ],
-    });
+    res.setHeader("Content-Type", "image/png");
+    res.setHeader("Cache-Control", "public, s-maxage=86400, stale-while-revalidate=604800");
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    return res.status(200).send(pngBuffer);
   } catch (err: unknown) {
     const message = err instanceof Error ? err.message : "Unknown error";
-    const stack = err instanceof Error ? err.stack : undefined;
-    console.error("OG image generation error:", message, stack);
-    return new Response(JSON.stringify({ error: "Failed to generate image", details: message }), {
-      status: 500,
-      headers: { "Content-Type": "application/json" },
-    });
+    console.error("OG image generation error:", message);
+    return res.status(500).json({ error: "Failed to generate image", details: message });
   }
 }
