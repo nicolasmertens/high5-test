@@ -6,6 +6,7 @@ import {
   type DISCResult,
 } from "../data/derivations";
 import { domainColors, domainLabels } from "../data/strengths";
+import { getShareCopy, type Segment } from "../data/share-copy";
 
 interface Props {
   results: StrengthScore[];
@@ -13,11 +14,13 @@ interface Props {
   enneagram: EnneagramResult;
   disc: DISCResult;
   isPaid: boolean;
+  segment?: Segment | null;
 }
 
 export const ShareCard = forwardRef<HTMLDivElement, Props>(
-  function ShareCard({ results, personality, enneagram, disc, isPaid }, ref) {
+  function ShareCard({ results, personality, enneagram, disc, isPaid, segment = null }, ref) {
     const top5 = results.slice(0, 5);
+    const { cardSubtitle } = getShareCopy(segment ?? null);
 
     return (
       <div className="share-card" ref={ref}>
@@ -27,7 +30,7 @@ export const ShareCard = forwardRef<HTMLDivElement, Props>(
               <span className="share-card-logo">1T</span>
               <span className="share-card-brandname">1Test</span>
             </div>
-            <span className="share-card-tagline">One Test. Four Frameworks.</span>
+            <span className="share-card-tagline">{cardSubtitle}</span>
           </div>
 
           <div className="share-card-body">

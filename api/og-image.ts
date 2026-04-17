@@ -8,6 +8,26 @@ const DOMAIN_COLORS: Record<string, string> = {
   motivating: "#10b981",
 };
 
+type OgSegment = "university" | "early_career" | "plateaued" | "midlife" | "late_career" | "solopreneur";
+
+const SEGMENT_SUBTITLES: Record<OgSegment, string> = {
+  university: "Your career starts here",
+  early_career: "Find your edge",
+  plateaued: "Close your leadership gap",
+  midlife: "What's next for you?",
+  late_career: "Your next chapter starts here",
+  solopreneur: "Know your blind spots",
+};
+
+const SEGMENT_CTAS: Record<OgSegment, string> = {
+  university: "Start your career right \u2014 1test.me",
+  early_career: "Find your edge \u2014 1test.me",
+  plateaued: "Discover your leadership gap \u2014 1test.me",
+  midlife: "Find what\u2019s next \u2014 1test.me",
+  late_career: "Start your next chapter \u2014 1test.me",
+  solopreneur: "Know your blind spots \u2014 1test.me",
+};
+
 interface OgParams {
   personalityType: string;
   discStyle: string;
@@ -15,6 +35,7 @@ interface OgParams {
   topStrength: string;
   strengthDomain: string;
   isPaid: boolean;
+  segment?: OgSegment | null;
 }
 
 function escapeXml(s: string): string {
@@ -26,7 +47,14 @@ function escapeXml(s: string): string {
 }
 
 function buildSvg(params: OgParams): string {
-  const { personalityType, discStyle, enneagramWing, topStrength, strengthDomain, isPaid } = params;
+  const { personalityType, discStyle, enneagramWing, topStrength, strengthDomain, isPaid, segment } = params;
+  const subtitle = segment ? SEGMENT_SUBTITLES[segment] : null;
+  const footerCta = segment
+    ? SEGMENT_CTAS[segment]
+    : isPaid
+      ? "Discover your strengths \u2014 1test.me"
+      : "Take the free test \u2014 1test.me";
+  const escapedSubtitle = subtitle ? escapeXml(subtitle) : null;
   const domainColor = DOMAIN_COLORS[strengthDomain] || "#f59e0b";
   const escapedType = escapeXml(personalityType);
   const escapedDisc = escapeXml(discStyle);
@@ -89,9 +117,10 @@ function buildSvg(params: OgParams): string {
 
   <!-- Profile -->
   ${frameworkSection}
+  ${escapedSubtitle ? `<text x="600" y="510" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-style="italic" fill="#9ca3af">${escapedSubtitle}</text>` : ""}
 
   <!-- Footer -->
-  <text x="600" y="598" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#6b7280">${isPaid ? "Discover your strengths \u2014 1test.me" : "Take the free test \u2014 1test.me"}</text>
+  <text x="600" y="598" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#6b7280">${escapeXml(footerCta)}</text>
 </svg>`;
 }
 
@@ -100,11 +129,16 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  const { type, disc, enneagram, strength, domain, paid } = req.query;
+  const { type, disc, enneagram, strength, domain, paid, segment } = req.query;
 
   if (!type || !strength) {
     return res.status(400).json({ error: "Missing required params: type, strength" });
   }
+
+  const validSegments: OgSegment[] = ["university", "early_career", "plateaued", "midlife", "late_career", "solopreneur"];
+  const segmentValue = typeof segment === "string" && validSegments.includes(segment as OgSegment)
+    ? (segment as OgSegment)
+    : null;
 
   const params: OgParams = {
     personalityType: String(type),
@@ -113,6 +147,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     topStrength: String(strength),
     strengthDomain: String(domain || "doing"),
     isPaid: paid === "1" || paid === "true",
+    segment: segmentValue,
   };
 
   try {

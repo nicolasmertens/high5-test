@@ -260,6 +260,31 @@ export function trackShare(framework: string, shareChannel: string): void {
   });
 }
 
+export function trackShareCardViewed(personalityType: string, segment: string | null): void {
+  posthog.capture("share_card_viewed", {
+    personality_type: personalityType,
+    segment: segment ?? "default",
+    page_path: window.location.pathname,
+  });
+}
+
+export function trackShareCardShared(channel: string, personalityType: string, segment: string | null): void {
+  posthog.capture("share_card_shared", {
+    share_channel: channel,
+    personality_type: personalityType,
+    segment: segment ?? "default",
+    page_path: window.location.pathname,
+  });
+}
+
+export function trackShareCardDownloaded(personalityType: string, segment: string | null): void {
+  posthog.capture("share_card_downloaded", {
+    personality_type: personalityType,
+    segment: segment ?? "default",
+    page_path: window.location.pathname,
+  });
+}
+
 export function trackScrollDepth(pagePath: string, depthPct: number): void {
   posthog.capture("scroll_depth", {
     page_path: pagePath,
@@ -451,6 +476,23 @@ export function trackBlockViewed(blockName: string, isPaid: boolean): void {
   posthog.capture("block_viewed", {
     block_name: blockName,
     is_paid: isPaid,
+    page_path: window.location.pathname,
+  });
+}
+
+export function trackCommunityClick(data: {
+  platform: string;
+  personalityType: string;
+  communityName: string;
+  url: string;
+  isPaid: boolean;
+}): void {
+  posthog.capture("community_click", {
+    platform: data.platform,
+    personality_type: data.personalityType,
+    community_name: data.communityName,
+    url: data.url,
+    is_paid: data.isPaid,
     page_path: window.location.pathname,
   });
 }

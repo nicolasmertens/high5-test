@@ -1,13 +1,24 @@
 import { useState } from "react";
-import { trackShare } from "../utils/analytics";
+import { trackShareCardShared } from "../utils/analytics";
+import { getShareCopy, type Segment } from "../data/share-copy";
 
 interface Props {
   shareText: string;
   shareUrl: string;
   framework: string;
+  segment?: Segment | null;
+  personalityType?: string;
 }
 
 const SHARE_CHANNELS = [
+  {
+    key: "whatsapp",
+    label: "WhatsApp",
+    icon: "💬",
+    getUrl: (text: string, url: string) =>
+      `https://wa.me/?text=${encodeURIComponent(`${text} ${url}`)}`,
+    className: "share-btn-whatsapp",
+  },
   {
     key: "twitter",
     label: "X / Twitter",
@@ -32,26 +43,19 @@ const SHARE_CHANNELS = [
       `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`,
     className: "share-btn-linkedin",
   },
-  {
-    key: "whatsapp",
-    label: "WhatsApp",
-    icon: "WA",
-    getUrl: (text: string, url: string) =>
-      `https://wa.me/?text=${encodeURIComponent(`${text} ${url}`)}`,
-    className: "share-btn-whatsapp",
-  },
 ] as const;
 
-export function ShareButtons({ shareText, shareUrl, framework }: Props) {
+export function ShareButtons({ shareText: _shareText, shareUrl, framework, segment = null, personalityType = "" }: Props) {
+  const { shareText } = getShareCopy(segment);
   const [copied, setCopied] = useState(false);
 
   const handleShare = (channel: string, url: string) => {
-    trackShare(framework, channel);
+    trackShareCardShared(channel, personalityType, segment);
     window.open(url, "_blank", "noopener,noreferrer,width=600,height=500");
   };
 
   const handleCopyLink = async () => {
-    trackShare(framework, "copy_link");
+    trackShareCardShared("copy_link", personalityType, segment);
     try {
       await navigator.clipboard.writeText(shareUrl);
     } catch {

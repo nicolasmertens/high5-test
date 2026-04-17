@@ -15,7 +15,8 @@ import { CareerPathBlock } from "./career/CareerPathBlock";
 import { useShareImage } from "../hooks/useShareImage";
 import { getStoredReferralCode, getStoredProfileHash, getInviteRef } from "../utils/profile";
 import { usePayment } from "../contexts/PaymentContext";
-import { trackUpgradeViewed, trackResultsViewed, trackBlockViewed, trackUpsellClick, trackCTAClicked } from "../utils/analytics";
+import { trackUpgradeViewed, trackResultsViewed, trackBlockViewed, trackUpsellClick, trackCTAClicked, trackShareCardViewed } from "../utils/analytics";
+import { getShareCopy } from "../data/share-copy";
 
 interface Props {
   results: StrengthScore[];
@@ -37,9 +38,9 @@ export function ResultsScreen({ results, onRestart }: Props) {
   const [showDetailed, setShowDetailed] = useState(false);
   const [inviterInfo, setInviterInfo] = useState<{ name: string; profileHash: string; personalityType: string } | null>(null);
   const { isPaid, tier } = usePayment();
-  const { cardRef, downloadImage } = useShareImage();
   const upgradeViewedTracked = useRef(false);
   const resultsViewedTracked = useRef(false);
+  const shareCardViewedTracked = useRef(false);
   const top5 = results.slice(0, 5);
 
   useEffect(() => {
@@ -87,6 +88,7 @@ export function ResultsScreen({ results, onRestart }: Props) {
   const personality = useMemo(() => derivePersonalityType(results), [results]);
   const enneagram = useMemo(() => deriveEnneagram(results), [results]);
   const disc = useMemo(() => deriveDISC(results), [results]);
+  const { cardRef, downloadImage } = useShareImage(personality.type, null);
 
   useEffect(() => {
     if (!resultsViewedTracked.current && top5.length > 0) {
@@ -112,12 +114,16 @@ export function ResultsScreen({ results, onRestart }: Props) {
   );
 
   const shareText = useMemo(
-    () =>
-      isPaid
-        ? `I'm a ${personality.type} (${personality.label}) with a ${disc.style} DISC profile and Enneagram ${enneagram.wingLabel}. My top strength is ${top5[0]?.strength.name ?? ""}. Discover yours:`
-        : `My top strength is ${top5[0]?.strength.name ?? ""} — discover yours with one free test:`,
-    [isPaid, personality, disc, enneagram, top5],
+    () => getShareCopy(null).shareText,
+    [],
   );
+
+  useEffect(() => {
+    if (!shareCardViewedTracked.current && top5.length > 0) {
+      shareCardViewedTracked.current = true;
+      trackShareCardViewed(personality.type, null);
+    }
+  }, [top5.length, personality.type]);
 
   const domainCounts: Record<string, number> = {};
   for (const r of top5) {
@@ -453,18 +459,21 @@ export function ResultsScreen({ results, onRestart }: Props) {
               enneagram={enneagram}
               disc={disc}
               isPaid={isPaid}
+              segment={null}
             />
 
             <ShareButtons
               shareText={shareText}
               shareUrl={shareUrl}
               framework="strengths"
+              segment={null}
+              personalityType={personality.type}
             />
 
             <div className="share-actions-row">
               <button
                 className="btn-start btn-share-download"
-                onClick={() => downloadImage("1test-results.png")}
+                onClick={() => downloadImage()}
               >
                 Download as Image
               </button>

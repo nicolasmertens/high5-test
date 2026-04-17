@@ -271,5 +271,49 @@
     "en": "English",
     "de": "Deutsch",
     "fr": "Français"
+  },
+  "share": {
+    "default": {
+      "shareText": "I just discovered my top 5 strengths — and they changed how I think about my career. Take the free test:",
+      "cardSubtitle": "One Test. Four Frameworks.",
+      "landingCTA": "Take the free test — 1test.me",
+      "compareText": "Compare your results with a friend"
+    },
+    "university": {
+      "shareText": "I just discovered my top strengths — and they match careers I never considered. Take the free test:",
+      "cardSubtitle": "Your career starts here",
+      "landingCTA": "Start your career right — 1test.me",
+      "compareText": "Compare your strengths with a friend"
+    },
+    "earlyCareer": {
+      "shareText": "Turns out my personality type explains why certain roles drain me. Take the free test:",
+      "cardSubtitle": "Find your edge",
+      "landingCTA": "Find your edge — 1test.me",
+      "compareText": "See how you compare with your team"
+    },
+    "plateaued": {
+      "shareText": "I found my leadership gap — and it was not what I expected. Take the free test:",
+      "cardSubtitle": "Close your leadership gap",
+      "landingCTA": "Discover your leadership gap — 1test.me",
+      "compareText": "Compare leadership styles with a colleague"
+    },
+    "midlife": {
+      "shareText": "My strengths pointed to a career I never thought about. Take the free test:",
+      "cardSubtitle": "What's next for you?",
+      "landingCTA": "Find what's next — 1test.me",
+      "compareText": "See how your strengths compare"
+    },
+    "lateCareer": {
+      "shareText": "I just mapped my strengths at 55 — and got clarity on what comes next. Take the free test:",
+      "cardSubtitle": "Your next chapter starts here",
+      "landingCTA": "Start your next chapter — 1test.me",
+      "compareText": "Share your strengths with someone you trust"
+    },
+    "solopreneur": {
+      "shareText": "The test told me my blind spot as a founder. Wish I knew this sooner. Take the free test:",
+      "cardSubtitle": "Know your blind spots",
+      "landingCTA": "Know your blind spots — 1test.me",
+      "compareText": "Compare founder profiles with a co-founder"
+    }
   }
 }
