@@ -93,7 +93,7 @@ export function resolveSegment(answers: IntakeAnswers): SegmentDefinition {
 
 const INTAKE_STORAGE_KEY = "1test_career_intake";
 
-export function saveIntakeAnswers(answers: IntakeAnswers): void {
+export function saveIntakeAnswers(answers: IntakeAnswers, profileHash?: string | null): void {
   try {
     localStorage.setItem(INTAKE_STORAGE_KEY, JSON.stringify(answers));
   } catch {
@@ -103,7 +103,7 @@ export function saveIntakeAnswers(answers: IntakeAnswers): void {
     fetch("/api/career-intake", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(answers),
+      body: JSON.stringify({ ...answers, profileHash: profileHash ?? undefined }),
     }).catch(() => {
       // network error — best effort
     });

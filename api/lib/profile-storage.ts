@@ -1,5 +1,27 @@
 import { gcsGet, gcsSet, gcsSetWithTTL, gcsGet as gcsGetIdx } from "./gcs-storage.js";
 
+export type IntakeAgeRange = "18-24" | "25-34" | "35-44" | "45-54" | "55+";
+export type IntakeCareerStage =
+  | "university"
+  | "early_career"
+  | "mid_career"
+  | "career_changer"
+  | "plateaued"
+  | "return_to_work";
+export type IntakeTestReason =
+  | "career_guidance"
+  | "self_discovery"
+  | "team_building"
+  | "curiosity"
+  | "academic_requirement";
+
+export interface ProfileIntake {
+  ageRange: IntakeAgeRange;
+  careerStage: IntakeCareerStage;
+  testReason: IntakeTestReason;
+  updatedAt: number;
+}
+
 export interface StoredProfile {
   profileHash: string;
   referralCode: string;
@@ -15,6 +37,7 @@ export interface StoredProfile {
   enneagramPrimary: number;
   enneagramPrimaryScore: number;
   createdAt: number;
+  intake?: ProfileIntake;
 }
 
 const PROFILE_TTL = 60 * 60 * 24 * 90;
@@ -32,4 +55,18 @@ export async function getProfileByReferralCode(code: string): Promise<StoredProf
   const idx = await gcsGetIdx<{ profileHash: string }>(`pidx/${code}.json`);
   if (!idx) return null;
   return getProfile(idx.profileHash);
+}
+
+export async function updateProfileIntake(
+  hash: string,
+  intake: Omit<ProfileIntake, "updatedAt">,
+): Promise<StoredProfile | null> {
+  const existing = await getProfile(hash);
+  if (!existing) return null;
+  const updated: StoredProfile = {
+    ...existing,
+    intake: { ...intake, updatedAt: Date.now() },
+  };
+  await gcsSetWithTTL(`profiles/${updated.profileHash}.json`, updated, PROFILE_TTL);
+  return updated;
 }

@@ -11,6 +11,7 @@ import {
   loadIntakeAnswers,
 } from "../../careerData/segmentConfig";
 import { trackCTAClicked, trackCareerIntakeCompleted } from "../../utils/analytics";
+import { getStoredProfileHash } from "../../utils/profile";
 
 interface Props {
   onComplete: (answers: IntakeAnswers) => void;
@@ -42,7 +43,7 @@ export function IntakeQuestions({ onComplete, personalityType: pType }: Props) {
       careerStage,
       testReason,
     };
-    saveIntakeAnswers(answers);
+    saveIntakeAnswers(answers, getStoredProfileHash());
     trackCTAClicked({
       ctaText: "Submit career intake",
       ctaLocation: "career_intake",
