@@ -438,6 +438,7 @@ export function ResultsScreen({ results, onRestart }: Props) {
             personality={personality}
             enneagram={enneagram}
             disc={disc}
+            intakeAnswers={null}
           />
 
           <CareerPathBlock
