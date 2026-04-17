@@ -7,9 +7,11 @@ interface EmailCaptureProps {
   frameworkName: string;
   frameworkType: string;
   oneSentenceTraitSummary: string;
+  captureLocation?: string;
+  onSuccess?: (email: string) => void;
 }
 
-export function EmailCapture({ frameworkName, frameworkType, oneSentenceTraitSummary }: EmailCaptureProps) {
+export function EmailCapture({ frameworkName, frameworkType, oneSentenceTraitSummary, captureLocation = "results_page", onSuccess }: EmailCaptureProps) {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
@@ -45,7 +47,8 @@ export function EmailCapture({ frameworkName, frameworkType, oneSentenceTraitSum
 
       try { sessionStorage.setItem(NURTURE_EMAIL_KEY, normalizedEmail); } catch { /* storage unavailable */ }
       setStatus("success");
-      trackEmailCaptured("results_page", frameworkName);
+      trackEmailCaptured(captureLocation, frameworkName);
+      onSuccess?.(normalizedEmail);
     } catch (err: any) {
       setStatus("error");
       setErrorMessage(err.message || "Something went wrong. Please try again.");

@@ -4,6 +4,7 @@ const AB_VARIANT_KEY = "1test_ab_variant";
 
 const VARIANT_COUNTS: Record<string, number> = {
   upsell_messaging: 3,
+  email_capture_moment: 3,
 };
 
 export function getVariant(experimentName: string): Variant {
@@ -43,6 +44,9 @@ export function trackExperimentView(experimentName: string, variant: Variant): v
     };
     if (experimentName === "upsell_messaging") {
       properties.upsell_variant = variant;
+    }
+    if (experimentName === "email_capture_moment") {
+      properties.email_capture_variant = variant;
     }
     ph.default.setPersonProperties(properties);
   });

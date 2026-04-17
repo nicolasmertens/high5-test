@@ -1,8 +1,9 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useAssessment } from "./hooks/useAssessment";
 import { IntroScreen } from "./components/IntroScreen";
 import { QuestionCard } from "./components/QuestionCard";
 import { ResultsScreen } from "./components/ResultsScreen";
+import { EmailGate } from "./components/EmailGate";
 import { PaymentProvider, usePayment } from "./contexts/PaymentContext";
 import { SEOHead } from "./components/SEOHead";
 import { InviteBanner } from "./components/InviteBanner";
@@ -11,6 +12,7 @@ import {
   trackTestStarted,
   trackTestCompleted,
 } from "./utils/analytics";
+import { getVariant, trackExperimentView } from "./utils/abTesting";
 import {
   generateProfileHash,
   generateReferralCode,
@@ -47,6 +49,8 @@ function AppInner() {
 
   const { checkSession } = usePayment();
   const prevPhase = useRef(phase);
+  const emailCaptureVariant = useRef(getVariant("email_capture_moment"));
+  const [emailGatePassed, setEmailGatePassed] = useState(false);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -65,6 +69,7 @@ function AppInner() {
     if (prevPhase.current === "test" && phase === "results") {
       trackTestCompleted("strengths", totalQuestions);
       storeProfile(results);
+      trackExperimentView("email_capture_moment", emailCaptureVariant.current);
     }
     prevPhase.current = phase;
   }, [phase, totalQuestions, results]);
@@ -155,12 +160,23 @@ function AppInner() {
         />
       )}
 
-      {phase === "results" && (
+      {phase === "results" && emailCaptureVariant.current === "B" && !emailGatePassed && (
+        <EmailGate
+          frameworkName="Strengths"
+          frameworkType={results[0]?.strength?.name || "Achiever"}
+          oneSentenceTraitSummary={results[0]?.strength?.description || "You have unique strengths that set you apart"}
+          onUnlocked={() => setEmailGatePassed(true)}
+        />
+      )}
+
+      {phase === "results" && (emailCaptureVariant.current !== "B" || emailGatePassed) && (
         <ResultsScreen
           results={results}
           onRestart={() => {
             restart();
+            setEmailGatePassed(false);
           }}
+          emailCaptureVariant={emailCaptureVariant.current}
         />
       )}
 

@@ -1,0 +1,323 @@
+{
+  "app": {
+    "title": "1Test — Un test. Cuatro marcos. Conócete a ti mismo.",
+    "description": "Haz un test gratuito de 15 minutos y obtén tus resultados de Fortalezas, 16 Personalidades, DISC y Eneagrama. Sin tests adicionales."
+  },
+  "nav": {
+    "takeTest": "Hacer el test",
+    "pricing": "Precios",
+    "blog": "Blog"
+  },
+  "header": {
+    "toggleNav": "Alternar navegación"
+  },
+  "footer": {
+    "testsHeading": "Tests gratuitos",
+    "learnHeading": "Aprender",
+    "legalHeading": "Legal",
+    "pricing": "Precios",
+    "blog": "Blog",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "home": "Inicio"
+  },
+  "footerTests": {
+    "personalities": "16 Personalidades",
+    "disc": "Perfil DISC",
+    "enneagram": "Eneagrama",
+    "strengths": "Top 5 Fortalezas"
+  },
+  "intro": {
+    "headline": "Descubre qué te mueve",
+    "subtitle": "Un test gratuito. Cuatro marcos de personalidad. Resultados que puedes aplicar hoy.",
+    "trustFree": "100% gratuito",
+    "trustPrivate": "Resultados privados",
+    "trustResearch": "Basado en investigación",
+    "questionCount": "Preguntas",
+    "frameworksCount": "Marcos",
+    "minutesLabel": "Minutos",
+    "freeAlways": "Siempre",
+    "instruction": "Valora cada afirmación según cuánto te describe. Sigue tu primer instinto — no hay respuestas correctas ni incorrectas.",
+    "socialProof": "Únete a miles que han descubierto sus fortalezas — gratis, sin registro.",
+    "startFree": "Iniciar evaluación gratuita",
+    "startAssessment": "Iniciar evaluación",
+    "startOver": "Empezar de nuevo",
+    "continueWhere": "Continuar donde lo dejaste",
+    "creditPrefix": "Basado en investigación de dominio público del",
+    "creditLink": "International Personality Item Pool",
+    "creditSuffix": ". No afiliado a ningún titular de marca.",
+    "pricing": "Precios",
+    "privacy": "Privacidad",
+    "terms": "Términos"
+  },
+  "frameworkCards": {
+    "strengths": "Top 5 Fortalezas",
+    "strengthsDesc": "20 fortalezas, 4 dominios",
+    "personality": "16 Personalidades",
+    "personalityDesc": "Preferencias cognitivas",
+    "disc": "Perfil DISC",
+    "discDesc": "Estilo conductual",
+    "enneagram": "Eneagrama",
+    "enneagramDesc": "Motivaciones centrales",
+    "domains": {
+      "doing": "HACER",
+      "thinking": "PENSAR",
+      "feeling": "SENTIR",
+      "motivating": "MOTIVAR"
+    }
+  },
+  "question": {
+    "stronglyDisagree": "Totalmente en desacuerdo",
+    "disagree": "En desacuerdo",
+    "neutral": "Neutral",
+    "agree": "De acuerdo",
+    "stronglyAgree": "Totalmente de acuerdo",
+    "progressSaved": "Progreso guardado",
+    "back": "Atrás",
+    "seeResults": "Ver resultados",
+    "next": "Siguiente",
+    "sliderPrompt": "Arrastra el control o pulsa 1-5"
+  },
+  "results": {
+    "titleFree": "{{strength}} | Resultados 1Test",
+    "titlePaid": "{{type}} ({{label}}) | Resultados 1Test",
+    "shareTextFree": "Mi fortaleza principal es {{strength}} — descubre la tuya con un test gratuito:",
+    "shareTextPaid": "Soy {{type}} ({{label}}) con perfil DISC {{disc}} y Eneagrama {{enneagram}}. Mi fortaleza principal es {{strength}}. Descubre las tuyas:",
+    "topStrengths": "Tus Top 5 Fortalezas",
+    "allStrengths": "Las 20 fortalezas",
+    "personalityPreview": "Tu tipo de personalidad",
+    "discPreview": "Tu estilo DISC",
+    "enneagramPreview": "Tu Eneagrama",
+    "unlockCta": "Desbloquear perfil completo",
+    "restart": "Reiniciar el test"
+  },
+  "upgrade": {
+    "title": "Desbloquear perfil completo",
+    "subtitle": "Ve las 20 fortalezas clasificadas, tu análisis completo de personalidad, el perfil DISC completo y tu camino de crecimiento en el Eneagrama.",
+    "cta": "Desbloquear perfil completo — $12",
+    "featureStrengths": "Las 20 fortalezas clasificadas con descripciones detalladas",
+    "featurePersonality": "Análisis profundo completo de 16 Personalidades",
+    "featureDisc": "Perfil DISC completo con consejos de comunicación",
+    "featureEnneagram": "Perfil completo del Eneagrama con camino de crecimiento",
+    "featureCareers": "Trayectorias profesionales según tu perfil",
+    "featurePdf": "Exportación PDF para referencia sin conexión"
+  },
+  "homepage": {
+    "heroHeadline": "Un test. Cuatro marcos. Conócete a ti mismo.",
+    "heroSubtitle": "Descubre tus fortalezas, tipo de personalidad, estilo de comunicación y motivaciones internas — todo con un único test gratuito. Sin registro.",
+    "heroCta": "Iniciar test gratuito",
+    "heroCtaSecondary": "Cómo funciona",
+    "trustFree": "100% gratuito",
+    "trustPrivate": "Resultados privados",
+    "trustResearch": "Basado en investigación",
+    "trustFrameworks": "4 marcos en un test",
+    "howItWorksHeadline": "Un test. Tu perfil de personalidad completo.",
+    "step1Title": "Responde 120 preguntas",
+    "step1Body": "sobre cómo piensas, decides e interactúas de forma natural. Duración: 10-15 minutos.",
+    "step2Title": "Obtén 4 resultados a la vez",
+    "step2Body": "— Fortalezas, 16 Personalidades, DISC, Eneagrama. Sin tests separados.",
+    "step3Title": "Explora tu perfil",
+    "step3Body": "— ve qué te hace único, cómo trabajas con otros y qué viene a continuación.",
+    "startCta": "Iniciar tu test gratuito",
+    "frameworksHeadline": "Cuatro marcos. Una imagen completa.",
+    "frameworksFooter": "Los cuatro resultados de un test gratuito. Sin evaluaciones separadas.",
+    "strengthsName": "Fortalezas",
+    "strengthsDesc": "Tus fortalezas naturales clasificadas — Descubre en qué sobresales sin esfuerzo. 20 fortalezas de mayor a menor, con orientación práctica.",
+    "personalityName": "16 Personalidades",
+    "personalityDesc": "Tus preferencias cognitivas — Comprende cómo procesas información, tomas decisiones y recargas energía. Tu tipo de cuatro letras con visualización completa del perfil.",
+    "discName": "DISC",
+    "discDesc": "Tu estilo de comunicación — Aprende cómo te percibes, qué te impulsa y cómo adaptar tu estilo a diferentes personas.",
+    "enneagramName": "Eneagrama",
+    "enneagramDesc": "Tu motivación central — Ve más allá de la conducta. El Eneagrama revela el porqué detrás de lo que haces — tu impulso fundamental, tu miedo y tu camino de crecimiento.",
+    "comparisonHeadline": "Tus resultados gratuitos son genuinamente útiles.",
+    "comparisonFree": "Gratuito",
+    "comparisonFreeFeatures": {
+      "f1": "Top 5 fortalezas con descripciones",
+      "f2": "Tipo de personalidad + resumen",
+      "f3": "Estilo DISC + resumen",
+      "f4": "Tipo de Eneagrama + resumen",
+      "f5": "Tarjeta de resultados para compartir",
+      "f6": "Sin tarjeta de crédito requerida"
+    },
+    "comparisonFreeCta": "Hacer el test gratuito",
+    "comparisonBadge": "Más popular",
+    "comparisonPaid": "Perfil completo — $12",
+    "comparisonPaidNote": "Todo lo de Gratuito, más:",
+    "comparisonPaidCta": "Ver todos los planes",
+    "comparisonPaidFeatures": {
+      "f1": "Las 20 fortalezas clasificadas con descripciones detalladas",
+      "f2": "Análisis profundo completo de 16 Personalidades",
+      "f3": "Perfil DISC completo con consejos de comunicación",
+      "f4": "Perfil completo del Eneagrama con camino de crecimiento",
+      "f5": "Trayectorias profesionales según tu perfil",
+      "f6": "Exportación PDF para referencia sin conexión"
+    }
+  },
+  "pricing": {
+    "pageTitle": "Precios 1Test — Resultados gratuitos, siempre",
+    "pageDescription": "Tu evaluación gratuita ofrece valor real. Los planes de pago van más en profundidad cuando estés listo. Fortalezas, 16 Personalidades, DISC, Eneagrama — todo en un test.",
+    "headline": "Resultados gratuitos, siempre",
+    "subtitle": "Tu evaluación gratuita ofrece valor real. Los planes de pago van más en profundidad cuando estés listo.",
+    "tiers": {
+      "free": {
+        "name": "Gratuito",
+        "price": "$0",
+        "description": "Tus Top 5 fortalezas más una vista previa de los cuatro marcos.",
+        "features": {
+          "f1": "Top 5 fortalezas con descripciones",
+          "f2": "Vista previa del tipo de personalidad (16 Personalidades)",
+          "f3": "Vista previa del estilo DISC",
+          "f4": "Vista previa del tipo de Eneagrama",
+          "f5": "Tarjeta de resultados para compartir",
+          "f6": "Invita a colegas para informes de compatibilidad"
+        },
+        "cta": "Hacer el test gratuito"
+      },
+      "fullProfile": {
+        "name": "Perfil completo",
+        "price": "$12",
+        "description": "Tu perfil completo en los cuatro marcos.",
+        "features": {
+          "f1": "Las 20 fortalezas clasificadas con información detallada",
+          "f2": "Análisis completo del tipo de personalidad con puntuaciones dimensionales",
+          "f3": "Perfil DISC completo con rasgos y consejos de comunicación",
+          "f4": "Alas del Eneagrama, tritipo y patrones de estrés/crecimiento",
+          "f5": "Trayectorias profesionales, recomendaciones de libros, patrones de estrés",
+          "f6": "Perfil unificado en los cuatro marcos"
+        },
+        "cta": "Desbloquear perfil completo",
+        "badge": "Más popular"
+      },
+      "aiPlaybook": {
+        "name": "Manual IA",
+        "price": "$19",
+        "description": "Trayectorias profesionales personalizadas, plan de crecimiento y guía de comunicación — generado por IA para tu perfil.",
+        "features": {
+          "f1": "Trayectorias profesionales adaptadas a tu perfil único",
+          "f2": "Plan de crecimiento personalizado con pasos concretos",
+          "f3": "Recomendaciones de libros y cursos según tus fortalezas",
+          "f4": "Guía de comunicación basada en tu tipo de personalidad",
+          "f5": "Incluye todo del Perfil completo"
+        },
+        "cta": "Obtener manual IA"
+      },
+      "team": {
+        "name": "Equipo",
+        "price": "$29",
+        "period": "/mes por puesto",
+        "description": "Información del equipo, informes de compatibilidad y panel de manager.",
+        "features": {
+          "f1": "Todo en Manual IA",
+          "f2": "Invita a colegas y compara perfiles",
+          "f3": "Informes de compatibilidad: cómo interactúan tus perfiles",
+          "f4": "Mapas de fortalezas del equipo",
+          "f5": "Consejos de preparación de reuniones para colegas específicos",
+          "f6": "Panel de manager"
+        },
+        "cta": "Iniciar equipo",
+        "badge": "Próximamente"
+      }
+    },
+    "faq": {
+      "freeRealTitle": "¿Es realmente gratuito el test gratuito?",
+      "freeRealAnswer": "Sí. Obtienes tus Top 5 fortalezas, tipo de personalidad, estilo DISC y tipo de Eneagrama — todo de un único test de 15 minutos. Sin tarjeta de crédito, sin muro de pago para los resultados principales.",
+      "resultsQualityTitle": "¿Qué tan precisos son los resultados?",
+      "resultsQualityAnswer": "Nuestra evaluación utiliza medidas de personalidad validadas del International Personality Item Pool (IPIP), la misma fuente académica utilizada en estudios revisados por pares. Cuanto más honesto seas al responder, más precisos serán tus resultados.",
+      "paidDifferenceTitle": "¿Qué incluye el plan de pago?",
+      "paidDifferenceAnswer": "El perfil completo desbloquea las 20 fortalezas clasificadas, tu análisis profundo completo de 16 Personalidades, el perfil DISC completo con consejos de comunicación y tus alas del Eneagrama y patrones de crecimiento. También incluye trayectorias profesionales adaptadas a tu perfil.",
+      "dataPrivacyTitle": "¿Son privados mis datos?",
+      "dataPrivacyAnswer": "Tus resultados se almacenan localmente en tu dispositivo y en nuestros servidores seguros. Nunca vendemos tus datos. Puedes eliminar tus resultados en cualquier momento.",
+      "frameworkDifferenceTitle": "¿En qué se diferencian los cuatro marcos?",
+      "frameworkDifferenceAnswer": "Fortalezas muestra en qué sobresales naturalmente. 16 Personalidades muestra cómo procesas información y tomas decisiones. DISC muestra cómo te comunicas y cómo te perciben los demás. Eneagrama muestra tu motivación central — por qué haces lo que haces. Juntos dan una imagen completa.",
+      "teamPlanTitle": "¿Para quién es el plan de equipo?",
+      "teamPlanAnswer": "El plan de equipo es para managers y equipos que quieren entender cómo interactúan sus perfiles. Obtienes informes de compatibilidad, mapas de fortalezas del equipo y consejos de preparación de reuniones adaptados a la composición de tu equipo.",
+      "retakeTitle": "¿Puedo volver a hacer el test?",
+      "retakeAnswer": "Sí. Puedes volver a hacer el test en cualquier momento. Tu personalidad es relativamente estable, por lo que los resultados suelen ser consistentes, pero tus respuestas pueden variar ligeramente según tu estado de ánimo o circunstancias de vida."
+    }
+  },
+  "landing": {
+    "disc": {
+      "title": "Test DISC gratuito — Descubre tu estilo conductual | 1Test",
+      "description": "Haz una evaluación DISC gratuita y descubre tu perfil de Dominancia, Influencia, Estabilidad y Conciencia. Entiende cómo te comunicas y colaboras con otros.",
+      "headline": "Evaluación DISC gratuita",
+      "subtitle": "Descubre tu estilo conductual — cómo te comunicas, tomas decisiones y respondes a diferentes situaciones.",
+      "cta": "Iniciar test DISC gratuito"
+    },
+    "enneagram": {
+      "title": "Test de Eneagrama gratuito — Descubre tu motivación central | 1Test",
+      "description": "Haz un test de Eneagrama gratuito y descubre tu tipo, tendencias de alas y camino de crecimiento. Entiende el porqué detrás de lo que haces.",
+      "headline": "Test de Eneagrama gratuito",
+      "subtitle": "Descubre tu motivación central — el porqué detrás de lo que haces, tu camino de crecimiento y cómo respondes al estrés.",
+      "cta": "Iniciar test de Eneagrama gratuito"
+    },
+    "personality": {
+      "title": "Test gratuito de 16 Personalidades — Conoce tu tipo | 1Test",
+      "description": "Haz un test gratuito de 16 Personalidades y descubre tu tipo, preferencias cognitivas y cómo moldean tu trabajo, relaciones y desarrollo.",
+      "headline": "Test de personalidad gratuito",
+      "subtitle": "Descubre tu tipo de personalidad — cómo procesas información, tomas decisiones y recargas energía. Información práctica para el trabajo y la vida.",
+      "cta": "Iniciar test de personalidad gratuito"
+    },
+    "strengths": {
+      "title": "Test de Fortalezas gratuito — Descubre tu Top 5 | 1Test",
+      "description": "Haz una evaluación de Fortalezas gratuita y descubre tus Top 5 fortalezas clasificadas. Ve qué te hace único y cómo aplicar tus fortalezas en el trabajo.",
+      "headline": "Evaluación de Fortalezas gratuita",
+      "subtitle": "Descubre tus fortalezas naturales — en qué sobresales sin esfuerzo. 20 fortalezas de mayor a menor.",
+      "cta": "Iniciar test de Fortalezas gratuito"
+    }
+  },
+  "seoHead": {
+    "homeBreadcrumb": "Inicio",
+    "blogBreadcrumb": "Blog"
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "pt": "Português"
+  },
+  "share": {
+    "default": {
+      "shareText": "Acabo de descubrir mis Top 5 Fortalezas — y cambiaron cómo pienso sobre mi carrera. Haz el test gratuito:",
+      "cardSubtitle": "Un test. Cuatro marcos.",
+      "landingCTA": "Haz el test gratuito — 1test.me",
+      "compareText": "Compara tus resultados con un amigo"
+    },
+    "university": {
+      "shareText": "Descubrí mis fortalezas principales — y se alinean con carreras que nunca consideré. Haz el test gratuito:",
+      "cardSubtitle": "Tu carrera empieza aquí",
+      "landingCTA": "Empieza tu carrera bien — 1test.me",
+      "compareText": "Compara tus fortalezas con un amigo"
+    },
+    "earlyCareer": {
+      "shareText": "Mi tipo de personalidad explica por qué ciertos roles me agotan. Haz el test gratuito:",
+      "cardSubtitle": "Encuentra tu ventaja",
+      "landingCTA": "Encuentra tu ventaja — 1test.me",
+      "compareText": "Ve cómo te comparas con tu equipo"
+    },
+    "plateaued": {
+      "shareText": "Encontré mi brecha de liderazgo — y no era lo que esperaba. Haz el test gratuito:",
+      "cardSubtitle": "Cierra tu brecha de liderazgo",
+      "landingCTA": "Descubre tu brecha de liderazgo — 1test.me",
+      "compareText": "Compara estilos de liderazgo con un colega"
+    },
+    "midlife": {
+      "shareText": "Mis fortalezas me apuntaron hacia una carrera que nunca hubiera considerado. Haz el test gratuito:",
+      "cardSubtitle": "¿Qué viene a continuación para ti?",
+      "landingCTA": "Descubre qué viene a continuación — 1test.me",
+      "compareText": "Ve cómo se comparan tus fortalezas"
+    },
+    "lateCareer": {
+      "shareText": "Mapeé mis fortalezas a los 55 — y obtuve claridad sobre qué viene a continuación. Haz el test gratuito:",
+      "cardSubtitle": "Tu próximo capítulo empieza aquí",
+      "landingCTA": "Empieza tu próximo capítulo — 1test.me",
+      "compareText": "Comparte tus fortalezas con alguien de confianza"
+    },
+    "solopreneur": {
+      "shareText": "El test me mostró mi punto ciego como fundador. Ojalá lo hubiera sabido antes. Haz el test gratuito:",
+      "cardSubtitle": "Conoce tus puntos ciegos",
+      "landingCTA": "Conoce tus puntos ciegos — 1test.me",
+      "compareText": "Compara perfiles de fundador con un cofundador"
+    }
+  }
+}

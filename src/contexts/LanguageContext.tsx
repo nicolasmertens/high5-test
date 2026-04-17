@@ -73,7 +73,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 
   const setLang = useCallback((newLang: Language) => {
     const currentPath = window.location.pathname;
-    const pathWithoutLang = currentPath.replace(/^\/(de|fr)(\/|$)/, "/");
+    const pathWithoutLang = currentPath.replace(/^\/(de|fr|es|pt)(\/|$)/, "/");
     const newPath = newLang === "en"
       ? pathWithoutLang || "/"
       : `/${newLang}${pathWithoutLang === "/" ? "" : pathWithoutLang}`;

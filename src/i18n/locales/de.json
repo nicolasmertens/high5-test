@@ -272,7 +272,9 @@
   "languageSwitcher": {
     "en": "English",
     "de": "Deutsch",
-    "fr": "Français"
+    "fr": "Français",
+    "es": "Español",
+    "pt": "Português"
   },
   "share": {
     "default": {
