@@ -16,6 +16,7 @@ import { AnalyticsProvider } from "./components/AnalyticsProvider.tsx";
 import { Footer } from "./components/Footer.tsx";
 import { RelationshipReportPage } from "./components/RelationshipReport.tsx";
 import { CompareScreen } from "./components/CompareScreen.tsx";
+import { PlaybookPage } from "./components/PlaybookPage.tsx";
 import { ThankYouPage } from "./components/ThankYouPage.tsx";
 import { PricingPage } from "./components/PricingPage.tsx";
 import { LanguageProvider, getLanguageAndBasename } from "./contexts/LanguageContext.tsx";
@@ -138,6 +139,7 @@ function AppRoutes() {
       <Route path="/terms-draft" element={<TermsOfService />} />
       <Route path="/relationship/:id" element={<RelationshipReportPage />} />
       <Route path="/compare/:hashA/:hashB" element={<CompareScreen />} />
+      <Route path="/playbook" element={<PlaybookPage />} />
       <Route path="/thank-you" element={<ThankYouPage />} />
       <Route path="/pricing" element={<PricingPage />} />
     </Routes>
