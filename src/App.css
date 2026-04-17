@@ -4611,3 +4611,43 @@
   font-size: 18px;
   margin-bottom: 12px;
 }
+
+/* Compare invite CTA (on results page for invited users) */
+.compare-invite-cta {
+  text-align: center;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.08), rgba(236, 72, 153, 0.08));
+  border: 2px solid #7c3aed;
+  border-radius: 16px;
+  padding: 28px 24px;
+  margin-bottom: 24px;
+}
+
+.compare-invite-icon {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.compare-invite-cta h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: var(--text-h);
+}
+
+.compare-invite-cta p {
+  font-size: 14px;
+  color: var(--text);
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.btn-compare-cta {
+  display: inline-block;
+  background: linear-gradient(135deg, #6366f1, #ec4899) !important;
+  font-size: 1rem !important;
+  padding: 0.75rem 1.5rem !important;
+  text-decoration: none;
+}
+
+.btn-compare-cta:hover {
+  background: linear-gradient(135deg, #4f46e5, #db2777) !important;
+}

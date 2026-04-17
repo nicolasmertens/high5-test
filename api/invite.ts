@@ -100,6 +100,7 @@ async function handleGetByReferralCode(ref: string, res: VercelResponse) {
     return res.status(200).json({
       id: invite.id,
       referralCode: invite.referralCode,
+      inviterProfileHash: invite.inviterProfileHash,
       inviterName: invite.inviterName,
       inviterPersonalityType: inviterProfile?.personalityType ?? null,
       inviterDiscStyle: inviterProfile?.discStyle ?? null,

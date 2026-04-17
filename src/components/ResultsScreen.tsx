@@ -14,7 +14,7 @@ import { SEOHead } from "./SEOHead";
 import { useShareImage } from "../hooks/useShareImage";
 import { usePayment } from "../contexts/PaymentContext";
 import { trackUpgradeViewed, trackResultsViewed, trackBlockViewed, trackUpsellClick, trackCTAClicked } from "../utils/analytics";
-import { getStoredReferralCode } from "../utils/profile";
+import { getStoredReferralCode, getStoredProfileHash, getInviteRef } from "../utils/profile";
 
 interface Props {
   results: StrengthScore[];
@@ -34,11 +34,29 @@ function BlockTracker({ name }: { name: string }) {
 
 export function ResultsScreen({ results, onRestart }: Props) {
   const [showDetailed, setShowDetailed] = useState(false);
+  const [inviterInfo, setInviterInfo] = useState<{ name: string; profileHash: string; personalityType: string } | null>(null);
   const { isPaid } = usePayment();
   const { cardRef, downloadImage } = useShareImage();
   const upgradeViewedTracked = useRef(false);
   const resultsViewedTracked = useRef(false);
   const top5 = results.slice(0, 5);
+
+  useEffect(() => {
+    const ref = getInviteRef();
+    if (!ref) return;
+    fetch(`/api/invite?ref=${ref}`)
+      .then((r) => r.ok ? r.json() : null)
+      .then((data) => {
+        if (data?.inviterProfileHash && data?.inviterName) {
+          setInviterInfo({
+            name: data.inviterName,
+            profileHash: data.inviterProfileHash,
+            personalityType: data.inviterPersonalityType ?? "",
+          });
+        }
+      })
+      .catch(() => {});
+  }, []);
 
   const handlePlaybookClick = () => {
     trackUpsellClick({ tier: "ai_playbook", sourceSection: "playbook_teaser" });
@@ -342,6 +360,28 @@ export function ResultsScreen({ results, onRestart }: Props) {
               </div>
             </div>
           </div>
+
+          {inviterInfo && (() => {
+            const myHash = getStoredProfileHash();
+            if (!myHash) return null;
+            return (
+              <div className="compare-invite-cta">
+                <div className="compare-invite-icon">🤝</div>
+                <h3>See How You Compare With {inviterInfo.name}</h3>
+                <p>
+                  {inviterInfo.personalityType
+                    ? `You're a ${personality.type} and they're a ${inviterInfo.personalityType} — discover your compatibility.`
+                    : "Discover how your profiles complement each other."}
+                </p>
+                <a
+                  href={`/compare/${inviterInfo.profileHash}/${myHash}`}
+                  className="btn-start btn-compare-cta"
+                >
+                  Compare Profiles →
+                </a>
+              </div>
+            );
+          })()}
 
           <FreeValueBlocks
             results={results}
