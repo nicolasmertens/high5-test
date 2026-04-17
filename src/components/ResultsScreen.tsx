@@ -13,12 +13,23 @@ import { InviteSection } from "./InviteSection";
 import { SEOHead } from "./SEOHead";
 import { useShareImage } from "../hooks/useShareImage";
 import { usePayment } from "../contexts/PaymentContext";
-import { trackUpgradeViewed, trackResultsViewed } from "../utils/analytics";
+import { trackUpgradeViewed, trackResultsViewed, trackBlockViewed, trackUpsellClick, trackCTAClicked } from "../utils/analytics";
 import { getStoredReferralCode } from "../utils/profile";
 
 interface Props {
   results: StrengthScore[];
   onRestart: () => void;
+}
+
+function BlockTracker({ name }: { name: string }) {
+  const tracked = useRef(false);
+  useEffect(() => {
+    if (!tracked.current) {
+      tracked.current = true;
+      trackBlockViewed(name, false);
+    }
+  }, [name]);
+  return null;
 }
 
 export function ResultsScreen({ results, onRestart }: Props) {
@@ -28,6 +39,24 @@ export function ResultsScreen({ results, onRestart }: Props) {
   const upgradeViewedTracked = useRef(false);
   const resultsViewedTracked = useRef(false);
   const top5 = results.slice(0, 5);
+
+  const handlePlaybookClick = () => {
+    trackUpsellClick({ tier: "ai_playbook", sourceSection: "playbook_teaser" });
+    trackCTAClicked({ ctaText: "Get AI Playbook — $19", ctaLocation: "playbook_teaser" });
+    fetch("/api/create-checkout-session", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ tier: "ai_playbook" }),
+    })
+      .then((res) => {
+        if (!res.ok) throw new Error("Checkout failed");
+        return res.json();
+      })
+      .then((data) => {
+        window.location.href = data.url;
+      })
+      .catch(() => {});
+  };
 
   useEffect(() => {
     if (!isPaid && !upgradeViewedTracked.current && top5.length > 0) {
@@ -371,6 +400,31 @@ export function ResultsScreen({ results, onRestart }: Props) {
           />
 
           <UpgradePrompt variant="teaser" />
+
+          <BlockTracker name="ai_playbook_teaser" />
+          <section className="branch-card branch-card-highlight playbook-teaser">
+            <div className="branch-icon">🤖</div>
+            <h3>AI Playbook — Your Personalized Action Plan</h3>
+            <p className="branch-desc">
+              Get a personalized action plan generated from your unique profile.
+              Career paths, communication guide, 30/60/90 day growth plan — built
+              specifically for a {personality.type} with your strengths.
+            </p>
+            <div className="branch-preview">
+              <ul className="playbook-features">
+                <li>Career paths matched to your unique profile</li>
+                <li>Communication guide based on your personality type</li>
+                <li>30/60/90 day growth plan with actionable steps</li>
+                <li>Includes everything in the Full Profile</li>
+              </ul>
+            </div>
+            <button className="btn-start btn-upgrade" onClick={handlePlaybookClick}>
+              Get AI Playbook — $19
+            </button>
+            <p className="upgrade-subtitle">
+              One-time purchase. AI-generated in minutes.
+            </p>
+          </section>
         </>
       )}
 

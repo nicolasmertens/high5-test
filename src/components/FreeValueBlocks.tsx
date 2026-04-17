@@ -8,7 +8,7 @@ import {
   getStressInfo,
   getLeadershipStyle,
 } from "./ActionBranches";
-import { trackBlockViewed, trackUpsellClick } from "../utils/analytics";
+import { trackBlockViewed } from "../utils/analytics";
 
 interface Props {
   results: StrengthScore[];
@@ -108,23 +108,6 @@ export function FreeValueBlocks({ results, personality, enneagram, disc }: Props
   const stress = getStressInfo(enneagram.primary.type);
   const leadership = getLeadershipStyle(disc.primary.code, personality.type);
   const communities = getCommunities(personality.type);
-
-  const handlePlaybookClick = () => {
-    trackUpsellClick({ tier: "ai_playbook", sourceSection: "free_blocks_playbook" });
-    fetch("/api/create-checkout-session", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ tier: "ai_playbook" }),
-    })
-      .then((res) => {
-        if (!res.ok) throw new Error("Checkout failed");
-        return res.json();
-      })
-      .then((data) => {
-        window.location.href = data.url;
-      })
-      .catch(() => {});
-  };
 
   return (
     <div className="branches">
@@ -257,30 +240,6 @@ export function FreeValueBlocks({ results, personality, enneagram, disc }: Props
         </div>
       </section>
 
-      <BlockTracker name="ai_playbook_teaser" />
-      <section className="branch-card branch-card-highlight playbook-teaser">
-        <div className="branch-icon">🤖</div>
-        <h3>AI Playbook — Your Personalized Action Plan</h3>
-        <p className="branch-desc">
-          Get a personalized action plan generated from your unique profile.
-          Career paths, communication guide, 30/60/90 day growth plan — built
-          specifically for a {personality.type} with your strengths.
-        </p>
-        <div className="branch-preview">
-          <ul className="playbook-features">
-            <li>Career paths matched to your unique profile</li>
-            <li>Communication guide based on your personality type</li>
-            <li>30/60/90 day growth plan with actionable steps</li>
-            <li>Includes everything in the Full Profile</li>
-          </ul>
-        </div>
-        <button className="btn-start btn-upgrade" onClick={handlePlaybookClick}>
-          Get AI Playbook — $19
-        </button>
-        <p className="upgrade-subtitle">
-          One-time purchase. AI-generated in minutes.
-        </p>
-      </section>
-    </div>
+      </div>
   );
 }
