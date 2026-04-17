@@ -4846,3 +4846,28 @@
   text-align: center;
   margin-top: 32px;
 }
+
+/* Playbook link card (on results page for AI Playbook purchasers) */
+.playbook-link-card {
+  text-align: center;
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.06), rgba(236, 72, 153, 0.06));
+  border: 2px solid #7c3aed;
+  border-radius: 14px;
+  padding: 24px;
+  margin: 20px 0;
+}
+
+.playbook-link-icon {
+  font-size: 28px;
+}
+
+.playbook-link-card h3 {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.playbook-link-card p {
+  font-size: 14px;
+  color: var(--text);
+  margin-bottom: 12px;
+}

@@ -12,9 +12,9 @@ import { EmailCapture } from "./EmailCapture";
 import { InviteSection } from "./InviteSection";
 import { SEOHead } from "./SEOHead";
 import { useShareImage } from "../hooks/useShareImage";
+import { getStoredReferralCode, getStoredProfileHash, getInviteRef } from "../utils/profile";
 import { usePayment } from "../contexts/PaymentContext";
 import { trackUpgradeViewed, trackResultsViewed, trackBlockViewed, trackUpsellClick, trackCTAClicked } from "../utils/analytics";
-import { getStoredReferralCode, getStoredProfileHash, getInviteRef } from "../utils/profile";
 
 interface Props {
   results: StrengthScore[];
@@ -35,7 +35,7 @@ function BlockTracker({ name }: { name: string }) {
 export function ResultsScreen({ results, onRestart }: Props) {
   const [showDetailed, setShowDetailed] = useState(false);
   const [inviterInfo, setInviterInfo] = useState<{ name: string; profileHash: string; personalityType: string } | null>(null);
-  const { isPaid } = usePayment();
+  const { isPaid, tier } = usePayment();
   const { cardRef, downloadImage } = useShareImage();
   const upgradeViewedTracked = useRef(false);
   const resultsViewedTracked = useRef(false);
@@ -338,6 +338,21 @@ export function ResultsScreen({ results, onRestart }: Props) {
             enneagram={enneagram}
             disc={disc}
           />
+
+          {tier === "ai_playbook" && (() => {
+            const hash = getStoredProfileHash();
+            if (!hash) return null;
+            return (
+              <div className="playbook-link-card">
+                <span className="playbook-link-icon">🤖</span>
+                <h3>Your AI Playbook Is Ready</h3>
+                <p>Your personalized growth plan, career paths, and communication guide.</p>
+                <a href={`/playbook?profile=${hash}`} className="btn-start btn-upgrade">
+                  View Your Playbook →
+                </a>
+              </div>
+            );
+          })()}
 
           <div className="scoring-explanation">
             <h3>How Scoring Works</h3>
