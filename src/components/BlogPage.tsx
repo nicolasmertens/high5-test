@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { SEOHead, buildFAQSchema, buildArticleSchema } from "./SEOHead";
-import { trackTestStarted } from "../utils/analytics";
+import { trackTestStarted, trackCTAClicked } from "../utils/analytics";
 import { blogPosts } from "../data/blog-content";
 
 interface Props {
@@ -15,9 +15,14 @@ export function BlogPage({ slug }: Props) {
   const handleCTA = useCallback(() => {
     if (post) {
       trackTestStarted(post.ctaFramework, post.ctaUrl);
+      trackCTAClicked({
+        ctaText: "Take the Free Test",
+        ctaLocation: "landing_bottom",
+        pagePath: `/blog/${slug}`,
+      });
     }
     navigate("/");
-  }, [post, navigate]);
+  }, [post, navigate, slug]);
 
   if (!post) {
     navigate("/");

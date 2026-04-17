@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { usePayment } from "../contexts/PaymentContext";
-import { trackCheckoutStarted } from "../utils/analytics";
+import { trackCheckoutStarted, trackCTAClicked } from "../utils/analytics";
 
 type Tier = "full_profile" | "ai_playbook" | "team_monthly";
 
@@ -53,6 +53,10 @@ export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
 
   const handleUpgrade = async (tier: Tier) => {
     trackCheckoutStarted("strengths", tier);
+    trackCTAClicked({
+      ctaText: `Unlock ${tier === "full_profile" ? "Full Profile" : "AI Playbook"}`,
+      ctaLocation: variant === "teaser" ? "upgrade_teaser" : "upgrade_full",
+    });
     setRedirecting(tier);
     try {
       const res = await fetch("/api/create-checkout-session", {

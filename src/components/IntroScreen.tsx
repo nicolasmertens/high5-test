@@ -1,3 +1,5 @@
+import { trackCTAClicked } from "../utils/analytics";
+
 interface Props {
   onStart: () => void;
   onResume?: () => void;
@@ -5,6 +7,22 @@ interface Props {
 }
 
 export function IntroScreen({ onStart, onResume, hasSavedProgress }: Props) {
+  const handleStart = () => {
+    trackCTAClicked({
+      ctaText: hasSavedProgress ? "Start Over" : "Start Free Assessment",
+      ctaLocation: "intro_hero",
+    });
+    onStart();
+  };
+
+  const handleResume = () => {
+    trackCTAClicked({
+      ctaText: "Continue Where You Left Off",
+      ctaLocation: "intro_resume",
+    });
+    onResume?.();
+  };
+
   return (
     <div className="intro">
       <div className="intro-logo">
@@ -13,17 +31,18 @@ export function IntroScreen({ onStart, onResume, hasSavedProgress }: Props) {
         </svg>
       </div>
       <span className="beta-badge">BETA</span>
-      <h1>1Test</h1>
+      <h1>Know What Makes You Tick</h1>
       <p className="intro-subtitle">
-        One test. Four frameworks. Know yourself completely.
+        One free test. Four personality frameworks. Actionable results you can use today.
       </p>
 
-      <div className="usp-section">
-        <p className="usp-lead">
-          Take a single 15-minute assessment and get your results across
-          four major personality frameworks — no extra tests needed.
-        </p>
+      <div className="trust-bar">
+        <span className="trust-item">&#9989; 100% free</span>
+        <span className="trust-item">&#128274; Private results</span>
+        <span className="trust-item">&#127891; Research-backed</span>
+      </div>
 
+      <div className="usp-section">
         <div className="framework-cards">
           <div className="framework-card">
             <span className="fw-icon" style={{ color: "#f59e0b" }}>&#9733;</span>
@@ -81,15 +100,15 @@ export function IntroScreen({ onStart, onResume, hasSavedProgress }: Props) {
 
       <div className="intro-actions">
         {hasSavedProgress && onResume && (
-          <button className="btn-start" onClick={onResume}>
+          <button className="btn-start" onClick={handleResume}>
             Continue Where You Left Off
           </button>
         )}
         <button
           className={hasSavedProgress ? "btn-start btn-start-secondary" : "btn-start"}
-          onClick={onStart}
+          onClick={handleStart}
         >
-          {hasSavedProgress ? "Start Over" : "Start Assessment"}
+          {hasSavedProgress ? "Start Over" : "Start Free Assessment"}
         </button>
       </div>
 

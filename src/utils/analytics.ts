@@ -369,3 +369,16 @@ export function trackProfileStored(profileHash: string): void {
     profile_hash: profileHash,
   });
 }
+
+export function trackCTAClicked(data: {
+  ctaText: string;
+  ctaLocation: "intro_hero" | "intro_resume" | "landing_hero" | "landing_bottom" | "bridge_teaser" | "upgrade_teaser" | "upgrade_full";
+  pagePath?: string;
+}): void {
+  posthog.capture("cta_clicked", {
+    cta_text: data.ctaText,
+    cta_location: data.ctaLocation,
+    page_path: data.pagePath || window.location.pathname,
+    ...utmParams,
+  });
+}

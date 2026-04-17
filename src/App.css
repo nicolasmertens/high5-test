@@ -44,11 +44,28 @@
 .intro h1 {
   font-size: 36px;
   margin-bottom: 8px;
+  line-height: 1.15;
 }
 
 .intro-subtitle {
   font-size: 18px;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.trust-bar {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.trust-item {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  white-space: nowrap;
 }
 
 .intro-details {
@@ -2042,6 +2059,36 @@
 
   .detail-card {
     padding: 12px 16px;
+    flex: 1 1 calc(50% - 8px);
+    min-width: 0;
+  }
+
+  .detail-number {
+    font-size: 22px;
+  }
+
+  .trust-bar {
+    gap: 10px;
+    font-size: 13px;
+  }
+
+  .trust-item {
+    font-size: 13px;
+  }
+
+  .btn-start {
+    width: 100%;
+    padding: 16px 24px;
+    font-size: 17px;
+  }
+
+  .framework-cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .framework-card {
+    padding: 12px 10px;
   }
 
   .top5-card {
@@ -2090,6 +2137,10 @@
 
   .intro h1 {
     font-size: 28px;
+  }
+
+  .intro-subtitle {
+    font-size: 16px;
   }
 }
 

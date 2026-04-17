@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { frameworkContent } from "../data/landing-content";
-import { trackTestStarted } from "../utils/analytics";
+import { trackTestStarted, trackCTAClicked } from "../utils/analytics";
 import { SEOHead, buildFAQSchema } from "./SEOHead";
 
 interface Props {
@@ -26,11 +26,16 @@ export function LandingPage({ framework }: Props) {
   const navigate = useNavigate();
   const fw = frameworkContent[framework];
 
-  const handleCTA = useCallback(() => {
+  const handleCTA = useCallback((location: "landing_hero" | "landing_bottom") => {
     trackTestStarted(
       framework as "disc" | "personality" | "enneagram" | "strengths",
       `/free-${framework}-test`
     );
+    trackCTAClicked({
+      ctaText: location === "landing_hero" ? "Take the Free Test →" : "Start the Assessment →",
+      ctaLocation: location,
+      pagePath: `/free-${framework}-test`,
+    });
     navigate("/");
   }, [framework, navigate]);
 
@@ -62,7 +67,12 @@ export function LandingPage({ framework }: Props) {
           className="landing-tagline"
           dangerouslySetInnerHTML={{ __html: fw.intro }}
         />
-        <button className="btn-start" onClick={handleCTA}>
+        <div className="trust-bar">
+          <span className="trust-item">&#9989; 100% free</span>
+          <span className="trust-item">&#128274; Private results</span>
+          <span className="trust-item">&#127891; Research-backed</span>
+        </div>
+        <button className="btn-start" onClick={() => handleCTA("landing_hero")}>
           Take the Free Test &rarr;
         </button>
       </div>
@@ -92,7 +102,7 @@ export function LandingPage({ framework }: Props) {
       <div className="landing-cta">
         <h2>Ready to discover your {fw.name.toLowerCase()}?</h2>
         <p>One test. Four frameworks. Completely free. ~15 minutes.</p>
-        <button className="btn-start" onClick={handleCTA}>
+        <button className="btn-start" onClick={() => handleCTA("landing_bottom")}>
           Start the Assessment &rarr;
         </button>
       </div>

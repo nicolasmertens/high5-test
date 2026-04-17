@@ -11,7 +11,7 @@ import { EmailCapture } from "./EmailCapture";
 import { InviteSection } from "./InviteSection";
 import { useShareImage } from "../hooks/useShareImage";
 import { usePayment } from "../contexts/PaymentContext";
-import { trackUpgradeViewed, trackResultsViewed } from "../utils/analytics";
+import { trackUpgradeViewed, trackResultsViewed, trackCTAClicked } from "../utils/analytics";
 import { getStoredReferralCode } from "../utils/profile";
 
 interface Props {
@@ -159,7 +159,10 @@ export function ResultsScreen({ results, onRestart }: Props) {
 
             <button
               className="btn-start btn-detailed"
-              onClick={() => setShowDetailed(true)}
+              onClick={() => {
+                trackCTAClicked({ ctaText: "See Your Full Profile", ctaLocation: "bridge_teaser" });
+                setShowDetailed(true);
+              }}
             >
               See Your Full Profile &rarr;
             </button>
