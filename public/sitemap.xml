@@ -31,7 +31,57 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://1test.me/blog/16-personalities-career</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/16-personalities-career-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/16-personalities-in-the-workplace</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/16-personalities-relationships</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/16-personalities-test-free</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/16-personalities-vs-enneagram</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/best-free-personality-test-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://1test.me/blog/best-free-strengths-assessment</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/big-five-personality-traits</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/disc-assessment-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/disc-communication-in-remote-teams</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -41,67 +91,47 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://1test.me/blog/enneagram-career-paths</loc>
+    <loc>https://1test.me/blog/disc-conflict-management</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://1test.me/blog/personality-test-for-career</loc>
+    <loc>https://1test.me/blog/disc-conflict-resolution</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://1test.me/blog/disc-vs-enneagram-vs-strengths</loc>
+    <loc>https://1test.me/blog/disc-conflict-resolution-at-work</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://1test.me/blog/which-personality-test-right-for-you</loc>
+    <loc>https://1test.me/blog/disc-leadership-style</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://1test.me/blog/understanding-16-personalities</loc>
+    <loc>https://1test.me/blog/disc-management-style</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://1test.me/blog/disc-type-work-style</loc>
+    <loc>https://1test.me/blog/disc-personality-in-sales</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://1test.me/blog/disc-assessment-guide</loc>
+    <loc>https://1test.me/blog/disc-personality-in-the-workplace</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://1test.me/blog/enneagram-career-guide</loc>
+    <loc>https://1test.me/blog/disc-personality-test-free</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://1test.me/blog/strengths-finder-alternative</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://1test.me/blog/strengths-for-career</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://1test.me/blog/disc-test-team-building</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://1test.me/blog/enneagram-growth-paths</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://1test.me/blog/enneagram-types-explained</loc>
+    <loc>https://1test.me/blog/disc-personality-test-results</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -111,12 +141,47 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://1test.me/blog/introvert-extrovert-test</loc>
+    <loc>https://1test.me/blog/disc-sales-training</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://1test.me/blog/strengths-and-weaknesses-test</loc>
+    <loc>https://1test.me/blog/disc-test-team-building</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/disc-type-c-conscientiousness</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/disc-type-d-dominance</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/disc-type-i-influence</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/disc-type-s-steadiness</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/disc-type-work-style</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/disc-vs-16-personalities</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/disc-vs-enneagram-vs-strengths</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -131,7 +196,92 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://1test.me/blog/personality-assessment-science</loc>
+    <loc>https://1test.me/blog/enneagram-career-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/enneagram-career-paths</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/enneagram-growth-coaching</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/enneagram-growth-paths</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/enneagram-in-workplace</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/enneagram-test-free-online</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/enneagram-type-1-reformer</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/enneagram-type-2-helper</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/enneagram-type-3-achiever</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/enneagram-type-4-individualist</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/enneagram-type-5-investigator</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/enneagram-type-6-loyalist</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/enneagram-type-7-enthusiast</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/enneagram-type-8-challenger</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/enneagram-type-9-peacemaker</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/enneagram-types-explained</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/enneagram-wing-influence</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/enneagram-wings-explained</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -141,27 +291,27 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://1test.me/blog/how-to-use-personality-test-results</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/introvert-extrovert-test</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-assessment-science</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://1test.me/blog/personality-team-dynamics-founders</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://1test.me/blog/best-free-personality-test-2026</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://1test.me/blog/personality-test-team-building</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://1test.me/blog/disc-vs-16-personalities</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://1test.me/blog/16-personalities-vs-enneagram</loc>
+    <loc>https://1test.me/blog/personality-test-accuracy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -169,5 +319,215 @@
     <loc>https://1test.me/blog/personality-test-comparison</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-addiction-recovery</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-career</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-career-change</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-career-counselors</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-college-students</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-conflict-resolution</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-couples</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-couples-counseling</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-entrepreneurs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-first-time-managers</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-friendships</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-hiring</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-job-interviews</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-leadership</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-managers</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-mentorship</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-midlife-career-change</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-negotiation</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-networking</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-parents</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-personal-growth</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-relationships</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-remote-workers</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-retirement-planning</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-self-confidence</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-students</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-teaching</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-teams</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-for-volunteers</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-self-awareness</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-stress-management</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-test-team-building</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/personality-type-compatibility</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/strengths-and-weaknesses-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/strengths-and-weaknesses-test</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/strengths-based-interview</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/strengths-based-leadership</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/strengths-finder-alternative</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/strengths-for-career</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/strengths-swot-analysis</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/understanding-16-personalities</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://1test.me/blog/which-personality-test-right-for-you</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
