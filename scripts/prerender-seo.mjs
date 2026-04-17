@@ -3,7 +3,7 @@ import { join } from "path";
 
 const PUBLISHER = { "@type": "Organization", name: "1Test", url: "https://1test.me" };
 const DATE_PUBLISHED = "2026-04-10";
-const OG_IMAGE = "https://1test.me/og-image.svg";
+const OG_IMAGE = "https://1test.me/og-image.png";
 
 function buildWebPage(title, description, url) {
   return {

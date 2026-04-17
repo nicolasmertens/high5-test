@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 
-const OG_IMAGE = "https://1test.me/og-image.svg";
+const OG_IMAGE = "https://1test.me/og-image.png";
 
 interface SEOHeadProps {
   title: string;
