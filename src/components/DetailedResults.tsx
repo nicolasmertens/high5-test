@@ -82,8 +82,8 @@ export function DetailedResults({
 
             return (
               <div key={dim.label} className="dim-row">
-                <span className={`dim-pole ${!isRight ? "dim-active" : ""}`}>
-                  {dim.pole1Code} — {dim.pole1}
+                <span className={`dim-pole ${!isRight ? "dim-active" : ""}`} style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
+                  <FrameworkDot framework="personality" size={6} />{dim.pole1Code} — {dim.pole1}
                 </span>
                 <div className="dim-bar-container">
                   <div className="dim-bar-track">
@@ -152,6 +152,7 @@ export function DetailedResults({
           {disc.dimensions.map((dim) => (
             <div key={dim.code} className="disc-dim-row">
               <div className="disc-dim-header">
+                <FrameworkDot framework="disc" size={6} />
                 <span
                   className="disc-dim-code"
                   style={{ background: discColors[dim.code] }}
@@ -225,8 +226,8 @@ export function DetailedResults({
               key={t.type}
               className={`ennea-bar-row ${t.type === enneagram.primary.type ? "ennea-primary" : ""}`}
             >
-              <span className="ennea-bar-label">
-                {t.type} — {t.name}
+              <span className="ennea-bar-label" style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
+                <FrameworkDot framework="enneagram" size={6} />{t.type} — {t.name}
               </span>
               <div className="ennea-bar-track">
                 <div
