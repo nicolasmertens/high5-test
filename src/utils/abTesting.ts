@@ -38,8 +38,12 @@ export function trackExperimentView(experimentName: string, variant: Variant): v
       experiment_name: experimentName,
       experiment_variant: variant,
     });
-    ph.default.setPersonProperties({
+    const properties: Record<string, string> = {
       [`experiment_${experimentName}`]: variant,
-    });
+    };
+    if (experimentName === "upsell_messaging") {
+      properties.upsell_variant = variant;
+    }
+    ph.default.setPersonProperties(properties);
   });
 }
