@@ -809,6 +809,20 @@ const BLOG_FAQS = {
     { question: "Does your wing change throughout life?", answer: "Your core type is stable, but your wing expression can shift. Life experiences and personal growth may develop your less-used wing. This is healthy development, not your type changing." },
     { question: "How is the wing different from the stress and growth directions?", answer: "Your wing modifies your core type's expression. The stress and growth directions are how you behave under pressure. Your wing is always present, while stress and growth patterns appear in specific conditions." },
   ],
+  "/blog/disc-vs-16-personalities": [
+    { question: "Is DISC or 16 Personalities more accurate?", answer: "Neither is more accurate — they measure different things. DISC measures observable behavior. 16 Personalities measures cognitive preferences. Both are well-established. Taking both gives you a more complete picture." },
+    { question: "Can I have a different DISC profile and 16 Personalities type?", answer: "Yes, and most people do. DISC describes behavior, which can shift with context. 16 Personalities describes cognitive style, which is generally stable. They are complementary, not contradictory." },
+    { question: "Which is better for team building?", answer: "DISC is more practical for team building because it directly describes communication and behavior. 16 Personalities adds depth by explaining why team members process information differently." },
+    { question: "Should I take both DISC and 16 Personalities?", answer: "Yes. DISC shows your behavioral style. 16 Personalities shows your cognitive style. Together they explain how you act and why you think the way you do. Both are free on 1Test." },
+    { question: "How long does each test take?", answer: "On 1Test, DISC takes about 5-8 minutes. 16 Personalities takes about 10-15 minutes. You can take one or both." },
+  ],
+  "/blog/16-personalities-vs-enneagram": [
+    { question: "Is 16 Personalities or Enneagram more accurate?", answer: "Neither is more accurate — they measure different things. 16 Personalities measures cognitive style. The Enneagram measures core motivation. Both are well-established. Taking both gives a more complete picture." },
+    { question: "Can your Enneagram type change?", answer: "Most Enneagram teachers say your core type does not change. You may express it differently as you grow, but the core is stable. Your 16 Personalities type is also generally stable." },
+    { question: "Which is better for career guidance?", answer: "16 Personalities is more directly useful for career guidance because it describes cognitive style — which work environments fit how you think. The Enneagram adds value by explaining your motivation." },
+    { question: "Should I take both 16 Personalities and Enneagram?", answer: "Yes. 16 Personalities tells you how your mind works. The Enneagram tells you what drives you emotionally. Together they explain both the how and the why. Both are free on 1Test." },
+    { question: "What is the main difference between 16 Personalities and Enneagram?", answer: "16 Personalities describes your cognitive style — how you process information and make decisions. The Enneagram describes your core motivation — the emotional drives and fears that shape why you do what you do." },
+  ],
 };
 
 const SEO_DATA = {
@@ -1196,6 +1210,20 @@ const SEO_DATA = {
       "1Test pricing: take the free personality assessment, or unlock your full profile across Strengths, 16 Personalities, DISC, and Enneagram.",
     canonicalUrl: "https://1test.me/pricing",
     ogType: "website",
+  },
+  "/blog/disc-vs-16-personalities": {
+    title: "DISC vs 16 Personalities — Which Test Should You Take?",
+    description:
+      "Compare DISC and 16 Personalities frameworks. What each measures, when to use each, and how they complement each other. Take both free on 1Test.",
+    canonicalUrl: "https://1test.me/blog/disc-vs-16-personalities",
+    ogType: "article",
+  },
+  "/blog/16-personalities-vs-enneagram": {
+    title: "16 Personalities vs Enneagram — Which Framework Fits You?",
+    description:
+      "Compare 16 Personalities and Enneagram frameworks. What each measures, when to use each, and how they work together. Take both free on 1Test.",
+    canonicalUrl: "https://1test.me/blog/16-personalities-vs-enneagram",
+    ogType: "article",
   },
 };
 
@@ -2041,7 +2069,23 @@ const BODY_CONTENT = {
       { heading: "What Are Enneagram Wings", text: "Your Enneagram type describes your core motivation and fear. Your wing is the adjacent type that adds flavor, nuance, and additional traits to your core type. Every type has two possible wings — the types on either side on the Enneagram diagram. A Type 1 can have a 9-wing or a 2-wing. Most people lean toward one wing. Your wing does not change your core type — it modifies how your type expresses itself." },
       { heading: "How Wings Modify Each Type", text: "Wings explain why two people of the same type can look different. 1w9 (The Idealist) is more relaxed and patient. 1w2 (The Advocate) is more relational and service-oriented. 3w2 (The Charmer) is more interpersonal. 3w4 (The Professional) is more introspective and image-conscious. 5w4 (The Iconoclast) is more creative and emotional. 5w6 (The Problem Solver) is more analytical and loyal. Your wing adds a secondary flavor to your core type's expression." },
       { heading: "Using Your Wing for Growth and Common Misconceptions", text: "Your wing is a growth pathway: when stuck in your core type's fixation, your wing can provide a way out. Your lesser-developed wing represents untapped potential. Common misconceptions: wings are not equal to your core type (they modify expression), wings are always adjacent to your type, your wing expression can shift over time, and not relating to either wing does not mean you typed yourself wrong. The best way to verify your wing is to notice which set of adjacent traits you express more often, especially under stress." },
-],
+    ],
+   },
+  "/blog/disc-vs-16-personalities": {
+    h1: "DISC vs 16 Personalities — Which Test Should You Take?",
+    sections: [
+      { heading: "DISC vs 16 Personalities — Which Test Should You Take?", text: "DISC measures observable behavior and communication style. 16 Personalities measures cognitive preferences and information processing. They measure different things and complement each other. Taking both gives you a more complete picture." },
+      { heading: "Key Differences", text: "DISC is external — how you act. 16 Personalities is internal — how you think. DISC produces a profile across 4 behavioral dimensions. 16 Personalities produces one of 16 types. DISC can shift with context. 16 Personalities is generally stable. DISC is best for communication and teamwork. 16 Personalities is best for self-understanding and cognitive style." },
+      { heading: "Why Taking Both Is Better", text: "An INTJ with a high D DISC profile thrives in strategic leadership. An INTJ with a high C profile thrives in data-heavy analytical roles. Same cognitive type, different behavioral expression. Taking both frameworks reveals this nuance that neither shows alone." },
+    ],
+   },
+  "/blog/16-personalities-vs-enneagram": {
+    h1: "16 Personalities vs Enneagram — Which Framework Fits You?",
+    sections: [
+      { heading: "16 Personalities vs Enneagram — Which Framework Fits You?", text: "16 Personalities describes your cognitive style — how you think and process information. The Enneagram describes your core motivation — why you act. They approach personality from completely different angles. Taking both is better than choosing one." },
+      { heading: "Key Differences", text: "16 Personalities has 16 types based on 4 cognitive dimensions. The Enneagram has 9 types based on core motivation and fear. 16 Personalities is about information processing. The Enneagram is about emotional drives. 16 Personalities is best for cognitive style and career fit. The Enneagram is best for motivation and growth direction." },
+      { heading: "Why Taking Both Is Better", text: "An INTJ Type 5 is driven to understand (cognitive style: analytical + motivation: competence). An ENFP Type 7 generates ideas and chases new experiences (cognitive style: intuitive + motivation: experience). The combination explains both the how and the why of personality." },
+    ],
    },
   "/pricing": {
     h1: "Simple, Transparent Pricing",
