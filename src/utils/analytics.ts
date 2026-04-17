@@ -472,6 +472,28 @@ export function trackHeroCTAClick(ctaText: string): void {
   });
 }
 
+export function trackCompareViewed(data: {
+  personalityA: string;
+  personalityB: string;
+  discA: string;
+  discB: string;
+  isPaid: boolean;
+}): void {
+  posthog.capture("compare_viewed", {
+    personality_a: data.personalityA,
+    personality_b: data.personalityB,
+    disc_a: data.discA,
+    disc_b: data.discB,
+    is_paid: data.isPaid,
+  });
+}
+
+export function trackCompareShared(channel: string): void {
+  posthog.capture("compare_shared", {
+    share_channel: channel,
+  });
+}
+
 export function trackFrameworkCardClick(framework: string): void {
   posthog.capture("framework_card_click", {
     framework,
