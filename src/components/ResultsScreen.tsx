@@ -10,6 +10,7 @@ import { ShareCard } from "./ShareCard";
 import { ShareButtons } from "./ShareButtons";
 import { EmailCapture } from "./EmailCapture";
 import { InviteSection } from "./InviteSection";
+import { SEOHead } from "./SEOHead";
 import { useShareImage } from "../hooks/useShareImage";
 import { usePayment } from "../contexts/PaymentContext";
 import { trackUpgradeViewed, trackResultsViewed } from "../utils/analytics";
@@ -76,6 +77,34 @@ export function ResultsScreen({ results, onRestart }: Props) {
     domainCounts[d] = (domainCounts[d] || 0) + 1;
   }
 
+  const ogImageUrl = useMemo(() => {
+    const params = new URLSearchParams({
+      type: personality.type,
+      strength: top5[0]?.strength.name ?? "",
+      domain: top5[0]?.strength.domain ?? "doing",
+      paid: isPaid ? "1" : "0",
+    });
+    if (disc.style) params.set("disc", disc.style);
+    if (enneagram.wingLabel) params.set("enneagram", enneagram.wingLabel);
+    return `https://1test.me/api/og-image?${params.toString()}`;
+  }, [personality.type, disc.style, enneagram.wingLabel, top5, isPaid]);
+
+  const seoTitle = useMemo(
+    () =>
+      isPaid
+        ? `${personality.type} (${personality.label}) | 1Test Results`
+        : `${top5[0]?.strength.name ?? "Strengths"} | 1Test Results`,
+    [isPaid, personality, top5],
+  );
+
+  const seoDescription = useMemo(
+    () =>
+      isPaid
+        ? `I'm a ${personality.type} with a ${disc.style} DISC profile and Enneagram ${enneagram.wingLabel}. Discover your personality type with one free test.`
+        : `My top strength is ${top5[0]?.strength.name ?? ""}. Discover yours with one free test at 1Test.me.`,
+    [isPaid, personality, disc, enneagram, top5],
+  );
+
   if (showDetailed && isPaid) {
     return (
       <DetailedResults
@@ -84,12 +113,21 @@ export function ResultsScreen({ results, onRestart }: Props) {
         enneagram={enneagram}
         disc={disc}
         onBack={() => setShowDetailed(false)}
+        ogImageUrl={ogImageUrl}
+        seoTitle={seoTitle}
+        seoDescription={seoDescription}
       />
     );
   }
 
   return (
     <div className="results">
+      <SEOHead
+        title={seoTitle}
+        description={seoDescription}
+        canonicalUrl="https://1test.me/results"
+        ogImage={ogImageUrl}
+      />
       <h1>Your Top 5 Strengths</h1>
       <p className="results-subtitle">
         Your unique combination out of 1,860,480 possible sequences

@@ -5,6 +5,7 @@ import {
   type DISCResult,
 } from "../data/derivations";
 import { domainColors, domainLabels } from "../data/strengths";
+import { SEOHead } from "./SEOHead";
 
 interface Props {
   results: StrengthScore[];
@@ -12,6 +13,9 @@ interface Props {
   enneagram: EnneagramResult;
   disc: DISCResult;
   onBack: () => void;
+  ogImageUrl: string;
+  seoTitle: string;
+  seoDescription: string;
 }
 
 const discColors: Record<string, string> = {
@@ -27,11 +31,20 @@ export function DetailedResults({
   enneagram,
   disc,
   onBack,
+  ogImageUrl,
+  seoTitle,
+  seoDescription,
 }: Props) {
   const top5 = results.slice(0, 5);
 
   return (
     <div className="detailed">
+      <SEOHead
+        title={seoTitle}
+        description={seoDescription}
+        canonicalUrl="https://1test.me/results"
+        ogImage={ogImageUrl}
+      />
       <button className="btn-back" onClick={onBack}>
         &larr; Back to Overview
       </button>

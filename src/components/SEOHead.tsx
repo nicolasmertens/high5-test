@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 
-const OG_IMAGE = "https://1test.me/og-image.png";
+const DEFAULT_OG_IMAGE = "https://1test.me/og-image.png";
 
 interface SEOHeadProps {
   title: string;
@@ -8,6 +8,7 @@ interface SEOHeadProps {
   canonicalUrl: string;
   jsonLd?: object[];
   ogType?: string;
+  ogImage?: string;
 }
 
 export function SEOHead({
@@ -16,7 +17,9 @@ export function SEOHead({
   canonicalUrl,
   jsonLd = [],
   ogType = "website",
+  ogImage,
 }: SEOHeadProps) {
+  const image = ogImage || DEFAULT_OG_IMAGE;
   const allJsonLd = [
     {
       "@context": "https://schema.org",
@@ -79,11 +82,11 @@ export function SEOHead({
       <meta property="og:description" content={description} />
       <meta property="og:type" content={ogType} />
       <meta property="og:url" content={canonicalUrl} />
-      <meta property="og:image" content={OG_IMAGE} />
+      <meta property="og:image" content={image} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={OG_IMAGE} />
+      <meta name="twitter:image" content={image} />
       {allJsonLd.map((schema, i) => (
         <script key={i} type="application/ld+json">
           {JSON.stringify(schema)}
