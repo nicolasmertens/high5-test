@@ -11,6 +11,7 @@ import { ShareButtons } from "./ShareButtons";
 import { EmailCapture } from "./EmailCapture";
 import { InviteSection } from "./InviteSection";
 import { SEOHead } from "./SEOHead";
+import { CareerPathBlock } from "./career/CareerPathBlock";
 import { useShareImage } from "../hooks/useShareImage";
 import { getStoredReferralCode, getStoredProfileHash, getInviteRef } from "../utils/profile";
 import { usePayment } from "../contexts/PaymentContext";
@@ -339,6 +340,11 @@ export function ResultsScreen({ results, onRestart }: Props) {
             disc={disc}
           />
 
+          <CareerPathBlock
+            results={results}
+            personality={personality}
+          />
+
           {tier === "ai_playbook" && (() => {
             const hash = getStoredProfileHash();
             if (!hash) return null;
@@ -425,6 +431,11 @@ export function ResultsScreen({ results, onRestart }: Props) {
             personality={personality}
             enneagram={enneagram}
             disc={disc}
+          />
+
+          <CareerPathBlock
+            results={results}
+            personality={personality}
           />
 
           <div className="share-section">

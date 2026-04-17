@@ -386,7 +386,7 @@ export function trackProfileStored(profileHash: string): void {
 
 export function trackCTAClicked(data: {
   ctaText: string;
-  ctaLocation: "intro_hero" | "intro_resume" | "landing_hero" | "landing_bottom" | "bridge_teaser" | "upgrade_teaser" | "upgrade_full" | "playbook_teaser";
+  ctaLocation: "intro_hero" | "intro_resume" | "landing_hero" | "landing_bottom" | "bridge_teaser" | "upgrade_teaser" | "upgrade_full" | "playbook_teaser" | "career_teaser" | "career_upsell_modal" | "career_intake";
   pagePath?: string;
 }): void {
   posthog.capture("cta_clicked", {
@@ -500,5 +500,66 @@ export function trackFrameworkCardClick(framework: string): void {
     page_path: "/",
     language: getLanguage(),
     ...utmParams,
+  });
+}
+
+export function trackCareerBlockViewed(data: {
+  personalityType: string;
+  segment: string;
+  isPaid: boolean;
+}): void {
+  posthog.capture("career_block_viewed", {
+    personality_type: data.personalityType,
+    segment: data.segment,
+    is_paid: data.isPaid,
+    page_path: window.location.pathname,
+  });
+}
+
+export function trackCareerIntakeCompleted(data: {
+  ageRange: string;
+  careerStage: string;
+  testReason: string;
+  personalityType: string;
+}): void {
+  posthog.capture("intake_completed", {
+    age_range: data.ageRange,
+    career_stage: data.careerStage,
+    test_reason: data.testReason,
+    personality_type: data.personalityType,
+  });
+}
+
+export function trackCareerCTAClicked(data: {
+  ctaText: string;
+  personalityType: string;
+  segment: string;
+}): void {
+  posthog.capture("career_cta_clicked", {
+    cta_text: data.ctaText,
+    personality_type: data.personalityType,
+    segment: data.segment,
+  });
+}
+
+export function trackCareerUpsellShown(data: {
+  personalityType: string;
+  segment: string;
+}): void {
+  posthog.capture("career_upsell_shown", {
+    personality_type: data.personalityType,
+    segment: data.segment,
+  });
+}
+
+export function trackCareerAdviceShared(data: {
+  personalityType: string;
+  segment: string;
+  shareChannel: string;
+}): void {
+  posthog.capture("career_advice_shared", {
+    personality_type: data.personalityType,
+    segment: data.segment,
+    share_channel: data.shareChannel,
   });
 }
