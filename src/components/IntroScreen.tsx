@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next";
+import { useLanguage } from "../contexts/LanguageContext";
 import { trackCTAClicked } from "../utils/analytics";
 
 interface Props {
@@ -7,9 +9,12 @@ interface Props {
 }
 
 export function IntroScreen({ onStart, onResume, hasSavedProgress }: Props) {
+  const { t } = useTranslation();
+  const { localizePath } = useLanguage();
+
   const handleStart = () => {
     trackCTAClicked({
-      ctaText: hasSavedProgress ? "Start Over" : "Start Free Assessment",
+      ctaText: hasSavedProgress ? t("intro.startOver") : t("intro.startFree"),
       ctaLocation: "intro_hero",
     });
     onStart();
@@ -17,7 +22,7 @@ export function IntroScreen({ onStart, onResume, hasSavedProgress }: Props) {
 
   const handleResume = () => {
     trackCTAClicked({
-      ctaText: "Continue Where You Left Off",
+      ctaText: t("intro.continueWhere"),
       ctaLocation: "intro_resume",
     });
     onResume?.();
@@ -31,98 +36,97 @@ export function IntroScreen({ onStart, onResume, hasSavedProgress }: Props) {
         </svg>
       </div>
       <span className="beta-badge">BETA</span>
-      <h1>Know What Makes You Tick</h1>
+      <h1>{t("intro.headline")}</h1>
       <p className="intro-subtitle">
-        One free test. Four personality frameworks. Actionable results you can use today.
+        {t("intro.subtitle")}
       </p>
 
       <div className="trust-bar">
-        <span className="trust-item">&#9989; 100% free</span>
-        <span className="trust-item">&#128274; Private results</span>
-        <span className="trust-item">&#127891; Research-backed</span>
+        <span className="trust-item">&#9989; {t("intro.trustFree")}</span>
+        <span className="trust-item">&#128274; {t("intro.trustPrivate")}</span>
+        <span className="trust-item">&#127891; {t("intro.trustResearch")}</span>
       </div>
 
       <div className="usp-section">
         <div className="framework-cards">
           <div className="framework-card">
             <span className="fw-icon" style={{ color: "#f59e0b" }}>&#9733;</span>
-            <span className="fw-name">Top 5 Strengths</span>
-            <span className="fw-desc">20 strengths, 4 domains</span>
+            <span className="fw-name">{t("frameworkCards.strengths")}</span>
+            <span className="fw-desc">{t("frameworkCards.strengthsDesc")}</span>
           </div>
           <div className="framework-card">
             <span className="fw-icon" style={{ color: "#6366f1" }}>&#9632;</span>
-            <span className="fw-name">16 Personalities</span>
-            <span className="fw-desc">Cognitive preferences</span>
+            <span className="fw-name">{t("frameworkCards.personality")}</span>
+            <span className="fw-desc">{t("frameworkCards.personalityDesc")}</span>
           </div>
           <div className="framework-card">
             <span className="fw-icon" style={{ color: "#e53e3e" }}>&#9650;</span>
-            <span className="fw-name">DISC Profile</span>
-            <span className="fw-desc">Behavioral style</span>
+            <span className="fw-name">{t("frameworkCards.disc")}</span>
+            <span className="fw-desc">{t("frameworkCards.discDesc")}</span>
           </div>
           <div className="framework-card">
             <span className="fw-icon" style={{ color: "#10b981" }}>&#9675;</span>
-            <span className="fw-name">Enneagram</span>
-            <span className="fw-desc">Core motivations</span>
+            <span className="fw-name">{t("frameworkCards.enneagram")}</span>
+            <span className="fw-desc">{t("frameworkCards.enneagramDesc")}</span>
           </div>
         </div>
 
         <div className="intro-domains">
-          <span className="domain-pill doing">DOING</span>
-          <span className="domain-pill thinking">THINKING</span>
-          <span className="domain-pill feeling">FEELING</span>
-          <span className="domain-pill motivating">MOTIVATING</span>
+          <span className="domain-pill doing">{t("frameworkCards.domains.doing")}</span>
+          <span className="domain-pill thinking">{t("frameworkCards.domains.thinking")}</span>
+          <span className="domain-pill feeling">{t("frameworkCards.domains.feeling")}</span>
+          <span className="domain-pill motivating">{t("frameworkCards.domains.motivating")}</span>
         </div>
       </div>
 
       <div className="intro-details">
         <div className="detail-card">
           <span className="detail-number">120</span>
-          <span className="detail-label">Questions</span>
+          <span className="detail-label">{t("intro.questionCount")}</span>
         </div>
         <div className="detail-card">
           <span className="detail-number">4</span>
-          <span className="detail-label">Frameworks</span>
+          <span className="detail-label">{t("intro.frameworksCount")}</span>
         </div>
         <div className="detail-card">
           <span className="detail-number">~15</span>
-          <span className="detail-label">Minutes</span>
+          <span className="detail-label">{t("intro.minutesLabel")}</span>
         </div>
         <div className="detail-card">
-          <span className="detail-number">Free</span>
-          <span className="detail-label">Always</span>
+          <span className="detail-number">{t("intro.freeAlways").split("")[0]}</span>
+          <span className="detail-label">{t("intro.freeAlways")}</span>
         </div>
       </div>
 
       <p className="intro-instruction">
-        Rate each statement based on how well it describes you. Go with your
-        first instinct — there are no right or wrong answers.
+        {t("intro.instruction")}
       </p>
 
       <p className="intro-social-proof">
-        Join thousands who have discovered their strengths — free, no signup required.
+        {t("intro.socialProof")}
       </p>
 
       <div className="intro-actions">
         {hasSavedProgress && onResume && (
           <button className="btn-start" onClick={handleResume}>
-            Continue Where You Left Off
+            {t("intro.continueWhere")}
           </button>
         )}
         <button
           className={hasSavedProgress ? "btn-start btn-start-secondary" : "btn-start"}
           onClick={handleStart}
         >
-          {hasSavedProgress ? "Start Over" : "Start Free Assessment"}
+          {hasSavedProgress ? t("intro.startOver") : t("intro.startFree")}
         </button>
       </div>
 
       <p className="intro-credit">
-        Based on public domain research from the{" "}
+        {t("intro.creditPrefix")}{" "}
         <a href="https://ipip.ori.org/" target="_blank" rel="noopener">
-          International Personality Item Pool
+          {t("intro.creditLink")}
         </a>
-        . Not affiliated with any trademark holder.{" "}
-        <a href="/pricing">Pricing</a> · <a href="/privacy-draft">Privacy</a> · <a href="/terms-draft">Terms</a>
+        {t("intro.creditSuffix")}{" "}
+        <a href={localizePath("/pricing")}>{t("intro.pricing")}</a> · <a href={localizePath("/privacy-draft")}>{t("intro.privacy")}</a> · <a href={localizePath("/terms-draft")}>{t("intro.terms")}</a>
       </p>
 
       <div className="sticky-mobile-cta">
@@ -130,7 +134,7 @@ export function IntroScreen({ onStart, onResume, hasSavedProgress }: Props) {
           className="btn-start"
           onClick={hasSavedProgress ? onResume : onStart}
         >
-          {hasSavedProgress ? "Continue Where You Left Off" : "Start Assessment"}
+          {hasSavedProgress ? t("intro.continueWhere") : t("intro.startAssessment")}
         </button>
       </div>
     </div>

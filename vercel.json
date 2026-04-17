@@ -10,6 +10,10 @@
     }
   ],
   "rewrites": [
+    { "source": "/de", "destination": "/de/index.html" },
+    { "source": "/de/(.*)", "destination": "/de/$1" },
+    { "source": "/fr", "destination": "/fr/index.html" },
+    { "source": "/fr/(.*)", "destination": "/fr/$1" },
     { "source": "/free-strengths-test", "destination": "/free-strengths-test/index.html" },
     { "source": "/free-disc-test", "destination": "/free-disc-test/index.html" },
     { "source": "/free-enneagram-test", "destination": "/free-enneagram-test/index.html" },

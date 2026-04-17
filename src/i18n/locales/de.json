@@ -1,0 +1,275 @@
+{
+  "app": {
+    "title": "1Test — Ein Test. Vier Frameworks. Kenne dich selbst.",
+    "description": "Mache einen kostenlosen 15-Minuten-Test und erhalte deine Stärken-, 16-Persönlichkeiten-, DISC- und Enneagramm-Ergebnisse. Keine weiteren Tests nötig."
+  },
+  "nav": {
+    "takeTest": "Test starten",
+    "pricing": "Preise",
+    "blog": "Blog"
+  },
+  "header": {
+    "toggleNav": "Navigation umschalten"
+  },
+  "footer": {
+    "testsHeading": "Kostenlose Tests",
+    "learnHeading": "Wissen",
+    "legalHeading": "Rechtliches",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "home": "Startseite"
+  },
+  "footerTests": {
+    "personalities": "16 Persönlichkeiten",
+    "disc": "DISC-Profil",
+    "enneagram": "Enneagramm",
+    "strengths": "Top-5-Stärken"
+  },
+  "intro": {
+    "headline": "Erkennen, was dich antreibt",
+    "subtitle": "Ein kostenloser Test. Vier Persönlichkeitsframeworks. Ergebnisse, die du sofort anwenden kannst.",
+    "trustFree": "100 % kostenlos",
+    "trustPrivate": "Private Ergebnisse",
+    "trustResearch": "Wissenschaftlich fundiert",
+    "questionCount": "Fragen",
+    "frameworksCount": "Frameworks",
+    "minutesLabel": "Minuten",
+    "freeAlways": "Immer",
+    "instruction": "Bewerte jede Aussage danach, wie gut sie auf dich zutrifft. Folge deinem ersten Instinkt — es gibt keine richtigen oder falschen Antworten.",
+    "socialProof": "Schließe dich Tausenden an, die ihre Stärken entdeckt haben — kostenlos, ohne Anmeldung.",
+    "startFree": "Kostenlosen Test starten",
+    "startAssessment": "Test starten",
+    "startOver": "Neu beginnen",
+    "continueWhere": "Dort weitermachen, wo du aufgehört hast",
+    "creditPrefix": "Basierend auf öffentlicher Forschung des",
+    "creditLink": "International Personality Item Pool",
+    "creditSuffix": ". Nicht mit einem Markeninhaber verbunden.",
+    "pricing": "Preise",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen"
+  },
+  "frameworkCards": {
+    "strengths": "Top-5-Stärken",
+    "strengthsDesc": "20 Stärken, 4 Bereiche",
+    "personality": "16 Persönlichkeiten",
+    "personalityDesc": "Kognitive Präferenzen",
+    "disc": "DISC-Profil",
+    "discDesc": "Verhaltensstil",
+    "enneagram": "Enneagramm",
+    "enneagramDesc": "Kernmotivationen",
+    "domains": {
+      "doing": "HANDELN",
+      "thinking": "DENKEN",
+      "feeling": "FÜHLEN",
+      "motivating": "MOTIVIEREN"
+    }
+  },
+  "question": {
+    "stronglyDisagree": "Stimme gar nicht zu",
+    "disagree": "Stimme nicht zu",
+    "neutral": "Neutral",
+    "agree": "Stimme zu",
+    "stronglyAgree": "Stimme voll zu",
+    "progressSaved": "Fortschritt gespeichert",
+    "back": "Zurück",
+    "seeResults": "Ergebnisse ansehen",
+    "next": "Weiter",
+    "sliderPrompt": "Schieberegler ziehen oder 1-5 drücken"
+  },
+  "results": {
+    "titleFree": "{{strength}} | 1Test Ergebnisse",
+    "titlePaid": "{{type}} ({{label}}) | 1Test Ergebnisse",
+    "shareTextFree": "Meine stärkste Eigenschaft ist {{strength}} — entdecke deine mit einem kostenlosen Test:",
+    "shareTextPaid": "Ich bin {{type}} ({{label}}) mit DISC-Profil {{disc}} und Enneagramm {{enneagram}}. Meine stärkste Eigenschaft ist {{strength}}. Entdecke deine:",
+    "topStrengths": "Deine Top-5-Stärken",
+    "allStrengths": "Alle 20 Stärken",
+    "personalityPreview": "Dein Persönlichkeitstyp",
+    "discPreview": "Dein DISC-Stil",
+    "enneagramPreview": "Dein Enneagramm",
+    "unlockCta": "Vollständiges Profil freischalten",
+    "restart": "Test erneut starten"
+  },
+  "upgrade": {
+    "title": "Vollständiges Profil freischalten",
+    "subtitle": "Siehe alle 20 Stärken im Ranking, deine vollständige Persönlichkeitstyp-Analyse, das DISC-Gesamtprofil und deinen Enneagramm-Wachstumspfad.",
+    "cta": "Vollständiges Profil freischalten — $12",
+    "featureStrengths": "Alle 20 Stärken im Ranking mit detaillierten Beschreibungen",
+    "featurePersonality": "Vollständige 16-Persönlichkeiten-Tiefenanalyse",
+    "featureDisc": "Vollständiges DISC-Profil mit Kommunikationstipps",
+    "featureEnneagram": "Vollständiges Enneagramm-Profil mit Wachstumspfad",
+    "featureCareers": "Karrierepfade passend zu deinem Profil",
+    "featurePdf": "PDF-Export als Offline-Referenz"
+  },
+  "homepage": {
+    "heroHeadline": "Ein Test. Vier Frameworks. Kenne dich selbst.",
+    "heroSubtitle": "Entdecke deine Stärken, deinen Persönlichkeitstyp, deinen Kommunikationsstil und deine inneren Motivationen — alles mit einem einzigen kostenlosen Test. Ohne Anmeldung.",
+    "heroCta": "Kostenlosen Test starten",
+    "heroCtaSecondary": "So funktioniert's",
+    "trustFree": "100 % kostenlos",
+    "trustPrivate": "Private Ergebnisse",
+    "trustResearch": "Wissenschaftlich fundiert",
+    "trustFrameworks": "4 Frameworks in einem Test",
+    "howItWorksHeadline": "Ein Test. Dein vollständiges Persönlichkeitsbild.",
+    "step1Title": "Beantworte 120 Fragen",
+    "step1Body": "über wie du natürlich denkst, entscheidest und interagierst. Dauer: 10–15 Minuten.",
+    "step2Title": "Erhalte 4 Ergebnisse auf einmal",
+    "step2Body": "— Stärken, 16 Persönlichkeiten, DISC, Enneagramm. Keine separaten Tests nötig.",
+    "step3Title": "Erkunde dein Profil",
+    "step3Body": "— sieh, was dich einzigartig macht, wie du mit anderen zusammenarbeitest und was als Nächstes kommt.",
+    "startCta": "Deinen kostenlosen Test starten",
+    "frameworksHeadline": "Vier Frameworks. Ein vollständiges Bild.",
+    "frameworksFooter": "Alle vier Ergebnisse aus einem kostenlosen Test. Keine separaten Assessments nötig.",
+    "strengthsName": "Stärken",
+    "strengthsDesc": "Deine natürlichen Stärken, im Ranking — Entdecke, was du ohne Anstrengung am besten kannst. 20 Stärken von stärkster bis entwickelnder, mit praktischer Anleitung.",
+    "personalityName": "16 Persönlichkeiten",
+    "personalityDesc": "Deine kognitiven Präferenzen — Verstehe, wie du Informationen verarbeitest, Entscheidungen triffst und Energie tankst. Dein vierbuchstabiger Typ mit vollständiger Profilanzeige.",
+    "discName": "DISC",
+    "discDesc": "Dein Kommunikationsstil — Lerne, wie du auf andere wirkst, was dich antreibt und wie du deinen Stil an verschiedene Menschen anpasst.",
+    "enneagramName": "Enneagramm",
+    "enneagramDesc": "Deine Kernmotivation — Geh tiefer als Verhalten. Das Enneagramm zeigt das Warum hinter dem, was du tust — deinen grundlegenden Antrieb, deine Angst und deinen Wachstumspfad.",
+    "comparisonHeadline": "Deine kostenlosen Ergebnisse sind wirklich nützlich.",
+    "comparisonFree": "Kostenlos",
+    "comparisonFreeFeatures": {
+      "f1": "Top-5-Stärken mit Beschreibungen",
+      "f2": "Persönlichkeitstyp + Zusammenfassung",
+      "f3": "DISC-Stil + Zusammenfassung",
+      "f4": "Enneagramm-Typ + Zusammenfassung",
+      "f5": "Teilbare Ergebnis-Karte",
+      "f6": "Keine Kreditkarte erforderlich"
+    },
+    "comparisonFreeCta": "Den kostenlosen Test machen",
+    "comparisonBadge": "Beliebteste Wahl",
+    "comparisonPaid": "Vollständiges Profil — $12",
+    "comparisonPaidNote": "Alles in Kostenlos, plus:",
+    "comparisonPaidCta": "Alle Pläne ansehen",
+    "comparisonPaidFeatures": {
+      "f1": "Alle 20 Stärken im Ranking mit detaillierten Beschreibungen",
+      "f2": "Vollständige 16-Persönlichkeiten-Tiefenanalyse",
+      "f3": "Vollständiges DISC-Profil mit Kommunikationstipps",
+      "f4": "Vollständiges Enneagramm-Profil mit Wachstumspfad",
+      "f5": "Karrierepfade passend zu deinem Profil",
+      "f6": "PDF-Export als Offline-Referenz"
+    }
+  },
+  "pricing": {
+    "pageTitle": "1Test Preise — Kostenlose Ergebnisse, immer",
+    "pageDescription": "Dein kostenloses Assessment liefert echten Mehrwert. Bezahlte Tarife gehen tiefer, wenn du bereit bist. Stärken, 16 Persönlichkeiten, DISC, Enneagramm — alles aus einem Test.",
+    "headline": "Kostenlose Ergebnisse, immer",
+    "subtitle": "Dein kostenloses Assessment liefert echten Mehrwert. Bezahlte Tarife gehen tiefer, wenn du bereit bist.",
+    "tiers": {
+      "free": {
+        "name": "Kostenlos",
+        "price": "0 €",
+        "description": "Deine Top-5-Stärken plus eine Vorschau aller vier Frameworks.",
+        "features": {
+          "f1": "Top-5-Stärken mit Beschreibungen",
+          "f2": "Persönlichkeitstyp-Vorschau (16 Persönlichkeiten)",
+          "f3": "DISC-Stil-Vorschau",
+          "f4": "Enneagramm-Typ-Vorschau",
+          "f5": "Teilbare Ergebnis-Karte",
+          "f6": "Kollegen für Beziehungsberichte einladen"
+        },
+        "cta": "Den kostenlosen Test machen"
+      },
+      "fullProfile": {
+        "name": "Vollständiges Profil",
+        "price": "12 €",
+        "description": "Dein vollständiges Profil über alle vier Frameworks.",
+        "features": {
+          "f1": "Alle 20 Stärken im Ranking mit detaillierten Einblicken",
+          "f2": "Vollständige Persönlichkeitstyp-Analyse mit Dimensions-Werten",
+          "f3": "Vollständiges DISC-Profil mit Eigenschaften und Kommunikationstipps",
+          "f4": "Enneagramm-Flügel, Trityp und Stress-/Wachstumsmuster",
+          "f5": "Karrierepfade, Buchempfehlungen, Stressmuster",
+          "f6": "Vereinigtes Profil über alle vier Frameworks"
+        },
+        "cta": "Vollständiges Profil freischalten",
+        "badge": "Beliebteste Wahl"
+      },
+      "aiPlaybook": {
+        "name": "KI-Spielbuch",
+        "price": "19 €",
+        "description": "Personalisierte Karrierepfade, Wachstumsplan und Kommunikationsleitfaden — KI-generiert für dein Profil.",
+        "features": {
+          "f1": "Karrierepfade passend zu deinem einzigartigen Profil",
+          "f2": "Personalisierter Wachstumsplan mit konkreten Schritten",
+          "f3": "Buch- und Kurs-Empfehlungen passend zu deinen Stärken",
+          "f4": "Kommunikationsleitfaden basierend auf deinem Persönlichkeitstyp",
+          "f5": "Enthält alles im Vollständigen Profil"
+        },
+        "cta": "KI-Spielbuch erhalten"
+      },
+      "team": {
+        "name": "Team",
+        "price": "29 €",
+        "period": "/Mo. pro Platz",
+        "description": "Team-Einblicke, Beziehungsberichte und ein Manager-Dashboard.",
+        "features": {
+          "f1": "Alles im KI-Spielbuch",
+          "f2": "Kollegen einladen und Profile vergleichen",
+          "f3": "Beziehungsberichte: Wie eure Profile interagieren",
+          "f4": "Team-Stärken-Karten",
+          "f5": "Meeting-Vorbereitungstipps für bestimmte Kollegen",
+          "f6": "Manager-Dashboard"
+        },
+        "cta": "Team starten",
+        "badge": "Demnächst"
+      }
+    },
+    "faq": {
+      "freeRealTitle": "Ist der kostenlose Test wirklich kostenlos?",
+      "freeRealAnswer": "Ja. Du erhältst deine Top-5-Stärken, Persönlichkeitstyp, DISC-Stil und Enneagramm-Typ — alles aus einem einzigen 15-Minuten-Test. Keine Kreditkarte, keine Paywall für die Kernerträge.",
+      "resultsQualityTitle": "Wie genau sind die Ergebnisse?",
+      "resultsQualityAnswer": "Unser Assessment verwendet validierte Persönlichkeitsmaße aus dem International Personality Item Pool (IPIP), derselben akademischen Quelle, die in begutachteten Studien verwendet wird. Je ehrlicher du antwortest, desto genauer sind deine Ergebnisse.",
+      "paidDifferenceTitle": "Was enthält der bezahlte Tarif?",
+      "paidDifferenceAnswer": "Das vollständige Profil schaltet alle 20 Stärken im Ranking freischalten, deine vollständige 16-Persönlichkeiten-Tiefenanalyse, das DISC-Gesamtprofil mit Kommunikationstipps und deine Enneagramm-Flügel und Wachstumsmuster. Es enthält auch Karrierepfade passend zu deinem Profil.",
+      "dataPrivacyTitle": "Sind meine Daten privat?",
+      "dataPrivacyAnswer": "Deine Ergebnisse werden lokal auf deinem Gerät und auf unseren sicheren Servern gespeichert. Wir verkaufen deine Daten nie. Du kannst deine Ergebnisse jederzeit löschen.",
+      "frameworkDifferenceTitle": "Wie unterscheiden sich die vier Frameworks?",
+      "frameworkDifferenceAnswer": "Stärken zeigt, was du natürlich am besten kannst. 16 Persönlichkeiten zeigt, wie du Informationen verarbeitest und entscheidest. DISC zeigt, wie du kommunizierst und auf andere wirkst. Enneagramm zeigt deine Kernmotivation — warum du tust, was du tust. Zusammen geben sie ein vollständiges Bild.",
+      "teamPlanTitle": "Für wen ist der Team-Tarif?",
+      "teamPlanAnswer": "Der Team-Tarif ist für Manager und Teams, die verstehen möchten, wie ihre Profile interagieren. Du erhältst Beziehungsberichte, Team-Stärken-Karten und Meeting-Vorbereitungstipps, die auf die Zusammensetzung deines Teams zugeschnitten sind.",
+      "retakeTitle": "Kann ich den Test wiederholen?",
+      "retakeAnswer": "Ja. Du kannst den Test jederzeit wiederholen. Deine Persönlichkeit ist relativ stabil, daher sind die Ergebnisse meist konsistent, aber deine Antworten können sich je nach Stimmung oder Lebensumständen leicht verschieben."
+    }
+  },
+  "landing": {
+    "disc": {
+      "title": "Kostenloser DISC-Test — Entdecke deinen Verhaltensstil | 1Test",
+      "description": "Mache ein kostenloses DISC-Assessment und entdecke dein Dominanz-, Einfluss-, Stetigkeits- und Gewissenhaftigkeitsprofil. Verstehe, wie du kommunizierst und mit anderen zusammenarbeitest.",
+      "headline": "Kostenloses DISC-Assessment",
+      "subtitle": "Entdecke deinen Verhaltensstil — wie du kommunizierst, Entscheidungen triffst und auf verschiedene Situationen reagierst.",
+      "cta": "Kostenlosen DISC-Test starten"
+    },
+    "enneagram": {
+      "title": "Kostenloser Enneagramm-Test — Entdecke deine Kernmotivation | 1Test",
+      "description": "Mache einen kostenlosen Enneagramm-Test und entdecke deinen Typ, deine Flügel-Tendenzen und deinen Wachstumspfad. Verstehe das Warum hinter dem, was du tust.",
+      "headline": "Kostenloser Enneagramm-Test",
+      "subtitle": "Entdecke deine Kernmotivation — das Warum hinter dem, was du tust, deinen Wachstumspfad und wie du auf Stress reagierst.",
+      "cta": "Kostenlosen Enneagramm-Test starten"
+    },
+    "personality": {
+      "title": "Kostenloser 16-Persönlichkeiten-Test — Kenne deinen Typ | 1Test",
+      "description": "Mache einen kostenlosen 16-Persönlichkeiten-Test und entdecke deinen Typ, deine kognitiven Präferenzen und wie sie deine Arbeit, Beziehungen und Entwicklung prägen.",
+      "headline": "Kostenloser Persönlichkeitstest",
+      "subtitle": "Entdecke deinen Persönlichkeitstyp — wie du Informationen verarbeitest, Entscheidungen triffst und Energie tankst. Praktische Erkenntnisse für Arbeit und Leben.",
+      "cta": "Kostenlosen Persönlichkeitstest starten"
+    },
+    "strengths": {
+      "title": "Kostenloser Stärken-Test — Entdecke deine Top 5 | 1Test",
+      "description": "Mache ein kostenloses Stärken-Assessment und entdecke deine Top-5-Stärken im Ranking. Sieh, was dich einzigartig macht und wie du deine Stärken bei der Arbeit einsetzt.",
+      "headline": "Kostenloses Stärken-Assessment",
+      "subtitle": "Entdecke deine natürlichen Stärken — was du ohne Anstrengung am besten kannst. 20 Stärken von stärkster bis entwickelnder.",
+      "cta": "Kostenlosen Stärken-Test starten"
+    }
+  },
+  "seoHead": {
+    "homeBreadcrumb": "Startseite",
+    "blogBreadcrumb": "Blog"
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français"
+  }
+}

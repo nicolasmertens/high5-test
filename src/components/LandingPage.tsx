@@ -1,8 +1,10 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { frameworkContent } from "../data/landing-content";
 import { trackTestStarted, trackCTAClicked } from "../utils/analytics";
 import { SEOHead, buildFAQSchema } from "./SEOHead";
+import { useLanguage } from "../contexts/LanguageContext";
 
 interface Props {
   framework: string;
@@ -22,9 +24,19 @@ const FRAMEWORK_ICONS: Record<string, string> = {
   strengths: "\u2605",
 };
 
+const FRAMEWORK_LANDING_KEYS: Record<string, string> = {
+  disc: "disc",
+  enneagram: "enneagram",
+  personality: "personality",
+  strengths: "strengths",
+};
+
 export function LandingPage({ framework }: Props) {
   const navigate = useNavigate();
+  const { t } = useTranslation();
+  const { localizePath } = useLanguage();
   const fw = frameworkContent[framework];
+  const landingKey = FRAMEWORK_LANDING_KEYS[framework];
 
   const handleCTA = useCallback((location: "landing_hero" | "landing_bottom") => {
     trackTestStarted(
@@ -32,15 +44,15 @@ export function LandingPage({ framework }: Props) {
       `/free-${framework}-test`
     );
     trackCTAClicked({
-      ctaText: location === "landing_hero" ? "Take the Free Test →" : "Start the Assessment →",
+      ctaText: location === "landing_hero" ? t(`landing.${landingKey}.cta`) : t(`landing.${landingKey}.cta`),
       ctaLocation: location,
       pagePath: `/free-${framework}-test`,
     });
-    navigate("/test");
-  }, [framework, navigate]);
+    navigate(localizePath("/test"));
+  }, [framework, landingKey, localizePath, navigate, t]);
 
   if (!fw) {
-    navigate("/test");
+    navigate(localizePath("/test"));
     return null;
   }
 
@@ -49,8 +61,8 @@ export function LandingPage({ framework }: Props) {
   return (
     <div className="landing">
       <SEOHead
-        title={fw.metaTitle}
-        description={fw.metaDesc}
+        title={t(`landing.${landingKey}.title`)}
+        description={t(`landing.${landingKey}.description`)}
         canonicalUrl={fw.canonicalUrl}
         jsonLd={[faqSchema]}
       />
@@ -62,18 +74,17 @@ export function LandingPage({ framework }: Props) {
         >
           {FRAMEWORK_ICONS[framework]}
         </span>
-        <h1>{fw.h1}</h1>
-        <div
-          className="landing-tagline"
-          dangerouslySetInnerHTML={{ __html: fw.intro }}
-        />
+        <h1>{t(`landing.${landingKey}.headline`)}</h1>
+        <div className="landing-tagline">
+          <p>{t(`landing.${landingKey}.subtitle`)}</p>
+        </div>
         <div className="trust-bar">
-          <span className="trust-item">&#9989; 100% free</span>
-          <span className="trust-item">&#128274; Private results</span>
-          <span className="trust-item">&#127891; Research-backed</span>
+          <span className="trust-item">&#9989; {t("intro.trustFree")}</span>
+          <span className="trust-item">&#128274; {t("intro.trustPrivate")}</span>
+          <span className="trust-item">&#127891; {t("intro.trustResearch")}</span>
         </div>
         <button className="btn-start" onClick={() => handleCTA("landing_hero")}>
-          Take the Free Test &rarr;
+          {t(`landing.${landingKey}.cta`)} &rarr;
         </button>
       </div>
 
@@ -101,21 +112,21 @@ export function LandingPage({ framework }: Props) {
 
       <div className="landing-cta">
         <h2>Ready to discover your {fw.name.toLowerCase()}?</h2>
-        <p>One test. Four frameworks. Completely free. ~15 minutes.</p>
+        <p>{t("intro.subtitle")}</p>
         <button className="btn-start" onClick={() => handleCTA("landing_bottom")}>
-          Start the Assessment &rarr;
+          {t(`landing.${landingKey}.cta`)} &rarr;
         </button>
       </div>
 
       <div className="landing-crosslinks">
         <p className="landing-crosslinks-label">
-          Get the complete picture with all four frameworks:
+          {t("homepage.frameworksFooter")}
         </p>
         <div className="landing-crosslinks-grid">
           {fw.crossLinks.map((link) => (
             <a
               key={link.url}
-              href={link.url}
+              href={localizePath(link.url)}
               className="landing-crosslink-card"
             >
               {link.label}
@@ -125,12 +136,12 @@ export function LandingPage({ framework }: Props) {
       </div>
 
       <p className="intro-credit">
-        Based on public domain research from the{" "}
+        {t("intro.creditPrefix")}{" "}
         <a href="https://ipip.ori.org/" target="_blank" rel="noopener">
-          International Personality Item Pool
+          {t("intro.creditLink")}
         </a>
-        . Not affiliated with any trademark holder.{" "}
-        <a href="/privacy-draft">Privacy</a> &middot; <a href="/terms-draft">Terms</a>
+        {t("intro.creditSuffix")}{" "}
+        <a href={localizePath("/privacy-draft")}>{t("intro.privacy")}</a> &middot; <a href={localizePath("/terms-draft")}>{t("intro.terms")}</a>
       </p>
     </div>
   );

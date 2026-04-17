@@ -1,0 +1,275 @@
+{
+  "app": {
+    "title": "1Test — Un test. Quatre modèles. Connais-toi toi-même.",
+    "description": "Passez un test gratuit de 15 minutes et obtenez vos résultats Forces, 16 Personnalités, DISC et Ennéagramme. Pas besoin de tests supplémentaires."
+  },
+  "nav": {
+    "takeTest": "Passer le test",
+    "pricing": "Tarifs",
+    "blog": "Blog"
+  },
+  "header": {
+    "toggleNav": "Basculer la navigation"
+  },
+  "footer": {
+    "testsHeading": "Tests gratuits",
+    "learnHeading": "En savoir plus",
+    "legalHeading": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "home": "Accueil"
+  },
+  "footerTests": {
+    "personalities": "16 Personnalités",
+    "disc": "Profil DISC",
+    "enneagram": "Ennéagramme",
+    "strengths": "Top 5 Forces"
+  },
+  "intro": {
+    "headline": "Découvrez ce qui vous anime",
+    "subtitle": "Un test gratuit. Quatre modèles de personnalité. Des résultats exploitables dès aujourd'hui.",
+    "trustFree": "100 % gratuit",
+    "trustPrivate": "Résultats privés",
+    "trustResearch": "Fondé sur la recherche",
+    "questionCount": "Questions",
+    "frameworksCount": "Modèles",
+    "minutesLabel": "Minutes",
+    "freeAlways": "Toujours",
+    "instruction": "Évaluez chaque affirmation selon qu'elle vous décrit bien. Suivez votre premier instinct — il n'y a pas de bonnes ou mauvaises réponses.",
+    "socialProof": "Rejoignez des milliers de personnes qui ont découvert leurs forces — gratuitement, sans inscription.",
+    "startFree": "Commencer le test gratuit",
+    "startAssessment": "Commencer le test",
+    "startOver": "Recommencer",
+    "continueWhere": "Reprendre là où vous vous êtes arrêté",
+    "creditPrefix": "Basé sur la recherche du domaine public du",
+    "creditLink": "International Personality Item Pool",
+    "creditSuffix": ". Non affilié à un titulaire de marque.",
+    "pricing": "Tarifs",
+    "privacy": "Confidentialité",
+    "terms": "Conditions"
+  },
+  "frameworkCards": {
+    "strengths": "Top 5 Forces",
+    "strengthsDesc": "20 forces, 4 domaines",
+    "personality": "16 Personnalités",
+    "personalityDesc": "Préférences cognitives",
+    "disc": "Profil DISC",
+    "discDesc": "Style comportemental",
+    "enneagram": "Ennéagramme",
+    "enneagramDesc": "Motivations profondes",
+    "domains": {
+      "doing": "ACTION",
+      "thinking": "RÉFLEXION",
+      "feeling": "SENTIMENT",
+      "motivating": "MOTIVATION"
+    }
+  },
+  "question": {
+    "stronglyDisagree": "Pas du tout d'accord",
+    "disagree": "Pas d'accord",
+    "neutral": "Neutre",
+    "agree": "D'accord",
+    "stronglyAgree": "Tout à fait d'accord",
+    "progressSaved": "Progression sauvegardée",
+    "back": "Retour",
+    "seeResults": "Voir les résultats",
+    "next": "Suivant",
+    "sliderPrompt": "Glissez le curseur ou appuyez sur 1-5"
+  },
+  "results": {
+    "titleFree": "{{strength}} | Résultats 1Test",
+    "titlePaid": "{{type}} ({{label}}) | Résultats 1Test",
+    "shareTextFree": "Ma force principale est {{strength}} — découvrez la vôtre avec un test gratuit :",
+    "shareTextPaid": "Je suis {{type}} ({{label}}) avec un profil DISC {{disc}} et Ennéagramme {{enneagram}}. Ma force principale est {{strength}}. Découvrez la vôtre :",
+    "topStrengths": "Vos 5 forces principales",
+    "allStrengths": "Les 20 forces",
+    "personalityPreview": "Votre type de personnalité",
+    "discPreview": "Votre style DISC",
+    "enneagramPreview": "Votre Ennéagramme",
+    "unlockCta": "Débloquer le profil complet",
+    "restart": "Repasser le test"
+  },
+  "upgrade": {
+    "title": "Débloquer votre profil complet",
+    "subtitle": "Voir les 20 forces classées, votre analyse complète du type de personnalité, le profil DISC complet et votre parcours de croissance Ennéagramme.",
+    "cta": "Débloquer le profil complet — 12 €",
+    "featureStrengths": "Les 20 forces classées avec descriptions détaillées",
+    "featurePersonality": "Analyse approfondie complète des 16 Personnalités",
+    "featureDisc": "Profil DISC complet avec conseils de communication",
+    "featureEnneagram": "Profil Ennéagramme complet avec parcours de croissance",
+    "featureCareers": "Parcours professionnels adaptés à votre profil",
+    "featurePdf": "Export PDF pour référence hors ligne"
+  },
+  "homepage": {
+    "heroHeadline": "Un test. Quatre modèles. Connaissez-vous.",
+    "heroSubtitle": "Découvrez vos forces, votre type de personnalité, votre style de communication et vos motivations profondes — tout à partir d'un seul test gratuit. Sans inscription.",
+    "heroCta": "Commencer le test gratuit",
+    "heroCtaSecondary": "Voir comment ça marche",
+    "trustFree": "100 % gratuit",
+    "trustPrivate": "Résultats privés",
+    "trustResearch": "Fondé sur la recherche",
+    "trustFrameworks": "4 modèles en un test",
+    "howItWorksHeadline": "Un test. Votre portrait complet de personnalité.",
+    "step1Title": "Répondez à 120 questions",
+    "step1Body": "sur la façon dont vous pensez, décidez et interagissez naturellement. Durée : 10–15 minutes.",
+    "step2Title": "Obtenez 4 résultats d'un coup",
+    "step2Body": "— Forces, 16 Personnalités, DISC, Ennéagramme. Pas besoin de passer des tests séparés.",
+    "step3Title": "Explorez votre profil",
+    "step3Body": "— voyez ce qui vous rend unique, comment vous travaillez avec les autres et ce qui vient ensuite.",
+    "startCta": "Commencer votre test gratuit",
+    "frameworksHeadline": "Quatre modèles. Un portrait complet.",
+    "frameworksFooter": "Quatre résultats à partir d'un seul test gratuit. Pas d'évaluations séparées nécessaires.",
+    "strengthsName": "Forces",
+    "strengthsDesc": "Vos forces naturelles, classées — Découvrez ce que vous faites le mieux sans effort. 20 forces classées de la plus forte à la plus en développement, avec des conseils pratiques.",
+    "personalityName": "16 Personnalités",
+    "personalityDesc": "Vos préférences cognitives — Comprenez comment vous traitez l'information, prenez des décisions et rechargez. Votre type à quatre lettres avec un profil complet.",
+    "discName": "DISC",
+    "discDesc": "Votre style de communication — Apprenez comment vous êtes perçu par les autres, ce qui vous motive et comment adapter votre style avec différentes personnes.",
+    "enneagramName": "Ennéagramme",
+    "enneagramDesc": "Votre motivation profonde — Allez au-delà du comportement. L'Ennéagramme révèle le pourquoi de ce que vous faites — votre motivation fondamentale, vos peurs et votre parcours de croissance.",
+    "comparisonHeadline": "Vos résultats gratuits sont vraiment utiles.",
+    "comparisonFree": "Gratuit",
+    "comparisonFreeFeatures": {
+      "f1": "Top 5 forces avec descriptions",
+      "f2": "Type de personnalité + résumé",
+      "f3": "Style DISC + résumé",
+      "f4": "Type Ennéagramme + résumé",
+      "f5": "Carte de résultats partageable",
+      "f6": "Aucune carte de crédit requise"
+    },
+    "comparisonFreeCta": "Passer le test gratuit",
+    "comparisonBadge": "Le plus populaire",
+    "comparisonPaid": "Profil complet — 12 €",
+    "comparisonPaidNote": "Tout dans Gratuit, plus :",
+    "comparisonPaidCta": "Voir tous les plans",
+    "comparisonPaidFeatures": {
+      "f1": "Les 20 forces classées avec descriptions détaillées",
+      "f2": "Analyse approfondie complète des 16 Personnalités",
+      "f3": "Profil DISC complet avec conseils de communication",
+      "f4": "Profil Ennéagramme complet avec parcours de croissance",
+      "f5": "Parcours professionnels adaptés à votre profil",
+      "f6": "Export PDF pour référence hors ligne"
+    }
+  },
+  "pricing": {
+    "pageTitle": "Tarifs 1Test — Résultats gratuits, toujours",
+    "pageDescription": "Votre évaluation gratuite vous apporte une vraie valeur. Les formules payantes vont plus loin quand vous êtes prêt. Forces, 16 Personnalités, DISC, Ennéagramme — tout d'un test.",
+    "headline": "Résultats gratuits, toujours",
+    "subtitle": "Votre évaluation gratuite vous apporte une vraie valeur. Les formules payantes vont plus loin quand vous êtes prêt.",
+    "tiers": {
+      "free": {
+        "name": "Gratuit",
+        "price": "0 €",
+        "description": "Vos 5 forces principales plus un aperçu des quatre modèles.",
+        "features": {
+          "f1": "Top 5 Forces avec descriptions",
+          "f2": "Aperçu du type de personnalité (16 Personnalités)",
+          "f3": "Aperçu du style DISC",
+          "f4": "Aperçu du type Ennéagramme",
+          "f5": "Carte de résultats partageable",
+          "f6": "Inviter des collègues pour des rapports relationnels"
+        },
+        "cta": "Passer le test gratuit"
+      },
+      "fullProfile": {
+        "name": "Profil complet",
+        "price": "12 €",
+        "description": "Votre profil complet sur les quatre modèles.",
+        "features": {
+          "f1": "Les 20 forces classées avec analyses détaillées",
+          "f2": "Analyse complète du type de personnalité avec scores de dimensions",
+          "f3": "Profil DISC complet avec traits et conseils de communication",
+          "f4": "Ennéagramme aile, tritype et patterns de stress/croissance",
+          "f5": "Parcours professionnels, recommandations de livres, patterns de stress",
+          "f6": "Profil unifié combinant les quatre modèles"
+        },
+        "cta": "Débloquer le profil complet",
+        "badge": "Le plus populaire"
+      },
+      "aiPlaybook": {
+        "name": "Playbook IA",
+        "price": "19 €",
+        "description": "Parcours professionnels personnalisés, plan de croissance et guide de communication — générés par IA selon votre profil.",
+        "features": {
+          "f1": "Parcours professionnels adaptés à votre profil unique",
+          "f2": "Plan de croissance personnalisé avec étapes concrètes",
+          "f3": "Recommandations de livres et cours selon vos forces",
+          "f4": "Guide de communication basé sur votre type de personnalité",
+          "f5": "Inclut tout du Profil complet"
+        },
+        "cta": "Obtenir le Playbook IA"
+      },
+      "team": {
+        "name": "Équipe",
+        "price": "29 €",
+        "period": "/mois par place",
+        "description": "Insights d'équipe, rapports relationnels et tableau de bord manager.",
+        "features": {
+          "f1": "Tout dans le Playbook IA",
+          "f2": "Inviter des collègues et comparer les profils",
+          "f3": "Rapports relationnels : comment vos profils interagissent",
+          "f4": "Cartes des forces d'équipe",
+          "f5": "Conseils de préparation de réunion pour des collègues spécifiques",
+          "f6": "Tableau de bord manager"
+        },
+        "cta": "Créer une équipe",
+        "badge": "Bientôt"
+      }
+    },
+    "faq": {
+      "freeRealTitle": "Le test gratuit est-il vraiment gratuit ?",
+      "freeRealAnswer": "Oui. Vous obtenez vos 5 forces principales, votre type de personnalité, votre style DISC et votre type Ennéagramme — tout à partir d'un seul test de 15 minutes. Pas de carte de crédit, pas de paywall pour les résultats de base.",
+      "resultsQualityTitle": "Quelle est la précision des résultats ?",
+      "resultsQualityAnswer": "Notre évaluation utilise des mesures de personnalité validées de l'International Personality Item Pool (IPIP), la même source académique utilisée dans les études évaluées par les pairs. Plus vous répondez honnêtement, plus vos résultats seront précis.",
+      "paidDifferenceTitle": "Qu'inclut la formule payante ?",
+      "paidDifferenceAnswer": "Le profil complet débloque les 20 forces classées avec des analyses détaillées, votre analyse complète du type de personnalité, le profil DISC complet avec conseils de communication et vos modèles d'aile et de croissance Ennéagramme. Il inclut également des parcours professionnels adaptés à votre profil.",
+      "dataPrivacyTitle": "Mes données sont-elles privées ?",
+      "dataPrivacyAnswer": "Vos résultats sont stockés localement sur votre appareil et sur nos serveurs sécurisés. Nous ne vendons jamais vos données. Vous pouvez supprimer vos résultats à tout moment.",
+      "frameworkDifferenceTitle": "Quelle est la différence entre les quatre modèles ?",
+      "frameworkDifferenceAnswer": "Forces montre ce que vous faites naturellement le mieux. 16 Personnalités montre comment vous traitez l'information et prenez des décisions. DISC montre comment vous communiquez et êtes perçu par les autres. Ennéagramme montre votre motivation profonde — pourquoi vous faites ce que vous faites. Ensemble, ils donnent un portrait complet.",
+      "teamPlanTitle": "Pour qui est la formule Équipe ?",
+      "teamPlanAnswer": "La formule Équipe est pour les managers et les équipes qui veulent comprendre comment leurs profils interagissent. Vous obtenez des rapports relationnels, des cartes des forces d'équipe et des conseils de préparation de réunion adaptés à la composition de votre équipe.",
+      "retakeTitle": "Puis-je repasser le test ?",
+      "retakeAnswer": "Oui. Vous pouvez repasser le test à tout moment. Votre personnalité étant relativement stable, les résultats ont tendance à être cohérents, mais vos réponses peuvent légèrement varier selon votre humeur ou vos circonstances."
+    }
+  },
+  "landing": {
+    "disc": {
+      "title": "Test DISC gratuit — Découvrez votre style comportemental | 1Test",
+      "description": "Passez une évaluation DISC gratuite et découvrez votre profil Dominance, Influence, Stabilité et Conformité. Comprenez comment vous communiquez et travaillez avec les autres.",
+      "headline": "Évaluation DISC gratuite",
+      "subtitle": "Découvrez votre style comportemental — comment vous communiquez, prenez des décisions et réagissez à différentes situations.",
+      "cta": "Commencer le test DISC gratuit"
+    },
+    "enneagram": {
+      "title": "Test Ennéagramme gratuit — Découvrez votre motivation profonde | 1Test",
+      "description": "Passez un test Ennéagramme gratuit et découvrez votre type, vos tendances d'aile et votre parcours de croissance. Comprenez le pourquoi de ce que vous faites.",
+      "headline": "Test Ennéagramme gratuit",
+      "subtitle": "Découvrez votre motivation profonde — le pourquoi de ce que vous faites, votre parcours de croissance et comment vous réagissez au stress.",
+      "cta": "Commencer le test Ennéagramme gratuit"
+    },
+    "personality": {
+      "title": "Test 16 Personnalités gratuit — Connaissez votre type | 1Test",
+      "description": "Passez un test 16 Personnalités gratuit et découvrez votre type, vos préférences cognitives et comment elles façonnent votre travail, vos relations et votre croissance.",
+      "headline": "Test de personnalité gratuit",
+      "subtitle": "Découvrez votre type de personnalité — comment vous traitez l'information, prenez des décisions et rechargez. Des insights pratiques pour le travail et la vie.",
+      "cta": "Commencer le test de personnalité gratuit"
+    },
+    "strengths": {
+      "title": "Test de forces gratuit — Découvrez votre Top 5 | 1Test",
+      "description": "Passez une évaluation de forces gratuite et découvrez vos 5 forces naturelles principales, classées. Voyez ce qui vous rend unique et comment utiliser vos forces au travail.",
+      "headline": "Évaluation de forces gratuite",
+      "subtitle": "Découvrez vos forces naturelles — ce que vous faites le mieux sans effort. 20 forces classées de la plus forte à la plus en développement.",
+      "cta": "Commencer le test de forces gratuit"
+    }
+  },
+  "seoHead": {
+    "homeBreadcrumb": "Accueil",
+    "blogBreadcrumb": "Blog"
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français"
+  }
+}

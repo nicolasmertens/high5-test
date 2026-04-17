@@ -1,0 +1,275 @@
+{
+  "app": {
+    "title": "1Test — One Test. Four Frameworks. Know Yourself.",
+    "description": "Take one free 15-minute test and get your Strengths, 16 Personalities, DISC, and Enneagram results. No extra tests needed."
+  },
+  "nav": {
+    "takeTest": "Take the Test",
+    "pricing": "Pricing",
+    "blog": "Blog"
+  },
+  "header": {
+    "toggleNav": "Toggle navigation"
+  },
+  "footer": {
+    "testsHeading": "Free Tests",
+    "learnHeading": "Learn",
+    "legalHeading": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "home": "Home"
+  },
+  "footerTests": {
+    "personalities": "16 Personalities",
+    "disc": "DISC Profile",
+    "enneagram": "Enneagram",
+    "strengths": "Top 5 Strengths"
+  },
+  "intro": {
+    "headline": "Know What Makes You Tick",
+    "subtitle": "One free test. Four personality frameworks. Actionable results you can use today.",
+    "trustFree": "100% free",
+    "trustPrivate": "Private results",
+    "trustResearch": "Research-backed",
+    "questionCount": "Questions",
+    "frameworksCount": "Frameworks",
+    "minutesLabel": "Minutes",
+    "freeAlways": "Always",
+    "instruction": "Rate each statement based on how well it describes you. Go with your first instinct — there are no right or wrong answers.",
+    "socialProof": "Join thousands who have discovered their strengths — free, no signup required.",
+    "startFree": "Start Free Assessment",
+    "startAssessment": "Start Assessment",
+    "startOver": "Start Over",
+    "continueWhere": "Continue Where You Left Off",
+    "creditPrefix": "Based on public domain research from the",
+    "creditLink": "International Personality Item Pool",
+    "creditSuffix": ". Not affiliated with any trademark holder.",
+    "pricing": "Pricing",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "frameworkCards": {
+    "strengths": "Top 5 Strengths",
+    "strengthsDesc": "20 strengths, 4 domains",
+    "personality": "16 Personalities",
+    "personalityDesc": "Cognitive preferences",
+    "disc": "DISC Profile",
+    "discDesc": "Behavioral style",
+    "enneagram": "Enneagram",
+    "enneagramDesc": "Core motivations",
+    "domains": {
+      "doing": "DOING",
+      "thinking": "THINKING",
+      "feeling": "FEELING",
+      "motivating": "MOTIVATING"
+    }
+  },
+  "question": {
+    "stronglyDisagree": "Strongly Disagree",
+    "disagree": "Disagree",
+    "neutral": "Neutral",
+    "agree": "Agree",
+    "stronglyAgree": "Strongly Agree",
+    "progressSaved": "Progress saved",
+    "back": "Back",
+    "seeResults": "See Results",
+    "next": "Next",
+    "sliderPrompt": "Drag the slider or press 1-5 to answer"
+  },
+  "results": {
+    "titleFree": "{{strength}} | 1Test Results",
+    "titlePaid": "{{type}} ({{label}}) | 1Test Results",
+    "shareTextFree": "My top strength is {{strength}} — discover yours with one free test:",
+    "shareTextPaid": "I'm a {{type}} ({{label}}) with a {{disc}} DISC profile and Enneagram {{enneagram}}. My top strength is {{strength}}. Discover yours:",
+    "topStrengths": "Your Top 5 Strengths",
+    "allStrengths": "All 20 Strengths",
+    "personalityPreview": "Your Personality Type",
+    "discPreview": "Your DISC Style",
+    "enneagramPreview": "Your Enneagram",
+    "unlockCta": "Unlock Your Full Profile",
+    "restart": "Take the Test Again"
+  },
+  "upgrade": {
+    "title": "Unlock Your Full Profile",
+    "subtitle": "See all 20 strengths ranked, your complete personality type breakdown, full DISC profile, and Enneagram growth path.",
+    "cta": "Unlock Full Profile — $12",
+    "featureStrengths": "All 20 strengths ranked with detailed descriptions",
+    "featurePersonality": "Complete 16 Personalities deep-dive",
+    "featureDisc": "Complete DISC profile with communication tips",
+    "featureEnneagram": "Complete Enneagram profile with growth path",
+    "featureCareers": "Career paths matched to your profile",
+    "featurePdf": "PDF export for offline reference"
+  },
+  "homepage": {
+    "heroHeadline": "One test. Four frameworks. Know yourself.",
+    "heroSubtitle": "Discover your strengths, personality type, communication style, and inner motivations — all from a single free assessment. No sign-up required.",
+    "heroCta": "Start Free Assessment",
+    "heroCtaSecondary": "See How It Works",
+    "trustFree": "100% free",
+    "trustPrivate": "Private results",
+    "trustResearch": "Research-backed",
+    "trustFrameworks": "4 frameworks in one test",
+    "howItWorksHeadline": "One test. Your complete personality picture.",
+    "step1Title": "Answer 120 questions",
+    "step1Body": "about how you naturally think, decide, and interact. Takes 10–15 minutes.",
+    "step2Title": "Get 4 results at once",
+    "step2Body": "— Strengths, 16 Personalities, DISC, Enneagram. No need to take separate tests.",
+    "step3Title": "Explore your profile",
+    "step3Body": "— see what makes you unique, how you work with others, and what comes next.",
+    "startCta": "Start Your Free Assessment",
+    "frameworksHeadline": "Four frameworks. One complete picture.",
+    "frameworksFooter": "All four results from one free test. No separate assessments needed.",
+    "strengthsName": "Strengths",
+    "strengthsDesc": "Your natural strengths, ranked — Discover what you do best without trying. 20 strengths ranked from strongest to developing, with practical guidance on how to use each one.",
+    "personalityName": "16 Personalities",
+    "personalityDesc": "Your cognitive preferences — Understand how you process information, make decisions, and recharge. Your four-letter type with a full profile.",
+    "discName": "DISC",
+    "discDesc": "Your communication style — Learn how you come across to others, what drives you, and how to adapt your style when working with different people.",
+    "enneagramName": "Enneagram",
+    "enneagramDesc": "Your core motivation — Go deeper than behavior. The Enneagram reveals the why behind what you do — your fundamental drive, fear, and growth path.",
+    "comparisonHeadline": "Your free results are genuinely useful.",
+    "comparisonFree": "Free",
+    "comparisonFreeFeatures": {
+      "f1": "Top 5 strengths with descriptions",
+      "f2": "Personality type + summary",
+      "f3": "DISC style + summary",
+      "f4": "Enneagram type + summary",
+      "f5": "Shareable result card",
+      "f6": "No credit card required"
+    },
+    "comparisonFreeCta": "Take the Free Test",
+    "comparisonBadge": "Most Popular",
+    "comparisonPaid": "Full Profile — $12",
+    "comparisonPaidNote": "Everything in Free, plus:",
+    "comparisonPaidCta": "See All Plans",
+    "comparisonPaidFeatures": {
+      "f1": "All 20 strengths ranked with detailed descriptions",
+      "f2": "Complete 16 Personalities deep-dive",
+      "f3": "Complete DISC profile with communication tips",
+      "f4": "Complete Enneagram profile with growth path",
+      "f5": "Career paths matched to your profile",
+      "f6": "PDF export for offline reference"
+    }
+  },
+  "pricing": {
+    "pageTitle": "1Test Pricing — Free Results, Always",
+    "pageDescription": "Your free assessment gives you real value. Paid tiers go deeper when you're ready. Strengths, 16 Personalities, DISC, Enneagram — all from one test.",
+    "headline": "Free Results, Always",
+    "subtitle": "Your free assessment gives you real value. Paid tiers go deeper when you are ready.",
+    "tiers": {
+      "free": {
+        "name": "Free",
+        "price": "$0",
+        "description": "Your top 5 strengths, plus a preview of all four frameworks.",
+        "features": {
+          "f1": "Top 5 Strengths with descriptions",
+          "f2": "Personality type preview (16 Personalities)",
+          "f3": "DISC style preview",
+          "f4": "Enneagram type preview",
+          "f5": "Shareable results card",
+          "f6": "Invite colleagues for relationship reports"
+        },
+        "cta": "Take the Free Test"
+      },
+      "fullProfile": {
+        "name": "Full Profile",
+        "price": "$12",
+        "description": "Your complete profile across all four frameworks.",
+        "features": {
+          "f1": "All 20 strengths ranked with detailed insights",
+          "f2": "Full personality type breakdown with dimension scores",
+          "f3": "Complete DISC profile with traits and communication tips",
+          "f4": "Enneagram wing, tritype, and stress/growth patterns",
+          "f5": "Career paths, book recommendations, stress patterns",
+          "f6": "Unified profile combining all four frameworks"
+        },
+        "cta": "Unlock Full Profile",
+        "badge": "Most Popular"
+      },
+      "aiPlaybook": {
+        "name": "AI Playbook",
+        "price": "$19",
+        "description": "Personalized career paths, growth plan, and communication guide — AI-generated per your profile.",
+        "features": {
+          "f1": "Career paths matched to your unique profile",
+          "f2": "Personalized growth plan with actionable steps",
+          "f3": "Book and course recommendations per your strengths",
+          "f4": "Communication guide based on your personality type",
+          "f5": "Includes everything in the Full Profile"
+        },
+        "cta": "Get AI Playbook"
+      },
+      "team": {
+        "name": "Team",
+        "price": "$29",
+        "period": "/mo per seat",
+        "description": "Team insights, relationship reports, and a manager dashboard.",
+        "features": {
+          "f1": "Everything in AI Playbook",
+          "f2": "Invite colleagues and compare profiles",
+          "f3": "Relationship reports: how your profiles interact",
+          "f4": "Team strength maps",
+          "f5": "Meeting prep tips for specific colleagues",
+          "f6": "Manager dashboard"
+        },
+        "cta": "Start a Team",
+        "badge": "Coming Soon"
+      }
+    },
+    "faq": {
+      "freeRealTitle": "Is the free test really free?",
+      "freeRealAnswer": "Yes. You get your top 5 strengths, personality type, DISC style, and Enneagram type — all from a single 15-minute test. No credit card, no paywall for core results.",
+      "resultsQualityTitle": "How accurate are the results?",
+      "resultsQualityAnswer": "Our assessment uses validated personality measures from the International Personality Item Pool (IPIP), the same academic source used in peer-reviewed research. The more honestly you answer, the more accurate your results.",
+      "paidDifferenceTitle": "What does the paid tier include?",
+      "paidDifferenceAnswer": "The Full Profile unlocks all 20 strengths ranked with detailed insights, your complete 16 Personalities deep-dive, full DISC profile with communication tips, and your Enneagram wing and growth patterns. It also includes career paths matched to your profile.",
+      "dataPrivacyTitle": "Is my data private?",
+      "dataPrivacyAnswer": "Your results are stored locally on your device and on our secure servers. We never sell your data. You can delete your results at any time.",
+      "frameworkDifferenceTitle": "How are the four frameworks different?",
+      "frameworkDifferenceAnswer": "Strengths shows what you naturally do best. 16 Personalities shows how you process information and make decisions. DISC shows how you communicate and come across to others. Enneagram shows your core motivation — why you do what you do. Together they give a complete picture.",
+      "teamPlanTitle": "Who is the Team plan for?",
+      "teamPlanAnswer": "The Team plan is for managers and teams who want to understand how their profiles interact. You get relationship reports, team strength maps, and meeting prep tips tailored to your team's composition.",
+      "retakeTitle": "Can I retake the test?",
+      "retakeAnswer": "Yes. You can retake the test at any time. Your personality is relatively stable, so results tend to be consistent, but your answers may shift slightly depending on your mood or life circumstances."
+    }
+  },
+  "landing": {
+    "disc": {
+      "title": "Free DISC Test — Discover Your Behavioral Style | 1Test",
+      "description": "Take a free DISC assessment and discover your Dominance, Influence, Steadiness, and Conscientiousness profile. Understand how you communicate and work with others.",
+      "headline": "Free DISC Assessment",
+      "subtitle": "Discover your behavioral style — how you communicate, make decisions, and respond to different situations.",
+      "cta": "Start Free DISC Test"
+    },
+    "enneagram": {
+      "title": "Free Enneagram Test — Discover Your Core Motivation | 1Test",
+      "description": "Take a free Enneagram test and discover your type, wing tendencies, and growth path. Understand the why behind what you do.",
+      "headline": "Free Enneagram Test",
+      "subtitle": "Discover your core motivation — the why behind what you do, your growth path, and how you respond under stress.",
+      "cta": "Start Free Enneagram Test"
+    },
+    "personality": {
+      "title": "Free 16 Personalities Test — Know Your Type | 1Test",
+      "description": "Take a free 16 Personalities test and discover your type, cognitive preferences, and how they shape your work, relationships, and growth.",
+      "headline": "Free Personality Test",
+      "subtitle": "Discover your personality type — how you process information, make decisions, and recharge. Get practical insights for work and life.",
+      "cta": "Start Free Personality Test"
+    },
+    "strengths": {
+      "title": "Free Strengths Test — Discover Your Top 5 | 1Test",
+      "description": "Take a free strengths assessment and discover your top 5 natural strengths, ranked. See what makes you unique and how to use your strengths at work.",
+      "headline": "Free Strengths Assessment",
+      "subtitle": "Discover your natural strengths — what you do best without trying. 20 strengths ranked from strongest to developing.",
+      "cta": "Start Free Strengths Test"
+    }
+  },
+  "seoHead": {
+    "homeBreadcrumb": "Home",
+    "blogBreadcrumb": "Blog"
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français"
+  }
+}

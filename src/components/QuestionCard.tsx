@@ -1,4 +1,5 @@
 import { useEffect, useCallback, useState, useRef } from "react";
+import { useTranslation } from "react-i18next";
 import { type Question } from "../data/strengths";
 import { trackQuestionAnswered } from "../utils/analytics";
 
@@ -14,12 +15,12 @@ interface Props {
   canGoPrev: boolean;
 }
 
-const labels = [
-  "Strongly Disagree",
-  "Disagree",
-  "Neutral",
-  "Agree",
-  "Strongly Agree",
+const LABEL_KEYS = [
+  "question.stronglyDisagree",
+  "question.disagree",
+  "question.neutral",
+  "question.agree",
+  "question.stronglyAgree",
 ];
 
 const MILESTONES = [25, 50, 75, 100];
@@ -35,6 +36,8 @@ export function QuestionCard({
   onPrev,
   canGoPrev,
 }: Props) {
+  const { t } = useTranslation();
+  const labels = LABEL_KEYS.map((k) => t(k));
   const hasAnswered = value !== undefined;
   const [animating, setAnimating] = useState(false);
   const [direction, setDirection] = useState<"next" | "prev">("next");
@@ -120,7 +123,7 @@ export function QuestionCard({
       </div>
       <div className="progress-text">
         {index + 1} / {total}
-        {showSaved && <span className="progress-saved">Progress saved</span>}
+        {showSaved && <span className="progress-saved">{t("question.progressSaved")}</span>}
       </div>
 
       <div
@@ -147,7 +150,7 @@ export function QuestionCard({
           </div>
           {!hasAnswered && (
             <p className="slider-prompt">
-              Drag the slider or press 1-5 to answer
+              {t("question.sliderPrompt")}
             </p>
           )}
         </div>
@@ -158,14 +161,14 @@ export function QuestionCard({
             onClick={handlePrev}
             disabled={!canGoPrev}
           >
-            Back
+            {t("question.back")}
           </button>
           <button
             className="btn-nav btn-next"
             onClick={handleNext}
             disabled={!hasAnswered}
           >
-            {index === total - 1 ? "See Results" : "Next"}
+            {index === total - 1 ? t("question.seeResults") : t("question.next")}
           </button>
         </div>
 

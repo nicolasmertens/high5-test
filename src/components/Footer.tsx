@@ -1,24 +1,29 @@
 import { Link } from "react-router-dom";
-
-const TESTS = [
-  { label: "16 Personalities", to: "/free-personality-test" },
-  { label: "DISC Profile", to: "/free-disc-test" },
-  { label: "Enneagram", to: "/free-enneagram-test" },
-  { label: "Top 5 Strengths", to: "/free-strengths-test" },
-];
-
-const LEARN = [
-  { label: "Pricing", to: "/pricing" },
-  { label: "Blog", to: "/blog" },
-  { label: "Home", to: "/" },
-];
-
-const LEGAL = [
-  { label: "Privacy Policy", to: "/privacy-draft" },
-  { label: "Terms of Service", to: "/terms-draft" },
-];
+import { useTranslation } from "react-i18next";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export function Footer() {
+  const { t } = useTranslation();
+  const { localizePath } = useLanguage();
+
+  const tests = [
+    { label: t("footerTests.personalities"), to: "/free-personality-test" },
+    { label: t("footerTests.disc"), to: "/free-disc-test" },
+    { label: t("footerTests.enneagram"), to: "/free-enneagram-test" },
+    { label: t("footerTests.strengths"), to: "/free-strengths-test" },
+  ];
+
+  const learn = [
+    { label: t("footer.pricing"), to: "/pricing" },
+    { label: t("footer.blog"), to: "/blog" },
+    { label: t("footer.home"), to: "/" },
+  ];
+
+  const legal = [
+    { label: t("footer.privacy"), to: "/privacy-draft" },
+    { label: t("footer.terms"), to: "/terms-draft" },
+  ];
+
   return (
     <footer className="site-footer">
       <div className="footer-brand">
@@ -28,25 +33,25 @@ export function Footer() {
 
       <nav className="footer-links">
         <div className="footer-col">
-          <h4 className="footer-heading">Free Tests</h4>
-          {TESTS.map((t) => (
-            <Link key={t.to} to={t.to} className="footer-link">
-              {t.label}
+          <h4 className="footer-heading">{t("footer.testsHeading")}</h4>
+          {tests.map((t_item) => (
+            <Link key={t_item.to} to={localizePath(t_item.to)} className="footer-link">
+              {t_item.label}
             </Link>
           ))}
         </div>
         <div className="footer-col">
-          <h4 className="footer-heading">Learn</h4>
-          {LEARN.map((l) => (
-            <Link key={l.to} to={l.to} className="footer-link">
+          <h4 className="footer-heading">{t("footer.learnHeading")}</h4>
+          {learn.map((l) => (
+            <Link key={l.to} to={localizePath(l.to)} className="footer-link">
               {l.label}
             </Link>
           ))}
         </div>
         <div className="footer-col">
-          <h4 className="footer-heading">Legal</h4>
-          {LEGAL.map((l) => (
-            <Link key={l.to} to={l.to} className="footer-link">
+          <h4 className="footer-heading">{t("footer.legalHeading")}</h4>
+          {legal.map((l) => (
+            <Link key={l.to} to={localizePath(l.to)} className="footer-link">
               {l.label}
             </Link>
           ))}
