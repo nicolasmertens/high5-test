@@ -142,3 +142,23 @@ export function getInviteRef(): string | null {
     return null;
   }
 }
+
+export interface SharedProfile {
+  personalityType: string;
+  personalityLabel: string | null;
+  topStrengths: Array<{ name: string; domain: string; score: number }>;
+  discStyle: string;
+  discPrimary: string;
+  enneagramWing: string;
+  enneagramPrimary: number;
+  referralCode: string;
+  segment: string | null;
+  createdAt: string;
+}
+
+export async function fetchSharedProfile(hash: string): Promise<SharedProfile | null> {
+  const res = await fetch(`/api/profile/${hash}`);
+  if (res.status === 404) return null;
+  if (!res.ok) throw new Error("Failed to fetch shared profile");
+  return res.json();
+}
