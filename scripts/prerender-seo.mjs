@@ -1645,6 +1645,76 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/fr/free-strengths-test",
     ogType: "website",
   },
+  "/es/": {
+    title: "Test de personalidad gratis — 4 frameworks, resultados completos | 1Test",
+    description:
+      "Descubre tu personalidad con 120 preguntas científicas. DISC, 16 Personalidades, Eneagrama y Fortalezas — completamente gratis, sin paywall.",
+    canonicalUrl: "https://1test.me/es",
+    ogType: "website",
+  },
+  "/es/free-disc-test": {
+    title: "Test DISC gratis — Perfil completo en línea | 1Test",
+    description:
+      "Descubre tu tipo DISC gratis. Dominancia, Influencia, Estabilidad, Conciencia — resultados completos sin paywall. Test en 15 minutos.",
+    canonicalUrl: "https://1test.me/es/free-disc-test",
+    ogType: "website",
+  },
+  "/es/free-enneagram-test": {
+    title: "Test Eneagrama gratis — Los 9 tipos, resultados completos | 1Test",
+    description:
+      "Descubre tu tipo Eneagrama gratis. Perfil completo con Alas, direcciones de crecimiento y estrés — sin paywall. Test en 15 minutos.",
+    canonicalUrl: "https://1test.me/es/free-enneagram-test",
+    ogType: "website",
+  },
+  "/es/free-personality-test": {
+    title: "Test de personalidad gratis — 16 Personalidades completo | 1Test",
+    description:
+      "Descubre tu tipo de personalidad gratis. 16 Personalidades, DISC, Eneagrama y Fortalezas — resultados completos en un solo test, sin paywall.",
+    canonicalUrl: "https://1test.me/es/free-personality-test",
+    ogType: "website",
+  },
+  "/es/free-strengths-test": {
+    title: "Test de fortalezas gratis — Descubre tus talentos naturales | 1Test",
+    description:
+      "Descubre tus fortalezas naturales gratis. Top 5 fortalezas de 20 categorías — perfil completo, sin paywall. Parte del test gratuito de 4 frameworks.",
+    canonicalUrl: "https://1test.me/es/free-strengths-test",
+    ogType: "website",
+  },
+  "/pt/": {
+    title: "Teste de personalidade grátis — 4 frameworks, resultados completos | 1Test",
+    description:
+      "Descubra sua personalidade com 120 perguntas científicas. DISC, 16 Personalidades, Eneagrama e Pontos Fortes — completamente grátis, sem paywall.",
+    canonicalUrl: "https://1test.me/pt",
+    ogType: "website",
+  },
+  "/pt/free-disc-test": {
+    title: "Teste DISC grátis — Perfil completo online | 1Test",
+    description:
+      "Descubra seu tipo DISC gratuitamente. Dominância, Influência, Estabilidade, Conformidade — resultados completos sem paywall. Teste em 15 minutos.",
+    canonicalUrl: "https://1test.me/pt/free-disc-test",
+    ogType: "website",
+  },
+  "/pt/free-enneagram-test": {
+    title: "Teste Eneagrama grátis — Os 9 tipos, resultados completos | 1Test",
+    description:
+      "Descubra seu tipo Eneagrama gratuitamente. Perfil completo com Asas, direções de crescimento e estresse — sem paywall. Teste em 15 minutos.",
+    canonicalUrl: "https://1test.me/pt/free-enneagram-test",
+    ogType: "website",
+  },
+  "/pt/free-personality-test": {
+    title: "Teste de personalidade grátis — 16 Personalidades completo | 1Test",
+    description:
+      "Descubra seu tipo de personalidade gratuitamente. 16 Personalidades, DISC, Eneagrama e Pontos Fortes — resultados completos em um único teste, sem paywall.",
+    canonicalUrl: "https://1test.me/pt/free-personality-test",
+    ogType: "website",
+  },
+  "/pt/free-strengths-test": {
+    title: "Teste de pontos fortes grátis — Descubra seus talentos naturais | 1Test",
+    description:
+      "Descubra seus pontos fortes naturais gratuitamente. Top 5 pontos fortes de 20 categorias — perfil completo, sem paywall. Parte do teste gratuito de 4 frameworks.",
+    canonicalUrl: "https://1test.me/pt/free-strengths-test",
+    ogType: "website",
+  },
 };
 
 const BODY_CONTENT = {
@@ -2693,6 +2763,66 @@ const BODY_CONTENT = {
       { heading: "Évaluation de forces gratuite", text: "Découvrez vos forces naturelles — ce que vous faites le mieux sans effort. 20 forces classées de la plus forte à la plus en développement." },
     ],
   },
+  "/es/": {
+    h1: "Un test. Cuatro frameworks. Conócete a ti mismo.",
+    sections: [
+      { heading: "Un test. Cuatro frameworks. Conócete a ti mismo.", text: "1Test combina DISC, 16 Personalidades, Eneagrama y análisis de fortalezas en un solo test gratuito. 120 preguntas. Resultados completos. Sin paywall." },
+    ],
+  },
+  "/es/free-disc-test": {
+    h1: "Test DISC gratis — Resultados completos",
+    sections: [
+      { heading: "Test DISC gratis — Resultados completos", text: "DISC describe cómo te comunicas y trabajas. El test en 1Test te da tu perfil DISC completo — Dominancia (D), Influencia (I), Estabilidad (S) y Conciencia (C) — gratis y sin paywall." },
+    ],
+  },
+  "/es/free-enneagram-test": {
+    h1: "Test Eneagrama gratis",
+    sections: [
+      { heading: "Test Eneagrama gratis", text: "El Eneagrama describe lo que realmente te motiva — no solo cómo apareces ante los demás. El test en 1Test te da tu perfil Eneagrama completo gratis, incluyendo tus Alas y direcciones de desarrollo." },
+    ],
+  },
+  "/es/free-personality-test": {
+    h1: "Test de personalidad gratis — Resultados completos",
+    sections: [
+      { heading: "Test de personalidad gratis — Resultados completos", text: "¿Cuál es tu tipo de personalidad? El test en 1Test te da resultados completos en cuatro frameworks: 16 Personalidades, DISC, Eneagrama y análisis de fortalezas — todo en un solo test, completamente gratis." },
+    ],
+  },
+  "/es/free-strengths-test": {
+    h1: "Test de fortalezas gratis — ¿Qué haces naturalmente bien?",
+    sections: [
+      { heading: "Test de fortalezas gratis — ¿Qué haces naturalmente bien?", text: "Las fortalezas describen lo que haces de forma intuitiva y sin esfuerzo — no solo lo que has aprendido. El test de fortalezas en 1Test te muestra tus principales fortalezas de entre 20 categorías, gratis y sin paywall." },
+    ],
+  },
+  "/pt/": {
+    h1: "Um teste. Quatro frameworks. Conheça a si mesmo.",
+    sections: [
+      { heading: "Um teste. Quatro frameworks. Conheça a si mesmo.", text: "O 1Test combina DISC, 16 Personalidades, Eneagrama e análise de pontos fortes em um único teste gratuito. 120 perguntas. Resultados completos. Sem paywall." },
+    ],
+  },
+  "/pt/free-disc-test": {
+    h1: "Teste DISC grátis — Resultados completos",
+    sections: [
+      { heading: "Teste DISC grátis — Resultados completos", text: "O DISC descreve como você se comunica e trabalha. O teste no 1Test oferece seu perfil DISC completo — Dominância (D), Influência (I), Estabilidade (S) e Conformidade (C) — de graça e sem paywall." },
+    ],
+  },
+  "/pt/free-enneagram-test": {
+    h1: "Teste Eneagrama grátis",
+    sections: [
+      { heading: "Teste Eneagrama grátis", text: "O Eneagrama descreve o que realmente te motiva — não apenas como você aparece para os outros. O teste no 1Test oferece seu perfil Eneagrama completo de graça, incluindo suas Asas e direções de desenvolvimento." },
+    ],
+  },
+  "/pt/free-personality-test": {
+    h1: "Teste de personalidade grátis — Resultados completos",
+    sections: [
+      { heading: "Teste de personalidade grátis — Resultados completos", text: "Qual é o seu tipo de personalidade? O teste no 1Test oferece resultados completos em quatro frameworks: 16 Personalidades, DISC, Eneagrama e análise de pontos fortes — tudo em um único teste, completamente grátis." },
+    ],
+  },
+  "/pt/free-strengths-test": {
+    h1: "Teste de pontos fortes grátis — O que você faz naturalmente bem?",
+    sections: [
+      { heading: "Teste de pontos fortes grátis — O que você faz naturalmente bem?", text: "Os pontos fortes descrevem o que você faz de forma intuitiva e sem esforço — não apenas o que você aprendeu. O teste de pontos fortes no 1Test mostra seus principais pontos fortes entre 20 categorias, de graça e sem paywall." },
+    ],
+  },
  };
 
 function buildJsonLd(route, meta) {
@@ -2758,23 +2888,22 @@ function replaceMeta(html, pattern, replacement) {
 
 
 function buildHreflang(route) {
-  // Only add hreflang for routes that have language variants
   const MULTILANG_PATHS = ["/", "/free-disc-test", "/free-enneagram-test", "/free-personality-test", "/free-strengths-test"];
   
-  // Normalize: strip /de or /fr prefix
-  const stripped = route.replace(/^\/(de|fr)(\/.+|$)/, (_, __, rest) => rest || "/");
+  const stripped = route.replace(/^\/(de|fr|es|pt)(\/.+|$)/, (_, __, rest) => rest || "/");
   
   if (!MULTILANG_PATHS.includes(stripped)) return null;
   
-  const enUrl = "https://1test.me" + (stripped === "/" ? "" : stripped);
-  const deUrl = "https://1test.me/de" + (stripped === "/" ? "" : stripped);
-  const frUrl = "https://1test.me/fr" + (stripped === "/" ? "" : stripped);
+  const base = "https://1test.me";
+  const path = stripped === "/" ? "" : stripped;
   
   return [
-    `<link rel="alternate" hreflang="en" href="${enUrl}" />`,
-    `<link rel="alternate" hreflang="de" href="${deUrl}" />`,
-    `<link rel="alternate" hreflang="fr" href="${frUrl}" />`,
-    `<link rel="alternate" hreflang="x-default" href="${enUrl}" />`,
+    `<link rel="alternate" hreflang="en" href="${base}${path}" />`,
+    `<link rel="alternate" hreflang="de" href="${base}/de${path}" />`,
+    `<link rel="alternate" hreflang="fr" href="${base}/fr${path}" />`,
+    `<link rel="alternate" hreflang="es" href="${base}/es${path}" />`,
+    `<link rel="alternate" hreflang="pt" href="${base}/pt${path}" />`,
+    `<link rel="alternate" hreflang="x-default" href="${base}${path}" />`,
   ].join("\n    ");
 }
 
