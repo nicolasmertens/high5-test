@@ -153,8 +153,8 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
   const ogImageUrl = useMemo(() => {
     const params = new URLSearchParams({
       type: personality.type,
-      strength: top5[0]?.strength.name ?? "",
-      domain: top5[0]?.strength.domain ?? "doing",
+      strengths: top5.map((r) => r.strength.name).join(","),
+      domains: top5.map((r) => r.strength.domain).join(","),
       paid: isPaid ? "1" : "0",
     });
     if (disc.style) params.set("disc", disc.style);
@@ -386,6 +386,42 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
               </div>
             );
           })()}
+
+          <div className="share-section">
+            <div className="share-section-header">
+              <h3>Share Your Results</h3>
+              <p className="share-section-subtitle">
+                Let others discover their strengths — share your profile
+              </p>
+            </div>
+
+            <ShareCard
+              ref={cardRef}
+              results={results}
+              personality={personality}
+              enneagram={enneagram}
+              disc={disc}
+              isPaid={isPaid}
+              segment={null}
+            />
+
+            <ShareButtons
+              shareText={shareText}
+              shareUrl={shareUrl}
+              framework="strengths"
+              segment={null}
+              personalityType={personality.type}
+            />
+
+            <div className="share-actions-row">
+              <button
+                className="btn-start btn-share-download"
+                onClick={() => downloadImage()}
+              >
+                Download as Image
+              </button>
+            </div>
+          </div>
 
           <div className="scoring-explanation">
             <h3>How Scoring Works</h3>

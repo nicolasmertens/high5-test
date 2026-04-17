@@ -8,32 +8,34 @@ const DOMAIN_COLORS: Record<string, string> = {
   motivating: "#10b981",
 };
 
+const DOMAIN_LABELS: Record<string, string> = {
+  doing: "DOING",
+  thinking: "THINKING",
+  feeling: "FEELING",
+  motivating: "MOTIVATING",
+};
+
 type OgSegment = "university" | "early_career" | "plateaued" | "midlife" | "late_career" | "solopreneur";
 
-const SEGMENT_SUBTITLES: Record<OgSegment, string> = {
-  university: "Your career starts here",
-  early_career: "Find your edge",
-  plateaued: "Close your leadership gap",
-  midlife: "What's next for you?",
-  late_career: "Your next chapter starts here",
-  solopreneur: "Know your blind spots",
+const SEGMENT_CTAS: Record<OgSegment, string> = {
+  university: "Start your career right — 1test.me",
+  early_career: "Find your edge — 1test.me",
+  plateaued: "Discover your leadership gap — 1test.me",
+  midlife: "Find what's next — 1test.me",
+  late_career: "Start your next chapter — 1test.me",
+  solopreneur: "Know your blind spots — 1test.me",
 };
 
-const SEGMENT_CTAS: Record<OgSegment, string> = {
-  university: "Start your career right \u2014 1test.me",
-  early_career: "Find your edge \u2014 1test.me",
-  plateaued: "Discover your leadership gap \u2014 1test.me",
-  midlife: "Find what\u2019s next \u2014 1test.me",
-  late_career: "Start your next chapter \u2014 1test.me",
-  solopreneur: "Know your blind spots \u2014 1test.me",
-};
+interface StrengthEntry {
+  name: string;
+  domain: string;
+}
 
 interface OgParams {
   personalityType: string;
   discStyle: string;
   enneagramWing: string;
-  topStrength: string;
-  strengthDomain: string;
+  strengths: StrengthEntry[];
   isPaid: boolean;
   segment?: OgSegment | null;
 }
@@ -47,49 +49,37 @@ function escapeXml(s: string): string {
 }
 
 function buildSvg(params: OgParams): string {
-  const { personalityType, discStyle, enneagramWing, topStrength, strengthDomain, isPaid, segment } = params;
-  const subtitle = segment ? SEGMENT_SUBTITLES[segment] : null;
+  const { personalityType, discStyle, enneagramWing, strengths, isPaid, segment } = params;
+
   const footerCta = segment
     ? SEGMENT_CTAS[segment]
     : isPaid
-      ? "Discover your strengths \u2014 1test.me"
-      : "Take the free test \u2014 1test.me";
-  const escapedSubtitle = subtitle ? escapeXml(subtitle) : null;
-  const domainColor = DOMAIN_COLORS[strengthDomain] || "#f59e0b";
-  const escapedType = escapeXml(personalityType);
-  const escapedDisc = escapeXml(discStyle);
-  const escapedEnneagram = escapeXml(enneagramWing);
-  const escapedStrength = escapeXml(topStrength);
+      ? "See your full profile — 1test.me"
+      : "Take the free test — 1test.me";
 
-  let frameworkSection: string;
+  // Layout constants
+  const leftX = 60;
+  const rightX = 660;
+  const dividerX = 630;
+  const strengthStartY = 162;
+  const strengthGap = 60;
 
-  if (isPaid) {
-    frameworkSection = `
-      <text x="600" y="380" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700" fill="white" letter-spacing="-2">${escapedType}</text>
-      <g transform="translate(260, 420)">
-        <rect x="0" y="0" width="160" height="60" rx="12" fill="rgba(255,255,255,0.08)" />
-        <text x="80" y="22" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" letter-spacing="0.5">DISC</text>
-        <text x="80" y="48" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="white" font-weight="700">${escapedDisc || "\u2014"}</text>
-      </g>
-      <g transform="translate(440, 420)">
-        <rect x="0" y="0" width="160" height="60" rx="12" fill="rgba(255,255,255,0.08)" />
-        <text x="80" y="22" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" letter-spacing="0.5">ENNEAGRAM</text>
-        <text x="80" y="48" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="white" font-weight="700">${escapedEnneagram || "\u2014"}</text>
-      </g>
-      <g transform="translate(620, 420)">
-        <rect x="0" y="0" width="160" height="60" rx="12" fill="rgba(255,255,255,0.08)" />
-        <text x="80" y="22" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" letter-spacing="0.5">TOP STRENGTH</text>
-        <text x="80" y="48" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="${domainColor}" font-weight="700">${escapedStrength}</text>
-      </g>`;
-  } else {
-    frameworkSection = `
-      <text x="600" y="390" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="80" font-weight="700" fill="white" letter-spacing="-2">${escapedType}</text>
-      <g transform="translate(420, 430)">
-        <rect x="0" y="0" width="360" height="70" rx="12" fill="rgba(255,255,255,0.08)" />
-        <text x="180" y="28" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" letter-spacing="0.5">#1 STRENGTH</text>
-        <text x="180" y="56" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="${domainColor}" font-weight="700">${escapedStrength}</text>
-      </g>`;
-  }
+  // Render up to 5 strength rows
+  const strengthRows = strengths.slice(0, 5).map((s, i) => {
+    const y = strengthStartY + i * strengthGap;
+    const color = DOMAIN_COLORS[s.domain] || "#f59e0b";
+    const domainLabel = escapeXml(DOMAIN_LABELS[s.domain] || s.domain.toUpperCase());
+    const escapedName = escapeXml(s.name);
+    return `
+      <text x="${leftX}" y="${y}" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="${color}">#${i + 1}</text>
+      <text x="${leftX + 34}" y="${y}" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#f8fafc">${escapedName}</text>
+      <rect x="${leftX + 34}" y="${y + 8}" width="${domainLabel.length * 7 + 16}" height="18" rx="9" fill="${color}22"/>
+      <text x="${leftX + 34 + (domainLabel.length * 7 + 16) / 2}" y="${y + 21}" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="${color}">${domainLabel}</text>`;
+  }).join("");
+
+  const escapedType = escapeXml(personalityType || "—");
+  const escapedDisc = escapeXml(discStyle || "—");
+  const escapedEnneagram = escapeXml(enneagramWing || "—");
 
   return `<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
   <defs>
@@ -98,28 +88,50 @@ function buildSvg(params: OgParams): string {
       <stop offset="50%" stop-color="#1e1b4b"/>
       <stop offset="100%" stop-color="#111827"/>
     </linearGradient>
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
 
   <!-- Header -->
-  <g transform="translate(64, 32)">
-    <rect x="0" y="0" width="40" height="40" rx="8" fill="url(#logo-grad)"/>
-    <defs>
-      <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#7c3aed"/>
-        <stop offset="100%" stop-color="#6366f1"/>
-      </linearGradient>
-    </defs>
-    <text x="13" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="white">1T</text>
-  </g>
-  <text x="124" y="60" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="white" letter-spacing="-0.4">1Test</text>
-  <text x="1136" y="60" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9ca3af">One Test. Four Frameworks.</text>
+  <rect x="${leftX}" y="22" width="40" height="40" rx="8" fill="url(#logo-grad)"/>
+  <text x="${leftX + 12}" y="49" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="white">1T</text>
+  <text x="${leftX + 52}" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="white" letter-spacing="-0.4">1Test</text>
+  <text x="1140" y="50" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#4b5563">1test.me</text>
 
-  <!-- Profile -->
-  ${frameworkSection}
-  ${escapedSubtitle ? `<text x="600" y="510" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-style="italic" fill="#9ca3af">${escapedSubtitle}</text>` : ""}
+  <!-- Header divider -->
+  <line x1="${leftX}" y1="78" x2="1140" y2="78" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
 
-  <!-- Footer -->
+  <!-- LEFT COLUMN: Top 5 Strengths -->
+  <text x="${leftX}" y="112" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#6b7280" letter-spacing="1.5">YOUR TOP 5 STRENGTHS</text>
+  ${strengthRows}
+
+  <!-- Vertical divider -->
+  <line x1="${dividerX}" y1="90" x2="${dividerX}" y2="540" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+
+  <!-- RIGHT COLUMN: Personality Profile -->
+  <text x="${rightX}" y="112" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#6b7280" letter-spacing="1.5">PERSONALITY PROFILE</text>
+
+  <!-- 16P Type (big) -->
+  <text x="${rightX + 240}" y="220" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="76" font-weight="800" fill="white" letter-spacing="-3">${escapedType}</text>
+  <text x="${rightX + 240}" y="252" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9ca3af">16 Personalities</text>
+
+  <!-- DISC badge -->
+  <rect x="${rightX}" y="278" width="228" height="80" rx="12" fill="rgba(255,255,255,0.05)"/>
+  <text x="${rightX + 114}" y="302" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" letter-spacing="1">DISC</text>
+  <text x="${rightX + 114}" y="342" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="34" fill="white" font-weight="700">${escapedDisc}</text>
+
+  <!-- Enneagram badge -->
+  <rect x="${rightX + 252}" y="278" width="228" height="80" rx="12" fill="rgba(255,255,255,0.05)"/>
+  <text x="${rightX + 252 + 114}" y="302" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" letter-spacing="1">ENNEAGRAM</text>
+  <text x="${rightX + 252 + 114}" y="342" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="34" fill="white" font-weight="700">${escapedEnneagram}</text>
+
+  <!-- Footer divider -->
+  <line x1="${leftX}" y1="556" x2="1140" y2="556" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+
+  <!-- Footer CTA -->
   <text x="600" y="598" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#6b7280">${escapeXml(footerCta)}</text>
 </svg>`;
 }
@@ -129,10 +141,27 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  const { type, disc, enneagram, strength, domain, paid, segment } = req.query;
+  const { type, disc, enneagram, strength, domain, strengths, domains, paid, segment } = req.query;
 
-  if (!type || !strength) {
-    return res.status(400).json({ error: "Missing required params: type, strength" });
+  if (!type) {
+    return res.status(400).json({ error: "Missing required param: type" });
+  }
+
+  // Parse top 5 strengths — prefer comma-separated `strengths`/`domains`, fall back to single `strength`/`domain`
+  let strengthEntries: StrengthEntry[] = [];
+  if (typeof strengths === "string" && strengths) {
+    const names = strengths.split(",").map((s) => s.trim()).filter(Boolean);
+    const domainList = typeof domains === "string" ? domains.split(",").map((d) => d.trim()) : [];
+    strengthEntries = names.map((name, i) => ({
+      name,
+      domain: domainList[i] || "doing",
+    }));
+  } else if (typeof strength === "string" && strength) {
+    strengthEntries = [{ name: strength, domain: typeof domain === "string" ? domain : "doing" }];
+  }
+
+  if (strengthEntries.length === 0) {
+    return res.status(400).json({ error: "Missing required param: strengths or strength" });
   }
 
   const validSegments: OgSegment[] = ["university", "early_career", "plateaued", "midlife", "late_career", "solopreneur"];
@@ -144,8 +173,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     personalityType: String(type),
     discStyle: String(disc || ""),
     enneagramWing: String(enneagram || ""),
-    topStrength: String(strength),
-    strengthDomain: String(domain || "doing"),
+    strengths: strengthEntries,
     isPaid: paid === "1" || paid === "true",
     segment: segmentValue,
   };
