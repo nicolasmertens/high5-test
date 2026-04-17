@@ -1239,6 +1239,342 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/personality-test-comparison",
     ogType: "article",
   },
+  "/blog/16-personalities-career-guide": {
+    title: "16 Personalities Career Guide — Best Careers for Every Type | 1Test",
+    description:
+      "Complete career guide for all 16 personality types. Which types thrive in which environments, how each type approaches career decisions, and your best career matches. Free personality test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/16-personalities-career-guide",
+    ogType: "article",
+  },
+  "/blog/16-personalities-in-the-workplace": {
+    title: "16 Personalities in the Workplace: Types, Teams, and Communication",
+    description:
+      "Learn how the 16 personality types show up at work. Understand team dynamics, communication patterns, and how to build more effective workplace relationships using 16 Personalities.",
+    canonicalUrl: "https://1test.me/blog/16-personalities-in-the-workplace",
+    ogType: "article",
+  },
+  "/blog/16-personalities-test-free": {
+    title: "Free 16 Personalities Test — Get Your Type and Career Matches",
+    description:
+      "Take the free 16 Personalities test and get your type, career matches, and growth insights. No paywall, no email required. Full results instantly.",
+    canonicalUrl: "https://1test.me/blog/16-personalities-test-free",
+    ogType: "article",
+  },
+  "/blog/disc-communication-in-remote-teams": {
+    title: "DISC Communication in Remote Teams: A Practical Guide",
+    description:
+      "Learn how DISC personality types communicate in remote teams. Practical strategies for virtual meetings, async communication, and remote collaboration by DISC style.",
+    canonicalUrl: "https://1test.me/blog/disc-communication-in-remote-teams",
+    ogType: "article",
+  },
+  "/blog/disc-conflict-management": {
+    title: "DISC Conflict Management: How Each Style Handles Disagreement and Resolution",
+    description:
+      "How DISC personality styles approach conflict, what triggers each style, and practical strategies for resolving disagreements based on behavioral preferences.",
+    canonicalUrl: "https://1test.me/blog/disc-conflict-management",
+    ogType: "article",
+  },
+  "/blog/disc-conflict-resolution-at-work": {
+    title: "DISC Conflict Resolution at Work: Resolve Team Disagreements Effectively",
+    description:
+      "Learn how to resolve workplace conflicts using DISC personality types. Practical strategies for each DISC style, team conflict patterns, and manager techniques.",
+    canonicalUrl: "https://1test.me/blog/disc-conflict-resolution-at-work",
+    ogType: "article",
+  },
+  "/blog/disc-leadership-style": {
+    title: "DISC Leadership Style: How Each DISC Profile Leads",
+    description:
+      "Discover your DISC leadership style. Learn the strengths, blind spots, and growth areas for Dominance, Influence, Steadiness, and Conscientiousness leaders. Build more effective leadership.",
+    canonicalUrl: "https://1test.me/blog/disc-leadership-style",
+    ogType: "article",
+  },
+  "/blog/disc-personality-in-sales": {
+    title: "DISC Personality in Sales: Sell to Every Communication Style",
+    description:
+      "Learn how DISC personality types approach buying and selling. Adapt your sales strategy to each DISC profile, close more deals, and build stronger client relationships.",
+    canonicalUrl: "https://1test.me/blog/disc-personality-in-sales",
+    ogType: "article",
+  },
+  "/blog/disc-personality-in-the-workplace": {
+    title: "DISC in the Workplace: How to Use DISC Profiles to Improve Teams, Communication, and Culture",
+    description:
+      "How DISC personality profiles improve workplace communication, team dynamics, leadership, and hiring. Practical guide for using DISC in professional settings.",
+    canonicalUrl: "https://1test.me/blog/disc-personality-in-the-workplace",
+    ogType: "article",
+  },
+  "/blog/disc-personality-test-results": {
+    title: "How to Read Your DISC Personality Test Results: A Complete Guide",
+    description:
+      "Complete guide to understanding your DISC test results — what each score means, how to interpret your profile, and what to do with your DISC insights at work and in relationships.",
+    canonicalUrl: "https://1test.me/blog/disc-personality-test-results",
+    ogType: "article",
+  },
+  "/blog/disc-type-c-conscientiousness": {
+    title: "DISC Type C Conscientiousness — Traits, Strengths, Blind Spots, and Growth",
+    description:
+      "Deep dive into DISC C (Conscientiousness) type: traits, communication style, strengths, blind spots, working with C types, and growth areas. Free DISC test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/disc-type-c-conscientiousness",
+    ogType: "article",
+  },
+  "/blog/disc-type-d-dominance": {
+    title: "DISC Type D Dominance — Traits, Communication, Strengths, and Growth",
+    description:
+      "Deep dive into DISC D (Dominance) type: traits, communication style, strengths, blind spots, working with D types, and growth areas. Free DISC test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/disc-type-d-dominance",
+    ogType: "article",
+  },
+  "/blog/disc-type-i-influence": {
+    title: "DISC Type I (Influence) — Traits, Strengths, Blind Spots, and Growth",
+    description:
+      "Deep dive into DISC I (Influence) type: traits, communication style, strengths, blind spots, working with I types, and growth areas. Free DISC test included.",
+    canonicalUrl: "https://1test.me/blog/disc-type-i-influence",
+    ogType: "article",
+  },
+  "/blog/disc-type-s-steadiness": {
+    title: "DISC Type S (Steadiness) — Traits, Strengths, Blind Spots, and Growth",
+    description:
+      "Deep dive into DISC S (Steadiness) type: traits, communication style, strengths, blind spots, working with S types, and growth areas. Free DISC test included.",
+    canonicalUrl: "https://1test.me/blog/disc-type-s-steadiness",
+    ogType: "article",
+  },
+  "/blog/enneagram-growth-coaching": {
+    title: "Enneagram Growth Coaching: Use Your Type to Grow Purposefully",
+    description:
+      "Learn how to use the Enneagram for personal growth coaching. Discover growth paths, stress patterns, and practical exercises for each of the nine types.",
+    canonicalUrl: "https://1test.me/blog/enneagram-growth-coaching",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-1-reformer": {
+    title: "Enneagram Type 1 Reformer: Traits, Growth, and Stress Patterns",
+    description:
+      "Deep dive into Enneagram Type 1 (Reformer). Core motivation, growth direction, stress patterns, and practical advice for becoming a healthier Type 1.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-1-reformer",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-2-helper": {
+    title: "Enneagram Type 2 Helper: Traits, Growth, and Stress Patterns",
+    description:
+      "Deep dive into Enneagram Type 2 (Helper). Core motivation, growth direction to 4, stress direction to 8, relationship patterns, and practical advice for becoming a healthier Type 2.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-2-helper",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-3-achiever": {
+    title: "Enneagram Type 3 Achiever — Core Motivation, Growth, and Practical Advice",
+    description:
+      "Deep dive into Enneagram Type 3 Achiever: core motivation, core fear, growth direction to 6, stress direction to 9, and practical advice for Threes. Free Enneagram test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-3-achiever",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-4-individualist": {
+    title: "Enneagram Type 4 Individualist: Traits, Growth, and Stress Patterns",
+    description:
+      "Deep dive into Enneagram Type 4 (Individualist). Core motivation, growth direction to 1, stress direction to 2, relationship patterns, and practical advice for becoming a healthier Type 4.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-4-individualist",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-5-investigator": {
+    title: "Enneagram Type 5 Investigator: Traits, Growth, and Stress Patterns",
+    description:
+      "Deep dive into Enneagram Type 5 (Investigator). Core motivation, growth direction to 8, stress direction to 7, relationship patterns, and practical advice for becoming a healthier Type 5.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-5-investigator",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-6-loyalist": {
+    title: "Enneagram Type 6 (Loyalist) — Core Motivation, Growth, and Practical Advice",
+    description:
+      "Deep dive into Enneagram Type 6 Loyalist: core motivation (security), core fear (being unsupported), growth direction to 9, stress direction to 3, and practical advice for growth. Free Enneagram test.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-6-loyalist",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-7-enthusiast": {
+    title: "Enneagram Type 7 Enthusiast: Traits, Growth, and Stress Patterns",
+    description:
+      "Deep dive into Enneagram Type 7 (Enthusiast). Core motivation, growth direction to 5, stress direction to 1, relationship patterns, and practical advice for becoming a healthier Type 7.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-7-enthusiast",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-8-challenger": {
+    title: "Enneagram Type 8 Challenger — Core Motivation, Growth, and Practical Advice",
+    description:
+      "Deep dive into Enneagram Type 8 (Challenger): core motivation (control), core fear (vulnerability), growth direction to 2, stress direction to 5, and practical advice for growth. Free Enneagram test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-8-challenger",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-9-peacemaker": {
+    title: "Enneagram Type 9 Peacemaker — Motivation, Growth, and Practical Advice",
+    description:
+      "Deep dive into Enneagram Type 9 (Peacemaker): core motivation, core fear, growth direction to Type 3, stress direction to Type 6, and practical advice for growth. Free Enneagram test.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-9-peacemaker",
+    ogType: "article",
+  },
+  "/blog/enneagram-wing-influence": {
+    title: "Enneagram Wings: How Your Wing Influences Your Type, Behavior, and Growth",
+    description:
+      "Complete guide to Enneagram wings — what they are, how they modify your core type, and how to use your wing for growth. Covers all nine types with wing variations.",
+    canonicalUrl: "https://1test.me/blog/enneagram-wing-influence",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-addiction-recovery": {
+    title: "Personality Tests in Recovery: Self-Awareness Tools for Building a New Life",
+    description:
+      "How personality tests support addiction recovery by building self-awareness, identifying triggers, and choosing recovery activities that match your type. Not a treatment — a self-awareness tool.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-addiction-recovery",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-career-counselors": {
+    title: "Personality Tests for Career Counselors: A Framework for Client Guidance",
+    description:
+      "How career counselors can use personality assessments to guide clients toward better career decisions. Practical frameworks, ethical considerations, and client communication strategies.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-career-counselors",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-college-students": {
+    title: "Personality Tests for College Students: Choose Majors, Careers, and Relationships Wisely",
+    description:
+      "How college students can use personality tests to pick a major, find internships that fit, understand study habits, and build self-awareness before entering the workforce.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-college-students",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-conflict-resolution": {
+    title: "Personality Test for Conflict Resolution: Resolve Disagreements Faster",
+    description:
+      "Learn how personality tests help you resolve conflicts by understanding different communication styles, conflict triggers, and resolution strategies tailored to each personality type.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-conflict-resolution",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-couples-counseling": {
+    title: "Personality Tests in Couples Counseling: Using Assessments to Improve Communication",
+    description:
+      "How couples counselors can use personality assessments to help partners understand each other. Practical frameworks, session strategies, and ethical considerations.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-couples-counseling",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-entrepreneurs": {
+    title: "Personality Test for Entrepreneurs: Know Your Founder Profile",
+    description:
+      "Discover how personality tests help entrepreneurs understand their founder profile, build complementary co-founder teams, and make better business decisions. Practical guide for startup founders.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-entrepreneurs",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-first-time-managers": {
+    title: "Personality Tests for First-Time Managers: Understanding Your Leadership Style",
+    description:
+      "How first-time managers can use personality tests to understand their leadership style, communicate with direct reports, and avoid common new-manager mistakes.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-first-time-managers",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-friendships": {
+    title: "Personality Test for Friendships: Why You Click With Some People",
+    description:
+      "Discover how personality tests explain friendship dynamics. Understand why you connect with certain people, how to navigate personality differences in friendships, and build deeper connections.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-friendships",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-job-interviews": {
+    title: "Personality Tests for Job Interviews: What Employers Look For and How to Prepare",
+    description:
+      "How personality tests are used in job interviews, what employers actually measure, how to prepare, and what your results mean. Not a pass-or-fail test — a fit assessment.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-job-interviews",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-mentorship": {
+    title: "Personality Test for Mentorship: Build Stronger Mentor-Mentee Pairs",
+    description:
+      "Learn how personality tests improve mentorship by matching communication styles, identifying growth edges, and building trust between mentors and mentees.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-mentorship",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-midlife-career-change": {
+    title: "Personality Tests for Midlife Career Changes: Finding Work That Fits Who You Are Now",
+    description:
+      "How midlife career changers can use personality tests to identify transferable strengths, avoid past mistakes, and choose a direction that fits who they are now — not who they were at 25.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-midlife-career-change",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-negotiation": {
+    title: "Personality Test for Negotiation — How Your Type Shapes Outcomes",
+    description:
+      "Learn how personality tests help in negotiation. Understand your negotiation style by DISC type, prepare for counterpart styles, and use personality awareness to reach better outcomes.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-negotiation",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-networking": {
+    title: "Personality Test for Networking — Connect Better by Knowing Your Type",
+    description:
+      "Learn how personality tests improve professional networking. Discover your networking style by DISC type, adapt to different personalities at events, and build authentic connections. Free personality test.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-networking",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-parents": {
+    title: "Personality Test for Parents: Understand Your Parenting Style",
+    description:
+      "Discover how personality tests help parents understand their parenting style, connect with children who have different personalities, and reduce family friction. Practical guide for moms and dads.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-parents",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-personal-growth": {
+    title: "Personality Test for Personal Growth: Use Your Type to Grow on Purpose",
+    description:
+      "Learn how to use personality tests for intentional personal growth. Discover growth paths for each type, build self-awareness, and create a development plan aligned with who you are.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-personal-growth",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-remote-workers": {
+    title: "Personality Test for Remote Workers: Thrive Working From Anywhere",
+    description:
+      "Learn how personality affects remote work success. Discover which traits predict remote work satisfaction, how to manage remote teams, and how to optimize your work-from-home setup by personality type.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-remote-workers",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-retirement-planning": {
+    title: "Personality Test for Retirement Planning: Design Your Next Chapter",
+    description:
+      "Discover how your personality affects retirement satisfaction. Learn which retirement lifestyle fits your type, how to plan for the transition, and what to optimize for beyond finances.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-retirement-planning",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-self-confidence": {
+    title: "Personality Test for Self-Confidence: Understand How Your Type Affects Confidence",
+    description:
+      "Discover how your personality type influences self-confidence. Learn which traits boost confidence, which create doubt, and how to build authentic confidence aligned with your natural strengths.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-self-confidence",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-teaching": {
+    title: "Personality Tests for Teachers — Understand Students and Adapt Your Style",
+    description:
+      "How personality tests help teachers understand student differences, adapt teaching styles, and improve classroom dynamics. Free personality test at 1Test.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-teaching",
+    ogType: "article",
+  },
+  "/blog/personality-test-for-volunteers": {
+    title: "Personality Test for Volunteers: Find the Right Volunteer Role for You",
+    description:
+      "Discover how personality tests help volunteers find roles that match their strengths. Learn which volunteer opportunities fit each personality type for maximum impact and satisfaction.",
+    canonicalUrl: "https://1test.me/blog/personality-test-for-volunteers",
+    ogType: "article",
+  },
+  "/blog/personality-type-compatibility": {
+    title: "Personality Type Compatibility: Which Types Work Best Together?",
+    description:
+      "Explore personality compatibility across DISC, 16 Personalities, and Enneagram. Understand what makes types compatible, common friction points, and how to build strong relationships across differences.",
+    canonicalUrl: "https://1test.me/blog/personality-type-compatibility",
+    ogType: "article",
+  },
+  "/blog/strengths-and-weaknesses-guide": {
+    title: "Strengths and Weaknesses Guide: A Balanced Approach to Growth",
+    description:
+      "Learn how to identify, understand, and develop your strengths and weaknesses. A practical guide to focusing on what you do well while managing areas for improvement.",
+    canonicalUrl: "https://1test.me/blog/strengths-and-weaknesses-guide",
+    ogType: "article",
+  },
+  "/blog/strengths-swot-analysis": {
+    title: "Strengths SWOT Analysis: Using Personality Data to Map Your Opportunities and Threats",
+    description:
+      "How to use your personality strengths to build a personal SWOT analysis. Practical framework combining strengths assessment with strategic planning for career and personal growth.",
+    canonicalUrl: "https://1test.me/blog/strengths-swot-analysis",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {
@@ -2115,6 +2451,14 @@ const BODY_CONTENT = {
       { heading: "Free Assessment", text: "Take the free personality test and get your top 5 strengths, plus a preview of your personality type, DISC style, and Enneagram type. No signup required. No paywall for your basic results." },
       { heading: "Full Profile Unlock", text: "Unlock your complete profile: all 20 strengths ranked, detailed personality type breakdown with dimension scores, complete DISC profile with traits and communication tips, Enneagram wing and tritype with stress and growth patterns, career paths, book recommendations, and a unified profile combining all four frameworks." },
       { heading: "AI Playbook", text: "Get a personalized career playbook generated from your unique profile. Includes career paths matched to your strengths, a growth plan with actionable steps, book and course recommendations, and a communication guide based on your personality type. Includes everything in the Full Profile." },
+    ],
+  },
+  "/blog/enneagram-career-guide": {
+    h1: "Enneagram Career Paths: What Your Type Means for Your Work",
+    sections: [
+      { heading: "How the Enneagram Relates to Career", text: "Your Enneagram type does not just describe your personality. It reveals what drives you — the core motivation that shapes every career decision you make, from the jobs you gravitate toward to the ones that drain you." },
+      { heading: "Career Paths by Enneagram Type", text: "Type 1 (Reformer): law, ethics, editing, quality assurance, healthcare. Type 2 (Helper): counseling, healthcare, nonprofit, education. Type 3 (Achiever): sales, marketing, executive roles, entrepreneurship. Type 4 (Individualist): creative fields, design, writing, therapy. Type 5 (Investigator): research, technology, analysis, academia. Type 6 (Loyalist): project management, legal, risk, operations. Type 7 (Enthusiast): entrepreneurship, travel, strategy, consulting. Type 8 (Challenger): leadership, law, entrepreneurship, executive. Type 9 (Peacemaker): counseling, HR, mediation, customer success." },
+      { heading: "Using Enneagram for Career Decisions", text: "Look for work that engages your type's core motivation. Types 1 and 6 want to contribute to something meaningful and structured. Types 3 and 8 want impact and influence. Types 2, 9, and 7 want connection and variety. Types 4 and 5 want depth and authenticity. Pair your Enneagram with DISC and Strengths for a complete picture." },
     ],
   },
  };

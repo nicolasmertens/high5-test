@@ -45,7 +45,7 @@ const SHARE_CHANNELS = [
   },
 ] as const;
 
-export function ShareButtons({ shareText: _shareText, shareUrl, framework, segment = null, personalityType = "" }: Props) {
+export function ShareButtons({ shareText: _shareText, shareUrl, framework: _framework, segment = null, personalityType = "" }: Props) {
   const { shareText } = getShareCopy(segment);
   const [copied, setCopied] = useState(false);
 
