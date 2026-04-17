@@ -1,4 +1,5 @@
 import type { StoredProfile } from "./profile-storage.js";
+import type { RelationshipReport } from "./relationship-storage.js";
 
 const DISC_MATRIX: Record<string, Record<string, number>> = {
   D: { D: 70, I: 55, S: 40, C: 60 },
