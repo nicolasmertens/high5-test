@@ -15,6 +15,8 @@
     "testsHeading": "Tests gratuits",
     "learnHeading": "En savoir plus",
     "legalHeading": "Mentions légales",
+    "pricing": "Tarifs",
+    "blog": "Blog",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
     "home": "Accueil"
@@ -271,5 +273,49 @@
     "en": "English",
     "de": "Deutsch",
     "fr": "Français"
+  },
+  "share": {
+    "default": {
+      "shareText": "Je viens de découvrir mes 5 forces principales — et elles ont changé ma vision de ma carrière. Passez le test gratuit :",
+      "cardSubtitle": "Un test. Quatre modèles.",
+      "landingCTA": "Passez le test gratuit — 1test.me",
+      "compareText": "Comparez vos résultats avec un ami"
+    },
+    "university": {
+      "shareText": "Je viens de découvrir mes forces — et elles correspondent à des carrières que je n'avais jamais envisagées. Passez le test gratuit :",
+      "cardSubtitle": "Votre carrière commence ici",
+      "landingCTA": "Commencez votre carrière du bon pied — 1test.me",
+      "compareText": "Comparez vos forces avec un ami"
+    },
+    "earlyCareer": {
+      "shareText": "Mon type de personnalité explique pourquoi certains postes m'épuisent. Passez le test gratuit :",
+      "cardSubtitle": "Trouvez votre avantage",
+      "landingCTA": "Trouvez votre avantage — 1test.me",
+      "compareText": "Voyez comment vous vous comparez avec votre équipe"
+    },
+    "plateaued": {
+      "shareText": "J'ai trouvé mon manque de leadership — et ce n'était pas ce que j'attendais. Passez le test gratuit :",
+      "cardSubtitle": "Combler votre écart de leadership",
+      "landingCTA": "Découvrez votre écart de leadership — 1test.me",
+      "compareText": "Comparez les styles de leadership avec un collègue"
+    },
+    "midlife": {
+      "shareText": "Mes forces m'ont orienté vers une carrière à laquelle je n'avais jamais pensé. Passez le test gratuit :",
+      "cardSubtitle": "Quelle est votre prochaine étape ?",
+      "landingCTA": "Trouvez votre prochaine étape — 1test.me",
+      "compareText": "Voyez comment vos forces se comparent"
+    },
+    "lateCareer": {
+      "shareText": "Je viens de cartographier mes forces à 55 ans — et j'ai trouvé la clarté sur la suite. Passez le test gratuit :",
+      "cardSubtitle": "Votre prochain chapitre commence ici",
+      "landingCTA": "Commencez votre prochain chapitre — 1test.me",
+      "compareText": "Partagez vos forces avec quelqu'un en qui vous avez confiance"
+    },
+    "solopreneur": {
+      "shareText": "Le test m'a révélé mon point aveugle en tant que fondateur. J'aurais aimé le savoir plus tôt. Passez le test gratuit :",
+      "cardSubtitle": "Connaissez vos points aveugles",
+      "landingCTA": "Connaissez vos points aveugles — 1test.me",
+      "compareText": "Comparez les profils de fondateurs avec un co-fondateur"
+    }
   }
 }

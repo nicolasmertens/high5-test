@@ -135,8 +135,8 @@ function AppRoutes() {
       <Route path="/blog/personality-test-for-midlife-career-change" element={<BlogPage slug="personality-test-for-midlife-career-change" />} />
       <Route path="/blog/disc-conflict-management" element={<BlogPage slug="disc-conflict-management" />} />
       <Route path="/blog/enneagram-wing-influence" element={<BlogPage slug="enneagram-wing-influence" />} />
-      <Route path="/privacy-draft" element={<PrivacyPolicy />} />
-      <Route path="/terms-draft" element={<TermsOfService />} />
+      <Route path="/privacy" element={<PrivacyPolicy />} />
+      <Route path="/terms" element={<TermsOfService />} />
       <Route path="/relationship/:id" element={<RelationshipReportPage />} />
       <Route path="/compare/:hashA/:hashB" element={<CompareScreen />} />
       <Route path="/playbook" element={<PlaybookPage />} />

@@ -15,6 +15,8 @@
     "testsHeading": "Kostenlose Tests",
     "learnHeading": "Wissen",
     "legalHeading": "Rechtliches",
+    "pricing": "Preise",
+    "blog": "Blog",
     "privacy": "Datenschutz",
     "terms": "Nutzungsbedingungen",
     "home": "Startseite"
@@ -271,5 +273,49 @@
     "en": "English",
     "de": "Deutsch",
     "fr": "Français"
+  },
+  "share": {
+    "default": {
+      "shareText": "Ich habe gerade meine Top-5-Stärken entdeckt — und sie haben verändert, wie ich über meine Karriere denke. Mach den kostenlosen Test:",
+      "cardSubtitle": "Ein Test. Vier Frameworks.",
+      "landingCTA": "Mach den kostenlosen Test — 1test.me",
+      "compareText": "Vergleiche deine Ergebnisse mit einem Freund"
+    },
+    "university": {
+      "shareText": "Ich habe meine Top-Stärken entdeckt — und sie passen zu Karrieren, die ich nie in Betracht gezogen habe. Mach den kostenlosen Test:",
+      "cardSubtitle": "Deine Karriere beginnt hier",
+      "landingCTA": "Starte deine Karriere richtig — 1test.me",
+      "compareText": "Vergleiche deine Stärken mit einem Freund"
+    },
+    "earlyCareer": {
+      "shareText": "Mein Persönlichkeitstyp erklärt, warum mich bestimmte Rollen erschöpfen. Mach den kostenlosen Test:",
+      "cardSubtitle": "Finde deinen Vorsprung",
+      "landingCTA": "Finde deinen Vorsprung — 1test.me",
+      "compareText": "Schau, wie du dich mit deinem Team vergleichst"
+    },
+    "plateaued": {
+      "shareText": "Ich habe meine Führungslücke gefunden — und sie war nicht das, was ich erwartet hatte. Mach den kostenlosen Test:",
+      "cardSubtitle": "Schließe deine Führungslücke",
+      "landingCTA": "Entdecke deine Führungslücke — 1test.me",
+      "compareText": "Vergleiche Führungsstile mit einem Kollegen"
+    },
+    "midlife": {
+      "shareText": "Meine Stärken haben mich auf eine Karriere hingewiesen, über die ich nie nachgedacht hätte. Mach den kostenlosen Test:",
+      "cardSubtitle": "Was kommt als Nächstes für dich?",
+      "landingCTA": "Finde heraus, was als Nächstes kommt — 1test.me",
+      "compareText": "Schau, wie deine Stärken sich vergleichen"
+    },
+    "lateCareer": {
+      "shareText": "Ich habe mit 55 meine Stärken kartiert — und Klarheit darüber bekommen, was als Nächstes kommt. Mach den kostenlosen Test:",
+      "cardSubtitle": "Dein nächstes Kapitel beginnt hier",
+      "landingCTA": "Starte dein nächstes Kapitel — 1test.me",
+      "compareText": "Teile deine Stärken mit jemandem, dem du vertraust"
+    },
+    "solopreneur": {
+      "shareText": "Der Test hat mir meinen blinden Fleck als Gründer gezeigt. Ich wünschte, ich hätte das früher gewusst. Mach den kostenlosen Test:",
+      "cardSubtitle": "Kenne deine blinden Flecken",
+      "landingCTA": "Kenne deine blinden Flecken — 1test.me",
+      "compareText": "Vergleiche Gründerprofile mit einem Mitgründer"
+    }
   }
 }

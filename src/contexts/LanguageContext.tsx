@@ -86,10 +86,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     window.location.href = newPath;
   }, []);
 
-  const localizePath = useCallback((path: string): string => {
-    if (lang === "en") return path;
-    return `/${lang}${path === "/" ? "" : path}`;
-  }, [lang]);
+  const localizePath = useCallback((path: string): string => path, []);
 
   return (
     <LanguageContext.Provider

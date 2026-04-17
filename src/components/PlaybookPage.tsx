@@ -4,6 +4,7 @@ import { SEOHead } from "./SEOHead";
 import { UpgradePrompt } from "./UpgradePrompt";
 import { usePayment } from "../contexts/PaymentContext";
 import { getCareerSuggestions, getStressInfo, getLeadershipStyle } from "./ActionBranches";
+import { LogoIcon } from "./LogoIcon";
 import type { StrengthScore } from "../hooks/useAssessment";
 
 interface PlaybookData {
@@ -372,7 +373,7 @@ export function PlaybookPage() {
 
       {stress && (
         <section className="playbook-section">
-          <div className="playbook-section-icon">⚡</div>
+          <div className="playbook-section-icon"><LogoIcon size={20} /></div>
           <h2>Stress Management</h2>
           <div className="stress-grid">
             <div className="stress-item stress-normal">

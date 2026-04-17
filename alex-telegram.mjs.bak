@@ -1,0 +1,358 @@
+#!/usr/bin/env node
+// Alex CEO — Telegram interface between Nick (founder) and the 1Test agent team
+// Uses Claude CLI for intelligence, Paperclip DB for state, Telegram Bot API for comms
+
+import { execSync, spawn } from 'node:child_process';
+import { appendFileSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
+
+// === Config ===
+const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+const CHAT_ID = process.env.TELEGRAM_CHAT_ID;
+const DB_URL = process.env.DATABASE_URL || 'postgres://paperclip:paperclip@localhost:5432/paperclip';
+const COMPANY_ID = '33d9cfce-bb56-429f-85f5-1c25231f694e';
+const LOG_FILE = '/opt/1test/alex-telegram.log';
+const OFFSET_FILE = '/opt/1test/.alex-telegram-offset';
+const POLL_TIMEOUT = 30; // seconds
+const POLL_ERROR_WAIT = 10000; // ms
+const MAX_HISTORY = 5;
+const CLAUDE_TIMEOUT = 120000; // 2 minutes
+
+// Agent UUIDs
+const AGENTS = {
+  alex:  '0bb043f3-ef4c-455f-842a-49bc12c373a0',
+  clara: '78260e05-4cb6-4003-9e2c-aa0f3566ab36',
+  oscar: 'db96f691-3b82-42c6-8b57-c3f122317509',
+  leo:   '1542ab63-af63-480b-9c45-02dcf91671fa',
+  emma:  '03d08268-10ed-42ae-97ab-2a1d5ad31a4d',
+  lucas: '84f58e93-c0bc-48fc-a267-3a9432e3001e',
+};
+
+// === Logging ===
+function log(level, msg) {
+  const ts = new Date().toISOString();
+  const line = `${ts} [alex-telegram] ${level} ${msg}\n`;
+  process.stdout.write(line);
+  try { appendFileSync(LOG_FILE, line); } catch {}
+}
+
+// === Telegram API ===
+async function tg(method, params = {}) {
+  const url = `https://api.telegram.org/bot${BOT_TOKEN}/${method}`;
+  const resp = await fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(params),
+    signal: method === 'getUpdates'
+      ? AbortSignal.timeout((POLL_TIMEOUT + 10) * 1000)
+      : AbortSignal.timeout(15000),
+  });
+  const data = await resp.json();
+  if (!data.ok) throw new Error(`Telegram API error: ${JSON.stringify(data)}`);
+  return data.result;
+}
+
+async function sendMessage(text) {
+  // Telegram max message length is 4096
+  if (text.length > 4000) {
+    text = text.slice(0, 3997) + '...';
+  }
+  return tg('sendMessage', {
+    chat_id: CHAT_ID,
+    text,
+    parse_mode: 'Markdown',
+  }).catch(async () => {
+    // Fallback without Markdown if parsing fails
+    return tg('sendMessage', { chat_id: CHAT_ID, text });
+  });
+}
+
+// === Database ===
+function dbQuery(sql) {
+  try {
+    const result = execSync(
+      `psql "${DB_URL}" -t -A -F '|' -c ${JSON.stringify(sql)}`,
+      { timeout: 10000, encoding: 'utf-8' }
+    );
+    return result.trim();
+  } catch (e) {
+    log('ERROR', `DB query failed: ${e.message}`);
+    return '';
+  }
+}
+
+function getOpenIssues() {
+  const raw = dbQuery(`
+    SELECT identifier, title, status, priority,
+      (SELECT name FROM agents WHERE id = assignee_agent_id) as assigned_to
+    FROM issues
+    WHERE company_id = '${COMPANY_ID}'
+      AND status NOT IN ('done', 'cancelled')
+    ORDER BY
+      CASE priority
+        WHEN 'urgent' THEN 0
+        WHEN 'critical' THEN 1
+        WHEN 'high' THEN 2
+        WHEN 'medium' THEN 3
+        WHEN 'low' THEN 4
+        ELSE 5
+      END,
+      created_at DESC
+    LIMIT 20;
+  `);
+  if (!raw) return 'No open issues found.';
+  return raw.split('\n').map(line => {
+    const [id, title, status, priority, assignee] = line.split('|');
+    return `${id} [${priority}] ${title} → ${assignee || 'unassigned'} (${status})`;
+  }).join('\n');
+}
+
+function getNextIdentifier() {
+  const raw = dbQuery(`
+    SELECT COALESCE(MAX(CAST(SUBSTRING(identifier FROM 6) AS INTEGER)), 0) + 1
+    FROM issues WHERE company_id = '${COMPANY_ID}';
+  `);
+  return parseInt(raw) || 145;
+}
+
+// === Conversation History ===
+const conversationHistory = [];
+
+function addToHistory(role, content) {
+  conversationHistory.push({ role, content });
+  if (conversationHistory.length > MAX_HISTORY * 2) {
+    conversationHistory.splice(0, 2); // Remove oldest pair
+  }
+}
+
+function formatHistoryForPrompt() {
+  if (conversationHistory.length === 0) return '';
+  return '\n\nRecent conversation:\n' +
+    conversationHistory.map(m =>
+      `${m.role === 'user' ? 'Nick' : 'Alex'}: ${m.content}`
+    ).join('\n');
+}
+
+// === Claude CLI ===
+function buildSystemPrompt(boardState) {
+  return `You are Alex, CEO of 1Test.me, talking to your founder Nick on Telegram.
+
+You are the intelligent interface between Nick and the team. When Nick messages you:
+
+1. RESPOND conversationally — short, clear, like a sharp CEO. No fluff.
+2. TRIAGE the message:
+   - Process rule ("check builds", "never do X") → Update the relevant agent's config
+   - Product feedback ("add feature X", "the results page needs Y") → Create a Kanban issue with proper priority and assignment
+   - Quick unblock ("the site is down", "approve X") → Act immediately
+   - Strategic direction ("pivot to recruiters", "kill feature Y") → Create issues and update strategy
+   - Style/design ("I hate the font", "change the color") → Create issue for Clara (spec) + Leo (implement)
+3. CONFIRM what you did — "Created TESA-137 for Leo: fix the mobile nav. P1."
+4. If you need clarification, ASK — have a back-and-forth.
+
+Your team (with Paperclip DB agent UUIDs):
+- Clara (${AGENTS.clara}) — Product Architect: specs features, fills backlogs
+- Oscar (${AGENTS.oscar}) — Engineer: backend, infra, Stripe, database
+- Leo (${AGENTS.leo}) — Frontend Engineer: UI, components, test UX
+- Emma (${AGENTS.emma}) — Head of Growth: SEO, outbound, all channels
+- Lucas (${AGENTS.lucas}) — Lifecycle Agent: email nurture, retention
+
+Your own UUID: ${AGENTS.alex}
+Company ID: ${COMPANY_ID}
+
+ACTIONS — use Bash tool to run psql commands when needed:
+
+To create an issue:
+  psql "postgres://paperclip:paperclip@localhost:5432/paperclip" -c "INSERT INTO issues (company_id, title, description, status, priority, assignee_agent_id, created_by_agent_id, identifier, created_at, updated_at) VALUES ('${COMPANY_ID}', '<title>', '<description>', 'todo', '<priority>', '<agent_uuid>', '${AGENTS.alex}', 'TESA-<N>', NOW(), NOW());"
+
+Next available identifier number: TESA-${getNextIdentifier()}
+
+Priority values: urgent, critical, high, medium, low
+Status values: backlog, todo, in_progress, in_review, done, cancelled, blocked
+
+To update an issue:
+  psql "postgres://paperclip:paperclip@localhost:5432/paperclip" -c "UPDATE issues SET status='<status>', updated_at=NOW() WHERE identifier='TESA-<N>' AND company_id='${COMPANY_ID}';"
+
+Current board state:
+${boardState}
+
+Keep responses short. Nick is busy. 2-3 sentences max unless he asks for detail. Do NOT use markdown headers. Respond in plain text suitable for Telegram.`;
+}
+
+async function askClaude(userMessage) {
+  const boardState = getOpenIssues();
+  const systemPrompt = buildSystemPrompt(boardState);
+  const historyContext = formatHistoryForPrompt();
+
+  const fullPrompt = `${systemPrompt}${historyContext}
+
+Nick's message: ${userMessage}`;
+
+  return new Promise((resolve, reject) => {
+    const args = [
+      '-p', fullPrompt,
+      '--allowedTools', 'Bash(read_only:false),Read,Edit,Write',
+      '--output-format', 'json',
+      '--max-turns', '5',
+    ];
+
+    let stdout = '';
+    let stderr = '';
+
+    const proc = spawn('claude', args, {
+      timeout: CLAUDE_TIMEOUT,
+      env: { ...process.env, HOME: '/root' },
+    });
+
+    proc.stdout.on('data', (data) => { stdout += data.toString(); });
+    proc.stderr.on('data', (data) => { stderr += data.toString(); });
+
+    const timer = setTimeout(() => {
+      proc.kill('SIGTERM');
+      reject(new Error('Claude CLI timed out'));
+    }, CLAUDE_TIMEOUT);
+
+    proc.on('close', (code) => {
+      clearTimeout(timer);
+      if (code !== 0 && !stdout) {
+        log('ERROR', `Claude CLI exited ${code}: ${stderr.slice(0, 500)}`);
+        reject(new Error(`Claude CLI exited with code ${code}`));
+        return;
+      }
+      try {
+        // Parse JSON output — look for the result text
+        const parsed = JSON.parse(stdout);
+        // Claude CLI JSON output has a 'result' field with the text
+        const text = parsed.result || parsed.text || parsed.content || '';
+        if (!text) {
+          // Try to find text in content blocks
+          if (Array.isArray(parsed)) {
+            const textBlock = parsed.find(b => b.type === 'text');
+            resolve(textBlock?.text || stdout.slice(0, 4000));
+          } else {
+            resolve(JSON.stringify(parsed).slice(0, 4000));
+          }
+        } else {
+          resolve(text);
+        }
+      } catch {
+        // If not JSON, return raw stdout
+        if (stdout.trim()) {
+          resolve(stdout.trim().slice(0, 4000));
+        } else {
+          reject(new Error('Empty response from Claude CLI'));
+        }
+      }
+    });
+
+    proc.on('error', (err) => {
+      clearTimeout(timer);
+      reject(err);
+    });
+  });
+}
+
+// === Offset persistence ===
+function loadOffset() {
+  try {
+    if (existsSync(OFFSET_FILE)) {
+      return parseInt(readFileSync(OFFSET_FILE, 'utf-8').trim()) || 0;
+    }
+  } catch {}
+  return 0;
+}
+
+function saveOffset(offset) {
+  try { writeFileSync(OFFSET_FILE, String(offset)); } catch {}
+}
+
+// === Main loop ===
+let running = true;
+
+process.on('SIGTERM', () => { running = false; log('INFO', 'Received SIGTERM, shutting down'); });
+process.on('SIGINT', () => { running = false; log('INFO', 'Received SIGINT, shutting down'); });
+
+async function processMessage(text) {
+  log('INFO', `Processing message from Nick: ${text.slice(0, 100)}`);
+  addToHistory('user', text);
+
+  // Send typing indicator
+  tg('sendChatAction', { chat_id: CHAT_ID, action: 'typing' }).catch(() => {});
+
+  try {
+    const response = await askClaude(text);
+    addToHistory('assistant', response);
+    await sendMessage(response);
+    log('INFO', `Response sent: ${response.slice(0, 100)}`);
+  } catch (e) {
+    log('ERROR', `Failed to process message: ${e.message}`);
+    await sendMessage("Sorry, I'm having trouble thinking right now. Try again in a minute.").catch(() => {});
+  }
+}
+
+async function main() {
+  if (!BOT_TOKEN || !CHAT_ID) {
+    log('ERROR', 'TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID must be set');
+    process.exit(1);
+  }
+
+  log('INFO', 'Alex Telegram service starting');
+  log('INFO', `Chat ID filter: ${CHAT_ID}`);
+
+  let offset = loadOffset();
+
+  // Clear pending updates on startup
+  try {
+    const pending = await tg('getUpdates', { timeout: 0 });
+    if (pending.length > 0) {
+      offset = Math.max(...pending.map(u => u.update_id)) + 1;
+      saveOffset(offset);
+      log('INFO', `Skipped ${pending.length} pending updates, starting from offset ${offset}`);
+    }
+  } catch (e) {
+    log('WARN', `Failed to clear pending updates: ${e.message}`);
+  }
+
+  log('INFO', 'Polling loop started');
+
+  while (running) {
+    try {
+      const updates = await tg('getUpdates', {
+        offset,
+        timeout: POLL_TIMEOUT,
+        allowed_updates: ['message'],
+      });
+
+      for (const update of updates) {
+        offset = update.update_id + 1;
+        saveOffset(offset);
+
+        const message = update.message;
+        if (!message) continue;
+
+        // Security: only respond to Nick's chat
+        const chatId = String(message.chat?.id || '');
+        if (chatId !== CHAT_ID) {
+          log('WARN', `Ignoring message from unauthorized chat_id=${chatId}`);
+          continue;
+        }
+
+        const text = message.text;
+        if (!text) continue;
+
+        await processMessage(text);
+      }
+    } catch (e) {
+      if (e.name === 'TimeoutError' || e.message?.includes('timeout')) {
+        continue; // Normal long-poll timeout
+      }
+      log('ERROR', `Poll loop error: ${e.message}`);
+      await new Promise(r => setTimeout(r, POLL_ERROR_WAIT));
+    }
+  }
+
+  log('INFO', 'Alex Telegram service stopped');
+}
+
+main().catch(e => {
+  log('FATAL', `Unhandled error: ${e.message}`);
+  process.exit(1);
+});

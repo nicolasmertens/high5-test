@@ -141,7 +141,7 @@ export function LandingPage({ framework }: Props) {
           {t("intro.creditLink")}
         </a>
         {t("intro.creditSuffix")}{" "}
-        <a href={localizePath("/privacy-draft")}>{t("intro.privacy")}</a> &middot; <a href={localizePath("/terms-draft")}>{t("intro.terms")}</a>
+        <a href={localizePath("/privacy")}>{t("intro.privacy")}</a> &middot; <a href={localizePath("/terms")}>{t("intro.terms")}</a>
       </p>
     </div>
   );
