@@ -172,6 +172,10 @@ createRoot(document.getElementById("root")!).render(
               element={<BlogPage slug="16-personalities-vs-enneagram" />}
             />
             <Route
+              path="/blog/personality-test-comparison"
+              element={<BlogPage slug="personality-test-comparison" />}
+            />
+            <Route
               path="/blog/16-personalities-career"
               element={<BlogPage slug="16-personalities-career" />}
             />

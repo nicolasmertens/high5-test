@@ -823,6 +823,13 @@ const BLOG_FAQS = {
     { question: "Should I take both 16 Personalities and Enneagram?", answer: "Yes. 16 Personalities tells you how your mind works. The Enneagram tells you what drives you emotionally. Together they explain both the how and the why. Both are free on 1Test." },
     { question: "What is the main difference between 16 Personalities and Enneagram?", answer: "16 Personalities describes your cognitive style — how you process information and make decisions. The Enneagram describes your core motivation — the emotional drives and fears that shape why you do what you do." },
   ],
+  "/blog/personality-test-comparison": [
+    { question: "Which personality test is the most accurate?", answer: "No framework is more accurate — they measure different things. DISC measures behavior, 16 Personalities measures cognition, the Enneagram measures motivation, and Strengths measures ability. The most accurate self-understanding comes from taking multiple frameworks." },
+    { question: "Should I take more than one personality test?", answer: "Yes. Each framework gives one perspective. Taking multiple frameworks reveals consistent patterns and differences. On 1Test, you can take all four frameworks in one free assessment." },
+    { question: "What is the difference between DISC and 16 Personalities?", answer: "DISC measures observable behavior and communication style. 16 Personalities measures cognitive preferences. DISC is more practical for teamwork. 16 Personalities is deeper for self-understanding." },
+    { question: "What is the difference between the Enneagram and Strengths?", answer: "The Enneagram measures core motivation — why you do what you do. Strengths measures natural ability — what you do best. The Enneagram is best for growth. Strengths is best for career direction." },
+    { question: "Can I take all four personality tests for free?", answer: "Yes. 1Test offers all four frameworks in a single free assessment with complete results and no paywall." },
+  ],
 };
 
 const SEO_DATA = {
@@ -1223,6 +1230,13 @@ const SEO_DATA = {
     description:
       "Compare 16 Personalities and Enneagram frameworks. What each measures, when to use each, and how they work together. Take both free on 1Test.",
     canonicalUrl: "https://1test.me/blog/16-personalities-vs-enneagram",
+    ogType: "article",
+  },
+  "/blog/personality-test-comparison": {
+    title: "Personality Test Comparison — 4 Frameworks Compared (Free Guide)",
+    description:
+      "Compare DISC, Enneagram, 16 Personalities, and Strengths frameworks side by side. What each measures, when to use each, and how they work together.",
+    canonicalUrl: "https://1test.me/blog/personality-test-comparison",
     ogType: "article",
   },
 };
@@ -2085,6 +2099,14 @@ const BODY_CONTENT = {
       { heading: "16 Personalities vs Enneagram — Which Framework Fits You?", text: "16 Personalities describes your cognitive style — how you think and process information. The Enneagram describes your core motivation — why you act. They approach personality from completely different angles. Taking both is better than choosing one." },
       { heading: "Key Differences", text: "16 Personalities has 16 types based on 4 cognitive dimensions. The Enneagram has 9 types based on core motivation and fear. 16 Personalities is about information processing. The Enneagram is about emotional drives. 16 Personalities is best for cognitive style and career fit. The Enneagram is best for motivation and growth direction." },
       { heading: "Why Taking Both Is Better", text: "An INTJ Type 5 is driven to understand (cognitive style: analytical + motivation: competence). An ENFP Type 7 generates ideas and chases new experiences (cognitive style: intuitive + motivation: experience). The combination explains both the how and the why of personality." },
+     ],
+    },
+  "/blog/personality-test-comparison": {
+    h1: "Personality Test Comparison — 4 Frameworks Side by Side",
+    sections: [
+      { heading: "The Four Frameworks at a Glance", text: "DISC measures behavior and communication style. 16 Personalities measures cognitive preferences. The Enneagram measures core motivation. Strengths measures natural abilities. Each framework is a different lens on personality." },
+      { heading: "Which Framework Should You Start With", text: "For work and communication: start with DISC. For self-understanding: start with 16 Personalities. For personal growth: start with the Enneagram. For career direction: start with Strengths. Or take all four on 1Test — all free with complete results." },
+      { heading: "Why Taking All Four Is Better", text: "Each framework is a single lens. Taking all four reveals consistent patterns across frameworks (which are reliable) and differences (which reveal nuance). A high I DISC profile with an introverted 16 Personalities type means you communicate warmly but recharge alone — a social introvert. That nuance is invisible to any single framework." },
     ],
    },
   "/pricing": {
