@@ -38,7 +38,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       const bucket = storage.bucket(bucketName);
       const testFile = bucket.file("1test/__health_check");
       try {
-        await testFile.download({ count: 0 });
+        await testFile.exists();
         authResult = "ok";
       } catch (fileErr: any) {
         if (fileErr.code === 404) {
