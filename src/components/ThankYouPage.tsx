@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { usePayment } from "../contexts/PaymentContext";
+import { getStoredProfileHash } from "../utils/profile";
 
 const TIER_LABELS: Record<string, { label: string; description: string }> = {
   full_profile: {
@@ -80,6 +81,14 @@ export function ThankYouPage() {
             <button className="btn-start" onClick={() => navigate("/test")}>
               View Your Results
             </button>
+            {tier === "ai_playbook" && (() => {
+              const hash = getStoredProfileHash();
+              return hash ? (
+                <button className="btn-start btn-upgrade" style={{ marginTop: "12px" }} onClick={() => navigate(`/playbook?profile=${hash}`)}>
+                  View Your Playbook
+                </button>
+              ) : null;
+            })()}
           </>
         )}
       </div>
