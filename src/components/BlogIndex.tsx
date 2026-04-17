@@ -91,7 +91,7 @@ export function BlogIndex() {
       <div className="landing-cta">
         <h2>Ready to discover your personality?</h2>
         <p>One test. Four frameworks. Completely free. ~15 minutes.</p>
-        <button className="btn-start" onClick={() => navigate("/")}>
+        <button className="btn-start" onClick={() => navigate("/test")}>
           Take the Free Test &rarr;
         </button>
       </div>

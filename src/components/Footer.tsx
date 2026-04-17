@@ -8,8 +8,9 @@ const TESTS = [
 ];
 
 const LEARN = [
-  { label: "Blog", to: "/blog" },
   { label: "Pricing", to: "/pricing" },
+  { label: "Blog", to: "/blog" },
+  { label: "Home", to: "/" },
 ];
 
 const LEGAL = [

@@ -14,7 +14,7 @@ const TIERS = [
       "Invite colleagues for relationship reports",
     ],
     cta: "Take the Free Test",
-    ctaLink: "/",
+    ctaLink: "/test",
     highlight: false,
   },
   {
@@ -30,7 +30,7 @@ const TIERS = [
       "Unified profile combining all four frameworks",
     ],
     cta: "Unlock Full Profile",
-    ctaLink: "/?start=1",
+    ctaLink: "/test",
     highlight: true,
   },
   {
@@ -45,8 +45,26 @@ const TIERS = [
       "Includes everything in the Full Profile",
     ],
     cta: "Get AI Playbook",
-    ctaLink: "/?start=1",
+    ctaLink: "/test",
     highlight: false,
+  },
+  {
+    name: "Team",
+    price: "$29",
+    period: "/mo per seat",
+    description: "Team insights, relationship reports, and a manager dashboard.",
+    features: [
+      "Everything in AI Playbook",
+      "Invite colleagues and compare profiles",
+      "Relationship reports: how your profiles interact",
+      "Team strength maps",
+      "Meeting prep tips for specific colleagues",
+      "Manager dashboard",
+    ],
+    cta: "Start a Team",
+    ctaLink: "/test",
+    highlight: false,
+    comingSoon: true,
   },
 ];
 
@@ -54,16 +72,16 @@ export function PricingPage() {
   return (
     <div className="pricing">
       <SEOHead
-        title="Pricing — 1Test"
-        description="1Test pricing: take the free personality assessment, or unlock your full profile across Strengths, 16 Personalities, DISC, and Enneagram."
+        title="1Test Pricing \u2014 Free Results, Always"
+        description="Your free assessment gives you real value. Paid tiers go deeper when you're ready. Strengths, 16 Personalities, DISC, Enneagram \u2014 all from one test."
         canonicalUrl="https://1test.me/pricing"
       />
 
       <header className="pricing-header">
-        <h1>Simple, Transparent Pricing</h1>
+        <h1>Free Results, Always</h1>
         <p>
-          Take the free test and get your top 5 strengths. Unlock your full
-          profile whenever you are ready.
+          Your free assessment gives you real value. Paid tiers go deeper when
+          you are ready.
         </p>
       </header>
 
@@ -76,11 +94,14 @@ export function PricingPage() {
             {tier.highlight && (
               <span className="pricing-badge">Most Popular</span>
             )}
+            {tier.comingSoon && (
+              <span className="pricing-badge pricing-badge-soon">Coming Soon</span>
+            )}
             <h2 className="pricing-tier-name">{tier.name}</h2>
             <div className="pricing-price">
               {tier.price}
               {tier.price !== "$0" && (
-                <span className="pricing-period">one-time</span>
+                <span className="pricing-period">{tier.period || "one-time"}</span>
               )}
             </div>
             <p className="pricing-description">{tier.description}</p>
@@ -127,6 +148,31 @@ export function PricingPage() {
           <p>
             Yes. You can share a results card image or a link that lets others
             take the test and compare their profile with yours.
+          </p>
+        </details>
+        <details className="pricing-faq-item">
+          <summary>How is this different from taking four separate tests?</summary>
+          <p>
+            One test, four results. Instead of taking a Strengths test, then a
+            personality test, then a DISC test, then an Enneagram test — each
+            30-60 minutes — you answer our questions once and get all four
+            results. And because all four frameworks come from the same
+            assessment, you can see how they connect.
+          </p>
+        </details>
+        <details className="pricing-faq-item">
+          <summary>How long does the test take?</summary>
+          <p>
+            About 10-15 minutes. We use progress indicators and auto-save so
+            you never lose your place.
+          </p>
+        </details>
+        <details className="pricing-faq-item">
+          <summary>Is my data private?</summary>
+          <p>
+            Yes. We follow GDPR guidelines. You can request deletion of your
+            data at any time. We never sell your personality data. See our{" "}
+            <a href="/privacy-draft">Privacy Policy</a>.
           </p>
         </details>
       </section>

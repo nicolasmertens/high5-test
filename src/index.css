@@ -46,6 +46,11 @@ body {
   min-height: 100dvh;
 }
 
+.homepage #root,
+#root:has(.homepage) {
+  max-width: 960px;
+}
+
 h1,
 h2,
 h3 {

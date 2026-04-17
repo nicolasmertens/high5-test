@@ -62,7 +62,7 @@ export function ThankYouPage() {
           <>
             <h1>Almost there!</h1>
             <p className="thank-you-error">{error}</p>
-            <button className="btn-start" onClick={() => navigate("/")}>
+            <button className="btn-start" onClick={() => navigate("/test")}>
               Return to Your Results
             </button>
           </>
@@ -77,7 +77,7 @@ export function ThankYouPage() {
                 Confirmation sent to <strong>{email}</strong>
               </p>
             )}
-            <button className="btn-start" onClick={() => navigate("/")}>
+            <button className="btn-start" onClick={() => navigate("/test")}>
               View Your Results
             </button>
           </>

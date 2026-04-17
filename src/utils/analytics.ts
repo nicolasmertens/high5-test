@@ -428,3 +428,26 @@ export function trackNurtureEmailClick(data: {
     ...utmParams,
   });
 }
+
+export function trackHomepageView(): void {
+  posthog.capture("homepage_view", {
+    page_path: "/",
+    ...utmParams,
+  });
+}
+
+export function trackHeroCTAClick(ctaText: string): void {
+  posthog.capture("hero_cta_click", {
+    cta_text: ctaText,
+    page_path: "/",
+    ...utmParams,
+  });
+}
+
+export function trackFrameworkCardClick(framework: string): void {
+  posthog.capture("framework_card_click", {
+    framework,
+    page_path: "/",
+    ...utmParams,
+  });
+}

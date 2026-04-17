@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import "./index.css";
 import App from "./App.tsx";
+import { HomePage } from "./components/HomePage.tsx";
+import { Header } from "./components/Header.tsx";
 import { LandingPage } from "./components/LandingPage.tsx";
 import { BlogPage } from "./components/BlogPage.tsx";
 import { BlogIndex } from "./components/BlogIndex.tsx";
@@ -20,8 +22,10 @@ createRoot(document.getElementById("root")!).render(
     <HelmetProvider>
       <BrowserRouter>
         <AnalyticsProvider>
+          <Header />
           <Routes>
-            <Route path="/" element={<App />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/test" element={<App />} />
             <Route
               path="/free-disc-test"
               element={<LandingPage framework="disc" />}

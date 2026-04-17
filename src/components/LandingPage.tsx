@@ -36,11 +36,11 @@ export function LandingPage({ framework }: Props) {
       ctaLocation: location,
       pagePath: `/free-${framework}-test`,
     });
-    navigate("/");
+    navigate("/test");
   }, [framework, navigate]);
 
   if (!fw) {
-    navigate("/");
+    navigate("/test");
     return null;
   }
 

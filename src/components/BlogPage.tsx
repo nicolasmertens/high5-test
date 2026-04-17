@@ -21,11 +21,11 @@ export function BlogPage({ slug }: Props) {
         pagePath: `/blog/${slug}`,
       });
     }
-    navigate("/");
+    navigate("/test");
   }, [post, navigate, slug]);
 
   if (!post) {
-    navigate("/");
+    navigate("/test");
     return null;
   }
 
