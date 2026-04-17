@@ -1,4 +1,9 @@
 {
+  "functions": {
+    "api/og-image.ts": {
+      "runtime": "edge"
+    }
+  },
   "crons": [
     {
       "path": "/api/welcome-cron",
