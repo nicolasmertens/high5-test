@@ -11,7 +11,7 @@ import { EmailCapture } from "./EmailCapture";
 import { InviteSection } from "./InviteSection";
 import { useShareImage } from "../hooks/useShareImage";
 import { usePayment } from "../contexts/PaymentContext";
-import { trackUpgradeViewed, trackResultsViewed, trackCTAClicked } from "../utils/analytics";
+import { trackUpgradeViewed, trackResultsViewed, trackCTAClicked, trackUpsellView } from "../utils/analytics";
 import { getStoredReferralCode } from "../utils/profile";
 
 interface Props {
@@ -31,6 +31,7 @@ export function ResultsScreen({ results, onRestart }: Props) {
     if (!isPaid && !upgradeViewedTracked.current && top5.length > 0) {
       upgradeViewedTracked.current = true;
       trackUpgradeViewed("strengths", "results_page", "full_profile");
+      trackUpsellView({ sourceSection: "results_page", tier: "full_profile" });
     }
   }, [isPaid, top5.length]);
 
@@ -65,7 +66,7 @@ export function ResultsScreen({ results, onRestart }: Props) {
     () =>
       isPaid
         ? `I'm a ${personality.type} (${personality.label}) with a ${disc.style} DISC profile and Enneagram ${enneagram.wingLabel}. My top strength is ${top5[0]?.strength.name ?? ""}. Discover yours:`
-        : `My top strength is ${top5[0]?.strength.name ?? ""} — discover yours with one free test:`,
+        : `I'm a ${personality.type} (${personality.label}) with a ${disc.style} DISC profile. My top strength is ${top5[0]?.strength.name ?? ""}. Discover yours:`,
     [isPaid, personality, disc, enneagram, top5],
   );
 
@@ -250,26 +251,29 @@ export function ResultsScreen({ results, onRestart }: Props) {
       ) : (
         <>
           <div className="bridge-teaser">
-            <h3>We also found your personality type and Enneagram</h3>
+            <h3>Your personality across four frameworks</h3>
             <p className="bridge-subtitle">
               Derived from the same 120 answers — no extra test needed
             </p>
 
             <div className="bridge-cards">
-              <div className="bridge-card bridge-card-locked">
+              <div className="bridge-card">
                 <span className="bridge-label">16 Personalities</span>
-                <span className="bridge-value bridge-value-locked">{personality.type}</span>
+                <span className="bridge-value">{personality.type}</span>
                 <span className="bridge-sublabel">{personality.label}</span>
+                <span className="bridge-desc">{personality.description}</span>
               </div>
-              <div className="bridge-card bridge-card-locked">
+              <div className="bridge-card">
                 <span className="bridge-label">DISC Profile</span>
-                <span className="bridge-value bridge-value-locked">{disc.style}</span>
+                <span className="bridge-value">{disc.style}</span>
                 <span className="bridge-sublabel">{disc.primary.name}</span>
+                <span className="bridge-desc">{disc.primary.description}</span>
               </div>
-              <div className="bridge-card bridge-card-locked">
+              <div className="bridge-card">
                 <span className="bridge-label">Enneagram</span>
-                <span className="bridge-value bridge-value-locked">{enneagram.wingLabel}</span>
+                <span className="bridge-value">{enneagram.wingLabel}</span>
                 <span className="bridge-sublabel">{enneagram.primary.name}</span>
+                <span className="bridge-desc">{enneagram.primary.description}</span>
               </div>
             </div>
           </div>
@@ -307,13 +311,6 @@ export function ResultsScreen({ results, onRestart }: Props) {
             </div>
           </div>
 
-          <InviteSection
-            results={results}
-            personality={personality}
-            enneagram={enneagram}
-            disc={disc}
-          />
-
           <EmailCapture
             frameworkName="Strengths"
             frameworkType={top5[0]?.strength?.name || "Achiever"}
@@ -321,6 +318,13 @@ export function ResultsScreen({ results, onRestart }: Props) {
               top5[0]?.strength?.description ||
               "You have unique strengths that set you apart"
             }
+          />
+
+          <InviteSection
+            results={results}
+            personality={personality}
+            enneagram={enneagram}
+            disc={disc}
           />
 
           <UpgradePrompt variant="teaser" />

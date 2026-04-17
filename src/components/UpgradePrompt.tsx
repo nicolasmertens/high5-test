@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { usePayment } from "../contexts/PaymentContext";
-import { trackCheckoutStarted, trackCTAClicked } from "../utils/analytics";
+import { trackCheckoutStarted, trackCTAClicked, trackUpsellClick } from "../utils/analytics";
 
 type Tier = "full_profile" | "ai_playbook" | "team_monthly";
 
@@ -53,6 +53,7 @@ export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
 
   const handleUpgrade = async (tier: Tier) => {
     trackCheckoutStarted("strengths", tier);
+    trackUpsellClick({ tier, sourceSection: variant === "teaser" ? "upgrade_teaser" : "upgrade_full" });
     trackCTAClicked({
       ctaText: `Unlock ${tier === "full_profile" ? "Full Profile" : "AI Playbook"}`,
       ctaLocation: variant === "teaser" ? "upgrade_teaser" : "upgrade_full",
@@ -76,12 +77,12 @@ export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
     const tier = TIERS[0];
     return (
       <div className="upgrade-teaser">
-        <div className="upgrade-teaser-lock">&#128274;</div>
-        <h3>Unlock Your Full Profile</h3>
+        <div className="upgrade-teaser-lock">&#10024;</div>
+        <h3>Go Deeper With Your Full Profile</h3>
         <p>
-          Your Top 5 Strengths are just the beginning. Get your complete results
-          across all four frameworks — detailed personality type, DISC profile,
-          Enneagram with wing & tritype, plus career paths and growth insights.
+          You've seen your personality type and top strengths. Unlock your complete
+          profile: all 20 strengths ranked, detailed breakdowns for each framework,
+          career paths matched to your profile, and a PDF export to keep forever.
         </p>
         <ul className="upgrade-features">
           {tier.features.map((f) => (
@@ -93,7 +94,7 @@ export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
           onClick={() => handleUpgrade(tier.id)}
           disabled={redirecting !== null}
         >
-          {redirecting === tier.id ? "Redirecting to checkout..." : `Unlock ${tier.name} — ${tier.price}`}
+          {redirecting === tier.id ? "Redirecting to checkout..." : `Get Full Profile — ${tier.price}`}
         </button>
         <p className="upgrade-subtitle">
           One-time purchase. Instant access. No subscription.

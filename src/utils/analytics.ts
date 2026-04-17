@@ -382,3 +382,25 @@ export function trackCTAClicked(data: {
     ...utmParams,
   });
 }
+
+export function trackUpsellClick(data: {
+  tier: string;
+  sourceSection: string;
+}): void {
+  posthog.capture("upsell_click", {
+    tier: data.tier,
+    source_section: data.sourceSection,
+    ...utmParams,
+  });
+}
+
+export function trackUpsellView(data: {
+  sourceSection: string;
+  tier: string;
+}): void {
+  posthog.capture("upsell_view", {
+    source_section: data.sourceSection,
+    tier: data.tier,
+    ...utmParams,
+  });
+}
