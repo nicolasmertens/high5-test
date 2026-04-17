@@ -11,6 +11,33 @@ const stripe = new Stripe(trim(process.env.STRIPE_SECRET_KEY), {
   httpClient: Stripe.createFetchHttpClient(),
 });
 
+async function sendPostHogPurchaseEvent(session: Stripe.Checkout.Session) {
+  const email = session.customer_details?.email;
+  if (!email) return;
+
+  const tier = session.metadata?.tier || "full_profile";
+
+  try {
+    await postHogTrack("purchase", {
+      distinct_id: email,
+      framework: "strengths",
+      upgrade_type: tier,
+      revenue_amount: (session.amount_total || 1200) / 100,
+      currency: session.currency || "USD",
+      payment_method: "card",
+      transaction_id: session.id,
+      $set: {
+        email,
+        tier,
+        last_purchase_at: new Date().toISOString(),
+      },
+    });
+    console.log(`PostHog purchase tracked for ${email}`);
+  } catch (err) {
+    console.error("PostHog purchase tracking error:", err);
+  }
+}
+
 async function suppressWelcomeEmails(email: string) {
   try {
     const subscriber = await getSubscriberByEmail(email);
@@ -116,6 +143,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       });
 
       await sendGA4PurchaseEvent(session);
+      await sendPostHogPurchaseEvent(session);
 
       const email = session.customer_details?.email;
       if (email) {
