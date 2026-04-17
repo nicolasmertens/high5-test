@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { useLanguage } from "../contexts/LanguageContext";
 import { trackCTAClicked } from "../utils/analytics";
 import type { Language } from "../i18n";
+import { LogoIcon } from "./LogoIcon";
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -33,7 +34,7 @@ export function Header() {
     <header className="site-header">
       <div className="header-inner">
         <Link to={localizePath("/")} className="header-logo" onClick={() => handleNavClick("Logo")}>
-          <span className="header-logo-icon">&#9889;</span>
+          <LogoIcon size={22} className="header-logo-icon" />
           <span className="header-logo-text">1Test</span>
         </Link>
 

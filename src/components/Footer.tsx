@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useLanguage } from "../contexts/LanguageContext";
+import { LogoIcon } from "./LogoIcon";
 
 export function Footer() {
   const { t } = useTranslation();
@@ -20,14 +21,14 @@ export function Footer() {
   ];
 
   const legal = [
-    { label: t("footer.privacy"), to: "/privacy-draft" },
-    { label: t("footer.terms"), to: "/terms-draft" },
+    { label: t("footer.privacy"), to: "/privacy" },
+    { label: t("footer.terms"), to: "/terms" },
   ];
 
   return (
     <footer className="site-footer">
       <div className="footer-brand">
-        <span className="footer-logo">&#9889;</span>
+        <LogoIcon size={24} className="footer-logo" />
         <span className="footer-name">1Test</span>
       </div>
 

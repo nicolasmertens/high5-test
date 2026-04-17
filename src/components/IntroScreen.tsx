@@ -30,6 +30,7 @@ export function IntroScreen({ onStart, onResume, hasSavedProgress }: Props) {
 
   return (
     <div className="intro">
+      <div className="intro-inner">
       <div className="intro-logo">
         <svg viewBox="0 0 24 24" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M13 2L4.5 13.5H11.5L10.5 22L19.5 10.5H12.5L13 2Z" fill="white" stroke="white" strokeWidth="1" strokeLinejoin="round"/>
@@ -126,9 +127,10 @@ export function IntroScreen({ onStart, onResume, hasSavedProgress }: Props) {
           {t("intro.creditLink")}
         </a>
         {t("intro.creditSuffix")}{" "}
-        <a href={localizePath("/pricing")}>{t("intro.pricing")}</a> · <a href={localizePath("/privacy-draft")}>{t("intro.privacy")}</a> · <a href={localizePath("/terms-draft")}>{t("intro.terms")}</a>
+        <a href={localizePath("/pricing")}>{t("intro.pricing")}</a> · <a href={localizePath("/privacy")}>{t("intro.privacy")}</a> · <a href={localizePath("/terms")}>{t("intro.terms")}</a>
       </p>
 
+      </div>{/* end intro-inner */}
       <div className="sticky-mobile-cta">
         <button
           className="btn-start"
