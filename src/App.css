@@ -4182,7 +4182,7 @@
 
 /* Hero — dark gradient */
 .hero {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 40%, #2d1b69 80%, #1a0938 100%);
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
   color: #f3f4f6;
   padding: 80px 24px 96px;
   margin-left: -20px;
@@ -4425,7 +4425,7 @@
 
 .comparison-paid-note {
   font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.45);
   margin-bottom: 8px;
 }
 
