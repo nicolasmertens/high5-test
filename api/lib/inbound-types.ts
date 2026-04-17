@@ -29,13 +29,14 @@ export type EmailCategory =
   | "pricing";
 
 export type EmailStatus = "new" | "triaged" | "responded" | "closed";
+export type EmailPriority = "high" | "medium" | "low";
 
 export interface FilteredEmailLog {
   id: string;
   resendId: string;
   from: string;
   subject: string;
-  matchedRule: "precedence_bulk" | "list_unsubscribe";
+  matchedRule: "precedence_bulk" | "list_unsubscribe" | "sender_noise";
   filteredAt: number;
 }
 
@@ -49,6 +50,8 @@ export interface InboundEmail {
   text: string;
   replyTo: string[];
   category: EmailCategory;
+  priority: EmailPriority;
+  route: string;
   status: EmailStatus;
   autoResponseSent: boolean;
   autoResponseTemplate: string | null;

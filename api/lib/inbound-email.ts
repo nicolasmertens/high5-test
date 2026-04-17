@@ -1,7 +1,9 @@
 import type { InboundEmail, EmailCategory, EmailStatus } from "./inbound-types.js";
 import { classifyEmail, shouldAutoRespond, shouldFlagForReview, isRefundRequest } from "./classifier.js";
+import { routeByRecipient, deriveEmailPriority } from "./inbound-filter.js";
 import { sendAutoResponse } from "./auto-responder.js";
-import { postHogTrack } from "./send.js";
+import { postHogTrack, sendTelegramAlert } from "./send.js";
+import { getPaymentByEmail } from "./payment-storage.js";
 import { gcsGet, gcsSet, gcsList, gcsSetWithTTL } from "./gcs-storage.js";
 
 function emailKey(id: string): string {
@@ -12,11 +14,12 @@ function fromIndexKey(from: string): string {
   return `inbound/from/${from.toLowerCase()}.json`;
 }
 
-function categoryIndexKey(cat: EmailCategory): string {
-  return `inbound/cat/${cat}`;
-}
-
 const flaggedIndexPrefix = "inbound/flagged";
+
+function extractEmailAddress(raw: string): string {
+  const match = raw.match(/<([^>]+)>/);
+  return (match ? match[1] : raw).trim().toLowerCase();
+}
 
 export async function storeInboundEmail(
   payload: {
@@ -31,7 +34,17 @@ export async function storeInboundEmail(
   },
 ): Promise<InboundEmail> {
   const now = Date.now();
-  const category = classifyEmail(payload.subject, payload.text, payload.from, payload.html);
+  const fromAddr = extractEmailAddress(payload.from);
+
+  const [category, payment] = await Promise.all([
+    Promise.resolve(classifyEmail(payload.subject, payload.text, payload.from, payload.html)),
+    getPaymentByEmail(fromAddr).catch(() => null),
+  ]);
+
+  const isPayingUser = !!payment;
+  const priority = deriveEmailPriority(payload.from, payload.subject, isPayingUser);
+  const route = routeByRecipient(payload.to);
+
   const flaggedForReview = shouldFlagForReview(category) || isRefundRequest(payload.subject, payload.text);
   const reviewReason = flaggedForReview
     ? isRefundRequest(payload.subject, payload.text)
@@ -51,6 +64,8 @@ export async function storeInboundEmail(
     text: payload.text,
     replyTo: payload.replyTo,
     category,
+    priority,
+    route,
     status: "new",
     autoResponseSent: false,
     autoResponseTemplate: null,
@@ -88,12 +103,27 @@ export async function storeInboundEmail(
     await gcsSet(`${flaggedIndexPrefix}/${email.id}.json`, { emailId: email.id });
   }
 
+  if (priority === "high" || flaggedForReview) {
+    const priorityLabel = priority === "high" ? "🔴 HIGH" : "🟡 MEDIUM";
+    const payingLabel = isPayingUser ? " (paying user)" : "";
+    await sendTelegramAlert(
+      `📬 *Inbound email — ${priorityLabel}*${payingLabel}\n` +
+      `From: ${payload.from}\n` +
+      `Subject: ${payload.subject}\n` +
+      `Category: ${category} | Route: ${route}\n` +
+      `ID: ${email.id}`,
+    ).catch(() => {});
+  }
+
   await postHogTrack("inbound_email_received", {
-    distinct_id: payload.from,
+    distinct_id: fromAddr,
     email_category: category,
+    email_priority: priority,
+    email_route: route,
     email_status: email.status,
     auto_responded: email.autoResponseSent,
     flagged_for_review: flaggedForReview,
+    is_paying_user: isPayingUser,
   });
 
   return email;

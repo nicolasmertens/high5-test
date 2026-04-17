@@ -1,4 +1,5 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
+import { Webhook } from "svix";
 import { storeInboundEmail } from "../lib/inbound-email.js";
 import { checkInboundHeaders, logFilteredEmail } from "../lib/inbound-filter.js";
 import type { ResendInboundPayload } from "../lib/inbound-types.js";
@@ -12,16 +13,27 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  const webhookSecret = process.env.RESEND_INBOUND_WEBHOOK_SECRET;
+  const signingSecret = process.env.RESEND_WEBHOOK_SIGNING_SECRET;
 
-  if (webhookSecret) {
-    const authHeader = req.headers["authorization"];
-    if (authHeader !== `Bearer ${webhookSecret}`) {
-      return res.status(401).json({ error: "Unauthorized" });
+  if (signingSecret) {
+    const wh = new Webhook(signingSecret);
+    const svixId = req.headers["svix-id"] as string;
+    const svixTs = req.headers["svix-timestamp"] as string;
+    const svixSig = req.headers["svix-signature"] as string;
+
+    if (!svixId || !svixTs || !svixSig) {
+      return res.status(401).json({ error: "Missing Svix headers" });
+    }
+
+    try {
+      const rawBody = JSON.stringify(req.body);
+      wh.verify(rawBody, { "svix-id": svixId, "svix-timestamp": svixTs, "svix-signature": svixSig });
+    } catch {
+      return res.status(401).json({ error: "Invalid webhook signature" });
     }
   }
 
-  const body: ResendInboundPayload = req.body;
+  const body: ResendInboundPayload = req.body?.data ?? req.body;
 
   if (!body || !body.from || !body.subject) {
     return res.status(400).json({ error: "Invalid payload: missing required fields" });
@@ -58,12 +70,14 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       })),
     });
 
-    console.log(`Inbound email classified: id=${email.id} category=${email.category} status=${email.status} autoResponse=${email.autoResponseSent}`);
+    console.log(`Inbound email classified: id=${email.id} category=${email.category} priority=${email.priority} route=${email.route} status=${email.status} autoResponse=${email.autoResponseSent}`);
 
     return res.status(200).json({
       received: true,
       id: email.id,
       category: email.category,
+      priority: email.priority,
+      route: email.route,
       status: email.status,
       autoResponseSent: email.autoResponseSent,
     });
