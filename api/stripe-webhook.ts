@@ -71,6 +71,12 @@ async function suppressNurtureEmails(email: string) {
   }
 }
 
+const TIER_ITEM_MAP: Record<string, { id: string; name: string; category: string }> = {
+  full_profile: { id: "full_profile", name: "1Test Full Profile", category: "personality_assessment" },
+  ai_playbook: { id: "ai_playbook", name: "1Test AI Playbook", category: "personality_assessment" },
+  team_monthly: { id: "team_monthly", name: "1Test Team Monthly", category: "team_subscription" },
+};
+
 async function sendGA4PurchaseEvent(session: Stripe.Checkout.Session) {
   const measurementId = process.env.VITE_GA4_MEASUREMENT_ID;
   const apiSecret = process.env.GA4_API_SECRET;
@@ -78,6 +84,9 @@ async function sendGA4PurchaseEvent(session: Stripe.Checkout.Session) {
 
   const clientId = session.metadata?.client_id || `stripe_${session.id}`;
   const email = session.customer_details?.email || "";
+  const tier = session.metadata?.tier || "full_profile";
+  const itemInfo = TIER_ITEM_MAP[tier] || TIER_ITEM_MAP.full_profile;
+  const amount = (session.amount_total || 1200) / 100;
 
   try {
     await fetch(
@@ -92,20 +101,20 @@ async function sendGA4PurchaseEvent(session: Stripe.Checkout.Session) {
               name: "purchase",
               params: {
                 transaction_id: session.id,
-                value: (session.amount_total || 1200) / 100,
+                value: amount,
                 currency: session.currency || "USD",
                 items: [
                   {
-                    item_id: "full_profile",
-                    item_name: "1Test Full Profile",
-                    item_category: "personality_assessment",
-                    price: (session.amount_total || 1200) / 100,
+                    item_id: itemInfo.id,
+                    item_name: itemInfo.name,
+                    item_category: itemInfo.category,
+                    price: amount,
                     quantity: 1,
                   },
                 ],
                 framework: "strengths",
-                upgrade_type: "full_profile",
-                revenue_amount: (session.amount_total || 1200) / 100,
+                upgrade_type: tier,
+                revenue_amount: amount,
                 email_source: email ? "stripe_checkout" : undefined,
               },
             },
