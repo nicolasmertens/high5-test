@@ -8,6 +8,7 @@ import {
   getStressInfo,
   getLeadershipStyle,
 } from "./ActionBranches";
+import { CommunitiesBlock } from "./CommunitiesBlock";
 import { trackBlockViewed } from "../utils/analytics";
 
 interface Props {
@@ -54,41 +55,6 @@ function getBooksWithLinks(
   }));
 }
 
-interface CommunityLink {
-  name: string;
-  url: string;
-  platform: "reddit" | "facebook" | "discord";
-}
-
-function getCommunities(personalityType: string): CommunityLink[] {
-  const groupMap: Record<string, string> = {
-    ENTP: "mbti_entp", ENTJ: "mbti_entj", INTP: "mbti_intp", INTJ: "mbti_intj",
-    ENFP: "mbti_enfp", ENFJ: "mbti_enfj", INFP: "mbti_infp", INFJ: "mbti_infj",
-    ESTP: "mbti_estp", ESFP: "mbti_esfp", ISTP: "mbti_istp", ISFP: "mbti_isfp",
-    ESTJ: "mbti_estj", ESFJ: "mbti_esfj", ISTJ: "mbti_istj", ISFJ: "mbti_isfj",
-  };
-  const group = groupMap[personalityType] || "mbti";
-  const typeLower = personalityType.toLowerCase();
-
-  return [
-    {
-      name: `r/${typeLower}`,
-      url: `https://www.reddit.com/r/${group}/`,
-      platform: "reddit",
-    },
-    {
-      name: `${personalityType} Community`,
-      url: `https://www.facebook.com/groups/${group}/`,
-      platform: "facebook",
-    },
-    {
-      name: "Personality Discord",
-      url: "https://discord.gg/mbti",
-      platform: "discord",
-    },
-  ];
-}
-
 function BlockTracker({ name }: { name: string }) {
   const tracked = useRef(false);
   useEffect(() => {
@@ -107,7 +73,6 @@ export function FreeValueBlocks({ results, personality, enneagram, disc }: Props
   const famous = getFamousPeople(personality.type);
   const stress = getStressInfo(enneagram.primary.type);
   const leadership = getLeadershipStyle(disc.primary.code, personality.type);
-  const communities = getCommunities(personality.type);
 
   return (
     <div className="branches">
@@ -214,31 +179,7 @@ export function FreeValueBlocks({ results, personality, enneagram, disc }: Props
         </div>
       </section>
 
-      <BlockTracker name="communities" />
-      <section className="branch-card">
-        <div className="branch-icon">🌐</div>
-        <h3>Communities For Your Type</h3>
-        <p className="branch-desc">
-          Connect with people who think like you — join {personality.type} communities
-          across Reddit, Facebook, and Discord.
-        </p>
-        <div className="branch-preview">
-          <div className="community-links">
-            {communities.map((c) => (
-              <a
-                key={c.name}
-                href={c.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`community-link community-${c.platform}`}
-              >
-                <span className="community-platform">{c.platform === "reddit" ? "Reddit" : c.platform === "facebook" ? "Facebook" : "Discord"}</span>
-                <span className="community-name">{c.name}</span>
-              </a>
-            ))}
-          </div>
-        </div>
-      </section>
+      <CommunitiesBlock personalityType={personality.type} isPaid={false} />
 
       </div>
   );

@@ -2,6 +2,7 @@ import { type StrengthScore } from "../hooks/useAssessment";
 import { type PersonalityResult, type EnneagramResult, type DISCResult } from "../data/derivations";
 import { ShareButtons } from "./ShareButtons";
 import { InviteSection } from "./InviteSection";
+import { CommunitiesBlock } from "./CommunitiesBlock";
 
 interface Props {
   results: StrengthScore[];
@@ -180,6 +181,9 @@ How your {disc.style} DISC profile and {personality.type} personality shape
         </div>
 
       </section>
+
+      {/* Communities */}
+      <CommunitiesBlock personalityType={personality.type} isPaid={true} />
 
       {/* Share & LinkedIn */}
       <section className="branch-card branch-card-highlight">
