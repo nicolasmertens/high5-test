@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { usePayment } from "../contexts/PaymentContext";
 import { trackCheckoutStarted, trackCTAClicked, trackUpsellClick, trackUpsellView, trackNurtureEnroll } from "../utils/analytics";
+import { useABTest } from "../hooks/useABTest";
 
 type Tier = "full_profile" | "ai_playbook" | "team_monthly";
 
@@ -52,18 +53,22 @@ export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
   const { isLoading } = usePayment();
   const [redirecting, setRedirecting] = useState<Tier | null>(null);
   const viewTracked = useRef(false);
+  const abVariant = useABTest("upsell_messaging");
+
+  const sourceSection = variant === "teaser" ? "upgrade_teaser" : "upgrade_full";
 
   useEffect(() => {
     if (!isLoading && !viewTracked.current) {
       viewTracked.current = true;
       trackUpsellView({
-        sourceSection: variant === "teaser" ? "upgrade_teaser" : "upgrade_full",
+        sourceSection,
         tier: "full_profile",
+        upsellVariant: abVariant,
       });
 
       tryEnrollNurture();
     }
-  }, [isLoading, variant]);
+  }, [isLoading, variant, abVariant, sourceSection]);
 
   const tryEnrollNurture = async () => {
     try {
@@ -89,8 +94,8 @@ export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
   if (isLoading) return null;
 
   const handleUpgrade = async (tier: Tier) => {
-    trackCheckoutStarted("strengths", tier);
-    trackUpsellClick({ tier, sourceSection: variant === "teaser" ? "upgrade_teaser" : "upgrade_full" });
+    trackCheckoutStarted("strengths", tier, abVariant);
+    trackUpsellClick({ tier, sourceSection, upsellVariant: abVariant });
     trackCTAClicked({
       ctaText: `Unlock ${tier === "full_profile" ? "Full Profile" : "AI Playbook"}`,
       ctaLocation: variant === "teaser" ? "upgrade_teaser" : "upgrade_full",
@@ -116,6 +121,16 @@ export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
       <div className="upgrade-teaser">
         <div className="upgrade-teaser-lock">&#10024;</div>
         <h3>Go Deeper With Your Full Profile</h3>
+        {abVariant === "B" && (
+          <p className="upsell-anchor">
+            Normally $29 for individual framework reports — get all four for $12.
+          </p>
+        )}
+        {abVariant === "C" && (
+          <p className="upsell-anchor">
+            Instead of taking 4 separate tests ($100+ and 2+ hours), get all four frameworks from the answers you already gave.
+          </p>
+        )}
         <p>
           You've seen your personality type and top strengths. Unlock your complete
           profile: all 20 strengths ranked, detailed breakdowns for each framework,
@@ -133,6 +148,16 @@ export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
         >
           {redirecting === tier.id ? "Redirecting to checkout..." : `Get Full Profile — ${tier.price}`}
         </button>
+        {abVariant === "B" && (
+          <p className="upsell-guarantee">
+            Not what you expected? Full refund within 14 days. No questions asked.
+          </p>
+        )}
+        {abVariant === "C" && (
+          <p className="upsell-guarantee">
+            Your personalized insights are ready now — they become more useful the sooner you apply them.
+          </p>
+        )}
         <p className="upgrade-subtitle">
           One-time purchase. Instant access. No subscription.
         </p>
@@ -147,6 +172,16 @@ export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
     <div className="upgrade-full">
       <div className="upgrade-icon">&#10024;</div>
       <h2>Go Beyond Your Top 5</h2>
+      {abVariant === "B" && (
+        <p className="upsell-anchor">
+          Normally $29 for individual framework reports — get all four for $12.
+        </p>
+      )}
+      {abVariant === "C" && (
+        <p className="upsell-anchor">
+          Instead of taking 4 separate tests ($100+ and 2+ hours), get all four frameworks from the answers you already gave.
+        </p>
+      )}
       <p>
         You&apos;ve seen your top strengths. Imagine having your complete profile
         across all four frameworks — the patterns, the blind spots, the career
@@ -181,6 +216,16 @@ export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
           </button>
         ))}
       </div>
+      {abVariant === "B" && (
+        <p className="upsell-guarantee">
+          Not what you expected? Full refund within 14 days. No questions asked.
+        </p>
+      )}
+      {abVariant === "C" && (
+        <p className="upsell-guarantee">
+          Your personalized insights are ready now — they become more useful the sooner you apply them.
+        </p>
+      )}
       <p className="upgrade-subtitle">
         SSL-encrypted payment via Stripe. Free tier stays free forever.
       </p>

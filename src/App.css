@@ -2565,6 +2565,22 @@
   margin-top: 0.75rem !important;
 }
 
+.upsell-anchor {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f59e0b !important;
+  margin-bottom: 0.75rem !important;
+  line-height: 1.5 !important;
+}
+
+.upsell-guarantee {
+  font-size: 0.9rem;
+  color: #10b981 !important;
+  font-weight: 500;
+  margin-top: 0.75rem !important;
+  margin-bottom: 0.25rem !important;
+}
+
 .upgrade-full {
   max-width: 640px;
   margin: 2.5rem auto;

@@ -189,12 +189,14 @@ export function trackUpgradeViewed(
 
 export function trackCheckoutStarted(
   framework: string = "strengths",
-  upgradeType: UpgradeType = "full_profile"
+  upgradeType: UpgradeType = "full_profile",
+  upsellVariant?: string,
 ): void {
   posthog.capture("begin_checkout", {
     framework,
     upgrade_type: upgradeType,
     price_variant: "12_one_time",
+    ...(upsellVariant ? { upsell_variant: upsellVariant } : {}),
     ...utmParams,
   });
 }
@@ -386,10 +388,12 @@ export function trackCTAClicked(data: {
 export function trackUpsellClick(data: {
   tier: string;
   sourceSection: string;
+  upsellVariant?: string;
 }): void {
   posthog.capture("upsell_click", {
     tier: data.tier,
     source_section: data.sourceSection,
+    ...(data.upsellVariant ? { upsell_variant: data.upsellVariant } : {}),
     ...utmParams,
   });
 }
@@ -397,10 +401,12 @@ export function trackUpsellClick(data: {
 export function trackUpsellView(data: {
   sourceSection: string;
   tier: string;
+  upsellVariant?: string;
 }): void {
   posthog.capture("upsell_view", {
     source_section: data.sourceSection,
     tier: data.tier,
+    ...(data.upsellVariant ? { upsell_variant: data.upsellVariant } : {}),
     ...utmParams,
   });
 }
