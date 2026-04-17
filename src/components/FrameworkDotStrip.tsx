@@ -23,9 +23,9 @@ export function FrameworkDot({ framework, size = 6 }: { framework: Framework; si
   );
 }
 
-export function FrameworkDotStrip({ size = 6 }: { size?: number }) {
+export function FrameworkDotStrip({ size = 6, gap = 4 }: { size?: number; gap?: number }) {
   return (
-    <span style={{ display: 'inline-flex', alignItems: 'center', gap: 4 }}>
+    <span style={{ display: 'inline-flex', alignItems: 'center', gap }}>
       {(['strengths', 'personality', 'disc', 'enneagram'] as const).map((f) => (
         <FrameworkDot key={f} framework={f} size={size} />
       ))}

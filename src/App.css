@@ -2965,6 +2965,12 @@
   letter-spacing: 0.5px;
 }
 
+.share-card-dot-strip {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
 /* ===== SHARE BUTTONS (in results section) ===== */
 .share-buttons-row {
   display: flex;

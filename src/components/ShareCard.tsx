@@ -7,6 +7,7 @@ import {
 } from "../data/derivations";
 import { domainColors, domainLabels } from "../data/strengths";
 import { getShareCopy, type Segment } from "../data/share-copy";
+import { FrameworkDotStrip } from "./FrameworkDotStrip";
 
 interface Props {
   results: StrengthScore[];
@@ -82,6 +83,9 @@ export const ShareCard = forwardRef<HTMLDivElement, Props>(
                 : "Discover your strengths at"}
             </div>
             <div className="share-card-url">1test.me</div>
+            <div className="share-card-dot-strip">
+              <FrameworkDotStrip size={8} gap={5} />
+            </div>
           </div>
         </div>
       </div>
