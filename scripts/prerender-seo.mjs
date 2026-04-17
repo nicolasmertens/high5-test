@@ -2647,6 +2647,28 @@ function replaceMeta(html, pattern, replacement) {
   return html.replace("</head>", `  ${replacement}\n</head>`);
 }
 
+
+function buildHreflang(route) {
+  // Only add hreflang for routes that have language variants
+  const MULTILANG_PATHS = ["/", "/free-disc-test", "/free-enneagram-test", "/free-personality-test", "/free-strengths-test"];
+  
+  // Normalize: strip /de or /fr prefix
+  const stripped = route.replace(/^\/(de|fr)(\/.+|$)/, (_, __, rest) => rest || "/");
+  
+  if (!MULTILANG_PATHS.includes(stripped)) return null;
+  
+  const enUrl = "https://1test.me" + (stripped === "/" ? "" : stripped);
+  const deUrl = "https://1test.me/de" + (stripped === "/" ? "" : stripped);
+  const frUrl = "https://1test.me/fr" + (stripped === "/" ? "" : stripped);
+  
+  return [
+    `<link rel="alternate" hreflang="en" href="${enUrl}" />`,
+    `<link rel="alternate" hreflang="de" href="${deUrl}" />`,
+    `<link rel="alternate" hreflang="fr" href="${frUrl}" />`,
+    `<link rel="alternate" hreflang="x-default" href="${enUrl}" />`,
+  ].join("\n    ");
+}
+
 function prerender() {
   const indexPath = join(process.cwd(), "dist", "index.html");
   let indexHtml;
@@ -2780,6 +2802,11 @@ function prerender() {
       "</head>",
       `${jsonLdScripts}\n</head>`
     );
+
+    const hreflangTags = buildHreflang(route);
+    if (hreflangTags) {
+      html = html.replace("</head>", `    ${hreflangTags}\n</head>`);
+    }
 
     const bodyContent = buildBodyContent(route);
     if (bodyContent) {
