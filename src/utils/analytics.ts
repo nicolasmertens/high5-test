@@ -260,6 +260,18 @@ export function trackShare(framework: string, shareChannel: string): void {
   });
 }
 
+export function trackSegmentDetermined(data: {
+  segment: string;
+  personality_type: string;
+  source: "referral" | "organic" | "direct";
+}): void {
+  posthog.capture("segment_determined", {
+    segment: data.segment,
+    personality_type: data.personality_type,
+    source: data.source,
+  });
+}
+
 export function trackShareCardViewed(personalityType: string, segment: string | null): void {
   posthog.capture("share_card_viewed", {
     personality_type: personalityType,

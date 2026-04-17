@@ -85,7 +85,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       enneagramWing: profile.enneagramWing,
       enneagramPrimary: profile.enneagramPrimary,
       referralCode: profile.referralCode,
-      segment: profile.intake?.careerStage ?? null,
+      segment: profile.segment ?? null,
       createdAt: new Date(profile.createdAt).toISOString(),
     });
   } catch (err) {

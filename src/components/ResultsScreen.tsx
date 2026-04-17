@@ -15,7 +15,7 @@ import { CareerPathBlock } from "./career/CareerPathBlock";
 import { useShareImage } from "../hooks/useShareImage";
 import { getStoredReferralCode, getStoredProfileHash, getInviteRef } from "../utils/profile";
 import { usePayment } from "../contexts/PaymentContext";
-import { trackUpgradeViewed, trackResultsViewed, trackBlockViewed, trackUpsellClick, trackCTAClicked, trackShareCardViewed } from "../utils/analytics";
+import { trackUpgradeViewed, trackResultsViewed, trackBlockViewed, trackUpsellClick, trackCTAClicked, trackShareCardViewed, trackSegmentDetermined } from "../utils/analytics";
 import { getShareCopy } from "../data/share-copy";
 import { FrameworkDot } from "./FrameworkDotStrip";
 import { loadIntakeAnswers } from "../careerData/segmentConfig";
@@ -108,8 +108,18 @@ export function ResultsScreen({ results, onRestart }: Props) {
         disc_type: disc.style,
         enneagram_type: enneagram.wingLabel,
       });
+      if (intakeAnswers?.careerStage) {
+        const inviteRef = getInviteRef();
+        const utmSource = new URLSearchParams(window.location.search).get("utm_source");
+        const source = inviteRef ? "referral" : utmSource ? "organic" : "direct";
+        trackSegmentDetermined({
+          segment: intakeAnswers.careerStage,
+          personality_type: personality.type,
+          source,
+        });
+      }
     }
-  }, [top5, personality.type, disc.style, enneagram.wingLabel]);
+  }, [top5, personality.type, disc.style, enneagram.wingLabel, intakeAnswers]);
 
   const shareUrl = useMemo(
     () => {

@@ -31,6 +31,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       enneagramWing: profile.enneagramWing,
       topStrengths: profile.topStrengths,
       strengthScores: profile.strengthScores,
+      segment: profile.segment ?? null,
     };
 
     res.setHeader("Cache-Control", "s-maxage=3600, stale-while-revalidate=86400");

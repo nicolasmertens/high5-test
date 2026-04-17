@@ -38,6 +38,19 @@ export interface StoredProfile {
   enneagramPrimaryScore: number;
   createdAt: number;
   intake?: ProfileIntake;
+  segment?: string | null;
+}
+
+export function deriveSegment(careerStage: IntakeCareerStage): string {
+  const map: Record<IntakeCareerStage, string> = {
+    university: "university_student",
+    early_career: "early_career",
+    mid_career: "mid_career",
+    career_changer: "career_changer",
+    plateaued: "plateaued_professional",
+    return_to_work: "return_to_work",
+  };
+  return map[careerStage] ?? careerStage;
 }
 
 const PROFILE_TTL = 60 * 60 * 24 * 90;
@@ -66,6 +79,7 @@ export async function updateProfileIntake(
   const updated: StoredProfile = {
     ...existing,
     intake: { ...intake, updatedAt: Date.now() },
+    segment: deriveSegment(intake.careerStage),
   };
   await gcsSetWithTTL(`profiles/${updated.profileHash}.json`, updated, PROFILE_TTL);
   return updated;
