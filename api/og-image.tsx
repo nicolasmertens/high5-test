@@ -1,5 +1,4 @@
 import { ImageResponse } from "@vercel/og";
-import type { NextRequest } from "@vercel/node";
 
 export const config = {
   runtime: "edge",
@@ -12,7 +11,7 @@ const DOMAIN_COLORS: Record<string, string> = {
   motivating: "#10b981",
 };
 
-export default async function handler(request: NextRequest) {
+export default async function handler(request: Request) {
   if (request.method !== "GET") {
     return new Response(JSON.stringify({ error: "Method not allowed" }), {
       status: 405,
