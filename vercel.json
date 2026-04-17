@@ -37,6 +37,7 @@
     { "source": "/blog/disc-personality-types-explained", "destination": "/blog/disc-personality-types-explained/index.html" },
     { "source": "/blog/introvert-extrovert-test", "destination": "/blog/introvert-extrovert-test/index.html" },
     { "source": "/blog/strengths-and-weaknesses-test", "destination": "/blog/strengths-and-weaknesses-test/index.html" },
+    { "source": "/api/profile/:hash", "destination": "/api/profile/[hash]?hash=:hash" },
     { "source": "/relationship/:id", "destination": "/index.html" },
     { "source": "/pricing", "destination": "/pricing/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }
