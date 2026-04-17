@@ -251,6 +251,28 @@ export function ResultsScreen({ results, onRestart }: Props) {
             </button>
           </div>
 
+          {inviterInfo && (() => {
+            const myHash = getStoredProfileHash();
+            if (!myHash) return null;
+            return (
+              <div className="compare-invite-cta">
+                <div className="compare-invite-icon">🤝</div>
+                <h3>See How You Compare With {inviterInfo.name}</h3>
+                <p>
+                  {inviterInfo.personalityType
+                    ? `You're a ${personality.type} and they're a ${inviterInfo.personalityType} — see your full compatibility.`
+                    : "Discover how your profiles complement each other."}
+                </p>
+                <a
+                  href={`/compare/${inviterInfo.profileHash}/${myHash}`}
+                  className="btn-start btn-compare-cta"
+                >
+                  Compare Profiles →
+                </a>
+              </div>
+            );
+          })()}
+
           <div className="domain-summary">
             <h3>Domain Distribution</h3>
             <div className="domain-bars">
