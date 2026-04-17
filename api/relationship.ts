@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { getProfile } from "./lib/profile-storage.js";
-import { getReport, getReportsByProfile, storeReport } from "./lib/relationship-storage.js";
+import { getReport, getReportsByProfile, storeReport, type RelationshipReport } from "./lib/relationship-storage.js";
 import { generateRelationshipReport } from "./lib/compatibility.js";
 import { getInviteByReferralCode, completeInvite } from "./lib/invite-storage.js";
 import { postHogTrack, sendReportReadyEmail } from "./lib/send.js";
@@ -56,7 +56,7 @@ async function handleCreateReport(req: VercelRequest, res: VercelResponse) {
 
     const reportData = generateRelationshipReport(profileA, profileB);
     const reportId = crypto.randomUUID();
-    const report = {
+    const report: RelationshipReport = {
       id: reportId,
       ...reportData,
       createdAt: Date.now(),
