@@ -59,9 +59,7 @@ export function ActionBranches({ results, personality, enneagram, disc }: Props)
             </span>
           </div>
         </div>
-        <div className="branch-cta">
-          <span className="coming-soon">Full communication guide coming soon</span>
-        </div>
+
       </section>
 
       {/* Blind Spots & Growth Areas */}
@@ -81,9 +79,7 @@ export function ActionBranches({ results, personality, enneagram, disc }: Props)
             </div>
           ))}
         </div>
-        <div className="branch-cta">
-          <span className="coming-soon">Personalized growth plan coming soon</span>
-        </div>
+
       </section>
 
       {/* Career Paths */}
@@ -104,11 +100,7 @@ export function ActionBranches({ results, personality, enneagram, disc }: Props)
             ))}
           </div>
         </div>
-        <div className="branch-cta">
-          <span className="coming-soon">
-            Detailed career report with action steps coming soon
-          </span>
-        </div>
+
       </section>
 
       {/* Books */}
@@ -130,11 +122,7 @@ export function ActionBranches({ results, personality, enneagram, disc }: Props)
             </div>
           ))}
         </div>
-        <div className="branch-cta">
-          <span className="coming-soon">
-            Full reading list with affiliate links coming soon
-          </span>
-        </div>
+
       </section>
 
       {/* Famous People Like You */}
@@ -190,11 +178,7 @@ How your {disc.style} DISC profile and {personality.type} personality shape
             <p>{getLeadershipStyle(disc.primary.code, personality.type)}</p>
           </div>
         </div>
-        <div className="branch-cta">
-          <span className="coming-soon">
-            Full leadership report coming soon
-          </span>
-        </div>
+
       </section>
 
       {/* Share & LinkedIn */}
@@ -231,7 +215,7 @@ How your {disc.style} DISC profile and {personality.type} personality shape
 // Data helpers — lightweight content, no API needed
 // ============================================================
 
-function getCareerSuggestions(
+export function getCareerSuggestions(
   personalityType: string,
   _top5: StrengthScore[],
 ): string[] {
@@ -256,7 +240,7 @@ function getCareerSuggestions(
   return careers[personalityType] || careers["ENTP"];
 }
 
-function getBookSuggestions(
+export function getBookSuggestions(
   personalityType: string,
   enneagramType: number,
 ): { title: string; author: string; why: string }[] {
@@ -292,7 +276,7 @@ function getBookSuggestions(
   return books.slice(0, 4);
 }
 
-function getFamousPeople(personalityType: string): string[] {
+export function getFamousPeople(personalityType: string): string[] {
   const famous: Record<string, string[]> = {
     ENTP: ["Steve Jobs", "Mark Twain", "Thomas Edison", "Céline Dion", "Barack Obama", "Sacha Baron Cohen"],
     ENTJ: ["Margaret Thatcher", "Steve Jobs", "Napoleon", "Gordon Ramsay", "Elon Musk"],
@@ -314,7 +298,7 @@ function getFamousPeople(personalityType: string): string[] {
   return famous[personalityType] || famous["ENTP"];
 }
 
-function getStressInfo(type: number): { best: string; stress: string } {
+export function getStressInfo(type: number): { best: string; stress: string } {
   const info: Record<number, { best: string; stress: string }> = {
     1: { best: "Principled, fair, and inspiring others with your integrity.", stress: "Become overly critical, rigid, and resentful. May lash out at imperfection." },
     2: { best: "Genuinely caring, generous, and empowering others.", stress: "Become manipulative, possessive, or martyr-like. 'After all I've done for you.'" },
@@ -329,7 +313,7 @@ function getStressInfo(type: number): { best: string; stress: string } {
   return info[type] || info[7];
 }
 
-function getLeadershipStyle(discCode: string, personalityType: string): string {
+export function getLeadershipStyle(discCode: string, personalityType: string): string {
   const styles: Record<string, string> = {
     D: `You lead from the front — decisive, fast, results-first. Your team knows exactly where you stand. Watch out for steamrolling quieter voices. As an ${personalityType}, you combine this directness with strategic vision.`,
     I: `You lead through energy and inspiration — rallying people around a vision with enthusiasm. Your team loves your optimism. Watch out for over-promising and under-following-through. As an ${personalityType}, your ideas are your superpower.`,

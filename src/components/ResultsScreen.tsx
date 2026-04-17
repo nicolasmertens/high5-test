@@ -4,6 +4,7 @@ import { domainColors, domainLabels } from "../data/strengths";
 import { derivePersonalityType, deriveEnneagram, deriveDISC } from "../data/derivations";
 import { DetailedResults } from "./DetailedResults";
 import { ActionBranches } from "./ActionBranches";
+import { FreeValueBlocks } from "./FreeValueBlocks";
 import { UpgradePrompt } from "./UpgradePrompt";
 import { ShareCard } from "./ShareCard";
 import { ShareButtons } from "./ShareButtons";
@@ -274,6 +275,13 @@ export function ResultsScreen({ results, onRestart }: Props) {
               </div>
             </div>
           </div>
+
+          <FreeValueBlocks
+            results={results}
+            personality={personality}
+            enneagram={enneagram}
+            disc={disc}
+          />
 
           <div className="share-section">
             <div className="share-section-header">

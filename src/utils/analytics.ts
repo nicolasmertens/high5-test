@@ -429,6 +429,14 @@ export function trackNurtureEmailClick(data: {
   });
 }
 
+export function trackBlockViewed(blockName: string, isPaid: boolean): void {
+  posthog.capture("block_viewed", {
+    block_name: blockName,
+    is_paid: isPaid,
+    page_path: window.location.pathname,
+  });
+}
+
 export function trackHomepageView(): void {
   posthog.capture("homepage_view", {
     page_path: "/",

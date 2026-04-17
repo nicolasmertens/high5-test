@@ -1829,6 +1829,101 @@
   margin: 0;
 }
 
+/* Communities */
+.community-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.community-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--text-h);
+  transition: all 0.15s;
+  background: var(--card-bg);
+}
+
+.community-link:hover {
+  border-color: #7c3aed;
+  background: rgba(124, 58, 237, 0.04);
+}
+
+.community-platform {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 3px 10px;
+  border-radius: 6px;
+  min-width: 75px;
+  text-align: center;
+}
+
+.community-reddit .community-platform {
+  background: #ff4500;
+  color: white;
+}
+
+.community-facebook .community-platform {
+  background: #1877f2;
+  color: white;
+}
+
+.community-discord .community-platform {
+  background: #5865f2;
+  color: white;
+}
+
+.community-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* AI Playbook teaser */
+.playbook-teaser {
+  border-color: #7c3aed;
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.06), rgba(124, 58, 237, 0.12));
+}
+
+.playbook-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.playbook-features li {
+  padding: 6px 0;
+  font-size: 14px;
+  color: var(--text);
+  padding-left: 20px;
+  position: relative;
+}
+
+.playbook-features li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #7c3aed;
+  font-weight: 700;
+}
+
+/* Book links */
+.book-link {
+  text-decoration: none;
+  color: var(--text-h);
+}
+
+.book-link:hover {
+  color: #7c3aed;
+  text-decoration: underline;
+}
+
 /* Share buttons */
 .share-buttons {
   display: flex;
