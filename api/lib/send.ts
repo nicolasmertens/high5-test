@@ -1,17 +1,25 @@
 import { Resend } from "resend";
 import type { WelcomeEmailData, Subscriber } from "./types.js";
+import type { NurtureEmailData, NurtureSubscriber } from "./nurture-types.js";
 import { WELCOME_SEQUENCE, FROM_EMAIL, REPLY_TO, EMAIL_SCHEDULES } from "./types.js";
 import { htmlEmails } from "./email-html.js";
 import { plainTextEmails } from "./email-text.js";
+import { nurtureHtmlEmails } from "./nurture-email-html.js";
+import { nurturePlainTextEmails } from "./nurture-email-text.js";
 
-const UTM_PARAMS = {
+const WELCOME_UTM_PARAMS = {
   utm_source: "email",
   utm_medium: "welcome_sequence",
 } as const;
 
+const NURTURE_UTM_PARAMS = {
+  utm_source: "email",
+  utm_medium: "nurture_sequence",
+} as const;
+
 function buildUpgradeUrl(emailNumber: number): string {
   const params = new URLSearchParams({
-    ...UTM_PARAMS,
+    ...WELCOME_UTM_PARAMS,
     utm_campaign: `welcome_email_${emailNumber}`,
     utm_content: "cta_upgrade",
   });
@@ -20,18 +28,40 @@ function buildUpgradeUrl(emailNumber: number): string {
 
 function buildInviteUrl(emailNumber: number): string {
   const params = new URLSearchParams({
-    ...UTM_PARAMS,
+    ...WELCOME_UTM_PARAMS,
     utm_campaign: `welcome_email_${emailNumber}`,
     utm_content: "cta_invite",
   });
   return `https://1test.me/?${params.toString()}#invite`;
 }
 
+function buildNurtureUpgradeUrl(emailNumber: number): string {
+  const params = new URLSearchParams({
+    ...NURTURE_UTM_PARAMS,
+    utm_campaign: `nurture_email_${emailNumber}`,
+    utm_content: "cta_upgrade",
+  });
+  return `https://1test.me/?${params.toString()}#upgrade`;
+}
+
+function buildNurtureFaqUrl(emailNumber: number): string {
+  const params = new URLSearchParams({
+    ...NURTURE_UTM_PARAMS,
+    utm_campaign: `nurture_email_${emailNumber}`,
+    utm_content: "link_faq",
+  });
+  return `https://1test.me/?${params.toString()}#faq`;
+}
+
 function buildUnsubscribeLink(subscriberId: string): string {
   return `https://1test.me/api/unsubscribe?sid=${subscriberId}`;
 }
 
-const SUBJECTS: Record<number, string> = {
+function buildNurtureUnsubscribeLink(subscriberId: string): string {
+  return `https://1test.me/api/unsubscribe?type=nurture&sid=${subscriberId}`;
+}
+
+const WELCOME_SUBJECTS: Record<number, string> = {
   1: "Your personality results are ready",
   2: "You're more than just a {type}",
   3: "People who understand their personality outperform their peers",
@@ -40,8 +70,31 @@ const SUBJECTS: Record<number, string> = {
 };
 
 function getSubject(emailNumber: number, data: WelcomeEmailData): string {
-  return SUBJECTS[emailNumber]
+  return WELCOME_SUBJECTS[emailNumber]
     .replace("{type}", data.frameworkType);
+}
+
+const NURTURE_SUBJECTS: Record<number, string> = {
+  1: "Curious about your full {type} profile?",
+  2: "What {type} profiles look like when you go deeper",
+  3: "Your results are still here — and a few questions answered",
+};
+
+function getNurtureSubject(emailNumber: number, data: NurtureEmailData): string {
+  return NURTURE_SUBJECTS[emailNumber]
+    .replace(/{type}/g, data.frameworkType);
+}
+
+function buildNurtureEmailData(subscriber: NurtureSubscriber, emailNumber: number): NurtureEmailData {
+  return {
+    firstName: subscriber.firstName,
+    frameworkName: subscriber.frameworkName,
+    frameworkType: subscriber.frameworkType,
+    oneSentenceTraitSummary: subscriber.oneSentenceTraitSummary,
+    upgradeUrl: buildNurtureUpgradeUrl(emailNumber),
+    faqUrl: buildNurtureFaqUrl(emailNumber),
+    unsubscribeLink: buildNurtureUnsubscribeLink(subscriber.id),
+  };
 }
 
 function buildEmailData(subscriber: Subscriber, emailNumber: number): WelcomeEmailData {
@@ -110,6 +163,53 @@ export async function sendWelcomeEmail(
   } catch (err: unknown) {
     const message = err instanceof Error ? err.message : "Unknown error";
     console.error(`Error sending email ${emailNumber} to ${subscriber.email}:`, message);
+    return { success: false, error: message };
+  }
+}
+
+export async function sendNurtureEmail(
+  subscriber: NurtureSubscriber,
+  emailNumber: number
+): Promise<{ success: boolean; messageId?: string; error?: string }> {
+  if (emailNumber < 1 || emailNumber > 3) {
+    return { success: false, error: `Invalid nurture email number: ${emailNumber}` };
+  }
+
+  if (subscriber.suppressed) {
+    return { success: false, error: "Nurture subscriber is suppressed" };
+  }
+
+  if (subscriber.emailsSent.includes(emailNumber)) {
+    return { success: false, error: `Nurture email ${emailNumber} already sent` };
+  }
+
+  const data = buildNurtureEmailData(subscriber, emailNumber);
+  const htmlContent = nurtureHtmlEmails[emailNumber](data);
+  const plainTextContent = nurturePlainTextEmails[emailNumber](data);
+  const subject = getNurtureSubject(emailNumber, data);
+
+  try {
+    const result = await getResend().emails.send({
+      from: FROM_EMAIL,
+      to: subscriber.email,
+      subject,
+      html: htmlContent,
+      text: plainTextContent,
+      replyTo: REPLY_TO,
+      headers: {
+        "List-Unsubscribe": `<${data.unsubscribeLink}>`,
+      },
+    });
+
+    if (result.error) {
+      console.error(`Failed to send nurture email ${emailNumber} to ${subscriber.email}:`, result.error);
+      return { success: false, error: result.error.message };
+    }
+
+    return { success: true, messageId: result.data?.id };
+  } catch (err: unknown) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    console.error(`Error sending nurture email ${emailNumber} to ${subscriber.email}:`, message);
     return { success: false, error: message };
   }
 }

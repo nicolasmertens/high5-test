@@ -1,6 +1,7 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import Stripe from "stripe";
 import { getSubscriberByEmail, suppressSubscriber } from "./lib/subscribers.js";
+import { getNurtureSubscriberByEmail, suppressNurtureSubscriber } from "./lib/nurture-subscribers.js";
 import { postHogTrack } from "./lib/send.js";
 import { storePayment, type StoredPayment } from "./lib/payment-storage.js";
 
@@ -51,6 +52,22 @@ async function suppressWelcomeEmails(email: string) {
     }
   } catch (err) {
     console.error("Failed to suppress welcome emails:", err);
+  }
+}
+
+async function suppressNurtureEmails(email: string) {
+  try {
+    const nurtureSub = await getNurtureSubscriberByEmail(email);
+    if (nurtureSub && !nurtureSub.suppressed) {
+      await suppressNurtureSubscriber(nurtureSub.id);
+      await postHogTrack("nurture_sequence_suppressed", {
+        distinct_id: email,
+        reason: "purchase",
+      });
+      console.log(`Suppressed nurture emails for ${email}`);
+    }
+  } catch (err) {
+    console.error("Failed to suppress nurture emails:", err);
   }
 }
 
@@ -148,6 +165,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       const email = session.customer_details?.email;
       if (email) {
         await suppressWelcomeEmails(email);
+        await suppressNurtureEmails(email);
       }
 
       const payment: StoredPayment = {

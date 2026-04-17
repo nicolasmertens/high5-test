@@ -404,3 +404,27 @@ export function trackUpsellView(data: {
     ...utmParams,
   });
 }
+
+export function trackNurtureEnroll(data: {
+  framework: string;
+  frameworkType: string;
+}): void {
+  posthog.capture("nurture_enrolled", {
+    framework: data.framework,
+    framework_type: data.frameworkType,
+    ...utmParams,
+  });
+}
+
+export function trackNurtureEmailClick(data: {
+  emailNumber: number;
+  framework: string;
+  linkType: "cta_upgrade" | "link_faq";
+}): void {
+  posthog.capture("nurture_email_clicked", {
+    email_number: data.emailNumber,
+    framework: data.framework,
+    link_type: data.linkType,
+    ...utmParams,
+  });
+}

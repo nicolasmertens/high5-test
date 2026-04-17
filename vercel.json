@@ -3,6 +3,10 @@
     {
       "path": "/api/welcome-cron",
       "schedule": "0 * * * *"
+    },
+    {
+      "path": "/api/nurture-cron",
+      "schedule": "15 * * * *"
     }
   ],
   "rewrites": [

@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { trackEmailCaptured } from "../utils/analytics";
 
+const NURTURE_EMAIL_KEY = "1test_nurture_email";
+
 interface EmailCaptureProps {
   frameworkName: string;
   frameworkType: string;
@@ -20,14 +22,15 @@ export function EmailCapture({ frameworkName, frameworkType, oneSentenceTraitSum
     setErrorMessage("");
 
     try {
-      const firstName = email.trim().split("@")[0].split(/[._-]/)[0];
+      const normalizedEmail = email.trim().toLowerCase();
+      const firstName = normalizedEmail.split("@")[0].split(/[._-]/)[0];
       const capitalizedName = firstName.charAt(0).toUpperCase() + firstName.slice(1).toLowerCase();
 
       const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          email: email.trim().toLowerCase(),
+          email: normalizedEmail,
           firstName: capitalizedName,
           frameworkName,
           frameworkType,
@@ -40,6 +43,7 @@ export function EmailCapture({ frameworkName, frameworkType, oneSentenceTraitSum
         throw new Error(data.error || "Something went wrong");
       }
 
+      try { sessionStorage.setItem(NURTURE_EMAIL_KEY, normalizedEmail); } catch { /* storage unavailable */ }
       setStatus("success");
       trackEmailCaptured("results_page", frameworkName);
     } catch (err: any) {

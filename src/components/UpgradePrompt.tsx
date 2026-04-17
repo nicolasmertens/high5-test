@@ -1,8 +1,11 @@
 import { useState, useEffect, useRef } from "react";
 import { usePayment } from "../contexts/PaymentContext";
-import { trackCheckoutStarted, trackCTAClicked, trackUpsellClick, trackUpsellView } from "../utils/analytics";
+import { trackCheckoutStarted, trackCTAClicked, trackUpsellClick, trackUpsellView, trackNurtureEnroll } from "../utils/analytics";
 
 type Tier = "full_profile" | "ai_playbook" | "team_monthly";
+
+const NURTURE_EMAIL_KEY = "1test_nurture_email";
+const NURTURE_ENROLLED_KEY = "1test_nurture_enrolled";
 
 interface TierInfo {
   id: Tier;
@@ -57,8 +60,31 @@ export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
         sourceSection: variant === "teaser" ? "upgrade_teaser" : "upgrade_full",
         tier: "full_profile",
       });
+
+      tryEnrollNurture();
     }
   }, [isLoading, variant]);
+
+  const tryEnrollNurture = async () => {
+    try {
+      const enrolled = sessionStorage.getItem(NURTURE_ENROLLED_KEY);
+      if (enrolled) return;
+
+      const email = sessionStorage.getItem(NURTURE_EMAIL_KEY);
+      if (!email) return;
+
+      const res = await fetch("/api/nurture-enroll", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+
+      if (res.ok) {
+        trackNurtureEnroll({ framework: "strengths", frameworkType: "full_profile" });
+        try { sessionStorage.setItem(NURTURE_ENROLLED_KEY, "true"); } catch { /* storage unavailable */ }
+      }
+    } catch { /* nurture enroll best-effort */ }
+  };
 
   if (isLoading) return null;
 
