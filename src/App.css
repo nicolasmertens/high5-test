@@ -4145,23 +4145,53 @@
   padding: 0 0 40px;
 }
 
+/* Hero — dark gradient */
 .hero {
-  padding: 60px 0 40px;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 40%, #2d1b69 80%, #1a0938 100%);
+  color: #f3f4f6;
+  padding: 80px 24px 96px;
+  margin-left: -20px;
+  margin-right: -20px;
+  text-align: center;
+}
+
+.hero-bolt-wrapper {
+  margin-bottom: 20px;
+}
+
+.hero-bolt {
+  display: inline-block;
+}
+
+.bolt-svg {
+  display: block;
+  filter: drop-shadow(0 0 8px rgba(134, 59, 255, 0.6));
+  animation: bolt-glow 3s ease-in-out infinite;
+}
+
+@keyframes bolt-glow {
+  0%   { filter: drop-shadow(0 0  8px rgba(134, 59, 255, 0.55)); }
+  50%  { filter: drop-shadow(0 0 24px rgba(134, 59, 255, 0.95)) drop-shadow(0 0 48px rgba(134, 59, 255, 0.35)); }
+  100% { filter: drop-shadow(0 0  8px rgba(134, 59, 255, 0.55)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bolt-svg { animation: none; }
 }
 
 .hero-headline {
-  font-size: 2.5rem;
-  font-weight: 700;
-  line-height: 1.15;
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
   letter-spacing: -0.02em;
-  color: var(--text-h);
+  color: #f3f4f6;
   margin-bottom: 16px;
 }
 
 .hero-subtitle {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   line-height: 1.6;
-  color: var(--text);
+  color: rgba(255, 255, 255, 0.72);
   max-width: 560px;
   margin: 0 auto 28px;
 }
@@ -4183,28 +4213,32 @@
 .hero-cta-secondary {
   display: inline-flex;
   align-items: center;
-  color: var(--text);
+  color: rgba(255, 255, 255, 0.85);
   font-size: 16px;
   font-weight: 500;
-  text-decoration: none;
+  text-decoration: underline;
   padding: 16px 24px;
-  border: 1px solid var(--border);
   border-radius: 8px;
-  transition: border-color 0.15s, color 0.15s;
+  transition: color 0.15s;
+  background: transparent;
+  border: none;
 }
 
 .hero-cta-secondary:hover {
-  border-color: var(--text);
-  color: var(--text-h);
+  color: #ffffff;
 }
 
 .hero .trust-bar {
   margin-top: 8px;
 }
 
+.hero .trust-item {
+  color: rgba(255, 255, 255, 0.65);
+}
+
 .section-headline {
-  font-size: 1.75rem;
-  font-weight: 600;
+  font-size: 2.5rem;
+  font-weight: 700;
   color: var(--text-h);
   margin-bottom: 32px;
   letter-spacing: -0.01em;
@@ -4303,10 +4337,17 @@
   color: var(--text);
 }
 
-/* Comparison */
+/* Comparison — dark navy */
 .comparison-section {
-  padding: 48px 0;
-  border-top: 1px solid var(--border);
+  background: #16213e;
+  color: #f3f4f6;
+  padding: 64px 24px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.comparison-section .section-headline {
+  color: #f3f4f6;
 }
 
 .comparison-grid {
@@ -4317,15 +4358,15 @@
 }
 
 .comparison-col {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.10);
   border-radius: 12px;
   padding: 28px;
   position: relative;
 }
 
 .comparison-paid {
-  border-color: var(--accent);
+  border-left: 3px solid #f59e0b;
 }
 
 .comparison-badge {
@@ -4343,13 +4384,13 @@
 .comparison-tier {
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--text-h);
+  color: #a78bfa;
   margin-bottom: 12px;
 }
 
 .comparison-paid-note {
   font-size: 0.85rem;
-  color: var(--text);
+  color: rgba(255, 255, 255, 0.55);
   margin-bottom: 8px;
 }
 
@@ -4361,7 +4402,7 @@
 
 .comparison-features li {
   font-size: 0.88rem;
-  color: var(--text);
+  color: rgba(255, 255, 255, 0.72);
   line-height: 1.6;
   padding-left: 20px;
   position: relative;
@@ -4371,7 +4412,7 @@
   content: "\2713";
   position: absolute;
   left: 0;
-  color: var(--accent);
+  color: #f59e0b;
   font-weight: 700;
 }
 
@@ -4382,8 +4423,12 @@
 }
 
 @media (max-width: 640px) {
+  .hero {
+    padding: 60px 20px 72px;
+  }
+
   .hero-headline {
-    font-size: 1.75rem;
+    font-size: 2.25rem;
   }
 
   .hero-subtitle {
@@ -4406,6 +4451,10 @@
 
   .comparison-grid {
     grid-template-columns: 1fr;
+  }
+
+  .comparison-section {
+    padding: 48px 20px;
   }
 }
 

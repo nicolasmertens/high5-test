@@ -10,6 +10,7 @@
   --thinking: #6366f1;
   --feeling: #ec4899;
   --motivating: #10b981;
+  --font-display: Outfit, system-ui, sans-serif;
   --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
@@ -53,8 +54,15 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   color: var(--text-h);
+  font-weight: 600;
+  font-family: var(--font-display);
+}
+
+.btn-start {
+  font-family: var(--font-display);
   font-weight: 600;
 }
 
