@@ -1847,6 +1847,36 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/istj-vs-intj",
     ogType: "article",
   },
+  "/blog/infj-vs-intj": {
+    title: "INFJ vs INTJ — Two Rare Visionaries, Different Hearts",
+    description: "INFJ and INTJ are both rare, strategic, and intensely private — but feeling vs. thinking creates a profound difference. Complete comparison with careers and relationships.",
+    canonicalUrl: "https://1test.me/blog/infj-vs-intj",
+    ogType: "article",
+  },
+  "/blog/enfp-vs-infj": {
+    title: "ENFP vs INFJ — Why They're Often Confused and How to Tell Them Apart",
+    description: "ENFP and INFJ both see possibilities and care deeply about people — but they process the world very differently. Complete comparison of strengths, careers, and compatibility.",
+    canonicalUrl: "https://1test.me/blog/enfp-vs-infj",
+    ogType: "article",
+  },
+  "/blog/entp-vs-intj": {
+    title: "ENTP vs INTJ — Two Strategic Thinkers, Opposite Styles",
+    description: "ENTP and INTJ are both analytical and intellectually confident — but their energy, approach, and leadership styles differ sharply. Complete type comparison.",
+    canonicalUrl: "https://1test.me/blog/entp-vs-intj",
+    ogType: "article",
+  },
+  "/blog/isfj-vs-infj": {
+    title: "ISFJ vs INFJ — Two Caring Introverts, Very Different Minds",
+    description: "ISFJ and INFJ are both warm, organized introverts who care deeply about others — but sensing vs. intuition changes everything about how they think and lead.",
+    canonicalUrl: "https://1test.me/blog/isfj-vs-infj",
+    ogType: "article",
+  },
+  "/blog/istp-vs-intp": {
+    title: "ISTP vs INTP — Two Analytical Introverts, Different Worlds",
+    description: "ISTP and INTP are both quiet, logical, and independent. But sensing vs. intuition means they live in very different worlds. Complete type comparison.",
+    canonicalUrl: "https://1test.me/blog/istp-vs-intp",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {
