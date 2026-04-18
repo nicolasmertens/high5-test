@@ -1919,6 +1919,42 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/esfj-vs-isfj",
     ogType: "article",
   },
+  "/blog/intp-vs-infp": {
+    title: "INTP vs INFP — Logic vs Values in Two Introverted Idealists",
+    description: "INTP and INFP are both quiet, introspective introverts — but they think and feel very differently. Complete comparison of logic vs values, careers, and relationships.",
+    canonicalUrl: "https://1test.me/blog/intp-vs-infp",
+    ogType: "article",
+  },
+  "/blog/intj-vs-infj": {
+    title: "INTJ vs INFJ — Two Rare Strategists With Different Inner Worlds",
+    description: "INTJ and INFJ are both rare, strategic introverts — but they lead with very different functions. Complete comparison covering logic, empathy, careers, and relationships.",
+    canonicalUrl: "https://1test.me/blog/intj-vs-infj",
+    ogType: "article",
+  },
+  "/blog/entp-vs-enfp": {
+    title: "ENTP vs ENFP — Two Idea-Driven Extroverts Who Engage Very Differently",
+    description: "ENTP and ENFP are both idea-driven extroverts — but they engage with the world through very different functions. Complete comparison covering debate, creativity, and careers.",
+    canonicalUrl: "https://1test.me/blog/entp-vs-enfp",
+    ogType: "article",
+  },
+  "/blog/infj-vs-enfj": {
+    title: "INFJ vs ENFJ — Two Empathetic Idealists With Different Energy",
+    description: "INFJ and ENFJ are both empathetic, visionary idealists — but they interact with the world very differently. Complete comparison covering introversion, leadership, and relationships.",
+    canonicalUrl: "https://1test.me/blog/infj-vs-enfj",
+    ogType: "article",
+  },
+  "/blog/isfj-vs-istj": {
+    title: "ISFJ vs ISTJ — Two Dependable Types With Different Core Drivers",
+    description: "ISFJ and ISTJ are both reliable, practical, and devoted to duty — but they are driven by very different priorities. Complete comparison covering care vs logic, careers, and relationships.",
+    canonicalUrl: "https://1test.me/blog/isfj-vs-istj",
+    ogType: "article",
+  },
+  "/blog/intp-vs-infj": {
+    title: "INTP vs INFJ — Two Complex Introverts Who Are More Different Than They Appear",
+    description: "INTP and INFJ are frequently confused — both are rare, introspective, and complex. Complete guide covering the real cognitive differences and how to tell them apart.",
+    canonicalUrl: "https://1test.me/blog/intp-vs-infj",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {
