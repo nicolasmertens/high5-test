@@ -2051,6 +2051,42 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/esfj-careers",
     ogType: "article",
   },
+  "/blog/enneagram-type-4-vs-type-5": {
+    title: "Enneagram Type 4 vs Type 5 — Key Differences Explained",
+    description: "Enneagram Type 4 and Type 5 are both introspective and withdrawn, but they're motivated by completely different things. Learn how to tell them apart.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-4-vs-type-5",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-1-vs-type-6": {
+    title: "Enneagram Type 1 vs Type 6 — Key Differences Explained",
+    description: "Enneagram Type 1 and Type 6 can look similar — both are responsible and dutiful. Here's how to tell them apart based on motivation, not just behavior.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-1-vs-type-6",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-2-vs-type-9": {
+    title: "Enneagram Type 2 vs Type 9 — Key Differences Explained",
+    description: "Both Enneagram Type 2 and Type 9 are warm and accommodating. Here's how to tell them apart based on what drives their people-pleasing behavior.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-2-vs-type-9",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-3-vs-type-7": {
+    title: "Enneagram Type 3 vs Type 7 — Key Differences Explained",
+    description: "Enneagram Type 3 and Type 7 are both optimistic and energetic. Here's how to tell them apart and what drives each type underneath the surface energy.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-3-vs-type-7",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-4-vs-type-9": {
+    title: "Enneagram Type 4 vs Type 9 — Key Differences Explained",
+    description: "Both Enneagram Type 4 and Type 9 are introspective and drawn to peace. Here's how to tell them apart based on emotional intensity and identity.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-4-vs-type-9",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-5-vs-type-9": {
+    title: "Enneagram Type 5 vs Type 9 — Key Differences Explained",
+    description: "Both Enneagram Type 5 and Type 9 are private and withdrawn, but they pull back for very different reasons. Learn how to tell them apart.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-5-vs-type-9",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {

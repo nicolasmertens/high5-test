@@ -14644,6 +14644,348 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-18",
   },
+
+  "enneagram-type-4-vs-type-5": {
+    slug: "enneagram-type-4-vs-type-5",
+    metaTitle: "Enneagram Type 4 vs Type 5 — Key Differences Explained",
+    metaDesc: "Enneagram Type 4 and Type 5 are both introspective and withdrawn, but they're motivated by completely different things. Learn how to tell them apart and what makes each type tick.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-4-vs-type-5",
+    h1: "Enneagram Type 4 vs Type 5 — Key Differences",
+    sections: [
+      {
+        heading: "Why Type 4 and Type 5 get confused",
+        html: p("Enneagram Type 4 (The Individualist) and Type 5 (The Investigator) are two of the most commonly confused type pairs. Both tend to be introspective, private, and drawn to depth over surface interactions. Both are often described as 'different' from mainstream culture — and both often feel misunderstood.") +
+          p("But their underlying motivations are fundamentally different, and understanding that difference clarifies which type you are far more quickly than comparing trait lists.") +
+          p("Type 4's core question: Am I unique? Am I truly myself? Type 5's core question: Do I have enough knowledge and capacity to handle the world?"),
+      },
+      {
+        heading: "The core difference: feeling vs. knowing",
+        html: p("Type 4 is in the Feeling triad (Heart center). Their attention goes to their own emotional experience — they are constantly checking whether their feelings are being authentically honored, whether their identity is genuinely their own, and whether others truly see them. Depth of feeling is both their gift and their struggle.") +
+          p("Type 5 is in the Thinking triad (Head center). Their attention goes outward into ideas, systems, and knowledge. They accumulate understanding as a form of security — if they know enough, they'll be ready for whatever comes. They observe the world rather than feeling it.") +
+          p("The practical test: when you're under stress, do you go deeper into your emotional world, crafting meaning from what you feel — or do you withdraw even further into your mind, trying to think through the problem with enough data?"),
+      },
+      {
+        heading: "How Type 4 and Type 5 appear in daily life",
+        html: p("Type 4 in daily life: drawn to art, music, and literature that moves them; frequently aware of what's missing in their lives or relationships; tends toward melancholy or longing even in good periods; highly attuned to beauty and aesthetic experience; relationships feel central, even if painful.") +
+          p("Type 5 in daily life: drawn to mastery of specific domains; tends to observe rather than participate; often uncomfortable with demands on their energy or time; can seem detached in emotional situations; prefers knowing the rules of a situation before entering it; deeply private about inner life.") +
+          p("A quick distinction: if you read a book and your first instinct is 'what does this make me feel?', you're probably a 4. If it's 'what can I learn from this?', you're probably a 5."),
+      },
+      {
+        heading: "Stress and growth directions",
+        html: p("Under stress, Type 4 moves toward Type 2 behavior — they become more demanding of connection and reassurance, more focused on what others owe them emotionally. Under growth, they move toward Type 1 — becoming more disciplined, objective, and principled.") +
+          p("Under stress, Type 5 moves toward Type 7 behavior — they become scattered, impulsive, and escapist. Under growth, they move toward Type 8 — becoming more confident, assertive, and willing to engage directly with the world.") +
+          p("Stress behavior is a useful diagnostic: if you become more emotionally demanding and relationally intense under pressure, you're likely a 4. If you scatter and seek escape into distraction, you're likely a 5."),
+      },
+      {
+        heading: "Type 4 and Type 5 in relationships",
+        html: p("Type 4s seek deep, authentic connection. They want to be fully known — the dark parts and the light — and they often push relationships to hold more emotional intensity than the other person is ready for. They may feel chronically misunderstood.") +
+          p("Type 5s seek connection on their own terms — they share selectively, compartmentalize, and need significant alone time even in close relationships. They may appear emotionally unavailable while being deeply loyal in their own way.") +
+          p("4-5 relationships are common and often deeply meaningful. The 4 brings emotional depth and expressiveness; the 5 brings intellectual depth and stability. The friction is usually around the 4's need for more emotional engagement than the 5 naturally provides."),
+      },
+    ],
+    faqs: [
+      { question: "How do I know if I'm a Type 4 or Type 5?", answer: "The clearest diagnostic is your center of gravity: do you organize your inner life around emotion and identity (Type 4), or around knowledge and competency (Type 5)? Under stress, Type 4s become more relationally demanding and emotional; Type 5s become more scattered and withdrawn into distraction. Type 4s tend to describe themselves in terms of what they feel and who they are; Type 5s tend to describe themselves in terms of what they know and understand." },
+      { question: "Can someone be both Type 4 and Type 5?", answer: "No one has two core types, but a Type 5 with a 4 wing (5w4) is common and can look quite similar to a Type 4. The 5w4 combines the 5's drive for knowledge with the 4's aesthetic sensitivity and depth of feeling. The difference is still there in the core motivation: the 5w4 still fundamentally needs to know and understand, while the 4 fundamentally needs to be authentic and emotionally real." },
+      { question: "Are Type 4 and Type 5 compatible?", answer: "Yes — 4 and 5 pairings are often described as natural complements. The 4's emotional depth helps the 5 access their inner life; the 5's stability and intellectual groundedness helps the 4 feel secure. The main friction point is pacing: 4s often want more emotional closeness than 5s naturally provide, and 5s can feel overwhelmed by 4s' need for depth. Awareness of these tendencies makes the dynamic much more workable." },
+      { question: "What careers suit Type 4 vs Type 5?", answer: "Type 4s often thrive in creative careers — arts, writing, design, therapy, and any field where their emotional depth and aesthetic sensibility are genuine assets. Type 5s often thrive in research, technical, and analytical careers — science, engineering, philosophy, and fields where deep mastery is valued over social performance. Both types tend to prefer autonomy and depth over routine and supervision." },
+    ],
+    ctaHeading: "Find out your Enneagram type — and three more frameworks",
+    ctaSubtext: "Free personality test — Enneagram type plus 16 Personalities, DISC, and Strengths. One 15-minute assessment, no paywall.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Enneagram Type 4 — The Individualist", url: "/blog/enneagram-type-4-individualist" },
+      { label: "Enneagram Type 5 — The Investigator", url: "/blog/enneagram-type-5-investigator" },
+      { label: "Enneagram Type 4 vs Type 9", url: "/blog/enneagram-type-4-vs-type-9" },
+      { label: "Free Enneagram Test", url: "/free-enneagram-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-1-vs-type-6": {
+    slug: "enneagram-type-1-vs-type-6",
+    metaTitle: "Enneagram Type 1 vs Type 6 — Key Differences Explained",
+    metaDesc: "Enneagram Type 1 and Type 6 can look similar — both are responsible, dutiful, and motivated by doing what's right. Here's how to tell them apart.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-1-vs-type-6",
+    h1: "Enneagram Type 1 vs Type 6 — Key Differences",
+    sections: [
+      {
+        heading: "Why Type 1 and Type 6 get confused",
+        html: p("Enneagram Type 1 (The Reformer) and Type 6 (The Loyalist) are frequently confused because both are responsible, rule-conscious, and concerned with doing the right thing. Both can be anxious about making mistakes. Both tend toward conscientiousness and take their commitments seriously.") +
+          p("The confusion deepens because Type 6 often internalizes external standards in a way that can look like the 1's inner critic. And Type 1 can be anxious about falling short of their own standards in a way that can look like 6's security-seeking behavior.") +
+          p("The distinction lies in the source of their standards: Type 1's standards come from within (their own inner critic and sense of rightness), while Type 6's standards come from without (authority, tradition, trusted relationships, and systems)."),
+      },
+      {
+        heading: "The core difference: internal vs. external standards",
+        html: p("Type 1 is in the Instinctive (Body/Gut) triad. They have a powerful internal sense of how things should be — and an equally powerful inner critic that monitors whether they're living up to it. The anger at the world's imperfection is internalized into self-criticism and a drive to improve.") +
+          p("Type 6 is in the Thinking (Head) triad. They experience the world as uncertain and potentially dangerous, and they look for reliable guidance — in institutions, relationships, leaders, or belief systems — to navigate that uncertainty. Their anxiety is about what they can and can't count on.") +
+          p("Ask yourself: when something goes wrong, do you most feel anger at the failure to meet a standard (Type 1) or anxiety about what else might go wrong and who you can count on (Type 6)?"),
+      },
+      {
+        heading: "Authority and rules: different relationships",
+        html: p("Type 1 follows rules because they believe in them — because the rules are right. When authority conflicts with their own sense of rightness, they'll follow their own judgment. They may be quietly rebellious when they believe the rules are unjust, even if they rarely show it dramatically.") +
+          p("Type 6 has a more complex relationship with authority. They may comply with authority for security reasons, or they may test and challenge authority to see if it can be trusted. Counter-phobic 6s (who confront rather than avoid fear) can look quite anti-authoritarian — but the preoccupation with authority is still central.") +
+          p("A useful diagnostic: does your rule-following come from 'this is the right thing to do' (1) or 'this is what keeps things safe and predictable' (6)?"),
+      },
+      {
+        heading: "Anxiety, stress, and growth",
+        html: p("Type 1 under stress: moves toward Type 4, becoming more withdrawn, self-pitying, and emotionally sensitive. They may feel their efforts to make things right are futile and retreat into melancholy. Under growth: moves toward Type 7, becoming more spontaneous, playful, and able to enjoy the present.") +
+          p("Type 6 under stress: moves toward Type 3, becoming more driven by image and external achievement, performing confidence they don't feel. Under growth: moves toward Type 9, becoming more relaxed, trusting, and able to find inner stillness without external reassurance.") +
+          p("Stress behavior diagnostic: do you become more self-critical and emotionally withdrawn (Type 1) or more performatively confident while internally anxious (Type 6)?"),
+      },
+      {
+        heading: "Type 1 and Type 6 at work",
+        html: p("Type 1 at work: high standards, meticulous, often the person who notices what could be improved before anyone else does. They can struggle with delegation because others don't do things 'the right way.' They tend to be reliable and principled — colleagues know what Type 1 stands for.") +
+          p("Type 6 at work: loyal, responsible, and excellent at anticipating problems. They ask the questions others didn't think to ask. They build trust slowly but maintain it deeply. Their worst work situations are ones where they don't trust leadership or can't predict what's expected of them.") +
+          p("Organizational compatibility: Type 1 builds quality and integrity; Type 6 builds trust and stability. Together they're often an organizational conscience that keeps teams both excellent and grounded."),
+      },
+    ],
+    faqs: [
+      { question: "How do I tell the difference between Type 1 and Type 6?", answer: "The clearest test is the source of your standards. Type 1s have a powerful internal sense of right and wrong that doesn't depend on others' approval — they follow their own judgment even when it's unpopular. Type 6s look to trusted sources (relationships, institutions, systems) to calibrate what's safe and right. A 1 who's told 'that rule doesn't apply here' feels uncomfortable; a 6 who's told 'that rule doesn't apply here' feels anxious and wants to know what does apply." },
+      { question: "What's the difference between Type 1 and Type 6 anxiety?", answer: "Type 1 anxiety is about falling short of their own standards — the inner critic is the primary source. Type 6 anxiety is about safety and reliability in an uncertain world — what can I count on, what could go wrong, who can I trust. Type 1 tends to direct anxiety inward as self-criticism; Type 6 tends to direct anxiety outward as vigilance for external threats or unreliable authority." },
+      { question: "Can a Type 6 look like a Type 1?", answer: "Yes — particularly a Type 6 who has strong internalized standards can look very similar to a Type 1. The distinction to probe is what happens when those standards conflict with an authority figure's expectations. A 1 will follow their own judgment; a 6 will experience significant conflict and may comply while feeling deeply uncomfortable. Also, Type 6 with a 5 wing (6w5) is often particularly systematic and rule-oriented, which increases the resemblance." },
+      { question: "Are Type 1 and Type 6 compatible?", answer: "1-6 pairings are common and often very functional. Both types are responsible, committed, and value integrity. The 1 brings principled standards; the 6 brings loyal follow-through and practical problem anticipation. Friction typically arises when the 1's inner critic bleeds into criticism of the 6, who reads external criticism as a threat to the relationship's safety." },
+    ],
+    ctaHeading: "Find out your Enneagram type — and three more frameworks",
+    ctaSubtext: "Free personality test — Enneagram type plus 16 Personalities, DISC, and Strengths. One 15-minute assessment, no paywall.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Enneagram Type 1 — The Reformer", url: "/blog/enneagram-type-1-reformer" },
+      { label: "Enneagram Type 6 — The Loyalist", url: "/blog/enneagram-type-6-loyalist" },
+      { label: "Enneagram Type 1 vs Type 9", url: "/blog/enneagram-type-1-vs-type-9" },
+      { label: "Free Enneagram Test", url: "/free-enneagram-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-2-vs-type-9": {
+    slug: "enneagram-type-2-vs-type-9",
+    metaTitle: "Enneagram Type 2 vs Type 9 — Key Differences Explained",
+    metaDesc: "Both Enneagram Type 2 and Type 9 are warm, accommodating, and focused on harmony. Here's how to tell them apart and what drives each type at their core.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-2-vs-type-9",
+    h1: "Enneagram Type 2 vs Type 9 — Key Differences",
+    sections: [
+      {
+        heading: "Why Type 2 and Type 9 get confused",
+        html: p("Enneagram Type 2 (The Helper) and Type 9 (The Peacemaker) are both warm, accommodating, and oriented toward others' needs. Both can seem selfless and struggle to prioritize their own needs. Both tend to avoid conflict. On the surface, they can be nearly indistinguishable.") +
+          p("The confusion is particularly common for people who are trying to type from behavior alone: 'I'm a giving, peaceful person who avoids conflict — am I a 2 or a 9?' The behavioral overlap is real. The motivational difference is where clarity lives.") +
+          p("Type 2's core fear: being unloved or unwanted. Type 9's core fear: loss of connection and internal peace — being separated from others or from themselves."),
+      },
+      {
+        heading: "The core difference: helping vs. merging",
+        html: p("Type 2 is in the Feeling (Heart) triad. Their primary move is toward people — they help, support, and give as a way of creating connection and ensuring they are needed and loved. Their attention is on others' needs and on whether their own relational needs are being met. There's an implicit transaction in 2's helping: 'I give to you so you'll love me.'") +
+          p("Type 9 is in the Instinctive (Body/Gut) triad. Their primary move is to merge — to adopt others' agendas, blend into their environment, and avoid anything that would create conflict or separation. Their attention diffuses to avoid disturbance to their inner peace. There's no transaction in 9's accommodating — they're just trying not to rock the boat.") +
+          p("The clearest test: when you help or accommodate someone, is there an awareness of what you'd like in return (Type 2) or does the accommodation feel like it's just what's needed to keep things smooth (Type 9)?"),
+      },
+      {
+        heading: "Boundaries and self-assertion",
+        html: p("Type 2 can assert boundaries, particularly around situations where their help isn't appreciated or reciprocated. They can become resentful, even demanding, when their giving isn't acknowledged. They know what they want — they just need the relationship to be in good shape before they ask for it.") +
+          p("Type 9 has significant difficulty with self-assertion because asserting themselves risks disrupting the peace they're trying to maintain. They often don't know clearly what they want, because attending to their own preferences feels less important than keeping things harmonious. When 9s do get angry, it can come out as stubborn passivity rather than direct assertion.") +
+          p("Diagnostic: when you need something from someone, do you feel a clear pull toward asking for it even if it's uncomfortable (Type 2) or does it feel almost impossible to prioritize your own need over keeping the peace (Type 9)?"),
+      },
+      {
+        heading: "Stress and growth patterns",
+        html: p("Type 2 under stress: moves toward Type 8, becoming more controlling, demanding, and confrontational. Under growth: moves toward Type 4, becoming more self-aware, emotionally honest about their own needs, and less people-pleasing.") +
+          p("Type 9 under stress: moves toward Type 6, becoming more anxious, worried, and seeking external security and reassurance. Under growth: moves toward Type 3, becoming more focused, action-oriented, and able to pursue their own goals.") +
+          p("Stress diagnostic: do you become more demanding and controlling when pushed (Type 2), or more anxious and worried about security (Type 9)?"),
+      },
+      {
+        heading: "Type 2 and Type 9 in relationships",
+        html: p("Type 2 in relationships: deeply giving and attentive; can be possessive or hurt when others don't reciprocate their level of care; has definite preferences and opinions, even if they're diplomatically expressed; tends to be central in relationships rather than peripheral.") +
+          p("Type 9 in relationships: comfortable and easy to be around; may be frustratingly vague about their own preferences; avoids conflict to the point of not mentioning things that bother them; tends to go along with others' plans and can seem like they don't have their own needs.") +
+          p("2-9 pairings are warm and harmonious — both types prioritize the relationship. The challenge is that neither type easily takes up space for their own needs, which can lead to a relationship that functions smoothly until both parties realize important things were never said."),
+      },
+    ],
+    faqs: [
+      { question: "How do I know if I'm a Type 2 or Type 9?", answer: "The clearest diagnostic is whether you're aware of what you want in return for your accommodating behavior. Type 2s typically know what they want — love, appreciation, reciprocity — even if they have difficulty asking for it directly. Type 9s often genuinely don't know what they want, because attending to their own preferences feels secondary to keeping things smooth. Under stress, 2s become more demanding and assertive; 9s become more anxious and withdrawn." },
+      { question: "Are Type 2 and Type 9 compatible?", answer: "Yes — 2 and 9 are often described as a very harmonious pairing. Both are warm, relationship-oriented, and conflict-averse. The 2 brings attentiveness and care; the 9 brings peace and acceptance. The potential friction is that neither type easily asks for what they need directly, which can create an accumulation of unspoken needs. Relationships where both people can develop the capacity to express preferences clearly tend to be much more satisfying." },
+      { question: "Can a Type 9 look like a Type 2?", answer: "Yes, particularly a 9 with a 1 wing (9w1) who is more principled and giving can resemble a 2. The key distinction is still motivational: the 2 helps in order to be needed and loved; the 9 accommodates to avoid disruption and maintain internal peace. The 2's helping has a relational agenda; the 9's accommodating has a stability agenda. Also look at resentment — 2s can become resentful when not appreciated; 9s more often become passive and checked out." },
+      { question: "What are typical careers for Type 2 vs Type 9?", answer: "Type 2s often thrive in careers that reward direct caring: healthcare, counseling, teaching, social work, and leadership roles where their relational attentiveness is valued. Type 9s often thrive in careers that reward stability, collaboration, and mediation: HR, counseling, mediation, nature-based work, and any environment that values harmonious team dynamics over competitive individual performance. Both types are often drawn to helping professions, though the 9 tends to seek environments with lower interpersonal intensity." },
+    ],
+    ctaHeading: "Find out your Enneagram type — and three more frameworks",
+    ctaSubtext: "Free personality test — Enneagram type plus 16 Personalities, DISC, and Strengths. One 15-minute assessment, no paywall.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Enneagram Type 2 — The Helper", url: "/blog/enneagram-type-2-helper" },
+      { label: "Enneagram Type 9 — The Peacemaker", url: "/blog/enneagram-type-9-peacemaker" },
+      { label: "Enneagram Type 2 vs Type 3", url: "/blog/enneagram-type-2-vs-type-3" },
+      { label: "Free Enneagram Test", url: "/free-enneagram-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-3-vs-type-7": {
+    slug: "enneagram-type-3-vs-type-7",
+    metaTitle: "Enneagram Type 3 vs Type 7 — Key Differences Explained",
+    metaDesc: "Enneagram Type 3 and Type 7 are both optimistic, energetic, and future-focused. Here's how to tell them apart and what drives each type underneath the energy.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-3-vs-type-7",
+    h1: "Enneagram Type 3 vs Type 7 — Key Differences",
+    sections: [
+      {
+        heading: "Why Type 3 and Type 7 get confused",
+        html: p("Enneagram Type 3 (The Achiever) and Type 7 (The Enthusiast) are both energetic, optimistic, and future-oriented. Both are typically fast-moving, visibly successful, and genuinely charismatic. Both tend to avoid negative emotions by keeping busy and looking forward.") +
+          p("In professional settings, they can be especially hard to distinguish — both often appear confident, accomplished, and high-performing. Both are drawn to success and tend to resist situations that feel like failure or limitation.") +
+          p("The distinction lies in what's driving the energy: Type 3 is driven by the need to achieve and be admired; Type 7 is driven by the need to experience everything and avoid the pain of missing out or being trapped."),
+      },
+      {
+        heading: "The core difference: achievement vs. experience",
+        html: p("Type 3 is in the Feeling (Heart) triad. They are fundamentally concerned with image and worth — they want to be seen as successful, capable, and admirable. Their productivity is in service of that image. They are efficient in pursuit of specific goals because achieving those goals is how they demonstrate value.") +
+          p("Type 7 is in the Thinking (Head) triad. They are fundamentally seeking stimulation and trying to avoid pain. Their restlessness comes from anxiety about limitation — if they slow down, they might have to face something uncomfortable. They accumulate experiences rather than accomplishments.") +
+          p("Ask yourself: when you accomplish something difficult, does it primarily feel like evidence of your value (Type 3) or just another great experience you can add to your life (Type 7)?"),
+      },
+      {
+        heading: "Focus and follow-through",
+        html: p("Type 3 has exceptional follow-through on goals that matter to their image or reputation. They are highly efficient and can sustain focus on a specific target. What they struggle with is goals that don't produce visible results or recognized achievement.") +
+          p("Type 7 has excellent ability to start things and poor ability to finish them — particularly once the novelty wears off and the challenge begins to feel like work. They are highly generative with ideas but may leave a trail of unfinished projects behind them. The next exciting thing is always pulling at their attention.") +
+          p("A practical test: how many significant projects have you left unfinished in the past few years? A long list points more toward Type 7. A short list, with completed goals that mattered to your reputation, points more toward Type 3."),
+      },
+      {
+        heading: "Handling negative emotions",
+        html: p("Type 3 avoids negative emotions by staying busy with achievement-oriented activity. They may not know what they feel underneath their drive — they've learned to defer feelings until there's time for them, which often means those feelings never get processed. Image maintenance requires emotional efficiency.") +
+          p("Type 7 avoids negative emotions through reframing and activity. They are skilled at finding the positive spin on any situation. They fear being trapped in pain, limitation, or boredom, and they escape through movement, planning, and seeking the next stimulating experience.") +
+          p("Under sustained pressure: Type 3 may become robotic, more focused on appearance and performance than actual wellbeing. Type 7 may scatter — jumping between options, making impulsive decisions, avoiding any single commitment that might trap them."),
+      },
+      {
+        heading: "Type 3 and Type 7 in careers",
+        html: p("Type 3 in careers: highly ambitious, goal-oriented, and effective at building visible success. They adapt their presentation to what will be recognized and valued in their environment. They are excellent at sales, marketing, entrepreneurship, and leadership roles where measurable achievement is the primary currency.") +
+          p("Type 7 in careers: innovative, energizing, and excellent at generating ideas and enthusiasm. They thrive in roles with variety, autonomy, and regular new challenges. They often struggle in roles requiring sustained focus on one thing, heavy administrative compliance, or work that feels repetitive and limiting.") +
+          p("A key difference: Type 3 will stay in an unfulfilling job if it's producing results that look good. Type 7 will leave a well-paying job because it's boring, regardless of what it looks like on a resume."),
+      },
+    ],
+    faqs: [
+      { question: "How do I tell if I'm a Type 3 or Type 7?", answer: "Ask what you're optimizing for. Type 3s optimize for achievement and recognition — they want their accomplishments to be seen and admired. Type 7s optimize for experience and stimulation — they want to have done everything and felt everything. Type 3s follow through on goals that build their reputation; Type 7s struggle to finish things once novelty fades. Under stress, 3s become more robotic and image-focused; 7s become more scattered and impulsive." },
+      { question: "Are Type 3 and Type 7 compatible?", answer: "3-7 pairings can be energizing and high-functioning — both types are optimistic, forward-moving, and comfortable with success. The friction often comes from the 3's need for focused goal achievement conflicting with the 7's tendency to scatter and pursue new things. The 3 may find the 7 flaky; the 7 may find the 3 too image-conscious and narrow. When they share genuine enthusiasm for a common direction, they can be an exceptionally generative pair." },
+      { question: "Can an achiever be mistaken for a Type 7?", answer: "Yes — particularly a Type 3 with a 4 wing (3w4) who is more image-driven and expressive, or a Type 3 in a startup environment where variety and innovation are valued, can look similar to a 7. The distinction: 3's variety and energy is in service of specific achievement goals; 7's variety is about avoiding limitation and accumulating experiences. 3 finishes things that matter to their image; 7 often doesn't." },
+      { question: "What's the difference in emotional processing between Type 3 and Type 7?", answer: "Type 3s defer emotions — they tuck feelings away until there's time for them, which often means never. They can seem emotionally unavailable not because they don't have feelings, but because feelings are inefficient in the middle of achievement. Type 7s actively reframe negative emotions — they look for the positive spin, the learning, the adventure angle, because sitting with pain or limitation is intolerable to them. Both strategies work until they don't — and both types often hit a wall in midlife when deferred or avoided emotions accumulate." },
+    ],
+    ctaHeading: "Find out your Enneagram type — and three more frameworks",
+    ctaSubtext: "Free personality test — Enneagram type plus 16 Personalities, DISC, and Strengths. One 15-minute assessment, no paywall.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Enneagram Type 3 — The Achiever", url: "/blog/enneagram-type-3-achiever" },
+      { label: "Enneagram Type 7 — The Enthusiast", url: "/blog/enneagram-type-7-enthusiast" },
+      { label: "Enneagram Type 3 vs Type 8", url: "/blog/enneagram-type-3-vs-type-8" },
+      { label: "Free Enneagram Test", url: "/free-enneagram-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-4-vs-type-9": {
+    slug: "enneagram-type-4-vs-type-9",
+    metaTitle: "Enneagram Type 4 vs Type 9 — Key Differences Explained",
+    metaDesc: "Enneagram Type 4 and Type 9 are both introspective and drawn to peace, but their core motivations are very different. Learn how to tell them apart.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-4-vs-type-9",
+    h1: "Enneagram Type 4 vs Type 9 — Key Differences",
+    sections: [
+      {
+        heading: "Why Type 4 and Type 9 get confused",
+        html: p("Enneagram Type 4 (The Individualist) and Type 9 (The Peacemaker) are often confused because both types can appear introspective, peaceful, and removed from the mainstream. Both tend toward a kind of emotional depth. Both can seem gentle and inward-looking in social situations.") +
+          p("The confusion is especially common among people who identify with being 'sensitive,' 'introverted,' or 'artistic' — descriptions that can fit either type depending on how they express it.") +
+          p("But their core motivations are quite different. Type 4 is driven by the need to be authentic and unique — to not lose themselves in ordinary existence. Type 9 is driven by the need for inner peace and harmony — to not be disturbed by conflict or disconnection."),
+      },
+      {
+        heading: "The core difference: identity vs. peace",
+        html: p("Type 4 is in the Feeling (Heart) triad. They are intensely focused on identity — who they are, whether they're being authentic, whether their unique inner world is being seen and understood. Their emotional depth comes from this intense self-focus. They can be melancholy, longing, or intensely alive depending on whether they feel seen and authentic.") +
+          p("Type 9 is in the Instinctive (Body/Gut) triad. They are focused on maintaining inner peace and outer harmony. They don't want to make waves. Their tendency toward inwardness comes not from intense self-examination but from a kind of internal quietness — they'd rather not disturb the peace of the situation, including the situation of their own mind.") +
+          p("The clearest distinction: when you're in a difficult social situation, do you become more intensely aware of your own feelings and how you're being perceived (Type 4) or do you find a way to blend in and not create disruption (Type 9)?"),
+      },
+      {
+        heading: "Emotional intensity: the biggest tell",
+        html: p("Type 4 has high emotional intensity. They amplify feelings rather than damping them. They may dwell on negative feelings as a way of confirming the depth of their inner life. Melancholy, longing, and emotional drama are familiar territories. Feelings are central to identity for the 4.") +
+          p("Type 9 tends to dampen emotions — particularly uncomfortable ones. They self-anesthetize through routine, comfort activities, and merging with others' agendas. When pushed, they can go stubbornly passive rather than dramatically expressive. Strong emotions in themselves feel threatening to the peace they're maintaining.") +
+          p("Ask yourself: do you amplify your emotions, sitting with them and making meaning from them (Type 4) — or do you find ways to make uncomfortable emotions smaller and easier to manage (Type 9)?"),
+      },
+      {
+        heading: "Self-assertion and individuality",
+        html: p("Type 4 asserts their individuality with conviction — they resist conformity, resist being ordinary, and often dress, create, or speak in ways that signal their distinctiveness. They want to be recognized as unique, not as one of many.") +
+          p("Type 9 tends toward merger with their environment — they adapt, accommodate, and prefer to blend rather than stand out. Even when they have strong opinions, they often don't express them unless they feel very safe. They're more comfortable being part of the group than distinct from it.") +
+          p("A practical test: when someone misunderstands who you are, is your first response to feel hurt and want to correct the record (Type 4) or to let it go rather than creating a confrontation (Type 9)?"),
+      },
+      {
+        heading: "Stress and growth patterns",
+        html: p("Type 4 under stress: moves toward Type 2, becoming more relationally demanding and focused on what others owe them. Under growth: moves toward Type 1, becoming more objective, disciplined, and principled.") +
+          p("Type 9 under stress: moves toward Type 6, becoming more anxious, worried, and dependent on external reassurance. Under growth: moves toward Type 3, becoming more focused, action-oriented, and willing to pursue their own goals.") +
+          p("Stress diagnostic: when things fall apart, do you become more emotionally demanding and relationally intense (Type 4) or more anxious and worried about what else could go wrong (Type 9)?"),
+      },
+    ],
+    faqs: [
+      { question: "How do I distinguish Type 4 from Type 9?", answer: "The biggest tell is emotional intensity and the desire for distinctiveness. Type 4s amplify their feelings and want to be recognized as unique — being ordinary feels like a loss of self. Type 9s dampen emotions and prefer harmony over distinctiveness — being disruptive feels threatening to the peace they're maintaining. Under stress, 4s become more emotionally demanding; 9s become more anxious and withdrawn." },
+      { question: "Can a Type 9 be artistic and emotional like a Type 4?", answer: "Yes — particularly a 9 with a 1 wing (9w1) or a 9 in a creative environment can look similar to a 4. The distinction is still in the intensity: 4s experience their emotions as central to their identity and amplify them; 9s use creative outlets more as a way to access or express feelings that they otherwise tend to dampen. The 4 wants their inner world to be seen; the 9 wants to feel peaceful." },
+      { question: "Are Type 4 and Type 9 compatible?", answer: "4-9 pairings are common and can be very warm. The 9's acceptance and non-judgment provides the 4 with the safety to be fully themselves. The 4's emotional depth can help the 9 access and honor their own inner life rather than numbing it. Friction typically comes from the 4's emotional intensity overwhelming the 9, or the 9's conflict avoidance feeling like abandonment to the 4 when they most need engagement." },
+      { question: "What's the difference in self-awareness between Type 4 and Type 9?", answer: "Type 4s tend to be highly self-aware in the emotional dimension — they examine their feelings constantly and build a rich inner narrative about who they are. Type 9s often have surprisingly low awareness of their own preferences, desires, and even emotions — they've learned to self-forget in service of harmony. A 9 who is asked 'what do you want?' may genuinely not know, while a 4 who is asked the same question has immediate and often elaborate answers." },
+    ],
+    ctaHeading: "Find out your Enneagram type — and three more frameworks",
+    ctaSubtext: "Free personality test — Enneagram type plus 16 Personalities, DISC, and Strengths. One 15-minute assessment, no paywall.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Enneagram Type 4 — The Individualist", url: "/blog/enneagram-type-4-individualist" },
+      { label: "Enneagram Type 9 — The Peacemaker", url: "/blog/enneagram-type-9-peacemaker" },
+      { label: "Enneagram Type 4 vs Type 5", url: "/blog/enneagram-type-4-vs-type-5" },
+      { label: "Free Enneagram Test", url: "/free-enneagram-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-5-vs-type-9": {
+    slug: "enneagram-type-5-vs-type-9",
+    metaTitle: "Enneagram Type 5 vs Type 9 — Key Differences Explained",
+    metaDesc: "Both Enneagram Type 5 and Type 9 are private and withdrawn, but they pull back from the world for very different reasons. Here's how to tell them apart.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-5-vs-type-9",
+    h1: "Enneagram Type 5 vs Type 9 — Key Differences",
+    sections: [
+      {
+        heading: "Why Type 5 and Type 9 get confused",
+        html: p("Enneagram Type 5 (The Investigator) and Type 9 (The Peacemaker) are both withdrawn and private. Both tend toward quietness in social situations. Both can appear detached or uninvolved to outside observers. Both types are often introverted and can seem low-energy in social contexts.") +
+          p("The confusion is particularly common among people who identify with being 'laid-back,' 'private,' or 'independent' — qualities that can describe either type. Both types also share the capacity to observe social situations from a comfortable distance rather than diving in.") +
+          p("The difference lies in what's driving the withdrawal: Type 5 pulls back to conserve energy and build knowledge; Type 9 pulls back to avoid disruption and maintain inner peace."),
+      },
+      {
+        heading: "The core difference: conservation vs. peace",
+        html: p("Type 5 is in the Thinking (Head) triad. They experience their energy and internal resources as limited and potentially insufficient. They withdraw to accumulate knowledge and capacity before engaging — if they know enough, they'll be ready. They observe before participating, because observation is efficient.") +
+          p("Type 9 is in the Instinctive (Body/Gut) triad. They experience conflict and disruption as threats to their inner peace and outer harmony. They withdraw not to accumulate but to avoid friction. They merge with their environment rather than analyzing it from outside.") +
+          p("The simplest test: when you pull back from social situations, are you doing it to think and prepare (Type 5) or to avoid having to deal with the demands of engagement (Type 9)?"),
+      },
+      {
+        heading: "Domain expertise vs. broad acceptance",
+        html: p("Type 5 develops deep expertise in specific areas that interest them. They become the expert — the person who knows more about their domain than almost anyone. They invest heavily in mastery and can be quite confident in areas where they have genuine knowledge.") +
+          p("Type 9 tends toward breadth over depth. They are often interested in many things but rarely develop the intense expertise of the 5. Their attention is diffuse rather than focused. They can be agreeable about almost anything, which can make it hard to identify their real areas of depth or passion.") +
+          p("Ask: in the subjects you care about, do you know them deeply and specifically (Type 5) or do you have broad, general interest without intense specialized mastery (Type 9)?"),
+      },
+      {
+        heading: "Social energy and interaction",
+        html: p("Type 5 manages social interaction carefully — they often have a mental budget for social engagement and protect their alone time as a necessity rather than a preference. When they do engage, they can be highly focused and present, especially on topics they care about. They may seem detached not because they don't care but because they're conserving.") +
+          p("Type 9 is more naturally comfortable in social situations, as long as those situations don't require them to assert themselves or create conflict. They can blend in easily and often don't require the same quality of alone time the 5 needs — they're comfortable being around people; they just don't want to be the center of attention or asked to take sides.") +
+          p("Diagnostic: do you need significant alone time to recharge even after positive social interactions (Type 5 more likely) or are you comfortable being around people as long as the situation is harmonious and undemanding (Type 9 more likely)?"),
+      },
+      {
+        heading: "Stress and growth patterns",
+        html: p("Type 5 under stress: moves toward Type 7, becoming scattered, impulsive, and escapist — jumping between stimulating ideas or activities to avoid facing the difficulty directly. Under growth: moves toward Type 8, becoming more assertive, confident, and willing to engage directly with the world.") +
+          p("Type 9 under stress: moves toward Type 6, becoming more anxious, worried, and seeking reassurance. Under growth: moves toward Type 3, becoming more focused, goal-oriented, and energized by pursuing their own direction.") +
+          p("Stress test: do you scatter into multiple stimulating distractions (Type 5) or become anxious and seek reassurance from trusted people (Type 9)?"),
+      },
+    ],
+    faqs: [
+      { question: "What's the clearest difference between Type 5 and Type 9?", answer: "Domain expertise and energy management are the clearest tells. Type 5s develop deep, specific expertise and carefully manage their social energy as a limited resource. Type 9s tend toward broad acceptance and don't experience their social energy as particularly scarce — they're comfortable around people as long as the situation is harmonious. Under stress, 5s scatter into multiple distractions; 9s become more anxious and seek reassurance." },
+      { question: "Can a Type 9 be mistaken for a Type 5?", answer: "Yes — particularly a quiet, introverted 9 who has developed expertise in areas they care about can resemble a 5. The distinction to probe is motivation: the 5's withdrawal is about conserving capacity and building knowledge; the 9's withdrawal is about avoiding disruption to their peace. The 5 is genuinely managing an energy budget; the 9 is genuinely trying not to rock the boat." },
+      { question: "Are Type 5 and Type 9 compatible?", answer: "5-9 pairings can be very comfortable — both types are non-demanding, private, and respectful of each other's space. Neither pushes the other in ways that feel threatening. The potential challenge is that both types can avoid engagement in ways that leave important things unsaid — and the relationship can achieve harmony at the expense of depth. Couples who create regular low-stakes opportunities to share more of their inner lives tend to do well." },
+      { question: "What careers suit Type 5 vs Type 9?", answer: "Type 5s often thrive in research, technical, analytical, and expert roles where deep mastery is valued: science, engineering, academia, philosophy, and investigative fields. Type 9s often thrive in supportive, collaborative, and mediation-oriented roles: HR, counseling, nature work, administration, and environments where maintaining harmonious team dynamics is central to the job. Both types tend to prefer roles with low interpersonal demand and significant autonomy." },
+    ],
+    ctaHeading: "Find out your Enneagram type — and three more frameworks",
+    ctaSubtext: "Free personality test — Enneagram type plus 16 Personalities, DISC, and Strengths. One 15-minute assessment, no paywall.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Enneagram Type 5 — The Investigator", url: "/blog/enneagram-type-5-investigator" },
+      { label: "Enneagram Type 9 — The Peacemaker", url: "/blog/enneagram-type-9-peacemaker" },
+      { label: "Enneagram Type 4 vs Type 5", url: "/blog/enneagram-type-4-vs-type-5" },
+      { label: "Free Enneagram Test", url: "/free-enneagram-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {
