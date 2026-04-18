@@ -1877,6 +1877,48 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/istp-vs-intp",
     ogType: "article",
   },
+  "/blog/enfj-vs-entj": {
+    title: "ENFJ vs ENTJ — Two Different Kinds of Leaders",
+    description: "ENFJ and ENTJ are both decisive leaders, but they lead very differently. Complete comparison of decision-making, communication, and career fit.",
+    canonicalUrl: "https://1test.me/blog/enfj-vs-entj",
+    ogType: "article",
+  },
+  "/blog/isfp-vs-infp": {
+    title: "ISFP vs INFP — Two Introverted Feelers Who See the World Differently",
+    description: "ISFP and INFP are both introverted feelers — but they experience the world very differently. Complete comparison covering creativity, relationships, and career.",
+    canonicalUrl: "https://1test.me/blog/isfp-vs-infp",
+    ogType: "article",
+  },
+  "/blog/estp-vs-entp": {
+    title: "ESTP vs ENTP — Two Quick-Thinking Extroverts With Different Engines",
+    description: "ESTP and ENTP are both bold and quick-thinking — but they process information and act very differently. Complete type comparison.",
+    canonicalUrl: "https://1test.me/blog/estp-vs-entp",
+    ogType: "article",
+  },
+  "/blog/estj-vs-entj": {
+    title: "ESTJ vs ENTJ — Two Results-Driven Leaders With Different Minds",
+    description: "ESTJ and ENTJ are both decisive, results-driven leaders — but they think and lead very differently. Complete comparison of strengths, blind spots, and careers.",
+    canonicalUrl: "https://1test.me/blog/estj-vs-entj",
+    ogType: "article",
+  },
+  "/blog/istp-vs-istj": {
+    title: "ISTP vs ISTJ — Two Quiet, Capable Types With Different Approaches",
+    description: "ISTP and ISTJ are both introverted and action-oriented — but they think and work very differently. Complete comparison of work style, communication, and career.",
+    canonicalUrl: "https://1test.me/blog/istp-vs-istj",
+    ogType: "article",
+  },
+  "/blog/esfp-vs-enfp": {
+    title: "ESFP vs ENFP — Two Enthusiastic Extroverts With Different Orientations",
+    description: "ESFP and ENFP are both warm and spontaneous — but they see and engage with the world very differently. Complete comparison covering creativity, relationships, and career.",
+    canonicalUrl: "https://1test.me/blog/esfp-vs-enfp",
+    ogType: "article",
+  },
+  "/blog/esfj-vs-isfj": {
+    title: "ESFJ vs ISFJ — Two Caring Types With Different Social Needs",
+    description: "ESFJ and ISFJ are both warm, loyal, and deeply caring — but they express their care very differently. Complete comparison covering energy, relationships, and career.",
+    canonicalUrl: "https://1test.me/blog/esfj-vs-isfj",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {
