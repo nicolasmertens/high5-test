@@ -17080,6 +17080,470 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-18",
   },
+
+  "estp-vs-istp": {
+    slug: "estp-vs-istp",
+    metaTitle: "ESTP vs ISTP — Same Pragmatism, Different Energy",
+    metaDesc: "ESTP and ISTP are both action-oriented realists, but one thrives in the spotlight and the other in solitude. Full comparison of differences, strengths, and careers.",
+    canonicalUrl: "https://1test.me/blog/estp-vs-istp",
+    h1: "ESTP vs ISTP — Same Pragmatism, Completely Different Energy",
+    sections: [
+      {
+        heading: "What ESTP and ISTP share",
+        html: p("ESTP and ISTP are the two most practically oriented types in the 16 Personalities system. Both are grounded in present-moment reality, both process the world through direct sensory experience, and both apply Introverted Thinking to evaluate what actually works. Neither type is interested in theory for its own sake — they want to understand how things work so they can act effectively.") +
+          p("Both types are calm under pressure, quick to assess situations, and exceptionally capable with hands-on, technical, or tactical problems. They are direct communicators who say what they mean and have little patience for bureaucracy or emotional politics.") +
+          p("Not sure which you are? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "The core difference: extroversion vs introversion",
+        html: p("The E/I split produces dramatically different social profiles:") +
+          strong([
+            { label: "ESTP (Extrovert).", desc: "ESTPs are energized by social engagement. They read social situations with remarkable accuracy, work the room effortlessly, and often gravitate toward roles where interpersonal dynamics are central — sales, negotiation, entrepreneurship, leadership. Their Extroverted Sensing is outward-facing and socially active." },
+            { label: "ISTP (Introvert).", desc: "ISTPs are energized by solitary work. They prefer to engage problems alone or in small groups of trusted people. They're often the most technically skilled person in the room but the least visible one. Their Introverted Thinking is inward-facing and deeply private." },
+          ]) +
+          p("An ESTP and an ISTP may have the same mechanical aptitude, but the ESTP wants to demo the fix to an audience while the ISTP wants to solve it quietly and move on."),
+      },
+      {
+        heading: "Behavioral differences at work",
+        html: p("These differences compound in professional settings:") +
+          strong([
+            { label: "Social energy.", desc: "ESTPs thrive in high-interaction environments — open offices, client-facing roles, team coordination. ISTPs thrive in low-interruption, focused environments — technical depth work, independent projects, field work." },
+            { label: "Risk and action.", desc: "Both types are risk-tolerant, but ESTPs express this socially (bold moves in negotiation, high-stakes presentations) while ISTPs express this physically (extreme sports, high-stakes technical work, emergencies)." },
+            { label: "Leadership style.", desc: "When ESTPs lead, they lead out front — rallying people, making fast calls publicly. When ISTPs lead, they lead through demonstrated competence — people follow them because of what they can do, not because they sought the role." },
+            { label: "Career paths.", desc: "ESTPs gravitate toward entrepreneurship, sales, politics, emergency response, and high-stakes negotiation. ISTPs gravitate toward engineering, forensics, military operations, mechanics, and technical specializations." },
+          ]),
+      },
+      {
+        heading: "Relationships and compatibility",
+        html: p("Both types are low-maintenance partners who respect independence and dislike clinginess. Neither leads with emotional expression — both show care through action, loyalty, and practical problem-solving.") +
+          p("ESTPs are more socially engaging partners — they bring energy, humor, and external activity. ISTPs are quieter but dependable — they show up when it matters without making noise about it.") +
+          p("ESTPs tend to pair well with STJ types who provide structure. ISTPs pair well with ESTJ and ENTJ types who provide direction without crowding their autonomy. ESTP and ISTP can work well together when they respect each other's energy needs."),
+      },
+    ],
+    faqs: [
+      { question: "What is the main difference between ESTP and ISTP?", answer: "The core difference is extraversion vs introversion. ESTPs are socially energized, action-oriented in public contexts, and often thrive in roles that require reading and influencing people. ISTPs are internally focused, action-oriented in private or technical contexts, and thrive in roles that require deep hands-on competence. Both are pragmatic and direct, but one is outward-facing and the other is inward-facing." },
+      { question: "Which is more common, ESTP or ISTP?", answer: "ESTPs make up about 4-5% of the population and ISTPs about 5%. Both are more common in men than women, likely due to cultural factors. ISTPs tend to cluster in technical and tactical fields; ESTPs in social and entrepreneurial ones." },
+      { question: "Can ESTP and ISTP be compatible?", answer: "Yes — they share core pragmatism, directness, and respect for competence. The main friction point is social energy: ESTPs want to be out doing things with people; ISTPs need quiet to recharge. If both understand this and build in space for different energy needs, they work well together." },
+      { question: "How do I know if I'm ESTP or ISTP?", answer: "Ask yourself: after a long day with people, do you feel energized or drained? ESTPs are energized by social engagement; ISTPs are drained by it. Also: do you gravitate toward roles where you're interacting with people (ESTP) or roles where you can work independently on technical problems (ISTP)?" },
+    ],
+    ctaHeading: "Find out if you're ESTP or ISTP",
+    ctaSubtext: "Free personality test — 16 Personalities, DISC, Enneagram, and Strengths. Complete results, no paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ESTP personality type", url: "/blog/estp-personality-type" },
+      { label: "ISTP personality type", url: "/blog/istp-personality-type" },
+      { label: "ISTP vs INTP", url: "/blog/istp-vs-intp" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "esfp-vs-isfp": {
+    slug: "esfp-vs-isfp",
+    metaTitle: "ESFP vs ISFP — Both Warm and Present, But One Needs an Audience",
+    metaDesc: "ESFP and ISFP are both spontaneous, values-driven types — but their relationship with people and energy is very different. Full comparison with career and relationship differences.",
+    canonicalUrl: "https://1test.me/blog/esfp-vs-isfp",
+    h1: "ESFP vs ISFP — Both Present-Focused, Different Social Needs",
+    sections: [
+      {
+        heading: "What ESFP and ISFP share",
+        html: p("ESFP and ISFP are closely related types that share the same pair of dominant and auxiliary functions in different directions. Both live primarily in the present moment through their Sensing preference, and both are deeply guided by personal values through their Feeling preference. Both types are genuine, warm, and aesthetically attuned — they experience the world richly and respond to it authentically.") +
+          p("Neither type is strategic or systems-focused. Both prefer experience to analysis, connection to logic, and the immediate to the abstract. Both can be artistically gifted and are often found in creative, caregiving, or people-oriented fields.") +
+          p("Not sure which you are? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "The core difference: extroversion vs introversion",
+        html: p("The E/I dimension produces very different social profiles:") +
+          strong([
+            { label: "ESFP (Extrovert).", desc: "ESFPs direct their Sensing outward — they're energized by social engagement, crowds, performance, and shared experience. They light up rooms, bring people together, and create spontaneous joy in group settings. Their warmth is expressive and public." },
+            { label: "ISFP (Introvert).", desc: "ISFPs direct their Sensing inward — they're energized by quiet, solitary, or intimate experience. Their warmth is private and selective. They can be deeply caring within their circle while remaining nearly invisible to the broader world." },
+          ]) +
+          p("Both types notice beauty and respond to it, but the ESFP wants to share the experience immediately while the ISFP wants to hold it privately."),
+      },
+      {
+        heading: "Behavioral differences at work and in life",
+        html: p("Key differences in how the two types show up:") +
+          strong([
+            { label: "Social energy.", desc: "ESFPs are energized by people and novelty — they thrive in high-energy, collaborative, unpredictable environments. ISFPs are drained by sustained social engagement — they need quiet recovery and prefer focused, lower-stimulus contexts." },
+            { label: "Expression.", desc: "ESFPs express emotions and reactions openly and immediately. ISFPs process internally and may share selectively, with people they deeply trust." },
+            { label: "Career fit.", desc: "ESFPs gravitate toward performance, entertainment, event coordination, sales, and roles where social engagement is constant. ISFPs gravitate toward artisan crafts, individual caregiving, design, music, and roles where they can work with some autonomy." },
+            { label: "Assertion.", desc: "Neither type is naturally assertive, but ESFPs are more likely to advocate for themselves through social energy and enthusiasm. ISFPs are the least likely type to advocate for themselves at all — their private Introverted Feeling is strong but rarely spoken aloud." },
+          ]),
+      },
+      {
+        heading: "Relationships and compatibility",
+        html: p("Both types are warm, loyal, and present-focused partners. Both show love through physical presence, thoughtful gestures, and genuine attention to what matters to the people they care about.") +
+          p("ESFPs are more externally expressive partners — they create shared experiences, bring enthusiasm, and are openly affectionate. ISFPs are quieter but deeply devoted — they show love through small, consistent acts of care rather than grand gestures.") +
+          p("ESFP pairs well with ISFJ and ISTJ types who provide grounding stability. ISFP pairs well with ESTP and ESFJ types who provide direction and social engagement without overwhelming them. ESFP and ISFP can work well romantically if the ESFP learns to create quiet space for the ISFP."),
+      },
+    ],
+    faqs: [
+      { question: "What is the main difference between ESFP and ISFP?", answer: "The core difference is extraversion vs introversion — specifically in how they relate to people and social energy. ESFPs are energized by social engagement and express their warmth publicly and spontaneously. ISFPs are drained by extended social engagement and express their warmth privately and selectively. Both are genuine and present-focused; one is outward-facing, the other is inward." },
+      { question: "Which is more common, ESFP or ISFP?", answer: "ESFPs make up about 8-9% of the population, making them one of the more common types. ISFPs make up about 8-9% as well. Both are more common in women than men and are found disproportionately in creative, caring, and social fields." },
+      { question: "Are ESFP and ISFP compatible?", answer: "They share deep values alignment — both prioritize authentic experience and personal connection. The main friction point is social energy: ESFPs want to be around people; ISFPs need time away from them. If both respect this difference, they can be genuinely compatible." },
+      { question: "How do I know if I'm ESFP or ISFP?", answer: "Ask yourself: after a social gathering, do you feel energized or drained? ESFPs feel energized; ISFPs feel depleted. Also: do you tend to share your feelings and reactions openly (ESFP) or process them privately and selectively (ISFP)? The free personality test measures this dimension accurately." },
+    ],
+    ctaHeading: "Find out if you're ESFP or ISFP",
+    ctaSubtext: "Free personality test — 16 Personalities, DISC, Enneagram, and Strengths. Complete results, no paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ESFP personality type", url: "/blog/esfp-personality-type" },
+      { label: "ISFP personality type", url: "/blog/isfp-personality-type" },
+      { label: "ISFP vs INFP", url: "/blog/isfp-vs-infp" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "estj-vs-istj": {
+    slug: "estj-vs-istj",
+    metaTitle: "ESTJ vs ISTJ — Both Traditional and Duty-Bound, Different Leadership",
+    metaDesc: "ESTJ and ISTJ are both reliable, structured types who uphold standards. But one leads out front while the other works behind the scenes. Full comparison.",
+    canonicalUrl: "https://1test.me/blog/estj-vs-istj",
+    h1: "ESTJ vs ISTJ — Both Dependable, Very Different in the Spotlight",
+    sections: [
+      {
+        heading: "What ESTJ and ISTJ share",
+        html: p("ESTJ and ISTJ are arguably the two most naturally reliable types. Both are concrete, organized, and structured. Both believe in duty, accountability, and following through on commitments. Both trust proven systems over untested ideas. And both can be absolutely counted on when standards matter.") +
+          p("They share Introverted Sensing as a core function — a rich internal library of past experience that anchors their judgments in what has worked rather than what might work. They're pragmatic, rule-respecting, and grounded in reality.") +
+          p("Not sure which you are? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "The core difference: extroversion vs introversion",
+        html: p("The E/I split changes everything about how these types operate:") +
+          strong([
+            { label: "ESTJ (Extrovert).", desc: "ESTJs direct their organizational energy outward — into systems, teams, and people. They take charge visibly, set expectations clearly, and hold people externally accountable. They prefer roles where they're organizing others and making decisions publicly." },
+            { label: "ISTJ (Introvert).", desc: "ISTJs direct their organizational energy inward — into personal discipline, private systems, and their own work. They lead through demonstrated reliability rather than organizational assertion. They prefer roles where they can work methodically without managing others' behavior." },
+          ]) +
+          p("An ESTJ and ISTJ given the same project will both deliver on time — but the ESTJ will manage the team process loudly and explicitly while the ISTJ will quietly do their portion to a higher-than-required standard."),
+      },
+      {
+        heading: "Behavioral differences at work",
+        html: p("These differences produce distinct professional profiles:") +
+          strong([
+            { label: "Leadership.", desc: "ESTJs are natural managers — they assert structure, set expectations, and hold people accountable without discomfort. ISTJs are reluctant leaders — they'll step up when necessary but prefer to be excellent individual contributors." },
+            { label: "Communication.", desc: "ESTJs are direct and explicit — they say what they expect and when. ISTJs are quieter — they assume others have the same standards and are often disappointed when they don't." },
+            { label: "Accountability.", desc: "ESTJs enforce standards externally and visibly. ISTJs hold themselves to extremely high standards privately and can be judgmental of others who fall short, but rarely say so directly." },
+            { label: "Career paths.", desc: "ESTJs gravitate toward management, operations leadership, law enforcement, military command, and executive roles. ISTJs gravitate toward accounting, auditing, project management, law, and technical operations." },
+          ]),
+      },
+      {
+        heading: "Relationships and compatibility",
+        html: p("Both types are loyal, reliable, and consistent partners. They show love through action, reliability, and practical support — not through emotional expressiveness. Both can be seen as rigid or cold by more feeling-oriented types.") +
+          p("ESTJs are more actively structured in relationships — they plan, organize, and expect the partnership to function as a well-run system. ISTJs are more privately devoted — they're deeply committed but express it through consistency rather than initiative.") +
+          p("Both types pair well with Feeling types who soften their edges. ESTJ pairs well with ISFJ and INFP. ISTJ pairs well with ESFJ and ENFP."),
+      },
+    ],
+    faqs: [
+      { question: "What is the main difference between ESTJ and ISTJ?", answer: "The core difference is extraversion vs introversion. ESTJs direct their organizational energy outward — they manage people, set external expectations, and lead visibly. ISTJs direct their organizational energy inward — they build personal discipline, maintain private systems, and demonstrate reliability through consistent individual output. Both are dependable and standards-driven; one is public-facing, the other is behind-the-scenes." },
+      { question: "Which is more common, ESTJ or ISTJ?", answer: "ESTJs make up about 9-11% of the population, making them one of the most common types. ISTJs make up about 12-14%, making them the most common type overall. Both are more common in men than women and are heavily represented in traditional, structured professions." },
+      { question: "Are ESTJ and ISTJ compatible?", answer: "They share strong values alignment — both prioritize duty, reliability, and structured commitment. They can clash around the need for social engagement (ESTJs typically want more; ISTJs want less) and around how they approach leadership (ESTJs are more assertive; ISTJs more reserved)." },
+      { question: "How do I know if I'm ESTJ or ISTJ?", answer: "Ask yourself: do you naturally take charge of organizing other people (ESTJ) or focus primarily on your own work and standards (ISTJ)? ESTJs manage outward; ISTJs manage themselves. Also: after a day of managing or coordinating people, do you feel energized (ESTJ) or depleted (ISTJ)?" },
+    ],
+    ctaHeading: "Find out if you're ESTJ or ISTJ",
+    ctaSubtext: "Free personality test — 16 Personalities, DISC, Enneagram, and Strengths. Complete results, no paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ESTJ personality type", url: "/blog/estj-personality-type" },
+      { label: "ISTJ personality type", url: "/blog/istj-personality-type" },
+      { label: "ISFJ vs ISTJ", url: "/blog/isfj-vs-istj" },
+      { label: "ESTJ vs ENTJ", url: "/blog/estj-vs-entj" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "entp-vs-intp": {
+    slug: "entp-vs-intp",
+    metaTitle: "ENTP vs INTP — Both Logical and Innovative, Very Different in People",
+    metaDesc: "ENTP and INTP are both analytical and idea-driven, but one thrives on debate and collaboration while the other prefers solitary deep work. Full type comparison.",
+    canonicalUrl: "https://1test.me/blog/entp-vs-intp",
+    h1: "ENTP vs INTP — Same Logical Depth, Opposite Social Energy",
+    sections: [
+      {
+        heading: "What ENTP and INTP share",
+        html: p("ENTP and INTP are both driven by an insatiable need to understand — they want to see beneath the surface of things, challenge received assumptions, and generate new frameworks for understanding the world. Both are deeply analytical, independently minded, and resistant to conventional wisdom just because it's conventional.") +
+          p("Both types lead with intuition — they're pattern-seekers who prefer the abstract and theoretical to the concrete and procedural. Both apply rigorous Thinking to evaluate what they find, and neither has much patience for decisions based on emotion or authority alone.") +
+          p("Not sure which you are? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "The core difference: extroversion vs introversion",
+        html: p("The E/I split produces a fundamental divergence in how these types operate:") +
+          strong([
+            { label: "ENTP (Extrovert).", desc: "ENTPs think out loud. They develop ideas in dialogue, love debate, and energize themselves through external engagement with other minds. Their Extroverted Intuition thrives on the collision of ideas — they generate by exploring in conversation, not in isolation." },
+            { label: "INTP (Introvert).", desc: "INTPs think inward. They develop ideas through sustained solo reflection, building intricate internal frameworks that they rarely share until complete. Their Introverted Thinking is methodical and private — they need silence and solitude to do their best thinking." },
+          ]) +
+          p("An ENTP has ideas by talking. An INTP has ideas by thinking alone. Put both in a brainstorm: the ENTP will dominate the room with fast-firing connections; the INTP will say little but will have the most structurally sound idea later, after everyone has gone home."),
+      },
+      {
+        heading: "Behavioral differences at work",
+        html: p("The divergence shows up clearly in professional settings:") +
+          strong([
+            { label: "Collaboration.", desc: "ENTPs thrive in collaborative, discussion-rich environments. INTPs prefer deep solo work with minimal interruption." },
+            { label: "Communication.", desc: "ENTPs express ideas enthusiastically and often prematurely — they think out loud and are comfortable with incomplete ideas. INTPs communicate precisely and often too late — they wait until their framework is complete, which can look like withholding." },
+            { label: "Debate style.", desc: "ENTPs are notorious for arguing positions they don't fully believe — they enjoy the intellectual sparring itself. INTPs are more careful: they argue positions they've actually worked through and can be genuinely frustrated by casual argumentation." },
+            { label: "Follow-through.", desc: "Neither type is especially strong at execution, but ENTPs are especially prone to abandoning projects when novelty wears off. INTPs can sustain deep focus but may over-analyze rather than act." },
+          ]),
+      },
+      {
+        heading: "Relationships and compatibility",
+        html: p("Both types are intellectually demanding partners who need relationships built on genuine mental engagement. Shallow conversation bores both immediately. Both can seem cold or dismissive to more feeling-oriented types.") +
+          p("ENTPs are more engaging and entertaining partners — they're social, playful, and excellent at reframing difficult situations with unexpected humor. INTPs are quieter but more stable — they're deeply loyal within their small circle and bring genuine intellectual depth to sustained connection.") +
+          p("ENTPs pair well with INTJ and INFJ types who match their depth and provide structure. INTPs pair well with ENTJ and ENFP types who bring energy and social direction without overwhelming them."),
+      },
+    ],
+    faqs: [
+      { question: "What is the main difference between ENTP and INTP?", answer: "The core difference is extraversion vs introversion — specifically in how they generate and develop ideas. ENTPs think out loud, generate through dialogue and debate, and are energized by external intellectual collision. INTPs think inward, generate through sustained solo reflection, and need quiet to build their complex internal frameworks. Both are analytical and innovation-oriented; one is socially generative, the other is privately rigorous." },
+      { question: "Which is more common, ENTP or INTP?", answer: "ENTPs make up about 3-5% of the population; INTPs about 3-5% as well. Both are slightly more common in men than women. ENTPs are disproportionately found in entrepreneurship, law, and strategy; INTPs in research, software, academia, and mathematics." },
+      { question: "Are ENTP and INTP compatible?", answer: "They share strong intellectual alignment — both are innovative, analytically rigorous, and resistant to conventional thinking. The main friction point is social energy: ENTPs want to generate by talking; INTPs need quiet to think. If the ENTP respects the INTP's need for uninterrupted depth, they can be highly compatible intellectually." },
+      { question: "How do I know if I'm ENTP or INTP?", answer: "Ask yourself: do you develop your best ideas in conversation (ENTP) or in solitude (INTP)? ENTPs think out loud and often don't know what they think until they say it. INTPs think privately and only speak when they've worked something out. Also: after a day of meetings and debate, do you feel more energized (ENTP) or more depleted (INTP)?" },
+    ],
+    ctaHeading: "Find out if you're ENTP or INTP",
+    ctaSubtext: "Free personality test — 16 Personalities, DISC, Enneagram, and Strengths. Complete results, no paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ENTP personality type", url: "/blog/entp-personality-type" },
+      { label: "INTP personality type", url: "/blog/intp-personality-type" },
+      { label: "ISTP vs INTP", url: "/blog/istp-vs-intp" },
+      { label: "ESTP vs ENTP", url: "/blog/estp-vs-entp" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enfp-vs-esfp": {
+    slug: "enfp-vs-esfp",
+    metaTitle: "ENFP vs ESFP — Both Warm and Spontaneous, Different Minds",
+    metaDesc: "ENFP and ESFP are both enthusiastic, people-oriented types. But one is driven by ideas and possibilities while the other lives in the present moment. Full comparison.",
+    canonicalUrl: "https://1test.me/blog/enfp-vs-esfp",
+    h1: "ENFP vs ESFP — Same Energy, Different Inner World",
+    sections: [
+      {
+        heading: "What ENFP and ESFP share",
+        html: p("ENFP and ESFP are easily the two most externally similar types in the system. Both are warm, spontaneous, and socially energizing. Both have strong Feeling preferences that orient them toward people, connection, and emotional authenticity. Both can captivate a room and make individuals feel genuinely seen. Both tend to be creative and resist rigid structure.") +
+          p("In casual social contexts, they're nearly indistinguishable. The difference becomes apparent when you look at what energizes and preoccupies them internally.") +
+          p("Not sure which you are? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "The core difference: intuition vs sensing",
+        html: p("The N/S split is the defining divide between these two types:") +
+          strong([
+            { label: "ENFP (Intuition).", desc: "ENFPs lead with Extroverted Intuition — they're possibility-seekers, future-oriented, and energized by ideas, patterns, and connections between concepts. They're drawn to what could be. Their warmth is infused with vision and idealism." },
+            { label: "ESFP (Sensing).", desc: "ESFPs lead with Extroverted Sensing — they're experience-seekers, present-oriented, and energized by what's happening right now. They're drawn to what is. Their warmth is grounded in the immediate — who's in the room, what's happening, what feels good now." },
+          ]) +
+          p("An ENFP comes to a party excited about the conversations they'll have and the ideas they'll encounter. An ESFP comes excited about the music, the people, the energy — the experience itself."),
+      },
+      {
+        heading: "Behavioral differences at work and in life",
+        html: p("How these types differ in practice:") +
+          strong([
+            { label: "Planning horizon.", desc: "ENFPs think in long arcs — they're drawn to projects with a meaningful future vision. ESFPs are more present-focused — they prefer work that's immediately engaging and rewarding." },
+            { label: "Creative expression.", desc: "ENFPs tend toward conceptual creativity — writing, philosophy, strategy, idea generation. ESFPs tend toward experiential creativity — performance, design, music, culinary arts." },
+            { label: "Work structure.", desc: "Neither type is naturally structured, but ENFPs can sustain momentum on an idea they care deeply about. ESFPs need variety and immediate engagement to stay motivated." },
+            { label: "Career paths.", desc: "ENFPs gravitate toward counseling, writing, advocacy, education, entrepreneurship, and idea-driven roles. ESFPs gravitate toward performance, events, sales, community work, and hands-on caregiving." },
+          ]),
+      },
+      {
+        heading: "Relationships and compatibility",
+        html: p("Both types are warm, affectionate, and highly relational partners who invest in the people they care about. Both can be impulsive and emotionally intense.") +
+          p("ENFPs bring intellectual depth and idealistic vision to relationships — they want to grow together and explore meaning together. ESFPs bring present-moment delight and physical presence — they make life fun and celebrate the relationship in real time.") +
+          p("ENFPs pair well with INTJ and INFJ types who provide depth and structure. ESFPs pair well with ISFJ and ISTJ types who provide grounding and reliability."),
+      },
+    ],
+    faqs: [
+      { question: "What is the main difference between ENFP and ESFP?", answer: "The core difference is intuition vs sensing. ENFPs are possibility-oriented and future-focused — they're driven by ideas, patterns, and what could be. ESFPs are experience-oriented and present-focused — they're driven by what's happening now and the richness of immediate sensory experience. Both are warm, spontaneous, and people-oriented; one lives in a world of ideas, the other in a world of experience." },
+      { question: "Which is more common, ENFP or ESFP?", answer: "ESFPs make up about 8-9% of the population; ENFPs make up about 7-8%. Both are more common in women than men. ESFPs are more common in performing arts, hospitality, and social work; ENFPs in counseling, writing, education, and creative fields." },
+      { question: "Are ENFP and ESFP compatible?", answer: "They share strong warmth and social energy alignment. The main friction point is the ideas-vs-experience divide: ENFPs want to discuss meaning and possibilities; ESFPs want to enjoy the moment. If both honor the other's orientation, they can have a highly energized, fun relationship." },
+      { question: "How do I tell if I'm ENFP or ESFP?", answer: "Ask yourself: what excites you more — an interesting idea or an interesting experience? ENFPs are energized by possibilities and connections between ideas; ESFPs are energized by the richness and vividness of what's happening right now. Also: do you tend to imagine what could be (ENFP) or notice what is (ESFP)?" },
+    ],
+    ctaHeading: "Find out if you're ENFP or ESFP",
+    ctaSubtext: "Free personality test — 16 Personalities, DISC, Enneagram, and Strengths. Complete results, no paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ENFP personality type", url: "/blog/enfp-personality-type" },
+      { label: "ESFP personality type", url: "/blog/esfp-personality-type" },
+      { label: "ENFP vs INFP", url: "/blog/infp-vs-enfp" },
+      { label: "ESFP vs ISFP", url: "/blog/esfp-vs-isfp" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "entj-vs-entp": {
+    slug: "entj-vs-entp",
+    metaTitle: "ENTJ vs ENTP — Both Strategic and Driven, But Very Different Leaders",
+    metaDesc: "ENTJ and ENTP are both bold, analytical, and driven. But one builds systems and commands execution while the other generates ideas and argues everything. Full comparison.",
+    canonicalUrl: "https://1test.me/blog/entj-vs-entp",
+    h1: "ENTJ vs ENTP — Both Ambitious, Different Types of Leaders",
+    sections: [
+      {
+        heading: "What ENTJ and ENTP share",
+        html: p("ENTJ and ENTP are both driven, intellectually formidable types who don't accept the world as it is. Both are extroverted and assertive, both are comfortable with conflict, and both have the kind of raw intellectual confidence that can be either inspiring or exhausting depending on the context.") +
+          p("Both types are natural challengers of convention. Neither defers easily to authority or tradition. Both generate ambitious ideas and can articulate them compellingly. In high-level strategy meetings, they can look nearly identical.") +
+          p("Not sure which you are? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "The core difference: thinking vs intuition as the lead function",
+        html: p("ENTJ leads with Extroverted Thinking; ENTP leads with Extroverted Intuition. This is the fundamental divide:") +
+          strong([
+            { label: "ENTJ (Extroverted Thinking first).", desc: "ENTJs are driven by organizing external reality toward efficient outcomes. They generate a direction and then push hard to execute it. They're most satisfied when a plan is working — when the system produces results. They are decisive, structured, and oriented toward completion." },
+            { label: "ENTP (Extroverted Intuition first).", desc: "ENTPs are driven by generating and exploring possibilities. They come alive when discovering unexpected connections, challenging assumptions, and seeing what could be built. They're most satisfied when they're in creative, exploratory mode — not necessarily when the plan is complete. They can be reluctant to commit to one direction because it means abandoning other possibilities." },
+          ]) +
+          p("An ENTJ and an ENTP given the same problem: the ENTJ will identify the best approach, assign it, and drive it to completion. The ENTP will generate six approaches, argue enthusiastically for all of them, and have difficulty committing to one."),
+      },
+      {
+        heading: "Behavioral differences at work",
+        html: p("These differences produce distinct professional profiles:") +
+          strong([
+            { label: "Decision speed.", desc: "ENTJs make decisions fast and hold them. ENTPs decide slowly, revisit frequently, and are open to being convinced they were wrong." },
+            { label: "Follow-through.", desc: "ENTJs are strong executors — they're one of the few types that both generates ambitious ideas and pushes them to completion. ENTPs often lose interest in the execution phase once the conceptual challenge is solved." },
+            { label: "Debate style.", desc: "ENTJs debate to win and then move on. ENTPs debate for the pleasure of the argument itself — they'll argue positions they don't hold just to stress-test the logic." },
+            { label: "Leadership.", desc: "ENTJs lead through clear direction and accountability. ENTPs lead through intellectual charisma and inspiration — they rally people by making the future feel exciting rather than by creating structured plans." },
+          ]),
+      },
+      {
+        heading: "Relationships and compatibility",
+        html: p("Both types are intellectually demanding partners. Both need mental engagement, direct communication, and a partner who can hold their own in an argument. Neither is naturally emotionally expressive.") +
+          p("ENTJs are more reliable and predictable partners — they're structured even in relationships, which provides security. ENTPs are more spontaneous and challenging — they keep relationships dynamic but can create frustration with their indecisiveness.") +
+          p("ENTJs pair well with INFJ and INTP types who provide depth and balance their drive. ENTPs pair well with INTJ and INFJ types who provide stability and match their intellectual depth."),
+      },
+    ],
+    faqs: [
+      { question: "What is the main difference between ENTJ and ENTP?", answer: "The core difference is the lead cognitive function: ENTJ leads with Extroverted Thinking (organizing external reality toward efficient outcomes) while ENTP leads with Extroverted Intuition (generating possibilities and exploring connections). ENTJs are decisive and execution-oriented; ENTPs are exploratory and idea-oriented. Both are ambitious and intellectually assertive; one builds systems, the other generates possibilities." },
+      { question: "Which is more common, ENTJ or ENTP?", answer: "ENTJs make up about 2-4% of the population; ENTPs about 3-5%. Both are more common in men than women. ENTJs are disproportionately found in executive and strategic leadership; ENTPs in entrepreneurship, consulting, law, and any role that rewards debate and innovative thinking." },
+      { question: "Are ENTJ and ENTP compatible?", answer: "They share high intellectual alignment and mutual respect for boldness and competence. The main friction point is around completion vs exploration: ENTJs want to decide and execute; ENTPs want to keep generating and exploring. If the ENTJ can tolerate the ENTP's revisiting and the ENTP can honor the ENTJ's need for commitment, they can be highly effective together." },
+      { question: "How do I know if I'm ENTJ or ENTP?", answer: "Ask yourself: are you most energized when driving a plan to completion (ENTJ) or when exploring the space of possibilities (ENTP)? ENTJs feel satisfaction at execution and closure. ENTPs feel satisfaction at the point of discovery and often become restless once the creative problem is solved. Also: do you prefer to make a decision and stick to it (ENTJ) or keep your options open as long as possible (ENTP)?" },
+    ],
+    ctaHeading: "Find out if you're ENTJ or ENTP",
+    ctaSubtext: "Free personality test — 16 Personalities, DISC, Enneagram, and Strengths. Complete results, no paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ENTJ personality type", url: "/blog/entj-personality-type" },
+      { label: "ENTP personality type", url: "/blog/entp-personality-type" },
+      { label: "INTJ vs ENTJ", url: "/blog/intj-vs-entj" },
+      { label: "ESTP vs ENTP", url: "/blog/estp-vs-entp" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "esfj-vs-estj": {
+    slug: "esfj-vs-estj",
+    metaTitle: "ESFJ vs ESTJ — Both Organized and Social, But Different Priorities",
+    metaDesc: "ESFJ and ESTJ are both structured, responsible, and community-oriented. But one prioritizes harmony and people while the other prioritizes results and standards. Full comparison.",
+    canonicalUrl: "https://1test.me/blog/esfj-vs-estj",
+    h1: "ESFJ vs ESTJ — Both Organized, Different Core Values",
+    sections: [
+      {
+        heading: "What ESFJ and ESTJ share",
+        html: p("ESFJ and ESTJ are both Extroverted Judging types — they prefer structure, closure, and organized environments, and they direct this organizational energy outward into the world around them. Both are socially engaged, community-oriented, and take their responsibilities seriously. Both types show up reliably and hold themselves and others to clear standards.") +
+          p("Both types tend to be natural community organizers who create structured, functional environments. You'll find both in leadership roles, social institutions, and anywhere reliable execution and community care matter.") +
+          p("Not sure which you are? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "The core difference: feeling vs thinking",
+        html: p("The F/T split is the fundamental divide:") +
+          strong([
+            { label: "ESFJ (Feeling).", desc: "ESFJs organize around people's needs and group harmony. Their primary function (Extroverted Feeling) continuously reads the emotional climate of the group and works to maintain warmth, cohesion, and belonging. They measure success by whether people feel cared for and the group is thriving." },
+            { label: "ESTJ (Thinking).", desc: "ESTJs organize around systems, standards, and outcomes. Their primary function (Extroverted Thinking) continuously evaluates efficiency, accountability, and whether goals are being met. They measure success by whether the plan is working and standards are maintained." },
+          ]) +
+          p("Same structured, socially engaged profile — but ESFJs lead with the question 'Is everyone okay?' and ESTJs lead with 'Is the job getting done?'"),
+      },
+      {
+        heading: "Behavioral differences at work",
+        html: p("How these types differ in professional settings:") +
+          strong([
+            { label: "Feedback style.", desc: "ESFJs give feedback carefully, prioritizing the recipient's emotional experience. ESTJs give direct, outcomes-focused feedback — they prioritize accuracy over comfort." },
+            { label: "Conflict approach.", desc: "ESFJs avoid conflict that disrupts group harmony and work hard to smooth over interpersonal tensions. ESTJs are comfortable with direct confrontation when standards aren't met." },
+            { label: "Motivation.", desc: "ESFJs motivate through appreciation, recognition, and creating belonging. ESTJs motivate through clear expectations, accountability, and tracking results." },
+            { label: "Career fit.", desc: "ESFJs gravitate toward healthcare, social work, community leadership, HR, teaching, and event coordination. ESTJs gravitate toward management, operations, law enforcement, military, and executive leadership." },
+          ]),
+      },
+      {
+        heading: "Relationships and compatibility",
+        html: p("Both types are reliable, structured partners who take their commitments seriously and show love through consistent action. Both can appear rigid to more flexible types.") +
+          p("ESFJs are warmer and more emotionally attentive partners — they create a nurturing home environment and are attuned to their partner's emotional needs. ESTJs are more practically structured — they provide security and reliability but may underinvest in emotional expressiveness.") +
+          p("ESFJs pair well with ISFJ and INFP types who balance their warmth. ESTJs pair well with ISFJ and INTP types who balance their drive."),
+      },
+    ],
+    faqs: [
+      { question: "What is the main difference between ESFJ and ESTJ?", answer: "The core difference is Feeling vs Thinking. ESFJs organize the world around people's needs and group harmony — their primary driver is ensuring everyone feels cared for and the group stays cohesive. ESTJs organize the world around systems, standards, and results — their primary driver is ensuring the plan is working and accountability is maintained. Both are structured and community-oriented; one leads with heart, the other with results." },
+      { question: "Which is more common, ESFJ or ESTJ?", answer: "ESFJs make up about 9-12% of the population and are one of the most common types, particularly among women. ESTJs make up about 9-11% and are one of the most common types, particularly among men. Both types are heavily represented in structured, service-oriented, and leadership-requiring professions." },
+      { question: "Are ESFJ and ESTJ compatible?", answer: "They share structure, responsibility, and community-orientation. The main friction point is the F/T divide: ESFJs prioritize how people feel; ESTJs prioritize whether goals are met. An ESFJ may find the ESTJ insufficiently warm; an ESTJ may find the ESFJ too focused on maintaining harmony at the expense of accountability." },
+      { question: "How do I know if I'm ESFJ or ESTJ?", answer: "Ask yourself: when a group project is failing, do you first worry about how people are feeling about it (ESFJ) or about how to fix the process that's failing (ESTJ)? ESFJs move toward people first; ESTJs move toward the problem first." },
+    ],
+    ctaHeading: "Find out if you're ESFJ or ESTJ",
+    ctaSubtext: "Free personality test — 16 Personalities, DISC, Enneagram, and Strengths. Complete results, no paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ESFJ personality type", url: "/blog/esfj-personality-type" },
+      { label: "ESTJ personality type", url: "/blog/estj-personality-type" },
+      { label: "ESFJ vs ISFJ", url: "/blog/esfj-vs-isfj" },
+      { label: "ESTJ vs ENTJ", url: "/blog/estj-vs-entj" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "intj-vs-infp": {
+    slug: "intj-vs-infp",
+    metaTitle: "INTJ vs INFP — Opposites That Confuse Each Other (And Themselves)",
+    metaDesc: "INTJ and INFP are among the most commonly confused types — both are private, idealistic, and intense. But they process the world in almost opposite ways. Full comparison.",
+    canonicalUrl: "https://1test.me/blog/intj-vs-infp",
+    h1: "INTJ vs INFP — Both Private and Intense, Almost Opposite Inside",
+    sections: [
+      {
+        heading: "Why INTJ and INFP are commonly confused",
+        html: p("INTJ and INFP look surprisingly similar from the outside: both are private, independent, and intensely inner-directed. Both can appear reserved in social settings. Both tend to be highly principled and resistant to convention. Both have rich inner lives that few people fully see.") +
+          p("The confusion often comes from mistyping — especially INFPs mistyping as INTJs because they admire the INTJ archetype, or INTJs mistyping as INFPs because they're aware of their emotional depth. But the cognitive architecture is almost completely different.") +
+          p("Not sure which you are? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "The fundamental difference: thinking vs feeling and judging vs perceiving",
+        html: p("Two independent dimensions separate these types:") +
+          strong([
+            { label: "INTJ (Thinking + Judging).", desc: "INTJs lead with Introverted Intuition and apply Extroverted Thinking — they build long-range strategic visions and drive decisively toward them. They are closure-oriented, structured, and comfortable asserting their conclusions. Their inner world is strategic and future-focused." },
+            { label: "INFP (Feeling + Perceiving).", desc: "INFPs lead with Introverted Feeling and explore with Extroverted Intuition — they hold deep personal values and explore possibilities that might express or honor them. They are open-ended, flexible, and resistant to closure. Their inner world is emotional and values-driven." },
+          ]) +
+          p("The INTJ's inner world is a map of strategic patterns pointing toward a future goal. The INFP's inner world is a landscape of deeply held values, emotional truths, and imaginative possibilities."),
+      },
+      {
+        heading: "Behavioral differences at work and in life",
+        html: p("How these differences manifest:") +
+          strong([
+            { label: "Decision-making.", desc: "INTJs make decisions efficiently based on logical evaluation of strategic options. INFPs struggle with decisions — their Perceiving preference keeps options open, and their Introverted Feeling has complex value-weighted criteria that can conflict." },
+            { label: "Structure.", desc: "INTJs prefer planned, structured environments with clear goals. INFPs prefer open, flexible environments with room to explore." },
+            { label: "Communication.", desc: "INTJs communicate directly and are comfortable asserting conclusions even when they're unwelcome. INFPs communicate with nuance and care, often around their own reactions and values. They're less comfortable being blunt." },
+            { label: "Career paths.", desc: "INTJs gravitate toward strategy, engineering, research, law, and technical leadership. INFPs gravitate toward writing, counseling, psychology, arts, social work, and meaning-oriented fields." },
+          ]),
+      },
+      {
+        heading: "Relationships and compatibility",
+        html: p("Both types are independent, private, and selective about who they trust. Both can form deep, loyal bonds with a small number of people while remaining largely unavailable to the broader world.") +
+          p("INTJs are more decisive and directional in relationships — they know what they want and communicate it clearly, even if not warmly. INFPs are more emotionally responsive and idealistic — they invest deeply in the emotional quality of the relationship and can be sensitive to perceived misalignment with their values.") +
+          p("INTJ and INFP are often drawn to each other precisely because of their differences — the INTJ provides structure and certainty the INFP lacks; the INFP provides emotional depth and values-grounding the INTJ underweights. Whether this attraction lasts depends on whether each type can respect what the other brings."),
+      },
+    ],
+    faqs: [
+      { question: "What is the main difference between INTJ and INFP?", answer: "The core difference is Thinking/Feeling and Judging/Perceiving. INTJs lead with strategic vision (Introverted Intuition) and make decisions through logical evaluation (Extroverted Thinking) — they're decisive, structured, and future-strategizing. INFPs lead with deep personal values (Introverted Feeling) and explore possibilities (Extroverted Intuition) — they're open-ended, values-driven, and resistant to forced closure. Both are private and intense; one is strategic and decisive, the other is idealistic and exploratory." },
+      { question: "Why do INTJ and INFP confuse themselves for each other?", answer: "Both types are highly inner-directed and can appear reserved and private. INFPs sometimes mistype as INTJs because they admire the INTJ's strategic confidence; INTJs sometimes mistype as INFPs because they have deeper emotional lives than the archetype suggests. The key test is decision-making style: INTJs decide efficiently using logic; INFPs struggle with decisions because their values-weighing process is complex and their Perceiving preference resists closure." },
+      { question: "Are INTJ and INFP compatible?", answer: "They're often drawn to each other because of complementary strengths: the INTJ provides direction and logical clarity that grounds the INFP; the INFP provides emotional depth and values-integrity that humanizes the INTJ. Long-term compatibility depends on whether the INTJ can tolerate the INFP's open-endedness and the INFP can tolerate the INTJ's directness." },
+      { question: "How do I know if I'm INTJ or INFP?", answer: "The most reliable question: when making a decision, do you primarily ask 'what's the most strategically effective option?' (INTJ) or 'which option feels most aligned with my values?' (INFP)? Also: are you naturally comfortable making decisions and sticking to them (INTJ) or do you resist closure and prefer to keep options open (INFP)?" },
+    ],
+    ctaHeading: "Find out if you're INTJ or INFP",
+    ctaSubtext: "Free personality test — 16 Personalities, DISC, Enneagram, and Strengths. Complete results, no paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INTJ personality type", url: "/blog/intj-personality-type" },
+      { label: "INFP personality type", url: "/blog/infp-personality-type" },
+      { label: "INFJ vs INTJ", url: "/blog/infj-vs-intj" },
+      { label: "INFP vs INFJ", url: "/blog/infp-vs-infj" },
+    ],
+    datePublished: "2026-04-18",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

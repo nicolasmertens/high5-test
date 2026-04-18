@@ -2369,6 +2369,54 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/isfp-enneagram-type",
     ogType: "article",
   },
+  "/blog/estp-vs-istp": {
+    title: "ESTP vs ISTP — Same Pragmatism, Different Energy",
+    description: "ESTP and ISTP are both action-oriented realists, but one thrives in the spotlight and the other in solitude. Full comparison of differences, strengths, and careers.",
+    canonicalUrl: "https://1test.me/blog/estp-vs-istp",
+    ogType: "article",
+  },
+  "/blog/esfp-vs-isfp": {
+    title: "ESFP vs ISFP — Both Warm and Present, But One Needs an Audience",
+    description: "ESFP and ISFP are both spontaneous, values-driven types — but their relationship with people and energy is very different. Full comparison with career and relationship differences.",
+    canonicalUrl: "https://1test.me/blog/esfp-vs-isfp",
+    ogType: "article",
+  },
+  "/blog/estj-vs-istj": {
+    title: "ESTJ vs ISTJ — Both Traditional and Duty-Bound, Different Leadership",
+    description: "ESTJ and ISTJ are both reliable, structured types who uphold standards. But one leads out front while the other works behind the scenes. Full comparison.",
+    canonicalUrl: "https://1test.me/blog/estj-vs-istj",
+    ogType: "article",
+  },
+  "/blog/entp-vs-intp": {
+    title: "ENTP vs INTP — Both Logical and Innovative, Very Different in People",
+    description: "ENTP and INTP are both analytical and idea-driven, but one thrives on debate and collaboration while the other prefers solitary deep work. Full type comparison.",
+    canonicalUrl: "https://1test.me/blog/entp-vs-intp",
+    ogType: "article",
+  },
+  "/blog/enfp-vs-esfp": {
+    title: "ENFP vs ESFP — Both Warm and Spontaneous, Different Minds",
+    description: "ENFP and ESFP are both enthusiastic, people-oriented types. But one is driven by ideas and possibilities while the other lives in the present moment. Full comparison.",
+    canonicalUrl: "https://1test.me/blog/enfp-vs-esfp",
+    ogType: "article",
+  },
+  "/blog/entj-vs-entp": {
+    title: "ENTJ vs ENTP — Both Strategic and Driven, But Very Different Leaders",
+    description: "ENTJ and ENTP are both bold, analytical, and driven. But one builds systems and commands execution while the other generates ideas and argues everything. Full comparison.",
+    canonicalUrl: "https://1test.me/blog/entj-vs-entp",
+    ogType: "article",
+  },
+  "/blog/esfj-vs-estj": {
+    title: "ESFJ vs ESTJ — Both Organized and Social, But Different Priorities",
+    description: "ESFJ and ESTJ are both structured, responsible, and community-oriented. But one prioritizes harmony and people while the other prioritizes results and standards. Full comparison.",
+    canonicalUrl: "https://1test.me/blog/esfj-vs-estj",
+    ogType: "article",
+  },
+  "/blog/intj-vs-infp": {
+    title: "INTJ vs INFP — Opposites That Confuse Each Other (And Themselves)",
+    description: "INTJ and INFP are among the most commonly confused types — both are private, idealistic, and intense. But they process the world in almost opposite ways. Full comparison.",
+    canonicalUrl: "https://1test.me/blog/intj-vs-infp",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {
