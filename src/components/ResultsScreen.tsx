@@ -252,21 +252,33 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
             </p>
 
             <div className="bridge-cards">
-              <div className="bridge-card">
+              <a
+                className="bridge-card bridge-card-link"
+                href={`/blog/${personality.type.toLowerCase()}-personality-type`}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={`Learn more about ${personality.type}`}
+              >
                 <span className="bridge-label">16 Personalities</span>
                 <span className="bridge-value">{personality.type}</span>
-                <span className="bridge-sublabel">{personality.label}</span>
-              </div>
+                <span className="bridge-sublabel">{personality.label} ↗</span>
+              </a>
               <div className="bridge-card">
                 <span className="bridge-label">DISC Profile</span>
                 <span className="bridge-value">{disc.style}</span>
                 <span className="bridge-sublabel">{disc.primary.name}</span>
               </div>
-              <div className="bridge-card">
+              <a
+                className="bridge-card bridge-card-link"
+                href={`/blog/enneagram-type-${enneagram.primary.type}-${enneagram.primary.name.replace(/^The\s+/i, "").toLowerCase().replace(/\s+/g, "-")}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={`Learn more about Enneagram ${enneagram.wingLabel}`}
+              >
                 <span className="bridge-label">Enneagram</span>
                 <span className="bridge-value">{enneagram.wingLabel}</span>
-                <span className="bridge-sublabel">{enneagram.primary.name}</span>
-              </div>
+                <span className="bridge-sublabel">{enneagram.primary.name} ↗</span>
+              </a>
             </div>
 
             <button
