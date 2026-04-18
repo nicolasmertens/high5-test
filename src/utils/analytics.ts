@@ -653,3 +653,15 @@ export function trackCareerAlignmentSubmitted(
     page_path: window.location.pathname,
   });
 }
+
+export function trackLinkedInConnect(): void {
+  posthog.capture("linkedin_connect", {
+    page_path: window.location.pathname,
+  });
+}
+
+export function trackLinkedInDisconnect(): void {
+  posthog.capture("linkedin_disconnect", {
+    page_path: window.location.pathname,
+  });
+}
