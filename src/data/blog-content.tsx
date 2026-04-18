@@ -20805,6 +20805,483 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-18",
   },
+
+  "enneagram-type-1-careers": {
+    slug: "enneagram-type-1-careers",
+    metaTitle: "Enneagram Type 1 Careers: Best Jobs for The Reformer",
+    metaDesc: "Discover the best careers for Enneagram Type 1 — The Reformer. See which roles suit Type 1 integrity and precision, and which environments to avoid.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-1-careers",
+    h1: "Enneagram Type 1 Careers: Best Jobs for The Reformer",
+    sections: [
+      {
+        heading: "What Type 1 Needs at Work",
+        html: p("Enneagram Type 1s thrive in environments where quality matters, ethical standards are upheld, and their conscientiousness is recognized and rewarded. They need work that has clear right-and-wrong distinctions, measurable standards, and opportunities to make things better.") +
+          p("What drains a Type 1 quickly: environments with low standards, frequent shortcuts, ethical ambiguity, or leaders who reward appearance over substance. The One's inner critic is already demanding — an external culture that tolerates mediocrity creates constant friction."),
+      },
+      {
+        heading: "Best Career Matches for Type 1",
+        html: strong([
+          { label: "Law and compliance:", desc: "Legal work, regulatory compliance, and ethics officer roles are natural fits. Ones thrive when clear standards exist and their job is to uphold them." },
+          { label: "Medicine and healthcare quality:", desc: "Clinical medicine, quality assurance, and medical administration appeal to Ones' precision and care. Patient outcomes are clear stakes that make their standards feel meaningful." },
+          { label: "Education:", desc: "Teaching and curriculum development allow Ones to impart correct knowledge, uphold academic integrity, and genuinely improve others through rigorous standards." },
+          { label: "Editing and quality control:", desc: "Editorial roles, technical writing, and QA testing leverage the One's eye for error and their satisfaction in bringing something to its best possible form." },
+          { label: "Public policy and advocacy:", desc: "Ones motivated by justice find purpose in policy work, nonprofit leadership, and advocacy — places where their principles align with concrete systemic improvement." },
+          { label: "Accounting and auditing:", desc: "Precision, rules, and clear standards make financial roles satisfying for Ones. They are trustworthy with resources and dependable reporters of reality." },
+        ]),
+      },
+      {
+        heading: "Careers Type 1 May Struggle With",
+        html: p("Roles with high ethical ambiguity — certain sales positions, political consulting, or environments that routinely cut corners — create sustained stress for Ones. When their job requires them to represent things they don't fully believe in, the inner critic turns outward and job satisfaction collapses.") +
+          p("Highly creative roles with no objective quality standards can also frustrate Ones, who need to know when something is done well. And management roles in chaotic, fast-moving environments may overwhelm their need for structured, quality-controlled processes."),
+      },
+      {
+        heading: "Type 1 Growth at Work",
+        html: p("The One's greatest career challenge is learning that good enough sometimes is enough — that releasing 90% work on time serves more than holding for 100% work delivered late. High standards are an asset; perfectionism that blocks output is a liability.") +
+          p("Ones grow professionally when they learn to delegate without micromanaging (trusting that others' methods can achieve acceptable results), when they separate their performance from their worth, and when they find ways to acknowledge what is going well alongside what needs improvement."),
+      },
+    ],
+    faqs: [
+      { question: "What careers are best for Enneagram Type 1?", answer: "Law, compliance, medicine, education, editing, auditing, public policy, and quality assurance — roles where clear standards, ethical integrity, and improvement are central." },
+      { question: "What work environment suits Type 1?", answer: "Type 1s thrive in environments with clear expectations, high ethical standards, and cultures that reward quality and conscientiousness rather than cutting corners." },
+      { question: "What careers should Type 1 avoid?", answer: "Roles requiring frequent ethical compromise, environments that reward appearance over substance, or positions with no clear quality standards create sustained frustration for Ones." },
+      { question: "How can Type 1 avoid burnout at work?", answer: "By practicing 'good enough' thresholds and separating their sense of self-worth from the quality of every output. Ones need to build in rest and recovery rather than treating it as something earned only after perfection." },
+    ],
+    ctaHeading: "Know Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to find your Enneagram type and discover your best career direction.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 1 guide", url: "/blog/enneagram-type-1" },
+      { label: "Enneagram career paths", url: "/blog/enneagram-career-paths" },
+      { label: "Enneagram Type 2 careers", url: "/blog/enneagram-type-2-careers" },
+      { label: "Enneagram in the workplace", url: "/blog/enneagram-in-workplace" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-2-careers": {
+    slug: "enneagram-type-2-careers",
+    metaTitle: "Enneagram Type 2 Careers: Best Jobs for The Helper",
+    metaDesc: "Discover the best careers for Enneagram Type 2 — The Helper. See which roles suit Type 2 warmth and empathy, and what to watch for at work.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-2-careers",
+    h1: "Enneagram Type 2 Careers: Best Jobs for The Helper",
+    sections: [
+      {
+        heading: "What Type 2 Needs at Work",
+        html: p("Enneagram Type 2s thrive in roles where they can make a tangible difference in people's lives and where genuine relationships are part of the daily work. They are energized by feeling needed and appreciated, and by environments where their care and attentiveness are visible and valued.") +
+          p("What drains a Type 2: purely transactional environments, roles with no human connection, cultures that don't acknowledge interpersonal contribution, or positions where they feel unseen despite their considerable effort."),
+      },
+      {
+        heading: "Best Career Matches for Type 2",
+        html: strong([
+          { label: "Healthcare and nursing:", desc: "Direct patient care is deeply satisfying for Twos — they are natural caregivers whose attentiveness to individual patients is exceptional." },
+          { label: "Counseling and social work:", desc: "Twos' empathy and relational skill make them effective therapists, counselors, and social workers — roles where the entire job is caring for others." },
+          { label: "Teaching and education:", desc: "Teaching allows Twos to invest in young people's development. They build warm classroom relationships and intuit which students need extra attention." },
+          { label: "Human resources:", desc: "HR leverages the Two's interpersonal attunement — hiring, employee relations, and people development all suit their strengths." },
+          { label: "Nonprofit and community service:", desc: "Mission-driven organizations where service is the explicit goal align well with the Two's desire to contribute to something meaningful." },
+          { label: "Customer experience:", desc: "Roles centered on client relationships — account management, customer success, hospitality management — leverage Twos' natural warmth and care." },
+        ]),
+      },
+      {
+        heading: "Careers Type 2 May Struggle With",
+        html: p("Purely analytical or technical roles with minimal human interaction (certain data science, engineering, or research positions) can feel isolating for Twos. They need connection to function at their best.") +
+          p("High-pressure sales roles that require aggressively pushing products regardless of customer need can conflict with the Two's genuine desire to help rather than just to close. And executive leadership roles requiring tough decisions that affect people can trigger the Two's difficulty with disappointing others."),
+      },
+      {
+        heading: "Type 2 Growth at Work",
+        html: p("The Two's career pitfall is giving so generously that they neglect their own professional development, career advancement, and wellbeing. They may deprioritize their own visibility in favor of supporting others — and wonder later why they weren't promoted.") +
+          p("Twos grow professionally when they learn to advocate for themselves as clearly as they advocate for others, when they recognize their own contributions without waiting for external validation, and when they build sustainable boundaries around their giving so they can sustain it long-term."),
+      },
+    ],
+    faqs: [
+      { question: "What careers are best for Enneagram Type 2?", answer: "Healthcare, nursing, counseling, social work, teaching, HR, nonprofit work, and customer experience — roles where genuine care for people is central to the job." },
+      { question: "What work environment suits Type 2?", answer: "Twos thrive in warm, collaborative cultures where interpersonal relationships are valued, contributions are acknowledged, and they can see the direct impact of their work on people's lives." },
+      { question: "How can Type 2 avoid burnout at work?", answer: "By building sustainable boundaries around their giving, learning to advocate for their own needs and career advancement, and recognizing that their worth is not contingent on being needed." },
+      { question: "What careers should Type 2 avoid?", answer: "Isolated analytical roles, high-pressure sales requiring disregard for customer needs, and overly impersonal environments that don't acknowledge the human dimension of work." },
+    ],
+    ctaHeading: "Discover Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to find your type and understand your natural career strengths.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 2 guide", url: "/blog/enneagram-type-2" },
+      { label: "Enneagram Type 1 careers", url: "/blog/enneagram-type-1-careers" },
+      { label: "Enneagram Type 3 careers", url: "/blog/enneagram-type-3-careers" },
+      { label: "Enneagram career paths", url: "/blog/enneagram-career-paths" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-3-careers": {
+    slug: "enneagram-type-3-careers",
+    metaTitle: "Enneagram Type 3 Careers: Best Jobs for The Achiever",
+    metaDesc: "Discover the best careers for Enneagram Type 3 — The Achiever. See which roles suit Type 3 ambition and adaptability, and career traps to avoid.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-3-careers",
+    h1: "Enneagram Type 3 Careers: Best Jobs for The Achiever",
+    sections: [
+      {
+        heading: "What Type 3 Needs at Work",
+        html: p("Enneagram Type 3s thrive in environments where achievement is visible, recognized, and rewarded. They are energized by clear success metrics, competitive contexts, and cultures where performance drives advancement. Threes need to feel that their effort translates to tangible success.") +
+          p("What drains a Three: environments where performance is invisible, mediocrity is tolerated, politics trump merit, or where hard work doesn't visibly lead anywhere. Threes also struggle in roles that provide no external feedback on how they're doing."),
+      },
+      {
+        heading: "Best Career Matches for Type 3",
+        html: strong([
+          { label: "Entrepreneurship:", desc: "Building and growing a company gives Threes the clear achievement arc, visible success metrics, and adaptive challenge they thrive on." },
+          { label: "Sales and business development:", desc: "High-performance sales roles offer measurable targets, direct correlation between effort and reward, and social environments that energize Threes." },
+          { label: "Marketing and communications:", desc: "Threes' image awareness and adaptability make them effective marketers. They understand what success looks like in their audience and communicate toward it." },
+          { label: "Corporate leadership:", desc: "Threes rise in corporate environments. Their competence, adaptability, and drive for achievement make them natural candidates for management and executive roles." },
+          { label: "Law and consulting:", desc: "High-status, high-performance professions where results are visible and compensation reflects achievement appeal strongly to Type 3." },
+          { label: "Entertainment and media:", desc: "Performance, presentation, and building a public image are natural territory for Threes — actors, media personalities, and public-facing executives often have strong Type 3 energy." },
+        ]),
+      },
+      {
+        heading: "Careers Type 3 May Struggle With",
+        html: p("Roles with no clear success metric, low visibility, or limited advancement can feel frustrating and meaningless to Threes. They need to know what success looks like and how to get there.") +
+          p("Creative roles that require vulnerability and authentic self-expression — without the safety of a professional performance context — can be challenging. And highly collaborative roles where individual contribution is invisible may not satisfy the Three's need to be seen as excellent."),
+      },
+      {
+        heading: "Type 3 Growth at Work",
+        html: p("The Three's career risk is building an identity entirely around professional achievement — so that any performance setback becomes a personal crisis, and the question 'am I successful?' overshadows 'am I satisfied?'") +
+          p("Threes grow professionally when they develop intrinsic motivation alongside external recognition, when they invest in relationships for their own sake rather than as professional networking, and when they allow themselves to fail and recover — discovering that their worth survives the failure."),
+      },
+    ],
+    faqs: [
+      { question: "What careers are best for Enneagram Type 3?", answer: "Entrepreneurship, sales, marketing, corporate leadership, law, consulting, and entertainment — roles with clear performance metrics, visible achievement, and advancement tied to results." },
+      { question: "What work environment suits Type 3?", answer: "Competitive, merit-based cultures where hard work translates to recognition and advancement. Threes need clear goals, feedback on performance, and visibility for their contributions." },
+      { question: "What careers should Type 3 avoid?", answer: "Roles with no clear success metrics, limited advancement, low individual visibility, or cultures where politics consistently override performance." },
+      { question: "How can Type 3 avoid burnout?", answer: "By building identity beyond professional achievement and investing in relationships and activities valued for their own sake — not as instrumental to career goals." },
+    ],
+    ctaHeading: "Find Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to discover your type and the career paths that fit your natural drives.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 3 guide", url: "/blog/enneagram-type-3" },
+      { label: "Enneagram Type 2 careers", url: "/blog/enneagram-type-2-careers" },
+      { label: "Enneagram Type 4 careers", url: "/blog/enneagram-type-4-careers" },
+      { label: "Enneagram career paths", url: "/blog/enneagram-career-paths" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-4-careers": {
+    slug: "enneagram-type-4-careers",
+    metaTitle: "Enneagram Type 4 Careers: Best Jobs for The Individualist",
+    metaDesc: "Discover the best careers for Enneagram Type 4 — The Individualist. See which roles suit Type 4 creativity and depth, and what work drains them.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-4-careers",
+    h1: "Enneagram Type 4 Careers: Best Jobs for The Individualist",
+    sections: [
+      {
+        heading: "What Type 4 Needs at Work",
+        html: p("Enneagram Type 4s thrive when their work is an authentic expression of who they are — when the job allows them to bring their genuine perspective, emotional depth, and creative instincts to bear. They need meaning in their work, not just function.") +
+          p("What drains a Four: highly standardized roles that eliminate individual expression, cultures that reward conformity over originality, or environments so focused on practical output that the human and aesthetic dimensions of the work are ignored."),
+      },
+      {
+        heading: "Best Career Matches for Type 4",
+        html: strong([
+          { label: "Creative arts and writing:", desc: "Fiction writing, screenwriting, poetry, music composition, and visual art give Fours full expression of their emotional depth and distinctive perspective." },
+          { label: "Design:", desc: "Graphic design, interior design, fashion design, and UX design allow Fours to create things that are both functional and aesthetically meaningful." },
+          { label: "Therapy and counseling:", desc: "Fours' depth and capacity to sit with pain without flinching make them exceptional therapists. They can accompany clients into difficult emotional territory with genuine understanding." },
+          { label: "Photography and film:", desc: "Visual storytelling gives Fours a medium for capturing the emotional truth they see in the world." },
+          { label: "Nonprofit and social impact:", desc: "Work that aligns with their values and contributes to something meaningful sustains Four motivation far better than purely commercial roles." },
+          { label: "Teaching the arts:", desc: "Teaching creative subjects allows Fours to share their emotional intelligence and aesthetic sensibility with students who are themselves developing their creative voice." },
+        ]),
+      },
+      {
+        heading: "Careers Type 4 May Struggle With",
+        html: p("Corporate environments with rigid conformity, sales roles requiring performance of enthusiasm they don't feel, or highly repetitive technical roles with no room for personal expression create chronic dissatisfaction for Fours.") +
+          p("Any role that requires Fours to suppress their authentic emotional response in favor of a professional facade can feel deeply alienating — as if they're being asked to erase what makes them valuable."),
+      },
+      {
+        heading: "Type 4 Growth at Work",
+        html: p("The Four's career challenge is consistency — showing up and producing regardless of whether the inspiration is present. Mood-dependent productivity is the Four's default, but most careers require reliable output even on uninspired days.") +
+          p("Fours grow professionally when they develop action habits independent of emotional state, when they learn to receive feedback without experiencing it as a rejection of their identity, and when they discover that completing work — even imperfect work — is more meaningful than the sustained pursuit of the ideal version."),
+      },
+    ],
+    faqs: [
+      { question: "What careers are best for Enneagram Type 4?", answer: "Creative arts, writing, design, therapy and counseling, photography, film, nonprofit work, and teaching the arts — roles allowing authentic self-expression and meaningful contribution." },
+      { question: "What work environment suits Type 4?", answer: "Environments that value originality, allow personal expression, and treat the human and aesthetic dimensions of work as important — not just efficient output." },
+      { question: "What careers should Type 4 avoid?", answer: "Rigid corporate environments, sales requiring inauthentic performance, or highly repetitive technical roles with no room for individual expression." },
+      { question: "How can Type 4 build career consistency?", answer: "By developing work habits independent of inspiration — setting minimum daily output targets, creating structured creative routines, and separating the act of working from the feeling of wanting to work." },
+    ],
+    ctaHeading: "Discover Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to find your type and understand which careers align with your authentic nature.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 4 guide", url: "/blog/enneagram-type-4" },
+      { label: "Enneagram Type 3 careers", url: "/blog/enneagram-type-3-careers" },
+      { label: "Enneagram Type 5 careers", url: "/blog/enneagram-type-5-careers" },
+      { label: "Enneagram career paths", url: "/blog/enneagram-career-paths" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-5-careers": {
+    slug: "enneagram-type-5-careers",
+    metaTitle: "Enneagram Type 5 Careers: Best Jobs for The Investigator",
+    metaDesc: "Discover the best careers for Enneagram Type 5 — The Investigator. See which roles suit Type 5 analytical depth and independence, and what to avoid.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-5-careers",
+    h1: "Enneagram Type 5 Careers: Best Jobs for The Investigator",
+    sections: [
+      {
+        heading: "What Type 5 Needs at Work",
+        html: p("Enneagram Type 5s thrive in roles that reward deep expertise, independent thinking, and sustained intellectual focus. They need jobs that give them enough space and autonomy to do thorough work without constant interruption or performance of social engagement.") +
+          p("What depletes a Five: environments requiring constant interpersonal interaction, open-plan offices with no private work space, roles demanding they perform enthusiasm they don't feel, or jobs that reward superficial breadth over genuine depth."),
+      },
+      {
+        heading: "Best Career Matches for Type 5",
+        html: strong([
+          { label: "Research and academia:", desc: "Research roles allow Fives to pursue deep understanding in a structured environment that values intellectual rigor and rewards expertise." },
+          { label: "Software engineering:", desc: "Technical depth, problem-solving, and the ability to work independently make software development a natural fit for many Fives." },
+          { label: "Data science and analysis:", desc: "Finding patterns in complex data leverages the Five's analytical capacity and tolerance for sustained concentration." },
+          { label: "Science and technical fields:", desc: "Physics, chemistry, biology, engineering — any scientific domain that rewards deep knowledge and precise thinking suits Type 5 well." },
+          { label: "Writing and journalism:", desc: "Particularly investigative journalism, long-form writing, and technical documentation — roles allowing Fives to research thoroughly and synthesize clearly." },
+          { label: "Philosophy and strategy:", desc: "Conceptual fields where abstract thinking produces insight — consulting, strategic advisory, philosophy — leverage the Five's synthesizing capacity." },
+        ]),
+      },
+      {
+        heading: "Careers Type 5 May Struggle With",
+        html: p("High-contact service roles, sales, PR, and any position requiring sustained emotional performance or constant social energy will deplete Fives quickly. They are not suited to environments where being 'on' all day is the job.") +
+          p("Fast-moving, high-ambiguity environments that require action before analysis also frustrate Fives, who need sufficient information before feeling comfortable acting. Decision-by-instinct cultures conflict with the Five's thoroughness orientation."),
+      },
+      {
+        heading: "Type 5 Growth at Work",
+        html: p("The Five's career trap is over-preparing and under-participating. They may never feel ready enough to present their findings, contribute in meetings, or take on visible leadership — perpetually gathering more information before they're 'qualified' to act.") +
+          p("Fives grow professionally when they develop the habit of sharing work-in-progress rather than only finished insights, when they accept that 70% ready is often good enough to contribute, and when they discover that participation in collaborative work generates insights that solitary analysis cannot."),
+      },
+    ],
+    faqs: [
+      { question: "What careers are best for Enneagram Type 5?", answer: "Research, software engineering, data science, scientific fields, writing/journalism, and strategic consulting — roles rewarding deep expertise, intellectual rigor, and independent thinking." },
+      { question: "What work environment suits Type 5?", answer: "Quiet, autonomous environments where deep focus is possible, interruptions are limited, and expertise is genuinely valued over social performance." },
+      { question: "What careers should Type 5 avoid?", answer: "High-contact service roles, sales, PR, or any job requiring sustained social energy and constant interpersonal performance." },
+      { question: "How can Type 5 advance their career?", answer: "By sharing insights before they feel fully ready, accepting that contribution doesn't require complete certainty, and developing enough comfort with visibility to let others see the depth they actually possess." },
+    ],
+    ctaHeading: "Find Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to discover your type and the career paths that match your analytical strengths.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 5 guide", url: "/blog/enneagram-type-5" },
+      { label: "Enneagram Type 4 careers", url: "/blog/enneagram-type-4-careers" },
+      { label: "Enneagram Type 6 careers", url: "/blog/enneagram-type-6-careers" },
+      { label: "Enneagram career paths", url: "/blog/enneagram-career-paths" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-6-careers": {
+    slug: "enneagram-type-6-careers",
+    metaTitle: "Enneagram Type 6 Careers: Best Jobs for The Loyalist",
+    metaDesc: "Discover the best careers for Enneagram Type 6 — The Loyalist. See which roles suit Type 6 responsibility and foresight, and what environments to seek.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-6-careers",
+    h1: "Enneagram Type 6 Careers: Best Jobs for The Loyalist",
+    sections: [
+      {
+        heading: "What Type 6 Needs at Work",
+        html: p("Enneagram Type 6s thrive in environments with clear structures, reliable leadership, and a genuine community of colleagues they can trust. They are energized by roles where their loyalty, diligence, and foresight are recognized, and where their contribution to the team's security is valued.") +
+          p("What depletes a Six: chaotic organizations with unreliable leadership, cultures of broken commitments, roles with high ambiguity and no clear guidelines, or environments where trust is consistently violated."),
+      },
+      {
+        heading: "Best Career Matches for Type 6",
+        html: strong([
+          { label: "Law enforcement and public safety:", desc: "Roles that protect community safety align directly with the Six's core drive. Police, firefighting, and emergency services provide clear structure and meaningful purpose." },
+          { label: "Law and legal practice:", desc: "The legal system's clear rules, established precedents, and adversarial structure for finding truth suit the Six's need for clear frameworks." },
+          { label: "Project management:", desc: "Sixes excel at anticipating what could go wrong, planning contingencies, and ensuring teams stay on track — core project management competencies." },
+          { label: "Healthcare:", desc: "Medicine and nursing provide structure, clear protocols, meaningful purpose, and the kind of close team relationships Sixes value." },
+          { label: "Accounting and finance:", desc: "Clear rules, precision requirements, and the responsibility of managing others' resources appeal to the Six's conscientiousness." },
+          { label: "Military and defense:", desc: "Clear hierarchies, strong community bonds, and service to something larger than the self make military careers compelling for many Sixes." },
+        ]),
+      },
+      {
+        heading: "Careers Type 6 May Struggle With",
+        html: p("Entrepreneurship requiring high risk tolerance and self-directed confidence can be challenging for Sixes unless they have strong support structures around them. The absence of external authority to validate decisions creates sustained anxiety.") +
+          p("High-ambiguity creative roles, speculative fields (venture investing, early-stage startups), and positions requiring constant persuasion without clear evidence may also be difficult for Sixes who need to believe in what they're saying."),
+      },
+      {
+        heading: "Type 6 Growth at Work",
+        html: p("The Six's professional challenge is trusting their own judgment. They may chronically seek reassurance, second-guess decisions that were made correctly, or defer to authority past the point where their own assessment is clearly more accurate.") +
+          p("Sixes grow professionally when they practice making decisions without seeking additional validation, when they recognize that their foresight is a genuine competency worth trusting, and when they find roles that allow them to lead from their strength rather than manage from their anxiety."),
+      },
+    ],
+    faqs: [
+      { question: "What careers are best for Enneagram Type 6?", answer: "Law enforcement, law, project management, healthcare, accounting, and military/defense — roles with clear structures, stable communities, and meaningful protective purpose." },
+      { question: "What work environment suits Type 6?", answer: "Environments with reliable leadership, clear expectations, trustworthy colleagues, and cultures that value loyalty and conscientiousness." },
+      { question: "Can Type 6 be an entrepreneur?", answer: "Yes, particularly with strong support structures and co-founders. Sixes can be excellent entrepreneurs when their foresight and risk-management competencies are paired with partners who help them stay in action rather than preparation." },
+      { question: "How can Type 6 build professional confidence?", answer: "By tracking decisions they made correctly without external validation and building an evidence base for their own competence. Sixes' judgment is often better than their anxiety tells them." },
+    ],
+    ctaHeading: "Discover Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to find your type and understand the career environments where you thrive.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 6 guide", url: "/blog/enneagram-type-6" },
+      { label: "Enneagram Type 5 careers", url: "/blog/enneagram-type-5-careers" },
+      { label: "Enneagram Type 7 careers", url: "/blog/enneagram-type-7-careers" },
+      { label: "Enneagram career paths", url: "/blog/enneagram-career-paths" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-7-careers": {
+    slug: "enneagram-type-7-careers",
+    metaTitle: "Enneagram Type 7 Careers: Best Jobs for The Enthusiast",
+    metaDesc: "Discover the best careers for Enneagram Type 7 — The Enthusiast. See which roles match Type 7 energy and creativity, and how to sustain career momentum.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-7-careers",
+    h1: "Enneagram Type 7 Careers: Best Jobs for The Enthusiast",
+    sections: [
+      {
+        heading: "What Type 7 Needs at Work",
+        html: p("Enneagram Type 7s thrive in fast-moving environments with variety, novelty, and the freedom to generate and pursue exciting possibilities. They are energized by creative challenge, new projects, and roles where their enthusiasm and optimism move things forward.") +
+          p("What depletes a Seven: monotonous, repetitive work, rigid bureaucratic structures, roles that feel like they're in a rut, or environments so focused on process that there's no room for spontaneity and innovation."),
+      },
+      {
+        heading: "Best Career Matches for Type 7",
+        html: strong([
+          { label: "Entrepreneurship:", desc: "The constant variety, creative challenge, and rapid iteration of building a company energizes Sevens — especially in the early startup phase." },
+          { label: "Marketing and advertising:", desc: "Creative campaign development, brainstorming, and the fast cycle of testing and iteration suit the Seven's energy and idea generation." },
+          { label: "Event planning and hospitality:", desc: "Creating experiences — whether events, travel, or hospitality — gives Sevens a creative outlet and a social environment that naturally matches their enthusiasm." },
+          { label: "Consulting:", desc: "Variety of clients and problems, combined with the freedom to generate solutions, keeps Sevens engaged across the long arc of a consulting career." },
+          { label: "Journalism and media:", desc: "Story variety, fast-paced production cycles, and the opportunity to explore many different subjects appeal to the Seven's broad curiosity." },
+          { label: "Innovation and strategy:", desc: "Roles explicitly focused on generating new ideas — product innovation, strategic planning, design thinking — play directly to the Seven's strengths." },
+        ]),
+      },
+      {
+        heading: "Careers Type 7 May Struggle With",
+        html: p("Data entry, compliance work, detailed accounting, or any role requiring sustained focus on a single repetitive task will exhaust Sevens quickly. They need enough variety to stay present and engaged.") +
+          p("Long-term research projects with slow feedback cycles — PhD programs, multi-year studies, decades-long career specialization — can feel confining. Sevens need regular evidence that things are moving and changing."),
+      },
+      {
+        heading: "Type 7 Growth at Work",
+        html: p("The Seven's career challenge is follow-through and depth. They are excellent at starting — generating the initial energy, the creative vision, the team enthusiasm — and less reliable at sustaining momentum through the difficult middle of a project.") +
+          p("Sevens grow professionally when they pair with people who can handle implementation while they generate, when they commit to seeing fewer projects through fully rather than starting many and finishing few, and when they discover that depth in a domain produces more interesting possibilities than surface engagement across many."),
+      },
+    ],
+    faqs: [
+      { question: "What careers are best for Enneagram Type 7?", answer: "Entrepreneurship, marketing, event planning, consulting, journalism, and innovation/strategy roles — fast-moving environments with variety, creative challenge, and room for enthusiasm." },
+      { question: "What work environment suits Type 7?", answer: "Dynamic, varied environments where new ideas are welcome, projects change, and energy and optimism are assets rather than liabilities." },
+      { question: "What careers should Type 7 avoid?", answer: "Highly repetitive, process-focused roles with little variety or creative latitude — data entry, detailed compliance work, or single-domain specialization without opportunity for exploration." },
+      { question: "How can Type 7 improve follow-through?", answer: "By partnering with detail-oriented implementers, committing to completion criteria before starting, and practicing the discovery that seeing something through produces its own distinctive pleasure." },
+    ],
+    ctaHeading: "Find Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to discover your type and the career environments that match your enthusiasm.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 7 guide", url: "/blog/enneagram-type-7" },
+      { label: "Enneagram Type 6 careers", url: "/blog/enneagram-type-6-careers" },
+      { label: "Enneagram Type 8 careers", url: "/blog/enneagram-type-8-careers" },
+      { label: "Enneagram career paths", url: "/blog/enneagram-career-paths" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-8-careers": {
+    slug: "enneagram-type-8-careers",
+    metaTitle: "Enneagram Type 8 Careers: Best Jobs for The Challenger",
+    metaDesc: "Discover the best careers for Enneagram Type 8 — The Challenger. See which roles suit Type 8 power and decisiveness, and how to lead effectively.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-8-careers",
+    h1: "Enneagram Type 8 Careers: Best Jobs for The Challenger",
+    sections: [
+      {
+        heading: "What Type 8 Needs at Work",
+        html: p("Enneagram Type 8s thrive in high-stakes environments where their decisiveness, resilience, and command presence can directly impact outcomes. They need autonomy, influence, and roles where leadership is the job — not a side effect.") +
+          p("What depletes an Eight: micromanagement, bureaucratic environments that prevent action, roles with no real authority, or organizations where decisions require endless committee consensus before anything moves."),
+      },
+      {
+        heading: "Best Career Matches for Type 8",
+        html: strong([
+          { label: "Executive leadership and CEO:", desc: "Eights are natural executives. The combination of strategic vision, decisiveness, and willingness to make unpopular calls suits C-suite and leadership roles." },
+          { label: "Entrepreneurship:", desc: "Building something from nothing, taking calculated risks, and having full ownership over outcomes is deeply satisfying for Eights." },
+          { label: "Law and advocacy:", desc: "Litigation, criminal defense, and advocacy allow Eights to fight for what they believe in with full intensity — and win." },
+          { label: "Politics and public service:", desc: "Eights can absorb the political environment's combativeness and ambiguity while driving toward concrete outcomes — making them effective elected officials and public advocates." },
+          { label: "Military and law enforcement leadership:", desc: "Command roles that require presence, decisiveness, and the willingness to lead people into difficult situations suit Eight's capacity for protective authority." },
+          { label: "Finance and investment:", desc: "High-stakes financial decisions — venture capital, private equity, trading — match the Eight's comfort with risk and their drive for decisive action under pressure." },
+        ]),
+      },
+      {
+        heading: "Careers Type 8 May Struggle With",
+        html: p("Highly subordinate roles without meaningful authority, overly consensus-driven cultures where no one individual can drive decisions, or administrative positions focused on compliance rather than leadership create frustration and disengagement for Eights.") +
+          p("Roles requiring sustained diplomacy, careful management of others' sensitivities, or constant emotional labor may also feel limiting — not because Eights lack empathy, but because it's not where their strength primarily lies."),
+      },
+      {
+        heading: "Type 8 Growth at Work",
+        html: p("The Eight's professional challenge is using their power in service of others rather than primarily in service of their own agenda. At lower levels of development, Eights can dominate rather than lead — creating compliance rather than commitment in those around them.") +
+          p("Eights grow professionally when they develop the capacity to genuinely listen before acting, when they create environments where others can disagree with them safely, and when they discover that the most powerful leaders are often those who make others feel strong rather than those who make others feel small."),
+      },
+    ],
+    faqs: [
+      { question: "What careers are best for Enneagram Type 8?", answer: "Executive leadership, entrepreneurship, law, politics, military leadership, and high-stakes finance — roles where decisiveness, command presence, and the willingness to take risks are genuine assets." },
+      { question: "What work environment suits Type 8?", answer: "Environments with genuine authority, high stakes, autonomy, and cultures where results matter more than politics and where decisive action is valued." },
+      { question: "What careers should Type 8 avoid?", answer: "Highly subordinate roles, consensus-driven bureaucracies where no individual drives decisions, or administrative positions with no meaningful leadership component." },
+      { question: "How can Type 8 become a better leader?", answer: "By developing the habit of creating psychological safety — making it possible for others to challenge their thinking. The Eight who can be disagreed with without penalty builds far more committed and capable teams than the Eight whose authority is non-negotiable." },
+    ],
+    ctaHeading: "Discover Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to find your type and understand the leadership strengths that define your career.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 8 guide", url: "/blog/enneagram-type-8" },
+      { label: "Enneagram Type 7 careers", url: "/blog/enneagram-type-7-careers" },
+      { label: "Enneagram Type 9 careers", url: "/blog/enneagram-type-9-careers" },
+      { label: "Enneagram career paths", url: "/blog/enneagram-career-paths" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-9-careers": {
+    slug: "enneagram-type-9-careers",
+    metaTitle: "Enneagram Type 9 Careers: Best Jobs for The Peacemaker",
+    metaDesc: "Discover the best careers for Enneagram Type 9 — The Peacemaker. See which roles suit Type 9 acceptance and mediation, and how to build career momentum.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-9-careers",
+    h1: "Enneagram Type 9 Careers: Best Jobs for The Peacemaker",
+    sections: [
+      {
+        heading: "What Type 9 Needs at Work",
+        html: p("Enneagram Type 9s thrive in collaborative, non-coercive environments where their ability to see multiple perspectives and maintain calm is a genuine asset. They are energized by work that contributes to collective wellbeing and where their steady, inclusive presence is recognized.") +
+          p("What depletes a Nine: high-conflict, competitive environments where they're expected to fight for resources or recognition, rigid hierarchies demanding constant assertion, or roles where they feel their presence doesn't matter and their input isn't sought."),
+      },
+      {
+        heading: "Best Career Matches for Type 9",
+        html: strong([
+          { label: "Mediation and conflict resolution:", desc: "Nines' ability to hold multiple perspectives simultaneously without taking sides makes them exceptional mediators — seeing what each party needs to feel heard." },
+          { label: "Counseling and therapy:", desc: "The Nine's accepting, non-judgmental presence creates a safe space for clients. They don't push — they accompany, which is exactly what many therapy clients need." },
+          { label: "HR and organizational development:", desc: "Nines create inclusive cultures and navigate interpersonal complexity with calm skill. They are often the steadying presence in difficult employee situations." },
+          { label: "Education:", desc: "Teaching, particularly with patient, accepting delivery, suits Nines well. They meet students where they are and don't intimidate the learners who most need encouragement." },
+          { label: "Social work:", desc: "Advocacy and direct service for vulnerable populations align with the Nine's genuine care for people's wellbeing and their non-coercive, meeting-people-where-they-are approach." },
+          { label: "Creative collaboration:", desc: "Writing, music, and visual art — particularly in collaborative contexts where Nines support group creative vision — give them expressive outlets without requiring self-promotion." },
+        ]),
+      },
+      {
+        heading: "Careers Type 9 May Struggle With",
+        html: p("High-intensity sales, competitive leadership roles requiring constant self-assertion, or environments where visibility is actively competed for can drain Nines — both because self-promotion feels uncomfortable and because the conflict energy is exhausting.") +
+          p("Entrepreneurship can work for Nines who have strong structures around them, but going it alone requires a level of self-directed initiative and comfort with ambiguity that conflicts with the Nine's need for external structure and connection."),
+      },
+      {
+        heading: "Type 9 Growth at Work",
+        html: p("The Nine's career challenge is visibility — asserting their presence, advocating for their perspective, and claiming credit for their contributions. Nines can be remarkably effective and entirely invisible, which holds their careers back and often leaves organizations without wisdom they needed.") +
+          p("Nines grow professionally when they practice naming what they want explicitly (not just accommodating others), when they develop the habit of contributing their perspective in meetings before consensus solidifies, and when they discover that their voice — offered clearly — is not disruptive but genuinely valuable to the people who need to hear it."),
+      },
+    ],
+    faqs: [
+      { question: "What careers are best for Enneagram Type 9?", answer: "Mediation, counseling, HR, education, social work, and creative collaboration — roles where calm presence, genuine acceptance, and multi-perspective holding are central competencies." },
+      { question: "What work environment suits Type 9?", answer: "Collaborative, non-coercive environments where contribution is valued, conflict is managed constructively, and the quality of human relationships is treated as important." },
+      { question: "How can Type 9 advance their career?", answer: "By actively practicing visibility — speaking up earlier in discussions, claiming credit for contributions, and advocating directly for what they need and want rather than waiting to be asked." },
+      { question: "Can Type 9 be a good leader?", answer: "Yes — particularly in collaborative, facilitative leadership roles. Nines create psychologically safe environments, hear all perspectives before deciding, and build genuine team cohesion. Their challenge is learning to make and stand by decisions without excessive second-guessing." },
+    ],
+    ctaHeading: "Find Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to discover your type and the career paths where your calm strength makes the biggest difference.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 9 guide", url: "/blog/enneagram-type-9" },
+      { label: "Enneagram Type 8 careers", url: "/blog/enneagram-type-8-careers" },
+      { label: "Enneagram Type 1 careers", url: "/blog/enneagram-type-1-careers" },
+      { label: "Enneagram career paths", url: "/blog/enneagram-career-paths" },
+    ],
+    datePublished: "2026-04-18",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

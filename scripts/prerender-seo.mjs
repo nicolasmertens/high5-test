@@ -2759,6 +2759,60 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/enneagram-type-9",
     ogType: "article",
   },
+  "/blog/enneagram-type-1-careers": {
+    title: "Enneagram Type 1 Careers: Best Jobs for The Reformer",
+    description: "Discover the best careers for Enneagram Type 1 — The Reformer. See which roles suit Type 1 integrity and precision, and which environments to avoid.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-1-careers",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-2-careers": {
+    title: "Enneagram Type 2 Careers: Best Jobs for The Helper",
+    description: "Discover the best careers for Enneagram Type 2 — The Helper. See which roles suit Type 2 warmth and empathy, and what to watch for at work.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-2-careers",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-3-careers": {
+    title: "Enneagram Type 3 Careers: Best Jobs for The Achiever",
+    description: "Discover the best careers for Enneagram Type 3 — The Achiever. See which roles suit Type 3 ambition and adaptability, and career traps to avoid.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-3-careers",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-4-careers": {
+    title: "Enneagram Type 4 Careers: Best Jobs for The Individualist",
+    description: "Discover the best careers for Enneagram Type 4 — The Individualist. See which roles suit Type 4 creativity and depth, and what work drains them.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-4-careers",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-5-careers": {
+    title: "Enneagram Type 5 Careers: Best Jobs for The Investigator",
+    description: "Discover the best careers for Enneagram Type 5 — The Investigator. See which roles suit Type 5 analytical depth and independence, and what to avoid.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-5-careers",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-6-careers": {
+    title: "Enneagram Type 6 Careers: Best Jobs for The Loyalist",
+    description: "Discover the best careers for Enneagram Type 6 — The Loyalist. See which roles suit Type 6 responsibility and foresight, and what environments to seek.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-6-careers",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-7-careers": {
+    title: "Enneagram Type 7 Careers: Best Jobs for The Enthusiast",
+    description: "Discover the best careers for Enneagram Type 7 — The Enthusiast. See which roles match Type 7 energy and creativity, and how to sustain career momentum.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-7-careers",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-8-careers": {
+    title: "Enneagram Type 8 Careers: Best Jobs for The Challenger",
+    description: "Discover the best careers for Enneagram Type 8 — The Challenger. See which roles suit Type 8 power and decisiveness, and how to lead effectively.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-8-careers",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-9-careers": {
+    title: "Enneagram Type 9 Careers: Best Jobs for The Peacemaker",
+    description: "Discover the best careers for Enneagram Type 9 — The Peacemaker. See which roles suit Type 9 acceptance and mediation, and how to build career momentum.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-9-careers",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {

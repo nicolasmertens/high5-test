@@ -302,6 +302,15 @@ function AppRoutes() {
       <Route path="/blog/enneagram-type-7" element={<BlogPage slug="enneagram-type-7" />} />
       <Route path="/blog/enneagram-type-8" element={<BlogPage slug="enneagram-type-8" />} />
       <Route path="/blog/enneagram-type-9" element={<BlogPage slug="enneagram-type-9" />} />
+      <Route path="/blog/enneagram-type-1-careers" element={<BlogPage slug="enneagram-type-1-careers" />} />
+      <Route path="/blog/enneagram-type-2-careers" element={<BlogPage slug="enneagram-type-2-careers" />} />
+      <Route path="/blog/enneagram-type-3-careers" element={<BlogPage slug="enneagram-type-3-careers" />} />
+      <Route path="/blog/enneagram-type-4-careers" element={<BlogPage slug="enneagram-type-4-careers" />} />
+      <Route path="/blog/enneagram-type-5-careers" element={<BlogPage slug="enneagram-type-5-careers" />} />
+      <Route path="/blog/enneagram-type-6-careers" element={<BlogPage slug="enneagram-type-6-careers" />} />
+      <Route path="/blog/enneagram-type-7-careers" element={<BlogPage slug="enneagram-type-7-careers" />} />
+      <Route path="/blog/enneagram-type-8-careers" element={<BlogPage slug="enneagram-type-8-careers" />} />
+      <Route path="/blog/enneagram-type-9-careers" element={<BlogPage slug="enneagram-type-9-careers" />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="/relationship/:id" element={<RelationshipReportPage />} />
