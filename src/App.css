@@ -3282,6 +3282,47 @@
   }
 }
 
+/* ===== BLOG SHARE BUTTONS ===== */
+.blog-share {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 40px 0 8px;
+  padding-top: 28px;
+  border-top: 1px solid #e5e7eb;
+}
+.blog-share-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-right: 4px;
+}
+.blog-share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+.blog-share-btn:hover { opacity: 0.8; }
+.blog-share-x {
+  background: #000;
+  color: #fff;
+}
+.blog-share-li {
+  background: #0a66c2;
+  color: #fff;
+  font-family: serif;
+  font-size: 16px;
+}
+
 /* ===== BLOG RELATED POSTS ===== */
 .blog-related {
   max-width: 780px;

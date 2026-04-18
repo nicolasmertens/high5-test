@@ -136,6 +136,28 @@ export function BlogPage({ slug }: Props) {
             </div>
           </section>
         )}
+
+        <div className="blog-share">
+          <span className="blog-share-label">Share</span>
+          <a
+            className="blog-share-btn blog-share-x"
+            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.metaTitle)}&url=${encodeURIComponent(post.canonicalUrl)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Share on X"
+          >
+            𝕏
+          </a>
+          <a
+            className="blog-share-btn blog-share-li"
+            href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(post.canonicalUrl)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Share on LinkedIn"
+          >
+            in
+          </a>
+        </div>
       </article>
 
       {relatedPosts.length > 0 && (
