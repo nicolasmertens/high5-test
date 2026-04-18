@@ -402,8 +402,8 @@ export function shuffleQuestions(qs: Question[]): Question[] {
 
 export const domainColors: Record<string, string> = {
   doing: "#f59e0b",
-  thinking: "#6366f1",
-  feeling: "#ec4899",
+  thinking: "#8b5cf6",
+  feeling: "#ef4444",
   motivating: "#10b981",
 };
 

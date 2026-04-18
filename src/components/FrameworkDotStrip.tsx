@@ -1,7 +1,7 @@
 const COLORS = {
   strengths: '#f59e0b',
-  personality: '#6366f1',
-  disc: '#e53e3e',
+  personality: '#8b5cf6',
+  disc: '#ef4444',
   enneagram: '#10b981',
 } as const;
 

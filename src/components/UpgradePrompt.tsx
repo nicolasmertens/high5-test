@@ -176,17 +176,17 @@ export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
       <p>{t("upgradePrompt.fullBody")}</p>
       <div className="upgrade-cards">
         <div className="upgrade-card">
-          <span className="upgrade-card-icon">&#9632;</span>
+          <span className="upgrade-card-icon" style={{ color: "var(--fw-personality)" }}>&#9679;</span>
           <strong>{t("upgradePrompt.card16Personalities")}</strong>
           <span>{t("upgradePrompt.card16PersonalitiesDesc")}</span>
         </div>
         <div className="upgrade-card">
-          <span className="upgrade-card-icon">&#9670;</span>
+          <span className="upgrade-card-icon" style={{ color: "var(--fw-disc)" }}>&#9679;</span>
           <strong>{t("upgradePrompt.cardDISC")}</strong>
           <span>{t("upgradePrompt.cardDISCDesc")}</span>
         </div>
         <div className="upgrade-card">
-          <span className="upgrade-card-icon">&#9675;</span>
+          <span className="upgrade-card-icon" style={{ color: "var(--fw-enneagram)" }}>&#9679;</span>
           <strong>{t("upgradePrompt.cardEnneagram")}</strong>
           <span>{t("upgradePrompt.cardEnneagramDesc")}</span>
         </div>

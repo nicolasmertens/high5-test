@@ -7,10 +7,10 @@ import { useLanguage } from "../contexts/LanguageContext";
 import { initHomepageAnimations } from "../utils/animations";
 
 const FRAMEWORK_ICONS = [
-  { key: "strengths", icon: "&#9733;", color: "#f59e0b", path: "/free-strengths-test" },
-  { key: "personality", icon: "&#9632;", color: "#6366f1", path: "/free-personality-test" },
-  { key: "disc", icon: "&#9650;", color: "#e53e3e", path: "/free-disc-test" },
-  { key: "enneagram", icon: "&#9675;", color: "#10b981", path: "/free-enneagram-test" },
+  { key: "strengths", icon: "&#9679;", color: "#f59e0b", path: "/free-strengths-test" },
+  { key: "personality", icon: "&#9679;", color: "#8b5cf6", path: "/free-personality-test" },
+  { key: "disc", icon: "&#9679;", color: "#ef4444", path: "/free-disc-test" },
+  { key: "enneagram", icon: "&#9679;", color: "#10b981", path: "/free-enneagram-test" },
 ];
 
 export function HomePage() {
@@ -72,8 +72,11 @@ export function HomePage() {
       <section className="hero">
         <div className="hero-bolt-wrapper">
           <span className="hero-bolt" aria-hidden="true">
-            <svg className="bolt-svg" xmlns="http://www.w3.org/2000/svg" width="56" height="54" fill="none" viewBox="0 0 48 46">
-              <path fill="#863bff" d="M25.946 44.938c-.664.845-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 0-2.262-2.262H10.287c-.92 0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.497 0-3.578-1.842-3.578H1.237c-.92 0-1.456-1.04-.92-1.788L10.013.474c.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.471c-1.07 1.498 0 3.579 1.842 3.579h11.377c.943 0 1.473 1.088.89 1.83L25.947 44.94z" />
+            <svg className="bolt-svg" xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 32 32">
+              <circle cx="8" cy="8" r="4" fill="#f59e0b"/>
+              <circle cx="24" cy="8" r="4" fill="#8b5cf6"/>
+              <circle cx="8" cy="24" r="4" fill="#ef4444"/>
+              <circle cx="24" cy="24" r="4" fill="#10b981"/>
             </svg>
           </span>
         </div>
@@ -88,9 +91,12 @@ export function HomePage() {
           </a>
         </div>
         <div className="trust-bar">
-          <span className="trust-item">&#9989; {t("homepage.trustFree")}</span>
-          <span className="trust-item">&#128274; {t("homepage.trustPrivate")}</span>
-          <span className="trust-item">&#127891; {t("homepage.trustResearch")}</span>
+          <span className="trust-item">{t("homepage.trustFree")}</span>
+          <span className="trust-item-sep">·</span>
+          <span className="trust-item">{t("homepage.trustPrivate")}</span>
+          <span className="trust-item-sep">·</span>
+          <span className="trust-item">{t("homepage.trustResearch")}</span>
+          <span className="trust-item-sep">·</span>
           <span className="trust-item">{t("homepage.trustFrameworks")}</span>
         </div>
       </section>

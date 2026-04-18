@@ -28,8 +28,8 @@
     "strengths": "Top 5 Strengths"
   },
   "intro": {
-    "headline": "Know What Makes You Tick",
-    "subtitle": "One free test. Four personality frameworks. Actionable results you can use today.",
+    "headline": "One Test. Four Frameworks. Know Yourself.",
+    "subtitle": "Take one 15-minute assessment and get Strengths, Personality, DISC, and Enneagram — no extra tests, no paywall.",
     "trustFree": "100% free",
     "trustPrivate": "Private results",
     "trustResearch": "Research-backed",
@@ -137,7 +137,7 @@
     "featurePdf": "PDF export for offline reference"
   },
   "homepage": {
-    "heroHeadline": "One test. Four frameworks. Know yourself.",
+    "heroHeadline": "One Test. Four Frameworks. Know Yourself.",
     "heroSubtitle": "Discover your strengths, personality type, communication style, and inner motivations — all from a single free assessment. No sign-up required.",
     "heroCta": "Start Free Assessment",
     "heroCtaSecondary": "See How It Works",

@@ -17,19 +17,19 @@ export function CommunicationBlock({ disc }: Props) {
       </p>
       <div className="branch-preview">
         <div className="comm-row">
-          <span className="comm-label" style={{ background: "#e53e3e" }}>{t("resultsBlocks.commWithD")}</span>
+          <span className="comm-label" style={{ background: "#ef4444" }}>{t("resultsBlocks.commWithD")}</span>
           <span className="comm-tip">{t("resultsBlocks.commTipD")}</span>
         </div>
         <div className="comm-row">
-          <span className="comm-label" style={{ background: "#f6ad55" }}>{t("resultsBlocks.commWithI")}</span>
+          <span className="comm-label" style={{ background: "#f59e0b" }}>{t("resultsBlocks.commWithI")}</span>
           <span className="comm-tip">{t("resultsBlocks.commTipI")}</span>
         </div>
         <div className="comm-row">
-          <span className="comm-label" style={{ background: "#48bb78" }}>{t("resultsBlocks.commWithS")}</span>
+          <span className="comm-label" style={{ background: "#10b981" }}>{t("resultsBlocks.commWithS")}</span>
           <span className="comm-tip">{t("resultsBlocks.commTipS")}</span>
         </div>
         <div className="comm-row">
-          <span className="comm-label" style={{ background: "#4299e1" }}>{t("resultsBlocks.commWithC")}</span>
+          <span className="comm-label" style={{ background: "#8b5cf6" }}>{t("resultsBlocks.commWithC")}</span>
           <span className="comm-tip">{t("resultsBlocks.commTipC")}</span>
         </div>
       </div>

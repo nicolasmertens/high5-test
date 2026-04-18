@@ -38,9 +38,9 @@ const INDUSTRY_MATCH_LABEL: Record<IndustryMatch, string> = {
 };
 
 const INDUSTRY_MATCH_COLOR: Record<IndustryMatch, string> = {
-  strong: "#48bb78",
-  partial: "#f6ad55",
-  mismatch: "#e53e3e",
+  strong: "#10b981",
+  partial: "#f59e0b",
+  mismatch: "#ef4444",
 };
 
 function ScoreGauge({ score }: { score: number }) {
@@ -51,7 +51,7 @@ function ScoreGauge({ score }: { score: number }) {
           className="ca-gauge-fill"
           style={{
             width: `${score}%`,
-            background: score >= 70 ? "#48bb78" : score >= 50 ? "#f6ad55" : "#e53e3e",
+            background: score >= 70 ? "#10b981" : score >= 50 ? "#f59e0b" : "#ef4444",
           }}
         />
       </div>

@@ -7,7 +7,6 @@ import { EmailGate } from "./components/EmailGate";
 import { PaymentProvider, usePayment } from "./contexts/PaymentContext";
 import { SEOHead } from "./components/SEOHead";
 import { InviteBanner } from "./components/InviteBanner";
-import { Footer } from "./components/Footer";
 import {
   trackTestStarted,
   trackTestCompleted,
@@ -179,8 +178,6 @@ function AppInner() {
           emailCaptureVariant={emailCaptureVariant.current}
         />
       )}
-
-      <Footer />
     </div>
   );
 }

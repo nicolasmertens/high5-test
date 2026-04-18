@@ -11,13 +11,13 @@ interface Props {
 }
 
 const FRAMEWORK_COLORS: Record<string, string> = {
-  disc: "#e53e3e",
-  enneagram: "#7c3aed",
-  personality: "#6366f1",
+  disc: "#ef4444",
+  enneagram: "#10b981",
+  personality: "#8b5cf6",
   strengths: "#f59e0b",
-  "disc-test": "#e53e3e",
-  "enneagram-test": "#7c3aed",
-  "16personalities-test": "#6366f1",
+  "disc-test": "#ef4444",
+  "enneagram-test": "#10b981",
+  "16personalities-test": "#8b5cf6",
   "strengths-test": "#f59e0b",
 };
 
@@ -91,9 +91,11 @@ export function LandingPage({ framework }: Props) {
           <p>{t(`landing.${landingKey}.subtitle`)}</p>
         </div>
         <div className="trust-bar">
-          <span className="trust-item">&#9989; {t("intro.trustFree")}</span>
-          <span className="trust-item">&#128274; {t("intro.trustPrivate")}</span>
-          <span className="trust-item">&#127891; {t("intro.trustResearch")}</span>
+          <span className="trust-item">{t("intro.trustFree")}</span>
+          <span className="trust-item-sep">&middot;</span>
+          <span className="trust-item">{t("intro.trustPrivate")}</span>
+          <span className="trust-item-sep">&middot;</span>
+          <span className="trust-item">{t("intro.trustResearch")}</span>
         </div>
         <button className="btn-start" onClick={() => handleCTA("landing_hero")}>
           {t(`landing.${landingKey}.cta`)} &rarr;

@@ -20,10 +20,10 @@ interface Props {
 }
 
 const discColors: Record<string, string> = {
-  D: "#e53e3e",
-  I: "#f6ad55",
-  S: "#48bb78",
-  C: "#4299e1",
+  D: "#ef4444",
+  I: "#f59e0b",
+  S: "#10b981",
+  C: "#8b5cf6",
 };
 
 export function DetailedResults({

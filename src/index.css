@@ -1,33 +1,43 @@
 :root {
-  --text: #4b5563;
-  --text-h: #111827;
-  --bg: #fafaf9;
-  --card-bg: #ffffff;
-  --border: #e5e7eb;
-  --accent: #f59e0b;
-  --accent-dark: #d97706;
-  --doing: #f59e0b;
-  --thinking: #6366f1;
-  --feeling: #ec4899;
-  --motivating: #10b981;
-  --font-display: Outfit, system-ui, sans-serif;
-  --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --canvas: #fdfbf6;
+  --canvas-warm: #fef9f0;
+  --surface: #ffffff;
+  --ink: #1c1106;
+  --ink-soft: #78624a;
+  --ink-muted: #a08e70;
+  --hairline: #f0e6d0;
+  --hairline-strong: #ece1c8;
+
+  --brand: #d97706;
+  --brand-hover: #b45309;
+
+  --fw-strengths: #f59e0b;
+  --fw-personality: #8b5cf6;
+  --fw-disc: #ef4444;
+  --fw-enneagram: #10b981;
+
+  /* Legacy aliases — --accent now maps to BRAND (not strengths) */
+  --accent: var(--brand);
+  --accent-dark: var(--brand-hover);
+  --text: var(--ink-soft);
+  --text-h: var(--ink);
+  --bg: var(--canvas);
+  --card-bg: var(--surface);
+  --border: var(--hairline);
+  --doing: var(--fw-strengths);
+  --thinking: var(--fw-personality);
+  --feeling: var(--fw-disc);
+  --motivating: var(--fw-enneagram);
+
+  --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --sans: var(--font-body);
   --mono: ui-monospace, Consolas, monospace;
 
-  font: 16px/1.5 var(--sans);
-  color: var(--text);
-  background: var(--bg);
+  font: 16px/1.7 var(--font-body);
+  color: var(--ink-soft);
+  background: var(--canvas);
   -webkit-font-smoothing: antialiased;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #111827;
-    --card-bg: #1f2937;
-    --border: #374151;
-  }
 }
 
 * {
@@ -38,6 +48,8 @@
 
 body {
   margin: 0;
+  background: var(--canvas);
+  color: var(--ink-soft);
 }
 
 #root {
@@ -56,19 +68,20 @@ h1,
 h2,
 h3,
 h4 {
-  color: var(--text-h);
-  font-weight: 600;
+  color: var(--ink);
+  font-weight: 800;
   font-family: var(--font-display);
+  letter-spacing: -0.01em;
 }
 
 .btn-start {
   font-family: var(--font-display);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1;
   letter-spacing: 0.01em;
 }
 
 a {
-  color: var(--accent-dark);
+  color: var(--brand-hover);
 }
