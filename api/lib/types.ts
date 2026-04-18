@@ -35,3 +35,21 @@ export interface Subscriber {
 
 export const FROM_EMAIL = "1Test <hello@1test.me>";
 export const REPLY_TO = "hello@1test.me";
+
+export const AGENT_FROM_EMAILS: Record<string, string> = {
+  alex: "Alex at 1Test <alex@1test.me>",
+  clara: "Clara at 1Test <clara@1test.me>",
+  oscar: "Oscar at 1Test <oscar@1test.me>",
+  leo: "Leo at 1Test <leo@1test.me>",
+  emma: "Emma at 1Test <emma@1test.me>",
+  lucas: "Lucas at 1Test <lucas@1test.me>",
+};
+
+export const AGENT_REPLY_TO_EMAILS: Record<string, string> = {
+  alex: "alex@1test.me",
+  clara: "clara@1test.me",
+  oscar: "oscar@1test.me",
+  leo: "leo@1test.me",
+  emma: "emma@1test.me",
+  lucas: "lucas@1test.me",
+};

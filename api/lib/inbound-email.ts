@@ -79,7 +79,7 @@ export async function storeInboundEmail(
   const wantsAutoResponse = shouldAutoRespond(category) || (flaggedForReview && category === "refund");
 
   if (wantsAutoResponse) {
-    const result = await sendAutoResponse(email);
+    const result = await sendAutoResponse(email, route);
     if (result.success) {
       email.autoResponseSent = true;
       email.autoResponseTemplate = result.templateUsed;

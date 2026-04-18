@@ -1,5 +1,6 @@
 import { Resend } from "resend";
-import { FROM_EMAIL, REPLY_TO } from "./types.js";
+import { FROM_EMAIL, REPLY_TO, AGENT_FROM_EMAILS, AGENT_REPLY_TO_EMAILS } from "./types.js";
+import type { EmailRoute } from "./inbound-filter.js";
 import type { EmailCategory } from "./inbound-types.js";
 
 const SITE_URL = "https://1test.me";
@@ -288,6 +289,7 @@ function getResend(): Resend {
 
 export async function sendAutoResponse(
   email: { from: string; subject: string; text: string; category: EmailCategory },
+  route?: EmailRoute,
 ): Promise<{ success: boolean; templateUsed: string | null; error?: string }> {
   const templateKey = selectTemplateForCategory(email.category);
   if (!templateKey) {
@@ -309,14 +311,17 @@ export async function sendAutoResponse(
   );
   const textContent = template.textBody(firstName, unsubLink);
 
+  const fromEmail = (route && AGENT_FROM_EMAILS[route]) ? AGENT_FROM_EMAILS[route] : FROM_EMAIL;
+  const replyToEmail = (route && AGENT_REPLY_TO_EMAILS[route]) ? AGENT_REPLY_TO_EMAILS[route] : REPLY_TO;
+
   try {
     const result = await getResend().emails.send({
-      from: FROM_EMAIL,
+      from: fromEmail,
       to: email.from,
       subject: template.subject,
       html: htmlContent,
       text: textContent,
-      replyTo: REPLY_TO,
+      replyTo: replyToEmail,
       headers: {
         "List-Unsubscribe": `<${unsubLink}>`,
       },
