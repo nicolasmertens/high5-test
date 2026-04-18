@@ -301,11 +301,16 @@ export function DetailedResults({
             </div>
           </div>
 
-          <div className="synth-card">
+          <a
+            className="synth-card synth-card-link"
+            href={`/blog/${personality.type.toLowerCase()}-personality-type`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h4>16 Personalities</h4>
             <div className="synth-big">{personality.type}</div>
-            <p className="synth-sublabel">{personality.label}</p>
-          </div>
+            <p className="synth-sublabel">{personality.label} ↗</p>
+          </a>
 
           <div className="synth-card">
             <h4>DISC Style</h4>

@@ -1078,6 +1078,18 @@
   text-align: center;
 }
 
+.synth-card-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.synth-card-link:hover {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99,102,241,0.1);
+}
+
 .synth-card h4 {
   font-size: 12px;
   text-transform: uppercase;
