@@ -7,10 +7,10 @@ import { useLanguage } from "../contexts/LanguageContext";
 import { initHomepageAnimations } from "../utils/animations";
 
 const FRAMEWORK_ICONS = [
-  { key: "strengths", icon: "&#9733;", color: "#f59e0b" },
-  { key: "personality", icon: "&#9632;", color: "#6366f1" },
-  { key: "disc", icon: "&#9650;", color: "#e53e3e" },
-  { key: "enneagram", icon: "&#9675;", color: "#10b981" },
+  { key: "strengths", icon: "&#9733;", color: "#f59e0b", path: "/free-strengths-test" },
+  { key: "personality", icon: "&#9632;", color: "#6366f1", path: "/free-personality-test" },
+  { key: "disc", icon: "&#9650;", color: "#e53e3e", path: "/free-disc-test" },
+  { key: "enneagram", icon: "&#9675;", color: "#10b981", path: "/free-enneagram-test" },
 ];
 
 export function HomePage() {
@@ -117,11 +117,16 @@ export function HomePage() {
         <h2 className="section-headline">{t("homepage.frameworksHeadline")}</h2>
         <div className="framework-cards-grid">
           {FRAMEWORK_ICONS.map((fw) => (
-            <div key={fw.key} className="fw-card" onClick={() => handleFrameworkCardClick(t(`homepage.${fw.key}Name`))} style={{ cursor: "pointer" }}>
+            <Link
+              key={fw.key}
+              to={localizePath(fw.path)}
+              className="fw-card"
+              onClick={() => handleFrameworkCardClick(t(`homepage.${fw.key}Name`))}
+            >
               <span className="fw-card-icon" style={{ color: fw.color }} dangerouslySetInnerHTML={{ __html: fw.icon }} />
               <h3 className="fw-card-name">{t(`homepage.${fw.key}Name`)}</h3>
               <p className="fw-card-desc">{t(`homepage.${fw.key}Desc`)}</p>
-            </div>
+            </Link>
           ))}
         </div>
         <p className="framework-cards-footer">
