@@ -210,6 +210,14 @@ function AppRoutes() {
       <Route path="/blog/infj-enneagram-type" element={<BlogPage slug="infj-enneagram-type" />} />
       <Route path="/blog/enfp-enneagram-type" element={<BlogPage slug="enfp-enneagram-type" />} />
       <Route path="/blog/intp-enneagram-type" element={<BlogPage slug="intp-enneagram-type" />} />
+      <Route path="/blog/entp-enneagram-type" element={<BlogPage slug="entp-enneagram-type" />} />
+      <Route path="/blog/istj-enneagram-type" element={<BlogPage slug="istj-enneagram-type" />} />
+      <Route path="/blog/isfj-enneagram-type" element={<BlogPage slug="isfj-enneagram-type" />} />
+      <Route path="/blog/infp-disc-profile" element={<BlogPage slug="infp-disc-profile" />} />
+      <Route path="/blog/intj-disc-profile" element={<BlogPage slug="intj-disc-profile" />} />
+      <Route path="/blog/infj-disc-profile" element={<BlogPage slug="infj-disc-profile" />} />
+      <Route path="/blog/enfp-disc-profile" element={<BlogPage slug="enfp-disc-profile" />} />
+      <Route path="/blog/intp-disc-profile" element={<BlogPage slug="intp-disc-profile" />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="/relationship/:id" element={<RelationshipReportPage />} />

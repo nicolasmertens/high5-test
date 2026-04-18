@@ -2207,6 +2207,54 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/intp-enneagram-type",
     ogType: "article",
   },
+  "/blog/entp-enneagram-type": {
+    title: "ENTP Enneagram Type — Most Common Types and Why",
+    description: "Which Enneagram types are most common for ENTPs? Type 7, Type 5, and Type 8 appear most often. Learn what each ENTP-Enneagram combination means.",
+    canonicalUrl: "https://1test.me/blog/entp-enneagram-type",
+    ogType: "article",
+  },
+  "/blog/istj-enneagram-type": {
+    title: "ISTJ Enneagram Type — Most Common Types and Why",
+    description: "Which Enneagram types are most common for ISTJs? Type 1, Type 6, and Type 5 appear most often. Learn what each ISTJ-Enneagram combination means.",
+    canonicalUrl: "https://1test.me/blog/istj-enneagram-type",
+    ogType: "article",
+  },
+  "/blog/isfj-enneagram-type": {
+    title: "ISFJ Enneagram Type — Most Common Types and Why",
+    description: "Which Enneagram types are most common for ISFJs? Type 2, Type 6, and Type 1 appear most often. Learn what each ISFJ-Enneagram combination means.",
+    canonicalUrl: "https://1test.me/blog/isfj-enneagram-type",
+    ogType: "article",
+  },
+  "/blog/infp-disc-profile": {
+    title: "INFP DISC Profile — What DISC Style Are Most INFPs?",
+    description: "What DISC style do most INFPs have? INFPs typically show high S or SC profiles. Learn what each INFP-DISC combination means for communication and collaboration.",
+    canonicalUrl: "https://1test.me/blog/infp-disc-profile",
+    ogType: "article",
+  },
+  "/blog/intj-disc-profile": {
+    title: "INTJ DISC Profile — What DISC Style Are Most INTJs?",
+    description: "What DISC style do most INTJs have? INTJs typically show high C or CD profiles. Learn what each INTJ-DISC combination means for communication and leadership.",
+    canonicalUrl: "https://1test.me/blog/intj-disc-profile",
+    ogType: "article",
+  },
+  "/blog/infj-disc-profile": {
+    title: "INFJ DISC Profile — What DISC Style Are Most INFJs?",
+    description: "What DISC style do most INFJs have? INFJs typically show SC or CS profiles. Learn what each INFJ-DISC combination means for communication and leadership.",
+    canonicalUrl: "https://1test.me/blog/infj-disc-profile",
+    ogType: "article",
+  },
+  "/blog/enfp-disc-profile": {
+    title: "ENFP DISC Profile — What DISC Style Are Most ENFPs?",
+    description: "What DISC style do most ENFPs have? ENFPs typically show high I or IS profiles. Learn what each ENFP-DISC combination means for communication and collaboration.",
+    canonicalUrl: "https://1test.me/blog/enfp-disc-profile",
+    ogType: "article",
+  },
+  "/blog/intp-disc-profile": {
+    title: "INTP DISC Profile — What DISC Style Are Most INTPs?",
+    description: "What DISC style do most INTPs have? INTPs typically show high C profiles. Learn what each INTP-DISC combination means for communication and collaboration.",
+    canonicalUrl: "https://1test.me/blog/intp-disc-profile",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {
