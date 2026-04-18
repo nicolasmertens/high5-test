@@ -277,6 +277,22 @@ function AppRoutes() {
       <Route path="/blog/estp-cognitive-functions" element={<BlogPage slug="estp-cognitive-functions" />} />
       <Route path="/blog/esfp-cognitive-functions" element={<BlogPage slug="esfp-cognitive-functions" />} />
       <Route path="/blog/isfp-cognitive-functions" element={<BlogPage slug="isfp-cognitive-functions" />} />
+      <Route path="/blog/infj-strengths-and-weaknesses" element={<BlogPage slug="infj-strengths-and-weaknesses" />} />
+      <Route path="/blog/intj-strengths-and-weaknesses" element={<BlogPage slug="intj-strengths-and-weaknesses" />} />
+      <Route path="/blog/enfp-strengths-and-weaknesses" element={<BlogPage slug="enfp-strengths-and-weaknesses" />} />
+      <Route path="/blog/infp-strengths-and-weaknesses" element={<BlogPage slug="infp-strengths-and-weaknesses" />} />
+      <Route path="/blog/intp-strengths-and-weaknesses" element={<BlogPage slug="intp-strengths-and-weaknesses" />} />
+      <Route path="/blog/entj-strengths-and-weaknesses" element={<BlogPage slug="entj-strengths-and-weaknesses" />} />
+      <Route path="/blog/entp-strengths-and-weaknesses" element={<BlogPage slug="entp-strengths-and-weaknesses" />} />
+      <Route path="/blog/enfj-strengths-and-weaknesses" element={<BlogPage slug="enfj-strengths-and-weaknesses" />} />
+      <Route path="/blog/istj-strengths-and-weaknesses" element={<BlogPage slug="istj-strengths-and-weaknesses" />} />
+      <Route path="/blog/isfj-strengths-and-weaknesses" element={<BlogPage slug="isfj-strengths-and-weaknesses" />} />
+      <Route path="/blog/estj-strengths-and-weaknesses" element={<BlogPage slug="estj-strengths-and-weaknesses" />} />
+      <Route path="/blog/esfj-strengths-and-weaknesses" element={<BlogPage slug="esfj-strengths-and-weaknesses" />} />
+      <Route path="/blog/istp-strengths-and-weaknesses" element={<BlogPage slug="istp-strengths-and-weaknesses" />} />
+      <Route path="/blog/estp-strengths-and-weaknesses" element={<BlogPage slug="estp-strengths-and-weaknesses" />} />
+      <Route path="/blog/esfp-strengths-and-weaknesses" element={<BlogPage slug="esfp-strengths-and-weaknesses" />} />
+      <Route path="/blog/isfp-strengths-and-weaknesses" element={<BlogPage slug="isfp-strengths-and-weaknesses" />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="/relationship/:id" element={<RelationshipReportPage />} />

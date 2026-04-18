@@ -19321,6 +19321,950 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-18",
   },
+
+  "infj-strengths-and-weaknesses": {
+    slug: "infj-strengths-and-weaknesses",
+    metaTitle: "INFJ Strengths and Weaknesses: A Complete Guide",
+    metaDesc: "Explore INFJ strengths and weaknesses — from deep empathy and visionary thinking to perfectionism and emotional burnout. Learn how to leverage your INFJ gifts.",
+    canonicalUrl: "https://1test.me/blog/infj-strengths-and-weaknesses",
+    h1: "INFJ Strengths and Weaknesses: A Complete Guide",
+    sections: [
+      {
+        heading: "Core INFJ Strengths",
+        html: strong([
+          { label: "Visionary insight:", desc: "INFJs see patterns others miss. Their dominant Ni synthesizes complex information into clear, forward-looking understanding — making them exceptional strategists, counselors, and creative thinkers." },
+          { label: "Deep empathy:", desc: "Auxiliary Fe gives INFJs an unusual ability to sense others' emotional states and motivations. They feel what others feel, which makes them extraordinarily effective at helping, inspiring, and connecting." },
+          { label: "Purposeful conviction:", desc: "INFJs don't just have goals — they have missions. Their Ni-Fe combination produces a deep sense of purpose that sustains effort across long timelines." },
+          { label: "Integrity and authenticity:", desc: "INFJs hold themselves to high ethical standards. They are among the least likely types to compromise their values for convenience or social approval." },
+          { label: "Creative depth:", desc: "INFJs produce ideas and creative work with unusual richness — not quantity, but depth. When they write, counsel, design, or lead, their work carries a distinctive quality of meaning." },
+        ]),
+      },
+      {
+        heading: "Common INFJ Weaknesses",
+        html: strong([
+          { label: "Perfectionism:", desc: "Ni's clear inner vision means reality rarely fully satisfies. INFJs can become paralyzed chasing an ideal that keeps moving, preventing completion of good work." },
+          { label: "Emotional absorption:", desc: "Fe's empathic attunement is a gift that becomes a liability without strong boundaries. INFJs absorb others' pain as their own, which leads to burnout if unmanaged." },
+          { label: "Difficulty with the mundane:", desc: "INFJs are energized by meaning and significance. Routine administrative tasks, logistics, and small details can feel genuinely draining and are often neglected." },
+          { label: "Private to a fault:", desc: "INFJs are among the most reserved types. They share themselves selectively, which can make relationships feel one-sided and leave others uncertain of where they stand." },
+          { label: "Tendency to burn bridges:", desc: "When a relationship or situation violates their values past a threshold, INFJs can completely withdraw — the 'door slam.' This can be disproportionate and leave important relationships unresolved." },
+        ]),
+      },
+      {
+        heading: "Leveraging INFJ Strengths",
+        html: p("INFJs create disproportionate impact when they work in roles that allow their vision and empathy to operate together. Counseling, writing, strategy, advocacy, and mission-driven leadership are natural fits. The key is protecting enough solitude to let Ni do its synthesis work.") +
+          p("In teams, INFJs add the most value as the person who sees the larger pattern and its human implications — the one who asks 'but what does this mean for people?' when everyone else is focused on execution. Pair with strong Te types who can translate INFJ vision into structured action plans.") +
+          p("INFJs are energized by depth over breadth. Rather than spreading across many projects, they thrive when given permission to go deep on fewer things that genuinely matter."),
+      },
+      {
+        heading: "Growing Through INFJ Weaknesses",
+        html: p("The most powerful growth edge for INFJs is learning to ship imperfect work. The Ni-driven pursuit of the ideal is often the enemy of the good. Practice shipping at 80% and observe that the world doesn't end — most 80% INFJ work still outperforms others' 100%.") +
+          p("For emotional absorption, the practice isn't to feel less — it's to develop a clear internal sense of what is yours versus what belongs to the other person. Regular solitude, physical exercise, and a few trusted people to process with all help discharge absorbed emotional material.") +
+          p("On the door-slam tendency: INFJs benefit from building the habit of one direct conversation before withdrawal. Most situations that feel like value violations are actually misunderstandings that a single honest exchange can resolve."),
+      },
+    ],
+    faqs: [
+      { question: "What are the biggest INFJ strengths?", answer: "INFJs' greatest strengths are visionary insight (via Ni), deep empathy (via Fe), a strong sense of purpose, and the capacity to produce deeply meaningful creative work." },
+      { question: "What are common INFJ weaknesses?", answer: "Perfectionism, emotional absorption from others, difficulty with routine tasks, excessive privacy, and the tendency to completely withdraw when values are violated (the INFJ 'door slam')." },
+      { question: "How can INFJs manage burnout?", answer: "By setting firm boundaries around emotional energy — recognizing what belongs to others emotionally and not owning it. Regular solitude, physical grounding, and limited emotional labor without reciprocity are key." },
+      { question: "What careers suit INFJ strengths?", answer: "Counseling, psychology, writing, strategic planning, advocacy, teaching, and mission-driven leadership all allow INFJs to combine their visionary and empathic strengths effectively." },
+    ],
+    ctaHeading: "Discover Your Personality Strengths",
+    ctaSubtext: "Take our free personality test to find your type and understand your unique strengths and growth edges.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INFJ personality type guide", url: "/blog/infj-personality-type" },
+      { label: "INFJ cognitive functions", url: "/blog/infj-cognitive-functions" },
+      { label: "INFJ careers", url: "/blog/infj-careers" },
+      { label: "INFJ compatible types", url: "/blog/infj-compatible-types" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "intj-strengths-and-weaknesses": {
+    slug: "intj-strengths-and-weaknesses",
+    metaTitle: "INTJ Strengths and Weaknesses: A Complete Guide",
+    metaDesc: "Discover INTJ strengths and weaknesses — from strategic mastery and independence to arrogance and emotional blindspots. Learn how to use your INTJ strengths wisely.",
+    canonicalUrl: "https://1test.me/blog/intj-strengths-and-weaknesses",
+    h1: "INTJ Strengths and Weaknesses: A Complete Guide",
+    sections: [
+      {
+        heading: "Core INTJ Strengths",
+        html: strong([
+          { label: "Strategic thinking:", desc: "INTJs are among the strongest long-range planners in the personality system. Their Ni-Te combination lets them see where things are heading and build efficient paths to get there." },
+          { label: "Independence and self-sufficiency:", desc: "INTJs trust their own judgment and rarely need external validation to act. This makes them effective in roles that require autonomous decision-making under uncertainty." },
+          { label: "High standards and drive:", desc: "INTJs hold themselves to exacting standards and pursue mastery relentlessly. Their work quality is consistently high, particularly in domains they have chosen." },
+          { label: "Systems thinking:", desc: "INTJs naturally see how components interact within larger systems. They excel at identifying inefficiencies and redesigning structures from the ground up." },
+          { label: "Decisive under pressure:", desc: "Because INTJs have already modeled likely scenarios, they can make clear decisions quickly when others freeze — their Ni has often pre-processed the options." },
+        ]),
+      },
+      {
+        heading: "Common INTJ Weaknesses",
+        html: strong([
+          { label: "Arrogance:", desc: "INTJs' confidence in their own analysis can tip into dismissiveness. They may reject valid input from others too quickly, particularly when it comes without rigorous logic." },
+          { label: "Emotional blindspots:", desc: "Inferior Fi and underdeveloped Fe mean INTJs can be genuinely unaware of how their directness affects others emotionally. They may cause hurt without realizing it." },
+          { label: "Impatience with inefficiency:", desc: "INTJs have little tolerance for circular discussion, indecision, or processes they consider wasteful. This can create friction in collaborative environments." },
+          { label: "Difficulty with small talk:", desc: "INTJs find shallow social interaction draining and may avoid it to the point of appearing cold or unapproachable — creating relationship barriers they didn't intend." },
+          { label: "Perfectionist paralysis:", desc: "The INTJ's clear inner vision of how things should be can make it hard to release work that doesn't meet their standard, causing delays." },
+        ]),
+      },
+      {
+        heading: "Leveraging INTJ Strengths",
+        html: p("INTJs create the most value when given complex, long-horizon problems and the autonomy to solve them their way. Architecture, engineering, research, strategy consulting, and entrepreneurship all suit the Ni-Te stack well.") +
+          p("In teams, INTJs are most valuable as the person who stress-tests plans, identifies structural flaws, and builds robust systems. Let them own the design and quality bar; pair with Fe-strong types who manage the relational dynamics.") +
+          p("INTJs' drive for mastery means they perform best when genuinely invested in a domain. Forced to work on problems they find trivial, their performance and motivation both drop sharply."),
+      },
+      {
+        heading: "Growing Through INTJ Weaknesses",
+        html: p("The highest-leverage growth area for INTJs is emotional intelligence — not because they lack feeling, but because their Fi is underdeveloped and their impact on others can be unintentionally harsh. The practice is simple: before delivering a direct assessment, spend 30 seconds asking how the other person likely feels about it, and adjust delivery accordingly. The content can stay the same; the delivery costs almost nothing and dramatically changes how input lands.") +
+          p("On arrogance: INTJs benefit from actively soliciting contrary evidence, especially from smart people who disagree. They tend to update strongly on good logic — the challenge is staying open long enough for it to arrive.") +
+          p("For small talk: reframe it as data-gathering rather than pointless filler. Every conversation, however shallow, provides information about people — and people data is useful to any strategic thinker."),
+      },
+    ],
+    faqs: [
+      { question: "What are the biggest INTJ strengths?", answer: "INTJs' greatest strengths are strategic foresight, independent judgment, high personal standards, systems thinking, and decisive action under uncertainty." },
+      { question: "What are common INTJ weaknesses?", answer: "Arrogance or dismissiveness, emotional blindspots, impatience with inefficiency, difficulty with social small talk, and perfectionist paralysis that delays releasing work." },
+      { question: "How can INTJs improve emotional intelligence?", answer: "By developing awareness of how their directness lands on others. Practically: pause before delivering assessments, consider the recipient's emotional context, and adjust delivery without compromising content." },
+      { question: "What careers suit INTJ strengths?", answer: "Engineering, architecture, research, strategy consulting, law, medicine, and entrepreneurship all play to the INTJ's planning, analysis, and systems-design strengths." },
+    ],
+    ctaHeading: "Understand Your Strengths Profile",
+    ctaSubtext: "Take our free personality test to find your type and discover your unique strengths and growth opportunities.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INTJ personality type guide", url: "/blog/intj-personality-type" },
+      { label: "INTJ cognitive functions", url: "/blog/intj-cognitive-functions" },
+      { label: "INTJ careers", url: "/blog/intj-careers" },
+      { label: "INTJ compatible types", url: "/blog/intj-compatible-types" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enfp-strengths-and-weaknesses": {
+    slug: "enfp-strengths-and-weaknesses",
+    metaTitle: "ENFP Strengths and Weaknesses: A Complete Guide",
+    metaDesc: "Explore ENFP strengths and weaknesses — from creative vision and people skills to follow-through struggles and overcommitment. Make the most of your ENFP nature.",
+    canonicalUrl: "https://1test.me/blog/enfp-strengths-and-weaknesses",
+    h1: "ENFP Strengths and Weaknesses: A Complete Guide",
+    sections: [
+      {
+        heading: "Core ENFP Strengths",
+        html: strong([
+          { label: "Creative ideation:", desc: "ENFPs generate possibilities at remarkable speed. Their Ne-dominated thinking spots connections across disparate domains, producing ideas that surprise and inspire others." },
+          { label: "Genuine warmth and enthusiasm:", desc: "ENFPs' energy is infectious. They bring authentic excitement to people and projects, which naturally draws others in and builds momentum." },
+          { label: "People insight:", desc: "Ne-Fi gives ENFPs an unusual ability to see the potential in people before those individuals see it in themselves. They are natural mentors and motivators." },
+          { label: "Adaptability:", desc: "ENFPs read situations quickly and adjust. They are comfortable with ambiguity and change in ways that other types find genuinely stressful." },
+          { label: "Values-driven passion:", desc: "When ENFPs connect a cause to their Fi values, they pursue it with extraordinary commitment. Their best work emerges from this intersection of curiosity and conviction." },
+        ]),
+      },
+      {
+        heading: "Common ENFP Weaknesses",
+        html: strong([
+          { label: "Difficulty with follow-through:", desc: "Ne continuously generates new possibilities, making existing projects feel less exciting over time. ENFPs are exceptional starters and inconsistent finishers." },
+          { label: "Overcommitment:", desc: "ENFPs say yes enthusiastically and often. The result is a schedule that exceeds capacity, with important commitments receiving less than they deserve." },
+          { label: "Difficulty with routine:", desc: "Inferior Si means ENFPs find sustained routine draining rather than stabilizing. Administrative tasks, structured processes, and repetitive work can deplete them rapidly." },
+          { label: "Emotional reactivity:", desc: "When Fi values feel violated, ENFPs can react with intensity that surprises others. They feel deeply — which is a strength — but the transition from enthused to upset can be fast." },
+          { label: "Trouble with criticism:", desc: "Because ENFPs invest their identity in their work and ideas, criticism of the work can feel like criticism of the person. Developing thicker skin is a genuine growth edge." },
+        ]),
+      },
+      {
+        heading: "Leveraging ENFP Strengths",
+        html: p("ENFPs create disproportionate value in roles that reward creative vision, people energy, and the ability to inspire action. Entrepreneurship, marketing, teaching, journalism, innovation consulting, and advocacy all leverage the Ne-Fi combination effectively.") +
+          p("In teams, ENFPs are invaluable as the person who generates possibilities, builds enthusiasm, and sees human potential. Pair with Si-Te types who can translate ENFP vision into structured execution — this combination covers the full spectrum from ideation to completion.") +
+          p("ENFPs perform best when given meaningful latitude and a cause they believe in. Micromanagement and purely procedural roles suppress their strongest capabilities."),
+      },
+      {
+        heading: "Growing Through ENFP Weaknesses",
+        html: p("The highest-leverage growth move for ENFPs is building the systems to support their follow-through. This doesn't mean becoming a different type — it means developing the external scaffolding (accountability partners, project management tools, clear completion criteria) that compensates for Te's underdevelopment.") +
+          p("For overcommitment: practice the 24-hour pause before saying yes. ENFPs' enthusiasm is genuine in the moment but often doesn't account for what they're already carrying. A day's delay before committing dramatically improves the quality of yeses.") +
+          p("For routine: identify the two or three administrative tasks that actually matter and build minimal reliable systems for those. Leave the rest flexible. The goal isn't rigid routine — it's targeted consistency in areas where consistency is genuinely important."),
+      },
+    ],
+    faqs: [
+      { question: "What are the biggest ENFP strengths?", answer: "Creative ideation, genuine warmth and enthusiasm, insight into people's potential, adaptability to change, and passionate commitment when values are engaged." },
+      { question: "What are common ENFP weaknesses?", answer: "Difficulty with follow-through, overcommitting, resistance to routine and administrative tasks, emotional reactivity when values are violated, and sensitivity to criticism." },
+      { question: "How can ENFPs improve follow-through?", answer: "By building external accountability structures — accountability partners, project management tools, and clear completion definitions — rather than relying solely on internal motivation to maintain momentum." },
+      { question: "What careers suit ENFP strengths?", answer: "Entrepreneurship, marketing, teaching, journalism, coaching, innovation consulting, and advocacy all leverage the ENFP's creativity, enthusiasm, and people insight." },
+    ],
+    ctaHeading: "Discover Your Unique Strengths",
+    ctaSubtext: "Take our free personality test to understand your type and the strengths that make you uniquely effective.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ENFP personality type guide", url: "/blog/enfp-personality-type" },
+      { label: "ENFP cognitive functions", url: "/blog/enfp-cognitive-functions" },
+      { label: "ENFP careers", url: "/blog/enfp-careers" },
+      { label: "ENFP compatible types", url: "/blog/enfp-compatible-types" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "infp-strengths-and-weaknesses": {
+    slug: "infp-strengths-and-weaknesses",
+    metaTitle: "INFP Strengths and Weaknesses: A Complete Guide",
+    metaDesc: "Understand INFP strengths and weaknesses — from deep empathy and creative talent to impracticality and idealistic expectations. Grow through your INFP nature.",
+    canonicalUrl: "https://1test.me/blog/infp-strengths-and-weaknesses",
+    h1: "INFP Strengths and Weaknesses: A Complete Guide",
+    sections: [
+      {
+        heading: "Core INFP Strengths",
+        html: strong([
+          { label: "Authentic empathy:", desc: "INFPs feel with individuals, not at them. Their Fi-Ne combination produces a form of empathy that is personal, specific, and deeply meaningful to the person receiving it." },
+          { label: "Creative expression:", desc: "INFPs produce work that carries emotional truth and personal meaning. At their best, their writing, art, music, or storytelling resonates with something universally human." },
+          { label: "Strong moral compass:", desc: "Fi provides a clear, firm value system. INFPs know what they stand for and maintain that position under social pressure with quiet resolve." },
+          { label: "Open-mindedness:", desc: "Ne paired with Fi keeps INFPs curious about different ways of living and being. They rarely judge lifestyle differences harshly — they are genuinely interested in understanding people." },
+          { label: "Dedication when engaged:", desc: "When an INFP's values and work align, their commitment is remarkable. They will pour themselves into something that genuinely matters to them." },
+        ]),
+      },
+      {
+        heading: "Common INFP Weaknesses",
+        html: strong([
+          { label: "Impracticality:", desc: "Inferior Te means INFPs can struggle to translate their rich inner world into structured, executable plans. Goals can remain inspiration without becoming action." },
+          { label: "Idealistic expectations:", desc: "INFPs hold relationships and situations to a high ideal of authenticity and meaning. When reality falls short (as it always does), disappointment can be intense." },
+          { label: "Difficulty with conflict:", desc: "INFPs deeply want harmony and can avoid necessary confrontation to preserve peace, allowing problems to accumulate until they become unavoidable." },
+          { label: "Taking things personally:", desc: "Because Fi processes everything through a personal lens, criticism of work or ideas can feel like criticism of selfhood — making feedback difficult to receive constructively." },
+          { label: "Inconsistent productivity:", desc: "INFPs produce excellent work when inspired and very little when they're not. Managing the gap between inspiration and obligation is a genuine ongoing challenge." },
+        ]),
+      },
+      {
+        heading: "Leveraging INFP Strengths",
+        html: p("INFPs create their best work when given freedom to express genuine perspective and when their values are engaged with the outcome. Writing, counseling, nonprofit work, social justice, teaching, and creative fields all provide this alignment.") +
+          p("In teams, INFPs bring the human dimension — ensuring that plans and decisions account for their impact on real people. They are excellent at spotting what is inauthentic or inconsistent with stated values, making them valuable integrity checks.") +
+          p("INFPs perform best when they understand the why behind their work. A clear connection between daily tasks and meaningful purpose is not optional for INFPs — it is a performance variable."),
+      },
+      {
+        heading: "Growing Through INFP Weaknesses",
+        html: p("The most valuable growth area for INFPs is developing a practical relationship with external structure. This doesn't mean abandoning their authentic, values-driven nature — it means learning to use simple systems (lists, deadlines, accountability) to bring their inner world into concrete form.") +
+          p("For idealistic expectations: practice distinguishing between standards that are genuinely important and standards that are projections of an inner ideal. People don't need to be perfect to be worth caring about. Situations don't need to be meaningful to deserve attention.") +
+          p("For difficulty with conflict: recognize that avoiding difficult conversations usually makes things worse, not better. Most relationship conflicts INFPs avoid resolve faster and cleaner with a single honest exchange than through gradual withdrawal."),
+      },
+    ],
+    faqs: [
+      { question: "What are the biggest INFP strengths?", answer: "Authentic individual empathy, deep creative expression, a firm moral compass, genuine open-mindedness, and remarkable dedication when values are aligned with work." },
+      { question: "What are common INFP weaknesses?", answer: "Impracticality (difficulty converting vision to action), idealistic expectations, avoidance of conflict, taking criticism personally, and inconsistent productivity tied to inspiration levels." },
+      { question: "How can INFPs improve productivity?", answer: "By building simple external accountability structures — the goal is not rigid routine but reliable bridges between their rich inner world and concrete external output. Accountability partners and minimal planning systems help most." },
+      { question: "What careers suit INFP strengths?", answer: "Writing, counseling, psychology, nonprofit and advocacy work, social work, teaching, and creative fields all align well with the INFP's empathic depth and values-driven commitment." },
+    ],
+    ctaHeading: "Explore Your Strengths Profile",
+    ctaSubtext: "Take our free personality test to find your type and discover your unique strengths and where you can grow.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INFP personality type guide", url: "/blog/infp-personality-type" },
+      { label: "INFP cognitive functions", url: "/blog/infp-cognitive-functions" },
+      { label: "INFP careers", url: "/blog/infp-careers" },
+      { label: "INFP compatible types", url: "/blog/infp-compatible-types" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "intp-strengths-and-weaknesses": {
+    slug: "intp-strengths-and-weaknesses",
+    metaTitle: "INTP Strengths and Weaknesses: A Complete Guide",
+    metaDesc: "Discover INTP strengths and weaknesses — from analytical brilliance and intellectual depth to social difficulty and chronic incompletion. Leverage your INTP gifts.",
+    canonicalUrl: "https://1test.me/blog/intp-strengths-and-weaknesses",
+    h1: "INTP Strengths and Weaknesses: A Complete Guide",
+    sections: [
+      {
+        heading: "Core INTP Strengths",
+        html: strong([
+          { label: "Analytical depth:", desc: "INTPs build the most precise internal logical models of any type. They don't just understand how things work — they understand why they work that way, and can identify flaws in reasoning that others miss entirely." },
+          { label: "Intellectual creativity:", desc: "Ti-Ne produces novel conceptual thinking. INTPs combine rigorous logic with expansive idea generation, producing insights that are both original and internally consistent." },
+          { label: "Objectivity:", desc: "INTPs evaluate claims on their merits, not on who made them or what would be socially comfortable to believe. Their analysis is genuinely independent." },
+          { label: "Breadth of curiosity:", desc: "Ne paired with Ti means INTPs can engage deeply across a remarkable range of domains. They are the most likely type to have expertise in several unrelated fields." },
+          { label: "Problem-solving under complexity:", desc: "When a problem has many interacting variables and no obvious solution, INTPs thrive. The more complex the puzzle, the more their Ti-Ne stack engages." },
+        ]),
+      },
+      {
+        heading: "Common INTP Weaknesses",
+        html: strong([
+          { label: "Analysis paralysis:", desc: "Ti's drive for completeness and Ne's endless alternative generation can prevent INTPs from ever reaching a conclusion they're fully satisfied with — and therefore from acting." },
+          { label: "Social difficulty:", desc: "Inferior Fe means INTPs find sustained social engagement draining and often awkward. They may come across as dismissive or cold when they are simply operating from Ti without social smoothing." },
+          { label: "Chronic incompletion:", desc: "INTPs begin many more projects than they finish. Once the intellectually interesting part is understood, the effort required to complete and polish the work loses appeal." },
+          { label: "Condescension:", desc: "INTPs' high standards for logical precision can make them appear dismissive of less precise thinkers — even when they don't intend to convey disrespect." },
+          { label: "Practical neglect:", desc: "INTPs can become so absorbed in abstract thinking that practical maintenance — health, finances, relationships, deadlines — goes neglected until it becomes a crisis." },
+        ]),
+      },
+      {
+        heading: "Leveraging INTP Strengths",
+        html: p("INTPs create exceptional value in roles that reward deep analysis, theoretical innovation, and the ability to hold complex systems in mind. Research, software engineering, philosophy, mathematics, data science, and strategic analysis all leverage the Ti-Ne combination effectively.") +
+          p("In teams, INTPs are most valuable as the person who stress-tests assumptions and identifies logical flaws before they become expensive mistakes. Their value is often realized late in the cycle — after the team has converged — when INTP dissent prevents a flawed execution.") +
+          p("INTPs need work that engages genuine intellectual challenge. Purely repetitive or procedural roles create low performance not from lack of ability but from radical under-engagement."),
+      },
+      {
+        heading: "Growing Through INTP Weaknesses",
+        html: p("The most impactful growth move for INTPs is developing a 'good enough' threshold for completion. INTPs improve things past the point of diminishing returns. The practice: define completion criteria before starting, and honor them even when the Ti drive says more is possible.") +
+          p("For social difficulty: the goal is not to become extroverted — it is to develop enough Fe fluency to signal that you're engaged and that you value the other person. A small behavioral shift (asking follow-up questions, validating ideas before critiquing them) dramatically changes how INTPs are perceived without requiring a personality change.") +
+          p("For practical neglect: build systems that run without requiring daily attention. INTPs are system-thinkers — apply that skill to personal maintenance. Automate what can be automated, schedule what can't."),
+      },
+    ],
+    faqs: [
+      { question: "What are the biggest INTP strengths?", answer: "Analytical precision, intellectual creativity (original ideas that are also logically sound), genuine objectivity, wide-ranging curiosity, and exceptional performance on complex multi-variable problems." },
+      { question: "What are common INTP weaknesses?", answer: "Analysis paralysis, social awkwardness, chronic project incompletion, unintentional condescension toward less precise thinkers, and neglect of practical life maintenance." },
+      { question: "How can INTPs improve social relationships?", answer: "By developing small behavioral signals that communicate engagement and care — asking follow-up questions, validating ideas before critiquing, and showing interest in people as people, not just as conversation partners." },
+      { question: "What careers suit INTP strengths?", answer: "Research, software engineering, data science, mathematics, philosophy, strategic analysis, and systems design all leverage the INTP's analytical depth and conceptual creativity." },
+    ],
+    ctaHeading: "Discover Your Analytical Profile",
+    ctaSubtext: "Take our free personality test to understand your type and how your strengths shape your thinking and work.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INTP personality type guide", url: "/blog/intp-personality-type" },
+      { label: "INTP cognitive functions", url: "/blog/intp-cognitive-functions" },
+      { label: "INTP careers", url: "/blog/intp-careers" },
+      { label: "INTP compatible types", url: "/blog/intp-compatible-types" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "entj-strengths-and-weaknesses": {
+    slug: "entj-strengths-and-weaknesses",
+    metaTitle: "ENTJ Strengths and Weaknesses: A Complete Guide",
+    metaDesc: "Explore ENTJ strengths and weaknesses — from commanding leadership and strategic execution to emotional detachment and impatience. Use your ENTJ nature effectively.",
+    canonicalUrl: "https://1test.me/blog/entj-strengths-and-weaknesses",
+    h1: "ENTJ Strengths and Weaknesses: A Complete Guide",
+    sections: [
+      {
+        heading: "Core ENTJ Strengths",
+        html: strong([
+          { label: "Commanding leadership:", desc: "ENTJs naturally take charge and organize people toward objectives. Their Te-dominant style establishes clear expectations, accountability structures, and momentum." },
+          { label: "Strategic vision:", desc: "Auxiliary Ni gives ENTJs the ability to see the optimal long-range path and stay oriented toward it even through short-term turbulence." },
+          { label: "Decisive action:", desc: "ENTJs make decisions quickly and confidently. They would rather make a good decision now than wait for a perfect one later — a significant competitive advantage." },
+          { label: "High performance standards:", desc: "ENTJs hold themselves and those around them to demanding standards. The quality bar they set often lifts entire organizations." },
+          { label: "Organizational talent:", desc: "ENTJs can see complex systems, identify inefficiencies, and redesign them for maximum output. They build organizations that outperform their inputs." },
+        ]),
+      },
+      {
+        heading: "Common ENTJ Weaknesses",
+        html: strong([
+          { label: "Emotional detachment:", desc: "Inferior Fi means ENTJs are often unaware of how their directness and high expectations affect others emotionally. They can damage relationships without realizing it." },
+          { label: "Impatience:", desc: "ENTJs move fast and expect others to keep up. Slower-moving colleagues, indecisive meetings, and bureaucratic delay create genuine frustration that can surface as harshness." },
+          { label: "Dominance in collaboration:", desc: "ENTJs' natural command orientation can suppress others' input. They may inadvertently create environments where people don't feel safe contributing ideas that contradict the ENTJ's direction." },
+          { label: "Workaholism:", desc: "ENTJs define themselves by achievement. Without deliberate boundaries, work expands to fill all available time — at cost to health, relationships, and long-term performance." },
+          { label: "Difficulty admitting error:", desc: "Te-dominant types anchor strongly to their conclusions. INTJs in particular (and ENTJs too) can resist acknowledging mistakes longer than is strategically sensible." },
+        ]),
+      },
+      {
+        heading: "Leveraging ENTJ Strengths",
+        html: p("ENTJs are at their best leading complex organizations toward ambitious goals. CEO, founder, general, executive director, lead attorney, or senior consultant — roles that combine strategic scope with direct authority over outcomes maximize the Te-Ni combination.") +
+          p("In teams, ENTJs provide the organizational structure, directional clarity, and performance culture that allows others to do their best work. They are most effective when they balance their command orientation with deliberate inclusion of input before decisions are made.") +
+          p("ENTJs should actively seek domains where ambition, intelligence, and strategic capability are rewarded. They underperform in bureaucratic environments where neither quality nor results are meaningfully recognized."),
+      },
+      {
+        heading: "Growing Through ENTJ Weaknesses",
+        html: p("The most important growth investment for ENTJs is emotional intelligence — specifically, developing awareness of how their behavior lands on others. This doesn't require becoming softer or less driven. It requires learning that people who feel safe and valued perform better — and that the ENTJ's directness, if unmanaged, creates the opposite environment.") +
+          p("A practical habit: after any difficult conversation, ask one question — 'how did that land for you?' The answer will repeatedly reveal information that pure Te analysis misses.") +
+          p("For impatience: recognize that the speed cost of developing others is almost always recouped through their improved performance. The ENTJ who invests 20 minutes in a team member's development gets it back many times over — but only if they suppress the urge to just do it themselves."),
+      },
+    ],
+    faqs: [
+      { question: "What are the biggest ENTJ strengths?", answer: "Commanding leadership, strategic vision for long-range goals, rapid decisive action, high performance standards, and the ability to build and optimize complex organizational systems." },
+      { question: "What are common ENTJ weaknesses?", answer: "Emotional detachment from how their directness affects others, impatience with slower pace, dominance in collaborative settings, tendency toward workaholism, and difficulty acknowledging mistakes." },
+      { question: "How can ENTJs improve as leaders?", answer: "By developing emotional awareness — specifically, learning how their directness and high expectations land on others emotionally. The most effective ENTJs create environments where people feel both challenged and safe to contribute." },
+      { question: "What careers suit ENTJ strengths?", answer: "CEO and executive leadership, entrepreneurship, law, management consulting, military leadership, and any role combining strategic scope with direct authority over results." },
+    ],
+    ctaHeading: "Discover Your Leadership Strengths",
+    ctaSubtext: "Take our free personality test to find your type and understand the strengths that make you a powerful leader.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ENTJ personality type guide", url: "/blog/entj-personality-type" },
+      { label: "ENTJ cognitive functions", url: "/blog/entj-cognitive-functions" },
+      { label: "ENTJ careers", url: "/blog/entj-careers" },
+      { label: "ENTJ compatible types", url: "/blog/entj-compatible-types" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "entp-strengths-and-weaknesses": {
+    slug: "entp-strengths-and-weaknesses",
+    metaTitle: "ENTP Strengths and Weaknesses: A Complete Guide",
+    metaDesc: "Explore ENTP strengths and weaknesses — from innovative thinking and debate skills to inconsistency and relationship friction. Make the most of your ENTP potential.",
+    canonicalUrl: "https://1test.me/blog/entp-strengths-and-weaknesses",
+    h1: "ENTP Strengths and Weaknesses: A Complete Guide",
+    sections: [
+      {
+        heading: "Core ENTP Strengths",
+        html: strong([
+          { label: "Innovative thinking:", desc: "ENTPs generate novel combinations of ideas at speed. Their Ne-Ti combination produces concepts that are both original and logically defensible — a rare pairing." },
+          { label: "Debate and argumentation:", desc: "ENTPs are naturally skilled at identifying weaknesses in reasoning and constructing counter-arguments. They thrive in environments that reward intellectual combat." },
+          { label: "Versatile intelligence:", desc: "ENTPs engage effectively across a wide range of domains. Their curiosity is broad and their ability to quickly map new territory is exceptional." },
+          { label: "Entrepreneurial instinct:", desc: "ENTPs see possibilities where others see constraints. Combined with their risk tolerance and pattern recognition, they are natural entrepreneurs and innovators." },
+          { label: "Charisma and persuasion:", desc: "ENTPs are often genuinely charming — their enthusiasm for ideas is contagious and their ability to reframe situations makes them effective advocates." },
+        ]),
+      },
+      {
+        heading: "Common ENTP Weaknesses",
+        html: strong([
+          { label: "Inconsistency:", desc: "ENTPs begin projects with enthusiasm and abandon them when the interesting part is over. Inferior Si means routine maintenance of commitments is genuinely difficult." },
+          { label: "Argumentativeness:", desc: "The ENTP habit of taking contrary positions to test ideas can come across as combative or dismissive — even when the intention is intellectual exploration, not conflict." },
+          { label: "Relationship friction:", desc: "ENTPs' directness and debate orientation can frustrate types who process decisions more emotionally or who want agreement rather than examination." },
+          { label: "Difficulty with implementation:", desc: "Ideas are exciting; execution is tedious. ENTPs often generate more possibilities than they can realize, and the gap between vision and delivered output is frequently large." },
+          { label: "Overconfidence:", desc: "ENTPs trust their pattern recognition, sometimes past the point where evidence supports it. They can be wrong with the same conviction they are right." },
+        ]),
+      },
+      {
+        heading: "Leveraging ENTP Strengths",
+        html: p("ENTPs are most effective in roles that reward idea generation, intellectual agility, and persuasion. Entrepreneurship, innovation strategy, venture investment, law, debate, journalism, consulting, and product development all leverage Ne-Ti well.") +
+          p("In teams, ENTPs are invaluable as devil's advocates and idea generators — the person who asks the uncomfortable question before the team commits to a flawed plan. Pair with Si-Te types who can convert ENTP ideation into reliable execution.") +
+          p("ENTPs perform best with meaningful autonomy and a problem scope that requires creative problem-solving. Pure implementation roles where the path is already defined suppress their best capability."),
+      },
+      {
+        heading: "Growing Through ENTP Weaknesses",
+        html: p("The most impactful growth move for ENTPs is learning to read the room before taking a contrarian position. Their instinct to challenge is often intellectually valuable — but socially, many people experience it as hostility before they understand it as curiosity. A quick question ('is it okay if I push on this?') transforms the same analytical behavior from combative to collaborative.") +
+          p("For inconsistency: commit to fewer things. ENTPs overcommit because everything sounds interesting. The discipline is in the selection — choosing fewer arenas and building the follow-through habits that make ENTP ideas into real outcomes.") +
+          p("For overconfidence: actively seek out cases where you were confidently wrong. ENTPs update on logic — building a personal catalog of confident errors is the most effective calibration exercise."),
+      },
+    ],
+    faqs: [
+      { question: "What are the biggest ENTP strengths?", answer: "Innovative idea generation, debate and argumentation skill, versatile intelligence across domains, entrepreneurial instinct for spotting possibilities, and natural charisma and persuasion." },
+      { question: "What are common ENTP weaknesses?", answer: "Project inconsistency and abandonment, argumentativeness that creates friction, difficulty with implementation and follow-through, and overconfidence in their pattern recognition." },
+      { question: "How can ENTPs improve relationships?", answer: "By signaling before challenging — a simple 'can I push on this?' shifts the same analytical behavior from feeling like an attack to feeling like engaged curiosity. It costs ENTPs nothing and dramatically changes how others receive them." },
+      { question: "What careers suit ENTP strengths?", answer: "Entrepreneurship, law, consulting, innovation strategy, venture investing, journalism, product development, and any role that rewards generating and stress-testing ideas." },
+    ],
+    ctaHeading: "Discover Your Innovative Strengths",
+    ctaSubtext: "Take our free personality test to find your type and see how your cognitive strengths shape your potential.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ENTP personality type guide", url: "/blog/entp-personality-type" },
+      { label: "ENTP cognitive functions", url: "/blog/entp-cognitive-functions" },
+      { label: "ENTP careers", url: "/blog/entp-careers" },
+      { label: "ENTP compatible types", url: "/blog/entp-compatible-types" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enfj-strengths-and-weaknesses": {
+    slug: "enfj-strengths-and-weaknesses",
+    metaTitle: "ENFJ Strengths and Weaknesses: A Complete Guide",
+    metaDesc: "Understand ENFJ strengths and weaknesses — from inspirational leadership and deep empathy to people-pleasing and emotional overload. Grow your ENFJ potential.",
+    canonicalUrl: "https://1test.me/blog/enfj-strengths-and-weaknesses",
+    h1: "ENFJ Strengths and Weaknesses: A Complete Guide",
+    sections: [
+      {
+        heading: "Core ENFJ Strengths",
+        html: strong([
+          { label: "Inspirational leadership:", desc: "ENFJs inspire rather than command. They see what people can become and articulate that vision with warmth and conviction — drawing out effort that purely transactional leadership cannot." },
+          { label: "Social and emotional intelligence:", desc: "Dominant Fe gives ENFJs extraordinary sensitivity to the emotional dynamics of any room. They read people accurately and adjust their approach in real time." },
+          { label: "Strategic people development:", desc: "Fe-Ni gives ENFJs the rare ability to both care about individuals (Fe) and see where they're heading long-term (Ni). They are exceptional mentors, coaches, and talent developers." },
+          { label: "Commitment to community:", desc: "ENFJs build and sustain communities with remarkable dedication. They hold the relational fabric together through active investment in relationships over time." },
+          { label: "Ethical clarity:", desc: "ENFJs have a strong moral orientation and naturally align their leadership with values that serve the collective good — which builds trust and credibility." },
+        ]),
+      },
+      {
+        heading: "Common ENFJ Weaknesses",
+        html: strong([
+          { label: "People-pleasing:", desc: "The Fe drive for harmony can become compulsive. ENFJs may tell people what they want to hear, avoid necessary conflict, or reshape their position to match whoever they're with." },
+          { label: "Emotional overload:", desc: "Absorbing the emotional states of many people continuously is exhausting. ENFJs without strong energetic boundaries experience burnout as a near-constant occupational hazard." },
+          { label: "Identity enmeshment:", desc: "ENFJs can over-identify with their relationships and roles. When someone they've invested in rejects their guidance, ENFJs may take it as a personal failure rather than the other person's choice." },
+          { label: "Overextension:", desc: "ENFJs sense who needs help and feel compelled to provide it. The result is an over-committed schedule with insufficient time for their own recovery and reflection." },
+          { label: "Difficulty with critical feedback:", desc: "ENFJs invest heavily in their relationships. Receiving negative feedback from someone they care about can feel disproportionately painful." },
+        ]),
+      },
+      {
+        heading: "Leveraging ENFJ Strengths",
+        html: p("ENFJs are at their best in leadership roles that are fundamentally about people development — executive leadership, education, nonprofit management, coaching, HR, and organizational development. Their Fe-Ni combination allows them to inspire toward a vision while attending to individual human needs.") +
+          p("In teams, ENFJs provide the relational glue — ensuring that interpersonal dynamics support rather than undermine the work. They are excellent at identifying when team tension needs to be addressed before it becomes a performance problem.") +
+          p("ENFJs perform best in environments that value people alongside results, where emotional intelligence is recognized as a leadership competency, not just a soft skill."),
+      },
+      {
+        heading: "Growing Through ENFJ Weaknesses",
+        html: p("The most critical growth edge for ENFJs is learning that not all harmony is genuine and not all discomfort is harmful. Conflict avoidance feels virtuous in the moment but often allows real problems to compound. Developing comfort with necessary conflict — the kind that resolves things rather than suppresses them — is among the most impactful investments an ENFJ can make.") +
+          p("For emotional overload: the practice is identifying what belongs to you and what belongs to others. ENFJs need regular recovery time away from others' emotional fields — solitude, physical exercise, and creative personal projects serve as discharge valves.") +
+          p("For people-pleasing: practice one honest position per week in a low-stakes setting. Build the muscle memory of stating what you actually think, even when you know it won't be universally received. The compound effect is significant."),
+      },
+    ],
+    faqs: [
+      { question: "What are the biggest ENFJ strengths?", answer: "Inspirational people-oriented leadership, extraordinary social and emotional intelligence, strategic development of others' potential, community building, and strong ethical clarity." },
+      { question: "What are common ENFJ weaknesses?", answer: "People-pleasing to avoid conflict, emotional burnout from absorbing others' states, over-identification with relationships, chronic overextension, and heightened sensitivity to negative feedback." },
+      { question: "How can ENFJs avoid burnout?", answer: "By establishing clear energetic boundaries — learning what belongs to them emotionally and what doesn't, building in regular solitude for recovery, and treating personal restoration as non-optional rather than selfish." },
+      { question: "What careers suit ENFJ strengths?", answer: "Executive leadership, education, coaching, nonprofit management, HR and organizational development, counseling, and any role where inspiring and developing people is central to success." },
+    ],
+    ctaHeading: "Understand Your People Strengths",
+    ctaSubtext: "Take our free personality test to discover your type and the unique strengths you bring to leadership and relationships.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ENFJ personality type guide", url: "/blog/enfj-personality-type" },
+      { label: "ENFJ cognitive functions", url: "/blog/enfj-cognitive-functions" },
+      { label: "ENFJ careers", url: "/blog/enfj-careers" },
+      { label: "ENFJ compatible types", url: "/blog/enfj-compatible-types" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "istj-strengths-and-weaknesses": {
+    slug: "istj-strengths-and-weaknesses",
+    metaTitle: "ISTJ Strengths and Weaknesses: A Complete Guide",
+    metaDesc: "Explore ISTJ strengths and weaknesses — from reliability and precision to rigidity and emotional reserve. Learn how to make the most of your ISTJ nature.",
+    canonicalUrl: "https://1test.me/blog/istj-strengths-and-weaknesses",
+    h1: "ISTJ Strengths and Weaknesses: A Complete Guide",
+    sections: [
+      {
+        heading: "Core ISTJ Strengths",
+        html: strong([
+          { label: "Exceptional reliability:", desc: "When an ISTJ commits to something, it gets done. Their Si-Te combination creates a deep sense of duty to established commitments that makes them among the most dependable people in any organization." },
+          { label: "Precision and accuracy:", desc: "ISTJs maintain detailed internal records and apply them with care. Their work tends to be thorough, accurate, and consistent — errors that others miss, ISTJs catch." },
+          { label: "Institutional knowledge:", desc: "ISTJs build rich stores of procedural and historical knowledge. They remember how things were done, why decisions were made, and what failed before — making them invaluable in organizations that benefit from long-term continuity." },
+          { label: "Systematic implementation:", desc: "ISTJs don't just follow systems — they build and improve them. Their Si-Te combination excels at creating reliable processes that can be taught and scaled." },
+          { label: "Calm under pressure:", desc: "ISTJs draw on established precedent when things go wrong. Rather than panicking, they apply what has worked before — providing stabilizing consistency when others lose their footing." },
+        ]),
+      },
+      {
+        heading: "Common ISTJ Weaknesses",
+        html: strong([
+          { label: "Resistance to change:", desc: "Si's trust in proven methods can become inflexibility. ISTJs may resist innovation not because they're incapable of evaluating it, but because the bar for proving a new approach superior is genuinely high." },
+          { label: "Emotional reserve:", desc: "ISTJs process feelings privately and express warmth selectively. In relationships that require visible emotional engagement, they can appear cold or indifferent." },
+          { label: "Difficulty with ambiguity:", desc: "ISTJs work best with clear guidelines and established precedent. Open-ended, rapidly-changing situations that lack clear structure generate stress disproportionate to the actual challenge." },
+          { label: "Difficulty delegating:", desc: "ISTJs' high standards and attention to detail can make delegation feel riskier than doing things themselves — leading to overwork and bottlenecks." },
+          { label: "Catastrophizing under stress:", desc: "Inferior Ne can produce worst-case scenario thinking under pressure — an ISTJ who usually handles adversity calmly may suddenly imagine everything going wrong." },
+        ]),
+      },
+      {
+        heading: "Leveraging ISTJ Strengths",
+        html: p("ISTJs are at their best in roles that require sustained accuracy, process management, and institutional reliability. Accounting, law, medicine, administration, logistics, quality assurance, and compliance all leverage the Si-Te combination effectively.") +
+          p("In teams, ISTJs are the reliability backbone — they hold the institutional memory, honor their commitments, and catch the details that others miss in the excitement of new initiatives. An ISTJ on a project team is a quality insurance policy.") +
+          p("ISTJs thrive in organizations that reward consistency and competence over time. Environments that prioritize novelty over reliability undervalue and exhaust them."),
+      },
+      {
+        heading: "Growing Through ISTJ Weaknesses",
+        html: p("The most valuable growth area for ISTJs is developing willingness to engage constructively with change, rather than defaulting to skepticism. The practice: when a new approach is proposed, instead of immediately identifying why the current method is better, ask one genuine question about how the new approach would work. This single shift signals openness without requiring ISTJs to abandon their legitimate evaluative standards.") +
+          p("For emotional reserve: ISTJs don't need to become emotionally demonstrative — they need to develop a small number of reliable signals that communicate care in their relationships. A consistent check-in, a remembered personal detail, or a direct statement of appreciation goes further for an ISTJ than they typically realize.") +
+          p("For delegation anxiety: start with low-stakes tasks and build the evidence base that others can execute to an acceptable standard. Most people rise to clear expectations — ISTJs simply need to set them explicitly."),
+      },
+    ],
+    faqs: [
+      { question: "What are the biggest ISTJ strengths?", answer: "Exceptional reliability and follow-through, precision and accuracy, deep institutional knowledge, systematic process-building, and calm consistency under pressure." },
+      { question: "What are common ISTJ weaknesses?", answer: "Resistance to change without clear evidence of improvement, emotional reserve that can appear cold, difficulty with ambiguity, tendency to under-delegate, and worst-case thinking under stress." },
+      { question: "How can ISTJs adapt to change more effectively?", answer: "By practicing genuine curiosity about new approaches before evaluating them — asking 'how would this work?' before 'why the current way is better.' This preserves evaluative rigor while signaling constructive openness." },
+      { question: "What careers suit ISTJ strengths?", answer: "Accounting, law, medicine, administration, logistics, quality assurance, compliance, and any role where sustained precision, reliability, and institutional knowledge are primary success factors." },
+    ],
+    ctaHeading: "Discover Your Reliability Profile",
+    ctaSubtext: "Take our free personality test to understand your type and how your strengths shape your work and relationships.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ISTJ personality type guide", url: "/blog/istj-personality-type" },
+      { label: "ISTJ cognitive functions", url: "/blog/istj-cognitive-functions" },
+      { label: "ISTJ careers", url: "/blog/istj-careers" },
+      { label: "ISTJ compatible types", url: "/blog/istj-compatible-types" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "isfj-strengths-and-weaknesses": {
+    slug: "isfj-strengths-and-weaknesses",
+    metaTitle: "ISFJ Strengths and Weaknesses: A Complete Guide",
+    metaDesc: "Understand ISFJ strengths and weaknesses — from nurturing care and reliability to self-neglect and conflict avoidance. Grow through your ISFJ strengths.",
+    canonicalUrl: "https://1test.me/blog/isfj-strengths-and-weaknesses",
+    h1: "ISFJ Strengths and Weaknesses: A Complete Guide",
+    sections: [
+      {
+        heading: "Core ISFJ Strengths",
+        html: strong([
+          { label: "Attentive care:", desc: "ISFJs remember what you need and provide it without being asked. Their Si-Fe combination stores relational data with unusual fidelity and drives them to act on it." },
+          { label: "Dependability:", desc: "ISFJs honor their commitments consistently. If an ISFJ says they will do something, they do it — this reliability is one of their most valued traits in any relationship or workplace." },
+          { label: "Practical helpfulness:", desc: "ISFJ help is grounded in specific knowledge of what each person actually needs, not generalized goodwill. Their support is accurate and precisely calibrated." },
+          { label: "Attention to detail:", desc: "ISTJs and ISFJs share Si's capacity for detailed memory and careful observation. ISFJs apply this to people and environments, catching what others miss." },
+          { label: "Warmth and social harmony:", desc: "ISFJs create environments where people feel comfortable, included, and cared for. They are often the social glue in families, teams, and communities." },
+        ]),
+      },
+      {
+        heading: "Common ISFJ Weaknesses",
+        html: strong([
+          { label: "Self-neglect:", desc: "ISFJs are so oriented toward others' needs that their own needs often go unmet. They may not recognize how depleted they've become until burnout is already underway." },
+          { label: "Difficulty saying no:", desc: "The combination of Si's duty orientation and Fe's harmony-seeking makes declining requests feel like a violation of both relational history and present harmony." },
+          { label: "Conflict avoidance:", desc: "ISFJs find interpersonal tension genuinely distressing and will often absorb mistreatment rather than address it — allowing resentment to build until it reaches a breaking point." },
+          { label: "Resistance to change:", desc: "Si's grounding in proven experience makes ISFJs cautious about departing from established patterns, even when change is genuinely beneficial." },
+          { label: "Undervaluing themselves:", desc: "ISFJs can undersell their contributions, assuming that practical, reliable care is less impressive than more visible or vocal contributions. They are often more essential than they believe." },
+        ]),
+      },
+      {
+        heading: "Leveraging ISFJ Strengths",
+        html: p("ISFJs create exceptional value in roles that reward consistent, attentive care for people and environments. Healthcare, education, social work, counseling, administrative support, hospitality, and human resources all leverage the Si-Fe combination effectively.") +
+          p("In teams, ISFJs are often the people who notice when something or someone is being overlooked. They catch the practical details that keep organizations running smoothly — the kind of work that is only noticed when it stops being done.") +
+          p("ISFJs thrive in roles with clear expectations, established processes, and genuine human impact. Environments that are chaotic, constantly-changing, or primarily competitive create sustained stress."),
+      },
+      {
+        heading: "Growing Through ISFJ Weaknesses",
+        html: p("The most important growth area for ISFJs is learning that their own needs are legitimate and that meeting them is not selfish — it is the prerequisite for sustainable care of others. The analogy is apt: you can't pour from an empty cup. ISFJs who consistently neglect their own wellbeing eventually cannot provide the care they so genuinely want to give.") +
+          p("For saying no: practice low-stakes refusals first. Decline one request per week that doesn't align with your actual capacity or priorities. Notice that most relationships survive the 'no' intact, and that the ones that don't were not healthy ones.") +
+          p("For conflict avoidance: recognize that unaddressed resentment is more damaging to relationships than the difficult conversation would have been. ISFJs often discover that the conflict they were dreading is far shorter and easier to resolve than the slow erosion of silence."),
+      },
+    ],
+    faqs: [
+      { question: "What are the biggest ISFJ strengths?", answer: "Attentive and precisely calibrated care for others, exceptional dependability and follow-through, practical helpfulness grounded in specific knowledge, and natural warmth that creates genuine social harmony." },
+      { question: "What are common ISFJ weaknesses?", answer: "Self-neglect and difficulty maintaining personal boundaries, inability to say no without guilt, avoidance of necessary conflict, resistance to change, and undervaluing their own contributions." },
+      { question: "How can ISFJs avoid burnout?", answer: "By treating personal restoration as non-optional. ISFJs must schedule recovery time, practice saying no to requests that exceed real capacity, and recognize that self-care enables rather than detracts from caring for others." },
+      { question: "What careers suit ISFJ strengths?", answer: "Healthcare, nursing, education, social work, counseling, administrative support, hospitality, and HR — roles where consistent, attentive care for people is the core deliverable." },
+    ],
+    ctaHeading: "Understand Your Care Strengths",
+    ctaSubtext: "Take our free personality test to find your type and understand how your unique strengths shape your relationships and work.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ISFJ personality type guide", url: "/blog/isfj-personality-type" },
+      { label: "ISFJ cognitive functions", url: "/blog/isfj-cognitive-functions" },
+      { label: "ISFJ careers", url: "/blog/isfj-careers" },
+      { label: "ISFJ compatible types", url: "/blog/isfj-compatible-types" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "estj-strengths-and-weaknesses": {
+    slug: "estj-strengths-and-weaknesses",
+    metaTitle: "ESTJ Strengths and Weaknesses: A Complete Guide",
+    metaDesc: "Discover ESTJ strengths and weaknesses — from decisive management and reliability to rigidity and emotional disconnection. Make the most of your ESTJ nature.",
+    canonicalUrl: "https://1test.me/blog/estj-strengths-and-weaknesses",
+    h1: "ESTJ Strengths and Weaknesses: A Complete Guide",
+    sections: [
+      {
+        heading: "Core ESTJ Strengths",
+        html: strong([
+          { label: "Decisive management:", desc: "ESTJs make clear decisions, communicate expectations, and hold people accountable. Their Te-Si combination creates effective managers who deliver results consistently." },
+          { label: "Organizational ability:", desc: "ESTJs build reliable systems and processes that scale. They bring order to chaos and create the structures that allow teams and organizations to function smoothly." },
+          { label: "Institutional reliability:", desc: "ESTJs honor their commitments, respect established procedures, and bring consistency to roles over time. Organizations run on people like ESTJs." },
+          { label: "Leadership under pressure:", desc: "When things go wrong, ESTJs provide stable, directive leadership. They fall back on tested approaches and clear chains of command — which is what most people need in a crisis." },
+          { label: "High standards:", desc: "ESTJs hold themselves and their teams to demanding standards of quality and performance, which consistently raises the bar of what gets delivered." },
+        ]),
+      },
+      {
+        heading: "Common ESTJ Weaknesses",
+        html: strong([
+          { label: "Rigidity:", desc: "Te-Si can produce inflexibility — a strong preference for established methods that resists change even when clear evidence supports it. ESTJs can overvalue precedent." },
+          { label: "Emotional disconnection:", desc: "Inferior Fi means ESTJs may be unaware of their own emotional needs and how their directness affects others. They can damage relationships without intending to." },
+          { label: "Difficulty with nuance:", desc: "ESTJs prefer clear standards and objective measures. Situations with moral ambiguity, contextual complexity, or competing legitimate values can generate discomfort rather than curiosity." },
+          { label: "Tendency to dominate:", desc: "ESTJs' confidence in established procedure can lead them to override others' input — particularly from people they perceive as less experienced or less structured in their thinking." },
+          { label: "Work-life balance:", desc: "Duty-oriented Te-Si types can overwork, particularly when they feel responsible for an outcome and uncertain whether others will deliver without their direct involvement." },
+        ]),
+      },
+      {
+        heading: "Leveraging ESTJ Strengths",
+        html: p("ESTJs are most effective in management and operational leadership roles where reliable execution, clear standards, and process building are primary success factors. Operations management, military leadership, administration, law enforcement, finance, and institutional management all suit the Te-Si combination well.") +
+          p("In teams, ESTJs provide the operational backbone — they build the systems, hold the schedule, enforce the standards, and deliver on commitments. They are most effective when paired with Ni or Ne types who contribute strategic vision and innovation to the ESTJ's reliable implementation.") +
+          p("ESTJs thrive in environments where competence is recognized and rewarded, expectations are clear, and hard work is valued. Environments with ambiguous accountability, inconsistent standards, or purely political advancement create genuine frustration."),
+      },
+      {
+        heading: "Growing Through ESTJ Weaknesses",
+        html: p("The most impactful growth area for ESTJs is emotional awareness — specifically, developing the habit of checking in with how their management style lands on others. ESTJs who add even basic emotional attunement to their directive competence become significantly more effective leaders because they retain and motivate people rather than managing them out.") +
+          p("For rigidity: develop a structured approach to evaluating new proposals. Rather than defaulting to 'we've always done it differently,' ask: what would have to be true for this to be better? This preserves the evaluative rigor ESTJs rely on while signaling genuine openness to improvement.") +
+          p("For work-life balance: recognize that sustainable high performance requires recovery. The ESTJ who burns out cannot deliver the reliability they take pride in. Building protected personal time is not a luxury — it is a performance strategy."),
+      },
+    ],
+    faqs: [
+      { question: "What are the biggest ESTJ strengths?", answer: "Decisive management and clear communication, strong organizational and system-building ability, exceptional reliability and institutional commitment, stable leadership under pressure, and consistently high standards." },
+      { question: "What are common ESTJ weaknesses?", answer: "Rigidity in the face of change, emotional disconnection from how their directness affects others, difficulty with moral ambiguity, tendency to dominate discussions, and risk of overwork due to duty orientation." },
+      { question: "How can ESTJs become better leaders?", answer: "By developing basic emotional awareness — specifically learning how their management style lands on individuals and adjusting delivery (without compromising standards) to retain and motivate people rather than only directing them." },
+      { question: "What careers suit ESTJ strengths?", answer: "Operations management, military leadership, law enforcement, finance, administration, law, institutional management, and any role where reliable execution and clear organizational standards are primary success factors." },
+    ],
+    ctaHeading: "Discover Your Management Strengths",
+    ctaSubtext: "Take our free personality test to find your type and understand the strengths that make you an effective leader and organizer.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ESTJ personality type guide", url: "/blog/estj-personality-type" },
+      { label: "ESTJ cognitive functions", url: "/blog/estj-cognitive-functions" },
+      { label: "ESTJ careers", url: "/blog/estj-careers" },
+      { label: "ESTJ compatible types", url: "/blog/estj-compatible-types" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "esfj-strengths-and-weaknesses": {
+    slug: "esfj-strengths-and-weaknesses",
+    metaTitle: "ESFJ Strengths and Weaknesses: A Complete Guide",
+    metaDesc: "Explore ESFJ strengths and weaknesses — from community care and social intelligence to approval-seeking and difficulty with criticism. Grow your ESFJ potential.",
+    canonicalUrl: "https://1test.me/blog/esfj-strengths-and-weaknesses",
+    h1: "ESFJ Strengths and Weaknesses: A Complete Guide",
+    sections: [
+      {
+        heading: "Core ESFJ Strengths",
+        html: strong([
+          { label: "Community building:", desc: "ESFJs build and sustain communities with dedication. They organize, remember birthdays, maintain relationships over time, and create environments where people feel included and valued." },
+          { label: "Social intelligence:", desc: "Dominant Fe gives ESFJs accurate and rapid reading of social dynamics. They sense who needs what in a room and respond appropriately — a skill that seems effortless but is genuinely rare." },
+          { label: "Reliable care:", desc: "ESFJs' Si-Fe combination means they know what you need (Si stores it) and are motivated to provide it (Fe drives it). Their care is specific, consistent, and deeply appreciated." },
+          { label: "Institutional commitment:", desc: "ESFJs honor established social norms and traditions because Si has stored the reasoning behind them. They are reliable participants in communities, workplaces, and families over time." },
+          { label: "Practical organization:", desc: "ESFJs are often excellent at coordinating people and resources for social and organizational purposes. Events, logistics, team coordination — they handle these with calm competence." },
+        ]),
+      },
+      {
+        heading: "Common ESFJ Weaknesses",
+        html: strong([
+          { label: "Approval-seeking:", desc: "Fe's orientation toward group harmony means ESFJs often gauge their wellbeing through others' responses. They can become excessively dependent on validation for their sense of security." },
+          { label: "Difficulty with criticism:", desc: "ESFJs invest emotionally in their relationships and roles. Negative feedback — particularly about how they've cared for others — can feel disproportionately painful." },
+          { label: "Conflict avoidance:", desc: "The Fe drive for harmony can lead ESFJs to smooth over genuine problems rather than address them directly. This can allow issues to fester while maintaining the appearance of peace." },
+          { label: "Difficulty with abstract or impersonal thinking:", desc: "ESFJs prefer concrete, people-oriented problems over abstract or impersonal analysis. Roles that require sustained detached analytical thinking can feel draining." },
+          { label: "Susceptibility to guilt:", desc: "ESFJs can take on excessive responsibility for others' feelings and wellbeing. When people around them are unhappy, ESFJs may assume it's their fault — even when it isn't." },
+        ]),
+      },
+      {
+        heading: "Leveraging ESFJ Strengths",
+        html: p("ESFJs create exceptional value in roles that center on human coordination and community wellbeing. Healthcare, teaching, social work, event coordination, HR, hospitality, administration, and community management all leverage Fe-Si well.") +
+          p("In teams, ESFJs ensure that people feel valued and that the relational dynamics support the work. They are the people who notice when a team member is struggling and address it before it becomes a performance issue. They also create the social rituals that build team cohesion over time.") +
+          p("ESFJs thrive in environments with clear social expectations, genuine appreciation for their contributions, and meaningful human impact. Purely transactional or impersonal environments drain them quickly."),
+      },
+      {
+        heading: "Growing Through ESFJ Weaknesses",
+        html: p("The most important growth area for ESFJs is developing a more secure, internally-sourced sense of self-worth that doesn't require continuous external validation. The practice: identify five things you genuinely value about yourself that are independent of what others think of you. Return to this list when the approval-seeking impulse is strongest.") +
+          p("For conflict avoidance: recognize that surface harmony often conceals growing resentment. ESFJs who learn to initiate difficult conversations early typically find that the conversation is far shorter and more positive than the avoidance cost — and that most relationships are stronger afterward, not weaker.") +
+          p("For susceptibility to guilt: practice asking one question when you feel responsible for someone's unhappiness: 'Did I actually do something that contributed to this?' If yes, address it. If no, practice releasing it. Not all unhappiness in your vicinity is your responsibility."),
+      },
+    ],
+    faqs: [
+      { question: "What are the biggest ESFJ strengths?", answer: "Community building and social cohesion, exceptional social intelligence, reliably specific and consistent care for others, institutional commitment, and practical coordination of people and resources." },
+      { question: "What are common ESFJ weaknesses?", answer: "Excessive approval-seeking, heightened sensitivity to criticism, conflict avoidance that allows problems to fester, difficulty with impersonal abstract thinking, and over-responsibility for others' emotional states." },
+      { question: "How can ESFJs develop more secure self-esteem?", answer: "By building an internally-sourced sense of self-worth independent of external validation — identifying what they genuinely value about themselves and returning to that foundation when approval-seeking is strongest." },
+      { question: "What careers suit ESFJ strengths?", answer: "Healthcare, teaching, social work, event coordination, HR, hospitality, administration, and community management — roles where human connection and coordinating care for others is central." },
+    ],
+    ctaHeading: "Explore Your Care and Community Strengths",
+    ctaSubtext: "Take our free personality test to find your type and discover the unique strengths you bring to relationships and community.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ESFJ personality type guide", url: "/blog/esfj-personality-type" },
+      { label: "ESFJ cognitive functions", url: "/blog/esfj-cognitive-functions" },
+      { label: "ESFJ careers", url: "/blog/esfj-careers" },
+      { label: "ESFJ compatible types", url: "/blog/esfj-compatible-types" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "istp-strengths-and-weaknesses": {
+    slug: "istp-strengths-and-weaknesses",
+    metaTitle: "ISTP Strengths and Weaknesses: A Complete Guide",
+    metaDesc: "Discover ISTP strengths and weaknesses — from hands-on mastery and crisis calm to emotional reserve and commitment avoidance. Use your ISTP strengths effectively.",
+    canonicalUrl: "https://1test.me/blog/istp-strengths-and-weaknesses",
+    h1: "ISTP Strengths and Weaknesses: A Complete Guide",
+    sections: [
+      {
+        heading: "Core ISTP Strengths",
+        html: strong([
+          { label: "Hands-on mastery:", desc: "ISTPs excel at understanding and manipulating physical systems. Mechanics, engineering, surgery, athletics — anywhere that requires precision interaction with the real world, ISTPs stand out." },
+          { label: "Crisis calm:", desc: "ISTPs process immediate sensory information quickly and without emotional filtering. In emergencies, they assess and act while others are still processing what's happening." },
+          { label: "Analytical precision:", desc: "Ti gives ISTPs the ability to deconstruct systems to their components and identify exactly what's wrong. Their troubleshooting is efficient, accurate, and effective." },
+          { label: "Practical resourcefulness:", desc: "ISTPs solve problems with what's available. They are improvisers and adapters who find solutions rather than explaining why ideal solutions aren't available." },
+          { label: "Independent self-reliance:", desc: "ISTPs are fully capable of operating autonomously. They don't require direction, validation, or support infrastructure that others need — they assess, decide, and act." },
+        ]),
+      },
+      {
+        heading: "Common ISTP Weaknesses",
+        html: strong([
+          { label: "Emotional reserve:", desc: "Inferior Fe means ISTPs find sustained emotional conversation draining and may come across as cold or dismissive. They care — they simply express it through action rather than words." },
+          { label: "Commitment avoidance:", desc: "ISTPs value their freedom and flexibility. Long-term commitments — to people, organizations, or plans — can feel constraining, leading ISTPs to leave situations that others would stay in." },
+          { label: "Undervaluing relationships:", desc: "ISTPs can under-invest in relationship maintenance, assuming others will remain connected without active cultivation. Relationships require more than occasional presence." },
+          { label: "Boredom in stable situations:", desc: "ISTPs are wired for challenge and novelty. Stable, predictable environments that lack interesting problems can produce disengagement and performance decline." },
+          { label: "Risk tolerance that exceeds prudence:", desc: "ISTPs' comfort with physical risk and real-time decision-making can occasionally lead them into situations where their confidence exceeds the actual safety margin." },
+        ]),
+      },
+      {
+        heading: "Leveraging ISTP Strengths",
+        html: p("ISTPs create exceptional value in roles that require skilled physical or technical mastery combined with problem-solving under pressure. Engineering, mechanics, surgery, military service, emergency response, athletics, piloting, and skilled trades all leverage Ti-Se effectively.") +
+          p("In teams, ISTPs are the person who actually fixes things — when systems break down and others are debating the theoretical solution, the ISTP has already identified the problem and started correcting it.") +
+          p("ISTPs perform best in roles with clear technical challenge, meaningful autonomy, and minimal bureaucratic overhead. They need the freedom to diagnose and solve problems their way."),
+      },
+      {
+        heading: "Growing Through ISTP Weaknesses",
+        html: p("The most important growth area for ISTPs is developing enough relational investment to sustain the connections they actually value. ISTPs often discover, after the fact, that a relationship that mattered to them eroded because they didn't notice it needed maintenance. The practice is simple: schedule occasional explicit check-ins with important people, not because it feels natural, but because the relationship is worth it.") +
+          p("For emotional reserve: the goal isn't to become verbally expressive about feelings — it's to develop a small repertoire of behaviors that communicate care in your natural mode. Acts of practical service, showing up when something matters, and remembering important details are all ISTP-natural expressions of care. Use them intentionally.") +
+          p("For commitment avoidance: distinguish between constraints that genuinely limit your effectiveness and those that are just unfamiliar. Long-term commitments provide different kinds of satisfaction — depth, trust, mastery over time — that short-term engagement cannot."),
+      },
+    ],
+    faqs: [
+      { question: "What are the biggest ISTP strengths?", answer: "Exceptional hands-on technical mastery, extraordinary calm in crises, analytical precision in troubleshooting, practical resourcefulness, and complete self-reliance." },
+      { question: "What are common ISTP weaknesses?", answer: "Emotional reserve that can appear cold, avoidance of long-term commitments, under-investment in relationship maintenance, boredom in stable environments, and occasional overconfidence in physical risk situations." },
+      { question: "How can ISTPs improve relationships?", answer: "By investing in occasional intentional check-ins with people who matter to them. ISTPs naturally express care through action — the growth edge is making those actions visible enough for the other person to register them as care." },
+      { question: "What careers suit ISTP strengths?", answer: "Engineering, mechanics, surgery, emergency response, military service, athletics, piloting, skilled trades — any role requiring precision technical mastery and decisive real-time problem-solving." },
+    ],
+    ctaHeading: "Understand Your Technical Strengths",
+    ctaSubtext: "Take our free personality test to discover your type and how your unique strengths shape your work and independence.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ISTP personality type guide", url: "/blog/istp-personality-type" },
+      { label: "ISTP cognitive functions", url: "/blog/istp-cognitive-functions" },
+      { label: "ISTP careers", url: "/blog/istp-careers" },
+      { label: "ISTP compatible types", url: "/blog/istp-compatible-types" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "estp-strengths-and-weaknesses": {
+    slug: "estp-strengths-and-weaknesses",
+    metaTitle: "ESTP Strengths and Weaknesses: A Complete Guide",
+    metaDesc: "Explore ESTP strengths and weaknesses — from real-world confidence and quick thinking to impatience and long-term planning gaps. Make the most of your ESTP energy.",
+    canonicalUrl: "https://1test.me/blog/estp-strengths-and-weaknesses",
+    h1: "ESTP Strengths and Weaknesses: A Complete Guide",
+    sections: [
+      {
+        heading: "Core ESTP Strengths",
+        html: strong([
+          { label: "Real-world confidence:", desc: "ESTPs are completely at home in the physical world. They read situations accurately, act decisively, and project a confidence that comes from genuine competence in real-time environments." },
+          { label: "Opportunity recognition:", desc: "Se scans the environment for possibilities in real time. ESTPs see openings that others miss and move before the window closes — a major competitive advantage in fast-moving domains." },
+          { label: "Persuasion and salesmanship:", desc: "ESTPs combine social perceptiveness (reading people accurately) with logical precision (Ti). They understand what motivates someone and can make a compelling case without appearing to manipulate." },
+          { label: "Adaptive problem-solving:", desc: "ESTPs don't need ideal conditions to perform. They assess what's available and build a solution from it — making them effective in resource-constrained and unpredictable environments." },
+          { label: "Physical and athletic capability:", desc: "Se-dominant types naturally develop physical awareness and skill. ESTPs often excel in sports, physical trades, and any domain requiring real-time bodily coordination." },
+        ]),
+      },
+      {
+        heading: "Common ESTP Weaknesses",
+        html: strong([
+          { label: "Short-term orientation:", desc: "Se anchors ESTPs in the present moment. Consequences that aren't immediately visible receive insufficient weight — leading to decisions that optimize for now at the expense of later." },
+          { label: "Impatience:", desc: "ESTPs move fast and expect others to keep up. Slow processes, deliberative cultures, and cautious people create frustration that can surface as dismissiveness." },
+          { label: "Relationship impulsiveness:", desc: "ESTPs can enter and exit relationships quickly, energized by novelty and sometimes insufficiently attentive to the slower-developing qualities that make relationships durable." },
+          { label: "Difficulty with theoretical abstraction:", desc: "Se-Ti is powerfully practical but can find abstract, future-oriented thinking (planning, theory, philosophy) less compelling than the immediate and tangible." },
+          { label: "Risk miscalibration:", desc: "ESTPs' high risk tolerance and real-time confidence can occasionally lead them to underestimate hazards that aren't immediately visible or have delayed consequences." },
+        ]),
+      },
+      {
+        heading: "Leveraging ESTP Strengths",
+        html: p("ESTPs create exceptional value in roles that reward real-world execution, rapid response, and interpersonal skill. Sales, entrepreneurship, emergency response, athletics, trading, real estate, military service, and skilled performance all leverage Se-Ti effectively.") +
+          p("In teams, ESTPs are the person who gets things done in the real world — who can execute when conditions are imperfect, who can read a negotiation in real time, and who can rally others through the force of their confident presence.") +
+          p("ESTPs thrive in fast-paced environments with real stakes, clear results, and meaningful autonomy. Bureaucratic or highly theoretical environments suppress their strongest capabilities."),
+      },
+      {
+        heading: "Growing Through ESTP Weaknesses",
+        html: p("The most important growth area for ESTPs is developing a longer-term planning horizon. Se anchors them in what's real and present — the growth edge is building the habit of asking 'what does this look like in 6 months?' before committing to a course of action. ESTPs who add this one check to their natural in-the-moment decision process dramatically improve their strategic effectiveness.") +
+          p("For relationship impulsiveness: recognize that the most rewarding relationships develop slowly and require consistent investment that goes beyond the excitement of novelty. ESTPs who build even minimal consistent relationship maintenance habits discover that they actually prefer depth — they've just rarely given it enough time to develop.") +
+          p("For risk miscalibration: build the habit of identifying one delayed-consequence risk before any significant decision. ESTPs' in-the-moment judgment is often excellent — adding one future-facing check improves it without slowing down their natural execution speed."),
+      },
+    ],
+    faqs: [
+      { question: "What are the biggest ESTP strengths?", answer: "Real-world confidence and presence, exceptional opportunity recognition, persuasion and practical salesmanship, adaptive problem-solving in imperfect conditions, and physical and athletic capability." },
+      { question: "What are common ESTP weaknesses?", answer: "Short-term orientation that under-weights future consequences, impatience with slow processes, relationship impulsiveness, difficulty with abstract theoretical thinking, and occasional risk miscalibration." },
+      { question: "How can ESTPs improve long-term planning?", answer: "By building the habit of one future-facing question before significant decisions: 'What does this look like in 6 months?' This adds minimal friction to their natural execution speed while dramatically improving strategic outcomes." },
+      { question: "What careers suit ESTP strengths?", answer: "Sales, entrepreneurship, emergency response, athletics, trading, real estate, military service, skilled performance — fast-paced roles with real stakes, measurable results, and meaningful autonomy." },
+    ],
+    ctaHeading: "Discover Your Action-Oriented Strengths",
+    ctaSubtext: "Take our free personality test to find your type and understand how your strengths shape your bold, results-driven style.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ESTP personality type guide", url: "/blog/estp-personality-type" },
+      { label: "ESTP cognitive functions", url: "/blog/estp-cognitive-functions" },
+      { label: "ESTP careers", url: "/blog/estp-careers" },
+      { label: "ESTP compatible types", url: "/blog/estp-compatible-types" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "esfp-strengths-and-weaknesses": {
+    slug: "esfp-strengths-and-weaknesses",
+    metaTitle: "ESFP Strengths and Weaknesses: A Complete Guide",
+    metaDesc: "Understand ESFP strengths and weaknesses — from infectious energy and people warmth to impulsivity and discomfort with routine. Grow through your ESFP nature.",
+    canonicalUrl: "https://1test.me/blog/esfp-strengths-and-weaknesses",
+    h1: "ESFP Strengths and Weaknesses: A Complete Guide",
+    sections: [
+      {
+        heading: "Core ESFP Strengths",
+        html: strong([
+          { label: "Infectious energy and presence:", desc: "ESFPs light up any room they enter. Their genuine enthusiasm for people and experience creates an energy that is immediately felt and warmly received." },
+          { label: "Authentic people connection:", desc: "ESFPs connect with individuals quickly and genuinely. Their Se reads people in real time while Fi ensures their warmth is personal rather than performative." },
+          { label: "Aesthetic talent:", desc: "Se's sensory precision gives ESFPs a natural eye for beauty, style, and sensory quality. They often excel in fashion, design, performance, and any domain requiring aesthetic judgment." },
+          { label: "Spontaneous joy:", desc: "ESFPs create fun and celebration wherever they go. Their willingness to be fully present and enthusiastic makes experiences more enjoyable for everyone around them." },
+          { label: "Compassionate empathy:", desc: "Fi gives ESFPs deep individual empathy. They feel genuinely with people — their care is personal, specific, and experienced by others as authentic rather than obligatory." },
+        ]),
+      },
+      {
+        heading: "Common ESFP Weaknesses",
+        html: strong([
+          { label: "Impulsivity:", desc: "ESFPs act on immediate experience and enthusiasm. Consequences that aren't visible in the present moment receive insufficient weight before commitment." },
+          { label: "Discomfort with conflict:", desc: "ESFPs want everyone to feel good. They may avoid necessary difficult conversations to preserve immediate harmony, allowing problems to accumulate." },
+          { label: "Difficulty with planning and follow-through:", desc: "Inferior Ni and underdeveloped Te mean ESFPs can struggle to maintain momentum on long-term projects that require sustained effort past the initial excitement." },
+          { label: "Sensitivity to criticism:", desc: "ESFPs invest emotionally in their performance and relationships. Critical feedback, even delivered constructively, can feel personal and take time to process." },
+          { label: "Difficulty with abstract and theoretical thinking:", desc: "ESFPs are wired for the concrete and immediate. Abstract analysis, long-range planning, and theoretical frameworks can feel draining rather than interesting." },
+        ]),
+      },
+      {
+        heading: "Leveraging ESFP Strengths",
+        html: p("ESFPs create exceptional value in roles that reward human connection, performance, and aesthetic engagement. Performance arts, teaching, nursing, coaching, sales, hospitality, event management, and design all leverage Se-Fi effectively.") +
+          p("In teams, ESFPs provide the energy and warmth that makes work enjoyable — and research consistently shows that teams that enjoy each other perform better. ESFPs are also excellent at reading the human dimension of a situation, surfacing what others miss about how people are actually feeling.") +
+          p("ESFPs thrive in environments with genuine human connection, visible impact, and freedom to bring their authentic self. Highly formal, impersonal, or purely procedural environments suppress their best capabilities."),
+      },
+      {
+        heading: "Growing Through ESFP Weaknesses",
+        html: p("The most valuable growth move for ESFPs is building minimum viable planning systems that support their natural spontaneity without replacing it. ESFPs don't need rigid structure — they need enough consistent scaffolding that important commitments are honored and important goals make progress without requiring continuous motivation.") +
+          p("For impulsivity: build in one pause before any significant commitment. The question is simple: 'Will I still want this next week?' This minimal check dramatically reduces regret without significantly constraining ESFP natural enthusiasm.") +
+          p("For sensitivity to criticism: practice distinguishing between feedback about your work and judgments about your worth. Critical feedback about a performance or project is data — it doesn't change who you are. ESFPs who learn to receive feedback as useful information rather than personal judgment grow significantly faster."),
+      },
+    ],
+    faqs: [
+      { question: "What are the biggest ESFP strengths?", answer: "Infectious energy and presence, authentic and warm people connection, natural aesthetic talent, the capacity to create genuine joy and celebration, and deep individual empathy through Fi." },
+      { question: "What are common ESFP weaknesses?", answer: "Impulsivity with insufficient future-weighting, conflict avoidance to preserve immediate harmony, difficulty sustaining long-term follow-through, sensitivity to criticism, and discomfort with abstract theoretical thinking." },
+      { question: "How can ESFPs improve follow-through?", answer: "By building minimum viable planning systems — not rigid structure, but reliable external scaffolding (reminders, accountability, clear milestones) that supports momentum past the initial excitement of a project." },
+      { question: "What careers suit ESFP strengths?", answer: "Performance arts, teaching, nursing, coaching, sales, hospitality, event management, and design — roles where genuine human connection, enthusiasm, and aesthetic awareness are central to success." },
+    ],
+    ctaHeading: "Discover Your People and Creative Strengths",
+    ctaSubtext: "Take our free personality test to find your type and understand the unique strengths you bring to every room you enter.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ESFP personality type guide", url: "/blog/esfp-personality-type" },
+      { label: "ESFP cognitive functions", url: "/blog/esfp-cognitive-functions" },
+      { label: "ESFP careers", url: "/blog/esfp-careers" },
+      { label: "ESFP compatible types", url: "/blog/esfp-compatible-types" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "isfp-strengths-and-weaknesses": {
+    slug: "isfp-strengths-and-weaknesses",
+    metaTitle: "ISFP Strengths and Weaknesses: A Complete Guide",
+    metaDesc: "Understand ISFP strengths and weaknesses — from creative authenticity and gentle empathy to self-doubt and difficulty with structure. Grow through your ISFP nature.",
+    canonicalUrl: "https://1test.me/blog/isfp-strengths-and-weaknesses",
+    h1: "ISFP Strengths and Weaknesses: A Complete Guide",
+    sections: [
+      {
+        heading: "Core ISFP Strengths",
+        html: strong([
+          { label: "Artistic authenticity:", desc: "ISFPs produce creative work that carries genuine personal truth. Their Fi-Se combination produces art, music, design, and craft with an emotional honesty that resonates deeply." },
+          { label: "Gentle individual empathy:", desc: "ISFPs feel with people on a personal level. Their empathy is quiet, individual, and authentic — they notice what you need and provide it without fanfare." },
+          { label: "Present-moment richness:", desc: "Se grounds ISFPs in the sensory richness of lived experience. They find beauty in the everyday — a quality that makes their company and their creative output distinctively alive." },
+          { label: "Adaptability:", desc: "ISFPs move through life with a quiet flexibility. They don't impose their preferences on situations — they find what works within whatever context they're in." },
+          { label: "Integrity:", desc: "ISFPs' dominant Fi produces a strong private value system. They live in alignment with their values without needing to announce or enforce them — a quiet, consistent integrity." },
+        ]),
+      },
+      {
+        heading: "Common ISFP Weaknesses",
+        html: strong([
+          { label: "Self-doubt:", desc: "ISFPs often undervalue their own contributions and second-guess their creative output. Their Fi standards for authenticity are high, and they are frequently their own harshest critic." },
+          { label: "Difficulty with structure:", desc: "Inferior Te means ISFPs can struggle to organize their work, meet external deadlines, and translate their creative vision into structured, deliverable form." },
+          { label: "Conflict avoidance:", desc: "ISFPs find interpersonal conflict distressing and will often withdraw rather than address issues directly. This can allow important problems to remain unresolved." },
+          { label: "Difficulty with long-range planning:", desc: "ISFPs' orientation toward the present and the sensory real makes abstract future planning feel remote and less compelling than immediate experience." },
+          { label: "Difficulty accepting criticism:", desc: "Because ISFPs' creative work is a direct expression of their inner world, criticism of the work touches something deeply personal — making feedback hard to receive without feeling personally diminished." },
+        ]),
+      },
+      {
+        heading: "Leveraging ISFP Strengths",
+        html: p("ISFPs create exceptional value in roles that reward aesthetic authenticity, gentle human sensitivity, and skilled sensory engagement. Visual art, music, photography, fashion, design, nursing, counseling, veterinary care, and skilled craft all leverage Fi-Se effectively.") +
+          p("In teams, ISFPs bring the human and aesthetic dimension — they notice what feels inauthentic, what is visually or experientially off, and what individuals actually need (as distinct from what the group process says they need).") +
+          p("ISFPs perform best when their work is genuinely connected to their values and when they have meaningful autonomy in how they approach their craft. Creative or caring roles with excessive bureaucratic overhead suppress their strongest capabilities."),
+      },
+      {
+        heading: "Growing Through ISFP Weaknesses",
+        html: p("The most important growth investment for ISFPs is developing a more secure relationship with their own creative output. The Fi standard for authenticity is so high that ISFPs often dismiss work that others find extraordinary. Practice shipping — releasing work to the world without waiting until it's perfect — is the most valuable habit an ISFP can build.") +
+          p("For structure difficulty: identify the two or three external commitments that genuinely matter most and build minimal reliable systems for those. Targeted consistency in key areas compensates for underdeveloped Te without requiring ISFPs to become someone they're not.") +
+          p("For conflict avoidance: recognize that one honest conversation typically costs far less than months of quiet distance. ISFPs are capable of more directness than they typically exercise — and the relationships they most value are almost always strong enough to bear it."),
+      },
+    ],
+    faqs: [
+      { question: "What are the biggest ISFP strengths?", answer: "Artistic authenticity and creative depth, gentle and personal individual empathy, present-moment sensory richness, quiet adaptability, and consistent private integrity." },
+      { question: "What are common ISFP weaknesses?", answer: "Self-doubt about their own creative worth, difficulty with external structure and deadlines, conflict avoidance and withdrawal, difficulty with long-range planning, and sensitivity to criticism of their creative work." },
+      { question: "How can ISFPs build more confidence?", answer: "By practicing shipping work without waiting for internal perfection. ISFPs' Fi standards are often higher than the audience requires — releasing work regularly builds evidence that their output is genuinely valued, which gradually strengthens creative confidence." },
+      { question: "What careers suit ISFP strengths?", answer: "Visual art, music, photography, fashion design, nursing, counseling, veterinary care, and skilled craft — roles where authentic creative or caring expression, and individual human sensitivity, are central to success." },
+    ],
+    ctaHeading: "Explore Your Creative Strengths",
+    ctaSubtext: "Take our free personality test to discover your type and how your authentic strengths shape your work and relationships.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ISFP personality type guide", url: "/blog/isfp-personality-type" },
+      { label: "ISFP cognitive functions", url: "/blog/isfp-cognitive-functions" },
+      { label: "ISFP careers", url: "/blog/isfp-careers" },
+      { label: "ISFP compatible types", url: "/blog/isfp-compatible-types" },
+    ],
+    datePublished: "2026-04-18",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

@@ -2609,6 +2609,102 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/isfp-cognitive-functions",
     ogType: "article",
   },
+  "/blog/infj-strengths-and-weaknesses": {
+    title: "INFJ Strengths and Weaknesses: A Complete Guide",
+    description: "Explore INFJ strengths and weaknesses — from deep empathy and visionary thinking to perfectionism and emotional burnout. Learn how to leverage your INFJ gifts.",
+    canonicalUrl: "https://1test.me/blog/infj-strengths-and-weaknesses",
+    ogType: "article",
+  },
+  "/blog/intj-strengths-and-weaknesses": {
+    title: "INTJ Strengths and Weaknesses: A Complete Guide",
+    description: "Discover INTJ strengths and weaknesses — from strategic mastery and independence to arrogance and emotional blindspots. Learn how to use your INTJ strengths wisely.",
+    canonicalUrl: "https://1test.me/blog/intj-strengths-and-weaknesses",
+    ogType: "article",
+  },
+  "/blog/enfp-strengths-and-weaknesses": {
+    title: "ENFP Strengths and Weaknesses: A Complete Guide",
+    description: "Explore ENFP strengths and weaknesses — from creative vision and people skills to follow-through struggles and overcommitment. Make the most of your ENFP nature.",
+    canonicalUrl: "https://1test.me/blog/enfp-strengths-and-weaknesses",
+    ogType: "article",
+  },
+  "/blog/infp-strengths-and-weaknesses": {
+    title: "INFP Strengths and Weaknesses: A Complete Guide",
+    description: "Understand INFP strengths and weaknesses — from deep empathy and creative talent to impracticality and idealistic expectations. Grow through your INFP nature.",
+    canonicalUrl: "https://1test.me/blog/infp-strengths-and-weaknesses",
+    ogType: "article",
+  },
+  "/blog/intp-strengths-and-weaknesses": {
+    title: "INTP Strengths and Weaknesses: A Complete Guide",
+    description: "Discover INTP strengths and weaknesses — from analytical brilliance and intellectual depth to social difficulty and chronic incompletion. Leverage your INTP gifts.",
+    canonicalUrl: "https://1test.me/blog/intp-strengths-and-weaknesses",
+    ogType: "article",
+  },
+  "/blog/entj-strengths-and-weaknesses": {
+    title: "ENTJ Strengths and Weaknesses: A Complete Guide",
+    description: "Explore ENTJ strengths and weaknesses — from commanding leadership and strategic execution to emotional detachment and impatience. Use your ENTJ nature effectively.",
+    canonicalUrl: "https://1test.me/blog/entj-strengths-and-weaknesses",
+    ogType: "article",
+  },
+  "/blog/entp-strengths-and-weaknesses": {
+    title: "ENTP Strengths and Weaknesses: A Complete Guide",
+    description: "Explore ENTP strengths and weaknesses — from innovative thinking and debate skills to inconsistency and relationship friction. Make the most of your ENTP potential.",
+    canonicalUrl: "https://1test.me/blog/entp-strengths-and-weaknesses",
+    ogType: "article",
+  },
+  "/blog/enfj-strengths-and-weaknesses": {
+    title: "ENFJ Strengths and Weaknesses: A Complete Guide",
+    description: "Understand ENFJ strengths and weaknesses — from inspirational leadership and deep empathy to people-pleasing and emotional overload. Grow your ENFJ potential.",
+    canonicalUrl: "https://1test.me/blog/enfj-strengths-and-weaknesses",
+    ogType: "article",
+  },
+  "/blog/istj-strengths-and-weaknesses": {
+    title: "ISTJ Strengths and Weaknesses: A Complete Guide",
+    description: "Explore ISTJ strengths and weaknesses — from reliability and precision to rigidity and emotional reserve. Learn how to make the most of your ISTJ nature.",
+    canonicalUrl: "https://1test.me/blog/istj-strengths-and-weaknesses",
+    ogType: "article",
+  },
+  "/blog/isfj-strengths-and-weaknesses": {
+    title: "ISFJ Strengths and Weaknesses: A Complete Guide",
+    description: "Understand ISFJ strengths and weaknesses — from nurturing care and reliability to self-neglect and conflict avoidance. Grow through your ISFJ strengths.",
+    canonicalUrl: "https://1test.me/blog/isfj-strengths-and-weaknesses",
+    ogType: "article",
+  },
+  "/blog/estj-strengths-and-weaknesses": {
+    title: "ESTJ Strengths and Weaknesses: A Complete Guide",
+    description: "Discover ESTJ strengths and weaknesses — from decisive management and reliability to rigidity and emotional disconnection. Make the most of your ESTJ nature.",
+    canonicalUrl: "https://1test.me/blog/estj-strengths-and-weaknesses",
+    ogType: "article",
+  },
+  "/blog/esfj-strengths-and-weaknesses": {
+    title: "ESFJ Strengths and Weaknesses: A Complete Guide",
+    description: "Explore ESFJ strengths and weaknesses — from community care and social intelligence to approval-seeking and difficulty with criticism. Grow your ESFJ potential.",
+    canonicalUrl: "https://1test.me/blog/esfj-strengths-and-weaknesses",
+    ogType: "article",
+  },
+  "/blog/istp-strengths-and-weaknesses": {
+    title: "ISTP Strengths and Weaknesses: A Complete Guide",
+    description: "Discover ISTP strengths and weaknesses — from hands-on mastery and crisis calm to emotional reserve and commitment avoidance. Use your ISTP strengths effectively.",
+    canonicalUrl: "https://1test.me/blog/istp-strengths-and-weaknesses",
+    ogType: "article",
+  },
+  "/blog/estp-strengths-and-weaknesses": {
+    title: "ESTP Strengths and Weaknesses: A Complete Guide",
+    description: "Explore ESTP strengths and weaknesses — from real-world confidence and quick thinking to impatience and long-term planning gaps. Make the most of your ESTP energy.",
+    canonicalUrl: "https://1test.me/blog/estp-strengths-and-weaknesses",
+    ogType: "article",
+  },
+  "/blog/esfp-strengths-and-weaknesses": {
+    title: "ESFP Strengths and Weaknesses: A Complete Guide",
+    description: "Understand ESFP strengths and weaknesses — from infectious energy and people warmth to impulsivity and discomfort with routine. Grow through your ESFP nature.",
+    canonicalUrl: "https://1test.me/blog/esfp-strengths-and-weaknesses",
+    ogType: "article",
+  },
+  "/blog/isfp-strengths-and-weaknesses": {
+    title: "ISFP Strengths and Weaknesses: A Complete Guide",
+    description: "Understand ISFP strengths and weaknesses — from creative authenticity and gentle empathy to self-doubt and difficulty with structure. Grow through your ISFP nature.",
+    canonicalUrl: "https://1test.me/blog/isfp-strengths-and-weaknesses",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {
