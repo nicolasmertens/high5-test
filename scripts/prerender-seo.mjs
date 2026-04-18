@@ -2015,6 +2015,42 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/entj-careers",
     ogType: "article",
   },
+  "/blog/estj-careers": {
+    title: "Best Careers for ESTJ Personality Types — Complete Career Guide",
+    description: "ESTJs thrive in careers that reward structure, leadership, and disciplined execution. Best career paths, work environment needs, and career advice for ESTJ personalities.",
+    canonicalUrl: "https://1test.me/blog/estj-careers",
+    ogType: "article",
+  },
+  "/blog/istp-careers": {
+    title: "Best Careers for ISTP Personality Types — Complete Career Guide",
+    description: "ISTPs excel in careers that reward hands-on problem-solving, technical mastery, and independent work. Best career paths and work environment needs for ISTP personalities.",
+    canonicalUrl: "https://1test.me/blog/istp-careers",
+    ogType: "article",
+  },
+  "/blog/isfp-careers": {
+    title: "Best Careers for ISFP Personality Types — Complete Career Guide",
+    description: "ISFPs thrive in careers that reward creativity, authenticity, and hands-on expression. Best career paths, work environment needs, and career advice for ISFP personalities.",
+    canonicalUrl: "https://1test.me/blog/isfp-careers",
+    ogType: "article",
+  },
+  "/blog/estp-careers": {
+    title: "Best Careers for ESTP Personality Types — Complete Career Guide",
+    description: "ESTPs excel in careers that reward action, adaptability, and real-world results. Best career paths, work environment needs, and career advice for ESTP personalities.",
+    canonicalUrl: "https://1test.me/blog/estp-careers",
+    ogType: "article",
+  },
+  "/blog/esfp-careers": {
+    title: "Best Careers for ESFP Personality Types — Complete Career Guide",
+    description: "ESFPs thrive in careers that reward energy, people skills, and real-world engagement. Best career paths, work environment needs, and career advice for ESFP personalities.",
+    canonicalUrl: "https://1test.me/blog/esfp-careers",
+    ogType: "article",
+  },
+  "/blog/esfj-careers": {
+    title: "Best Careers for ESFJ Personality Types — Complete Career Guide",
+    description: "ESFJs excel in careers that reward care, organization, and community. Best career paths, work environment needs, and career advice for ESFJ personalities.",
+    canonicalUrl: "https://1test.me/blog/esfj-careers",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {

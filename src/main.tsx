@@ -185,6 +185,12 @@ function AppRoutes() {
       <Route path="/blog/isfj-careers" element={<BlogPage slug="isfj-careers" />} />
       <Route path="/blog/enfj-careers" element={<BlogPage slug="enfj-careers" />} />
       <Route path="/blog/entj-careers" element={<BlogPage slug="entj-careers" />} />
+      <Route path="/blog/estj-careers" element={<BlogPage slug="estj-careers" />} />
+      <Route path="/blog/istp-careers" element={<BlogPage slug="istp-careers" />} />
+      <Route path="/blog/isfp-careers" element={<BlogPage slug="isfp-careers" />} />
+      <Route path="/blog/estp-careers" element={<BlogPage slug="estp-careers" />} />
+      <Route path="/blog/esfp-careers" element={<BlogPage slug="esfp-careers" />} />
+      <Route path="/blog/esfj-careers" element={<BlogPage slug="esfj-careers" />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="/relationship/:id" element={<RelationshipReportPage />} />
