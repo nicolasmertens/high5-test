@@ -312,19 +312,29 @@ export function DetailedResults({
             <p className="synth-sublabel">{personality.label} ↗</p>
           </a>
 
-          <div className="synth-card">
+          <a
+            className="synth-card synth-card-link"
+            href={`/blog/disc-type-${disc.primary.code.toLowerCase()}-${disc.primary.name.toLowerCase()}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h4>DISC Style</h4>
             <div className="synth-big" style={{ color: discColors[disc.primary.code] }}>
               {disc.style}
             </div>
-            <p className="synth-sublabel">{disc.primary.name}</p>
-          </div>
+            <p className="synth-sublabel">{disc.primary.name} ↗</p>
+          </a>
 
-          <div className="synth-card">
+          <a
+            className="synth-card synth-card-link"
+            href={`/blog/enneagram-type-${enneagram.primary.type}-${enneagram.primary.name.replace(/^The\s+/i, "").toLowerCase().replace(/\s+/g, "-")}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h4>Enneagram</h4>
             <div className="synth-big">{enneagram.wingLabel}</div>
-            <p className="synth-sublabel">{enneagram.primary.name}</p>
-          </div>
+            <p className="synth-sublabel">{enneagram.primary.name} ↗</p>
+          </a>
         </div>
 
         <div className="synthesis-narrative">

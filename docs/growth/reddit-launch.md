@@ -386,7 +386,7 @@ So I built 1Test — one free assessment that maps to DISC, Enneagram, Strengths
 - The "what do I do with this?" problem is real. People don't want four labels — they want to know what those labels mean together. So I'm working on an AI-generated "playbook" that gives personalized career and communication advice.
 - Free is a distribution hack. Most personality tests charge $29 for a full report. We give real value for free because we believe self-awareness shouldn't be paywalled.
 
-**Tech stack:** [adapt based on actual stack — React, IPIP question bank, framework derivation logic, etc.]
+**Tech stack:** React/TypeScript + Vite on Vercel. 120-question assessment uses the International Personality Item Pool (IPIP) — the open-source academic research database used in published personality studies. Custom multi-output scoring model derives all four frameworks from the same responses. Claude API for the AI Playbook tier. PostHog for analytics, Stripe for payments. All under $50/month at current scale.
 
 **Where it is:** 1test.me — still in beta but functional.
 

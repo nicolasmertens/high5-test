@@ -263,11 +263,17 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
                 <span className="bridge-value">{personality.type}</span>
                 <span className="bridge-sublabel">{personality.label} ↗</span>
               </a>
-              <div className="bridge-card">
+              <a
+                className="bridge-card bridge-card-link"
+                href={`/blog/disc-type-${disc.primary.code.toLowerCase()}-${disc.primary.name.toLowerCase()}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={`Learn more about DISC ${disc.primary.name}`}
+              >
                 <span className="bridge-label">DISC Profile</span>
                 <span className="bridge-value">{disc.style}</span>
-                <span className="bridge-sublabel">{disc.primary.name}</span>
-              </div>
+                <span className="bridge-sublabel">{disc.primary.name} ↗</span>
+              </a>
               <a
                 className="bridge-card bridge-card-link"
                 href={`/blog/enneagram-type-${enneagram.primary.type}-${enneagram.primary.name.replace(/^The\s+/i, "").toLowerCase().replace(/\s+/g, "-")}`}
