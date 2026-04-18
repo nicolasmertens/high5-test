@@ -30,7 +30,10 @@ function AppRoutes() {
       <Route path="/free-enneagram-test" element={<LandingPage framework="enneagram" />} />
       <Route path="/free-personality-test" element={<LandingPage framework="personality" />} />
       <Route path="/free-strengths-test" element={<LandingPage framework="strengths" />} />
-      <Route path="/disc-test" element={<LandingPage framework="disc" />} />
+      <Route path="/disc-test" element={<LandingPage framework="disc-test" />} />
+      <Route path="/enneagram-test" element={<LandingPage framework="enneagram-test" />} />
+      <Route path="/16-personalities-test" element={<LandingPage framework="16personalities-test" />} />
+      <Route path="/strengths-test" element={<LandingPage framework="strengths-test" />} />
       <Route path="/enneagramm-test" element={<LandingPage framework="enneagram" />} />
       <Route path="/test-personnalite" element={<LandingPage framework="personality" />} />
       <Route path="/test-forces" element={<LandingPage framework="strengths" />} />

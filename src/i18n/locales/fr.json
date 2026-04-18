@@ -297,6 +297,34 @@
       "headline": "Évaluation de forces gratuite",
       "subtitle": "Découvrez vos forces naturelles — ce que vous faites le mieux sans effort. 20 forces classées de la plus forte à la plus en développement.",
       "cta": "Commencer le test de forces gratuit"
+    },
+    "disc-test": {
+      "title": "Test de personnalité DISC — Évaluation DISC gratuite en ligne | 1Test",
+      "description": "Passez un test de personnalité DISC gratuit en ligne. Résultats instantanés — sans inscription, sans paywall. Découvrez votre profil Dominance, Influence, Stabilité et Conformité.",
+      "headline": "Test de personnalité DISC",
+      "subtitle": "Découvrez votre style comportemental — comment vous communiquez, dirigez et collaborez. Utilisé par les entreprises pour le recrutement et le développement d'équipe.",
+      "cta": "Commencer le test DISC gratuit"
+    },
+    "enneagram-test": {
+      "title": "Test Ennéagramme — Découvrez votre type gratuitement | 1Test",
+      "description": "Test Ennéagramme gratuit — sans inscription, sans email. Découvrez instantanément votre type, votre aile et votre parcours de croissance.",
+      "headline": "Test Ennéagramme",
+      "subtitle": "Découvrez votre motivation profonde — le pourquoi de ce que vous faites. Trouvez votre type, aile et direction de croissance gratuitement.",
+      "cta": "Commencer le test Ennéagramme gratuit"
+    },
+    "16personalities-test": {
+      "title": "Test 16 Personnalités — Évaluation style MBTI gratuite | 1Test",
+      "description": "Test 16 Personnalités gratuit — sans inscription. Découvrez votre type en quatre lettres avec une description complète. Plus DISC, Ennéagramme et Forces gratuitement.",
+      "headline": "Test 16 Personnalités",
+      "subtitle": "Découvrez votre type de personnalité en quatre lettres — comment vous pensez, décidez et vous connectez aux autres. Gratuit, sans inscription, résultats immédiats.",
+      "cta": "Commencer le test 16 Personnalités gratuit"
+    },
+    "strengths-test": {
+      "title": "Test de Forces — Évaluation Forces gratuite | 1Test",
+      "description": "Test de forces gratuit — une alternative à CliftonStrengths sans paywall. Découvrez instantanément votre profil complet avec 20 forces classées.",
+      "headline": "Test de Forces",
+      "subtitle": "Découvrez vos forces naturelles — 20 forces classées gratuitement. Une alternative complète à CliftonStrengths sans paywall.",
+      "cta": "Commencer le test de Forces gratuit"
     }
   },
   "seoHead": {

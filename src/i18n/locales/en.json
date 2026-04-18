@@ -297,6 +297,34 @@
       "headline": "Free Strengths Assessment",
       "subtitle": "Discover your natural strengths — what you do best without trying. 20 strengths ranked from strongest to developing.",
       "cta": "Start Free Strengths Test"
+    },
+    "disc-test": {
+      "title": "DISC Personality Test — Free Online DISC Assessment | 1Test",
+      "description": "Take a free DISC personality test online. Instant results — no signup, no paywall. Discover your Dominance, Influence, Steadiness, and Conscientiousness profile.",
+      "headline": "DISC Personality Test",
+      "subtitle": "Discover your behavioral style — how you communicate, lead, and collaborate. Used by organizations worldwide for hiring and team development.",
+      "cta": "Start Free DISC Test"
+    },
+    "enneagram-test": {
+      "title": "Enneagram Test — Discover Your Type Free | 1Test",
+      "description": "Free Enneagram test — no signup, no email required. Discover your Enneagram type, wing, and growth path instantly.",
+      "headline": "Enneagram Test",
+      "subtitle": "Discover your core motivation — the why behind what you do. Find your type, wing, and growth direction free.",
+      "cta": "Start Free Enneagram Test"
+    },
+    "16personalities-test": {
+      "title": "16 Personalities Test — Free MBTI-Style Assessment | 1Test",
+      "description": "Free 16 personalities test — no signup required. Discover your four-letter type with a full description. Plus DISC, Enneagram, and Strengths free.",
+      "headline": "16 Personalities Test",
+      "subtitle": "Discover your four-letter personality type — how you think, decide, and connect with others. Free, no signup, instant results.",
+      "cta": "Start Free 16 Personalities Test"
+    },
+    "strengths-test": {
+      "title": "Strengths Test — Free Strengths Finder Assessment | 1Test",
+      "description": "Free strengths test — a CliftonStrengths alternative with no paywall. Discover your complete strengths profile, 20 strengths ranked, instantly.",
+      "headline": "Strengths Test",
+      "subtitle": "Discover your natural strengths — 20 strengths ranked free. A complete CliftonStrengths alternative with no paywall.",
+      "cta": "Start Free Strengths Test"
     }
   },
   "seoHead": {

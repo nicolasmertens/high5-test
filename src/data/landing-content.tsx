@@ -851,4 +851,523 @@ export const frameworkContent: Record<string, FrameworkContent> = {
       { label: "Free Enneagram test", url: "/free-enneagram-test" },
     ],
   },
+
+  "disc-test": {
+    slug: "disc-test",
+    name: "DISC",
+    fullName: "DISC Personality Test",
+    metaTitle: "DISC Personality Test — Free Online DISC Assessment | 1Test",
+    metaDesc:
+      "Take a free DISC personality test online. Instant results — no signup, no paywall. Discover your Dominance, Influence, Steadiness, and Conscientiousness profile.",
+    canonicalUrl: "https://1test.me/disc-test",
+    h1: "DISC Personality Test — Free Online Assessment",
+    intro:
+      'The DISC personality test is one of the most widely used behavioral assessments in the world. Organizations use it for hiring, team building, and leadership development. You can take it right now for free — no account required, no email gate, full results immediately. <a href="/disc-test">Start the free DISC test now</a> and discover your behavioral style, or read on to understand what DISC measures and how it applies to your work and relationships.',
+    sections: [
+      {
+        heading: "What the DISC Personality Test Measures",
+        html: p(
+          "DISC measures four behavioral dimensions that describe how you communicate, make decisions, and respond to challenges:"
+        ) +
+          strong([
+            { label: "Dominance (D).", desc: "How you respond to problems and challenges. High D individuals are direct, decisive, and results-oriented. They take charge, push for outcomes, and move fast." },
+            { label: "Influence (I).", desc: "How you relate to and persuade others. High I individuals are enthusiastic, collaborative, and optimistic. They build relationships, inspire energy, and thrive in social environments." },
+            { label: "Steadiness (S).", desc: "How you respond to pace and change. High S individuals are patient, reliable, and methodical. They value stability, follow through consistently, and support others." },
+            { label: "Conscientiousness (C).", desc: "How you respond to rules and procedures. High C individuals are analytical, precise, and quality-focused. They set high standards, evaluate thoroughly, and value accuracy." },
+          ]) +
+          p(
+            "Most people have a primary DISC style and a secondary style that influences how they adapt across different situations. Your DISC profile is not fixed — it describes your natural tendencies, not your limits."
+          ) +
+          p(
+            'DISC describes how you behave. For a deeper look at the motivations behind your behavior, <a href="/free-enneagram-test">take the free Enneagram test</a> alongside the DISC assessment.'
+          ),
+      },
+      {
+        heading: "DISC Profiles in the Workplace",
+        html: p(
+          "Your DISC style shapes how you communicate, lead, and collaborate. Here is what each profile tends to look like at work:"
+        ) +
+          strong([
+            { label: "High D (Dominance).", desc: "Drives results and makes decisions quickly. Works best in roles with autonomy and authority. Can come across as impatient or blunt when under pressure. Pairs well with High S for execution balance." },
+            { label: "High I (Influence).", desc: "Energizes teams and builds buy-in. Works best in roles involving communication, persuasion, and relationship-building. Can lose focus on details or follow-through. Pairs well with High C for quality checks." },
+            { label: "High S (Steadiness).", desc: "Provides consistency and dependability. Works best in roles requiring long-term focus and collaboration. Can resist change or avoid conflict when push comes to shove. Pairs well with High D for pace." },
+            { label: "High C (Conscientiousness).", desc: "Ensures accuracy and thoroughness. Works best in roles requiring analysis, precision, and problem-solving. Can overanalyze or avoid action without enough data. Pairs well with High I for communication." },
+          ]) +
+          p(
+            "Understanding your profile helps you work to your strengths, adapt your communication, and recognize what others need from interactions with you."
+          ),
+      },
+      {
+        heading: "How the Free DISC Test Works",
+        html: p(
+          "The 1Test DISC assessment is part of a single 120-question test that covers four frameworks simultaneously — DISC, 16 Personalities, Enneagram, and Strengths. The full test takes 10-15 minutes."
+        ) +
+          p("<strong>What you get:</strong>") +
+          ul([
+            "Your primary and secondary DISC style",
+            "A detailed profile for each of the four DISC dimensions",
+            "Practical insights for communication, teamwork, and leadership",
+            "No paywall — your complete DISC results are free",
+            "No signup required — take the test and see results immediately",
+          ]) +
+          p(
+            "Most DISC tests online either charge for full results or require a business account. 1Test gives you your complete DISC profile free because understanding your behavioral style should not require a corporate subscription."
+          ),
+      },
+      {
+        heading: "DISC for Hiring and Team Development",
+        html: p(
+          "DISC is the most commonly used behavioral assessment in hiring and team development. Recruiters use it to predict fit, managers use it to build balanced teams, and coaches use it to develop leaders."
+        ) +
+          p("<strong>Common applications:</strong>") +
+          ul([
+            "Pre-hire screening — understanding how a candidate communicates and makes decisions",
+            "Team composition — building teams with complementary DISC styles",
+            "Leadership development — identifying communication blind spots and stress responses",
+            "Conflict resolution — understanding why certain working styles clash",
+            "Onboarding — helping new hires understand team dynamics faster",
+          ]) +
+          p(
+            "If you are a recruiter or hiring manager, 1Test offers a candidate report that includes DISC, Strengths, Enneagram, and 16 Personalities results in a single shareable PDF. <a href=\"/pricing\">See recruiter pricing</a>."
+          ),
+      },
+      {
+        heading: "DISC Compared to Other Personality Frameworks",
+        html: p(
+          "DISC is a behavioral framework — it describes what you do. Other frameworks add different dimensions:"
+        ) +
+          `<table class="content-table">
+            <thead><tr><th>Framework</th><th>What It Measures</th><th>Best For</th></tr></thead>
+            <tbody>
+              <tr><td><strong>DISC</strong></td><td>Behavioral style and communication</td><td>Workplace dynamics, hiring, team building</td></tr>
+              <tr><td><strong>16 Personalities</strong></td><td>Cognitive preferences</td><td>How you process information and make decisions</td></tr>
+              <tr><td><strong>Strengths</strong></td><td>Natural talents</td><td>Career alignment, personal development</td></tr>
+              <tr><td><strong>Enneagram</strong></td><td>Core motivations and fears</td><td>Why you do what you do</td></tr>
+            </tbody>
+          </table>` +
+          p(
+            "1Test is the only free assessment that combines all four frameworks in a single test. One sitting, four perspectives."
+          ),
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the DISC personality test?",
+        answer:
+          "The DISC personality test is a behavioral assessment that measures four dimensions: Dominance (how you respond to challenges), Influence (how you relate to others), Steadiness (how you respond to pace and change), and Conscientiousness (how you respond to rules and procedures). It is one of the most widely used personality assessments in professional settings.",
+      },
+      {
+        question: "Is the DISC test free?",
+        answer:
+          "Yes. 1Test's DISC assessment is completely free — no signup, no paywall, no credit card. You answer the questions and receive your full DISC profile immediately.",
+      },
+      {
+        question: "How long does the DISC test take?",
+        answer:
+          "The full 1Test assessment (which includes DISC plus 16 Personalities, Enneagram, and Strengths) takes approximately 10-15 minutes. You answer 120 questions that cover all four frameworks simultaneously.",
+      },
+      {
+        question: "What DISC profile is best for leadership?",
+        answer:
+          "Effective leaders come from every DISC profile. High D leaders drive results and move fast. High I leaders inspire and communicate. High S leaders build loyalty and stability. High C leaders ensure quality and accuracy. The best leaders understand their natural style and adapt to the needs of their team.",
+      },
+      {
+        question: "Can my DISC profile change over time?",
+        answer:
+          "Your natural DISC style tends to be stable, but your adapted style — how you behave under pressure or in a specific environment — can shift. Retaking the assessment after a major life or career change often reveals useful differences.",
+      },
+      {
+        question: "How is the 1Test DISC assessment different from paid DISC tests?",
+        answer:
+          "Paid DISC assessments typically cost $15-50 per person and are often sold through certified facilitators. 1Test provides your complete DISC profile for free, combined with three other personality frameworks — DISC, 16 Personalities, Enneagram, and Strengths — all from a single assessment.",
+      },
+    ],
+    crossLinks: [
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Free Strengths assessment", url: "/free-strengths-test" },
+      { label: "Free 16 Personalities test", url: "/free-personality-test" },
+    ],
+  },
+
+  "enneagram-test": {
+    slug: "enneagram-test",
+    name: "Enneagram",
+    fullName: "Enneagram Test",
+    metaTitle: "Enneagram Test — Find Your Type Free | 1Test",
+    metaDesc:
+      "Free Enneagram test — no signup, no email required. Discover your Enneagram type, wing, and growth path instantly. Takes 10-15 minutes.",
+    canonicalUrl: "https://1test.me/enneagram-test",
+    h1: "Enneagram Test — Discover Your Type Free",
+    intro:
+      'The Enneagram is a personality framework built around nine distinct types, each defined by a core motivation. It does not just describe behavior — it explains why. Why you avoid certain situations, why specific stressors feel unbearable, why you connect easily with some people and struggle with others. <a href="/enneagram-test">Take the free Enneagram test now</a> and get your type, wing, and growth direction instantly — no account, no email required.',
+    sections: [
+      {
+        heading: "The 9 Enneagram Types",
+        html: p(
+          "Each Enneagram type is defined by a core motivation — a fundamental fear and desire that drives behavior. Here is a brief overview:"
+        ) +
+          strong([
+            { label: "Type 1 — The Reformer.", desc: "Principled, purposeful, and self-controlled. Core motivation: to be good and avoid wrongdoing." },
+            { label: "Type 2 — The Helper.", desc: "Caring, generous, and people-pleasing. Core motivation: to be loved and needed." },
+            { label: "Type 3 — The Achiever.", desc: "Adaptable, driven, and image-conscious. Core motivation: to succeed and be admired." },
+            { label: "Type 4 — The Individualist.", desc: "Expressive, self-aware, and emotionally intense. Core motivation: to be unique and find authentic identity." },
+            { label: "Type 5 — The Investigator.", desc: "Perceptive, innovative, and secretive. Core motivation: to be capable and understand the world." },
+            { label: "Type 6 — The Loyalist.", desc: "Committed, security-oriented, and anxious. Core motivation: to have security and support." },
+            { label: "Type 7 — The Enthusiast.", desc: "Spontaneous, versatile, and acquisitive. Core motivation: to be satisfied and avoid pain." },
+            { label: "Type 8 — The Challenger.", desc: "Self-confident, decisive, and confrontational. Core motivation: to protect themselves and control their own life." },
+            { label: "Type 9 — The Peacemaker.", desc: "Receptive, reassuring, and complacent. Core motivation: to maintain inner peace and harmony." },
+          ]) +
+          p(
+            "Every type has a growth direction (integration) and a stress direction (disintegration) — understanding both gives you a practical map for personal development."
+          ),
+      },
+      {
+        heading: "Wings and Subtypes",
+        html: p(
+          "Your Enneagram type is not your only influence. Two additional layers add nuance:"
+        ) +
+          p(
+            "<strong>Wings:</strong> Your wing is the adjacent type that most influences your core type. A Type 4 might be a 4w3 (more ambitious and achievement-oriented) or a 4w5 (more intellectual and withdrawn). Your wing does not change your core type — it colors it."
+          ) +
+          p(
+            "<strong>Subtypes (Instinctual Variants):</strong> Three subtypes — Self-Preservation, Social, and One-to-One (Sexual) — describe which instinctual drive is most dominant in you. The same Enneagram type looks quite different depending on subtype. A Type 8 Self-Preservation subtype is more private and self-reliant; a Type 8 Social subtype is more publicly intense and protective of their group."
+          ) +
+          p(
+            "1Test's Enneagram results include your primary type and wing identification. For a complementary view of how your motivations connect to behavior, <a href=\"/free-disc-test\">take the free DISC test</a>."
+          ),
+      },
+      {
+        heading: "How to Take the Free Enneagram Test",
+        html: p(
+          "1Test's Enneagram assessment is built into a single 120-question test that simultaneously measures DISC, 16 Personalities, Strengths, and Enneagram. Here is what to expect:"
+        ) +
+          ol([
+            "Answer 120 statements by rating how well each describes you (1-5 scale)",
+            "Go with your first instinct — the test measures natural tendencies, not aspirational behavior",
+            "Complete the test in one sitting for best results (saves progress if you need a break)",
+            "Receive your full Enneagram type, wing, and growth directions immediately",
+          ]) +
+          p("<strong>No signup required.</strong> No email gate. Your full results are free, always.") +
+          p(
+            "Most Enneagram tests online — including Truity — require you to create an account or pay to unlock your full type description. 1Test gives you everything upfront."
+          ),
+      },
+      {
+        heading: "Enneagram in Relationships and Work",
+        html: p(
+          "Knowing your Enneagram type changes how you interpret conflict, motivation, and connection:"
+        ) +
+          strong([
+            { label: "In relationships.", desc: "Type differences explain friction that feels personal but is not. A Type 5 who withdraws under stress is not rejecting you — they need space to process. A Type 2 who over-gives is not weak — they are expressing love through giving. Type awareness turns irritation into understanding." },
+            { label: "At work.", desc: "Each type brings natural strengths and blind spots to professional settings. Type 3 Achievers drive results but may struggle with authenticity under pressure. Type 6 Loyalists build reliable systems but may second-guess decisions. Knowing your type helps you manage your stress response before it manages you." },
+            { label: "For growth.", desc: "Each type has a specific growth path — behaviors from the integration type that, when cultivated, produce genuine development. A Type 7 (Enthusiast) grows by moving toward Type 5 behaviors: focus, depth, and contemplation. A Type 4 (Individualist) grows by moving toward Type 1 behaviors: objectivity and principled action." },
+          ]) +
+          p(
+            'See how your Enneagram type connects to your natural talents. <a href="/free-strengths-test">Take the free Strengths test</a> alongside the Enneagram for a complete picture.'
+          ),
+      },
+      {
+        heading: "Enneagram vs. Other Personality Tests",
+        html: p("The Enneagram is uniquely focused on motivation — the why behind behavior:") +
+          `<table class="content-table">
+            <thead><tr><th>Framework</th><th>Core Focus</th><th>Unique Value</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Enneagram</strong></td><td>Core motivations and fears</td><td>Explains why you behave the way you do</td></tr>
+              <tr><td><strong>DISC</strong></td><td>Behavioral style</td><td>Describes how you communicate and act</td></tr>
+              <tr><td><strong>16 Personalities</strong></td><td>Cognitive preferences</td><td>Explains how you process information</td></tr>
+              <tr><td><strong>Strengths</strong></td><td>Natural talents</td><td>Shows what you do best</td></tr>
+            </tbody>
+          </table>` +
+          p(
+            "1Test combines all four frameworks in one free test. Taking all four together gives you what no single test can — a complete picture of how you think, act, what drives you, and where you naturally excel."
+          ),
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the Enneagram test?",
+        answer:
+          "The Enneagram test is a personality assessment based on a framework of nine types, each defined by a core motivation, fear, and desire. It measures not just how you behave but why — making it one of the most psychologically rich personality frameworks available.",
+      },
+      {
+        question: "How accurate is the Enneagram test?",
+        answer:
+          "Enneagram accuracy depends heavily on self-awareness and honesty. The test works best when you answer based on what feels most true at your core — not how you wish you were or how you act in a specific context. Most people resonate strongly with their Enneagram type description once they read it in full.",
+      },
+      {
+        question: "What is the most common Enneagram type?",
+        answer:
+          "Research suggests Types 6 (Loyalist), 9 (Peacemaker), and 2 (Helper) are among the most common in the general population, though distribution varies by culture and context. The rarest types are generally thought to be Types 4 and 5.",
+      },
+      {
+        question: "Is the Enneagram test free?",
+        answer:
+          "Yes. 1Test's Enneagram assessment is completely free — no signup, no account, no credit card. You get your full type description, wing identification, and growth directions immediately after completing the test.",
+      },
+      {
+        question: "What is an Enneagram wing?",
+        answer:
+          "Your wing is the adjacent type on the Enneagram circle that most influences your core type. If you are a Type 4, your wing is either Type 3 or Type 5. Your wing adds nuance — it does not override your core type, but it shapes how your type expresses itself.",
+      },
+      {
+        question: "How is the Enneagram different from MBTI or 16 Personalities?",
+        answer:
+          "The 16 Personalities framework (based on MBTI principles) describes cognitive preferences — how you process information and make decisions. The Enneagram describes core motivations — why you make the decisions you do. They are complementary: one maps thinking style, the other maps emotional drives. 1Test gives you both in a single free assessment.",
+      },
+    ],
+    crossLinks: [
+      { label: "Free DISC personality test", url: "/free-disc-test" },
+      { label: "Free Strengths assessment", url: "/free-strengths-test" },
+      { label: "Free 16 Personalities test", url: "/free-personality-test" },
+    ],
+  },
+
+  "16personalities-test": {
+    slug: "16personalities-test",
+    name: "16 Personalities",
+    fullName: "16 Personalities Test",
+    metaTitle: "16 Personalities Test — Free MBTI-Style Assessment | 1Test",
+    metaDesc:
+      "Free 16 personalities test — no signup required. Discover your four-letter type (INTJ, ENFP, ISTJ and more) with a full type description. Plus DISC, Enneagram, and Strengths free.",
+    canonicalUrl: "https://1test.me/16-personalities-test",
+    h1: "16 Personalities Test — Discover Your Type Free",
+    intro:
+      'The 16 personalities framework is one of the most popular personality systems in the world — and for good reason. It maps your cognitive preferences into one of sixteen types with remarkable clarity. You likely already know someone who has taken it. Now take it yourself — free, no signup, full results. <a href="/16-personalities-test">Start the free 16 personalities test now</a>, or read on to understand what the framework measures and how it applies to your life.',
+    sections: [
+      {
+        heading: "What the 16 Personalities Test Reveals",
+        html: p(
+          "The 16 personalities framework (based on the same principles as the MBTI) describes your cognitive preferences across four dimensions:"
+        ) +
+          ul([
+            "<strong>Extraversion (E) vs. Introversion (I):</strong> Where you direct your energy and how you recharge",
+            "<strong>Sensing (S) vs. Intuition (N):</strong> How you gather and process information",
+            "<strong>Thinking (T) vs. Feeling (F):</strong> How you make decisions",
+            "<strong>Judging (J) vs. Perceiving (P):</strong> How you approach structure and planning",
+          ]) +
+          p(
+            "These four dimensions combine into 16 unique personality types — each with a distinct pattern of thinking, deciding, communicating, and growing. Your type is not a box. It is a lens."
+          ) +
+          p(
+            'Want to understand not just how you think but how you behave with others? <a href="/free-disc-test">Take the free DISC test</a> for the behavioral complement to the 16 personalities framework.'
+          ),
+      },
+      {
+        heading: "The 16 Types at a Glance",
+        html: p("The 16 types are organized into four groups:") +
+          strong([
+            { label: "Analysts (NT):", desc: "INTJ (Architect), INTP (Thinker), ENTJ (Commander), ENTP (Debater). Driven by logic and strategic thinking." },
+            { label: "Diplomats (NF):", desc: "INFJ (Advocate), INFP (Mediator), ENFJ (Protagonist), ENFP (Campaigner). Driven by values, empathy, and meaning." },
+            { label: "Sentinels (SJ):", desc: "ISTJ (Logistician), ISFJ (Defender), ESTJ (Executive), ESFJ (Consul). Driven by duty, stability, and tradition." },
+            { label: "Explorers (SP):", desc: "ISTP (Virtuoso), ISFP (Adventurer), ESTP (Entrepreneur), ESFP (Entertainer). Driven by action, freedom, and experience." },
+          ]) +
+          p(
+            "Each group shares fundamental traits, but individual types within a group differ significantly. Your exact type matters — the description fits precisely when the four letters are right."
+          ),
+      },
+      {
+        heading: "Free 16 Personalities Test — No Signup Required",
+        html: p(
+          "Most 16 personalities tests require an email address or account before showing results. 1Test does not."
+        ) +
+          p("<strong>What you get free at 1Test:</strong>") +
+          ul([
+            "Your four-letter type (INTJ, ENFP, ISTP, etc.)",
+            "A complete description of your type's characteristics",
+            "Practical insights for work, relationships, and growth",
+            "Your results across three other frameworks: DISC, Enneagram, and Strengths",
+            "No email required. No account. No paywall.",
+          ]) +
+          p(
+            "1Test is a free 16 personalities alternative that gives you everything the popular paid sites give you — plus three additional personality frameworks — without creating an account or paying a subscription."
+          ),
+      },
+      {
+        heading: "How Your Personality Type Affects Your Career",
+        html: p(
+          "Your personality type predicts which work environments you thrive in and which drain you. Here are some research-backed patterns:"
+        ) +
+          strong([
+            { label: "Introverted types (I___).", desc: "Tend to perform better in environments with focused, deep work. Benefit from asynchronous communication and time to process before responding. Often underestimated in cultures that reward visible activity." },
+            { label: "Intuitive types (__N_).", desc: "Tend to thrive in roles involving strategy, innovation, and big-picture thinking. Perform best when given autonomy and novel problems. May struggle in highly procedural, detail-heavy roles." },
+            { label: "Thinking types (___T).", desc: "Tend to perform well in analytical, technical, or decision-making roles. Communicate directly and value competence. May benefit from developing emotional intelligence skills for management roles." },
+            { label: "Perceiving types (___P).", desc: "Tend to perform best in dynamic, fast-changing environments. Adapt quickly and resist premature closure. May struggle with long-term planning or sustained focus on routine tasks." },
+          ]) +
+          p(
+            'Career fit goes beyond type. <a href="/free-strengths-test">Take the free Strengths assessment</a> to see which specific talents align with your type — and which career paths fit both.'
+          ),
+      },
+      {
+        heading: "1Test vs. Other 16 Personalities Sites",
+        html: p("How does 1Test compare to the most popular 16 personalities tests online?") +
+          `<table class="content-table">
+            <thead><tr><th>Feature</th><th>1Test</th><th>16personalities.com</th><th>Truity</th></tr></thead>
+            <tbody>
+              <tr><td>Free type description</td><td>✓</td><td>✓</td><td>Partial</td></tr>
+              <tr><td>No signup required</td><td>✓</td><td>✓</td><td>✗</td></tr>
+              <tr><td>DISC results included</td><td>✓</td><td>✗</td><td>✗</td></tr>
+              <tr><td>Enneagram results included</td><td>✓</td><td>✗</td><td>Separate test</td></tr>
+              <tr><td>Strengths results included</td><td>✓</td><td>✗</td><td>Separate test</td></tr>
+              <tr><td>Single test for all frameworks</td><td>✓</td><td>✗</td><td>✗</td></tr>
+            </tbody>
+          </table>` +
+          p(
+            "1Test is the only free personality test that combines 16 Personalities, DISC, Enneagram, and Strengths in a single 120-question assessment. One test. Four frameworks. Complete self-picture."
+          ),
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the 16 personalities test?",
+        answer:
+          "The 16 personalities test is a personality assessment based on cognitive preference theory. It maps your natural tendencies across four dimensions (Energy, Information, Decisions, Structure) to produce one of 16 personality types, each represented by a four-letter code like INTJ, ENFP, or ISTJ.",
+      },
+      {
+        question: "Is 16personalities.com the same as MBTI?",
+        answer:
+          "The 16 personalities framework is based on the same theoretical foundations as the MBTI (Myers-Briggs Type Indicator), but they are different assessments. The MBTI is a proprietary, certified assessment. The 16 personalities framework and tools like 1Test are based on the same underlying cognitive preference dimensions without using the MBTI trademark.",
+      },
+      {
+        question: "Which 16 personalities type is the rarest?",
+        answer:
+          "INFJ is widely considered the rarest personality type, estimated at around 1-3% of the population. ENTJ and INTJ are also among the less common types, particularly in women. Keep in mind that rarity does not indicate superiority — every type has distinct strengths and growth areas.",
+      },
+      {
+        question: "Can you take the 16 personalities test free?",
+        answer:
+          "Yes. 1Test offers a completely free 16 personalities test — no email, no account, no payment required. You receive your four-letter type and a full profile description immediately after completing the assessment.",
+      },
+      {
+        question: "How reliable is the 16 personalities test?",
+        answer:
+          "Test-retest reliability for personality type assessments varies. Research suggests that a significant portion of people get a different type on a second sitting — often due to answering based on context rather than core preference. For best results, answer based on your natural tendency, not your professional role or current mood.",
+      },
+      {
+        question: "What is the best free alternative to 16personalities.com?",
+        answer:
+          "1Test is a strong free alternative to 16personalities.com. It provides the same four-letter type result with a complete type description — plus three additional frameworks (DISC, Enneagram, and Strengths) in the same test. No signup required, no paywall.",
+      },
+    ],
+    crossLinks: [
+      { label: "Free DISC personality test", url: "/free-disc-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Free Strengths assessment", url: "/free-strengths-test" },
+    ],
+  },
+
+  "strengths-test": {
+    slug: "strengths-test",
+    name: "Strengths",
+    fullName: "Strengths Test",
+    metaTitle: "Strengths Test — Free Strengths Finder Assessment | 1Test",
+    metaDesc:
+      "Free strengths test — discover your top strengths with no paywall. A free CliftonStrengths alternative that gives you your complete strengths profile instantly.",
+    canonicalUrl: "https://1test.me/strengths-test",
+    h1: "Strengths Test — Free Strengths Assessment",
+    intro:
+      'CliftonStrengths costs $19.99 for 5 strengths and $49.99 for all 34. 1Test gives you your complete strengths profile — 20 strengths ranked from dominant to developing — for free. No paywall. No signup. No trial. <a href="/strengths-test">Take the free strengths test now</a> and see your results in 10 minutes, or read on to understand what a strengths assessment measures and how to use your results.',
+    sections: [
+      {
+        heading: "What a Strengths Assessment Measures",
+        html: p(
+          "A strengths assessment identifies your natural patterns of thinking, feeling, and behaving — the things you do well without trying, that energize you rather than drain you."
+        ) +
+          p(
+            "This is different from skills. Skills are things you learn. Strengths are patterns you are born with and develop over time. The goal of a strengths assessment is not to show you what you can do — it is to show you what comes naturally so you can do more of it intentionally."
+          ) +
+          p(
+            'Research from the VIA Institute on Character and from Gallup\'s strengths research consistently shows that people who use their strengths daily report higher engagement, productivity, and job satisfaction. The research is not motivational framing — it reflects a measurable difference in performance and well-being (Harter et al., 2002, <em>Journal of Applied Psychology</em>).'
+          ) +
+          p(
+            'A strengths profile tells you what to build on. For the behavioral layer — how your strengths show up in communication — <a href="/free-disc-test">take the free DISC test</a>.'
+          ),
+      },
+      {
+        heading: "The 20 Strengths in the 1Test Framework",
+        html: p(
+          "1Test measures 20 strengths organized across four domains:"
+        ) +
+          strong([
+            { label: "Doing (action-oriented strengths):", desc: "Drive, Execution, Discipline, Persistence, Adaptability. These strengths show up in how you complete work, handle obstacles, and maintain momentum." },
+            { label: "Thinking (cognitive strengths):", desc: "Strategic Thinking, Analytical, Learning, Ideation, Context. These strengths show up in how you process information, generate ideas, and make decisions." },
+            { label: "Feeling (relational strengths):", desc: "Empathy, Harmony, Individualization, Positivity, Developer. These strengths show up in how you connect with people and build relationships." },
+            { label: "Motivating (influence strengths):", desc: "Communication, Significance, Competition, Activator, Maximizer. These strengths show up in how you inspire others and drive outcomes." },
+          ]) +
+          p(
+            "Your results show all 20 strengths ranked — your top strengths dominate naturally, your developing strengths appear less frequently but can be built."
+          ),
+      },
+      {
+        heading: "Free Strengths Test vs. CliftonStrengths",
+        html: p(
+          "Gallup's CliftonStrengths (formerly StrengthsFinder) is the most recognized strengths assessment. 1Test offers a free alternative with important differences:"
+        ) +
+          `<table class="content-table">
+            <thead><tr><th>Feature</th><th>1Test Strengths</th><th>CliftonStrengths (Top 5)</th><th>CliftonStrengths (All 34)</th></tr></thead>
+            <tbody>
+              <tr><td>Price</td><td>Free</td><td>$19.99</td><td>$49.99</td></tr>
+              <tr><td>Number of strengths</td><td>20</td><td>5</td><td>34</td></tr>
+              <tr><td>Full ranked profile</td><td>✓ Free</td><td>✗ (upgrade required)</td><td>✓ Paid</td></tr>
+              <tr><td>Signup required</td><td>✗ No</td><td>✓ Yes</td><td>✓ Yes</td></tr>
+              <tr><td>Additional frameworks</td><td>DISC, Enneagram, 16 Personalities</td><td>None</td><td>None</td></tr>
+            </tbody>
+          </table>` +
+          p(
+            "1Test is designed to give you genuine insight without a paywall. Your complete strengths profile — every strength ranked, every description detailed — is free because understanding yourself should not cost $50."
+          ),
+      },
+      {
+        heading: "How to Use Your Strengths Results",
+        html: p(
+          "Your strengths profile is most useful when you apply it deliberately. Here is how:"
+        ) +
+          strong([
+            { label: "At work.", desc: "Identify which parts of your current role use your top strengths. If your core responsibilities rarely use your dominant strengths, that is often the root cause of disengagement — not attitude, not effort. Structuring your work to use your top 3-5 strengths daily changes how you experience the job." },
+            { label: "In career planning.", desc: "Your strengths profile points toward roles and environments that will feel energizing rather than draining. A person with dominant Ideation and Strategic Thinking strengths will thrive in strategy, product, or consulting roles. A person with dominant Empathy and Developer strengths will thrive in coaching, management, or teaching." },
+            { label: "In team settings.", desc: "Most teams have strength gaps — blind spots that no one on the team naturally covers. Knowing your team's collective strengths profile lets you make smarter assignments, delegate to people's natural abilities, and identify which gaps need to be hired for." },
+            { label: "For personal growth.", desc: "Your developing strengths (the bottom of your profile) are not weaknesses — they are areas where natural energy is lower. You can develop them with effort, but it is rarely efficient to make your weaknesses your primary focus. Build on what is already strong." },
+          ]) +
+          p(
+            'To see how your strengths connect to your core motivations, <a href="/free-enneagram-test">take the free Enneagram test</a>. The combination of Strengths (what you do best) and Enneagram (why you do it) produces unusually clear self-insight.'
+          ),
+      },
+    ],
+    faqs: [
+      {
+        question: "What is a strengths test?",
+        answer:
+          "A strengths test is a personality assessment that identifies your natural patterns of thinking, feeling, and behaving — the tendencies that come easily to you and that give you energy. Unlike skill assessments, a strengths test measures who you naturally are, not what you have learned.",
+      },
+      {
+        question: "Is there a free CliftonStrengths alternative?",
+        answer:
+          "Yes. 1Test is a free strengths assessment that gives you your complete strengths profile — 20 strengths ranked from dominant to developing — with no paywall and no signup required. CliftonStrengths charges $19.99 for your top 5 strengths; 1Test gives you all 20 for free.",
+      },
+      {
+        question: "How many strengths does the 1Test assessment measure?",
+        answer:
+          "1Test measures 20 strengths organized across four domains: Doing, Thinking, Feeling, and Motivating. Your results show all 20 strengths ranked from your most dominant to your most developing.",
+      },
+      {
+        question: "How long does the strengths test take?",
+        answer:
+          "The full 1Test assessment — which includes Strengths plus DISC, 16 Personalities, and Enneagram — takes approximately 10-15 minutes. You answer 120 questions in a single sitting and receive all four framework results immediately.",
+      },
+      {
+        question: "Can your strengths change over time?",
+        answer:
+          "Your core strengths tend to be stable throughout your life, but how you apply and express them evolves. A strength like Strategic Thinking might show up differently in your 20s versus your 40s, but the underlying pattern stays consistent. Retaking the assessment after significant personal or professional changes can surface useful shifts.",
+      },
+      {
+        question: "What is the difference between strengths and skills?",
+        answer:
+          "Skills are learned — you develop them through practice and training. Strengths are natural patterns — tendencies that come easily to you and that give you energy when used. You can develop skills in an area where you have no natural strength, but it will always require more effort than developing a skill that aligns with a natural strength.",
+      },
+    ],
+    crossLinks: [
+      { label: "Free DISC personality test", url: "/free-disc-test" },
+      { label: "Free Enneagram test", url: "/free-enneagram-test" },
+      { label: "Free 16 Personalities test", url: "/free-personality-test" },
+    ],
+  },
 };

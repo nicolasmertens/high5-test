@@ -112,6 +112,30 @@ const LANDING_FAQS = {
     { question: "What Enneagram type is best for leadership?", answer: "No Enneagram type is inherently better for leadership. Type 8 Challengers lead with directness and protectiveness. Type 3 Achievers lead with vision and goal-setting. Type 1 Reformers lead with integrity and high standards. Effective leadership depends on self-awareness — understanding your type helps you lead from your strengths and watch for your blind spots." },
     { question: "How is the Enneagram different from personality tests?", answer: "The Enneagram focuses on core motivations — why you do what you do. Personality tests like 16 Personalities focus on cognitive preferences. DISC focuses on observable behavior. Strengths assessments focus on what you do best. Each framework provides a different lens. Together, they give you a more complete understanding than any single test." },
   ],
+  "/disc-test": [
+    { question: "What is the DISC personality test?", answer: "The DISC personality test measures four behavioral dimensions: Dominance (how you respond to challenges), Influence (how you relate to others), Steadiness (how you respond to pace and change), and Conscientiousness (how you respond to rules and procedures). It is one of the most widely used personality assessments in professional settings." },
+    { question: "Is the DISC test free?", answer: "Yes. 1Test's DISC assessment is completely free — no signup, no paywall, no credit card. You answer the questions and receive your full DISC profile immediately." },
+    { question: "How long does the DISC test take?", answer: "The full 1Test assessment (which includes DISC plus 16 Personalities, Enneagram, and Strengths) takes approximately 10-15 minutes. You answer 120 questions that cover all four frameworks simultaneously." },
+    { question: "What DISC profile is best for leadership?", answer: "Effective leaders come from every DISC profile. High D leaders drive results and move fast. High I leaders inspire and communicate. High S leaders build loyalty and stability. High C leaders ensure quality and accuracy." },
+    { question: "Can my DISC profile change over time?", answer: "Your natural DISC style tends to be stable, but your adapted style can shift under pressure or in different environments. Retaking the assessment after a major life or career change often reveals useful differences." },
+    { question: "How is the 1Test DISC assessment different from paid DISC tests?", answer: "Paid DISC assessments typically cost $15-50 per person. 1Test provides your complete DISC profile for free, combined with three other personality frameworks — 16 Personalities, Enneagram, and Strengths — all from a single assessment." },
+  ],
+  "/enneagram-test": [
+    { question: "What is the Enneagram test?", answer: "The Enneagram test is a personality assessment based on a framework of nine types, each defined by a core motivation, fear, and desire. It measures not just how you behave but why — making it one of the most psychologically rich personality frameworks available." },
+    { question: "How accurate is the Enneagram test?", answer: "Enneagram accuracy depends heavily on self-awareness and honesty. The test works best when you answer based on what feels most true at your core — not how you wish you were. Most people resonate strongly with their Enneagram type description once they read it in full." },
+    { question: "What is the most common Enneagram type?", answer: "Research suggests Types 6 (Loyalist), 9 (Peacemaker), and 2 (Helper) are among the most common in the general population. The rarest types are generally thought to be Types 4 and 5." },
+    { question: "Is the Enneagram test free?", answer: "Yes. 1Test's Enneagram assessment is completely free — no signup, no account, no credit card. You get your full type description, wing identification, and growth directions immediately after completing the test." },
+    { question: "What is an Enneagram wing?", answer: "Your wing is the adjacent type on the Enneagram circle that most influences your core type. If you are a Type 4, your wing is either Type 3 or Type 5. Your wing adds nuance to your core type without overriding it." },
+    { question: "How is the Enneagram different from MBTI or 16 Personalities?", answer: "The 16 Personalities framework describes cognitive preferences — how you process information and make decisions. The Enneagram describes core motivations — why you make the decisions you do. They are complementary. 1Test gives you both in a single free assessment." },
+  ],
+  "/16-personalities-test": [
+    { question: "What is the 16 personalities test?", answer: "The 16 personalities test is a personality assessment based on cognitive preference theory. It maps your natural tendencies across four dimensions (Energy, Information, Decisions, Structure) to produce one of 16 personality types, each represented by a four-letter code like INTJ, ENFP, or ISTJ." },
+    { question: "Is 16personalities.com the same as MBTI?", answer: "The 16 personalities framework is based on the same theoretical foundations as the MBTI but they are different assessments. The MBTI is a proprietary, certified assessment. The 16 personalities framework and tools like 1Test are based on the same underlying cognitive preference dimensions without using the MBTI trademark." },
+    { question: "Which 16 personalities type is the rarest?", answer: "INFJ is widely considered the rarest personality type, estimated at around 1-3% of the population. Keep in mind that rarity does not indicate superiority — every type has distinct strengths and growth areas." },
+    { question: "Can you take the 16 personalities test free?", answer: "Yes. 1Test offers a completely free 16 personalities test — no email, no account, no payment required. You receive your four-letter type and a full profile description immediately after completing the assessment." },
+    { question: "How reliable is the 16 personalities test?", answer: "For best results, answer based on your natural tendency, not your professional role or current mood. Research suggests that people who answer authentically show stronger resonance with their type description." },
+    { question: "What is the best free alternative to 16personalities.com?", answer: "1Test is a strong free alternative to 16personalities.com. It provides the same four-letter type result with a complete type description — plus three additional frameworks (DISC, Enneagram, and Strengths) in the same test. No signup required, no paywall." },
+  ],
   "/free-personality-test": [
     { question: "What is the 16 Personalities test?", answer: "The 16 Personalities test is a personality assessment that maps your preferences across four dimensions: Energy (Extraversion/Introversion), Information (Sensing/Intuition), Decisions (Thinking/Feeling), and Structure (Judging/Perceiving). These combine into one of 16 unique types, each with distinct patterns for processing information, making decisions, and interacting with the world." },
     { question: "How accurate is the 16 Personalities test?", answer: "Personality type assessments based on validated preference frameworks produce consistent, reliable results. The key is answering honestly — choose what feels natural, not what you think sounds best. 1Test's personality assessment provides your complete type description with practical insights, free with no paywall." },
@@ -859,6 +883,34 @@ const SEO_DATA = {
     description:
       "Which of the 16 personality types are you? Take the free test and get your full profile — no paywall. Plus DISC, Enneagram, and Strengths, all from one test.",
     canonicalUrl: "https://1test.me/free-personality-test",
+    ogType: "website",
+  },
+  "/disc-test": {
+    title: "DISC Personality Test — Free Online DISC Assessment | 1Test",
+    description:
+      "Take a free DISC personality test online. Instant results — no signup, no paywall. Discover your Dominance, Influence, Steadiness, and Conscientiousness profile.",
+    canonicalUrl: "https://1test.me/disc-test",
+    ogType: "website",
+  },
+  "/enneagram-test": {
+    title: "Enneagram Test — Discover Your Type Free | 1Test",
+    description:
+      "Free Enneagram test — no signup, no email required. Discover your Enneagram type, wing, and growth path instantly. Takes 10-15 minutes.",
+    canonicalUrl: "https://1test.me/enneagram-test",
+    ogType: "website",
+  },
+  "/16-personalities-test": {
+    title: "16 Personalities Test — Free MBTI-Style Assessment | 1Test",
+    description:
+      "Free 16 personalities test — no signup required. Discover your four-letter type with a full description. Plus DISC, Enneagram, and Strengths free.",
+    canonicalUrl: "https://1test.me/16-personalities-test",
+    ogType: "website",
+  },
+  "/strengths-test": {
+    title: "Strengths Test — Free Strengths Finder Assessment | 1Test",
+    description:
+      "Free strengths test — a CliftonStrengths alternative with no paywall. Discover your complete strengths profile, 20 strengths ranked, instantly.",
+    canonicalUrl: "https://1test.me/strengths-test",
     ogType: "website",
   },
   "/blog": {

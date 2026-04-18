@@ -297,6 +297,34 @@
       "headline": "Avaliação de Pontos Fortes gratuita",
       "subtitle": "Descubra seus pontos fortes naturais — no que você se destaca sem esforço. 20 pontos fortes do maior ao menor.",
       "cta": "Iniciar teste de Pontos Fortes gratuito"
+    },
+    "disc-test": {
+      "title": "Teste de Personalidade DISC — Avaliação DISC gratuita online | 1Test",
+      "description": "Faça um teste de personalidade DISC gratuito online. Resultados instantâneos — sem cadastro, sem paywall. Descubra seu perfil de Dominância, Influência, Estabilidade e Conscienciosidade.",
+      "headline": "Teste de Personalidade DISC",
+      "subtitle": "Descubra seu estilo comportamental — como você se comunica, lidera e colabora. Usado por organizações em todo o mundo para contratação e desenvolvimento de equipes.",
+      "cta": "Iniciar teste DISC gratuito"
+    },
+    "enneagram-test": {
+      "title": "Teste de Eneagrama — Descubra seu tipo de graça | 1Test",
+      "description": "Teste de Eneagrama gratuito — sem cadastro, sem e-mail. Descubra instantaneamente seu tipo, asa e caminho de crescimento.",
+      "headline": "Teste de Eneagrama",
+      "subtitle": "Descubra sua motivação central — o porquê por trás do que você faz. Encontre seu tipo, asa e direção de crescimento gratuitamente.",
+      "cta": "Iniciar teste de Eneagrama gratuito"
+    },
+    "16personalities-test": {
+      "title": "Teste de 16 Personalidades — Avaliação estilo MBTI gratuita | 1Test",
+      "description": "Teste de 16 Personalidades gratuito — sem cadastro. Descubra seu tipo de quatro letras com descrição completa. Mais DISC, Eneagrama e Pontos Fortes de graça.",
+      "headline": "Teste de 16 Personalidades",
+      "subtitle": "Descubra seu tipo de personalidade de quatro letras — como você pensa, decide e se conecta com os outros. Gratuito, sem cadastro, resultados instantâneos.",
+      "cta": "Iniciar teste de 16 Personalidades gratuito"
+    },
+    "strengths-test": {
+      "title": "Teste de Pontos Fortes — Avaliação gratuita de Pontos Fortes | 1Test",
+      "description": "Teste de pontos fortes gratuito — uma alternativa ao CliftonStrengths sem paywall. Descubra instantaneamente seu perfil completo com 20 pontos fortes classificados.",
+      "headline": "Teste de Pontos Fortes",
+      "subtitle": "Descubra seus pontos fortes naturais — 20 pontos fortes classificados gratuitamente. Uma alternativa completa ao CliftonStrengths sem paywall.",
+      "cta": "Iniciar teste de Pontos Fortes gratuito"
     }
   },
   "seoHead": {

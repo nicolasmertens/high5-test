@@ -297,6 +297,34 @@
       "headline": "Evaluación de Fortalezas gratuita",
       "subtitle": "Descubre tus fortalezas naturales — en qué sobresales sin esfuerzo. 20 fortalezas de mayor a menor.",
       "cta": "Iniciar test de Fortalezas gratuito"
+    },
+    "disc-test": {
+      "title": "Test de personalidad DISC — Evaluación DISC gratuita en línea | 1Test",
+      "description": "Haz un test de personalidad DISC gratuito en línea. Resultados instantáneos — sin registro, sin muro de pago. Descubre tu perfil de Dominancia, Influencia, Estabilidad y Conciencia.",
+      "headline": "Test de Personalidad DISC",
+      "subtitle": "Descubre tu estilo conductual — cómo te comunicas, lideras y colaboras. Utilizado por organizaciones en todo el mundo para contratación y desarrollo de equipos.",
+      "cta": "Iniciar test DISC gratuito"
+    },
+    "enneagram-test": {
+      "title": "Test de Eneagrama — Descubre tu tipo gratis | 1Test",
+      "description": "Test de Eneagrama gratuito — sin registro, sin correo electrónico. Descubre al instante tu tipo, ala y camino de crecimiento.",
+      "headline": "Test de Eneagrama",
+      "subtitle": "Descubre tu motivación central — el porqué detrás de lo que haces. Encuentra tu tipo, ala y dirección de crecimiento gratis.",
+      "cta": "Iniciar test de Eneagrama gratuito"
+    },
+    "16personalities-test": {
+      "title": "Test de 16 Personalidades — Evaluación estilo MBTI gratuita | 1Test",
+      "description": "Test de 16 Personalidades gratuito — sin registro. Descubre tu tipo de cuatro letras con descripción completa. Más DISC, Eneagrama y Fortalezas gratis.",
+      "headline": "Test de 16 Personalidades",
+      "subtitle": "Descubre tu tipo de personalidad de cuatro letras — cómo piensas, decides y te conectas con los demás. Gratis, sin registro, resultados instantáneos.",
+      "cta": "Iniciar test de 16 Personalidades gratuito"
+    },
+    "strengths-test": {
+      "title": "Test de Fortalezas — Evaluación gratuita de Fortalezas | 1Test",
+      "description": "Test de fortalezas gratuito — una alternativa a CliftonStrengths sin muro de pago. Descubre al instante tu perfil completo con 20 fortalezas clasificadas.",
+      "headline": "Test de Fortalezas",
+      "subtitle": "Descubre tus fortalezas naturales — 20 fortalezas clasificadas gratis. Una alternativa completa a CliftonStrengths sin muro de pago.",
+      "cta": "Iniciar test de Fortalezas gratuito"
     }
   },
   "seoHead": {

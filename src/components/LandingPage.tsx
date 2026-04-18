@@ -15,6 +15,10 @@ const FRAMEWORK_COLORS: Record<string, string> = {
   enneagram: "#7c3aed",
   personality: "#6366f1",
   strengths: "#f59e0b",
+  "disc-test": "#e53e3e",
+  "enneagram-test": "#7c3aed",
+  "16personalities-test": "#6366f1",
+  "strengths-test": "#f59e0b",
 };
 
 const FRAMEWORK_ICONS: Record<string, string> = {
@@ -22,6 +26,10 @@ const FRAMEWORK_ICONS: Record<string, string> = {
   enneagram: "\u25CE",
   personality: "\u25A0",
   strengths: "\u2605",
+  "disc-test": "\u25C6",
+  "enneagram-test": "\u25CE",
+  "16personalities-test": "\u25A0",
+  "strengths-test": "\u2605",
 };
 
 const FRAMEWORK_LANDING_KEYS: Record<string, string> = {
@@ -29,6 +37,10 @@ const FRAMEWORK_LANDING_KEYS: Record<string, string> = {
   enneagram: "enneagram",
   personality: "personality",
   strengths: "strengths",
+  "disc-test": "disc-test",
+  "enneagram-test": "enneagram-test",
+  "16personalities-test": "16personalities-test",
+  "strengths-test": "strengths-test",
 };
 
 export function LandingPage({ framework }: Props) {

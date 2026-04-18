@@ -297,6 +297,34 @@
       "headline": "Kostenloses Stärken-Assessment",
       "subtitle": "Entdecke deine natürlichen Stärken — was du ohne Anstrengung am besten kannst. 20 Stärken von stärkster bis entwickelnder.",
       "cta": "Kostenlosen Stärken-Test starten"
+    },
+    "disc-test": {
+      "title": "DISC-Persönlichkeitstest — Kostenloses Online-DISC-Assessment | 1Test",
+      "description": "Mache einen kostenlosen DISC-Persönlichkeitstest online. Sofortige Ergebnisse — kein Konto, keine Bezahlschranke. Entdecke dein Dominanz-, Einfluss-, Stetigkeits- und Gewissenhaftigkeitsprofil.",
+      "headline": "DISC-Persönlichkeitstest",
+      "subtitle": "Entdecke deinen Verhaltensstil — wie du kommunizierst, führst und zusammenarbeitest. Weltweit von Unternehmen für Einstellung und Teamentwicklung genutzt.",
+      "cta": "Kostenlosen DISC-Test starten"
+    },
+    "enneagram-test": {
+      "title": "Enneagramm-Test — Entdecke deinen Typ kostenlos | 1Test",
+      "description": "Kostenloser Enneagramm-Test — kein Konto, keine E-Mail erforderlich. Entdecke sofort deinen Enneagramm-Typ, deinen Flügel und deinen Wachstumspfad.",
+      "headline": "Enneagramm-Test",
+      "subtitle": "Entdecke deine Kernmotivation — das Warum hinter dem, was du tust. Finde deinen Typ, Flügel und Wachstumsrichtung kostenlos.",
+      "cta": "Kostenlosen Enneagramm-Test starten"
+    },
+    "16personalities-test": {
+      "title": "16-Persönlichkeiten-Test — Kostenloses MBTI-ähnliches Assessment | 1Test",
+      "description": "Kostenloser 16-Persönlichkeiten-Test — kein Konto erforderlich. Entdecke deinen Vier-Buchstaben-Typ mit vollständiger Beschreibung. Plus DISC, Enneagramm und Stärken kostenlos.",
+      "headline": "16-Persönlichkeiten-Test",
+      "subtitle": "Entdecke deinen Vier-Buchstaben-Persönlichkeitstyp — wie du denkst, entscheidest und dich mit anderen verbindest. Kostenlos, kein Konto, sofortige Ergebnisse.",
+      "cta": "Kostenlosen 16-Persönlichkeiten-Test starten"
+    },
+    "strengths-test": {
+      "title": "Stärken-Test — Kostenloses Stärken-Assessment | 1Test",
+      "description": "Kostenloser Stärken-Test — eine CliftonStrengths-Alternative ohne Bezahlschranke. Entdecke sofort dein vollständiges Stärkenprofil mit 20 gerankten Stärken.",
+      "headline": "Stärken-Test",
+      "subtitle": "Entdecke deine natürlichen Stärken — 20 Stärken kostenlos gerankt. Eine vollständige CliftonStrengths-Alternative ohne Bezahlschranke.",
+      "cta": "Kostenlosen Stärken-Test starten"
     }
   },
   "seoHead": {
