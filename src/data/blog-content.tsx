@@ -18001,6 +18001,462 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-18",
   },
+
+  "isfj-compatible-types": {
+    slug: "isfj-compatible-types",
+    metaTitle: "ISFJ Compatible Types — Best and Worst Matches Explained",
+    metaDesc: "Which personality types are most compatible with ISFJ? Learn the best matches for ISFJ in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/isfj-compatible-types",
+    h1: "ISFJ Compatible Types — Best Matches in Love and Friendship",
+    sections: [
+      {
+        heading: "What ISFJs need in relationships",
+        html: p("ISFJs are among the most naturally giving and attentive partners — they remember what matters to people, show up consistently, and invest quietly in the relationships they care about. Their dominant Introverted Sensing builds a rich internal catalogue of what has worked, what people need, and how to care for them. Their auxiliary Extroverted Feeling continuously attunes to others' emotional states.") +
+          p("ISFJs need partners who appreciate rather than take for granted their giving nature, who are emotionally present without overwhelming them, and who provide stability rather than constant disruption. They struggle with partners who are unreliable, who dismiss relational care as unimportant, or who interpret ISFJ's quiet loyalty as passivity. ISFJs can absorb a great deal of frustration silently — which means partners often don't realize there's a problem until the ISFJ has already withdrawn significantly.") +
+          p("Not sure what your type is? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "Best matches for ISFJ",
+        html: p("The types most naturally compatible with ISFJs:") +
+          strong([
+            { label: "ESFP — warmth and vitality.", desc: "ESFPs bring the spontaneous energy and joy that ISFJs often don't generate themselves but deeply appreciate. The ESFP draws the ISFJ out into experience; the ISFJ provides the stable, caring home base the ESFP benefits from. Both are present-focused and people-centered, with the ISFJ providing consistency and the ESFP providing delight." },
+            { label: "ISTJ — shared values and complementary strengths.", desc: "ISTJs and ISFJs share deep structural similarities — both value reliability, tradition, and steady commitment. The ISTJ provides decisiveness and principled direction; the ISFJ provides warmth and relational care. Together they build the most stable and functional domestic partnerships, with each providing what the other underweights." },
+            { label: "ESTP — grounding and excitement.", desc: "ESTPs can be strong ISFJ matches — they provide confidence, action, and external engagement while the ISFJ provides reliable care, home stability, and patient support. The challenge is ensuring the ESTP reciprocates care rather than simply receiving it. When the ESTP is developed enough to be attentive, this pairing works exceptionally well." },
+            { label: "ENFJ — warmth and direction.", desc: "ENFJs share ISFJ's deep orientation toward caring for people, but bring more outward expressiveness and leadership. The ENFJ helps the ISFJ externalize their care and receive appreciation in return; the ISFJ provides the consistent, private attentiveness that sustains ENFJs who are always pouring into others." },
+          ]),
+      },
+      {
+        heading: "More challenging matches for ISFJ",
+        html: p("These pairings require more deliberate bridging:") +
+          strong([
+            { label: "ENTP and INTP.", desc: "NT-Perceiving types tend to engage intellectually and abstractly in ways that can feel impersonal to ISFJs. ENTPs in particular can come across as dismissive of relational care and convention — areas ISFJs hold dear. The gap between ISFJ's concrete warmth and NTP's abstract challenge-seeking requires significant translation." },
+            { label: "ENTJ and INTJ.", desc: "Strategic, decisive NT types can be challenging ISFJ matches — they're often less attuned to the relational and emotional dimensions that ISFJs prioritize. ENTJs in particular can inadvertently bowl over ISFJs who don't assert their needs directly." },
+          ]),
+      },
+      {
+        heading: "ISFJs in friendship",
+        html: p("ISFJs are among the most reliably present friends — they remember birthdays, follow up after hard conversations, and show up when it counts. They invest in friendships quietly but deeply, and they expect the same reliability they provide.") +
+          p("Their challenge in friendship is asserting their own needs. ISFJs often sustain friendships that take more than they give because confronting imbalance feels like conflict — and ISFJs strongly prefer harmony. Learning to signal their needs directly before the imbalance becomes depleting is an ongoing growth edge.") +
+          p("Their best friendships are with types who notice and reciprocate without being asked — who bring the same attentiveness that ISFJs give so naturally."),
+      },
+    ],
+    faqs: [
+      { question: "What is the best match for an ISFJ?", answer: "ESFPs are often cited as a top match for ISFJs — they bring spontaneous energy and vitality that ISFJs appreciate while needing the stable, caring home base ISFJs provide naturally. ISTJs are another strong match for shared values and complementary structure. ENFJs pair well for reciprocal warmth and caring orientation." },
+      { question: "Are ISFJs good partners?", answer: "ISFJs are among the most naturally giving and attentive partners — they invest deeply, remember what matters, and show up consistently. They're challenging for partners who don't notice or appreciate quiet, sustained care, or who take ISFJ's giving for granted without reciprocating. ISFJs' main relationship risk is absorbing dissatisfaction silently for too long before surfacing it." },
+      { question: "Who should an ISFJ marry?", answer: "ISFJs tend to thrive with partners who are reliable, emotionally present, appreciate domestic stability, and actively reciprocate care rather than passively receiving it. The most important quality: the partner must not take ISFJ's giving for granted. ISFJ giving is deep and genuine — it deserves to be matched, not just consumed." },
+      { question: "What types are least compatible with ISFJ?", answer: "ENTPs and INTPs are often the most challenging matches for ISFJs — they tend to engage intellectually and abstractly in ways that can feel impersonal to ISFJs, and their preference for challenging conventional thinking can conflict with ISFJ's valuing of tradition, stability, and relational care." },
+    ],
+    ctaHeading: "Discover your full personality profile — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, DISC profile, Enneagram type, and Strengths — all from one 15-minute assessment.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ISFJ personality type guide", url: "/blog/isfj-personality-type" },
+      { label: "ESFP personality type", url: "/blog/esfp-personality-type" },
+      { label: "ISFJ vs INFJ", url: "/blog/isfj-vs-infj" },
+      { label: "ISFJ careers guide", url: "/blog/isfj-careers" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "esfj-compatible-types": {
+    slug: "esfj-compatible-types",
+    metaTitle: "ESFJ Compatible Types — Best and Worst Matches Explained",
+    metaDesc: "Which personality types are most compatible with ESFJ? Learn the best matches for ESFJ in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/esfj-compatible-types",
+    h1: "ESFJ Compatible Types — Best Matches in Love and Friendship",
+    sections: [
+      {
+        heading: "What ESFJs need in relationships",
+        html: p("ESFJs are warm, organized, and highly invested in the relational fabric of their lives. Their dominant Extroverted Feeling continuously reads the emotional climate of the people around them and works to maintain harmony, warmth, and belonging. Their auxiliary Introverted Sensing anchors their care in what has worked — the traditions, routines, and reliable patterns that make people feel held.") +
+          p("ESFJs need partners who appreciate their care, are emotionally expressive enough to give ESFJs legible feedback about how they're doing, and are reliable in their commitments. They struggle with partners who are emotionally closed off, who undervalue relational maintenance, or who resist the structure and social engagement ESFJs find energizing. ESFJs can become anxious in relationships that feel unpredictable or emotionally opaque.") +
+          p("Not sure what your type is? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "Best matches for ESFJ",
+        html: p("The types most naturally compatible with ESFJs:") +
+          strong([
+            { label: "ISFP — authentic depth and quiet appreciation.", desc: "ISFPs bring genuine warmth and aesthetic sensibility that ESFJs find deeply appealing. The ISFP appreciates the ESFJ's care without requiring it to perform for an audience. The ESFJ provides the structured, caring environment the ISFP can relax into; the ISFP provides the genuine, private authenticity the ESFJ often craves beneath their social presentation." },
+            { label: "ISTJ — reliability and complementary structure.", desc: "ISTJs provide the quiet reliability and principled consistency that ESFJs can deeply trust. Both types value commitment, tradition, and stable domestic life. The ESFJ brings warmth and social coordination; the ISTJ brings disciplined structure and follow-through. Together they build extremely stable, functional partnerships." },
+            { label: "ESTP — energy and decisiveness.", desc: "ESTPs can be a strong ESFJ match — they bring confidence, action, and external engagement while the ESFJ provides warmth, relational coordination, and home stability. The ESTP helps the ESFJ move beyond social obligation into genuine spontaneity; the ESFJ helps ground the ESTP's energy in care for the people around them." },
+            { label: "INFP — depth beneath the warmth.", desc: "INFPs bring genuine values-depth and authentic emotional honesty that ESFJs often find refreshing — they're not performing connection, they genuinely have it. The ESFJ provides the social engagement and organized warmth that helps INFPs engage with the world; the INFP provides the authentic inner depth that ESFJs don't always find in their broader social circles." },
+          ]),
+      },
+      {
+        heading: "More challenging matches for ESFJ",
+        html: p("These pairings require more deliberate work:") +
+          strong([
+            { label: "INTP and ENTP.", desc: "NT-Perceiving types tend to challenge convention and engage abstractly in ways that can feel impersonal or dismissive to ESFJs. ENTPs can inadvertently upset ESFJs by turning social situations into debates or treating relational conventions as irrational — areas ESFJs care about deeply." },
+            { label: "INTJ and ENTJ.", desc: "Strategic NT types can come across as cold or dismissive of ESFJ's relational focus. ENTJs in particular can be impatient with ESFJ's attention to social harmony and interpersonal maintenance. The T/F divide requires significant bridging in this pairing." },
+          ]),
+      },
+      {
+        heading: "ESFJs in friendship",
+        html: p("ESFJs are often the social organizers and community connectors in their friend groups — they plan gatherings, remember details, and create the conditions where people feel included and appreciated. They invest visibly in friendships and expect reciprocal investment.") +
+          p("Their challenge in friendship is developing tolerance for different styles of caring. ESFJs often interpret quieter, less expressive care as neglect — which can create friction with more introverted or reserved friends who care deeply but don't show it in ESFJ-legible ways.") +
+          p("Their best friendships are built on explicit, reciprocal care — where both parties actively invest in the relationship and express that investment in visible ways."),
+      },
+    ],
+    faqs: [
+      { question: "What is the best match for an ESFJ?", answer: "ISFPs are often cited as a top match for ESFJs — they bring genuine authenticity and quiet appreciation that ESFJs find deeply valuable. ISTJs are another strong match for shared reliability and structure. INFPs pair well for authentic depth beneath ESFJ's warmth." },
+      { question: "Are ESFJs good partners?", answer: "ESFJs are among the most naturally warm, attentive, and organized partners. They create genuine care and relational maintenance that many types benefit from. They're challenging for partners who are emotionally closed off or who don't reciprocate care expressively — ESFJs need legible feedback that their investment is valued." },
+      { question: "Who should an ESFJ marry?", answer: "ESFJs tend to thrive with partners who are reliable, emotionally expressive enough to give feedback, appreciative of warmth and relational care, and comfortable with the level of social engagement ESFJs find energizing. The most important quality: the partner must actively appreciate and reciprocate the ESFJ's care rather than passively receiving it." },
+      { question: "What types are least compatible with ESFJ?", answer: "INTPs and ENTPs are often the most challenging matches for ESFJs — they tend to engage abstractly and challenge convention in ways that conflict with ESFJ's valuing of relational harmony and social tradition." },
+    ],
+    ctaHeading: "Discover your full personality profile — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, DISC profile, Enneagram type, and Strengths — all from one 15-minute assessment.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ESFJ personality type guide", url: "/blog/esfj-personality-type" },
+      { label: "ISFP personality type", url: "/blog/isfp-personality-type" },
+      { label: "ESFJ vs ISFJ", url: "/blog/esfj-vs-isfj" },
+      { label: "ESFJ careers guide", url: "/blog/esfj-careers" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "estj-compatible-types": {
+    slug: "estj-compatible-types",
+    metaTitle: "ESTJ Compatible Types — Best and Worst Matches Explained",
+    metaDesc: "Which personality types are most compatible with ESTJ? Learn the best matches for ESTJ in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/estj-compatible-types",
+    h1: "ESTJ Compatible Types — Best Matches in Love and Friendship",
+    sections: [
+      {
+        heading: "What ESTJs need in relationships",
+        html: p("ESTJs are direct, structured, and accountability-oriented — they bring the same systematic approach to relationships that they bring to everything else. Their dominant Extroverted Thinking organizes the relational world toward functional, reliable outcomes. Their auxiliary Introverted Sensing anchors expectations in tradition, precedent, and what has worked.") +
+          p("ESTJs need partners who are reliable, direct, and capable of holding their own. They struggle with partners who are emotionally reactive to honest feedback, who resist structure and commitment, or who require the ESTJ to manage their feelings rather than engaging as functional partners. ESTJs often love deeply but express it through action, reliability, and provision — they can seem cold to types who need more verbal or emotional expressiveness.") +
+          p("Not sure what your type is? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "Best matches for ESTJ",
+        html: p("The types most naturally compatible with ESTJs:") +
+          strong([
+            { label: "ISFP — gentle authenticity that reaches the ESTJ.", desc: "ISFPs bring genuine warmth and values-depth that ESTJs often recognize they're missing. The ISFP helps the ESTJ slow down and experience rather than always executing. The ESTJ provides the decisive structure and external engagement that helps the ISFP move their values into action. Both bring something the other genuinely needs." },
+            { label: "ISFJ — shared reliability and complementary warmth.", desc: "ISFJs bring the consistent relational warmth and care that ESTJs often express clumsily. Both types value reliability, tradition, and commitment deeply. The ESTJ provides decisive direction and external organization; the ISFJ provides attentive care and internal relational maintenance. Together they're among the most stable and functional partnerships." },
+            { label: "INTP — honest challenge and intellectual depth.", desc: "INTPs provide the analytical depth and honest pushback that ESTJs respect. They're one of the few types that can critique an ESTJ's approach without the ESTJ dismissing them. The ESTJ provides structure and forward momentum; the INTP provides precise analytical rigor that improves the ESTJ's plans." },
+            { label: "ISTP — competence and directness.", desc: "ISTPs match ESTJs on directness, competence, and tolerance for plain communication. Neither type requires excessive emotional management; both communicate practically and respect demonstrated capability. They can build highly functional shared lives." },
+          ]),
+      },
+      {
+        heading: "More challenging matches for ESTJ",
+        html: p("These pairings require more deliberate work:") +
+          strong([
+            { label: "INFP and ENFP.", desc: "NF-Perceiving types bring values-depth and idealism that can feel impractical or emotionally demanding to ESTJs. ENFPs' resistance to structure and INFPs' need for emotional attunement can conflict with ESTJ's preference for direct, functional engagement." },
+            { label: "ENTP and INTP (when underdeveloped).", desc: "Developed INTPs can pair well with ESTJs. But ENTPs who challenge for sport and resist commitment can frustrate ESTJs who want reliable, structured partnership rather than perpetual debate and reconsideration." },
+          ]),
+      },
+      {
+        heading: "ESTJs in friendship",
+        html: p("ESTJs are reliable, direct friends who show up when it counts and don't maintain friendships for social obligation. They're loyal to the people they respect — and respect is earned through competence, honesty, and follow-through, not through warmth or social performance.") +
+          p("Their challenge in friendship is recognizing when they're coming across as critical or domineering to friends who interpret ESTJ directness as judgment rather than care. ESTJs often don't realize how much weight their assessments carry with people who genuinely want their approval.") +
+          p("Their best friendships are built on mutual respect and honest exchange — people who can handle ESTJ feedback without becoming defensive, and who push back on the ESTJ with equal directness."),
+      },
+    ],
+    faqs: [
+      { question: "What is the best match for an ESTJ?", answer: "ISFPs and ISFJs are often cited as strong ESTJ matches — ISFPs bring genuine warmth and values-depth the ESTJ needs; ISFJs bring consistent relational care and shared reliability. INTPs are also a strong match for honest intellectual challenge and complementary analytical depth." },
+      { question: "Are ESTJs good partners?", answer: "ESTJs can be excellent partners for people who value reliability, directness, and practical commitment. They're challenging for partners who need emotional expressiveness or who interpret ESTJ's plain communication as coldness. ESTJs love deeply but show it through action and provision rather than verbal or emotional display." },
+      { question: "Who should an ESTJ marry?", answer: "ESTJs tend to thrive with partners who are reliable, self-directed, comfortable with direct communication, and able to appreciate care expressed through action rather than words. The most important quality: the partner must be functional and self-sufficient rather than requiring the ESTJ to manage their emotional landscape." },
+      { question: "What types are least compatible with ESTJ?", answer: "ENFPs and INFPs are often the most challenging ESTJ matches — they bring values-depth and idealism that can feel impractical to ESTJs, and their resistance to structure and need for emotional attunement can create persistent friction with ESTJ's preference for direct, functional engagement." },
+    ],
+    ctaHeading: "Discover your full personality profile — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, DISC profile, Enneagram type, and Strengths — all from one 15-minute assessment.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ESTJ personality type guide", url: "/blog/estj-personality-type" },
+      { label: "ISFJ personality type", url: "/blog/isfj-personality-type" },
+      { label: "ESTJ vs ENTJ", url: "/blog/estj-vs-entj" },
+      { label: "ESTJ careers guide", url: "/blog/estj-careers" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "istj-compatible-types": {
+    slug: "istj-compatible-types",
+    metaTitle: "ISTJ Compatible Types — Best and Worst Matches Explained",
+    metaDesc: "Which personality types are most compatible with ISTJ? Learn the best matches for ISTJ in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/istj-compatible-types",
+    h1: "ISTJ Compatible Types — Best Matches in Love and Friendship",
+    sections: [
+      {
+        heading: "What ISTJs need in relationships",
+        html: p("ISTJs are among the most internally consistent and privately committed types in relationships. Their dominant Introverted Sensing catalogues experience with exceptional fidelity — they remember their commitments, honor them, and expect the same. Their auxiliary Extroverted Thinking applies systematic evaluation to ensure those commitments function as designed.") +
+          p("ISTJs need partners who are reliable, direct, and don't require constant emotional expressiveness to feel secure. They show love through consistent action, responsible provision, and showing up — not through verbal affirmation or emotional display. Partners who interpret this as coldness often miss what's actually being offered. ISTJs struggle with partners who are unreliable, who create unnecessary drama, or who need the ISTJ to perform emotional engagement they don't naturally produce.") +
+          p("Not sure what your type is? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "Best matches for ISTJ",
+        html: p("The types most naturally compatible with ISTJs:") +
+          strong([
+            { label: "ESFJ — warmth and complementary social engagement.", desc: "ESFJs bring the relational warmth and social engagement that ISTJs often underinvest in. The ESFJ creates the social fabric; the ISTJ provides the reliable structure and principled commitment that the ESFJ can build on. Both value tradition and reliability deeply, and each provides what the other is most likely to neglect." },
+            { label: "ISFJ — shared values and quiet mutual understanding.", desc: "ISTJs and ISFJs share the deepest structural alignment — both are introverted, sensing, loyal, and committed to following through on what they've promised. They understand each other's need for quiet, stability, and consistency without requiring explanation. The main difference (T vs F) can actually be complementary: the ISTJ brings decisiveness; the ISFJ brings relational attunement." },
+            { label: "ENFJ — structured warmth and genuine development.", desc: "ENFJs bring warmth, expressiveness, and developmental care that ISTJs often appreciate precisely because they don't generate it themselves. ENFJs help ISTJs engage with the relational dimensions of their life more fully; ISTJs provide the stable, reliable foundation that ENFJs can build their outward-facing life from." },
+            { label: "ESTJ — parallel values and clear communication.", desc: "ESTJs and ISTJs share nearly all core values: reliability, tradition, accountability, structured commitment. The difference is the E/I dimension — ESTJs engage the world organizationally; ISTJs do so privately. Both communicate directly and expect follow-through. Together they build the most structurally sound partnerships in the type system." },
+          ]),
+      },
+      {
+        heading: "More challenging matches for ISTJ",
+        html: p("These pairings require more deliberate bridging:") +
+          strong([
+            { label: "ENFP and INFP.", desc: "NF-Perceiving types bring idealism and openness to possibility that can feel unstable or impractical to ISTJs. ENFPs' resistance to structure and INFPs' complex inner emotional landscape can conflict with ISTJ's preference for reliable, predictable commitment." },
+            { label: "ENTP and INTP.", desc: "NT-Perceiving types challenge convention and keep options open in ways that can frustrate ISTJs who prefer settled, proven approaches. The mismatch between ISTJ's trust in precedent and NTP types' skepticism of it requires significant bridging." },
+          ]),
+      },
+      {
+        heading: "ISTJs in friendship",
+        html: p("ISTJs are loyal, dependable friends who invest quietly and deeply in the people they trust. They don't maintain friendships out of social obligation — every sustained relationship in their life has earned its place through reliability, shared values, or genuine mutual need.") +
+          p("They struggle to initiate social contact even with people they care about, which can lead to friendships gradually fading not from loss of caring but from mutual non-initiation. The ISTJ assumes friends know they're valued; friends often need more explicit signal.") +
+          p("Their best friendships are with types who understand that ISTJ reliability is itself an expression of care — who don't need frequent contact to maintain trust, and who show up with the same consistency the ISTJ brings."),
+      },
+    ],
+    faqs: [
+      { question: "What is the best match for an ISTJ?", answer: "ESFJs and ISFJs are often cited as the best matches for ISTJs. ESFJs bring warmth and social engagement that complement ISTJ's private reliability. ISFJs bring the deepest structural alignment — shared values, shared preference for quiet and stability, and complementary T/F dynamics. ENFJs also pair well for warm engagement and genuine care." },
+      { question: "Are ISTJs good partners?", answer: "ISTJs are among the most reliable and committed partners in the type system — they do what they say, provide stability, and take their commitments seriously for the long term. They're challenging for partners who need frequent emotional expressiveness or who interpret ISTJ's reserved style as lack of feeling. ISTJs love deeply; they just show it through consistency and provision rather than words." },
+      { question: "Who should an ISTJ marry?", answer: "ISTJs tend to thrive with partners who value reliability over expressiveness, who are comfortable with directness, and who can appreciate care demonstrated through action and steady presence rather than verbal affirmation. The most important quality: the partner must honor commitments with the same seriousness the ISTJ brings." },
+      { question: "What types are least compatible with ISTJ?", answer: "ENFPs are often the most challenging ISTJ match — they resist structure, keep options open, and bring idealistic possibility-seeking that conflicts with ISTJ's trust in proven, settled approaches. The Extraversion-Intuition-Feeling-Perceiving combination sits on nearly the opposite end of every dimension from ISTJ." },
+    ],
+    ctaHeading: "Discover your full personality profile — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, DISC profile, Enneagram type, and Strengths — all from one 15-minute assessment.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ISTJ personality type guide", url: "/blog/istj-personality-type" },
+      { label: "ESFJ personality type", url: "/blog/esfj-personality-type" },
+      { label: "ISTJ vs INTJ", url: "/blog/istj-vs-intj" },
+      { label: "ISTJ careers guide", url: "/blog/istj-careers" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "istp-compatible-types": {
+    slug: "istp-compatible-types",
+    metaTitle: "ISTP Compatible Types — Best and Worst Matches Explained",
+    metaDesc: "Which personality types are most compatible with ISTP? Learn the best matches for ISTP in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/istp-compatible-types",
+    h1: "ISTP Compatible Types — Best Matches in Love and Friendship",
+    sections: [
+      {
+        heading: "What ISTPs need in relationships",
+        html: p("ISTPs are among the most fiercely independent types — they need space, autonomy, and a partner who doesn't interpret their self-sufficiency as emotional unavailability. Their dominant Introverted Thinking builds precise internal models of how things work; their auxiliary Extroverted Sensing engages the physical world directly and pragmatically. Relationships, for ISTPs, work best when they enhance rather than constrain this orientation.") +
+          p("ISTPs need partners who are self-sufficient, don't require constant emotional management, and communicate directly without excessive drama. They struggle with partners who are clingy, emotionally reactive, or who interpret ISTP's natural independence as rejection. ISTPs show care through practical help, showing up when it matters, and technical problem-solving — partners who need verbal or emotional expressiveness often miss what's being offered.") +
+          p("Not sure what your type is? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "Best matches for ISTP",
+        html: p("The types most naturally compatible with ISTPs:") +
+          strong([
+            { label: "ESFJ — warmth that doesn't overwhelm.", desc: "Developed ESFJs can be excellent ISTP partners — they bring the relational warmth and social engagement that ISTPs genuinely appreciate without requiring the ISTP to perform emotional expressiveness. The ESFJ creates the social and relational fabric; the ISTP provides the competent, reliable presence the ESFJ can count on." },
+            { label: "ESTJ — directness and mutual respect.", desc: "ESTJs match ISTPs on directness, competence-orientation, and tolerance for plain, practical communication. Neither type requires emotional coddling; both operate from a 'show me' rather than 'tell me' framework. Together they can build extremely functional partnerships with minimal relational drama." },
+            { label: "ENFJ — reaching the ISTP through genuine curiosity.", desc: "ENFJs are one of the few types skilled at creating conditions where ISTPs actually open up. ENFJs don't pressure — they invite through genuine curiosity and warmth. The ISTP provides the quiet competence and grounded perspective that ENFJs rarely find; the ENFJ provides the relational depth that brings out ISTP's surprisingly caring inner core." },
+            { label: "ESTP — peer energy and shared pragmatism.", desc: "ISTPs and ESTPs share core pragmatism, directness, and a preference for experience over theory. The main difference (E/I) means the ESTP brings social engagement while the ISTP brings focused technical depth. They understand each other's action-orientation without requiring explanation." },
+          ]),
+      },
+      {
+        heading: "More challenging matches for ISTP",
+        html: p("These pairings require more deliberate work:") +
+          strong([
+            { label: "ENFP and INFP.", desc: "NF-Perceiving types bring emotional depth and values-complexity that can feel overwhelming or impractical to ISTPs. ENFPs' need for engagement and depth of connection can conflict with ISTP's preference for low-maintenance relationships." },
+            { label: "ESFP and ISFP (with emotional demands).", desc: "While some SP pairings work well, ESFPs and ISFPs who are emotionally expressive and need significant relational investment can create friction with ISTP's preference for independent, low-drama partnerships." },
+          ]),
+      },
+      {
+        heading: "ISTPs in friendship",
+        html: p("ISTPs are low-maintenance friends who invest quietly and genuinely. They don't need frequent contact to maintain loyalty, and they don't perform friendship — what you get is exactly what's there. They show up reliably when something genuinely matters and don't create unnecessary social obligation.") +
+          p("Their challenge in friendship is the same as in relationships: they rarely initiate, and they can be hard to read. People who know them well understand that ISTP reliability and quiet presence is care. People who don't know them well often underestimate how much they're actually valued.") +
+          p("Their best friendships are built around shared activity or interest — doing something together rather than talking about doing something. The friendship deepens naturally through shared experience rather than through explicit relational investment."),
+      },
+    ],
+    faqs: [
+      { question: "What is the best match for an ISTP?", answer: "ESFJs and ESTJs are often cited as strong ISTP matches — ESFJs bring relational warmth and social engagement that complement ISTP's private competence; ESTJs match ISTP's directness and functional orientation. ENFJs are a strong match for reaching ISTPs through genuine curiosity rather than pressure." },
+      { question: "Are ISTPs good partners?", answer: "ISTPs can be excellent partners for people who value independence, competence, and care expressed through action. They're challenging for partners who need frequent emotional expressiveness or who interpret ISTP's autonomous style as lack of interest. ISTPs are deeply loyal within their relationships — they just don't narrate it." },
+      { question: "Who should an ISTP marry?", answer: "ISTPs tend to thrive with partners who are emotionally self-sufficient, comfortable with significant amounts of alone time, direct in communication, and able to appreciate care demonstrated through practical action rather than words. The most important quality: the partner must not need to be managed or emotionally maintained constantly." },
+      { question: "What types are least compatible with ISTP?", answer: "ENFPs are often the most challenging ISTP match — they bring emotional depth, connection-seeking, and resistance to structure that conflicts with ISTP's preference for independent, low-drama, practically-oriented relationships." },
+    ],
+    ctaHeading: "Discover your full personality profile — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, DISC profile, Enneagram type, and Strengths — all from one 15-minute assessment.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ISTP personality type guide", url: "/blog/istp-personality-type" },
+      { label: "ESFJ personality type", url: "/blog/esfj-personality-type" },
+      { label: "ISTP vs INTP", url: "/blog/istp-vs-intp" },
+      { label: "ISTP careers guide", url: "/blog/istp-careers" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "estp-compatible-types": {
+    slug: "estp-compatible-types",
+    metaTitle: "ESTP Compatible Types — Best and Worst Matches Explained",
+    metaDesc: "Which personality types are most compatible with ESTP? Learn the best matches for ESTP in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/estp-compatible-types",
+    h1: "ESTP Compatible Types — Best Matches in Love and Friendship",
+    sections: [
+      {
+        heading: "What ESTPs need in relationships",
+        html: p("ESTPs are high-energy, direct, and present-focused partners who bring excitement, confidence, and action to their relationships. Their dominant Extroverted Sensing engages the immediate world with full enthusiasm; their auxiliary Introverted Thinking evaluates situations quickly and practically. They need partners who can keep up — who are engaged with real life, comfortable with directness, and not easily rattled by intensity.") +
+          p("ESTPs need partners who are resilient, self-sufficient, and don't require constant reassurance. They struggle with partners who are emotionally reactive, overly sensitive to their bluntness, or who need intensive relational processing that pulls ESTPs away from the engagement they crave. ESTPs can be deeply loyal partners — they just express it through presence, action, and protectiveness rather than through verbal emotional investment.") +
+          p("Not sure what your type is? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "Best matches for ESTP",
+        html: p("The types most naturally compatible with ESTPs:") +
+          strong([
+            { label: "ISFJ — stability and genuine care.", desc: "ISFJs bring the patient care, domestic stability, and consistent relational investment that ESTPs benefit from enormously — the reliable home base that grounds ESTP's high-activity engagement with the world. The ISFJ provides attentive care; the ESTP provides excitement, confidence, and the sense that life with them will always be interesting. When both are developed, this is a highly stable and complementary pairing." },
+            { label: "INTJ — strategic depth and direct engagement.", desc: "INTJs match ESTPs on directness and competence while providing the long-term strategic depth that ESTPs often lack. The INTJ helps the ESTP think beyond the immediate situation; the ESTP grounds the INTJ in present reality and draws them into more direct, embodied engagement with life." },
+            { label: "ISTJ — reliability and principled grounding.", desc: "ISTJs provide the consistent structure and principled reliability that can anchor ESTP's high-intensity style. Both are direct and practically oriented; the ISTJ provides the sustained long-term commitment while the ESTP brings present-moment energy and spontaneity." },
+            { label: "ISTP — peer pragmatism and mutual respect.", desc: "ISTPs and ESTPs share core pragmatism and direct communication. The ISTP provides technical depth and focused competence; the ESTP provides social fluency and external momentum. Both understand each other's action-orientation without requiring relational translation." },
+          ]),
+      },
+      {
+        heading: "More challenging matches for ESTP",
+        html: p("These pairings require more deliberate work:") +
+          strong([
+            { label: "INFJ and INFP.", desc: "NF-Introverted types bring emotional complexity and abstract depth that can feel overwhelming or impractical to ESTPs. INFJs and INFPs often need partners who are attuned to emotional nuance in ways that don't come naturally to ESTPs." },
+            { label: "ENFP (with high emotional demands).", desc: "While some ENFP/ESTP pairings work well initially (shared energy and spontaneity), ENFPs' need for emotional depth and their idealistic orientation can conflict with ESTP's present-focused, practical engagement over time." },
+          ]),
+      },
+      {
+        heading: "ESTPs in friendship",
+        html: p("ESTPs are exciting, generous friends — they create fun, bring people together, and are reliably present for genuine crises. They're loyal to the people in their inner circle and can be surprisingly protective of the people they care about.") +
+          p("Their challenge in friendship is sustaining depth over time. ESTPs are excellent at the high-energy, fun phase of friendship — they struggle more with the quieter, more sustained care that deeper friendships eventually require. Friends who only knew the exciting ESTP can feel confused or abandoned as the intensity normalizes.") +
+          p("Their best friendships are with types who appreciate ESTP's direct investment and don't require the relationship to run on deep emotional processing — people who share the preference for doing over talking."),
+      },
+    ],
+    faqs: [
+      { question: "What is the best match for an ESTP?", answer: "ISFJs are often cited as a top ESTP match — they provide the patient care, stability, and consistent relational investment that grounds ESTP's high-activity engagement with the world. INTJs are a strong second for strategic depth and direct engagement. ISTJs pair well for reliability and principled complementarity." },
+      { question: "Are ESTPs good partners?", answer: "ESTPs can be excellent partners for people who value excitement, directness, and presence. They're loyal, protective, and deeply invested in the people they commit to. They're challenging for partners who need frequent emotional processing or who take ESTP's bluntness personally. ESTPs show love through action, presence, and protectiveness." },
+      { question: "Who should an ESTP marry?", answer: "ESTPs tend to thrive with partners who are self-sufficient, resilient, comfortable with directness and intensity, and able to appreciate care demonstrated through action and presence rather than emotional expressiveness. The most important quality: the partner must be capable of being the stable foundation that ESTP's high-activity style benefits from." },
+      { question: "What types are least compatible with ESTP?", answer: "INFJs and INFPs are often the most challenging ESTP matches — they bring emotional complexity and abstract depth that requires more relational attunement than ESTPs naturally provide." },
+    ],
+    ctaHeading: "Discover your full personality profile — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, DISC profile, Enneagram type, and Strengths — all from one 15-minute assessment.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ESTP personality type guide", url: "/blog/estp-personality-type" },
+      { label: "ISFJ personality type", url: "/blog/isfj-personality-type" },
+      { label: "ESTP vs ISTP", url: "/blog/estp-vs-istp" },
+      { label: "ESTP careers guide", url: "/blog/estp-careers" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "esfp-compatible-types": {
+    slug: "esfp-compatible-types",
+    metaTitle: "ESFP Compatible Types — Best and Worst Matches Explained",
+    metaDesc: "Which personality types are most compatible with ESFP? Learn the best matches for ESFP in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/esfp-compatible-types",
+    h1: "ESFP Compatible Types — Best Matches in Love and Friendship",
+    sections: [
+      {
+        heading: "What ESFPs need in relationships",
+        html: p("ESFPs are warm, spontaneous, and fully present partners — they bring genuine enthusiasm, playful energy, and authentic affection to their relationships. Their dominant Extroverted Sensing engages the world immediately and joyfully; their auxiliary Introverted Feeling holds personal values that quietly guide their choices. They need relationships that feel alive, genuine, and spacious enough for their expressive energy.") +
+          p("ESFPs need partners who appreciate their warmth, are emotionally present, and can give them the stability and direction they often don't generate themselves. They struggle with partners who are emotionally withholding, excessively critical of their spontaneity, or who try to structure the ESFP into a more conventional pattern than fits them. ESFPs can be deeply loyal — they're just most loyal to authentic connection rather than obligation.") +
+          p("Not sure what your type is? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "Best matches for ESFP",
+        html: p("The types most naturally compatible with ESFPs:") +
+          strong([
+            { label: "ISFJ — steady care and warm stability.", desc: "ISFJs bring consistent care, domestic warmth, and patient presence that grounds ESFP's spontaneous energy. The ISFJ provides the stable, attentive home base; the ESFP provides joy, vitality, and the sense that every day has something worth celebrating. Both are warm, present-focused, and people-centered — they understand each other intuitively." },
+            { label: "ISTJ — reliability and gentle structure.", desc: "ISTJs provide consistent structure and principled reliability that help ESFPs move from exciting possibility to sustainable reality. The ISTJ's quiet dedication and follow-through complements ESFP's spontaneous enthusiasm. Both care deeply but express it differently — the ISTJ through consistent provision, the ESFP through joyful presence." },
+            { label: "INTJ — depth and quiet grounding.", desc: "INTJs can be surprisingly good ESFP matches — they provide strategic depth, quiet stability, and the kind of focused attention that ESFPs find deeply satisfying. The INTJ is grounded where the ESFP is spontaneous; the ESFP draws the INTJ into present-moment joy and social engagement. Both benefit from what the other brings naturally." },
+            { label: "INFJ — warmth and genuine depth.", desc: "INFJs bring genuine emotional depth, values-integrity, and quiet care that ESFPs find deeply meaningful. The INFJ provides the meaningful depth beneath ESFP's joy; the ESFP helps the INFJ experience and enjoy rather than always processing and meaning-making." },
+          ]),
+      },
+      {
+        heading: "More challenging matches for ESFP",
+        html: p("These pairings require more deliberate work:") +
+          strong([
+            { label: "ENTJ and ESTJ.", desc: "Extroverted Thinking types can come across as overly critical or controlling of ESFP's spontaneity and emotional expressiveness. ENTJs in particular can inadvertently make ESFPs feel managed rather than appreciated." },
+            { label: "INTP and ENTP.", desc: "NT-Perceiving types engage intellectually in ways that can feel disconnected or impersonal to ESFPs who need warmer, more present-focused engagement. Their tendency to debate and challenge can conflict with ESFP's preference for genuine warmth and shared experience." },
+          ]),
+      },
+      {
+        heading: "ESFPs in friendship",
+        html: p("ESFPs are among the most naturally gifted friends — they're enthusiastic, fun, and genuinely invested in the people they care about. They create joy wherever they go and remember what matters to people in a way that makes everyone feel seen and valued.") +
+          p("Their challenge in friendship is depth over time. ESFPs are excellent at the warm, joyful, present-focused phase of friendship — they can struggle more with the quieter, more demanding phases that test sustained loyalty. Friends who needed them in a sustained way sometimes feel disappointed when ESFP's energy has moved on.") +
+          p("Their best friendships are built around genuine warmth and shared experience — where the joy is real, the care is reciprocal, and both people bring something authentic rather than performing connection."),
+      },
+    ],
+    faqs: [
+      { question: "What is the best match for an ESFP?", answer: "ISFJs are often cited as a top ESFP match — they provide the consistent care, warmth, and stable home base that grounds ESFP's spontaneous energy. ISTJs are another strong match for quiet reliability and complementary structure. INTJs can pair surprisingly well for depth and grounded stability." },
+      { question: "Are ESFPs good partners?", answer: "ESFPs are warm, joyful, and genuinely invested partners who bring authentic affection and presence to their relationships. They're challenging for partners who need extensive emotional processing or sustained structure — ESFPs excel at the present-moment warmth but can struggle with the quieter, more demanding phases of long-term commitment." },
+      { question: "Who should an ESFP marry?", answer: "ESFPs tend to thrive with partners who appreciate their warmth and spontaneity, can provide gentle structure without constraining them, are emotionally present and reciprocally warm, and can help ESFP move from exciting possibility into sustainable reality. The most important quality: the partner must genuinely appreciate rather than try to change the ESFP's joyful, expressive nature." },
+      { question: "What types are least compatible with ESFP?", answer: "ENTJs and INTJs (when underdeveloped) can be challenging ESFP matches — their directness and critical orientation can inadvertently make ESFPs feel judged rather than appreciated. Developed INTJs, however, can be excellent ESFP matches when they bring depth without dismissal." },
+    ],
+    ctaHeading: "Discover your full personality profile — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, DISC profile, Enneagram type, and Strengths — all from one 15-minute assessment.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ESFP personality type guide", url: "/blog/esfp-personality-type" },
+      { label: "ISFJ personality type", url: "/blog/isfj-personality-type" },
+      { label: "ESFP vs ISFP", url: "/blog/esfp-vs-isfp" },
+      { label: "ESFP careers guide", url: "/blog/esfp-careers" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "isfp-compatible-types": {
+    slug: "isfp-compatible-types",
+    metaTitle: "ISFP Compatible Types — Best and Worst Matches Explained",
+    metaDesc: "Which personality types are most compatible with ISFP? Learn the best matches for ISFP in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/isfp-compatible-types",
+    h1: "ISFP Compatible Types — Best Matches in Love and Friendship",
+    sections: [
+      {
+        heading: "What ISFPs need in relationships",
+        html: p("ISFPs are gentle, deeply private, and authentically warm partners. Their dominant Introverted Feeling holds a rich inner world of personal values and genuine emotion; their auxiliary Extroverted Sensing keeps them grounded in the present — in what is beautiful, real, and directly experienced. They bring a quality of presence and authenticity to relationships that is genuinely rare.") +
+          p("ISFPs need partners who respect their privacy, don't pressure them into external performance, and are patient enough to earn the trust that unlocks ISFP's deepest warmth. They struggle with partners who are controlling, emotionally demanding, or who interpret ISFP's quietness as indifference. ISFPs show care through thoughtful action, aesthetic gifts, and sustained loyal presence — partners who need verbal expressiveness often miss what's being offered.") +
+          p("Not sure what your type is? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "Best matches for ISFP",
+        html: p("The types most naturally compatible with ISFPs:") +
+          strong([
+            { label: "ESFJ — warmth and structure that holds the ISFP.", desc: "ESFJs bring the warm, organized care and social engagement that ISFPs appreciate without being overwhelmed by. The ESFJ creates the relational structure; the ISFP provides the genuine, private authenticity within it. ESFJs feel truly cared for by ISFPs who show love through careful, present attention rather than performance." },
+            { label: "ESTJ — direction and decisive presence.", desc: "ESTJs provide structure, decisiveness, and a confident presence that can help ISFPs move their values into action. The ESTJ's directness and reliability creates a container of security within which the ISFP can be more fully themselves. The ISFP softens the ESTJ's edges and helps them access the emotional dimensions of their life." },
+            { label: "ENFJ — depth and genuine investment in ISFP's growth.", desc: "ENFJs are one of the few types skilled at genuinely seeing and drawing out ISFPs without overwhelming them. ENFJs invest in who people are becoming — which resonates deeply with ISFP's values-driven orientation. The ISFP provides the genuine, private care that sustains ENFJs beneath their outward-facing energy." },
+            { label: "ESTP — energy and complementary worldview.", desc: "ESTPs bring confidence, action, and present-focused energy that ISFPs find genuinely invigorating. Both are Sensing-Perceiving types who understand each other's preference for real experience over abstract processing. The ESTP brings momentum; the ISFP brings genuine aesthetic care and quiet loyalty." },
+          ]),
+      },
+      {
+        heading: "More challenging matches for ISFP",
+        html: p("These pairings require more deliberate bridging:") +
+          strong([
+            { label: "ENTJ and ESTJ (when underdeveloped).", desc: "Underdeveloped Extroverted Thinking types can be too direct and controlling for ISFPs' preference for autonomy and gentle engagement. Developed versions of these types can pair well; underdeveloped versions can inadvertently make ISFPs feel managed or criticized." },
+            { label: "ENTP and INTP.", desc: "NT-Perceiving types engage intellectually and abstractly in ways that can feel disconnected from the present, relational, and experiential world that ISFPs care most about. The gap between NTP's abstract challenge-seeking and ISFP's concrete present-focused warmth can be hard to bridge." },
+          ]),
+      },
+      {
+        heading: "ISFPs in friendship",
+        html: p("ISFPs are among the most genuinely present friends — they're not performing warmth or connection, they're actually there. They notice what others miss, remember what matters, and show care through thoughtful, small actions that accumulate into something deeply meaningful over time.") +
+          p("Their challenge in friendship is that their quietness can be misread as disinterest. ISFPs who care deeply may not show it in legible ways — especially to more expressive types who need explicit verbal investment. They can be deeply loyal to friends who have no idea how much they're valued.") +
+          p("Their best friendships are with types who can read subtlety, appreciate the quality of attention ISFPs bring, and don't require performative warmth. People who can simply be present together without filling every silence tend to become the closest ISFP friends."),
+      },
+    ],
+    faqs: [
+      { question: "What is the best match for an ISFP?", answer: "ESFJs and ESTJs are often cited as strong ISFP matches — ESFJs bring warm structure and organized care that holds the ISFP; ESTJs provide decisive direction and reliable presence that helps ISFPs externalize their values. ENFJs pair well for genuine developmental investment in who the ISFP is becoming." },
+      { question: "Are ISFPs good partners?", answer: "ISFPs are genuinely warm, aesthetically attentive, and deeply loyal partners who bring a quality of present care that is rare. They're challenging for partners who need frequent verbal expressiveness or who interpret ISFP's quietness as lack of feeling. ISFPs love deeply and consistently — they just express it through presence, attention, and thoughtful action rather than words." },
+      { question: "Who should an ISFP marry?", answer: "ISFPs tend to thrive with partners who respect their privacy and autonomy, are patient enough to earn their trust, can appreciate care expressed through action and presence rather than words, and don't pressure them into external performance or conformity. The most important quality: the partner must genuinely accept the ISFP as they are rather than trying to change them." },
+      { question: "What types are least compatible with ISFP?", answer: "ENTPs are often the most challenging ISFP match — they challenge convention, engage abstractly, and move fast in ways that conflict with ISFP's preference for genuine present-focused warmth and values-grounded authenticity." },
+    ],
+    ctaHeading: "Discover your full personality profile — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, DISC profile, Enneagram type, and Strengths — all from one 15-minute assessment.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ISFP personality type guide", url: "/blog/isfp-personality-type" },
+      { label: "ESFJ personality type", url: "/blog/esfj-personality-type" },
+      { label: "ISFP vs INFP", url: "/blog/isfp-vs-infp" },
+      { label: "ISFP careers guide", url: "/blog/isfp-careers" },
+    ],
+    datePublished: "2026-04-18",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

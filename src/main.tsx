@@ -253,6 +253,14 @@ function AppRoutes() {
       <Route path="/blog/entj-compatible-types" element={<BlogPage slug="entj-compatible-types" />} />
       <Route path="/blog/entp-compatible-types" element={<BlogPage slug="entp-compatible-types" />} />
       <Route path="/blog/enfj-compatible-types" element={<BlogPage slug="enfj-compatible-types" />} />
+      <Route path="/blog/isfj-compatible-types" element={<BlogPage slug="isfj-compatible-types" />} />
+      <Route path="/blog/esfj-compatible-types" element={<BlogPage slug="esfj-compatible-types" />} />
+      <Route path="/blog/estj-compatible-types" element={<BlogPage slug="estj-compatible-types" />} />
+      <Route path="/blog/istj-compatible-types" element={<BlogPage slug="istj-compatible-types" />} />
+      <Route path="/blog/istp-compatible-types" element={<BlogPage slug="istp-compatible-types" />} />
+      <Route path="/blog/estp-compatible-types" element={<BlogPage slug="estp-compatible-types" />} />
+      <Route path="/blog/esfp-compatible-types" element={<BlogPage slug="esfp-compatible-types" />} />
+      <Route path="/blog/isfp-compatible-types" element={<BlogPage slug="isfp-compatible-types" />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="/relationship/:id" element={<RelationshipReportPage />} />

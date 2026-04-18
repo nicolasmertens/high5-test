@@ -2465,6 +2465,54 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/enfj-compatible-types",
     ogType: "article",
   },
+  "/blog/isfj-compatible-types": {
+    title: "ISFJ Compatible Types — Best and Worst Matches Explained",
+    description: "Which personality types are most compatible with ISFJ? Learn the best matches for ISFJ in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/isfj-compatible-types",
+    ogType: "article",
+  },
+  "/blog/esfj-compatible-types": {
+    title: "ESFJ Compatible Types — Best and Worst Matches Explained",
+    description: "Which personality types are most compatible with ESFJ? Learn the best matches for ESFJ in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/esfj-compatible-types",
+    ogType: "article",
+  },
+  "/blog/estj-compatible-types": {
+    title: "ESTJ Compatible Types — Best and Worst Matches Explained",
+    description: "Which personality types are most compatible with ESTJ? Learn the best matches for ESTJ in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/estj-compatible-types",
+    ogType: "article",
+  },
+  "/blog/istj-compatible-types": {
+    title: "ISTJ Compatible Types — Best and Worst Matches Explained",
+    description: "Which personality types are most compatible with ISTJ? Learn the best matches for ISTJ in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/istj-compatible-types",
+    ogType: "article",
+  },
+  "/blog/istp-compatible-types": {
+    title: "ISTP Compatible Types — Best and Worst Matches Explained",
+    description: "Which personality types are most compatible with ISTP? Learn the best matches for ISTP in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/istp-compatible-types",
+    ogType: "article",
+  },
+  "/blog/estp-compatible-types": {
+    title: "ESTP Compatible Types — Best and Worst Matches Explained",
+    description: "Which personality types are most compatible with ESTP? Learn the best matches for ESTP in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/estp-compatible-types",
+    ogType: "article",
+  },
+  "/blog/esfp-compatible-types": {
+    title: "ESFP Compatible Types — Best and Worst Matches Explained",
+    description: "Which personality types are most compatible with ESFP? Learn the best matches for ESFP in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/esfp-compatible-types",
+    ogType: "article",
+  },
+  "/blog/isfp-compatible-types": {
+    title: "ISFP Compatible Types — Best and Worst Matches Explained",
+    description: "Which personality types are most compatible with ISFP? Learn the best matches for ISFP in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/isfp-compatible-types",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {
