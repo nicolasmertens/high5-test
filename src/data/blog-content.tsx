@@ -12175,6 +12175,360 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-18",
   },
+
+  // ===== PERSONALITY TYPE COMPARISON PAGES =====
+
+  "infp-vs-infj": {
+    slug: "infp-vs-infj",
+    metaTitle: "INFP vs INFJ — Key Differences, Similarities, and How to Tell Them Apart",
+    metaDesc: "INFP and INFJ look similar but work very differently. This guide covers the core differences in thinking, communication, energy, and how each type approaches life.",
+    canonicalUrl: "https://1test.me/blog/infp-vs-infj",
+    h1: "INFP vs INFJ — Key Differences, Similarities, and How to Tell Them Apart",
+    sections: [
+      {
+        heading: "Why INFP and INFJ Are So Often Confused",
+        html: p("INFP and INFJ share three letters and a general personality texture — they are both introverted, empathetic, values-driven, and idealistic. People frequently mistype between them, and both types are prone to identifying with the other's description.") +
+          p("But the similarities are mostly surface-level. Underneath, INFP and INFJ process information in fundamentally different ways, use different decision-making strategies, and experience the world through different cognitive lenses.") +
+          p("If you are not sure which you are, <a href=\"/free-personality-test\">take the free personality test</a> — it will give you your full 16 Personalities profile alongside DISC, Enneagram, and Strengths results."),
+      },
+      {
+        heading: "The Core Difference: Intuition and Values",
+        html: p("The most important difference between INFP and INFJ lies in how they use intuition and feeling:") +
+          strong([
+            { label: "INFJ leads with intuition, supports with feeling.", desc: "INFJs use introverted intuition as their primary function — they form impressions about patterns, meanings, and future directions. They then filter these insights through extraverted feeling to consider how they affect people. This gives INFJs a visionary quality: they see what could be and work toward it with organized purpose." },
+            { label: "INFP leads with feeling, supports with intuition.", desc: "INFPs use introverted feeling as their primary function — they have a rich, stable inner value system that guides every decision. They use introverted intuition as a support function to make sense of the world's patterns. This makes INFPs intensely personal and value-driven rather than vision-driven." },
+          ]) +
+          p("In practice: an INFJ is more likely to work toward a specific vision for the future with a plan. An INFP is more likely to respond to situations based on how they feel about them in the moment, guided by a deeply held set of personal ethics."),
+      },
+      {
+        heading: "Behavioral Differences in Everyday Life",
+        html: p("These functional differences show up in predictable behavioral patterns:") +
+          strong([
+            { label: "Decision-making.", desc: "INFJs tend to make decisions more decisively — once their intuition says something, they act. INFPs spend more time checking decisions against their inner values and can struggle with choices that seem to violate their principles." },
+            { label: "Organization.", desc: "INFJs are Judging types — they prefer structure, closure, and planning. INFPs are Perceiving types — they are more flexible, open-ended, and comfortable leaving things unresolved." },
+            { label: "Conflict.", desc: "Both types avoid conflict, but for different reasons. INFJs avoid conflict because they want external harmony (feeling function is extraverted). INFPs avoid conflict because it feels like a personal violation — conflict challenges their values (feeling function is introverted)." },
+            { label: "Social energy.", desc: "Both are introverts, but INFJs can handle social environments longer before draining. They can use their extraverted feeling to engage others effectively. INFPs often withdraw quickly — social situations can feel like they require too much performance." },
+          ]),
+      },
+      {
+        heading: "How to Tell If You Are INFP or INFJ",
+        html: p("A few diagnostic questions can help clarify your type:") +
+          ul([
+            "Do you make decisions based on a vision of what could be (INFJ) or based on what feels right according to your values (INFP)?",
+            "Do you prefer to have things settled and planned (INFJ) or are you more comfortable leaving things open (INFP)?",
+            "Do you absorb others' emotions (INFJ — extraverted feeling) or are you more aware of your own inner emotional state (INFP — introverted feeling)?",
+            "Do you tend to work toward a specific future outcome with organized effort (INFJ) or do you respond more to what feels meaningful in the moment (INFP)?",
+          ]) +
+          p("The most reliable method is the <a href=\"/free-personality-test\">free personality test</a>, which uses 120 calibrated questions to identify your actual cognitive preferences rather than relying on self-report alone."),
+      },
+    ],
+    faqs: [
+      { question: "What is the main difference between INFP and INFJ?", answer: "The core difference is cognitive: INFJs lead with introverted intuition (visionary pattern recognition) and support with extraverted feeling (people awareness). INFPs lead with introverted feeling (deep personal values) and support with extraverted intuition (ideas and possibilities). INFJs are more vision-oriented and organized; INFPs are more values-oriented and flexible." },
+      { question: "Are INFP and INFJ compatible?", answer: "INFP and INFJ often form strong, deep connections. They share empathy, idealism, and a preference for meaningful conversation. The INFJ's structure can help the INFP, while the INFP's authenticity and flexibility can help the INFJ loosen up. Compatibility depends more on individual maturity and communication than type alone." },
+      { question: "Can you be both INFP and INFJ?", answer: "No — in 16 Personalities typing, you have one dominant cognitive function stack. However, you can have preferences that border between J and P, which is why some people identify with both types. If you are genuinely unsure, the deciding factor is usually the J/P distinction: do you prefer closure and planning (J/INFJ) or openness and flexibility (P/INFP)?" },
+      { question: "Which is rarer, INFP or INFJ?", answer: "INFJ is generally considered rarer, making up about 1–2% of the population. INFP is more common at approximately 4–5%. Both are among the more introspective and idealistic types." },
+    ],
+    ctaHeading: "Find out if you are INFP or INFJ",
+    ctaSubtext: "The free personality test uses 120 questions to identify your type — plus DISC, Enneagram, and Strengths. No paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INFP personality type", url: "/blog/infp-personality-type" },
+      { label: "INFJ personality type", url: "/blog/infj-personality-type" },
+      { label: "16 Personalities test guide", url: "/blog/understanding-16-personalities" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "intj-vs-intp": {
+    slug: "intj-vs-intp",
+    metaTitle: "INTJ vs INTP — Key Differences, How to Tell Them Apart",
+    metaDesc: "INTJ and INTP are both analytical introverts — but they think, plan, and decide very differently. Complete comparison of strengths, behavior, and careers.",
+    canonicalUrl: "https://1test.me/blog/intj-vs-intp",
+    h1: "INTJ vs INTP — How to Tell Two Analytical Introverts Apart",
+    sections: [
+      {
+        heading: "Why INTJ and INTP Are Easy to Confuse",
+        html: p("Both INTJ and INTP are analytical, introverted, and drawn to complex ideas. They are both independent thinkers who value competence and tend to prefer intellectual conversation over small talk. From the outside — and sometimes from the inside — they can look nearly identical.") +
+          p("But under the surface, INTJ and INTP have very different cognitive structures. They process information differently, approach decisions differently, and experience the world differently.") +
+          p("Still unsure of your type? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "The Core Difference: Vision vs. Analysis",
+        html: p("The key functional difference:") +
+          strong([
+            { label: "INTJ leads with introverted intuition.", desc: "INTJs form internal models of how things work and where they are going. They use these models to set ambitious long-term goals and build systematic plans to reach them. They are convergent thinkers — they draw information in to form a clear conviction, then execute on it." },
+            { label: "INTP leads with introverted thinking.", desc: "INTPs build internal logical frameworks. They use these to analyze how things work at a fundamental level. They are more exploratory than convergent — they follow a logical thread wherever it leads, often generating new frameworks rather than converging on a single conclusion." },
+          ]) +
+          p("In practice: INTJs are more decisive and goal-oriented. Once they have a model of what should happen, they execute efficiently. INTPs are more exploratory — they may never fully commit to a conclusion because there is always another angle to consider."),
+      },
+      {
+        heading: "Behavioral Differences",
+        html: p("These differences manifest in predictable ways:") +
+          strong([
+            { label: "Planning and closure.", desc: "INTJs (Judging) prefer organized plans and closure. They are uncomfortable with ambiguity in their goals. INTPs (Perceiving) leave things open — they are energized by possibilities and find premature closure stifling." },
+            { label: "Decisiveness.", desc: "INTJs make decisions with confidence once their analysis is complete. INTPs often struggle to fully commit — there is always another logical thread to pull." },
+            { label: "Social patterns.", desc: "Both are introverted, but INTJs have more extraverted feeling available as a tertiary function — they can read social dynamics more readily than INTPs. INTPs can be genuinely oblivious to social undercurrents." },
+            { label: "Perfectionism.", desc: "Both types have high standards, but for different reasons. INTJs want their vision executed correctly. INTPs want their logical framework to be airtight." },
+          ]),
+      },
+      {
+        heading: "INTJ vs INTP in Careers",
+        html: p("Both types excel in analytical roles, but their career sweet spots differ:") +
+          p("<strong>INTJ career strengths:</strong> Strategic planning, executive leadership, systems architecture, long-term product vision, management consulting, and any role requiring the design and execution of complex plans.") +
+          p("<strong>INTP career strengths:</strong> Pure research, theoretical mathematics, software development, academic philosophy, data science, and roles that reward deep analytical exploration without requiring immediate implementation.") +
+          p("The practical difference: INTJs are better at turning their thinking into organizational action. INTPs are better at generating original theoretical frameworks. Many successful products are built when INTJs and INTPs work together — one provides the vision and execution drive, the other provides the conceptual depth."),
+      },
+    ],
+    faqs: [
+      { question: "What is the main difference between INTJ and INTP?", answer: "INTJs lead with introverted intuition — they form a clear vision and execute it with organized discipline. INTPs lead with introverted thinking — they build logical frameworks and explore problems with relentless analytical depth. INTJs are decisive and goal-focused; INTPs are exploratory and framework-focused." },
+      { question: "Are INTJ and INTP compatible?", answer: "INTJ and INTP often form strong intellectual partnerships. They share analytical depth, introversion, and high standards. The INTJ provides direction and decisiveness that the INTP may lack; the INTP provides conceptual depth and logical rigor that the INTJ appreciates. As romantic partners, they need to work on emotional expression." },
+      { question: "Which is smarter, INTJ or INTP?", answer: "Neither type is 'smarter' — intelligence varies within every type. INTJs tend to channel their analytical ability toward strategic goals and systematic execution. INTPs tend to channel theirs toward pure conceptual understanding and framework-building. They express their intellectual strengths differently." },
+      { question: "How do I know if I am INTJ or INTP?", answer: "The key question is: do you prefer having things decided and planned (INTJ/Judging) or do you prefer keeping things open and exploring further (INTP/Perceiving)? INTJs feel energized by closure; INTPs feel constrained by it. The free personality test can help clarify this with 120 calibrated questions." },
+    ],
+    ctaHeading: "Find out if you are INTJ or INTP",
+    ctaSubtext: "Free personality test — 120 questions, complete 16 Personalities results plus DISC, Enneagram, and Strengths. No paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INTJ personality type", url: "/blog/intj-personality-type" },
+      { label: "INTP personality type", url: "/blog/intp-personality-type" },
+      { label: "16 Personalities test guide", url: "/blog/understanding-16-personalities" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enfp-vs-enfj": {
+    slug: "enfp-vs-enfj",
+    metaTitle: "ENFP vs ENFJ — Similarities, Differences, and How to Tell Them Apart",
+    metaDesc: "ENFP and ENFJ are both charismatic and people-focused, but they think and lead very differently. Complete comparison covering behavior, careers, and relationships.",
+    canonicalUrl: "https://1test.me/blog/enfp-vs-enfj",
+    h1: "ENFP vs ENFJ — Two Charismatic Types, Different Engines",
+    sections: [
+      {
+        heading: "Why ENFP and ENFJ Are Often Confused",
+        html: p("ENFPs and ENFJs are both extraverted, warm, and energized by people. Both are enthusiastic communicators who are good at inspiring others. In social settings, they can appear nearly identical.") +
+          p("The difference lies deeper: ENFPs are led by intuition and are energized by possibilities and ideas. ENFJs are led by feeling and are energized by people's growth and wellbeing. This seemingly small difference creates substantially different patterns of behavior, leadership, and decision-making.") +
+          p("Not sure which you are? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "The Core Difference: Ideas vs. People",
+        html: p("The functional difference:") +
+          strong([
+            { label: "ENFP leads with extraverted intuition.", desc: "ENFPs are driven by ideas, possibilities, and connections between things. They light up when they discover new angles on a problem or find unexpected creative solutions. People energize them, but ideas fuel them." },
+            { label: "ENFJ leads with extraverted feeling.", desc: "ENFJs are driven by people's emotional states and growth. They are constantly reading the room, aware of who needs what, and organizing their actions around creating the best outcome for everyone involved. People do not just energize ENFJs — people are their primary focus." },
+          ]) +
+          p("In practice: an ENFP at a party is excited about the interesting conversations and creative energy. An ENFJ at the same party is checking in on each guest, making sure everyone feels included, and mediating any tension that arises."),
+      },
+      {
+        heading: "Behavioral Differences",
+        html: p("Key behavioral patterns that separate the two types:") +
+          strong([
+            { label: "Follow-through.", desc: "ENFJs (Judging) follow through on commitments consistently. ENFPs (Perceiving) are more likely to abandon projects when novelty fades and move on to the next exciting idea." },
+            { label: "Planning.", desc: "ENFJs plan and organize with genuine discipline. ENFPs resist structure and often work best in flexible, open-ended environments." },
+            { label: "Leadership style.", desc: "ENFJs lead by nurturing and developing people. They build cultures of care. ENFPs lead by inspiring excitement and possibility — they are idea generators and morale boosters, but may not sustain the day-to-day organizational work." },
+            { label: "Conflict.", desc: "Both avoid conflict, but ENFJs feel it more personally and work harder to mediate it actively. ENFPs may disengage from conflict to preserve their energy for more exciting things." },
+          ]),
+      },
+      {
+        heading: "ENFP vs ENFJ in Careers and Relationships",
+        html: p("<strong>Career differences:</strong> ENFJs excel in teaching, counseling, leadership, and human development roles where their people focus creates direct impact. ENFPs excel in entrepreneurship, marketing, creative work, and idea-driven roles where their enthusiasm and innovation shine.") +
+          p("<strong>Relationship differences:</strong> ENFJs are more consistently attentive partners — they track their partner's emotional state and needs with genuine care. ENFPs bring excitement and creativity but may need reminders to check in consistently. Both are warm, affectionate, and committed to their partners' growth."),
+      },
+    ],
+    faqs: [
+      { question: "What is the main difference between ENFP and ENFJ?", answer: "ENFPs lead with extraverted intuition — they are ideas-driven, spontaneous, and energized by possibilities. ENFJs lead with extraverted feeling — they are people-driven, organized, and energized by others' growth and wellbeing. ENFPs are more flexible and creative; ENFJs are more structured and people-focused." },
+      { question: "Are ENFP and ENFJ compatible?", answer: "ENFP and ENFJ often connect well — both are warm, enthusiastic, and genuinely interested in people. The ENFJ's consistency and care can ground the ENFP's spontaneity, while the ENFP's creativity and openness can keep the ENFJ from becoming rigid. Strong compatibility with some communication work required." },
+      { question: "Which is more common, ENFP or ENFJ?", answer: "ENFPs are more common, representing about 7–8% of the population. ENFJs are rarer at 2–3%. Both are found disproportionately in social, creative, and people-centered professions." },
+      { question: "How do I know if I am ENFP or ENFJ?", answer: "The clearest indicator is the J/P distinction: do you prefer having things planned and settled (ENFJ) or open and exploratory (ENFP)? ENFJs feel more comfortable with structure and commitment. ENFPs feel energized by flexibility and possibilities. The free personality test can confirm your type with 120 calibrated questions." },
+    ],
+    ctaHeading: "Find out if you are ENFP or ENFJ",
+    ctaSubtext: "Free personality test — complete 16 Personalities results plus DISC, Enneagram, and Strengths. No paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ENFP personality type", url: "/blog/enfp-personality-type" },
+      { label: "ENFJ personality type", url: "/blog/enfj-personality-type" },
+      { label: "16 Personalities test guide", url: "/blog/understanding-16-personalities" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "intj-vs-entj": {
+    slug: "intj-vs-entj",
+    metaTitle: "INTJ vs ENTJ — Two Ambitious Leaders, Different Approaches",
+    metaDesc: "INTJ and ENTJ are both strategic, high-achieving types — but they lead, communicate, and recharge differently. Complete comparison with careers and compatibility.",
+    canonicalUrl: "https://1test.me/blog/intj-vs-entj",
+    h1: "INTJ vs ENTJ — Two Ambitious Leaders, Different Approaches",
+    sections: [
+      {
+        heading: "The INTJ-ENTJ Difference at a Glance",
+        html: p("INTJ and ENTJ share a great deal: both are strategic, ambitious, analytically minded, and driven to achieve results. Both hold themselves and others to high standards. Both are natural leaders who are comfortable making difficult decisions.") +
+          p("The key difference is introversion vs. extraversion — but that single dimension creates substantially different patterns of behavior, energy, and leadership style.") +
+          p("Unsure of your type? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "How They Lead Differently",
+        html: p("Both types are effective leaders, but their leadership styles differ significantly:") +
+          strong([
+            { label: "INTJ leadership.", desc: "INTJs lead through the power of their ideas and systems. They may not be highly visible or vocal, but their strategy is usually the clearest in the room. They build organizations around efficient processes and trust their teams to execute. They prefer to direct through written communication, delegation, and systems rather than direct personal presence." },
+            { label: "ENTJ leadership.", desc: "ENTJs lead through personal force and direct engagement. They are highly visible, decisive, and commanding. They drive organizations through sheer energy and force of will. They are present, assertive, and expect immediate results." },
+          ]) +
+          p("In a crisis, both types perform well — but differently. The INTJ develops the strategic response systematically. The ENTJ mobilizes people with decisive authority."),
+      },
+      {
+        heading: "Energy, Communication, and Social Style",
+        html: p("The introversion/extraversion split creates real practical differences:") +
+          strong([
+            { label: "Energy source.", desc: "INTJs recharge in solitude. Extended social engagement depletes them. ENTJs recharge through action and engagement — too much isolation makes them restless." },
+            { label: "Communication.", desc: "INTJs are economical with words. They communicate precisely when they have something important to say. ENTJs are verbally dominant — they think out loud, assert their views directly, and are comfortable taking up conversational space." },
+            { label: "Collaboration.", desc: "INTJs are comfortable working independently for extended periods. ENTJs prefer to be surrounded by capable people and often energize their best thinking through debate and discussion." },
+          ]),
+      },
+      {
+        heading: "INTJ vs ENTJ in Careers",
+        html: p("Both types are overrepresented in leadership roles, but their career paths often diverge:") +
+          p("<strong>INTJ:</strong> Research leadership, technical strategy, systems architecture, law, investment management, and high-level planning roles that reward independent strategic thinking.") +
+          p("<strong>ENTJ:</strong> CEO and C-suite roles, management consulting, entrepreneurship, operations leadership, and any role requiring direct command and organizational mobilization.") +
+          p("If the role requires commanding a room and driving people through personal force, ENTJ has a natural advantage. If the role requires developing sophisticated strategy in relative isolation, INTJ excels."),
+      },
+    ],
+    faqs: [
+      { question: "What is the main difference between INTJ and ENTJ?", answer: "The core difference is introversion vs. extraversion. INTJs are strategic, independent, and energized by solitude. ENTJs are strategic, commanding, and energized by people and action. Both are ambitious and analytical, but ENTJs lead through personal presence while INTJs lead through systems and vision." },
+      { question: "Are INTJ and ENTJ compatible?", answer: "INTJ and ENTJ can form highly effective partnerships — both are competent, direct, and mutually respectful of achievement. The ENTJ's energy and social confidence can complement the INTJ's depth and strategic thinking. Romantically, they need to both develop emotional expressiveness, which does not come naturally to either type." },
+      { question: "Which is more common, INTJ or ENTJ?", answer: "Both are relatively rare. INTJ makes up about 2–4% of the population; ENTJ about 2–3%. Both are more common in leadership roles than in the general population." },
+      { question: "INTJ or ENTJ — which is a better leader?", answer: "Neither is universally better. ENTJs excel in roles requiring direct command, rapid decision-making, and high-visibility leadership. INTJs excel in roles requiring complex strategic planning, systems design, and independent vision. The best leader depends on what the role demands." },
+    ],
+    ctaHeading: "Find out if you are INTJ or ENTJ",
+    ctaSubtext: "Free personality test — 16 Personalities, DISC, Enneagram, and Strengths in one assessment. Complete results, no paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INTJ personality type", url: "/blog/intj-personality-type" },
+      { label: "ENTJ personality type", url: "/blog/entj-personality-type" },
+      { label: "INTJ vs INTP", url: "/blog/intj-vs-intp" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "infp-vs-enfp": {
+    slug: "infp-vs-enfp",
+    metaTitle: "INFP vs ENFP — Similarities, Differences, and How to Tell Them Apart",
+    metaDesc: "INFP and ENFP share warmth and creativity, but extraversion changes everything. Complete comparison of values, energy, careers, and relationships.",
+    canonicalUrl: "https://1test.me/blog/infp-vs-enfp",
+    h1: "INFP vs ENFP — Same Values, Different Energy",
+    sections: [
+      {
+        heading: "What INFP and ENFP Have in Common",
+        html: p("INFP and ENFP differ by only one letter — I vs. E — but share significant common ground. Both types lead with feeling and intuition, meaning they are values-driven, creative, empathetic, and drawn to possibilities and meaning. They are both idealistic, expressive, and genuinely curious about people.") +
+          p("The difference is in how they direct their energy: INFPs direct their energy inward, while ENFPs direct it outward. This single shift creates meaningfully different personality expressions.") +
+          p("Not sure which you are? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "The Energy Difference: Inward vs. Outward",
+        html: p("Introversion and extraversion are not just about being shy or outgoing — they describe where you get your energy and how you process the world:") +
+          strong([
+            { label: "INFP (Introverted).", desc: "INFPs process internally. They need significant alone time to recharge. Their feelings, values, and ideas develop in private before being expressed. They are selective about whom they share with and can appear reserved until trust is established." },
+            { label: "ENFP (Extraverted).", desc: "ENFPs process externally. They think out loud, explore ideas through conversation, and are energized by social interaction. They are naturally gregarious and warm with everyone, not just close friends." },
+          ]) +
+          p("The practical effect: ENFPs appear more spontaneously open and enthusiastic. INFPs may seem more reserved initially, but reveal surprising depth once comfortable."),
+      },
+      {
+        heading: "Behavioral and Work Differences",
+        html: p("Beyond energy, there are meaningful behavioral differences:") +
+          strong([
+            { label: "Networking and collaboration.", desc: "ENFPs thrive in collaborative environments and naturally build large networks. INFPs prefer smaller groups and one-on-one work and can find large collaborative environments draining." },
+            { label: "Creative expression.", desc: "Both types are creative, but INFPs often express creativity through individual work (writing, art, music). ENFPs more often express creativity through collaboration, brainstorming, and performance." },
+            { label: "Career paths.", desc: "Both do well in creative and helping professions, but ENFPs lean toward roles with high social energy (marketing, teaching, coaching, entrepreneurship). INFPs lean toward roles with deep individual expression (writing, counseling, research, fine arts)." },
+          ]),
+      },
+      {
+        heading: "INFP vs ENFP in Relationships",
+        html: p("Both types are warm, empathetic, and deeply committed to authentic connection. But their social styles create different relationship dynamics:") +
+          p("INFPs in relationships are devoted but need significant alone time. They are deeply loyal but may not be as socially expressive as their partner might expect. They show love through thoughtful actions and deep presence.") +
+          p("ENFPs in relationships are enthusiastic, affectionate, and expressive. They bring energy and spontaneity but may spread their attention widely across a large social network. Their challenge is maintaining consistent intimate focus on their partner.") +
+          p("Both types need partners who respect their values and engage them authentically."),
+      },
+    ],
+    faqs: [
+      { question: "What is the difference between INFP and ENFP?", answer: "INFPs are introverted — they process internally, recharge in solitude, and tend to be selective about social engagement. ENFPs are extraverted — they process externally, recharge through social interaction, and are naturally open and enthusiastic with everyone. Both share deep values, creativity, and idealism." },
+      { question: "Are INFP and ENFP compatible?", answer: "INFP and ENFP are often naturally compatible. They share intuition and feeling as cognitive preferences, creating strong empathy and values alignment. The ENFP's energy can draw the INFP out of their shell, while the INFP's depth and authenticity grounds the ENFP. A strong match with good mutual respect for different energy needs." },
+      { question: "How do I know if I am INFP or ENFP?", answer: "The key question is energy: Do social interactions leave you feeling recharged (ENFP) or drained and needing alone time (INFP)? ENFPs naturally seek out people; INFPs naturally seek out solitude. Both can be socially skilled, but their baseline energy direction differs." },
+      { question: "Which is more common, INFP or ENFP?", answer: "ENFPs are more common at 7–8% of the population. INFPs are less common at 4–5%. Both are more prevalent among women than men, and both are overrepresented in creative, educational, and helping professions." },
+    ],
+    ctaHeading: "Find out if you are INFP or ENFP",
+    ctaSubtext: "Free personality test — 120 questions, complete 16 Personalities results plus DISC, Enneagram, and Strengths.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INFP personality type", url: "/blog/infp-personality-type" },
+      { label: "ENFP personality type", url: "/blog/enfp-personality-type" },
+      { label: "INFP vs INFJ", url: "/blog/infp-vs-infj" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "istj-vs-intj": {
+    slug: "istj-vs-intj",
+    metaTitle: "ISTJ vs INTJ — Two Analytical Introverts, Different Strengths",
+    metaDesc: "ISTJ and INTJ are both reliable, analytical, and independent. But sensing vs. intuition creates very different approaches to planning, change, and leadership.",
+    canonicalUrl: "https://1test.me/blog/istj-vs-intj",
+    h1: "ISTJ vs INTJ — Two Reliable Introverts, Very Different Minds",
+    sections: [
+      {
+        heading: "What ISTJ and INTJ Share",
+        html: p("ISTJs and INTJs are both introverted, organized, and independent. Both have high standards, value competence, and prefer to work in structured environments. Both can appear reserved or even cold to others, though this is more about economy of expression than indifference.") +
+          p("The critical difference: ISTJs are Sensing types who are grounded in concrete, proven reality. INTJs are Intuitive types who are focused on patterns, systems, and future possibilities.") +
+          p("Not sure which describes you? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "Sensing vs. Intuition — The Core Divide",
+        html: p("This difference in information processing creates meaningfully different personalities:") +
+          strong([
+            { label: "ISTJ (Sensing).", desc: "ISTJs trust what they can observe, measure, and verify. They rely on established methods and proven processes. They are excellent at implementation, maintenance, and ensuring that standards are upheld. When a system works, they do not change it without good reason." },
+            { label: "INTJ (Intuition).", desc: "INTJs trust patterns and possibilities. They look beyond the current state to see what could or should be. They are most engaged when they can design new systems or improve existing ones. They are more comfortable with abstraction and long-range thinking." },
+          ]) +
+          p("In practice: give both types a broken process. The ISTJ will carefully diagnose what went wrong and restore it to its correct, proven state. The INTJ will diagnose the problem and ask whether the whole system should be redesigned."),
+      },
+      {
+        heading: "Behavioral Differences",
+        html: p("Key differences in everyday behavior:") +
+          strong([
+            { label: "Attitude toward change.", desc: "ISTJs prefer stability and resist change without strong evidence that it will improve things. INTJs are constantly looking for improvement opportunities and may push for change even when others prefer the status quo." },
+            { label: "Planning horizon.", desc: "ISTJs plan thoroughly for the near term. INTJs plan for the long term, often thinking several moves ahead." },
+            { label: "Communication.", desc: "ISTJs are concrete and precise in their communication — they say what they mean literally. INTJs use more abstract, conceptual language and can frustrate others by speaking in patterns and implications." },
+          ]),
+      },
+      {
+        heading: "ISTJ vs INTJ in Careers",
+        html: p("<strong>ISTJ career strengths:</strong> Accounting, auditing, law, operations management, engineering, compliance, database administration — roles requiring precision, reliability, and adherence to established standards.") +
+          p("<strong>INTJ career strengths:</strong> Strategic leadership, research, software architecture, management consulting, investment analysis — roles requiring long-range thinking, systems design, and independent judgment.") +
+          p("The organizations that run smoothly often need both: ISTJs to maintain systems and ensure standards, INTJs to redesign those systems when the environment changes."),
+      },
+    ],
+    faqs: [
+      { question: "What is the main difference between ISTJ and INTJ?", answer: "The core difference is sensing vs. intuition. ISTJs are concrete and grounded — they trust proven methods, maintain standards, and implement reliably. INTJs are abstract and forward-looking — they design new systems, see long-term patterns, and push for improvement. Both are organized, high-standards introverts, but they process information very differently." },
+      { question: "Are ISTJ and INTJ compatible?", answer: "ISTJ and INTJ can work well together professionally — the ISTJ's reliability and precision complements the INTJ's strategic vision. Romantically, they share a preference for independence and directness but may struggle to connect emotionally, since neither type prioritizes emotional expression. Honest communication is essential." },
+      { question: "Which is more common, ISTJ or INTJ?", answer: "ISTJ is one of the most common types, representing about 11–14% of the population. INTJ is much rarer at 2–4%. This reflects a broader population pattern: sensing types are more common than intuitive types." },
+      { question: "How do I know if I am ISTJ or INTJ?", answer: "Ask yourself: do you trust concrete, observable facts and established methods (ISTJ) or patterns, implications, and future possibilities (INTJ)? ISTJs are more comfortable with proven, tangible information. INTJs are more comfortable with abstract, theoretical frameworks. The free personality test can identify this distinction reliably." },
+    ],
+    ctaHeading: "Discover if you are ISTJ or INTJ",
+    ctaSubtext: "Free test — 16 Personalities, DISC, Enneagram, and Strengths in one assessment. Complete results, no paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ISTJ personality type", url: "/blog/istj-personality-type" },
+      { label: "INTJ personality type", url: "/blog/intj-personality-type" },
+      { label: "INTJ vs INTP", url: "/blog/intj-vs-intp" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

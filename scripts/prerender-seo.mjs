@@ -1811,6 +1811,42 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/esfp-personality-type",
     ogType: "article",
   },
+  "/blog/infp-vs-infj": {
+    title: "INFP vs INFJ — Key Differences, Similarities, and How to Tell Them Apart",
+    description: "INFP and INFJ look similar but work very differently. This guide covers the core differences in thinking, communication, energy, and how each type approaches life.",
+    canonicalUrl: "https://1test.me/blog/infp-vs-infj",
+    ogType: "article",
+  },
+  "/blog/intj-vs-intp": {
+    title: "INTJ vs INTP — Key Differences, How to Tell Them Apart",
+    description: "INTJ and INTP are both analytical introverts — but they think, plan, and decide very differently. Complete comparison of strengths, behavior, and careers.",
+    canonicalUrl: "https://1test.me/blog/intj-vs-intp",
+    ogType: "article",
+  },
+  "/blog/enfp-vs-enfj": {
+    title: "ENFP vs ENFJ — Similarities, Differences, and How to Tell Them Apart",
+    description: "ENFP and ENFJ are both charismatic and people-focused, but they think and lead very differently. Complete comparison covering behavior, careers, and relationships.",
+    canonicalUrl: "https://1test.me/blog/enfp-vs-enfj",
+    ogType: "article",
+  },
+  "/blog/intj-vs-entj": {
+    title: "INTJ vs ENTJ — Two Ambitious Leaders, Different Approaches",
+    description: "INTJ and ENTJ are both strategic, high-achieving types — but they lead, communicate, and recharge differently. Complete comparison with careers and compatibility.",
+    canonicalUrl: "https://1test.me/blog/intj-vs-entj",
+    ogType: "article",
+  },
+  "/blog/infp-vs-enfp": {
+    title: "INFP vs ENFP — Similarities, Differences, and How to Tell Them Apart",
+    description: "INFP and ENFP share warmth and creativity, but extraversion changes everything. Complete comparison of values, energy, careers, and relationships.",
+    canonicalUrl: "https://1test.me/blog/infp-vs-enfp",
+    ogType: "article",
+  },
+  "/blog/istj-vs-intj": {
+    title: "ISTJ vs INTJ — Two Analytical Introverts, Different Strengths",
+    description: "ISTJ and INTJ are both reliable, analytical, and independent. But sensing vs. intuition creates very different approaches to planning, change, and leadership.",
+    canonicalUrl: "https://1test.me/blog/istj-vs-intj",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {

@@ -151,6 +151,12 @@ function AppRoutes() {
       <Route path="/blog/isfp-personality-type" element={<BlogPage slug="isfp-personality-type" />} />
       <Route path="/blog/estp-personality-type" element={<BlogPage slug="estp-personality-type" />} />
       <Route path="/blog/esfp-personality-type" element={<BlogPage slug="esfp-personality-type" />} />
+      <Route path="/blog/infp-vs-infj" element={<BlogPage slug="infp-vs-infj" />} />
+      <Route path="/blog/intj-vs-intp" element={<BlogPage slug="intj-vs-intp" />} />
+      <Route path="/blog/enfp-vs-enfj" element={<BlogPage slug="enfp-vs-enfj" />} />
+      <Route path="/blog/intj-vs-entj" element={<BlogPage slug="intj-vs-entj" />} />
+      <Route path="/blog/infp-vs-enfp" element={<BlogPage slug="infp-vs-enfp" />} />
+      <Route path="/blog/istj-vs-intj" element={<BlogPage slug="istj-vs-intj" />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="/relationship/:id" element={<RelationshipReportPage />} />
