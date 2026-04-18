@@ -2417,6 +2417,54 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/intj-vs-infp",
     ogType: "article",
   },
+  "/blog/infj-compatible-types": {
+    title: "INFJ Compatible Types — Best and Worst Matches Explained",
+    description: "Which personality types are most compatible with INFJ? Learn the best matches for INFJ in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/infj-compatible-types",
+    ogType: "article",
+  },
+  "/blog/intj-compatible-types": {
+    title: "INTJ Compatible Types — Best and Worst Matches Explained",
+    description: "Which personality types are most compatible with INTJ? Learn the best matches for INTJ in love and friendship, what makes them work, and what to watch out for.",
+    canonicalUrl: "https://1test.me/blog/intj-compatible-types",
+    ogType: "article",
+  },
+  "/blog/enfp-compatible-types": {
+    title: "ENFP Compatible Types — Best and Worst Matches Explained",
+    description: "Which personality types are most compatible with ENFP? Learn the best matches for ENFP in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/enfp-compatible-types",
+    ogType: "article",
+  },
+  "/blog/infp-compatible-types": {
+    title: "INFP Compatible Types — Best and Worst Matches Explained",
+    description: "Which personality types are most compatible with INFP? Learn the best matches for INFP in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/infp-compatible-types",
+    ogType: "article",
+  },
+  "/blog/intp-compatible-types": {
+    title: "INTP Compatible Types — Best and Worst Matches Explained",
+    description: "Which personality types are most compatible with INTP? Learn the best matches for INTP in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/intp-compatible-types",
+    ogType: "article",
+  },
+  "/blog/entj-compatible-types": {
+    title: "ENTJ Compatible Types — Best and Worst Matches Explained",
+    description: "Which personality types are most compatible with ENTJ? Learn the best matches for ENTJ in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/entj-compatible-types",
+    ogType: "article",
+  },
+  "/blog/entp-compatible-types": {
+    title: "ENTP Compatible Types — Best and Worst Matches Explained",
+    description: "Which personality types are most compatible with ENTP? Learn the best matches for ENTP in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/entp-compatible-types",
+    ogType: "article",
+  },
+  "/blog/enfj-compatible-types": {
+    title: "ENFJ Compatible Types — Best and Worst Matches Explained",
+    description: "Which personality types are most compatible with ENFJ? Learn the best matches for ENFJ in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/enfj-compatible-types",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {

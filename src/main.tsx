@@ -245,6 +245,14 @@ function AppRoutes() {
       <Route path="/blog/entj-vs-entp" element={<BlogPage slug="entj-vs-entp" />} />
       <Route path="/blog/esfj-vs-estj" element={<BlogPage slug="esfj-vs-estj" />} />
       <Route path="/blog/intj-vs-infp" element={<BlogPage slug="intj-vs-infp" />} />
+      <Route path="/blog/infj-compatible-types" element={<BlogPage slug="infj-compatible-types" />} />
+      <Route path="/blog/intj-compatible-types" element={<BlogPage slug="intj-compatible-types" />} />
+      <Route path="/blog/enfp-compatible-types" element={<BlogPage slug="enfp-compatible-types" />} />
+      <Route path="/blog/infp-compatible-types" element={<BlogPage slug="infp-compatible-types" />} />
+      <Route path="/blog/intp-compatible-types" element={<BlogPage slug="intp-compatible-types" />} />
+      <Route path="/blog/entj-compatible-types" element={<BlogPage slug="entj-compatible-types" />} />
+      <Route path="/blog/entp-compatible-types" element={<BlogPage slug="entp-compatible-types" />} />
+      <Route path="/blog/enfj-compatible-types" element={<BlogPage slug="enfj-compatible-types" />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="/relationship/:id" element={<RelationshipReportPage />} />

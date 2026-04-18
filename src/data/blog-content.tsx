@@ -17544,6 +17544,463 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-18",
   },
+
+  "infj-compatible-types": {
+    slug: "infj-compatible-types",
+    metaTitle: "INFJ Compatible Types — Best and Worst Matches Explained",
+    metaDesc: "Which personality types are most compatible with INFJ? Learn the best matches for INFJ in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/infj-compatible-types",
+    h1: "INFJ Compatible Types — Best Matches in Love and Friendship",
+    sections: [
+      {
+        heading: "What INFJs need in relationships",
+        html: p("INFJs are among the most selective types when it comes to relationships. Their dominant Introverted Intuition needs a partner who can engage at depth — someone who sees beneath the surface, thinks about meaning, and can track complex emotional and intellectual territory. Their auxiliary Extroverted Feeling means they're attuned to others' emotions and need genuine reciprocity in that attunement.") +
+          p("INFJs are patient, thoughtful, and deeply loyal partners — but they can close off permanently when trust is broken. They need intellectual stimulation, emotional authenticity, and enough space for their rich inner world. Partners who push for constant social engagement, dismiss abstract thinking, or avoid emotional depth tend to drain INFJs quickly.") +
+          p("Not sure what your type is? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "Best matches for INFJ",
+        html: p("The types most naturally compatible with INFJs:") +
+          strong([
+            { label: "ENFP — the most common 'golden pair.'", desc: "ENFPs bring the social energy and spontaneity that INFJs often lack, while sharing INFJ's deep idealism and love of meaning. The ENFP's Extroverted Intuition creates a constant stream of ideas and possibilities that INFJ's Introverted Intuition loves to dive into. ENFPs help INFJs come out of their shell; INFJs provide the depth and focus ENFPs need." },
+            { label: "ENTP — intellectually stimulating and direct.", desc: "ENTPs challenge INFJs intellectually in ways few other types can. They share the intuitive depth and love of ideas but bring a more analytical, debate-oriented energy. The ENTP pushes the INFJ to articulate and defend their visions; the INFJ gives the ENTP emotional grounding and long-term perspective." },
+            { label: "INTJ — deep understanding, rare friction.", desc: "INFJs and INTJs share Introverted Intuition and are both visionary, private, and independently minded. They understand each other's need for space and depth without explanation. The main difference — F vs T — can actually be complementary: the INFJ brings emotional intelligence; the INTJ brings logical precision." },
+            { label: "INFP — values alignment and mutual depth.", desc: "INFJ and INFP share a fundamental orientation toward meaning, authenticity, and emotional depth. Both are private, idealistic, and intensely loyal. The risk is that both types can be conflict-averse, which means important tensions may simmer unaddressed. With deliberate communication, this is a highly compatible pair." },
+          ]),
+      },
+      {
+        heading: "More challenging matches for INFJ",
+        html: p("These matches can work with awareness, but require more deliberate effort:") +
+          strong([
+            { label: "ESTP and ISTP.", desc: "Sensor-Thinker types often struggle to meet the INFJ's need for depth and emotional attunement. ESTPs are present-focused and action-oriented; INFJs are future-focused and meaning-seeking. These types can attract each other initially but often diverge on what they need from a relationship over time." },
+            { label: "ESTJ and ISTJ.", desc: "SJ types provide stability and reliability that INFJs can appreciate, but their preference for concrete, conventional thinking can frustrate the INFJ's abstract, visionary orientation. INFJs may feel misunderstood or simplified by partners who prioritize practical action over depth." },
+          ]) +
+          p("Compatibility ultimately depends on individual development, communication skills, and shared values — not just type. Any combination can work with sufficient self-awareness."),
+      },
+      {
+        heading: "INFJs in friendship",
+        html: p("INFJs are selective, patient friends who invest deeply in a small number of relationships. They're loyal to a degree that surprises people — they'll show up years later when a friend needs help. But they need friendships that go somewhere — conversations that move into real territory, not just small talk and logistics.") +
+          p("INFJs often find their closest friendships with other intuitive types (N preferences) who share the same love of ideas, patterns, and meaning. They can be close friends with any type, but friendship requires reciprocal depth — they don't maintain surface-level connections for long.") +
+          p("The 'INFJ door slam' — the phenomenon of INFJs permanently ending relationships — usually happens when trust is broken in a way that feels fundamental, not just painful. INFJs forgive a lot, but when they've decided a relationship isn't worth the cost, they disengage completely."),
+      },
+    ],
+    faqs: [
+      { question: "What is the best match for an INFJ?", answer: "ENFPs are the most commonly cited best match for INFJs — they share deep idealism and love of meaning while bringing the social energy and spontaneity that INFJs often lack. ENTPs are a close second, providing intellectual challenge and direct engagement. INTJs also pair very well, sharing Introverted Intuition and mutual respect for depth and independence." },
+      { question: "Are INFJs and INFPs compatible?", answer: "Yes — they share strong values alignment, idealism, and emotional depth. Both are private, authentic, and deeply loyal. The main risk is shared conflict-avoidance: both types prefer harmony and may avoid addressing friction directly, which can allow small tensions to accumulate. With deliberate communication, this is a highly compatible pairing." },
+      { question: "Who should an INFJ marry?", answer: "INFJs tend to thrive with partners who can engage at emotional and intellectual depth, respect their need for solitude, and share a fundamental orientation toward meaning and authenticity. Type aside, the key traits are: genuine curiosity about life, emotional honesty, respect for privacy, and the ability to handle the INFJ's occasional need to disappear into their inner world." },
+      { question: "What types are least compatible with INFJ?", answer: "ESTPs and ESTJs are often cited as the most challenging matches for INFJs — not because the pairings can't work, but because they require the most deliberate bridging of different orientations. Sensor-Thinker types tend to be present-focused and concrete; INFJs are future-focused and abstract. These differences can create persistent misalignment if not consciously addressed." },
+    ],
+    ctaHeading: "Discover your full personality profile — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, DISC profile, Enneagram type, and Strengths — all from one 15-minute assessment.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INFJ personality type guide", url: "/blog/infj-personality-type" },
+      { label: "ENFP personality type", url: "/blog/enfp-personality-type" },
+      { label: "INFJ vs INTJ", url: "/blog/infj-vs-intj" },
+      { label: "INFJ vs INFP", url: "/blog/infp-vs-infj" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "intj-compatible-types": {
+    slug: "intj-compatible-types",
+    metaTitle: "INTJ Compatible Types — Best and Worst Matches Explained",
+    metaDesc: "Which personality types are most compatible with INTJ? Learn the best matches for INTJ in love and friendship, what makes them work, and what to watch out for.",
+    canonicalUrl: "https://1test.me/blog/intj-compatible-types",
+    h1: "INTJ Compatible Types — Best Matches in Love and Friendship",
+    sections: [
+      {
+        heading: "What INTJs need in relationships",
+        html: p("INTJs are among the most independent and self-sufficient types — and the most selective in relationships. Their dominant Introverted Intuition needs a partner who can keep up intellectually and engage with complex ideas without requiring constant explanation or validation. Their auxiliary Extroverted Thinking means they value competence and direct communication.") +
+          p("INTJs need space. A lot of it. They need a partner who doesn't interpret solitude as rejection. They need intellectual stimulation, honest communication, and a relationship that grows rather than just maintains. Partners who require constant emotional reassurance, prefer small talk over depth, or struggle with INTJs' characteristic directness often find the relationship exhausting.") +
+          p("Not sure what your type is? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "Best matches for INTJ",
+        html: p("The types most naturally compatible with INTJs:") +
+          strong([
+            { label: "ENFP — complementary in almost every dimension.", desc: "ENFPs bring warmth, social energy, and emotional expressiveness that INTJs often lack and secretly need. Both share deep intuitive thinking and a love of ideas. The ENFP helps the INTJ engage with people; the INTJ provides the structure and depth the ENFP craves. This is one of the most balanced pairings across all 16 types." },
+            { label: "ENTP — intellectually matched and direct.", desc: "INTJs and ENTPs share a fundamental love of ideas, debate, and complexity. ENTPs are one of the few types that can genuinely challenge an INTJ intellectually without the INTJ dismissing them. Both are direct and analytical; neither requires constant emotional management. The difference in execution style (INTJ follows through; ENTP often doesn't) can create friction." },
+            { label: "INFJ — deep understanding and shared vision.", desc: "INTJs and INFJs share Introverted Intuition and are both intensely private, future-oriented, and independently minded. They understand each other's need for space and depth. The F vs T difference often proves complementary: the INFJ brings emotional intelligence and interpersonal care; the INTJ brings logical precision and decisive action." },
+            { label: "INTP — intellectual depth and mutual respect.", desc: "Both are private, analytical, and independently minded. They can coexist comfortably without requiring constant engagement and can build a relationship around shared intellectual exploration. The main risk: both types can struggle to express emotional needs directly, which can leave important things unsaid." },
+          ]),
+      },
+      {
+        heading: "More challenging matches for INTJ",
+        html: p("These pairings require more deliberate effort:") +
+          strong([
+            { label: "ESFJ and ISFJ.", desc: "SFJ types prioritize harmony, tradition, and relational warmth — areas where INTJs tend to be underdeveloped. INTJs can come across as cold or dismissive to types who lead with Feeling. SFJ types may interpret INTJ directness as personal rejection. With high mutual investment, this can work — but it requires significant bridging." },
+            { label: "ESFP and ISFP.", desc: "SP Feeling types are present-focused, experiential, and emotionally responsive — all areas that contrast with INTJ's abstract, future-oriented, Thinking-dominant style. INTJs can find SP types superficial; SP types can find INTJs cold and inaccessible." },
+          ]),
+      },
+      {
+        heading: "INTJs in friendship",
+        html: p("INTJs are intensely loyal to their small circle of close friends — and almost completely unavailable to everyone else. They rarely maintain friendships for social obligation; every relationship in their life earns its place by providing genuine value: intellectual stimulation, honest feedback, or shared meaningful work.") +
+          p("INTJ friendships often look nothing like typical friendship from the outside. They might go months without contact and then pick up exactly where they left off. What they can't maintain is forced socialization or relationships that require constant maintenance without depth.") +
+          p("Their closest friendships are often with other intuitive types (N preferences) who can engage with complexity and abstraction. They tend to deeply value the rare person who can push back on them without becoming defensive — it's how they know the feedback is worth something."),
+      },
+    ],
+    faqs: [
+      { question: "What is the best match for an INTJ?", answer: "ENFPs are often cited as the best match for INTJs — they provide the warmth, emotional expressiveness, and social energy that INTJs lack while sharing the same love of deep ideas and complexity. ENTPs are a close second for intellectual matching. INFJs also pair very well, sharing Introverted Intuition and mutual respect for privacy and independence." },
+      { question: "Are INTJs hard to be in a relationship with?", answer: "INTJs can be challenging partners for types who need constant emotional reassurance or who interpret silence as a problem. They communicate directly, need significant alone time, and don't maintain relationships through small talk or surface-level connection. Partners who understand and respect this find INTJs to be deeply loyal and intellectually stimulating. The difficulty usually comes from misinterpreting INTJ's independence as coldness." },
+      { question: "Who should an INTJ marry?", answer: "INTJs tend to thrive with partners who are intellectually curious, emotionally self-sufficient, comfortable with direct communication, and able to give them space without feeling abandoned. Type aside, the key traits are: genuine intellectual engagement, honesty, comfort with independence, and the ability to not take the INTJ's directness personally." },
+      { question: "What types are least compatible with INTJ?", answer: "ESFJs and ESFPs are often the most challenging matches for INTJs — not because these pairings can never work, but because they require bridging significant differences in nearly every major dimension: extraversion vs introversion, sensing vs intuition, feeling vs thinking, and often judging vs perceiving. The effort can be worthwhile with sufficient mutual investment, but it requires deliberate work from both sides." },
+    ],
+    ctaHeading: "Discover your full personality profile — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, DISC profile, Enneagram type, and Strengths — all from one 15-minute assessment.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INTJ personality type guide", url: "/blog/intj-personality-type" },
+      { label: "ENFP personality type", url: "/blog/enfp-personality-type" },
+      { label: "INTJ vs INFJ", url: "/blog/infj-vs-intj" },
+      { label: "INTJ vs INTP", url: "/blog/intj-vs-intp" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enfp-compatible-types": {
+    slug: "enfp-compatible-types",
+    metaTitle: "ENFP Compatible Types — Best and Worst Matches Explained",
+    metaDesc: "Which personality types are most compatible with ENFP? Learn the best matches for ENFP in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/enfp-compatible-types",
+    h1: "ENFP Compatible Types — Best Matches in Love and Friendship",
+    sections: [
+      {
+        heading: "What ENFPs need in relationships",
+        html: p("ENFPs are warm, expressive, and idealistic partners who need relationships that go somewhere — that grow, evolve, and mean something. Their dominant Extroverted Intuition is always scanning for possibilities, including possibilities for what a relationship could become. Their auxiliary Introverted Feeling means they need authentic emotional connection, not just social compatibility.") +
+          p("ENFPs need partners who can engage intellectually and emotionally, who don't shut down their enthusiasm, and who are honest with them. They struggle with partners who are emotionally closed off, rigidly conventional, or unable to engage with complexity. They also need partners who can handle their occasional withdrawal into introspection — their extroversion is real, but so is their need for internal processing.") +
+          p("Not sure what your type is? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "Best matches for ENFP",
+        html: p("The types most naturally compatible with ENFPs:") +
+          strong([
+            { label: "INTJ — the most cited 'golden pair.'", desc: "INTJs provide the structure, depth, and strategic clarity that ENFPs often lack. ENFPs provide the warmth, social fluency, and emotional expressiveness that INTJs often suppress. Both share deep intuitive thinking and a love of complexity. The INTJ grounds the ENFP; the ENFP opens the INTJ. This complementary dynamic is genuinely stabilizing for both." },
+            { label: "INFJ — deep values alignment.", desc: "ENFPs and INFJs share a fundamental orientation toward meaning, authenticity, and depth. Both are idealistic, empathetic, and privately complex. The INFJ brings focused, sustained depth; the ENFP brings spontaneity and social energy. Both understand each other's need to go deep — in conversation, in relationship, in life." },
+            { label: "INTP — intellectual spark and honesty.", desc: "ENFPs and INTPs often develop strong intellectual friendships that can grow into more. The INTP's analytical rigor challenges the ENFP's often-intuitive leaps; the ENFP's warmth and enthusiasm draws the INTP into more direct social engagement. Both are flexible and independently minded, which reduces the power struggle dynamic." },
+            { label: "ENTP — high energy, shared vision.", desc: "ENFPs and ENTPs are among the most naturally compatible pairs — both are intuitive, flexible, and endlessly curious. They can generate and explore ideas together for hours. The risk: both types can be inconsistent on follow-through and commitment. Without sufficient grounding from somewhere, this pairing can be exciting but unstable." },
+          ]),
+      },
+      {
+        heading: "More challenging matches for ENFP",
+        html: p("These pairings require more deliberate work:") +
+          strong([
+            { label: "ISTJ and ESTJ.", desc: "SJ types provide stability and reliability that ENFPs can genuinely appreciate, but their preference for concrete, conventional thinking can feel limiting to the ENFP. ENFPs need partners who can engage with possibility and abstraction; ISTJs and ESTJs tend to prefer tested procedure and tangible reality." },
+            { label: "ISTP and ESTP.", desc: "SP Thinking types can attract ENFPs initially — they're exciting, direct, and competent in ways ENFPs admire. But the long-term mismatch between ENFP's need for emotional depth and ST types' tendency toward practical surface-level engagement can leave ENFPs feeling chronically misunderstood." },
+          ]),
+      },
+      {
+        heading: "ENFPs in friendship",
+        html: p("ENFPs are among the warmest and most naturally gifted friends — they make people feel seen, interesting, and important. They remember details, ask follow-up questions, and genuinely care. Their challenge isn't making friends; it's maintaining the depth they need within them.") +
+          p("ENFPs often have large social networks but a small inner circle of people they trust with their actual inner world. They can be deeply private beneath the social warmth, which surprises people who only know their extroverted surface.") +
+          p("Their best friendships are with types who can reciprocate depth — who go beyond small talk, who engage with ideas and meaning, and who are honest with them even when it's uncomfortable. ENFPs often feel lonely in friendships that are warm but shallow."),
+      },
+    ],
+    faqs: [
+      { question: "What is the best match for an ENFP?", answer: "INTJs are most often cited as the best match for ENFPs — they provide the structure, strategic depth, and logical grounding that ENFPs often lack while sharing the same love of complex ideas. INFJs are a close second, providing deep values alignment and emotional resonance. ENTPs are also highly compatible for intellectual spark." },
+      { question: "Are ENFPs and INFJs compatible?", answer: "Yes — this is a commonly cited and genuinely compatible pairing. Both share idealism, a love of depth, and a fundamental orientation toward meaning. INFJs provide focused, sustained depth; ENFPs provide spontaneity and social energy. Both understand each other's complexity in ways that feel rare. The main challenge is that both types can be conflict-averse, requiring deliberate effort to address friction directly." },
+      { question: "Who should an ENFP marry?", answer: "ENFPs tend to thrive with partners who are intellectually curious, emotionally honest, and able to both engage with complexity and provide some grounding structure. Partners who are too rigid, emotionally closed, or unable to engage with the ENFP's idealism and enthusiasm tend to create a sense of constriction. The most important qualities: genuine curiosity, honest communication, and the ability to appreciate rather than suppress the ENFP's warmth." },
+      { question: "What types are least compatible with ENFP?", answer: "ISTJs and ESTJs are often the most challenging matches for ENFPs — not because these pairings can't work, but because they require significant bridging across multiple dimensions. The ISTJ/ESTJ's preference for conventional, procedural, concrete thinking tends to conflict with the ENFP's love of abstract possibility and unconventional ideas." },
+    ],
+    ctaHeading: "Discover your full personality profile — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, DISC profile, Enneagram type, and Strengths — all from one 15-minute assessment.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ENFP personality type guide", url: "/blog/enfp-personality-type" },
+      { label: "INTJ personality type", url: "/blog/intj-personality-type" },
+      { label: "ENFP vs INFP", url: "/blog/infp-vs-enfp" },
+      { label: "ENFP careers guide", url: "/blog/enfp-careers" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "infp-compatible-types": {
+    slug: "infp-compatible-types",
+    metaTitle: "INFP Compatible Types — Best and Worst Matches Explained",
+    metaDesc: "Which personality types are most compatible with INFP? Learn the best matches for INFP in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/infp-compatible-types",
+    h1: "INFP Compatible Types — Best Matches in Love and Friendship",
+    sections: [
+      {
+        heading: "What INFPs need in relationships",
+        html: p("INFPs are among the most values-driven and emotionally intense types in relationships. Their dominant Introverted Feeling holds authenticity and personal values as paramount — they need a relationship that feels real, not performed. Their auxiliary Extroverted Intuition is always exploring possibilities, including what a relationship could become and whether it's growing toward something meaningful.") +
+          p("INFPs need partners who take them seriously — who don't dismiss their emotional depth or try to simplify their complex inner world. They need authenticity over social performance, patience over pressure, and a relationship where they feel safe to be fully themselves. Partners who are emotionally closed off, highly conventional, or who mistake INFP's quiet for contentment often miss what INFPs actually need.") +
+          p("Not sure what your type is? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "Best matches for INFP",
+        html: p("The types most naturally compatible with INFPs:") +
+          strong([
+            { label: "ENFJ — depth with direction.", desc: "ENFJs bring the warmth, emotional attunement, and organizational direction that INFPs often lack. ENFJs help INFPs externalize and act on their values; INFPs help ENFJs deepen beyond surface-level harmony into genuine emotional truth. Both are Feeling-dominant and share a fundamental orientation toward authenticity and meaning." },
+            { label: "ENTJ — challenging and grounding.", desc: "This is a less obvious pairing but one that often works well. ENTJs provide structure, direction, and a level of decisiveness that helps INFPs move forward rather than staying in indefinite internal processing. INFPs soften ENTJs' tendency toward pure logic and push them toward greater emotional honesty. Both share the NJ/NP dynamic that produces genuine mutual respect." },
+            { label: "INFJ — rare kindred connection.", desc: "INFPs and INFJs share idealism, emotional depth, and a fundamental orientation toward authenticity and meaning. Both are private, selectively trusting, and capable of profound connection. They understand each other's interior complexity without requiring explanation. The main challenge: both are conflict-averse, requiring deliberate effort to surface tensions." },
+            { label: "ENFP — shared warmth and curiosity.", desc: "INFPs and ENFPs share Introverted Feeling values and Extroverted Intuition's love of possibility. Both are idealistic, empathetic, and drawn to meaning. The ENFP brings social energy and external engagement that INFPs often find revitalizing. Both types deeply value authenticity, which creates a foundation of trust." },
+          ]),
+      },
+      {
+        heading: "More challenging matches for INFP",
+        html: p("These pairings require more work to sustain:") +
+          strong([
+            { label: "ESTJ and ENTJ when not developed.", desc: "ESTJs can come across as dismissive of INFP's emotional complexity and internal value system. INFPs need partners who take their inner world seriously; some ESTJs interpret it as impracticality or oversensitivity. With sufficient mutual development and respect, this can work — but the bridging required is significant." },
+            { label: "ISTP and ESTP.", desc: "ST-Perceiving types can initially attract INFPs with their confidence and competence, but the long-term mismatch between INFP's need for emotional depth and the SP types' preference for practical surface engagement often creates a persistent gap that's hard to bridge." },
+          ]),
+      },
+      {
+        heading: "INFPs in friendship",
+        html: p("INFPs are deeply loyal friends to a small number of people — they invest everything in the relationships they trust. They're the friends who remember what you mentioned months ago, who reach out when something reminded them of you, and who will sit with you in difficulty without trying to fix it.") +
+          p("Their challenge is that they often stay in friendships that have outgrown them out of loyalty. INFPs can maintain one-sided friendships far longer than they should because ending them feels like a betrayal of their own values around loyalty and care.") +
+          p("Their best friendships are with types who can match their emotional depth, engage with ideas and meaning, and honor their need for occasional solitude. Friendships that require constant social performance drain INFPs quickly."),
+      },
+    ],
+    faqs: [
+      { question: "What is the best match for an INFP?", answer: "ENFJs are often cited as the best match for INFPs — they bring warmth, emotional attunement, and organizational direction that helps INFPs externalize and act on their values. INFJs are close second for deep values alignment and mutual understanding. ENFPs also pair very well due to shared idealism and curiosity." },
+      { question: "Are INFPs and INFJs compatible?", answer: "Yes — this is a deeply compatible pairing. Both types share idealism, emotional depth, and a fundamental orientation toward authenticity. Both are private, selectively trusting, and capable of profound connection. The main risk is shared conflict avoidance — both prefer harmony and may avoid addressing friction directly, allowing small tensions to build." },
+      { question: "Who should an INFP marry?", answer: "INFPs tend to thrive with partners who take their inner world seriously, are emotionally honest, value authenticity over social performance, and can provide gentle direction without imposing it. The most important quality isn't type — it's the partner's willingness to engage with depth and to let the INFP be fully themselves without pressure to be different." },
+      { question: "What types are least compatible with INFP?", answer: "ESTPs and ISTPs are often the most challenging matches for INFPs — not because it can never work, but because the differences in core orientation are significant. ST-Perceiving types are concrete, action-oriented, and often emotionally reserved in ways that leave INFPs feeling chronically unseen." },
+    ],
+    ctaHeading: "Discover your full personality profile — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, DISC profile, Enneagram type, and Strengths — all from one 15-minute assessment.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INFP personality type guide", url: "/blog/infp-personality-type" },
+      { label: "ENFJ personality type", url: "/blog/enfj-personality-type" },
+      { label: "INFP vs INFJ", url: "/blog/infp-vs-infj" },
+      { label: "INFP careers guide", url: "/blog/infp-careers" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "intp-compatible-types": {
+    slug: "intp-compatible-types",
+    metaTitle: "INTP Compatible Types — Best and Worst Matches Explained",
+    metaDesc: "Which personality types are most compatible with INTP? Learn the best matches for INTP in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/intp-compatible-types",
+    h1: "INTP Compatible Types — Best Matches in Love and Friendship",
+    sections: [
+      {
+        heading: "What INTPs need in relationships",
+        html: p("INTPs are among the most internally independent types — they can live in their own heads for extended periods and genuinely don't require constant companionship. But when they do want a relationship, they want it to be intellectually genuine. Their dominant Introverted Thinking builds precise internal models of the world; their auxiliary Extroverted Intuition explores ideas and possibilities. A partner who can engage at that level of intellectual depth becomes genuinely valuable.") +
+          p("INTPs need partners who don't require constant emotional reassurance, who can tolerate significant alone time without interpreting it as rejection, and who communicate directly. They struggle with partners who are emotionally demanding, who expect INTPs to be more expressive than they naturally are, or who shut down intellectual engagement.") +
+          p("Not sure what your type is? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "Best matches for INTP",
+        html: p("The types most naturally compatible with INTPs:") +
+          strong([
+            { label: "ENTJ — direction and intellectual challenge.", desc: "ENTJs provide the external structure, decisiveness, and forward momentum that INTPs often lack. ENTJs are direct, strategic, and confident — all qualities that INTPs respect. The INTP provides intellectual depth and analytical rigor that ENTJs genuinely value. Both are direct communicators who can handle honest disagreement." },
+            { label: "ENFJ — warmth that reaches the INTP.", desc: "ENFJs are skilled at creating the conditions where INTPs open up — not through pressure but through genuine curiosity and warmth. The ENFJ helps the INTP engage with the relational and emotional dimensions of life; the INTP provides intellectual depth and honest perspective that ENFJs rarely get from other relationships." },
+            { label: "ENTP — peer intellectual engagement.", desc: "INTPs and ENTPs are among the most naturally aligned intellectual pairs — they share Intuitive-Thinking depth and a love of ideas, systems, and debate. The ENTP brings social energy and external enthusiasm; the INTP brings rigorous internal analysis. Both are direct, flexible, and independently minded." },
+            { label: "INTJ — shared independence and depth.", desc: "Both types are intensely private, analytically minded, and independently self-sufficient. They can coexist comfortably without requiring constant engagement. INTJ provides decisive direction; INTP provides flexible analytical depth. The main friction point: both types can be reluctant to surface emotional needs." },
+          ]),
+      },
+      {
+        heading: "More challenging matches for INTP",
+        html: p("These pairings require more deliberate bridging:") +
+          strong([
+            { label: "ESFJ and ISFJ.", desc: "SFJ types lead with Feeling and prioritize harmony, warmth, and relational maintenance — areas where INTPs are typically underdeveloped. SFJ types may interpret INTP's directness and independence as coldness or disinterest. INTPs may feel emotionally pressured by SFJ types' need for more frequent reassurance and connection." },
+            { label: "ESFP and ISFP.", desc: "SP Feeling types are present-focused, experiential, and emotionally responsive in ways that contrast with INTP's abstract, analytical, future-oriented orientation. The gap can be bridged with sufficient mutual respect, but it requires significant translation across almost every dimension." },
+          ]),
+      },
+      {
+        heading: "INTPs in friendship",
+        html: p("INTPs are low-maintenance but high-value friends for the people they genuinely connect with. They don't require frequent contact, they don't make friendship demands, and they're reliably honest in ways that many people find valuable precisely because it's rare.") +
+          p("Their closest friendships are almost always built on intellectual engagement — shared curiosity about something, not just shared social time. They can maintain these friendships for decades with almost no contact, reconnecting whenever their paths cross with the ease of a relationship that was never really paused.") +
+          p("The INTP's challenge in friendship is initiating. They rarely reach out because they assume others are fine until signaled otherwise. Close friends learn to initiate; the INTP shows up reliably when called."),
+      },
+    ],
+    faqs: [
+      { question: "What is the best match for an INTP?", answer: "ENTJs are often cited as the best match for INTPs — they provide external structure, decisiveness, and directional clarity that INTPs lack while engaging at the same intellectual depth. ENFJs are a close second, providing warmth that reaches INTPs without pressuring them. ENTPs are highly compatible as intellectual peers." },
+      { question: "Are INTPs hard to date?", answer: "INTPs can be challenging partners for people who need frequent emotional reassurance or who interpret silence as a problem. INTPs communicate directly but infrequently, need significant alone time, and tend to be more analytical than expressive in emotional situations. Partners who understand this and don't interpret it as rejection tend to find INTPs deeply loyal and intellectually engaging. The difficulty comes from misinterpreting INTP's independence as emotional unavailability." },
+      { question: "Who should an INTP marry?", answer: "INTPs tend to thrive with partners who are intellectually curious, emotionally self-sufficient, comfortable with direct communication, and able to tolerate and respect their need for significant alone time. The most important qualities aren't type-specific: genuine intellectual curiosity, honesty, emotional self-sufficiency, and comfort with independence." },
+      { question: "What types are least compatible with INTP?", answer: "ESFJs are often the most challenging match for INTPs — they prioritize harmony, relational warmth, and frequent emotional connection in ways that can feel pressuring to INTPs. The Extraversion-Sensing-Feeling combination tends to conflict most significantly with INTP's Introversion-Intuition-Thinking orientation." },
+    ],
+    ctaHeading: "Discover your full personality profile — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, DISC profile, Enneagram type, and Strengths — all from one 15-minute assessment.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INTP personality type guide", url: "/blog/intp-personality-type" },
+      { label: "ENTJ personality type", url: "/blog/entj-personality-type" },
+      { label: "INTP vs INTJ", url: "/blog/intj-vs-intp" },
+      { label: "INTP careers guide", url: "/blog/intp-careers" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "entj-compatible-types": {
+    slug: "entj-compatible-types",
+    metaTitle: "ENTJ Compatible Types — Best and Worst Matches Explained",
+    metaDesc: "Which personality types are most compatible with ENTJ? Learn the best matches for ENTJ in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/entj-compatible-types",
+    h1: "ENTJ Compatible Types — Best Matches in Love and Friendship",
+    sections: [
+      {
+        heading: "What ENTJs need in relationships",
+        html: p("ENTJs are driven, strategic, and intensely goal-oriented — and they bring this same energy to relationships. They need partners who can hold their own: intellectually, emotionally, and in terms of self-directedness. An ENTJ's worst nightmare in a relationship is a partner who requires constant management, can't handle directness, or doesn't have their own ambitions and sense of direction.") +
+          p("ENTJs need intellectual stimulation, honest communication, and a relationship that complements rather than competes with their drive. They struggle with partners who need excessive emotional reassurance, who are conflict-averse (since ENTJs move through conflict quickly and directly), or who don't grow and push themselves over time.") +
+          p("Not sure what your type is? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "Best matches for ENTJ",
+        html: p("The types most naturally compatible with ENTJs:") +
+          strong([
+            { label: "INTP — intellectual depth and complementary strengths.", desc: "INTPs provide the analytical rigor and intellectual depth that ENTJs genuinely respect — one of the few types that can keep up with and push back on ENTJ thinking. The INTP's flexibility and depth complements ENTJ's decisiveness and drive. The ENTJ provides direction and momentum; the INTP provides precision and analysis." },
+            { label: "INFP — values and emotional depth.", desc: "This pairing is more complementary than it might appear. INFPs bring genuine emotional depth, creativity, and values-integrity that ENTJs often recognize they're lacking. ENTJs provide direction and structure that helps INFPs move their values into action. Both are independently minded and privately complex in different ways." },
+            { label: "ISTP — competence and directness.", desc: "ISTPs match ENTJs on competence, directness, and tolerance for challenge. Neither type requires emotional coddling; both communicate directly and respect demonstrated capability. The ISTP provides technical depth and practical grounding; the ENTJ provides strategic vision and drive." },
+            { label: "INTJ — strategic alignment and mutual respect.", desc: "ENTJs and INTJs share ambition, strategic thinking, and high standards. Both are direct and independently minded. The main friction point is around leadership — both types prefer to be in charge, which requires deliberate negotiation in a relationship." },
+          ]),
+      },
+      {
+        heading: "More challenging matches for ENTJ",
+        html: p("These pairings require more deliberate work:") +
+          strong([
+            { label: "ISFJ and ESFJ.", desc: "SFJ types prioritize harmony and relational warmth in ways that can conflict with ENTJ's directness and high-intensity drive. ENTJs can inadvertently overwhelm SFJ partners who interpret ENTJ's challenge-seeking and directness as aggression or dismissal of feelings." },
+            { label: "INFJ (when underdeveloped).", desc: "INFJs can pair well with ENTJs when both are developed and communicative. But INFJs can also be conflict-averse in ways that frustrate ENTJs who want to address and resolve issues directly. The gap between ENTJ's directness and INFJ's preference for harmonious communication requires deliberate bridging." },
+          ]),
+      },
+      {
+        heading: "ENTJs in friendship",
+        html: p("ENTJs are highly selective friends who value competence, honesty, and mutual growth. They don't maintain friendships for social obligation; every relationship in their life earns its place. They're loyal to people who push them — friends who call them out, challenge their thinking, and bring something genuine.") +
+          p("ENTJ friendships are often project-oriented — built around shared work, debate, or mutual ambition rather than social convention. They can be among the most reliable friends when something genuinely matters; they struggle to maintain friendships that exist only in social obligation.") +
+          p("Their biggest friendship gap: they often don't realize how intimidating they can be, which means people who could have been genuine friends self-select out of their orbit before the relationship has a chance to develop."),
+      },
+    ],
+    faqs: [
+      { question: "What is the best match for an ENTJ?", answer: "INTPs are often cited as the best match for ENTJs — they provide analytical depth and honest pushback that ENTJs genuinely respect, while complementing ENTJ's decisiveness with flexible, rigorous thinking. INFPs are a strong second for bringing emotional depth and values-integrity that ENTJs often recognize they need. INTJs also pair well for strategic alignment." },
+      { question: "Are ENTJs good partners?", answer: "ENTJs can be excellent partners for people who want a driven, honest, independently minded companion. They're loyal, direct, and genuinely invested in the people they commit to. They're challenging partners for people who need frequent emotional reassurance or who interpret ENTJ directness as attack — ENTJs rarely soften feedback, and some partners find this exhausting over time." },
+      { question: "Who should an ENTJ marry?", answer: "ENTJs tend to thrive with partners who are self-directed, intellectually capable, comfortable with directness, and secure enough not to need constant validation. The most important quality: the partner must not need to be managed. ENTJs have enough drive for themselves; they need a partner who brings their own." },
+      { question: "What types are least compatible with ENTJ?", answer: "ESFJs and ISFJs are often the most challenging matches for ENTJs — not because the pairing can't work, but because the differences in communication style (ENTJ direct and challenge-seeking; SFJ harmony-seeking and conflict-averse) require the most deliberate bridging." },
+    ],
+    ctaHeading: "Discover your full personality profile — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, DISC profile, Enneagram type, and Strengths — all from one 15-minute assessment.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ENTJ personality type guide", url: "/blog/entj-personality-type" },
+      { label: "INTP personality type", url: "/blog/intp-personality-type" },
+      { label: "ENTJ vs INTJ", url: "/blog/intj-vs-entj" },
+      { label: "ENTJ careers guide", url: "/blog/entj-careers" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "entp-compatible-types": {
+    slug: "entp-compatible-types",
+    metaTitle: "ENTP Compatible Types — Best and Worst Matches Explained",
+    metaDesc: "Which personality types are most compatible with ENTP? Learn the best matches for ENTP in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/entp-compatible-types",
+    h1: "ENTP Compatible Types — Best Matches in Love and Friendship",
+    sections: [
+      {
+        heading: "What ENTPs need in relationships",
+        html: p("ENTPs are among the most intellectually demanding partners — they need someone who can keep up, push back, and engage at the level of ideas without flinching. Their dominant Extroverted Intuition is constantly generating connections, possibilities, and provocative questions. Their auxiliary Introverted Thinking applies rigorous evaluation to everything. A partner who can engage at both levels becomes genuinely fascinating rather than just present.") +
+          p("ENTPs need intellectual stimulation, honest and direct communication, and enough independence to pursue their ideas without feeling constrained. They struggle with partners who are emotionally reactive to challenge, who need constant certainty, or who shut down intellectual engagement as 'arguing.' They also need partners who can handle the ENTP's genuine commitment to honesty — which is rarely softened.") +
+          p("Not sure what your type is? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "Best matches for ENTP",
+        html: p("The types most naturally compatible with ENTPs:") +
+          strong([
+            { label: "INFJ — depth and genuine counterpoint.", desc: "INFJs are one of the few types that can consistently fascinate ENTPs. They're private and complex in ways the ENTP can't immediately map; they provide genuine emotional depth that grounds the ENTP's tendency toward pure abstraction; and their Introverted Intuition engages with complexity in a way that matches the ENTP's depth. ENTPs often find INFJs one of the most interesting people they've ever met." },
+            { label: "INTJ — matched rigor and different approach.", desc: "INTJs provide the analytical depth and strategic precision that ENTPs respect. Both can engage in extended intellectual debate without either becoming defensive. The INTJ's follow-through and decisiveness complements the ENTP's generative flexibility. Both value competence and honesty above social convention." },
+            { label: "ENFP — high energy, shared curiosity.", desc: "ENFPs match ENTPs on enthusiasm, intellectual curiosity, and flexibility. Both are possibility-oriented, independently minded, and genuinely curious about the world. The ENFP brings warmth and emotional expressiveness; the ENTP brings analytical rigor and challenging directness. The main risk: both types can be inconsistent on follow-through." },
+            { label: "INTP — intellectual peer relationship.", desc: "INTPs and ENTPs share the deepest intellectual alignment in the type system — both are analytical, idea-driven, and genuinely interested in understanding rather than just knowing. The ENTP brings social energy; the INTP brings systematic rigor. Both are flexible and direct, which reduces power dynamics." },
+          ]),
+      },
+      {
+        heading: "More challenging matches for ENTP",
+        html: p("These pairings require more deliberate bridging:") +
+          strong([
+            { label: "ISFJ and ESFJ.", desc: "SFJ types prioritize harmony, conventional structure, and relational warmth in ways that can conflict with ENTP's love of challenging ideas and unconventional thinking. ENTPs can inadvertently upset SFJ partners by turning social situations into debates or dismissing relational concerns as irrational." },
+            { label: "ISTJ and ESTJ.", desc: "SJ types prefer tested procedure and concrete reality — the opposite of ENTP's preference for possibilities and abstract ideas. ENTPs can find SJ types frustratingly conventional; SJ types can find ENTPs frustratingly impractical and destabilizing." },
+          ]),
+      },
+      {
+        heading: "ENTPs in friendship",
+        html: p("ENTPs are among the most entertaining and stimulating friends — they generate ideas, argue positions provocatively, and make conversations feel like adventures. They're loyal to the people who can genuinely engage with them and who don't require the ENTP to manage their reactions to honest challenge.") +
+          p("ENTP friendships are often built on intellectual sparring — they're warmest with people who can trade genuine pushback without becoming defensive. They find flattering, agreeable friends boring and tend to disengage from relationships that require excessive softening.") +
+          p("Their challenge in friendship: they can be unintentionally alienating when they engage in devil's advocate mode — they often don't signal that they're playing a position rather than genuinely arguing it, which can leave people feeling attacked rather than engaged."),
+      },
+    ],
+    faqs: [
+      { question: "What is the best match for an ENTP?", answer: "INFJs are often cited as the best match for ENTPs — they're one of the few types consistently fascinating to ENTPs, providing genuine emotional depth and complexity that the ENTP can't immediately decode. INTJs are a strong second for matched analytical depth and directness. ENFPs are highly compatible for shared curiosity and energy." },
+      { question: "Are ENTPs good partners?", answer: "ENTPs can be excellent partners for people who thrive on intellectual engagement, honest communication, and independence. They're challenging for people who need emotional reassurance, who take intellectual debate personally, or who want a partner who softens their observations. ENTPs are often more devoted than they initially appear — they just show commitment through engagement rather than through conventional emotional expressiveness." },
+      { question: "Who should an ENTP marry?", answer: "ENTPs tend to thrive with partners who are intellectually curious and secure, comfortable with challenge and directness, independently minded, and not easily destabilized by ENTP's tendency to argue positions or explore uncomfortable ideas. The most important quality: the partner must be able to genuinely engage rather than just agreeing or shutting down." },
+      { question: "What types are least compatible with ENTP?", answer: "ISFJs and ESTJs are often the most challenging matches for ENTPs — they prioritize conventional structure, proven procedure, and harmony in ways that conflict most directly with ENTP's preference for possibility, challenge, and unconventional thinking." },
+    ],
+    ctaHeading: "Discover your full personality profile — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, DISC profile, Enneagram type, and Strengths — all from one 15-minute assessment.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ENTP personality type guide", url: "/blog/entp-personality-type" },
+      { label: "INFJ personality type", url: "/blog/infj-personality-type" },
+      { label: "ENTP vs INTP", url: "/blog/entp-vs-intp" },
+      { label: "ENTP careers guide", url: "/blog/entp-careers" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enfj-compatible-types": {
+    slug: "enfj-compatible-types",
+    metaTitle: "ENFJ Compatible Types — Best and Worst Matches Explained",
+    metaDesc: "Which personality types are most compatible with ENFJ? Learn the best matches for ENFJ in love and friendship, what makes them work, and what to watch for.",
+    canonicalUrl: "https://1test.me/blog/enfj-compatible-types",
+    h1: "ENFJ Compatible Types — Best Matches in Love and Friendship",
+    sections: [
+      {
+        heading: "What ENFJs need in relationships",
+        html: p("ENFJs are among the most giving and relationally invested types — they're acutely aware of others' emotional states and genuinely invested in the people they care about. Their dominant Extroverted Feeling continuously reads and responds to emotional needs; their auxiliary Introverted Intuition sees long-term patterns and possibilities in people's growth.") +
+          p("ENFJs need partners who appreciate rather than take advantage of their giving nature, who can engage at emotional depth, and who are honest with them — even when it's uncomfortable. They struggle with partners who are emotionally closed off, who resist the ENFJ's natural desire to nurture and develop, or who never reciprocate the emotional investment. ENFJs can give so much for so long that the imbalance only becomes visible when they're already depleted.") +
+          p("Not sure what your type is? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "Best matches for ENFJ",
+        html: p("The types most naturally compatible with ENFJs:") +
+          strong([
+            { label: "INFP — depth and authentic values.", desc: "INFPs bring the emotional depth, authenticity, and values-integrity that ENFJs often recognize they need in a partner. The INFP helps the ENFJ slow down and go deeper rather than always attending to others' needs; the ENFJ helps the INFP externalize and act on their values. Both are idealistic and privately complex." },
+            { label: "INTP — honest challenge and intellectual depth.", desc: "INTPs provide what ENFJs often struggle to find: honest, direct feedback that isn't filtered through social convention. ENFJs can tell when they're being managed by people who don't want to upset them; INTPs don't do that. The INTP also provides the intellectual depth that ENFJs' Introverted Intuition craves. The ENFJ provides the emotional warmth that draws the INTP into more genuine connection." },
+            { label: "INFJ — kindred depth and shared mission.", desc: "ENFJs and INFJs share both Feeling and Intuition — they understand each other's depth, complexity, and orientation toward meaning without requiring explanation. Both types are invested in growth and genuinely care about people. The main challenge: both can avoid conflict, requiring deliberate effort to surface tensions." },
+            { label: "ISFP — genuine warmth and complementary gifts.", desc: "ISFPs bring genuine authenticity and quiet depth that ENFJs find deeply attractive. The ISFP helps the ENFJ slow down and experience rather than always facilitating others' experiences. The ENFJ brings external engagement and directional energy that helps the ISFP externalize their values and creative gifts." },
+          ]),
+      },
+      {
+        heading: "More challenging matches for ENFJ",
+        html: p("These pairings require more deliberate bridging:") +
+          strong([
+            { label: "ISTP and ESTP.", desc: "ST-Perceiving types can attract ENFJs with their competence and confidence, but the long-term mismatch between ENFJ's need for emotional depth and investment and the SP types' preference for practical surface engagement tends to leave ENFJs feeling underappreciated and emotionally alone." },
+            { label: "INTJ (when underdeveloped).", desc: "Developed INTJs can pair well with ENFJs, but underdeveloped INTJs can be consistently dismissive of the ENFJ's emotional attunement and social intelligence. ENFJs need partners who value rather than dismiss their relational gifts." },
+          ]),
+      },
+      {
+        heading: "ENFJs in friendship",
+        html: p("ENFJs are often the most beloved friends in their social circles — they remember what matters to people, follow up, and show up. They create genuine community wherever they go. The challenge is that their giving nature can attract people who take more than they give.") +
+          p("ENFJs' best friendships are with types who reciprocate depth — who ask the ENFJ how they're doing and actually listen to the answer, who invest in the ENFJ rather than only receiving from them. ENFJs can maintain one-sided friendships for a very long time before acknowledging the imbalance.") +
+          p("They thrive in friendships where they can both give and receive care — where their attunement is matched, not just received."),
+      },
+    ],
+    faqs: [
+      { question: "What is the best match for an ENFJ?", answer: "INFPs are often cited as the best match for ENFJs — they bring authentic emotional depth and values-integrity that ENFJs genuinely need in a partner, rather than someone who simply receives their care. INTPs are a strong second for providing honest, direct engagement that ENFJs rarely find. INFJs pair well for shared depth and mission." },
+      { question: "Are ENFJs good partners?", answer: "ENFJs are among the most naturally gifted relational types — they're warm, attentive, invested, and deeply loyal. They're challenging for partners who don't know how to receive care or who resist the ENFJ's natural desire to nurture and develop. ENFJs' main relationship risk is over-giving until depleted, which requires partners who actively reciprocate rather than passively receive." },
+      { question: "Who should an ENFJ marry?", answer: "ENFJs tend to thrive with partners who are authentic, emotionally honest, able to receive care graciously, and willing to reciprocate depth. The most important quality isn't type-specific: the partner must be capable of genuine emotional investment and honest communication, not just accepting the ENFJ's giving." },
+      { question: "What types are least compatible with ENFJ?", answer: "ESTPs and ISTPs are often the most challenging matches for ENFJs — they tend to be emotionally reserved and practically focused in ways that leave ENFJs feeling chronically underappreciated. The mismatch between ENFJ's deep investment in emotional connection and ST-Perceiving types' preference for practical engagement is significant." },
+    ],
+    ctaHeading: "Discover your full personality profile — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, DISC profile, Enneagram type, and Strengths — all from one 15-minute assessment.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ENFJ personality type guide", url: "/blog/enfj-personality-type" },
+      { label: "INFP personality type", url: "/blog/infp-personality-type" },
+      { label: "ENFJ vs INFJ", url: "/blog/infj-vs-enfj" },
+      { label: "ENFJ careers guide", url: "/blog/enfj-careers" },
+    ],
+    datePublished: "2026-04-18",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {
