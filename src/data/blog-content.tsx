@@ -15271,6 +15271,283 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-18",
   },
+
+  "infp-enneagram-type": {
+    slug: "infp-enneagram-type",
+    metaTitle: "INFP Enneagram Type — Most Common Types and Why",
+    metaDesc: "Which Enneagram types are most common for INFPs? Learn why Type 4, Type 9, and Type 6 appear most often in INFP profiles, and what each combination means.",
+    canonicalUrl: "https://1test.me/blog/infp-enneagram-type",
+    h1: "INFP Enneagram Type — Most Common Types and What They Mean",
+    sections: [
+      {
+        heading: "Why INFPs cluster around specific Enneagram types",
+        html: p("16 Personalities types and Enneagram types describe different things — one maps cognitive patterns, the other maps core motivations and fears. They're complementary frameworks, not redundant ones. An INFP can theoretically be any Enneagram type, but in practice, certain combinations are far more common.") +
+          p("The reason for the clustering: INFP's dominant function (Introverted Feeling) and the drives that feed it — authenticity, values alignment, depth of emotion — resonate with specific Enneagram structures more than others. The most common Enneagram types for INFPs are Type 4, Type 9, and Type 6, with Type 4 being the most prevalent by a significant margin.") +
+          p("Understanding your INFP-Enneagram combination gives you a sharper map of your specific patterns — not just 'I'm values-driven and empathetic' but 'here's exactly what I'm afraid of and what drives my specific behavior under stress.'"),
+      },
+      {
+        heading: "INFP + Enneagram Type 4 (The Individualist) — most common",
+        html: p("INFP Type 4 is probably the most frequently discussed combination in personality communities — and for good reason. Both frameworks describe someone deeply oriented around authenticity, emotional depth, and a feeling of being different from the mainstream.") +
+          p("The INFP's Introverted Feeling function and the Type 4's core need to be authentic and unique reinforce each other powerfully. INFP 4s often feel a deep longing — for connection, for being truly understood, for a life that matches their inner vision of what it could be. They are often highly creative, intensely private, and acutely aware of what's missing.") +
+          p("The specific challenge for INFP 4s: the combination can amplify both the beauty and the burden of emotional depth. They may spend significant time in melancholy or longing in ways that feel meaningful but also prevent forward movement. The INFP's flexibility and adaptability can be undercut by the 4's tendency to wait for the 'right' feeling before acting."),
+      },
+      {
+        heading: "INFP + Enneagram Type 9 (The Peacemaker) — second most common",
+        html: p("INFP 9 is a softer, more accommodating version of the INFP profile. The Type 9 adds a strong pull toward peace, harmony, and avoiding conflict that can blend with the INFP's natural gentleness into someone who is very hard to provoke and very easy to overlook.") +
+          p("INFP 9s often struggle with self-assertion even more than INFPs generally do. Their values are strong (INFP's Introverted Feeling) but their willingness to assert those values in the face of conflict is heavily tempered by the 9's desire to not disturb the peace. They may know exactly what they believe but never say so because it would create friction.") +
+          p("The growth path for INFP 9s runs through learning to take up space — not dramatically, but persistently. Their values deserve to be heard. The 9's tendency to merge with others' agendas can gradually erode the INFP's sense of self if not countered with active, low-stakes practice of stating preferences and holding boundaries."),
+      },
+      {
+        heading: "INFP + Enneagram Type 6 (The Loyalist) — third most common",
+        html: p("INFP 6 is one of the more surprising combinations for people who only know the 'dreamy idealist' INFP stereotype. Type 6 adds a layer of anxiety, vigilance, and skepticism that makes this INFP significantly more cautious and less immediately trusting than the INFP archetype suggests.") +
+          p("INFP 6s are deeply loyal to people and communities they trust, but that trust takes time to build. They're often more practical and risk-aware than other INFPs — their Type 6 anxiety grounds the INFP's idealism in a 'but what could go wrong?' perspective that, when healthy, produces thoughtful rather than naive decision-making.") +
+          p("The specific challenge: INFP 6s can get caught between their idealistic values (INFP) and their anxiety about whether pursuing those values is safe (Type 6). This can produce prolonged indecision about career moves, relationships, and life direction that other INFPs don't experience as acutely."),
+      },
+      {
+        heading: "Other INFP Enneagram types",
+        html: p("**INFP Type 2 (The Helper):** INFP 2s are among the most overtly giving and relationship-focused INFPs. The Type 2's drive to be needed combines with INFP's empathy to create someone who is almost reflexively caring. Their challenge: the 2's tendency to suppress their own needs conflicts with the INFP's need for authentic self-expression, creating internal tension.") +
+          p("**INFP Type 1 (The Reformer):** INFP 1s are driven INFPs with strong moral standards and a clear sense of what 'should be.' Less common than 4 or 9, but distinctive — they bring the INFP's values depth into active reform-seeking. They can be self-critical in ways typical INFPs usually aren't.") +
+          p("**INFP Type 5 (The Investigator):** INFP 5s are more intellectual and private than most INFPs. The 5's drive to accumulate knowledge and conserve energy combines with INFP's inner world orientation to produce someone who lives very deeply inside their own mind — sometimes to the exclusion of practical engagement with the world."),
+      },
+    ],
+    faqs: [
+      { question: "What is the most common Enneagram type for INFPs?", answer: "Enneagram Type 4 (The Individualist) is by far the most commonly reported type among self-identified INFPs. The overlap between INFP's Introverted Feeling function (which prioritizes authenticity, emotional depth, and personal values) and Type 4's core need to be unique and genuinely themselves creates a natural resonance. Type 9 is the second most common, followed by Type 6." },
+      { question: "Can an INFP be a Type 8?", answer: "Yes, though it's uncommon. Any 16 Personalities type can pair with any Enneagram type, since they describe different dimensions. An INFP Type 8 would be someone with the INFP's empathy and values depth combined with the Type 8's assertiveness, protection instinct, and comfort with confrontation. This is a much bolder, more direct version of the INFP than the archetype suggests." },
+      { question: "How do I find my Enneagram type as an INFP?", answer: "The most reliable way is to focus on motivation, not behavior. Behavior varies by situation; your core fear and core desire are more consistent. Ask: what am I most afraid of at a deep level? INFPs who fear being ordinary or inauthentic tend toward Type 4; those who fear loss of peace and connection tend toward Type 9; those who fear being unsupported in an uncertain world tend toward Type 6. Taking a multi-framework test like 1Test gives you both your 16P type and Enneagram type from one assessment." },
+      { question: "Does knowing my INFP Enneagram type change anything practically?", answer: "Yes — it sharpens the self-knowledge from 'I'm empathetic and values-driven' to 'here's specifically what I'm afraid of and how I behave under stress.' An INFP 4 under stress tends to amplify emotional intensity and longing; an INFP 9 under stress tends to check out and go passive; an INFP 6 under stress tends to seek reassurance and become hypervigilant. Knowing which pattern is yours lets you intervene earlier and more precisely." },
+    ],
+    ctaHeading: "Find your INFP Enneagram type — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, Enneagram type, DISC profile, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INFP personality type guide", url: "/blog/infp-personality-type" },
+      { label: "Enneagram Type 4 — The Individualist", url: "/blog/enneagram-type-4-individualist" },
+      { label: "Enneagram Type 9 — The Peacemaker", url: "/blog/enneagram-type-9-peacemaker" },
+      { label: "INFP careers guide", url: "/blog/infp-careers" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "intj-enneagram-type": {
+    slug: "intj-enneagram-type",
+    metaTitle: "INTJ Enneagram Type — Most Common Types and Why",
+    metaDesc: "Which Enneagram types are most common for INTJs? Learn why Type 5, Type 1, and Type 8 appear most often in INTJ profiles, and what each combination means.",
+    canonicalUrl: "https://1test.me/blog/intj-enneagram-type",
+    h1: "INTJ Enneagram Type — Most Common Types and What They Mean",
+    sections: [
+      {
+        heading: "Why INTJs cluster around specific Enneagram types",
+        html: p("INTJs are often described as the most stereotypically 'intellectual' type — private, strategic, and independently minded. The Enneagram types that resonate most with INTJs share an orientation toward competency, autonomy, and depth of understanding. The most common INTJ Enneagram types are Type 5, Type 1, and Type 8, with Type 5 being the most prevalent.") +
+          p("The overlap between INTJ's Introverted Intuition and Thinking functions and the Enneagram Type 5's drive to accumulate knowledge and capacity is particularly strong. Both describe someone who processes internally, prefers preparation over improvisation, and finds strength in understanding rather than action."),
+      },
+      {
+        heading: "INTJ + Enneagram Type 5 (The Investigator) — most common",
+        html: p("INTJ Type 5 is perhaps the most 'stereotypically INTJ' combination — deeply intellectual, very private, and oriented around building knowledge and competency before engaging with the world. The Type 5's drive to understand and the INTJ's Introverted Intuition both pull toward deep analysis over surface action.") +
+          p("INTJ 5s often have very clear domains of expertise and can be dismissive of areas they haven't studied. They manage social energy carefully, often having explicit mental budgets for interaction. They're among the most comfortable with solitude of any type-combination.") +
+          p("The challenge for INTJ 5s: they can get stuck in analysis, delaying action until they feel 'ready enough.' Their threshold for readiness can be very high, which means they may over-prepare for things that would benefit from earlier iteration. Learning to act on 80% information rather than 95% is often a significant growth lever."),
+      },
+      {
+        heading: "INTJ + Enneagram Type 1 (The Reformer) — second most common",
+        html: p("INTJ Type 1 combines the INTJ's strategic vision with the Type 1's inner critic and drive toward improvement. This produces someone with very high standards — both for themselves and for the systems and institutions they engage with. They're often excellent at identifying what's wrong and how to fix it.") +
+          p("INTJ 1s can be harder to work with than INTJ 5s because the 1's reforming impulse adds a moralistic edge to the INTJ's already-direct communication style. They don't just have strong opinions; they may communicate those opinions as the obviously correct position that others should simply adopt.") +
+          p("The growth path for INTJ 1s involves separating their high standards (which are genuine assets) from the need to impose those standards on others. Learning to hold expectations internally while giving others room to reach conclusions independently is often transformative."),
+      },
+      {
+        heading: "INTJ + Enneagram Type 8 (The Challenger) — third most common",
+        html: p("INTJ Type 8 is a significantly bolder, more assertive version of the INTJ. Where a typical INTJ might be direct and confident, the INTJ 8 is confrontational and territorial about their autonomy. They have very low tolerance for being managed, second-guessed, or constrained.") +
+          p("INTJ 8s often rise quickly in organizations and make exceptionally effective leaders in high-stakes, results-driven environments. Their combination of strategic depth (INTJ) and power-asserting directness (Type 8) is rare and very effective in situations that require both vision and force of will.") +
+          p("The challenge: INTJ 8s can be very difficult to give feedback to, because both INTJ's confidence in their own analysis and Type 8's resistance to being controlled create a thick defensiveness. Building relationships with people who will give them direct, honest feedback — and actually hearing it — is often their most important developmental task."),
+      },
+      {
+        heading: "Other INTJ Enneagram types",
+        html: p("**INTJ Type 3 (The Achiever):** INTJ 3s are more externally ambitious than typical INTJs. The Type 3's drive to be seen as successful combines with INTJ's competency orientation to produce someone who builds impressive, visible careers and cares more about recognition than the introverted-5 INTJ archetype suggests.") +
+          p("**INTJ Type 6 (The Loyalist):** Less common but distinctive — INTJ 6s are more anxious and vigilant than the confident INTJ stereotype. They're thorough planners and worst-case thinkers, which can be a genuine asset in risk management and strategic planning contexts.") +
+          p("**INTJ Type 4 (The Individualist):** INTJ 4s are more emotionally sensitive than typical INTJs and often have strong creative or aesthetic interests alongside their analytical depth. They may feel more alienated or 'different' from mainstream culture than other INTJs."),
+      },
+    ],
+    faqs: [
+      { question: "What is the most common Enneagram type for INTJs?", answer: "Enneagram Type 5 (The Investigator) is the most commonly reported type among self-identified INTJs. The overlap is significant: both INTJ's dominant Introverted Intuition and Type 5's drive for knowledge accumulation describe someone who processes deeply internally, prepares thoroughly before engaging, and finds security in understanding. Type 1 and Type 8 are the next most common." },
+      { question: "Is INTJ and Type 5 the same thing?", answer: "No — they measure different things. INTJ (from 16 Personalities) describes a cognitive style: how you process information and make decisions. Enneagram Type 5 describes a motivational structure: what you fear and what drives your behavior. An INTJ Type 5 is someone who both processes information in an introverted, intuitive, thinking-oriented way AND is driven by the Type 5's core fear of being incompetent or overwhelmed by the world's demands." },
+      { question: "Can an INTJ be a Type 2 or Type 7?", answer: "Yes — though both are uncommon for INTJs. An INTJ Type 2 would be someone with INTJ's strategic depth and independence combined with a strong drive to help and be needed by others — a less common but distinctive combination often found in therapists, advisors, or mentors who happen to have INTJ cognitive patterns. INTJ Type 7 is also rare but would present as more outwardly energetic and variety-seeking than the typical INTJ." },
+      { question: "How does knowing my INTJ Enneagram type help?", answer: "It explains the specific flavor of your INTJ patterns. INTJ 5s over-prepare and avoid action until ready; INTJ 1s set high standards and struggle with perfectionism; INTJ 8s are bold and confrontation-comfortable. If you're trying to understand why you behave differently from other INTJs you know, your Enneagram type is often the explanation. Take 1Test to discover your Enneagram type alongside your 16P type in one assessment." },
+    ],
+    ctaHeading: "Find your INTJ Enneagram type — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, Enneagram type, DISC profile, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INTJ personality type guide", url: "/blog/intj-personality-type" },
+      { label: "Enneagram Type 5 — The Investigator", url: "/blog/enneagram-type-5-investigator" },
+      { label: "Enneagram Type 1 — The Reformer", url: "/blog/enneagram-type-1-reformer" },
+      { label: "INTJ careers guide", url: "/blog/intj-careers" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "infj-enneagram-type": {
+    slug: "infj-enneagram-type",
+    metaTitle: "INFJ Enneagram Type — Most Common Types and Why",
+    metaDesc: "Which Enneagram types are most common for INFJs? Learn why Type 4, Type 1, and Type 2 appear most often in INFJ profiles, and what each combination means.",
+    canonicalUrl: "https://1test.me/blog/infj-enneagram-type",
+    h1: "INFJ Enneagram Type — Most Common Types and What They Mean",
+    sections: [
+      {
+        heading: "Why INFJs cluster around specific Enneagram types",
+        html: p("INFJs are among the most complex types to understand — their combination of Introverted Intuition and Extroverted Feeling creates a profile that is simultaneously visionary and deeply relational. The Enneagram types that resonate most with INFJs share this dual orientation: inward depth combined with outward care. The most common INFJ Enneagram types are Type 4, Type 1, and Type 2.") +
+          p("The INFJ's orientation toward meaning, growth, and helping others evolve resonates with several Enneagram types, which is why INFJs report more variety in their Enneagram types than some other 16P types. The key differentiator is what motivates the helping: love of the individual (Type 2), vision for a better world (Type 1), or a search for authentic meaning (Type 4)."),
+      },
+      {
+        heading: "INFJ + Enneagram Type 4 (The Individualist) — very common",
+        html: p("INFJ Type 4 combines the INFJ's visionary depth with the Type 4's intense orientation around authenticity and emotional meaning. This produces someone who is deeply idealistic, highly sensitive to beauty and depth, and often acutely aware of the gap between the world as it is and the world as it could be.") +
+          p("INFJ 4s often have strong creative or aesthetic sensibilities. They're drawn to art, music, writing, or other expressive forms as a way of accessing and communicating what their inner world contains. They can struggle with melancholy — not just the INFJ's empath fatigue, but the 4's specific longing for depth and meaning that the ordinary world doesn't always provide.") +
+          p("The growth path for INFJ 4s involves channeling their depth into action rather than reflection. Both INFJ and Type 4 are excellent at understanding and experiencing; the growth edge is persistence through the unglamorous middle stages of bringing their vision into reality."),
+      },
+      {
+        heading: "INFJ + Enneagram Type 1 (The Reformer) — very common",
+        html: p("INFJ Type 1 is often described as the most actively reforming INFJ. The Type 1's drive to make things better and the INFJ's long-range vision of a better world combine to produce someone with a clear mission and the principled discipline to pursue it. INFJ 1s often end up in roles that involve systemic change — education reform, social justice, organizational leadership.") +
+          p("The INFJ 1's inner critic is particularly active — the INFJ's perfectionism about their vision gets amplified by the Type 1's self-monitoring. They may struggle with feelings of failure or inadequacy even when objectively doing excellent work, because neither INFJ's vision nor Type 1's standards are ever fully met by reality.") +
+          p("The strength of INFJ 1s is integrity — they are among the most principled types, and their consistency between stated values and actual behavior is often remarkable. People trust them, which amplifies their impact in leadership and advocacy roles."),
+      },
+      {
+        heading: "INFJ + Enneagram Type 2 (The Helper) — very common",
+        html: p("INFJ Type 2 is the most overtly relationship-centered INFJ. Where a typical INFJ might help from a position of vision ('I see what you could become'), the INFJ 2 helps from a position of love ('I want to be there for you'). The distinction is subtle but important in practice.") +
+          p("INFJ 2s are often the most warm and accessible of the INFJ variations — they're easier to get close to than INFJ 4s or INFJ 5s, because the Type 2's natural orientation toward people offsets the INFJ's tendency toward selective closeness. They make genuinely excellent therapists, counselors, and mentors.") +
+          p("The challenge for INFJ 2s: they can neglect the INFJ's need for significant alone time to process in favor of the Type 2's drive to stay connected and giving. Learning to take their withdrawal needs seriously — rather than treating solitude as selfishness — is often a significant growth area."),
+      },
+      {
+        heading: "INFJ + Enneagram Type 5 (The Investigator) — less common, very distinctive",
+        html: p("INFJ Type 5 is an unusual combination that produces someone who is at once deeply caring about people (INFJ) and deeply committed to intellectual independence and solitude (Type 5). They often appear more like INTJs from the outside — reserved, analytical, and private — while having a much richer emotional and relational inner life.") +
+          p("INFJ 5s are often found in research-oriented helping fields: academic psychology, social research, philosophy of ethics, or systems-level change work. They need the intellectual rigor of the 5 combined with the relational purpose of the INFJ. They may struggle to find roles that honor both."),
+      },
+    ],
+    faqs: [
+      { question: "What is the most common Enneagram type for INFJs?", answer: "INFJs report more variety in their Enneagram types than some other 16P types, but Type 4, Type 1, and Type 2 are the most common. Type 4's authenticity orientation and emotional depth resonates strongly with INFJ's Introverted Intuition and feeling-oriented auxiliary. Type 1's reforming drive aligns with INFJ's visionary quality. Type 2's helping orientation aligns with INFJ's Extroverted Feeling." },
+      { question: "How does my Enneagram type change how my INFJ traits show up?", answer: "Significantly. An INFJ 1 is principled, reform-oriented, and self-critical in ways a typical INFJ isn't. An INFJ 2 is warmer and more relationship-seeking. An INFJ 4 is more melancholic and aesthetically oriented. An INFJ 5 is more intellectually private. The INFJ traits (vision, empathy, selective closeness) are present in all, but the specific flavor — what you fear, what you want, how you behave under stress — is shaped heavily by the Enneagram type." },
+      { question: "Is INFJ the same as Enneagram Type 4?", answer: "No — they're different frameworks that sometimes overlap. INFJ describes a cognitive processing style; Enneagram Type 4 describes a motivational structure. Many INFJs are Type 4, and many Type 4s are INFJ, but neither implies the other. An INFJ who is Type 1 or Type 2 will look and behave quite differently from an INFJ who is Type 4, despite sharing the same 16P type." },
+      { question: "Can I find out my INFJ Enneagram type from one test?", answer: "Yes — 1Test gives you your complete personality profile across 16 Personalities, Enneagram, DISC, and Strengths from one 15-minute free assessment. This is the most efficient way to discover all four frameworks at once rather than taking four separate tests." },
+    ],
+    ctaHeading: "Find your INFJ Enneagram type — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, Enneagram type, DISC profile, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INFJ personality type guide", url: "/blog/infj-personality-type" },
+      { label: "Enneagram Type 4 — The Individualist", url: "/blog/enneagram-type-4-individualist" },
+      { label: "Enneagram Type 1 — The Reformer", url: "/blog/enneagram-type-1-reformer" },
+      { label: "INFJ careers guide", url: "/blog/infj-careers" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enfp-enneagram-type": {
+    slug: "enfp-enneagram-type",
+    metaTitle: "ENFP Enneagram Type — Most Common Types and Why",
+    metaDesc: "Which Enneagram types are most common for ENFPs? Learn why Type 7, Type 4, and Type 2 appear most often in ENFP profiles, and what each combination means.",
+    canonicalUrl: "https://1test.me/blog/enfp-enneagram-type",
+    h1: "ENFP Enneagram Type — Most Common Types and What They Mean",
+    sections: [
+      {
+        heading: "Why ENFPs cluster around specific Enneagram types",
+        html: p("ENFPs are one of the most outwardly enthusiastic and possibility-oriented types. Their combination of Extroverted Intuition and Introverted Feeling drives them toward exploring ideas, connecting with people, and aligning with their personal values. The Enneagram types that resonate most with ENFPs share this quality of wanting more — more experience, more connection, more meaning. The most common types for ENFPs are Type 7, Type 4, and Type 2.") +
+          p("ENFPs are interesting in that they often mistype themselves on the Enneagram because their outward enthusiasm can obscure their core motivation. An ENFP who identifies with Type 7 ('I want to experience everything') is driven differently from an ENFP who identifies with Type 4 ('I want to find authentic meaning') or Type 2 ('I want to help people I love')."),
+      },
+      {
+        heading: "ENFP + Enneagram Type 7 (The Enthusiast) — most common",
+        html: p("ENFP Type 7 is the archetype that most people picture when they think 'ENFP' — endlessly enthusiastic, full of ideas, jumping between projects, allergic to routine and limitation. The Type 7's drive to accumulate experience and avoid pain through movement combines with ENFP's Extroverted Intuition to create someone who generates possibilities faster than they can execute them.") +
+          p("ENFP 7s are genuinely infectious — their energy, optimism, and creative leaping inspire people around them. The challenge is follow-through: both ENFP's tendency to generate ideas and Type 7's tendency to move on once novelty fades create a pattern of many starting points and few completions. Building systems for follow-through — and tolerating the duller middle stages of projects — is their primary growth challenge.") +
+          p("Under stress, ENFP 7s move toward Type 1 behavior — suddenly critical, perfectionistic, and frustrated with how far reality falls short of their vision. This is often surprising to people who know them primarily in their enthusiastic mode."),
+      },
+      {
+        heading: "ENFP + Enneagram Type 4 (The Individualist) — very common",
+        html: p("ENFP Type 4 is a more introspective, emotionally intense version of the ENFP. The Type 4's drive toward authenticity and depth of feeling combines with ENFP's relational openness to produce someone who is outwardly warm and connective but internally dwelling in rich, often melancholic emotional territory.") +
+          p("ENFP 4s often describe feeling 'different' from other ENFPs — less purely enthusiastic, more complicated, more aware of what's missing. They're often drawn to creative work, where their combination of emotional depth (Type 4) and relational imagination (ENFP) can produce genuinely distinctive output.") +
+          p("The ENFP 4 can struggle with the ENFP community's reputation for cheerfulness — they may not relate to the 'sunshine and rainbows' ENFP stereotype and may have wondered whether they're actually INFP. The Enneagram 4 explains the emotional intensity; they're still ENFP in their cognitive style, just with a heavier emotional undercurrent."),
+      },
+      {
+        heading: "ENFP + Enneagram Type 2 (The Helper) — very common",
+        html: p("ENFP Type 2 is the most relationally focused ENFP. The Type 2's drive to be needed and loved combines with ENFP's warmth and interpersonal imagination to produce someone who builds extraordinary networks of deep, caring relationships. They are among the most genuinely invested in others' wellbeing of any type combination.") +
+          p("ENFP 2s often end up in helping, coaching, or community-building roles because their combination of natural warmth (ENFP) and giving orientation (Type 2) makes them exceptional at creating the kinds of relationships where people feel genuinely seen and supported.") +
+          p("The challenge: ENFP 2s can overextend themselves caring for others at the expense of their own ENFP need for space, new experience, and creative exploration. They may say yes to too many people and too many projects, and then feel trapped by all the commitments they've made. Learning to protect their own energy as intentionally as they protect others' is key."),
+      },
+      {
+        heading: "ENFP + Enneagram Type 9 — less common but notable",
+        html: p("ENFP Type 9 is a more relaxed, less driven ENFP — the Type 9's peacekeeping orientation softens the ENFP's typical enthusiasm into a more easygoing, adaptive style. ENFP 9s are often extremely likable — warm, open, non-threatening, and genuinely interested in everyone they meet.") +
+          p("The ENFP 9's challenge is that the Type 9's tendency to diffuse attention and avoid conflict can undercut the ENFP's natural creative boldness. They may have strong ideas but not assert them, preferring to keep the peace. Growth involves learning that their perspective has value and that sharing it doesn't have to create the conflict they fear."),
+      },
+    ],
+    faqs: [
+      { question: "What is the most common Enneagram type for ENFPs?", answer: "Enneagram Type 7 (The Enthusiast) is the most commonly reported type among self-identified ENFPs. The overlap is intuitive: both describe someone oriented toward possibility, experience, and future potential. Type 4 and Type 2 are the next most common, offering more introspective or relational flavors of the ENFP profile." },
+      { question: "Why do many ENFPs mistype as Type 4?", answer: "ENFPs and Type 4s share emotional sensitivity, creative orientation, and a feeling of being different from mainstream culture. ENFPs who have a heavier emotional life than the 'sunny ENFP' stereotype often wonder if they're actually Type 4. The distinction: Type 4 is a core fear structure (fear of being ordinary, without identity), while ENFP is a cognitive pattern. Many genuinely Type 7 ENFPs have Type 4-ish experiences without being Type 4 at the core." },
+      { question: "How does the Enneagram add to what I already know about being an ENFP?", answer: "The Enneagram tells you what specifically drives your ENFP patterns. ENFP explains how you process the world; Enneagram explains why you do what you do at the deepest level. An ENFP 7 and an ENFP 4 will both be imaginative, relationship-oriented, and values-driven — but the 7 is motivated by avoiding pain through movement, and the 4 is motivated by finding authentic meaning. Those different motivations produce quite different behavior under stress and growth." },
+      { question: "Can I take one test to get both my ENFP type and Enneagram type?", answer: "Yes — 1Test gives you your complete personality profile across 16 Personalities, Enneagram, DISC, and Strengths from one 15-minute free assessment. Rather than taking four separate tests and trying to cross-reference them, you get all four frameworks derived from the same answers." },
+    ],
+    ctaHeading: "Find your ENFP Enneagram type — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, Enneagram type, DISC profile, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ENFP personality type guide", url: "/blog/enfp-personality-type" },
+      { label: "Enneagram Type 7 — The Enthusiast", url: "/blog/enneagram-type-7-enthusiast" },
+      { label: "Enneagram Type 4 — The Individualist", url: "/blog/enneagram-type-4-individualist" },
+      { label: "ENFP careers guide", url: "/blog/enfp-careers" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "intp-enneagram-type": {
+    slug: "intp-enneagram-type",
+    metaTitle: "INTP Enneagram Type — Most Common Types and Why",
+    metaDesc: "Which Enneagram types are most common for INTPs? Learn why Type 5, Type 4, and Type 9 appear most often in INTP profiles, and what each combination means.",
+    canonicalUrl: "https://1test.me/blog/intp-enneagram-type",
+    h1: "INTP Enneagram Type — Most Common Types and What They Mean",
+    sections: [
+      {
+        heading: "Why INTPs cluster around specific Enneagram types",
+        html: p("INTPs are defined by their dominant Introverted Thinking — a relentless drive to understand how things work, to find inconsistencies in systems, and to build coherent internal models of reality. The Enneagram types that resonate most with INTPs share an orientation toward depth, independence, and comfort with being on the outside of mainstream social expectations. The most common types for INTPs are Type 5, Type 4, and Type 9.") +
+          p("INTPs often find the Enneagram particularly useful because it explains the emotional and relational patterns that their Ti-dominant profile doesn't naturally account for. Why do some INTPs withdraw into isolation while others seek recognition? Why are some INTPs contentedly detached while others feel a persistent sense of longing? The Enneagram answers these questions."),
+      },
+      {
+        heading: "INTP + Enneagram Type 5 (The Investigator) — most common",
+        html: p("INTP Type 5 is probably the most introverted and intellectually self-contained combination in the entire personality taxonomy. The INTP's drive to analyze and systematize combines with the Type 5's drive to accumulate knowledge and conserve energy, producing someone who could happily spend extended periods alone with their thoughts and a library of material to work through.") +
+          p("INTP 5s are often the people with the most genuinely deep expertise in their domains — they combine the INTP's systematic analysis with the 5's drive for mastery. They're also among the most private and self-sufficient: they need very little from the social world to feel complete.") +
+          p("The challenge: INTP 5s can become so self-sufficient and withdrawn that they atrophy their already-underdeveloped Extroverted Feeling. Meaningful relationships require vulnerability and availability; learning to invest in connection without waiting until they feel 'ready enough' is often their most important growth edge."),
+      },
+      {
+        heading: "INTP + Enneagram Type 4 (The Individualist) — second most common",
+        html: p("INTP Type 4 is a more emotionally complex version of the INTP profile. The Type 4's drive toward authenticity and emotional depth gives the INTP's typically cool, analytical exterior a warmer, more aesthetically sensitive undercurrent. INTP 4s often have strong creative or artistic interests alongside their analytical pursuits.") +
+          p("INTP 4s often feel most different from the INTP archetype — they're more aware of their emotional states, more sensitive to beauty and meaning, and more longing for deep connection than the 'detached logic machine' INTP stereotype suggests. They may have wondered if they're actually INFP because of this emotional richness.") +
+          p("The distinction from INFP: the INTP 4's primary tool is still Ti (analyzing for consistency and logical structure); they just have a richer emotional life than typical INTPs due to the Type 4 overlay. The INFP's primary tool is Fi (values and emotional authenticity)."),
+      },
+      {
+        heading: "INTP + Enneagram Type 9 (The Peacemaker) — third most common",
+        html: p("INTP Type 9 is an unusually easygoing version of the INTP. The Type 9's drive toward peace and harmony softens the INTP's tendency toward intellectual combativeness and contrarianism. INTP 9s are less likely to argue for argument's sake and more likely to engage intellectually only when they genuinely care about the subject.") +
+          p("INTP 9s often appear more 'chill' than typical INTPs — they're not constantly probing for logical inconsistencies or pushing back on received wisdom. They're more comfortable letting things be. The challenge is that this peace orientation can keep them from engaging with their full analytical capacity, leaving intellectual gifts underdeveloped."),
+      },
+      {
+        heading: "Other notable INTP Enneagram types",
+        html: p("**INTP Type 1:** Adds a principled, improvement-seeking layer to the INTP's analysis. INTP 1s often work in academic, research, or policy contexts where their drive to identify what's wrong combines with a genuine desire to fix it. More common than people expect.") +
+          p("**INTP Type 6:** INTP 6s are more anxious and collaborative than typical INTPs — they still analyze relentlessly, but they seek peer validation for their conclusions in ways typical INTPs don't. They're excellent in research contexts where peer review and collaborative verification are valued."),
+      },
+    ],
+    faqs: [
+      { question: "What is the most common Enneagram type for INTPs?", answer: "Enneagram Type 5 (The Investigator) is the most commonly reported type among self-identified INTPs. The overlap is strong: both INTP's dominant Introverted Thinking and Type 5's knowledge-accumulation drive describe someone who processes internally, develops deep expertise, and manages their energy and social exposure carefully. Type 4 and Type 9 are the next most common." },
+      { question: "Is INTP the same as Enneagram Type 5?", answer: "No — they're different frameworks. INTP describes a cognitive style (dominant Introverted Thinking, auxiliary Extroverted Intuition). Enneagram Type 5 describes a motivational structure (core fear of being incompetent or overwhelmed). An INTP Type 5 experiences both — the cognitive style and the motivational structure reinforce each other, which is why the overlap is so common. But INTPs can be any Enneagram type, and Type 5s can be any 16P type." },
+      { question: "Why do some INTPs feel more emotional than the INTP stereotype?", answer: "Often because they're INTP with a Type 4 Enneagram overlay. The Type 4's emotional depth and orientation toward authenticity and meaning gives the INTP's typically analytical profile a warmer, more emotionally complex undercurrent. If you're an INTP who relates more to the 'feeling different' and 'longing for depth' aspects of personality type descriptions than to the 'pure logic machine' stereotype, INTP 4 is likely the explanation." },
+      { question: "How do I find out my INTP Enneagram type?", answer: "Focus on your core fear: Type 5s fear being incapable or overwhelmed; Type 4s fear being ordinary or losing their identity; Type 9s fear conflict and loss of inner peace. Under stress, 5s withdraw further; 4s become emotionally demanding; 9s become anxious. Taking 1Test gives you both your 16P type and Enneagram type from one 15-minute free assessment." },
+    ],
+    ctaHeading: "Find your INTP Enneagram type — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, Enneagram type, DISC profile, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INTP personality type guide", url: "/blog/intp-personality-type" },
+      { label: "Enneagram Type 5 — The Investigator", url: "/blog/enneagram-type-5-investigator" },
+      { label: "Enneagram Type 4 vs Type 5", url: "/blog/enneagram-type-4-vs-type-5" },
+      { label: "INTP careers guide", url: "/blog/intp-careers" },
+    ],
+    datePublished: "2026-04-18",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

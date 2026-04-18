@@ -2177,6 +2177,36 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/enneagram-type-7-vs-type-8",
     ogType: "article",
   },
+  "/blog/infp-enneagram-type": {
+    title: "INFP Enneagram Type — Most Common Types and Why",
+    description: "Which Enneagram types are most common for INFPs? Type 4, Type 9, and Type 6 appear most often. Learn what each INFP-Enneagram combination means.",
+    canonicalUrl: "https://1test.me/blog/infp-enneagram-type",
+    ogType: "article",
+  },
+  "/blog/intj-enneagram-type": {
+    title: "INTJ Enneagram Type — Most Common Types and Why",
+    description: "Which Enneagram types are most common for INTJs? Type 5, Type 1, and Type 8 appear most often. Learn what each INTJ-Enneagram combination means.",
+    canonicalUrl: "https://1test.me/blog/intj-enneagram-type",
+    ogType: "article",
+  },
+  "/blog/infj-enneagram-type": {
+    title: "INFJ Enneagram Type — Most Common Types and Why",
+    description: "Which Enneagram types are most common for INFJs? Type 4, Type 1, and Type 2 appear most often. Learn what each INFJ-Enneagram combination means.",
+    canonicalUrl: "https://1test.me/blog/infj-enneagram-type",
+    ogType: "article",
+  },
+  "/blog/enfp-enneagram-type": {
+    title: "ENFP Enneagram Type — Most Common Types and Why",
+    description: "Which Enneagram types are most common for ENFPs? Type 7, Type 4, and Type 2 appear most often. Learn what each ENFP-Enneagram combination means.",
+    canonicalUrl: "https://1test.me/blog/enfp-enneagram-type",
+    ogType: "article",
+  },
+  "/blog/intp-enneagram-type": {
+    title: "INTP Enneagram Type — Most Common Types and Why",
+    description: "Which Enneagram types are most common for INTPs? Type 5, Type 4, and Type 9 appear most often. Learn what each INTP-Enneagram combination means.",
+    canonicalUrl: "https://1test.me/blog/intp-enneagram-type",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {
