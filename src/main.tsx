@@ -311,6 +311,15 @@ function AppRoutes() {
       <Route path="/blog/enneagram-type-7-careers" element={<BlogPage slug="enneagram-type-7-careers" />} />
       <Route path="/blog/enneagram-type-8-careers" element={<BlogPage slug="enneagram-type-8-careers" />} />
       <Route path="/blog/enneagram-type-9-careers" element={<BlogPage slug="enneagram-type-9-careers" />} />
+      <Route path="/blog/enneagram-type-1-compatibility" element={<BlogPage slug="enneagram-type-1-compatibility" />} />
+      <Route path="/blog/enneagram-type-2-compatibility" element={<BlogPage slug="enneagram-type-2-compatibility" />} />
+      <Route path="/blog/enneagram-type-3-compatibility" element={<BlogPage slug="enneagram-type-3-compatibility" />} />
+      <Route path="/blog/enneagram-type-4-compatibility" element={<BlogPage slug="enneagram-type-4-compatibility" />} />
+      <Route path="/blog/enneagram-type-5-compatibility" element={<BlogPage slug="enneagram-type-5-compatibility" />} />
+      <Route path="/blog/enneagram-type-6-compatibility" element={<BlogPage slug="enneagram-type-6-compatibility" />} />
+      <Route path="/blog/enneagram-type-7-compatibility" element={<BlogPage slug="enneagram-type-7-compatibility" />} />
+      <Route path="/blog/enneagram-type-8-compatibility" element={<BlogPage slug="enneagram-type-8-compatibility" />} />
+      <Route path="/blog/enneagram-type-9-compatibility" element={<BlogPage slug="enneagram-type-9-compatibility" />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="/relationship/:id" element={<RelationshipReportPage />} />

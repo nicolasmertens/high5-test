@@ -21282,6 +21282,465 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-18",
   },
+
+  "enneagram-type-1-compatibility": {
+    slug: "enneagram-type-1-compatibility",
+    metaTitle: "Enneagram Type 1 Compatibility: Best Relationship Matches",
+    metaDesc: "Discover Enneagram Type 1 compatibility — which types are the best matches for The Reformer, which are challenging, and what Type 1 needs in relationships.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-1-compatibility",
+    h1: "Enneagram Type 1 Compatibility: Best Relationship Matches",
+    sections: [
+      {
+        heading: "What Type 1 Needs in Relationships",
+        html: p("Enneagram Type 1s bring integrity, reliability, and a genuine desire to improve both themselves and their partnerships. In relationships, Ones need a partner who shares their ethical orientation, who can appreciate their high standards without feeling constantly judged, and who helps them soften the inner critic that never fully switches off.") +
+          p("Ones offer extraordinary loyalty and consistency. They follow through on commitments, mean what they say, and invest seriously in the people they choose. What they struggle with is relaxing into imperfection — both their own and their partner's."),
+      },
+      {
+        heading: "Best Compatibility Matches for Type 1",
+        html: strong([
+          { label: "Type 7 (The Enthusiast):", desc: "Sevens help Ones lighten up — introducing play, spontaneity, and permission to enjoy life without earning it first. Ones provide the structure and follow-through that grounds Seven's enthusiasm. A complementary balance of discipline and joy." },
+          { label: "Type 2 (The Helper):", desc: "Twos offer the warmth and appreciation that Ones need to soften their self-criticism. Ones provide Twos with honest feedback and a reliable partner who is genuinely committed. Both types care deeply about doing right by others." },
+          { label: "Type 9 (The Peacemaker):", desc: "Nines create the calm, accepting environment where Ones can relax their vigilance. The Nine's acceptance can help the One feel less judged, while the One's clarity and direction helps the Nine stay engaged with their own priorities." },
+          { label: "Type 1 with Type 1:", desc: "Two Ones can build a highly principled, mutually respectful partnership. The risk: both inner critics can combine into a relationship with little room for graceful imperfection. Shared commitment to growth is essential." },
+        ]),
+      },
+      {
+        heading: "Challenging Matches for Type 1",
+        html: p("Type 1 and Type 4 can clash: Fours' emotional intensity and resistance to structure can feel chaotic to a One, while Ones' criticism can wound the Four's sense of authentic self. With mutual respect for different ways of holding standards, this pairing can work — but requires conscious effort.") +
+          p("Type 1 and Type 8 can create power struggles: both are decisive and strong-willed, and both believe they know the right way. The One's moral framework can feel limiting to the Eight; the Eight's bluntness can feel like a violation of the One's ethical standards. Mutual admiration for each other's strength can bridge the gap."),
+      },
+      {
+        heading: "Growth in Type 1 Relationships",
+        html: p("The most important growth edge for Ones in relationships is learning to extend to their partner the grace they would offer a friend — and to themselves. The One who can say 'this is good enough and I love you as you are' creates a relationship environment that naturally improves.") +
+          p("Ones also benefit from partners who can call out the inner critic gently — who can say 'that sounds like your critic talking, not you' and help the One distinguish between principled standards and punishing perfectionism."),
+      },
+    ],
+    faqs: [
+      { question: "Who is Enneagram Type 1 most compatible with?", answer: "Type 1 pairs well with Type 7 (who brings lightness and joy), Type 2 (who offers warmth and appreciation), and Type 9 (whose acceptance helps Ones relax). These pairings provide what Ones most need: relief from their inner critic." },
+      { question: "What does Type 1 need in a relationship?", answer: "Integrity, reliability, genuine appreciation for their effort, and a partner who can help them ease the self-critical inner voice. Ones need to feel that their standards are respected even when not matched perfectly." },
+      { question: "Is Type 1 a good partner?", answer: "Yes — Ones are among the most reliable, committed, and genuinely well-intentioned partners. Their challenge is learning to relax perfectionism so their love can be received without it feeling like evaluation." },
+      { question: "What are Type 1 relationship challenges?", answer: "Perfectionism directed at the partner, difficulty expressing appreciation alongside critique, and the tendency to try to improve the relationship rather than accept it — these are the One's core relationship growth edges." },
+    ],
+    ctaHeading: "Discover Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to find your type and explore how your Enneagram shapes your relationships.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 1 guide", url: "/blog/enneagram-type-1" },
+      { label: "Enneagram Type 1 careers", url: "/blog/enneagram-type-1-careers" },
+      { label: "Enneagram Type 2 compatibility", url: "/blog/enneagram-type-2-compatibility" },
+      { label: "Personality test for relationships", url: "/blog/personality-test-for-relationships" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-2-compatibility": {
+    slug: "enneagram-type-2-compatibility",
+    metaTitle: "Enneagram Type 2 Compatibility: Best Relationship Matches",
+    metaDesc: "Discover Enneagram Type 2 compatibility — which types are best matches for The Helper, how Twos love, and what they need from a partner.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-2-compatibility",
+    h1: "Enneagram Type 2 Compatibility: Best Relationship Matches",
+    sections: [
+      {
+        heading: "What Type 2 Needs in Relationships",
+        html: p("Enneagram Type 2s are warm, attentive, and genuinely invested in their partners' wellbeing. They give generously — remembering what matters, providing support before it's asked for, and creating a relationship environment of remarkable care.") +
+          p("What Twos need in return: active appreciation, reciprocal warmth, and partners who notice and acknowledge what the Two does without waiting to be reminded. Twos thrive when they feel genuinely loved — not just needed. Their growth edge is learning to ask directly for what they need rather than giving more, hoping it will be reciprocated."),
+      },
+      {
+        heading: "Best Compatibility Matches for Type 2",
+        html: strong([
+          { label: "Type 8 (The Challenger):", desc: "Eights appreciate the Two's genuine care and are one of the few types who can handle the Two's emotional attunement without becoming overwhelmed. Twos soften Eights' intensity; Eights give Twos the directness and strength they find attractive and reassuring." },
+          { label: "Type 4 (The Individualist):", desc: "Fours need the specific, emotionally attuned care that Twos naturally provide. Twos are drawn to the Four's emotional depth and originality. Both types value deep connection and authenticity in relationships." },
+          { label: "Type 6 (The Loyalist):", desc: "Sixes and Twos are both committed, relationship-oriented types who show up consistently. Twos provide the warmth Sixes need to feel safe; Sixes provide the loyalty and reliability that makes Twos feel genuinely loved." },
+          { label: "Type 3 (The Achiever):", desc: "Twos are drawn to Three's accomplishment and social energy; Threes appreciate the Two's genuine, unconditional support. Both types have wings of each other (2w3/3w2), indicating natural resonance." },
+        ]),
+      },
+      {
+        heading: "Challenging Matches for Type 2",
+        html: p("Type 2 and Type 5 can struggle: Fives' need for alone time and emotional distance conflicts directly with the Two's need for connection and reciprocal care. Fives can feel smothered by Two's attentiveness; Twos can feel rejected by Five's withdrawal. Clear communication about needs is essential.") +
+          p("Two and Two partnerships can fall into mutual caregiving that leaves both partners' deeper needs unaddressed — both so focused on giving that neither practices receiving. Self-awareness about this pattern is key."),
+      },
+      {
+        heading: "Growth in Type 2 Relationships",
+        html: p("The Two's most important relationship growth is learning to ask directly for what they need. Twos often communicate needs indirectly — through hinting, giving more, or withdrawing — and then feel hurt when the message isn't received. Direct communication of needs, while uncomfortable for Twos, consistently produces better outcomes than the indirect approach.") +
+          p("Twos also grow when they can receive care gracefully — when a partner offers help, saying yes rather than deflecting. Allowing themselves to be cared for is its own form of intimacy that deepens relationship bonds."),
+      },
+    ],
+    faqs: [
+      { question: "Who is Enneagram Type 2 most compatible with?", answer: "Type 2 pairs well with Type 8 (who provides strength and directness), Type 4 (who offers emotional depth), and Type 6 (who offers consistent loyalty). Twos need partners who actively appreciate their giving and reciprocate with genuine warmth." },
+      { question: "What does Type 2 need in a relationship?", answer: "Active appreciation, reciprocal warmth, and partners who notice and acknowledge their care without waiting to be reminded. Twos need to feel genuinely loved for who they are, not just what they do." },
+      { question: "How does Type 2 show love?", answer: "Through attentive acts of service, remembering meaningful details, providing support before it's asked for, and creating an environment of warmth and care. Two love is highly personal and specific — they know exactly what you need." },
+      { question: "What are Type 2 relationship challenges?", answer: "Indirect communication of needs, difficulty receiving care, people-pleasing that suppresses authentic self-expression, and the pattern of giving more when needs aren't met rather than asking directly." },
+    ],
+    ctaHeading: "Find Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to discover your type and understand how your Enneagram shapes your relationships.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 2 guide", url: "/blog/enneagram-type-2" },
+      { label: "Enneagram Type 2 careers", url: "/blog/enneagram-type-2-careers" },
+      { label: "Enneagram Type 3 compatibility", url: "/blog/enneagram-type-3-compatibility" },
+      { label: "Personality test for relationships", url: "/blog/personality-test-for-relationships" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-3-compatibility": {
+    slug: "enneagram-type-3-compatibility",
+    metaTitle: "Enneagram Type 3 Compatibility: Best Relationship Matches",
+    metaDesc: "Discover Enneagram Type 3 compatibility — which types match The Achiever's drive and ambition, and what Threes need to sustain deep relationships.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-3-compatibility",
+    h1: "Enneagram Type 3 Compatibility: Best Relationship Matches",
+    sections: [
+      {
+        heading: "What Type 3 Needs in Relationships",
+        html: p("Enneagram Type 3s bring energy, ambition, and genuine care for their partners' success. In relationships, they need partners who admire and support their goals, who can match their pace, and — crucially — who can reach them beneath the performance and make it safe to be less than excellent.") +
+          p("Threes' greatest relationship challenge is authenticity: they are so skilled at presenting what works in any environment that partners can feel they're relating to a polished version rather than the real person. Relationships that penetrate the performance are the ones Threes value most."),
+      },
+      {
+        heading: "Best Compatibility Matches for Type 3",
+        html: strong([
+          { label: "Type 9 (The Peacemaker):", desc: "Nines offer the steady, unconditional acceptance that helps Threes slow down and be real. Threes provide direction and energy that helps Nines engage with their own priorities. A grounding, complementary balance." },
+          { label: "Type 6 (The Loyalist):", desc: "Sixes offer the consistent loyalty and genuine devotion that Threes need to feel secure enough to drop the performance. Threes help Sixes overcome anxiety through confident action and encouragement." },
+          { label: "Type 2 (The Helper):", desc: "Twos support Threes' goals with genuine enthusiasm and provide the emotional warmth that helps Threes feel loved for who they are rather than what they achieve. The 2w3/3w2 wing overlap signals natural resonance." },
+          { label: "Type 7 (The Enthusiast):", desc: "Sevens match Three's energy and ambition with genuine enthusiasm. Both types are optimistic, socially engaging, and forward-oriented — creating dynamic, high-energy partnerships." },
+        ]),
+      },
+      {
+        heading: "Challenging Matches for Type 3",
+        html: p("Type 3 and Type 4 can struggle with authenticity: Fours want raw emotional truth, while Threes can be reluctant to show the less polished parts of themselves. Fours may feel the Three is performing; Threes may feel the Four is dragging them into unnecessary difficulty. When both can bridge this gap, the combination is powerful.") +
+          p("Type 3 and Type 3 partnerships can become competitive rather than connective — both driving toward achievement with neither creating the space where the other can rest. Deliberate investment in non-achievement-based intimacy is essential."),
+      },
+      {
+        heading: "Growth in Type 3 Relationships",
+        html: p("The Three's most important relationship growth is learning to show up as themselves — to let partners see failure, uncertainty, and ordinariness without feeling that the relationship is thereby threatened. The Three who can be imperfect in front of their partner and survive it discovers that the relationship deepens rather than breaks.") +
+          p("Threes also grow when they invest in relationships as ends in themselves — not as part of a social strategy or an achievement portfolio, but because the person in front of them genuinely matters."),
+      },
+    ],
+    faqs: [
+      { question: "Who is Enneagram Type 3 most compatible with?", answer: "Type 3 pairs well with Type 9 (grounding acceptance), Type 6 (consistent loyalty), Type 2 (warm support), and Type 7 (matched energy). Threes need partners who admire their drive and can also reach them beneath the performance." },
+      { question: "What does Type 3 need in a relationship?", answer: "Admiration for their accomplishments, genuine support for their goals, and — most importantly — partners who make it safe to be imperfect. Threes need relationships where they can take off the performance and still feel loved." },
+      { question: "How does Type 3 show love?", answer: "By investing in partners' goals, showing up reliably, and channeling their considerable energy toward the relationship's success. Threes demonstrate love through action and achievement more than through verbal expression." },
+      { question: "What are Type 3 relationship challenges?", answer: "Difficulty with emotional vulnerability, tendency to perform rather than be authentic, over-prioritizing achievement over connection, and confusing admiration for love." },
+    ],
+    ctaHeading: "Discover Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to find your type and understand how your drives shape your relationships.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 3 guide", url: "/blog/enneagram-type-3" },
+      { label: "Enneagram Type 3 careers", url: "/blog/enneagram-type-3-careers" },
+      { label: "Enneagram Type 4 compatibility", url: "/blog/enneagram-type-4-compatibility" },
+      { label: "Personality test for couples", url: "/blog/personality-test-for-couples" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-4-compatibility": {
+    slug: "enneagram-type-4-compatibility",
+    metaTitle: "Enneagram Type 4 Compatibility: Best Relationship Matches",
+    metaDesc: "Discover Enneagram Type 4 compatibility — which types connect with The Individualist's depth, and what Fours need to build lasting relationships.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-4-compatibility",
+    h1: "Enneagram Type 4 Compatibility: Best Relationship Matches",
+    sections: [
+      {
+        heading: "What Type 4 Needs in Relationships",
+        html: p("Enneagram Type 4s bring emotional depth, creative attentiveness, and a quality of presence that most partners find rare and deeply valuable. In relationships, Fours need partners who can engage with their emotional complexity without panic — who can sit with intensity, appreciate their uniqueness, and not flinch at depth.") +
+          p("Fours' greatest relationship challenge is the pattern of idealizing a partner before the relationship, then finding the reality disappointing. Learning to love actual people — with their actual ordinariness — rather than idealized versions is the Four's core relational growth."),
+      },
+      {
+        heading: "Best Compatibility Matches for Type 4",
+        html: strong([
+          { label: "Type 9 (The Peacemaker):", desc: "Nines create the accepting, non-reactive space where Fours can express their emotional fullness without triggering drama. Nines aren't overwhelmed by Four intensity — they receive it calmly, which helps Fours feel genuinely seen." },
+          { label: "Type 5 (The Investigator):", desc: "Fives and Fours both value depth over surface. Fives provide intellectual engagement that Fours find stimulating; Fours provide emotional attunement that helps Fives feel less alone. Both respect each other's need for space and authenticity." },
+          { label: "Type 2 (The Helper):", desc: "Twos offer the specific, personal care that Fours value — attention to what makes them individually unique. Fours provide Twos with emotional depth and genuine authentic engagement that goes beyond social warmth." },
+          { label: "Type 1 (The Reformer):", desc: "Both types share a drive for something meaningful and authentic. Ones provide structure and reliability; Fours provide emotional richness and creative depth. With mutual respect, this pairing produces profound partnership." },
+        ]),
+      },
+      {
+        heading: "Challenging Matches for Type 4",
+        html: p("Type 4 and Type 3 can clash around authenticity: Threes value a polished exterior that Fours may experience as inauthentic, while Fours' emotional expressiveness can feel like unnecessary complexity to Threes. When both types can meet beneath their default modes, the combination of depth and drive can be powerful.") +
+          p("Type 4 and Type 7 can struggle with emotional engagement: Sevens redirect away from painful emotions, while Fours want to explore them. The Seven may feel pulled into a heaviness that drains them; the Four may feel their emotional reality is being avoided. Mutual appreciation for each other's orientation is essential."),
+      },
+      {
+        heading: "Growth in Type 4 Relationships",
+        html: p("Fours grow in relationships when they practice accepting the actual person in front of them — imperfections, ordinariness, and all — rather than relating to an idealized or disappointing version. The practice of equanimity (staying steady rather than oscillating between idealization and disenchantment) is transformative for Four relationships.") +
+          p("Fours also benefit from recognizing when they're using emotional withdrawal as leverage — creating distance to test whether the partner will pursue. Directness about what they need, rather than indirect testing, produces far more of what Fours actually want."),
+      },
+    ],
+    faqs: [
+      { question: "Who is Enneagram Type 4 most compatible with?", answer: "Type 4 pairs well with Type 9 (calm acceptance of their depth), Type 5 (intellectual and emotional depth), and Type 2 (specific personal attunement). Fours need partners who engage with their emotional complexity without flinching." },
+      { question: "What does Type 4 need in a relationship?", answer: "Genuine engagement with their emotional depth, appreciation for their uniqueness, and partners who can be present with intensity without either panicking or constantly redirecting toward the positive." },
+      { question: "How does Type 4 show love?", answer: "Through deeply personal attention — remembering what specifically matters to their partner, creating meaningful experiences, and offering the rare gift of being fully emotionally present and authentic." },
+      { question: "What are Type 4 relationship challenges?", answer: "Idealizing then devaluing partners, using withdrawal as leverage, mood-dependence in relationship engagement, and the tendency to focus on what's missing rather than appreciating what's present." },
+    ],
+    ctaHeading: "Discover Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to find your type and understand the relationship patterns that shape your connections.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 4 guide", url: "/blog/enneagram-type-4" },
+      { label: "Enneagram Type 4 careers", url: "/blog/enneagram-type-4-careers" },
+      { label: "Enneagram Type 5 compatibility", url: "/blog/enneagram-type-5-compatibility" },
+      { label: "Personality test for relationships", url: "/blog/personality-test-for-relationships" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-5-compatibility": {
+    slug: "enneagram-type-5-compatibility",
+    metaTitle: "Enneagram Type 5 Compatibility: Best Relationship Matches",
+    metaDesc: "Discover Enneagram Type 5 compatibility — which types respect The Investigator's need for space, and how Fives build deep, lasting relationships.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-5-compatibility",
+    h1: "Enneagram Type 5 Compatibility: Best Relationship Matches",
+    sections: [
+      {
+        heading: "What Type 5 Needs in Relationships",
+        html: p("Enneagram Type 5s are loyal, intellectually engaging partners who, once they choose someone, invest deeply — on their own terms and timeline. In relationships, Fives need partners who respect their need for solitude, who don't interpret space as rejection, and who can engage meaningfully with their intellectual interests.") +
+          p("Fives bring rare gifts to relationships: careful listening, loyal presence when they show up, and intellectual depth that most people never fully access in a partner. Their challenge is initiating connection and allowing emotional vulnerability without feeling that doing so depletes their internal resources."),
+      },
+      {
+        heading: "Best Compatibility Matches for Type 5",
+        html: strong([
+          { label: "Type 4 (The Individualist):", desc: "Fours and Fives both value depth and authenticity. Fours draw Fives out emotionally in a way that feels genuine rather than intrusive; Fives provide the intellectual grounding and space that Fours need to feel safe being complex." },
+          { label: "Type 1 (The Reformer):", desc: "Ones provide the structure and clear expectations that help Fives feel safe. Both types are private, principled, and highly competent — creating a relationship with mutual respect and minimal drama." },
+          { label: "Type 7 (The Enthusiast):", desc: "Sevens' lightness and external engagement can draw Fives out of their heads and into life. Fives provide intellectual depth that gives Seven's enthusiasm direction and meaning. A complementary pairing when both appreciate what the other brings." },
+          { label: "Type 9 (The Peacemaker):", desc: "Nines don't pressure Fives for connection — they offer calm presence that makes it safe to engage at Five's pace. Fives appreciate Nine's undemanding acceptance; Nines appreciate Five's thoughtful, reliable presence." },
+        ]),
+      },
+      {
+        heading: "Challenging Matches for Type 5",
+        html: p("Type 5 and Type 2 can struggle: Twos need active expressions of connection that Fives find draining to provide consistently. Twos may feel rejected by Five's withdrawal; Fives may feel smothered by Two's attentiveness. Clear, explicit agreements about connection frequency and form can make this pairing work.") +
+          p("Type 5 and Type 6 can work well when Six's loyalty matches Five's reliability, but Six's anxiety and need for reassurance can exhaust Five's limited social energy. Patient communication about both types' needs is key."),
+      },
+      {
+        heading: "Growth in Type 5 Relationships",
+        html: p("Fives grow in relationships when they practice initiating connection rather than always waiting for the partner to reach out. Their belief that relationships will survive without active cultivation is often wrong — and Fives can be surprised to discover a valued relationship has quietly starved for lack of their investment.") +
+          p("The Five who learns to share their inner world — not just their ideas, but their feelings, uncertainties, and vulnerabilities — discovers that intimacy is not depleting but replenishing. The right relationships refill rather than drain."),
+      },
+    ],
+    faqs: [
+      { question: "Who is Enneagram Type 5 most compatible with?", answer: "Type 5 pairs well with Type 4 (emotional and intellectual depth), Type 1 (structure and mutual respect), Type 7 (draws Fives into life), and Type 9 (undemanding acceptance). Fives need partners who respect their space and engage their minds." },
+      { question: "What does Type 5 need in a relationship?", answer: "Plenty of alone time, partners who don't interpret space as rejection, meaningful intellectual engagement, and relationships where depth is valued over frequency of contact." },
+      { question: "How does Type 5 show love?", answer: "Through careful listening, loyal presence when they choose to show up, sharing their inner world of ideas and analysis, and practical support delivered with precision and care." },
+      { question: "What are Type 5 relationship challenges?", answer: "Under-initiating connection, difficulty with emotional vulnerability, hoarding personal resources (time, energy, space) that relationships need, and assuming relationships will maintain themselves without active investment." },
+    ],
+    ctaHeading: "Find Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to discover your type and how your Enneagram shapes your relationship style.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 5 guide", url: "/blog/enneagram-type-5" },
+      { label: "Enneagram Type 5 careers", url: "/blog/enneagram-type-5-careers" },
+      { label: "Enneagram Type 6 compatibility", url: "/blog/enneagram-type-6-compatibility" },
+      { label: "Personality test for relationships", url: "/blog/personality-test-for-relationships" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-6-compatibility": {
+    slug: "enneagram-type-6-compatibility",
+    metaTitle: "Enneagram Type 6 Compatibility: Best Relationship Matches",
+    metaDesc: "Discover Enneagram Type 6 compatibility — which types build trust with The Loyalist, and what Sixes need to feel secure in love.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-6-compatibility",
+    h1: "Enneagram Type 6 Compatibility: Best Relationship Matches",
+    sections: [
+      {
+        heading: "What Type 6 Needs in Relationships",
+        html: p("Enneagram Type 6s are among the most loyal, devoted partners in the Enneagram. Once they trust someone, they commit with remarkable consistency and show up through difficulty in ways that other types may not. In relationships, Sixes need partners who are reliably trustworthy — whose actions consistently match their words over time.") +
+          p("Building trust is not instant for Sixes — it's earned through demonstrated consistency. Partners who understand this invest in showing up reliably rather than expecting trust to be assumed from the start."),
+      },
+      {
+        heading: "Best Compatibility Matches for Type 6",
+        html: strong([
+          { label: "Type 9 (The Peacemaker):", desc: "Nines create the stable, calm, non-reactive environment that helps Sixes feel safe. The Nine's consistency and acceptance provide exactly the trustworthy foundation Sixes need to relax their vigilance." },
+          { label: "Type 2 (The Helper):", desc: "Twos offer the active warmth and attentiveness that Sixes need to feel genuinely cared for. Sixes provide Twos with the consistent loyalty they need to feel loved. Both types are relationship-oriented and show up for the people they care about." },
+          { label: "Type 8 (The Challenger):", desc: "Eights' directness and strength can be deeply reassuring to Sixes — they say what they mean, they're not passive-aggressive, and their protective instinct aligns with Six's own need for security. Eights appreciate Six's loyalty." },
+          { label: "Type 1 (The Reformer):", desc: "Ones offer the reliability and integrity that Sixes need to trust. Both types are principled and responsible; both take their commitments seriously. A dependable, conscientious pairing." },
+        ]),
+      },
+      {
+        heading: "Challenging Matches for Type 6",
+        html: p("Type 6 and Type 3 can struggle: Threes' image-conscious adaptability can trigger Six's anxiety about whether the Three is being authentic. Sixes need to know who they're really with. When Threes can be genuinely vulnerable with Sixes, the anxiety often resolves.") +
+          p("Type 6 and Type 7 can have friction around anxiety management: Sevens redirect away from fear through positive reframing, while Sixes need to examine and name their fears rather than bypass them. Sevens may find Sixes exhaustingly cautious; Sixes may feel Sevens are avoiding real issues. With mutual understanding, this pairing works well."),
+      },
+      {
+        heading: "Growth in Type 6 Relationships",
+        html: p("Sixes grow in relationships when they develop the capacity to trust their own experience of safety rather than perpetually testing whether the partner is trustworthy. When a Six has consistent evidence of a partner's reliability, the growth edge is allowing that evidence to land — to actually feel safe rather than always preparing for the next betrayal.") +
+          p("Sixes also benefit from practicing direct communication of their fears and needs rather than testing partners indirectly. Most partners will provide reassurance willingly when asked — the Six doesn't need to engineer situations to find out."),
+      },
+    ],
+    faqs: [
+      { question: "Who is Enneagram Type 6 most compatible with?", answer: "Type 6 pairs well with Type 9 (stable, calm acceptance), Type 2 (warm and consistent devotion), Type 8 (direct and protective strength), and Type 1 (reliable integrity). Sixes need demonstrably trustworthy partners." },
+      { question: "What does Type 6 need in a relationship?", answer: "Consistent trustworthiness — partners whose actions reliably match their words over time. Sixes don't expect perfection; they need evidence of genuine commitment and honesty, especially when things are difficult." },
+      { question: "How does Type 6 show love?", answer: "Through fierce loyalty, showing up consistently over time, anticipating and preparing for problems that might affect their partner, and defending the people they love with unusual conviction." },
+      { question: "What are Type 6 relationship challenges?", answer: "Chronic doubt and second-guessing, indirect testing of partners' trustworthiness, anxiety that colors genuinely safe relationships, and difficulty letting safety evidence actually land." },
+    ],
+    ctaHeading: "Discover Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to find your type and understand the loyalty drives that shape your relationships.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 6 guide", url: "/blog/enneagram-type-6" },
+      { label: "Enneagram Type 6 careers", url: "/blog/enneagram-type-6-careers" },
+      { label: "Enneagram Type 7 compatibility", url: "/blog/enneagram-type-7-compatibility" },
+      { label: "Personality test for relationships", url: "/blog/personality-test-for-relationships" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-7-compatibility": {
+    slug: "enneagram-type-7-compatibility",
+    metaTitle: "Enneagram Type 7 Compatibility: Best Relationship Matches",
+    metaDesc: "Discover Enneagram Type 7 compatibility — which types share The Enthusiast's love of life, and what Sevens need to build lasting relationships.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-7-compatibility",
+    h1: "Enneagram Type 7 Compatibility: Best Relationship Matches",
+    sections: [
+      {
+        heading: "What Type 7 Needs in Relationships",
+        html: p("Enneagram Type 7s bring genuine enthusiasm, playfulness, and the gift of making life feel like an adventure. In relationships, Sevens need partners who can engage their curiosity, share in their excitement, and give them enough freedom that commitment doesn't feel like a cage.") +
+          p("Sevens' greatest relationship challenge is staying when things get difficult. Their instinct to redirect away from pain — which serves them in many contexts — can lead to avoiding the depth of engagement that sustaining relationships requires. The Seven who can stay through the difficult middle of a relationship discovers that depth produces a richer experience than novelty alone."),
+      },
+      {
+        heading: "Best Compatibility Matches for Type 7",
+        html: strong([
+          { label: "Type 1 (The Reformer):", desc: "Ones provide the structure and follow-through that ground Seven's enthusiasm into actual accomplishment. Sevens lighten Ones up — introducing joy and permission to enjoy life. A complementary balance of discipline and play." },
+          { label: "Type 5 (The Investigator):", desc: "Fives provide intellectual depth that gives Seven's enthusiasm direction. Sevens draw Fives out of their heads into life. Both types value autonomy, which prevents either from feeling smothered." },
+          { label: "Type 9 (The Peacemaker):", desc: "Nines create the accepting environment where Sevens can relax. Nines don't demand depth from Sevens in ways that feel like pressure; Sevens bring energy and engagement that help Nines stay present in life." },
+          { label: "Type 3 (The Achiever):", desc: "Threes and Sevens share optimism, energy, and forward orientation. Both types are socially engaging and future-focused — creating dynamic partnerships with natural momentum." },
+        ]),
+      },
+      {
+        heading: "Challenging Matches for Type 7",
+        html: p("Type 7 and Type 4 can struggle: Fours want to explore painful emotions thoroughly, while Sevens' instinct is to redirect toward the positive. Sevens may feel dragged down; Fours may feel their emotional reality is being dismissed. When Sevens can practice staying with Four's depths, and Fours can appreciate Seven's positive reframe, this pairing becomes rich.") +
+          p("Type 7 and Type 6 can have friction around anxiety: Sixes need to process fear, while Sevens prefer to bypass it. Sevens' optimism can feel dismissive to Sixes; Six's anxiety can feel like a drain on Seven's vitality. Mutual respect for different anxiety management strategies helps significantly."),
+      },
+      {
+        heading: "Growth in Type 7 Relationships",
+        html: p("Sevens grow in relationships when they practice staying rather than redirecting — choosing to be present with difficulty rather than finding the next exciting thing. The relationship that has survived genuine hardship together is one that Sevens, in retrospect, consistently describe as most meaningful.") +
+          p("Sevens also grow when they practice gratitude for what is present rather than focusing on what's missing or what could be better. The partner who is already in front of them is often, on examination, exactly what they need — if they can slow down enough to see it."),
+      },
+    ],
+    faqs: [
+      { question: "Who is Enneagram Type 7 most compatible with?", answer: "Type 7 pairs well with Type 1 (grounding structure), Type 5 (intellectual depth), Type 9 (calm acceptance), and Type 3 (matched energy). Sevens need partners who engage their curiosity and give them enough freedom that commitment feels like an expansion rather than a constraint." },
+      { question: "What does Type 7 need in a relationship?", answer: "Freedom, variety, a partner who shares in their enthusiasm, and — at a deeper level — someone who makes staying feel more exciting than leaving. Sevens need relationships that genuinely expand their life rather than restricting it." },
+      { question: "How does Type 7 show love?", answer: "Through creating adventures, bringing excitement and fun, generating possibilities for shared experiences, and a genuine enthusiasm for their partner's presence that makes partners feel genuinely wanted." },
+      { question: "What are Type 7 relationship challenges?", answer: "Difficulty staying when things get hard, redirecting away from painful depths rather than engaging them, over-focusing on future possibilities rather than present relationship, and commitment-avoidance when options feel foreclosed." },
+    ],
+    ctaHeading: "Find Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to discover your type and how your love of life shapes your relationships.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 7 guide", url: "/blog/enneagram-type-7" },
+      { label: "Enneagram Type 7 careers", url: "/blog/enneagram-type-7-careers" },
+      { label: "Enneagram Type 8 compatibility", url: "/blog/enneagram-type-8-compatibility" },
+      { label: "Personality test for couples", url: "/blog/personality-test-for-couples" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-8-compatibility": {
+    slug: "enneagram-type-8-compatibility",
+    metaTitle: "Enneagram Type 8 Compatibility: Best Relationship Matches",
+    metaDesc: "Discover Enneagram Type 8 compatibility — which types can handle The Challenger's intensity, and what Eights need to build deep, trusting relationships.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-8-compatibility",
+    h1: "Enneagram Type 8 Compatibility: Best Relationship Matches",
+    sections: [
+      {
+        heading: "What Type 8 Needs in Relationships",
+        html: p("Enneagram Type 8s bring fierce loyalty, protective instinct, and a quality of fully showing up that partners find both intense and deeply reassuring. In relationships, Eights need partners who are not intimidated by their intensity — who can hold their own ground, push back when they're wrong, and create the conditions in which Eights feel safe enough to show vulnerability.") +
+          p("Eights' greatest relationship challenge is allowing themselves to be vulnerable. Their early experience taught them that vulnerability was dangerous — and they built armor that protects but also isolates. The relationships that matter most to Eights are the ones where the armor comes off."),
+      },
+      {
+        heading: "Best Compatibility Matches for Type 8",
+        html: strong([
+          { label: "Type 2 (The Helper):", desc: "Twos offer the genuine warmth and care that Eights deeply want but rarely ask for. Eights protect Twos; Twos soften Eights. This pairing often produces the 'iron fist in a velvet glove' dynamic — strength and warmth combined." },
+          { label: "Type 9 (The Peacemaker):", desc: "Nines don't react to Eight's intensity with fear or counter-force — they receive it with calm steadiness. This non-reactive quality is deeply reassuring to Eights. Nines are also one of the few types who can hold their ground against an Eight without making it a battle." },
+          { label: "Type 4 (The Individualist):", desc: "Fours match Eight's emotional depth and don't flinch at intensity. Eights find Four's authenticity and refusal to perform attractive. Fours appreciate the Eight's directness and protective strength. Both types value honesty above comfort." },
+          { label: "Type 6 (The Loyalist):", desc: "Sixes' loyalty resonates with Eights' own commitment orientation. When Eights demonstrate reliability, Sixes become fiercely devoted — and Eights value loyalty above almost everything else." },
+        ]),
+      },
+      {
+        heading: "Challenging Matches for Type 8",
+        html: p("Type 8 and Type 1 can create power struggles: both are strong-willed, principled, and certain they know the right approach. The One's moral framework can feel limiting to the Eight; the Eight's rule-bending can feel like an ethical violation to the One. Mutual respect for each other's integrity is the bridge.") +
+          p("Type 8 and Type 3 can compete for dominance — both driving, both achievement-oriented, both used to being the most formidable person in the room. This can produce an exciting, high-energy partnership or an exhausting competition. Clear respect for each other's domains makes the difference."),
+      },
+      {
+        heading: "Growth in Type 8 Relationships",
+        html: p("Eights grow in relationships when they practice selective vulnerability with trusted partners — discovering that showing their softer side doesn't weaken them but deepens the connection. The Eight who can say 'I was wrong' or 'I need you' without it feeling like defeat has accessed the capacity that makes their relationships genuinely intimate rather than merely loyal.") +
+          p("Eights also grow when they practice restraint — recognizing that their intensity, while natural to them, can overwhelm partners, and that backing off slightly creates space for others to come toward them."),
+      },
+    ],
+    faqs: [
+      { question: "Who is Enneagram Type 8 most compatible with?", answer: "Type 8 pairs well with Type 2 (warmth and care), Type 9 (calm steadiness), Type 4 (depth and authenticity), and Type 6 (fierce loyalty). Eights need partners who aren't intimidated by their intensity and who create safety for vulnerability." },
+      { question: "What does Type 8 need in a relationship?", answer: "Partners who can hold their own ground and push back, who are reliably trustworthy, and who create the specific safety that allows Eights to be vulnerable — the most protected and most needed thing for Eights in relationships." },
+      { question: "How does Type 8 show love?", answer: "Through fierce protection, unwavering loyalty, and fully showing up for the people they care about. Eight love is intense and action-oriented — they demonstrate love through what they do, not primarily through what they say." },
+      { question: "What are Type 8 relationship challenges?", answer: "Difficulty with vulnerability, intensity that can overwhelm partners, control drives that limit partners' autonomy, and the tendency to interpret softness as weakness rather than as the deepest form of strength." },
+    ],
+    ctaHeading: "Discover Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to find your type and understand the powerful relationship drives that define your connections.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 8 guide", url: "/blog/enneagram-type-8" },
+      { label: "Enneagram Type 8 careers", url: "/blog/enneagram-type-8-careers" },
+      { label: "Enneagram Type 9 compatibility", url: "/blog/enneagram-type-9-compatibility" },
+      { label: "Personality test for relationships", url: "/blog/personality-test-for-relationships" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-9-compatibility": {
+    slug: "enneagram-type-9-compatibility",
+    metaTitle: "Enneagram Type 9 Compatibility: Best Relationship Matches",
+    metaDesc: "Discover Enneagram Type 9 compatibility — which types thrive with The Peacemaker's acceptance, and what Nines need to stay present in love.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-9-compatibility",
+    h1: "Enneagram Type 9 Compatibility: Best Relationship Matches",
+    sections: [
+      {
+        heading: "What Type 9 Needs in Relationships",
+        html: p("Enneagram Type 9s create a relationship environment of rare acceptance, patience, and genuine peace. They receive their partners without judgment, hold space for complexity, and provide the steady, non-reactive presence that most people rarely experience.") +
+          p("In relationships, Nines need partners who actively invite their perspective rather than waiting for it — who make explicit space for the Nine's voice knowing it won't emerge without an invitation. Nines' greatest relationship challenge is showing up as themselves: stating what they want, asserting their needs, and remaining present in conflict rather than withdrawing into peaceful numbness."),
+      },
+      {
+        heading: "Best Compatibility Matches for Type 9",
+        html: strong([
+          { label: "Type 3 (The Achiever):", desc: "Threes provide direction, energy, and forward movement that helps Nines engage with their own priorities. Nines offer Threes the unconditional acceptance that allows them to be real rather than performing. A grounding, mutually beneficial pairing." },
+          { label: "Type 1 (The Reformer):", desc: "Ones provide the clarity and direction that Nines can follow without feeling controlled. Nines soften Ones' self-criticism through their accepting presence. Both types are principled and slow to anger." },
+          { label: "Type 2 (The Helper):", desc: "Twos actively draw Nines out — warmly inviting their perspective and making them feel valued. Nines' calm acceptance helps Twos relax their need for external validation. Both types are other-oriented and relationship-invested." },
+          { label: "Type 8 (The Challenger):", desc: "Eights' directness and command can be reassuring for Nines — they always know where the Eight stands. Nines are one of the few types whose non-reactive calm can soften Eight intensity. This pairing often produces remarkable complementarity." },
+        ]),
+      },
+      {
+        heading: "Challenging Matches for Type 9",
+        html: p("Type 9 and Type 5 can become too comfortable in parallel existence — both private, both needing space, both not initiating connection reliably. The relationship can feel peaceful but lack the active investment that sustains it over time. Deliberate connection rituals help significantly.") +
+          p("Type 9 and Type 4 can struggle with conflict: Fours need to engage with emotional difficulty directly, while Nines prefer to smooth it over or withdraw. The Four may feel their emotional reality is being avoided; the Nine may feel pulled into more conflict than they can sustain. Gradual mutual adaptation makes this pairing rich."),
+      },
+      {
+        heading: "Growth in Type 9 Relationships",
+        html: p("Nines grow in relationships when they practice asserting their preferences — starting with small things ('I'd like to eat here', 'I want to see this film') and building to larger ones. Every small assertion builds the relational muscle that allows Nines to remain present in themselves while also being present in the relationship.") +
+          p("Nines also grow when they recognize that their withdrawal during conflict — which feels peaceful to them — is experienced by partners as abandonment or indifference. Staying present in conflict, even imperfectly, is among the greatest gifts a Nine can give their relationships."),
+      },
+    ],
+    faqs: [
+      { question: "Who is Enneagram Type 9 most compatible with?", answer: "Type 9 pairs well with Type 3 (direction and energy), Type 1 (clarity and principles), Type 2 (active warmth), and Type 8 (direct strength that is reassuring rather than threatening). Nines need partners who actively invite their presence." },
+      { question: "What does Type 9 need in a relationship?", answer: "Partners who explicitly invite their perspective, who make space for the Nine's voice and preferences, and who understand that Nine withdrawal during conflict is not indifference but overwhelm — and who can gently call them back." },
+      { question: "How does Type 9 show love?", answer: "Through steady, non-reactive presence; genuine acceptance of the partner as they are; patient accompaniment through difficulty; and the rare quality of making partners feel truly received without judgment." },
+      { question: "What are Type 9 relationship challenges?", answer: "Difficulty asserting preferences and needs, conflict avoidance that leaves real issues unaddressed, passive disengagement when overwhelmed, and merging with the partner's priorities at the expense of their own." },
+    ],
+    ctaHeading: "Discover Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to find your type and understand how your peace-seeking nature shapes your relationships.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 9 guide", url: "/blog/enneagram-type-9" },
+      { label: "Enneagram Type 9 careers", url: "/blog/enneagram-type-9-careers" },
+      { label: "Enneagram Type 1 compatibility", url: "/blog/enneagram-type-1-compatibility" },
+      { label: "Personality test for couples", url: "/blog/personality-test-for-couples" },
+    ],
+    datePublished: "2026-04-18",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

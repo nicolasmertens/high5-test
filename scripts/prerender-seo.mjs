@@ -2813,6 +2813,60 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/enneagram-type-9-careers",
     ogType: "article",
   },
+  "/blog/enneagram-type-1-compatibility": {
+    title: "Enneagram Type 1 Compatibility: Best Relationship Matches",
+    description: "Explore Enneagram Type 1 compatibility. See which types complement The Perfectionist's values, where friction arises, and how Type 1 grows in relationships.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-1-compatibility",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-2-compatibility": {
+    title: "Enneagram Type 2 Compatibility: Best Relationship Matches",
+    description: "Explore Enneagram Type 2 compatibility. See which types best receive The Helper's love, where friction arises, and how Type 2 grows in relationships.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-2-compatibility",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-3-compatibility": {
+    title: "Enneagram Type 3 Compatibility: Best Relationship Matches",
+    description: "Explore Enneagram Type 3 compatibility. See which types align with The Achiever's ambition, where friction arises, and how Type 3 grows in relationships.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-3-compatibility",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-4-compatibility": {
+    title: "Enneagram Type 4 Compatibility: Best Relationship Matches",
+    description: "Explore Enneagram Type 4 compatibility. See which types honor The Individualist's depth, where friction arises, and how Type 4 grows in relationships.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-4-compatibility",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-5-compatibility": {
+    title: "Enneagram Type 5 Compatibility: Best Relationship Matches",
+    description: "Explore Enneagram Type 5 compatibility. See which types respect The Investigator's boundaries, where friction arises, and how Type 5 grows in relationships.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-5-compatibility",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-6-compatibility": {
+    title: "Enneagram Type 6 Compatibility: Best Relationship Matches",
+    description: "Explore Enneagram Type 6 compatibility. See which types build trust with The Loyalist, where friction arises, and how Type 6 grows in relationships.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-6-compatibility",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-7-compatibility": {
+    title: "Enneagram Type 7 Compatibility: Best Relationship Matches",
+    description: "Explore Enneagram Type 7 compatibility. See which types match The Enthusiast's energy, where friction arises, and how Type 7 grows in relationships.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-7-compatibility",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-8-compatibility": {
+    title: "Enneagram Type 8 Compatibility: Best Relationship Matches",
+    description: "Explore Enneagram Type 8 compatibility. See which types match The Challenger's strength, where friction arises, and how Type 8 grows in relationships.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-8-compatibility",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-9-compatibility": {
+    title: "Enneagram Type 9 Compatibility: Best Relationship Matches",
+    description: "Explore Enneagram Type 9 compatibility. See which types harmonize with The Peacemaker, where friction arises, and how Type 9 grows in relationships.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-9-compatibility",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {
