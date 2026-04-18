@@ -1955,6 +1955,36 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/intp-vs-infj",
     ogType: "article",
   },
+  "/blog/infp-careers": {
+    title: "Best Careers for INFP Personality Types — Complete Career Guide",
+    description: "INFPs thrive in careers that align with their values and allow creative expression. Best career paths, work environment needs, and job fit advice for INFP personalities.",
+    canonicalUrl: "https://1test.me/blog/infp-careers",
+    ogType: "article",
+  },
+  "/blog/intj-careers": {
+    title: "Best Careers for INTJ Personality Types — Complete Career Guide",
+    description: "INTJs excel in careers that reward strategic thinking, independent work, and mastery. Best career paths, work environment needs, and career advice for INTJ personalities.",
+    canonicalUrl: "https://1test.me/blog/intj-careers",
+    ogType: "article",
+  },
+  "/blog/infj-careers": {
+    title: "Best Careers for INFJ Personality Types — Complete Career Guide",
+    description: "INFJs need careers that combine meaning with human impact. Best career paths, work environment needs, and career advice for INFJ personalities.",
+    canonicalUrl: "https://1test.me/blog/infj-careers",
+    ogType: "article",
+  },
+  "/blog/enfp-careers": {
+    title: "Best Careers for ENFP Personality Types — Complete Career Guide",
+    description: "ENFPs thrive in careers that offer variety, meaning, and human connection. Best career paths, common pitfalls, and work environment needs for ENFP personalities.",
+    canonicalUrl: "https://1test.me/blog/enfp-careers",
+    ogType: "article",
+  },
+  "/blog/entp-careers": {
+    title: "Best Careers for ENTP Personality Types — Complete Career Guide",
+    description: "ENTPs excel in careers that reward strategic thinking, debate, and innovation. Best career paths, work environment needs, and career advice for ENTP personalities.",
+    canonicalUrl: "https://1test.me/blog/entp-careers",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {
