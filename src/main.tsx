@@ -218,6 +218,25 @@ function AppRoutes() {
       <Route path="/blog/infj-disc-profile" element={<BlogPage slug="infj-disc-profile" />} />
       <Route path="/blog/enfp-disc-profile" element={<BlogPage slug="enfp-disc-profile" />} />
       <Route path="/blog/intp-disc-profile" element={<BlogPage slug="intp-disc-profile" />} />
+      <Route path="/blog/entp-disc-profile" element={<BlogPage slug="entp-disc-profile" />} />
+      <Route path="/blog/istj-disc-profile" element={<BlogPage slug="istj-disc-profile" />} />
+      <Route path="/blog/isfj-disc-profile" element={<BlogPage slug="isfj-disc-profile" />} />
+      <Route path="/blog/enfj-disc-profile" element={<BlogPage slug="enfj-disc-profile" />} />
+      <Route path="/blog/entj-disc-profile" element={<BlogPage slug="entj-disc-profile" />} />
+      <Route path="/blog/estp-disc-profile" element={<BlogPage slug="estp-disc-profile" />} />
+      <Route path="/blog/estj-disc-profile" element={<BlogPage slug="estj-disc-profile" />} />
+      <Route path="/blog/esfp-disc-profile" element={<BlogPage slug="esfp-disc-profile" />} />
+      <Route path="/blog/esfj-disc-profile" element={<BlogPage slug="esfj-disc-profile" />} />
+      <Route path="/blog/istp-disc-profile" element={<BlogPage slug="istp-disc-profile" />} />
+      <Route path="/blog/isfp-disc-profile" element={<BlogPage slug="isfp-disc-profile" />} />
+      <Route path="/blog/enfj-enneagram-type" element={<BlogPage slug="enfj-enneagram-type" />} />
+      <Route path="/blog/entj-enneagram-type" element={<BlogPage slug="entj-enneagram-type" />} />
+      <Route path="/blog/estp-enneagram-type" element={<BlogPage slug="estp-enneagram-type" />} />
+      <Route path="/blog/estj-enneagram-type" element={<BlogPage slug="estj-enneagram-type" />} />
+      <Route path="/blog/esfp-enneagram-type" element={<BlogPage slug="esfp-enneagram-type" />} />
+      <Route path="/blog/esfj-enneagram-type" element={<BlogPage slug="esfj-enneagram-type" />} />
+      <Route path="/blog/istp-enneagram-type" element={<BlogPage slug="istp-enneagram-type" />} />
+      <Route path="/blog/isfp-enneagram-type" element={<BlogPage slug="isfp-enneagram-type" />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="/relationship/:id" element={<RelationshipReportPage />} />

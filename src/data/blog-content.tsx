@@ -16004,6 +16004,1082 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-18",
   },
+
+  "entp-disc-profile": {
+    slug: "entp-disc-profile",
+    metaTitle: "ENTP DISC Profile — What DISC Style Are Most ENTPs?",
+    metaDesc: "What DISC style do most ENTPs have? ENTPs typically show high I or ID profiles. Learn what each ENTP-DISC combination means for communication and work.",
+    canonicalUrl: "https://1test.me/blog/entp-disc-profile",
+    h1: "ENTP DISC Profile — What DISC Style Fits ENTPs?",
+    sections: [
+      {
+        heading: "Why ENTP and DISC describe complementary things",
+        html: p("ENTP describes your cognitive architecture — dominant Extroverted Intuition that generates possibilities and connections, auxiliary Introverted Thinking that evaluates them with logical rigor. DISC describes your behavioral tendencies in social and work contexts — how you communicate, make decisions, and respond to challenges in real time.") +
+          p("Most ENTPs show high I (Influence) or ID DISC profiles. The I dimension — enthusiastic, people-oriented, persuasive, optimistic — maps closely to ENTP's characteristic energy in social settings. ENTPs love debating ideas with others, generating excitement about possibilities, and winning people over. Some ENTPs with more assertive or competitive streaks show ID profiles where the D dimension adds results-orientation and directness.") +
+          p("Understanding your ENTP-DISC combination clarifies how your energy lands with different colleagues and where your naturally high-energy style creates friction you may not notice."),
+      },
+      {
+        heading: "ENTP + High I (Influence) — most common",
+        html: p("High I is the most common DISC profile for ENTPs. The I dimension describes someone who is enthusiastic, expressive, persuasive, and people-energized — someone who generates excitement and brings others along with ideas through charisma and enthusiasm rather than authority. This aligns directly with ENTP's dominant Extroverted Intuition, which thrives in dialogue and loves the social energy of exploring ideas together.") +
+          p("ENTP-I people are often the most energizing people in any room — they spark conversations, see connections others miss, and make complex ideas feel exciting rather than intimidating. They're often natural advocates for new initiatives and can shift group thinking through sheer force of articulation.") +
+          p("The challenge: ENTP-I people can leave follow-through gaps. High I profiles tend to move fast, get excited about the next thing before completing the current thing, and underinvest in the detailed implementation work that turns good ideas into actual outcomes. They can also come across as insufficiently serious to high-C colleagues who value precision over enthusiasm."),
+      },
+      {
+        heading: "ENTP + ID (Influence-Dominance) — second most common",
+        html: p("ENTP-ID profiles are common among ENTPs in leadership, business, or competitive environments. The D dimension adds results-orientation, assertiveness, and comfort with bold decisions — all of which channel the ENTP's generative energy into more decisive action.") +
+          p("ENTP-ID people are often entrepreneurial in the fullest sense: they generate novel ideas (I's enthusiasm + ENTP's Extroverted Intuition) and then push hard to make them real (D's drive). They're direct, fast-moving, and competitive — and they often thrive in fast-paced environments where speed matters more than precision.") +
+          p("The challenge: ENTP-ID people can be combative and impulsive. The combination of D's directness and ENTP's love of debate can make them difficult to disagree with — not because they're actually right, but because they argue aggressively. High-S colleagues often feel steamrolled."),
+      },
+      {
+        heading: "ENTP + DI (Dominance-Influence) profiles",
+        html: p("Some ENTPs show DI profiles where the D dimension is primary — typically those who have developed strong assertiveness through leadership roles or competitive environments. DI ENTPs lead with results-orientation and use their interpersonal skills to build coalitions around their agenda.") +
+          p("These ENTPs are among the most formidable natural leaders — they combine strategic thinking (ENTP's Introverted Thinking) with Extroverted Intuition's possibility-generation, D's decisiveness, and I's social fluency. They can envision a direction, sell it compellingly, and push hard to execute it.") +
+          p("The challenge: DI ENTPs can have a low tolerance for bureaucracy, process, and people who move slower than they do. Managing up or sideways with high-S or high-C colleagues requires deliberate effort to slow down and listen."),
+      },
+      {
+        heading: "What your ENTP DISC profile means for work and relationships",
+        html: p("For ENTPs, the DISC profile is most useful for understanding where their high-energy, idea-focused style creates gaps. High I ENTPs need to actively build in follow-through systems — not because they lack the capability, but because their natural energy moves toward novelty rather than completion.") +
+          p("In team settings, ENTP-I people benefit from explicit pairing with high-C or high-S collaborators who stabilize their energy. The ENTP generates the ideas; the high-C makes them precise; the high-S ensures the team stays cohesive while working through them.") +
+          p("1Test gives you your full DISC profile alongside your 16P type, Enneagram, and Strengths — so you can see how all four frameworks interact in your specific profile."),
+      },
+    ],
+    faqs: [
+      { question: "What DISC type are most ENTPs?", answer: "Most ENTPs show high I (Influence) or ID DISC profiles. The I dimension maps closely to ENTP's dominant Extroverted Intuition — enthusiastic, persuasive, people-energized, idea-oriented. ENTPs in leadership or competitive roles often develop ID profiles with added assertiveness and results-orientation." },
+      { question: "Is ENTP the same as high I in DISC?", answer: "They overlap but describe different things. ENTP describes a cognitive pattern centered on generating and exploring possibilities in dialogue with others. High I in DISC describes behavioral tendencies toward enthusiasm, persuasion, and social expressiveness. Most ENTPs show high I behavior, but DISC is situational — an ENTP in a high-stakes, competitive environment might show more D behavior than their natural I preference." },
+      { question: "How is the ENTP different from the ENFP on DISC?", answer: "ENTPs and ENFPs often share I or ID DISC profiles. The key distinction is that ENTP's Introverted Thinking (T preference) can produce more D energy — more willingness to argue, challenge, and push back — than ENFP's Introverted Feeling. ENFPs tend to be warmer and more consensus-seeking in their behavioral style; ENTPs tend to be more combative and debate-oriented." },
+      { question: "How do I find my ENTP DISC profile?", answer: "Take the free assessment at 1Test. You'll receive your complete DISC profile — primary style, secondary style, dimension scores — alongside your 16 Personalities type, Enneagram type, and Strengths. One 15-minute test, no paywall." },
+    ],
+    ctaHeading: "Find your ENTP DISC profile — free",
+    ctaSubtext: "1Test gives you your DISC profile, 16 Personalities type, Enneagram type, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "ENTP personality type guide", url: "/blog/entp-personality-type" },
+      { label: "ENTP Enneagram type", url: "/blog/entp-enneagram-type" },
+      { label: "ENTP careers guide", url: "/blog/entp-careers" },
+      { label: "ENTP vs ENTJ", url: "/blog/entp-vs-entj" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "istj-disc-profile": {
+    slug: "istj-disc-profile",
+    metaTitle: "ISTJ DISC Profile — What DISC Style Are Most ISTJs?",
+    metaDesc: "What DISC style do most ISTJs have? ISTJs typically show high C or CD profiles. Learn what each ISTJ-DISC combination means for communication and work.",
+    canonicalUrl: "https://1test.me/blog/istj-disc-profile",
+    h1: "ISTJ DISC Profile — What DISC Style Fits ISTJs?",
+    sections: [
+      {
+        heading: "Why ISTJ and DISC describe complementary things",
+        html: p("ISTJ describes your cognitive architecture — dominant Introverted Sensing that catalogues concrete facts and past experiences, auxiliary Extroverted Thinking that applies those facts systematically to achieve reliable outcomes. DISC describes your behavioral tendencies in social and work contexts.") +
+          p("Most ISTJs show high C (Conscientiousness) or CD profiles. The C dimension — methodical, accurate, quality-focused, systematic — maps closely to ISTJ's characteristic approach to work and information. ISTJs value precision, procedure, and reliability; so does high C behavior. Some ISTJs in leadership or execution-focused roles develop CD profiles where the D dimension adds decisiveness and results-orientation.") +
+          p("Understanding your ISTJ-DISC combination clarifies how your structured, detail-oriented style lands with colleagues who operate differently."),
+      },
+      {
+        heading: "ISTJ + High C (Conscientiousness) — most common",
+        html: p("High C is the most common DISC profile for ISTJs by a significant margin. The C dimension describes analytical, precision-focused, quality-conscious behavior — someone who follows process, checks work carefully, and holds high standards for accuracy. This aligns directly with ISTJ's dominant Introverted Sensing and auxiliary Extroverted Thinking.") +
+          p("ISTJ-C people are often the most reliable people in any organization — they deliver consistently, maintain standards others let slide, and are the ones colleagues turn to when accuracy matters most. They're methodical rather than impulsive, and they often build deep expertise through sustained, disciplined effort over time.") +
+          p("The challenge: ISTJ-C people can appear rigid to colleagues who value flexibility and experimentation. High C profiles are naturally skeptical of change, especially change without demonstrated precedent or clear rationale. In fast-moving environments, this can make ISTJ-C people seem like obstacles rather than assets."),
+      },
+      {
+        heading: "ISTJ + CD (Conscientiousness-Dominance) — second most common",
+        html: p("ISTJ-CD profiles are common among ISTJs in management, operations, or execution leadership roles. The D dimension adds results-orientation and directness that helps ISTJs drive projects to completion rather than simply ensuring they're done correctly.") +
+          p("ISTJ-CD people combine methodical precision (C) with assertive accountability (D) in ways that make them excellent project leads and operations managers. They hold high standards, push for results, and communicate expectations clearly. They don't tolerate sloppy work or missed commitments.") +
+          p("The challenge: ISTJ-CD people can be demanding in ways that create team tension. The combination of C's high standards and D's directness can make feedback feel harsh — not because they intend it that way, but because they prioritize getting it right over managing feelings."),
+      },
+      {
+        heading: "ISTJ + CS (Conscientiousness-Steadiness) profiles",
+        html: p("Some ISTJs show CS profiles, particularly those in collaborative, service-oriented, or relationship-intensive roles. The S dimension adds relational warmth and patience that softens the C's typical formality.") +
+          p("ISTJ-CS people are often excellent mentors and reliable teammates — they bring ISTJ's precision and dependability into a more collaborative, patient package. They're less likely than pure C ISTJs to come across as cold or critical, and they invest more in team cohesion.") +
+          p("The challenge: ISTJ-CS profiles can be very resistant to change — both C's need for precedent and S's preference for stability make adapting to new processes or environments significantly harder than for more D-forward profiles."),
+      },
+      {
+        heading: "What your ISTJ DISC profile means for work and relationships",
+        html: p("For ISTJs, the DISC profile is most useful for understanding how their precision-focused style lands with more improvisational colleagues. High C ISTJs often believe they're simply maintaining standards; high-I colleagues experience it as inflexibility or excessive caution.") +
+          p("In collaborative work, ISTJ-C people often need to explicitly signal openness to experimentation — even when they're not fully convinced. Small signals of flexibility (acknowledging merit in an untested approach before articulating concerns) significantly improve cross-style collaboration.") +
+          p("1Test gives you your full DISC profile alongside your 16P type, Enneagram, and Strengths — so you can see how all four frameworks interact in your specific profile."),
+      },
+    ],
+    faqs: [
+      { question: "What DISC type are most ISTJs?", answer: "Most ISTJs show high C (Conscientiousness) or CD DISC profiles. The C dimension maps closely to ISTJ's dominant Introverted Sensing and auxiliary Extroverted Thinking — methodical, accurate, systematic, quality-driven. ISTJs in leadership or management roles often develop CD profiles with added decisiveness." },
+      { question: "Is ISTJ the same as high C in DISC?", answer: "They overlap significantly but describe different things. ISTJ describes a cognitive pattern centered on cataloguing concrete past experience and applying it systematically. High C in DISC describes behavioral tendencies toward precision, process, and accuracy. Most ISTJs show high C behavior, but their specific DISC profile depends on role and context." },
+      { question: "How is the ISTJ different from the INTJ on DISC?", answer: "Both ISTJs and INTJs commonly show C or CD DISC profiles. The key distinction is that INTJ's D component tends to be expressed through strategic vision and future-orientation, while ISTJ's D is expressed through reliable execution of proven methods. INTJs are more likely to challenge existing systems; ISTJs are more likely to ensure those systems are followed precisely." },
+      { question: "How do I find my ISTJ DISC profile?", answer: "Take the free assessment at 1Test. You'll receive your complete DISC profile — primary style, secondary style, dimension scores — alongside your 16 Personalities type, Enneagram type, and Strengths. One 15-minute test, no paywall." },
+    ],
+    ctaHeading: "Find your ISTJ DISC profile — free",
+    ctaSubtext: "1Test gives you your DISC profile, 16 Personalities type, Enneagram type, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "ISTJ personality type guide", url: "/blog/istj-personality-type" },
+      { label: "ISTJ Enneagram type", url: "/blog/istj-enneagram-type" },
+      { label: "ISTJ careers guide", url: "/blog/istj-careers" },
+      { label: "ISTJ vs INTJ", url: "/blog/istj-vs-intj" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "isfj-disc-profile": {
+    slug: "isfj-disc-profile",
+    metaTitle: "ISFJ DISC Profile — What DISC Style Are Most ISFJs?",
+    metaDesc: "What DISC style do most ISFJs have? ISFJs typically show high S or SC profiles. Learn what each ISFJ-DISC combination means for communication and work.",
+    canonicalUrl: "https://1test.me/blog/isfj-disc-profile",
+    h1: "ISFJ DISC Profile — What DISC Style Fits ISFJs?",
+    sections: [
+      {
+        heading: "Why ISFJ and DISC describe complementary things",
+        html: p("ISFJ describes your cognitive architecture — dominant Introverted Sensing that builds a rich internal map of concrete experience, auxiliary Extroverted Feeling that attunes to others' needs and maintains harmony. DISC describes your behavioral tendencies in social and work contexts.") +
+          p("Most ISFJs show high S (Steadiness) or SC profiles. The S dimension — patient, loyal, supportive, conflict-averse — maps closely to ISFJ's characteristic approach to relationships and work. ISFJs prioritize stability, reliability, and the well-being of people around them; high S behavior does the same. Some ISFJs with more detail-oriented professional roles develop SC profiles where the C dimension adds precision and quality-focus.") +
+          p("Understanding your ISFJ-DISC combination clarifies how your warm, supportive style lands in different contexts and where it creates unexpected friction."),
+      },
+      {
+        heading: "ISFJ + High S (Steadiness) — most common",
+        html: p("High S is the most common DISC profile for ISFJs. The S dimension describes patient, loyal, supportive, team-oriented behavior — someone who values stability, invests in relationships, and creates a reliable, calm environment around them. This aligns directly with ISFJ's dominant Introverted Sensing (which values consistency and precedent) and auxiliary Extroverted Feeling (which attunes to others' needs).") +
+          p("ISFJ-S people are often the organizational glue that holds teams together — they remember important details about colleagues, follow through reliably on commitments, and create a baseline of trust and predictability that others unconsciously depend on. They're often the people everyone appreciates but doesn't notice until they're gone.") +
+          p("The challenge: ISFJ-S people tend to be strongly conflict-averse. High S profiles prefer harmony and will often defer or accommodate rather than assert a preference. For ISFJs, this can mean absorbing significant amounts of dissatisfaction internally without ever surfacing it — which eventually creates either burnout or sudden rupture."),
+      },
+      {
+        heading: "ISFJ + SC (Steadiness-Conscientiousness) — second most common",
+        html: p("ISFJ-SC profiles are common among ISFJs in professional roles that require both relational care and technical precision — nursing, teaching, administration, social work, and similar fields. The C dimension adds quality-focus, accuracy, and procedural diligence to the S's relational warmth.") +
+          p("ISFJ-SC people are often excellent at detail-intensive care work — they're both genuinely attentive to people's needs (S) and careful about getting the details right (C). They tend to be the most methodical and reliable members of any team, and they invest deeply in both relationships and process quality.") +
+          p("The challenge: ISFJ-SC profiles can be extremely slow to embrace change. Both S's stability preference and C's need for tested procedures make adapting to new systems or restructured workflows genuinely difficult — not because they're resistant in principle, but because change disrupts the established patterns they've built their reliability on."),
+      },
+      {
+        heading: "ISFJ + SI (Steadiness-Influence) profiles",
+        html: p("Some ISFJs show SI profiles, particularly those in roles that require both relational care and social engagement — counseling, community work, customer service, or teaching roles with significant group interaction. The I dimension adds social warmth and expressiveness to the S's patient loyalty.") +
+          p("ISFJ-SI people are often the warmest and most socially engaged ISFJs. They bring genuine care for people (S) into more expressive, energetic social contexts (I), and they're often skilled at creating welcoming environments where people feel seen and included.") +
+          p("The challenge: ISFJ-SI people may struggle even more than pure S ISFJs with asserting their own needs, because both S and I profiles tend toward accommodation and people-pleasing. Developing the ability to say no without excessive guilt is a specific growth edge for this combination."),
+      },
+      {
+        heading: "What your ISFJ DISC profile means for work and relationships",
+        html: p("For ISFJs, the DISC profile is most useful for understanding where their supportive style creates gaps — specifically, where accommodating others crowds out their own needs and perspectives. High S ISFJs are often underrepresented in decisions that directly affect them because they defer so naturally.") +
+          p("In collaborative work, ISFJ-S people often need to practice stating preferences proactively rather than waiting to be asked. Their perspective is genuinely valuable; making it legible to others requires the deliberate habit of speaking before consensus forms.") +
+          p("1Test gives you your full DISC profile alongside your 16P type, Enneagram, and Strengths — so you can see how all four frameworks interact in your specific profile."),
+      },
+    ],
+    faqs: [
+      { question: "What DISC type are most ISFJs?", answer: "Most ISFJs show high S (Steadiness) or SC DISC profiles. The S dimension maps closely to ISFJ's dominant Introverted Sensing and auxiliary Extroverted Feeling — patient, loyal, supportive, stability-oriented. ISFJs in precision-oriented professional roles often develop SC profiles with added quality-focus." },
+      { question: "Is ISFJ the same as high S in DISC?", answer: "They overlap significantly. ISFJ describes a cognitive pattern centered on concrete experience recall and attunement to others' needs. High S in DISC describes behavioral tendencies toward patience, loyalty, and stability. Most ISFJs show high S behavior, but their specific DISC profile can shift depending on role demands and life experience." },
+      { question: "How is the ISFJ different from the INFJ on DISC?", answer: "ISFJs most commonly show S or SC DISC profiles; INFJs more commonly show S or SC profiles as well, but often with a stronger I component due to INFJ's Extroverted Feeling being more visionary and persuasive. INFJs tend to be slightly more expressive and advocacy-oriented; ISFJs tend to be more quietly reliable and procedure-oriented." },
+      { question: "How do I find my ISFJ DISC profile?", answer: "Take the free assessment at 1Test. You'll receive your complete DISC profile — primary style, secondary style, dimension scores — alongside your 16 Personalities type, Enneagram type, and Strengths. One 15-minute test, no paywall." },
+    ],
+    ctaHeading: "Find your ISFJ DISC profile — free",
+    ctaSubtext: "1Test gives you your DISC profile, 16 Personalities type, Enneagram type, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "ISFJ personality type guide", url: "/blog/isfj-personality-type" },
+      { label: "ISFJ Enneagram type", url: "/blog/isfj-enneagram-type" },
+      { label: "ISFJ careers guide", url: "/blog/isfj-careers" },
+      { label: "ISFJ vs INFJ", url: "/blog/isfj-vs-infj" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enfj-disc-profile": {
+    slug: "enfj-disc-profile",
+    metaTitle: "ENFJ DISC Profile — What DISC Style Are Most ENFJs?",
+    metaDesc: "What DISC style do most ENFJs have? ENFJs typically show high I or IS profiles. Learn what each ENFJ-DISC combination means for communication and leadership.",
+    canonicalUrl: "https://1test.me/blog/enfj-disc-profile",
+    h1: "ENFJ DISC Profile — What DISC Style Fits ENFJs?",
+    sections: [
+      {
+        heading: "Why ENFJ and DISC describe complementary things",
+        html: p("ENFJ describes your cognitive architecture — dominant Extroverted Feeling that reads and responds to the emotional landscape of groups, auxiliary Introverted Intuition that perceives underlying patterns and long-term trajectories. DISC describes your behavioral tendencies in social and work contexts.") +
+          p("Most ENFJs show high I (Influence) or IS profiles. The I dimension — enthusiastic, people-oriented, persuasive, inspiring — maps closely to ENFJ's dominant Extroverted Feeling, which leads through emotional attunement and motivational energy. Some ENFJs who emphasize relational stability alongside inspiration show IS profiles where the S dimension adds patience and consistency.") +
+          p("Understanding your ENFJ-DISC combination clarifies how your leadership style lands across different audiences and where your people-orientation can create blind spots."),
+      },
+      {
+        heading: "ENFJ + High I (Influence) — most common",
+        html: p("High I is the most common DISC profile for ENFJs. The I dimension describes someone who leads through inspiration, enthusiasm, and interpersonal energy — someone who reads the room naturally and calibrates their message to move people. This aligns directly with ENFJ's dominant Extroverted Feeling.") +
+          p("ENFJ-I people are often the most naturally inspiring leaders in any organization. They have an exceptional ability to make people feel seen, motivated, and capable — and they create loyalty through genuine investment in people's development. They tend to be skilled communicators who can adapt their style across audiences.") +
+          p("The challenge: ENFJ-I people can prioritize harmony and inspiration over difficult truths. High I profiles tend to avoid conflict and can oversell optimism at the expense of accuracy. ENFJs can sometimes tell people what they want to hear rather than what they need to hear — especially when they can sense that the truth will disappoint."),
+      },
+      {
+        heading: "ENFJ + IS (Influence-Steadiness) — second most common",
+        html: p("ENFJ-IS profiles are common among ENFJs in mentoring, counseling, educational, or community leadership roles. The S dimension adds relational patience and consistency to the I's expressive enthusiasm — producing someone who is both inspiring and deeply reliable.") +
+          p("ENFJ-IS people often become the trusted advisors and beloved mentors in any organization. They combine ENFJ's Extroverted Feeling attunement with the S profile's long-term relationship investment — they remember what matters to the people they work with and show up consistently over time, not just in high-energy moments.") +
+          p("The challenge: ENFJ-IS profiles are often highly conflict-averse. Both I and S dimensions prefer harmony, which means ENFJ-IS people may delay difficult conversations past the point of easy resolution. They often absorb significant interpersonal friction internally before surfacing it."),
+      },
+      {
+        heading: "ENFJ + ID (Influence-Dominance) profiles",
+        html: p("Some ENFJs show ID profiles, particularly those who have developed executive leadership roles or who work in high-stakes advocacy environments. The D dimension adds results-orientation and decisiveness that makes these ENFJs not just inspiring but action-driving.") +
+          p("ENFJ-ID people are among the most effective organizational leaders — they inspire commitment (I), maintain relational trust (ENFJ's Extroverted Feeling), and push hard for outcomes (D). They can build movements, not just teams.") +
+          p("The challenge: ENFJ-ID people can become manipulative rather than genuinely persuasive when they feel the ends justify the means. The combination of EFJ's emotional fluency and D's assertiveness, without adequate self-scrutiny, can shade into people management rather than people development."),
+      },
+      {
+        heading: "What your ENFJ DISC profile means for work and relationships",
+        html: p("For ENFJs, the DISC profile is most useful for understanding where their inspirational style creates gaps — specifically, where the desire for harmony prevents necessary direct communication. High I ENFJs often need to develop comfort with delivering hard feedback clearly, even when they can sense it will disappoint.") +
+          p("In collaborative settings, ENFJ-I people benefit from explicit feedback structures that require honest assessment rather than encouraging responses. Pair with high-C colleagues who will challenge optimistic projections before they become commitments.") +
+          p("1Test gives you your full DISC profile alongside your 16P type, Enneagram, and Strengths — so you can see how all four frameworks interact in your specific profile."),
+      },
+    ],
+    faqs: [
+      { question: "What DISC type are most ENFJs?", answer: "Most ENFJs show high I (Influence) or IS DISC profiles. The I dimension maps closely to ENFJ's dominant Extroverted Feeling — enthusiastic, people-inspiring, emotionally attuned, persuasive. ENFJs in mentoring or sustained leadership roles often show IS profiles with added relational consistency." },
+      { question: "Is ENFJ the same as high I in DISC?", answer: "They overlap but describe different things. ENFJ describes a cognitive pattern centered on reading emotional landscapes and perceiving long-term patterns. High I in DISC describes behavioral tendencies toward enthusiasm, inspiration, and social expressiveness. Most ENFJs show high I behavior, though their specific profile depends on role and context." },
+      { question: "How is the ENFJ different from the ENFP on DISC?", answer: "ENFJs and ENFPs both commonly show I or IS DISC profiles. ENFJs tend to be more organized and leadership-oriented due to their Introverted Intuition auxiliary, which produces a more structured vision than ENFP's Introverted Feeling. ENFPs are often slightly more improvisational; ENFJs are slightly more directional and followthrough-focused." },
+      { question: "How do I find my ENFJ DISC profile?", answer: "Take the free assessment at 1Test. You'll receive your complete DISC profile — primary style, secondary style, dimension scores — alongside your 16 Personalities type, Enneagram type, and Strengths. One 15-minute test, no paywall." },
+    ],
+    ctaHeading: "Find your ENFJ DISC profile — free",
+    ctaSubtext: "1Test gives you your DISC profile, 16 Personalities type, Enneagram type, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "ENFJ personality type guide", url: "/blog/enfj-personality-type" },
+      { label: "ENFJ Enneagram type", url: "/blog/enfj-enneagram-type" },
+      { label: "ENFJ careers guide", url: "/blog/enfj-careers" },
+      { label: "ENFJ vs INFJ", url: "/blog/enfj-vs-infj" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "entj-disc-profile": {
+    slug: "entj-disc-profile",
+    metaTitle: "ENTJ DISC Profile — What DISC Style Are Most ENTJs?",
+    metaDesc: "What DISC style do most ENTJs have? ENTJs typically show high D or DC profiles. Learn what each ENTJ-DISC combination means for leadership and communication.",
+    canonicalUrl: "https://1test.me/blog/entj-disc-profile",
+    h1: "ENTJ DISC Profile — What DISC Style Fits ENTJs?",
+    sections: [
+      {
+        heading: "Why ENTJ and DISC describe complementary things",
+        html: p("ENTJ describes your cognitive architecture — dominant Extroverted Thinking that organizes external reality toward efficient outcomes, auxiliary Introverted Intuition that perceives long-term strategic patterns. DISC describes your behavioral tendencies in social and work contexts.") +
+          p("Most ENTJs show high D (Dominance) or DC profiles. The D dimension — decisive, results-oriented, assertive, challenging — maps closely to ENTJ's dominant Extroverted Thinking, which drives toward achievement and efficiency. Some ENTJs who emphasize precision and systems alongside their drive show DC profiles where the C dimension adds methodical rigor to D's directness.") +
+          p("Understanding your ENTJ-DISC combination clarifies where your high-drive leadership style creates exceptional outcomes — and where it creates friction that undermines the very goals you're pushing toward."),
+      },
+      {
+        heading: "ENTJ + High D (Dominance) — most common",
+        html: p("High D is the most common DISC profile for ENTJs. The D dimension describes decisive, results-focused, assertive behavior — someone who challenges obstacles directly, accepts risk, and drives hard for outcomes. This aligns directly with ENTJ's dominant Extroverted Thinking and its characteristic push for efficiency and achievement.") +
+          p("ENTJ-D people are often the most results-driving leaders in any organization. They set ambitious goals, remove obstacles decisively, and push themselves and their teams hard. They're often the people organizations turn to when something critical isn't working and needs to be fixed fast.") +
+          p("The challenge: ENTJ-D people can be abrasive and intimidating without being aware of it. High D profiles communicate directly and move fast — both of which can feel overwhelming or dismissive to high-S and high-I colleagues who process differently. Talented people sometimes disengage from ENTJ-D leaders not because the goals are wrong but because the pace and style leave no room to breathe."),
+      },
+      {
+        heading: "ENTJ + DC (Dominance-Conscientiousness) — second most common",
+        html: p("ENTJ-DC profiles are common among ENTJs in technically complex leadership roles — engineering, finance, law, strategy consulting. The C dimension adds analytical precision and quality-focus to D's drive, producing a leader who is both fast and rigorous.") +
+          p("ENTJ-DC people often become the most formidable strategic operators — they can envision a direction (ENTJ's Introverted Intuition), build the logical case for it (C's analytical rigor), and drive hard toward execution (D's results-orientation). They hold high standards for both outcomes and the quality of the work.") +
+          p("The challenge: ENTJ-DC people can become demanding in ways that create burnout. High standards (C) combined with relentless drive (D) produce a combination that struggles to celebrate progress — there's always more to achieve and more to refine. Teams may deliver excellent work and still feel inadequate."),
+      },
+      {
+        heading: "ENTJ + DI (Dominance-Influence) profiles",
+        html: p("Some ENTJs show DI profiles, particularly those who have developed strong interpersonal fluency alongside their drive — often through sales, executive leadership, or public-facing roles. The I dimension adds social energy and persuasive skill to D's assertiveness.") +
+          p("ENTJ-DI people are often extremely compelling leaders — they can drive toward outcomes (D) and inspire genuine enthusiasm (I) simultaneously. They're more charismatic than pure D ENTJs and more results-focused than pure I profiles.") +
+          p("The challenge: ENTJ-DI people can be overconfident and can use their interpersonal fluency to push ideas through without adequate scrutiny. Their comfort with asserting and persuading simultaneously can make it hard for others to push back effectively."),
+      },
+      {
+        heading: "What your ENTJ DISC profile means for work and relationships",
+        html: p("For ENTJs, the DISC profile is most useful for understanding where their drive-forward style creates retention and collaboration problems. High D ENTJs often believe they're simply being direct and efficient; high-S and high-I colleagues experience it as dismissal.") +
+          p("The highest-leverage development area for ENTJ-D people is usually slowing down to create space for input before decisions are made — not to be polite, but because better information leads to better outcomes. The 'I already know what to do' certainty that comes naturally to D profiles often costs ENTJs accuracy.") +
+          p("1Test gives you your full DISC profile alongside your 16P type, Enneagram, and Strengths — so you can see how all four frameworks interact in your specific profile."),
+      },
+    ],
+    faqs: [
+      { question: "What DISC type are most ENTJs?", answer: "Most ENTJs show high D (Dominance) or DC DISC profiles. The D dimension maps closely to ENTJ's dominant Extroverted Thinking — decisive, results-oriented, assertive, challenge-seeking. ENTJs in technically complex roles often develop DC profiles with added analytical rigor." },
+      { question: "Is ENTJ the same as high D in DISC?", answer: "They overlap significantly. ENTJ describes a cognitive pattern centered on organizing external reality toward strategic outcomes. High D in DISC describes behavioral tendencies toward decisiveness, assertiveness, and results-orientation. Most ENTJs show high D behavior, but their specific DISC profile depends on professional context and developed interpersonal skills." },
+      { question: "How is the ENTJ different from the ESTJ on DISC?", answer: "Both ENTJs and ESTJs commonly show D or CD DISC profiles. The key distinction is that ENTJ's Introverted Intuition drives long-term strategic vision and pattern recognition, while ESTJ's Introverted Sensing drives reliable execution of proven methods. ENTJs tend to challenge existing systems to build something better; ESTJs tend to ensure existing systems are followed correctly." },
+      { question: "How do I find my ENTJ DISC profile?", answer: "Take the free assessment at 1Test. You'll receive your complete DISC profile — primary style, secondary style, dimension scores — alongside your 16 Personalities type, Enneagram type, and Strengths. One 15-minute test, no paywall." },
+    ],
+    ctaHeading: "Find your ENTJ DISC profile — free",
+    ctaSubtext: "1Test gives you your DISC profile, 16 Personalities type, Enneagram type, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "ENTJ personality type guide", url: "/blog/entj-personality-type" },
+      { label: "ENTJ Enneagram type", url: "/blog/entj-enneagram-type" },
+      { label: "ENTJ careers guide", url: "/blog/entj-careers" },
+      { label: "ENTJ vs INTJ", url: "/blog/entj-vs-intj" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "estp-disc-profile": {
+    slug: "estp-disc-profile",
+    metaTitle: "ESTP DISC Profile — What DISC Style Are Most ESTPs?",
+    metaDesc: "What DISC style do most ESTPs have? ESTPs typically show high D or DI profiles. Learn what each ESTP-DISC combination means for communication and work.",
+    canonicalUrl: "https://1test.me/blog/estp-disc-profile",
+    h1: "ESTP DISC Profile — What DISC Style Fits ESTPs?",
+    sections: [
+      {
+        heading: "Why ESTP and DISC describe complementary things",
+        html: p("ESTP describes your cognitive architecture — dominant Extroverted Sensing that engages directly and pragmatically with the present moment, auxiliary Introverted Thinking that rapidly evaluates what works. DISC describes your behavioral tendencies in social and work contexts.") +
+          p("Most ESTPs show high D (Dominance) or DI profiles. The D dimension — action-oriented, pragmatic, assertive, direct — maps closely to ESTP's characteristic engagement with the world. ESTPs move fast, act on available information rather than waiting for certainty, and meet obstacles with direct action. Some ESTPs with strong social fluency show DI profiles where the I dimension adds people-oriented energy to D's assertiveness.") +
+          p("Understanding your ESTP-DISC combination clarifies how your action-first style lands in different organizational contexts."),
+      },
+      {
+        heading: "ESTP + High D (Dominance) — most common",
+        html: p("High D is the most common DISC profile for ESTPs. The D dimension describes action-oriented, assertive, challenge-accepting behavior — someone who engages problems directly, accepts risk readily, and focuses on tangible results. This aligns directly with ESTP's dominant Extroverted Sensing, which thrives on direct engagement with the immediate environment.") +
+          p("ESTP-D people are often the most effective crisis responders and high-stakes operators. They read the immediate situation accurately, act decisively, and adapt fluidly — they don't get paralyzed by complexity or risk aversion. In fast-moving, high-stakes environments, this makes them extremely valuable.") +
+          p("The challenge: ESTP-D people can be impulsive and create collateral damage that they don't register. High D profiles move fast and accept risk — which can mean moving forward without adequately considering impact on others. They can also resist planning and structure in ways that undermine sustainable performance."),
+      },
+      {
+        heading: "ESTP + DI (Dominance-Influence) — second most common",
+        html: p("ESTP-DI profiles are common among ESTPs in sales, negotiation, entrepreneurship, and other environments where both pragmatic drive and interpersonal fluency are required. The I dimension adds social energy and persuasive skill to D's action-orientation.") +
+          p("ESTP-DI people are often exceptional at reading people in real time and using that reading to navigate situations toward their desired outcome. They combine ESTP's Extroverted Sensing (acute situational awareness) with D's drive and I's social fluency to produce a style that is both direct and relationally savvy.") +
+          p("The challenge: ESTP-DI people can be perceived as manipulative, especially in high-stakes contexts. Their combination of people-reading skill (ESTP's Extroverted Sensing) and persuasive energy (I) can look like genuine connection or strategic maneuvering depending on how it's used and perceived."),
+      },
+      {
+        heading: "ESTP + CD (Conscientiousness-Dominance) profiles",
+        html: p("Some ESTPs develop CD profiles as they mature into technical or operational leadership roles that require precision alongside action. The C dimension adds methodical rigor and quality-focus that balances ESTP's natural tendency toward speed.") +
+          p("ESTP-CD people retain their practical, action-oriented core but build in more thorough assessment of quality and consequence. They're often excellent field operators who can execute at speed without sacrificing accuracy.") +
+          p("The challenge: the CD combination can create inner tension for ESTPs — the C dimension's need for thoroughness conflicts with the ESTP's natural preference for moving fast. This tension is usually productive but can manifest as frustration when they feel slowed down by process."),
+      },
+      {
+        heading: "What your ESTP DISC profile means for work and relationships",
+        html: p("For ESTPs, the DISC profile is most useful for understanding where their action-first style creates planning and relationship gaps. High D ESTPs often underinvest in communicating their reasoning to others — they see the situation clearly and act, but colleagues who didn't see the same thing can feel blindsided.") +
+          p("In collaborative settings, ESTP-D and DI people benefit from explicitly building in brief communication checkpoints — not to slow down, but to ensure others can track and support their movement. Alignment is faster than cleanup.") +
+          p("1Test gives you your full DISC profile alongside your 16P type, Enneagram, and Strengths — so you can see how all four frameworks interact in your specific profile."),
+      },
+    ],
+    faqs: [
+      { question: "What DISC type are most ESTPs?", answer: "Most ESTPs show high D (Dominance) or DI DISC profiles. The D dimension maps closely to ESTP's dominant Extroverted Sensing — action-oriented, pragmatic, risk-accepting, direct. ESTPs in people-facing, high-stakes roles often develop DI profiles with added interpersonal fluency." },
+      { question: "Is ESTP the same as high D in DISC?", answer: "They overlap significantly. ESTP describes a cognitive pattern centered on direct, pragmatic engagement with the immediate environment. High D in DISC describes behavioral tendencies toward assertiveness, action, and results-focus. Most ESTPs show high D behavior, though role demands can shift the secondary dimension." },
+      { question: "How is the ESTP different from the ENTJ on DISC?", answer: "Both ESTPs and ENTJs commonly show D or DI/DC DISC profiles. The key distinction is that ENTJ's D is paired with long-term strategic vision (Introverted Intuition), while ESTP's D is paired with immediate situational action (Extroverted Sensing). ENTJs tend to be more planful; ESTPs tend to be more reactive and improvisational." },
+      { question: "How do I find my ESTP DISC profile?", answer: "Take the free assessment at 1Test. You'll receive your complete DISC profile — primary style, secondary style, dimension scores — alongside your 16 Personalities type, Enneagram type, and Strengths. One 15-minute test, no paywall." },
+    ],
+    ctaHeading: "Find your ESTP DISC profile — free",
+    ctaSubtext: "1Test gives you your DISC profile, 16 Personalities type, Enneagram type, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "ESTP personality type guide", url: "/blog/estp-personality-type" },
+      { label: "ESTP Enneagram type", url: "/blog/estp-enneagram-type" },
+      { label: "ESTP careers guide", url: "/blog/estp-careers" },
+      { label: "ESTP vs ISTP", url: "/blog/estp-vs-istp" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "estj-disc-profile": {
+    slug: "estj-disc-profile",
+    metaTitle: "ESTJ DISC Profile — What DISC Style Are Most ESTJs?",
+    metaDesc: "What DISC style do most ESTJs have? ESTJs typically show high D or CD profiles. Learn what each ESTJ-DISC combination means for leadership and communication.",
+    canonicalUrl: "https://1test.me/blog/estj-disc-profile",
+    h1: "ESTJ DISC Profile — What DISC Style Fits ESTJs?",
+    sections: [
+      {
+        heading: "Why ESTJ and DISC describe complementary things",
+        html: p("ESTJ describes your cognitive architecture — dominant Extroverted Thinking that organizes external reality through systems, rules, and accountability, auxiliary Introverted Sensing that anchors decisions in proven precedent and concrete experience. DISC describes your behavioral tendencies in social and work contexts.") +
+          p("Most ESTJs show high D (Dominance) or CD profiles. The D dimension — assertive, results-oriented, direct, accountability-focused — maps closely to ESTJ's dominant Extroverted Thinking. ESTJs hold themselves and others to clear standards and push for outcomes through organized, systematic effort. Some ESTJs emphasize process precision over pure drive, showing CD profiles where the C dimension's methodical rigor is primary.") +
+          p("Understanding your ESTJ-DISC combination clarifies how your results-oriented, organized style lands with different teams and where it creates friction you may not notice."),
+      },
+      {
+        heading: "ESTJ + High D (Dominance) — most common",
+        html: p("High D is the most common DISC profile for ESTJs. The D dimension describes assertive, direct, results-focused behavior — someone who sets clear expectations, holds people accountable, and drives hard for outcomes. This aligns directly with ESTJ's dominant Extroverted Thinking, which naturally organizes external reality toward efficient, accountable outcomes.") +
+          p("ESTJ-D people are often the most reliable executors in any organization — they get things done, hold the line on commitments, and create the organizational discipline that allows complex work to complete on time. They're often sought for roles where accountability and delivery are paramount.") +
+          p("The challenge: ESTJ-D people can create hostile environments without intending to. Their directness (D) and preference for proven methods (ESTJ's Introverted Sensing) can manifest as rigidity and harsh criticism — especially when others don't meet their expectations. High-S and high-I colleagues often feel judged rather than supported."),
+      },
+      {
+        heading: "ESTJ + CD (Conscientiousness-Dominance) — second most common",
+        html: p("ESTJ-CD profiles are common among ESTJs in operations, compliance, project management, or technical leadership. The C dimension adds precision and quality-focus to D's accountability drive — producing someone who enforces both the standard and the method for reaching it.") +
+          p("ESTJ-CD people are often the highest-standards operators in their fields. They not only care that work gets done (D) but that it gets done correctly and according to established procedure (C + ESTJ's Introverted Sensing). They tend to create exceptionally reliable systems and maintain them rigorously over time.") +
+          p("The challenge: ESTJ-CD people can appear inflexible and bureaucratic to more innovative colleagues. The combination of ESTJ's Introverted Sensing (which trusts precedent) and C's process-orientation makes them resistant to departing from established procedure even when the situation genuinely warrants it."),
+      },
+      {
+        heading: "ESTJ + DC (Dominance-Conscientiousness) profiles",
+        html: p("Some ESTJs show DC profiles where the D dimension is primary and C is secondary — common in ESTJs who have developed leadership roles that require both decisive action and quality management. DC ESTJs lead with assertive accountability and back it with methodical precision.") +
+          p("DC ESTJs are often excellent senior managers and directors — they hold people to high standards, communicate expectations clearly, and maintain quality rigorously. Their teams know exactly what's expected and what the consequences of missing it are.") +
+          p("The challenge: DC ESTJs can create a low-trust, compliance-oriented culture if they're not deliberate about recognizing and rewarding good work. The focus on accountability (D) and quality standards (C) without corresponding recognition can make teams feel like they can only fail, never succeed."),
+      },
+      {
+        heading: "What your ESTJ DISC profile means for work and relationships",
+        html: p("For ESTJs, the DISC profile is most useful for understanding where their accountability-focused style creates retention and engagement problems. High D ESTJs often underestimate how their directness lands with high-S colleagues, who may interpret clear feedback as harsh criticism.") +
+          p("The highest-leverage development area for ESTJ-D and CD people is usually investing explicitly in positive recognition before problem-identification. Their natural tendency is to notice what isn't working; their teams often hear that more than what is working, which creates a demoralizing gap.") +
+          p("1Test gives you your full DISC profile alongside your 16P type, Enneagram, and Strengths — so you can see how all four frameworks interact in your specific profile."),
+      },
+    ],
+    faqs: [
+      { question: "What DISC type are most ESTJs?", answer: "Most ESTJs show high D (Dominance) or CD DISC profiles. The D dimension maps closely to ESTJ's dominant Extroverted Thinking — assertive, results-oriented, accountability-focused, direct. ESTJs in precision-intensive roles often develop CD profiles with added methodical quality-focus." },
+      { question: "Is ESTJ the same as high D in DISC?", answer: "They overlap significantly. ESTJ describes a cognitive pattern centered on organizing external reality through rules, systems, and accountability. High D in DISC describes behavioral tendencies toward assertiveness, decisiveness, and results-focus. Most ESTJs show high D behavior, though their secondary dimension varies by role and development." },
+      { question: "How is the ESTJ different from the ENTJ on DISC?", answer: "Both ESTJs and ENTJs commonly show D or CD DISC profiles. The key distinction is cognitive: ENTJ is driven by long-term strategic vision (Introverted Intuition), while ESTJ is driven by proven precedent and reliable execution (Introverted Sensing). ENTJs tend to challenge systems to build something new; ESTJs tend to enforce and optimize existing systems." },
+      { question: "How do I find my ESTJ DISC profile?", answer: "Take the free assessment at 1Test. You'll receive your complete DISC profile — primary style, secondary style, dimension scores — alongside your 16 Personalities type, Enneagram type, and Strengths. One 15-minute test, no paywall." },
+    ],
+    ctaHeading: "Find your ESTJ DISC profile — free",
+    ctaSubtext: "1Test gives you your DISC profile, 16 Personalities type, Enneagram type, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "ESTJ personality type guide", url: "/blog/estj-personality-type" },
+      { label: "ESTJ Enneagram type", url: "/blog/estj-enneagram-type" },
+      { label: "ESTJ careers guide", url: "/blog/estj-careers" },
+      { label: "ESTJ vs ENTJ", url: "/blog/estj-vs-entj" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "esfp-disc-profile": {
+    slug: "esfp-disc-profile",
+    metaTitle: "ESFP DISC Profile — What DISC Style Are Most ESFPs?",
+    metaDesc: "What DISC style do most ESFPs have? ESFPs typically show high I or IS profiles. Learn what each ESFP-DISC combination means for communication and work.",
+    canonicalUrl: "https://1test.me/blog/esfp-disc-profile",
+    h1: "ESFP DISC Profile — What DISC Style Fits ESFPs?",
+    sections: [
+      {
+        heading: "Why ESFP and DISC describe complementary things",
+        html: p("ESFP describes your cognitive architecture — dominant Extroverted Sensing that engages fully and enthusiastically with the present moment, auxiliary Introverted Feeling that filters experience through personal values and authenticity. DISC describes your behavioral tendencies in social and work contexts.") +
+          p("Most ESFPs show high I (Influence) or IS profiles. The I dimension — enthusiastic, spontaneous, people-energized, expressive — maps closely to ESFP's dominant Extroverted Sensing in social contexts. ESFPs light up rooms, bring energy to groups, and connect quickly and warmly with others. Some ESFPs who emphasize loyalty and relational warmth over pure expressiveness show IS profiles where the S dimension adds consistency and steadiness.") +
+          p("Understanding your ESFP-DISC combination clarifies how your people-oriented, expressive style lands in work environments and where it creates gaps."),
+      },
+      {
+        heading: "ESFP + High I (Influence) — most common",
+        html: p("High I is the most common DISC profile for ESFPs. The I dimension describes expressive, enthusiastic, people-energized behavior — someone who generates excitement, builds rapport quickly, and brings contagious energy to groups. This aligns directly with ESFP's dominant Extroverted Sensing, which engages the present moment with full-body enthusiasm and social generativity.") +
+          p("ESFP-I people are often the most socially energizing people in any environment. They make things fun, make people feel welcome, and create the kind of spontaneous connection that turns groups into communities. They tend to be exceptionally good in roles that require ongoing relationship building and authentic enthusiasm.") +
+          p("The challenge: ESFP-I people can struggle with sustained focus on complex, abstract, or detail-intensive work. High I profiles move toward people and excitement and away from solitary precision. They can also have difficulty with criticism, which high I people often experience as personal rejection."),
+      },
+      {
+        heading: "ESFP + IS (Influence-Steadiness) — second most common",
+        html: p("ESFP-IS profiles are common among ESFPs in caregiving, education, community, or sustained relationship-building roles. The S dimension adds patience, consistency, and relational depth to the I's expressiveness — producing someone who is both fun and genuinely reliable.") +
+          p("ESFP-IS people often become beloved community figures — they bring ESFP's warmth and enthusiasm into a more sustained, relationship-investing form. They're the people who remember birthdays, follow up after hard conversations, and show up consistently over time.") +
+          p("The challenge: ESFP-IS profiles share both styles' tendency toward conflict avoidance. They're very attuned to relational harmony and can absorb significant amounts of interpersonal friction internally rather than surfacing it directly."),
+      },
+      {
+        heading: "ESFP + ID (Influence-Dominance) profiles",
+        html: p("Some ESFPs show ID profiles, particularly those in performance, entertainment, entrepreneurship, or advocacy roles that require both high social energy and assertive drive. The D dimension adds results-orientation and decisiveness to the I's expressive enthusiasm.") +
+          p("ESFP-ID people are often the most compelling performers and presenters — they combine ESFP's authentic presence and social warmth with D's drive for impact. They can inspire both immediate emotional connection and lasting motivation.") +
+          p("The challenge: ESFP-ID people can be impulsive in ways that create credibility problems. D's bias toward action combined with I's optimism and ESFP's present-focus can mean committing to things without adequate planning — and then needing to walk them back."),
+      },
+      {
+        heading: "What your ESFP DISC profile means for work and relationships",
+        html: p("For ESFPs, the DISC profile is most useful for understanding where their expressive, people-focused style creates follow-through and complexity-management gaps. High I ESFPs often need to build in external structure (deadlines, accountability partners, written commitments) that their natural style doesn't generate organically.") +
+          p("In work settings, ESFP-I people often thrive when their role capitalizes on their social strengths and pairs them with high-C colleagues who provide the planning and precision they deprioritize.") +
+          p("1Test gives you your full DISC profile alongside your 16P type, Enneagram, and Strengths — so you can see how all four frameworks interact in your specific profile."),
+      },
+    ],
+    faqs: [
+      { question: "What DISC type are most ESFPs?", answer: "Most ESFPs show high I (Influence) or IS DISC profiles. The I dimension maps closely to ESFP's dominant Extroverted Sensing in social contexts — enthusiastic, expressive, people-energized, spontaneous. ESFPs in sustained relationship-building roles often develop IS profiles with added relational consistency." },
+      { question: "Is ESFP the same as high I in DISC?", answer: "They overlap significantly. ESFP describes a cognitive pattern centered on full, enthusiastic engagement with the present moment filtered through personal values. High I in DISC describes behavioral tendencies toward enthusiasm, expressiveness, and social energy. Most ESFPs show high I behavior, though their specific profile depends on role context." },
+      { question: "How is the ESFP different from the ENFP on DISC?", answer: "ESFPs and ENFPs often share I DISC profiles. The key distinction is that ENFP's auxiliary Introverted Feeling drives idealistic values and meaning-seeking that gives their social energy a more visionary quality. ESFP's Extroverted Sensing is more grounded in immediate sensory experience — ESFPs tend to be more spontaneous and present-focused; ENFPs tend to be more idea-driven and future-oriented." },
+      { question: "How do I find my ESFP DISC profile?", answer: "Take the free assessment at 1Test. You'll receive your complete DISC profile — primary style, secondary style, dimension scores — alongside your 16 Personalities type, Enneagram type, and Strengths. One 15-minute test, no paywall." },
+    ],
+    ctaHeading: "Find your ESFP DISC profile — free",
+    ctaSubtext: "1Test gives you your DISC profile, 16 Personalities type, Enneagram type, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "ESFP personality type guide", url: "/blog/esfp-personality-type" },
+      { label: "ESFP Enneagram type", url: "/blog/esfp-enneagram-type" },
+      { label: "ESFP careers guide", url: "/blog/esfp-careers" },
+      { label: "ESFP vs ISFP", url: "/blog/esfp-vs-isfp" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "esfj-disc-profile": {
+    slug: "esfj-disc-profile",
+    metaTitle: "ESFJ DISC Profile — What DISC Style Are Most ESFJs?",
+    metaDesc: "What DISC style do most ESFJs have? ESFJs typically show high S or SI profiles. Learn what each ESFJ-DISC combination means for communication and work.",
+    canonicalUrl: "https://1test.me/blog/esfj-disc-profile",
+    h1: "ESFJ DISC Profile — What DISC Style Fits ESFJs?",
+    sections: [
+      {
+        heading: "Why ESFJ and DISC describe complementary things",
+        html: p("ESFJ describes your cognitive architecture — dominant Extroverted Feeling that actively maintains harmony and attends to others' needs in real time, auxiliary Introverted Sensing that provides a rich memory of what has worked and what people have valued in the past. DISC describes your behavioral tendencies in social and work contexts.") +
+          p("Most ESFJs show high S (Steadiness) or SI profiles. The S dimension — supportive, patient, loyal, harmony-seeking — maps closely to ESFJ's dominant Extroverted Feeling, which continuously works to ensure people feel valued and the group stays cohesive. Some ESFJs with strong social expressiveness show SI profiles where the I dimension adds enthusiasm and warmth to the S's steadiness.") +
+          p("Understanding your ESFJ-DISC combination clarifies how your support-oriented style lands in different organizational contexts and where it creates gaps."),
+      },
+      {
+        heading: "ESFJ + High S (Steadiness) — most common",
+        html: p("High S is the most common DISC profile for ESFJs. The S dimension describes patient, loyal, harmonious, relationship-investing behavior — someone who shows up consistently, attunes to others' needs, and creates the social conditions where groups can work well together. This maps directly to ESFJ's dominant Extroverted Feeling, which continuously maintains relational warmth and group cohesion.") +
+          p("ESFJ-S people are often the relational anchors in their organizations — they're the people others turn to for support, the people who maintain team morale during difficulty, and the people whose departure always surprises organizations with how much invisible work disappears with them.") +
+          p("The challenge: ESFJ-S people are typically very conflict-averse and can struggle with situations that require delivering uncomfortable feedback or enforcing unpopular decisions. Their strong orientation toward harmony means they often delay difficult conversations until the situation has significantly worsened."),
+      },
+      {
+        heading: "ESFJ + SI (Steadiness-Influence) — second most common",
+        html: p("ESFJ-SI profiles are common among ESFJs in roles that combine relational care with social visibility — community leadership, customer-facing management, education, or event coordination. The I dimension adds expressive warmth and social energy to the S's loyal steadiness.") +
+          p("ESFJ-SI people are often the most visible community builders — they bring ESFJ's genuine care for people into a more publicly expressive form. They create inclusive, welcoming environments and are often skilled at making diverse groups of people feel like they belong.") +
+          p("The challenge: ESFJ-SI profiles share both styles' tendency toward people-pleasing. Both S and I dimensions prefer harmony and social approval, which means ESFJ-SI people may avoid disappointing others even when doing so would serve everyone better."),
+      },
+      {
+        heading: "ESFJ + SC (Steadiness-Conscientiousness) profiles",
+        html: p("Some ESFJs develop SC profiles, particularly in roles that require combining relational care with precise, accurate work — healthcare, social work, administration, or human resources. The C dimension adds quality-focus and procedural care to the S's relational steadiness.") +
+          p("ESFJ-SC people are often the most reliable and detail-oriented caregivers — they combine genuine attentiveness to people (S + ESFJ's Extroverted Feeling) with careful attention to accuracy and process (C). They tend to create environments that feel both caring and trustworthy.") +
+          p("The challenge: ESFJ-SC profiles can be extremely change-averse. Both S's stability preference and C's reliance on established procedure, combined with ESFJ's Introverted Sensing's trust in what has worked before, can make adapting to new systems significantly stressful."),
+      },
+      {
+        heading: "What your ESFJ DISC profile means for work and relationships",
+        html: p("For ESFJs, the DISC profile is most useful for understanding where their harmony-oriented style creates gaps — specifically, where the desire to keep people comfortable prevents necessary direct communication. High S ESFJs often need to develop explicit frameworks for delivering difficult feedback that don't require conflict.") +
+          p("In leadership roles, ESFJ-S people benefit from understanding that protecting people from hard truths isn't caring — it's a form of disrespect that assumes people can't handle reality. Genuine care sometimes requires disappointing people in the short term for their benefit in the long term.") +
+          p("1Test gives you your full DISC profile alongside your 16P type, Enneagram, and Strengths — so you can see how all four frameworks interact in your specific profile."),
+      },
+    ],
+    faqs: [
+      { question: "What DISC type are most ESFJs?", answer: "Most ESFJs show high S (Steadiness) or SI DISC profiles. The S dimension maps closely to ESFJ's dominant Extroverted Feeling — supportive, loyal, harmony-seeking, relationship-investing. ESFJs in socially visible roles often develop SI profiles with added expressive warmth." },
+      { question: "Is ESFJ the same as high S in DISC?", answer: "They overlap significantly. ESFJ describes a cognitive pattern centered on maintaining group harmony and attending to others' needs through real-time emotional attunement. High S in DISC describes behavioral tendencies toward patience, loyalty, and stability. Most ESFJs show high S behavior, though their specific DISC profile depends on role context and developed interpersonal skills." },
+      { question: "How is the ESFJ different from the ISFJ on DISC?", answer: "Both ESFJs and ISFJs commonly show S or SC DISC profiles. The key distinction is the E/I dimension: ESFJs' dominant Extroverted Feeling is active and outward-facing — they continuously work to read and maintain group harmony. ISFJs' dominant Introverted Sensing is inward-facing — they work from an internal catalogue of what has cared for people well. ESFJs tend to be more socially expressive and group-coordinating; ISFJs tend to be quieter and more behind-the-scenes." },
+      { question: "How do I find my ESFJ DISC profile?", answer: "Take the free assessment at 1Test. You'll receive your complete DISC profile — primary style, secondary style, dimension scores — alongside your 16 Personalities type, Enneagram type, and Strengths. One 15-minute test, no paywall." },
+    ],
+    ctaHeading: "Find your ESFJ DISC profile — free",
+    ctaSubtext: "1Test gives you your DISC profile, 16 Personalities type, Enneagram type, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "ESFJ personality type guide", url: "/blog/esfj-personality-type" },
+      { label: "ESFJ Enneagram type", url: "/blog/esfj-enneagram-type" },
+      { label: "ESFJ careers guide", url: "/blog/esfj-careers" },
+      { label: "ESFJ vs ISFJ", url: "/blog/esfj-vs-isfj" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "istp-disc-profile": {
+    slug: "istp-disc-profile",
+    metaTitle: "ISTP DISC Profile — What DISC Style Are Most ISTPs?",
+    metaDesc: "What DISC style do most ISTPs have? ISTPs typically show high C or CD profiles. Learn what each ISTP-DISC combination means for communication and work.",
+    canonicalUrl: "https://1test.me/blog/istp-disc-profile",
+    h1: "ISTP DISC Profile — What DISC Style Fits ISTPs?",
+    sections: [
+      {
+        heading: "Why ISTP and DISC describe complementary things",
+        html: p("ISTP describes your cognitive architecture — dominant Introverted Thinking that builds precise internal models of how systems work, auxiliary Extroverted Sensing that engages directly and pragmatically with the physical environment. DISC describes your behavioral tendencies in social and work contexts.") +
+          p("Most ISTPs show high C (Conscientiousness) or CD profiles. The C dimension — analytical, precision-focused, independent, quality-driven — maps closely to ISTP's dominant Introverted Thinking, which works by building internal logical frameworks and applying them with technical precision. Some ISTPs in technical or operational leadership roles develop CD profiles where the D dimension adds assertive action to C's analytical rigor.") +
+          p("Understanding your ISTP-DISC combination clarifies how your independent, precision-oriented style lands in collaborative contexts and where it creates gaps."),
+      },
+      {
+        heading: "ISTP + High C (Conscientiousness) — most common",
+        html: p("High C is the most common DISC profile for ISTPs. The C dimension describes analytical, precise, independent, quality-focused behavior — someone who works methodically, holds high technical standards, and prefers autonomy over direction. This aligns directly with ISTP's dominant Introverted Thinking and its characteristic precision in understanding and working with systems.") +
+          p("ISTP-C people are often the deepest technical experts in their domain — they understand systems at a level of precision others don't, they notice problems others miss, and they hold their own work to rigorous internal standards. They're often highly sought for complex troubleshooting and technical problem-solving.") +
+          p("The challenge: ISTP-C people can appear cold, disengaged, or dismissive to colleagues who value relational warmth or verbal expressiveness. High C profiles are naturally reserved and don't typically invest in social signaling — which can read as arrogance or disinterest when it's actually just absorption in the technical problem."),
+      },
+      {
+        heading: "ISTP + CD (Conscientiousness-Dominance) — second most common",
+        html: p("ISTP-CD profiles are common among ISTPs who have developed technical leadership roles or who work in high-stakes operational contexts where both precision and decisive action are required. The D dimension adds assertiveness and results-orientation that helps ISTPs act decisively on their technical conclusions.") +
+          p("ISTP-CD people are often exceptional technical operators — they combine the deep precision of Introverted Thinking with Extroverted Sensing's hands-on action orientation and D's drive for results. They're the people you want in a crisis: they read the technical situation quickly, act decisively, and solve the problem without excessive process.") +
+          p("The challenge: ISTP-CD people can be blunt and dismissive of people who don't keep up technically. The combination of C's high precision standards and D's directness can make them harsh critics, especially in high-stakes moments."),
+      },
+      {
+        heading: "ISTP + CS (Conscientiousness-Steadiness) profiles",
+        html: p("Some ISTPs develop CS profiles in roles that require sustained collaboration alongside technical precision — research partnerships, teaching, or long-term project work. The S dimension adds patience and relational consistency to C's analytical focus.") +
+          p("ISTP-CS people are often excellent technical mentors and patient collaborators — they bring ISTP's technical depth into a more relationally accessible form. They're more willing than pure C ISTPs to explain their reasoning and to invest time in bringing others along.") +
+          p("The challenge: ISTP-CS profiles can be very slow to adapt to new environments or change roles. Both C's need for established process and S's preference for stability make transitions significantly harder for this combination."),
+      },
+      {
+        heading: "What your ISTP DISC profile means for work and relationships",
+        html: p("For ISTPs, the DISC profile is most useful for understanding where their independent, precision-focused style creates collaboration gaps. High C ISTPs often underinvest in communicating their reasoning — they arrive at precise conclusions internally and share the conclusion without the context, which can feel opaque or arrogant to others.") +
+          p("In team settings, ISTP-C people often benefit from explicit habits of narrating their thinking briefly — not to teach others, but to create the transparency that allows effective collaboration. A short explanation of why you're doing what you're doing prevents significant coordination friction.") +
+          p("1Test gives you your full DISC profile alongside your 16P type, Enneagram, and Strengths — so you can see how all four frameworks interact in your specific profile."),
+      },
+    ],
+    faqs: [
+      { question: "What DISC type are most ISTPs?", answer: "Most ISTPs show high C (Conscientiousness) or CD DISC profiles. The C dimension maps closely to ISTP's dominant Introverted Thinking — analytical, precise, independent, quality-focused. ISTPs in technical leadership or high-stakes operational roles often develop CD profiles with added decisive action." },
+      { question: "Is ISTP the same as high C in DISC?", answer: "They overlap significantly. ISTP describes a cognitive pattern centered on building precise internal models of how systems work and engaging them hands-on. High C in DISC describes behavioral tendencies toward precision, analysis, and quality. Most ISTPs show high C behavior, though their secondary dimension varies by role." },
+      { question: "How is the ISTP different from the INTP on DISC?", answer: "Both ISTPs and INTPs commonly show C or CD DISC profiles. The key distinction is the sensing/intuition dimension: ISTP's auxiliary Extroverted Sensing makes them more action-oriented and hands-on — they want to understand systems by working with them directly. INTP's auxiliary Extroverted Intuition makes them more idea-and-possibility-oriented, exploring systems theoretically. ISTPs tend to be more practical and action-ready; INTPs tend to be more theoretical and analysis-extended." },
+      { question: "How do I find my ISTP DISC profile?", answer: "Take the free assessment at 1Test. You'll receive your complete DISC profile — primary style, secondary style, dimension scores — alongside your 16 Personalities type, Enneagram type, and Strengths. One 15-minute test, no paywall." },
+    ],
+    ctaHeading: "Find your ISTP DISC profile — free",
+    ctaSubtext: "1Test gives you your DISC profile, 16 Personalities type, Enneagram type, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "ISTP personality type guide", url: "/blog/istp-personality-type" },
+      { label: "ISTP Enneagram type", url: "/blog/istp-enneagram-type" },
+      { label: "ISTP careers guide", url: "/blog/istp-careers" },
+      { label: "ISTP vs INTP", url: "/blog/istp-vs-intp" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "isfp-disc-profile": {
+    slug: "isfp-disc-profile",
+    metaTitle: "ISFP DISC Profile — What DISC Style Are Most ISFPs?",
+    metaDesc: "What DISC style do most ISFPs have? ISFPs typically show high S or SC profiles. Learn what each ISFP-DISC combination means for communication and work.",
+    canonicalUrl: "https://1test.me/blog/isfp-disc-profile",
+    h1: "ISFP DISC Profile — What DISC Style Fits ISFPs?",
+    sections: [
+      {
+        heading: "Why ISFP and DISC describe complementary things",
+        html: p("ISFP describes your cognitive architecture — dominant Introverted Feeling that holds a deep, private sense of personal values and authenticity, auxiliary Extroverted Sensing that engages directly and aesthetically with the present moment. DISC describes your behavioral tendencies in social and work contexts.") +
+          p("Most ISFPs show high S (Steadiness) or SC profiles. The S dimension — patient, gentle, loyal, harmony-oriented — maps closely to ISFP's characteristic presence in groups: quiet, warm, non-intrusive, and genuine. ISFPs tend to lead by example rather than directive and prefer to work in environments where they have creative latitude and relational trust. Some ISFPs in precision-oriented or artistic fields show SC profiles where the C dimension adds craft-level quality-focus to S's steadiness.") +
+          p("Understanding your ISFP-DISC combination clarifies how your gentle, values-driven style lands in different work contexts and where it creates gaps."),
+      },
+      {
+        heading: "ISFP + High S (Steadiness) — most common",
+        html: p("High S is the most common DISC profile for ISFPs. The S dimension describes patient, loyal, non-aggressive, harmony-supporting behavior — someone who doesn't demand attention, shows up reliably, and creates a gentle, trustworthy presence. This maps to ISFP's dominant Introverted Feeling, which operates privately and values authentic action over performative assertion.") +
+          p("ISFP-S people are often the quiet steadiness in any environment — they're reliable without being loud about it, genuine without performing it, and supportive without requiring recognition. They tend to be highly trusted by the people who know them well, even if they're less visible to those who don't.") +
+          p("The challenge: ISFP-S people often struggle to advocate for themselves. Their combination of high S profile (conflict-averse) and dominant Introverted Feeling (private, non-assertive) means that their needs, preferences, and boundaries often go unexpressed — which can lead to chronic underrecognition in professional contexts."),
+      },
+      {
+        heading: "ISFP + SC (Steadiness-Conscientiousness) — second most common",
+        html: p("ISFP-SC profiles are common among ISFPs in creative, craft, or care-oriented roles that require both patience and precision — fine arts, design, nursing, animal care, or culinary work. The C dimension adds quality-focus and technical care to the S's patient steadiness.") +
+          p("ISFP-SC people are often masters of their craft — they combine ISFP's aesthetic sensibility and values-driven authenticity with C's commitment to precision and quality. They tend to hold their creative and technical work to high internal standards that others may not fully see or appreciate, because ISFPs rarely advertise their standards.") +
+          p("The challenge: ISFP-SC profiles can be perfectionistic in ways that block completion. Both C's quality standards and ISFP's Introverted Feeling's deep care about authentic expression can make it hard to ship work that doesn't feel fully right — even when good-enough would serve perfectly well."),
+      },
+      {
+        heading: "ISFP + SI (Steadiness-Influence) profiles",
+        html: p("Some ISFPs show SI profiles, particularly those in community, caregiving, or artistic performance contexts where their warmth becomes more publicly expressive. The I dimension adds social warmth and expressiveness to the S's gentle steadiness.") +
+          p("ISFP-SI people often surprise those who know them primarily as quiet — in contexts where they feel fully comfortable and safe, they can be remarkably warm, expressive, and socially generous. Their Extroverted Sensing (ISFP's auxiliary) combined with I's social energy can produce genuine, spontaneous delight.") +
+          p("The challenge: ISFP-SI people still tend to struggle with asserting preferences or holding boundaries, especially in social contexts where they're in I mode — the expressiveness can mask an ongoing pattern of accommodation that depletes over time."),
+      },
+      {
+        heading: "What your ISFP DISC profile means for work and relationships",
+        html: p("For ISFPs, the DISC profile is most useful for understanding where their gentle, private style creates advocacy gaps. High S ISFPs are often passed over for opportunities they deserve — not because they lack the skill, but because they don't make their capabilities and ambitions legible to decision-makers.") +
+          p("The highest-leverage development area for ISFP-S people is usually learning to name their own contributions and preferences in low-stakes contexts before they need to in high-stakes ones. Visibility is a skill; it can be built deliberately without requiring the ISFP to change who they fundamentally are.") +
+          p("1Test gives you your full DISC profile alongside your 16P type, Enneagram, and Strengths — so you can see how all four frameworks interact in your specific profile."),
+      },
+    ],
+    faqs: [
+      { question: "What DISC type are most ISFPs?", answer: "Most ISFPs show high S (Steadiness) or SC DISC profiles. The S dimension maps closely to ISFP's characteristic presence — patient, gentle, loyal, non-assertive. ISFPs in precision-oriented creative or care roles often develop SC profiles with added quality-focus." },
+      { question: "Is ISFP the same as high S in DISC?", answer: "They overlap significantly. ISFP describes a cognitive pattern centered on deep private values and direct aesthetic engagement with the present moment. High S in DISC describes behavioral tendencies toward patience, loyalty, and harmony-support. Most ISFPs show high S behavior, though their specific profile can include C or I components depending on role and developed skills." },
+      { question: "How is the ISFP different from the INFP on DISC?", answer: "Both ISFPs and INFPs commonly show S or SC DISC profiles. The key distinction is the sensing/intuition dimension: ISFP's auxiliary Extroverted Sensing keeps them grounded in present sensory experience — they're more practical, hands-on, and aesthetically attuned to their immediate environment. INFP's auxiliary Extroverted Intuition makes them more idea-and-possibility-oriented, future-focused, and conceptually driven. ISFPs tend to be more craft-and-presence-focused; INFPs tend to be more idealistic and future-imagining." },
+      { question: "How do I find my ISFP DISC profile?", answer: "Take the free assessment at 1Test. You'll receive your complete DISC profile — primary style, secondary style, dimension scores — alongside your 16 Personalities type, Enneagram type, and Strengths. One 15-minute test, no paywall." },
+    ],
+    ctaHeading: "Find your ISFP DISC profile — free",
+    ctaSubtext: "1Test gives you your DISC profile, 16 Personalities type, Enneagram type, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "disc",
+    ctaUrl: "/free-disc-test",
+    crossLinks: [
+      { label: "ISFP personality type guide", url: "/blog/isfp-personality-type" },
+      { label: "ISFP Enneagram type", url: "/blog/isfp-enneagram-type" },
+      { label: "ISFP careers guide", url: "/blog/isfp-careers" },
+      { label: "ISFP vs INFP", url: "/blog/isfp-vs-infp" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enfj-enneagram-type": {
+    slug: "enfj-enneagram-type",
+    metaTitle: "ENFJ Enneagram Type — Most Common Types and Why",
+    metaDesc: "Which Enneagram types are most common for ENFJs? Learn why Type 2, Type 1, and Type 3 appear most often in ENFJ profiles, and what each combination means.",
+    canonicalUrl: "https://1test.me/blog/enfj-enneagram-type",
+    h1: "ENFJ Enneagram Type — Most Common Types and What They Mean",
+    sections: [
+      {
+        heading: "Why ENFJs cluster around specific Enneagram types",
+        html: p("16 Personalities types and Enneagram types describe different things — one maps cognitive patterns, the other maps core motivations and fears. An ENFJ can theoretically be any Enneagram type, but in practice, certain combinations appear far more frequently.") +
+          p("ENFJ's dominant function is Extroverted Feeling — a constant attunement to others' emotional states and a strong drive to maintain harmony, inspire growth, and meet people's needs. The Enneagram types that resonate most with this orientation are Type 2 (The Helper), Type 1 (The Reformer), and Type 3 (The Achiever).") +
+          p("Understanding your ENFJ Enneagram combination sharpens the picture from 'I'm warm and inspiring' to 'here's specifically what I'm afraid of and what drives me under stress.'"),
+      },
+      {
+        heading: "ENFJ + Enneagram Type 2 (The Helper) — most common",
+        html: p("ENFJ Type 2 is the most frequently reported combination for ENFJs — and it makes intuitive sense. Both frameworks describe someone whose identity is fundamentally organized around being there for others. ENFJ's Extroverted Feeling continuously reads and responds to others' emotional needs; Type 2's core motivation is being needed and valued for their care.") +
+          p("ENFJ 2s are often the warmest and most relational ENFJs — they're deeply invested in the people around them, they give generously, and they create communities of genuine warmth and belonging. They tend to be exceptional at making people feel seen and cared for.") +
+          p("The specific challenge: ENFJ 2s can conflate caring for others with their own sense of worth. When their care isn't reciprocated or recognized, they can become resentful in ways that surprise even them — because they often believe they want nothing in return when they actually want connection and appreciation. Learning to ask for what they need directly, rather than giving and hoping, is the central growth edge."),
+      },
+      {
+        heading: "ENFJ + Enneagram Type 1 (The Reformer) — second most common",
+        html: p("ENFJ Type 1 is a more idealistic and structurally organized version of the ENFJ. The Type 1 adds a strong internal moral compass, perfectionist standards, and a sense of mission — someone who doesn't just care about people but wants to make the world genuinely better according to clear principles.") +
+          p("ENFJ 1s are often the most driven and purposeful ENFJs. They combine ENFJ's relational warmth and inspirational capacity with Type 1's commitment to doing things right — producing leaders who inspire people toward genuinely meaningful improvement rather than just emotional connection.") +
+          p("The specific challenge: ENFJ 1s can become critical and demanding when they believe the group isn't meeting the standard they hold internally. Their Extroverted Feeling can become a vehicle for moral advocacy in ways that feel preachy or judgmental to others, especially when the 1's inner critic externalizes."),
+      },
+      {
+        heading: "ENFJ + Enneagram Type 3 (The Achiever) — third most common",
+        html: p("ENFJ Type 3 is a results-oriented, achievement-focused version of the ENFJ. Type 3 adds a drive for success, recognition, and external accomplishment that gives the ENFJ's relational energy a more ambitious, goal-driven shape.") +
+          p("ENFJ 3s are often exceptional leaders in high-achievement contexts — they combine ENFJ's ability to inspire and motivate others with Type 3's drive for visible results. They tend to be highly effective, polished, and capable of building organizations or movements around compelling visions.") +
+          p("The specific challenge: ENFJ 3s can become performance-oriented in their care — presenting warmth and investment in ways that are genuine in the moment but shaped by what produces the best outcome for their goals. The line between authentic relating and strategic relationship management can blur."),
+      },
+      {
+        heading: "Other ENFJ Enneagram types",
+        html: p("**ENFJ Type 6 (The Loyalist):** ENFJ 6s are more anxious and security-oriented than most ENFJs. Their care for others is often rooted in a desire for stable, reciprocal loyalty rather than pure altruism. They're deeply committed to their people but can become hypervigilant about threats to the relationships they depend on.") +
+          p("**ENFJ Type 4 (The Individualist):** ENFJ 4s are more emotionally intense and identity-focused than the ENFJ archetype suggests. Their relational warmth is filtered through a strong sense of personal authenticity — they inspire through their own depth and uniqueness rather than through accommodation.") +
+          p("**ENFJ Type 9 (The Peacemaker):** ENFJ 9s are the most conflict-averse ENFJs — they combine EFJ's harmony orientation with 9's deep drive to avoid disturbance. They're often the most accommodating and gentle ENFJs but can struggle significantly with asserting direction or delivering hard truths."),
+      },
+    ],
+    faqs: [
+      { question: "What is the most common Enneagram type for ENFJs?", answer: "Enneagram Type 2 (The Helper) is the most commonly reported type among ENFJs. The overlap between ENFJ's Extroverted Feeling function (which continuously attunes to and responds to others' needs) and Type 2's core motivation of being needed and valued for care creates a very natural resonance. Type 1 is the second most common, followed by Type 3." },
+      { question: "Can an ENFJ be a Type 8?", answer: "Yes, though it's uncommon. An ENFJ Type 8 would be someone with ENFJ's relational warmth and inspirational capacity combined with Type 8's assertiveness, need for control, and comfort with confrontation. This produces a significantly bolder and more direct ENFJ than the archetype suggests — someone who leads through strength as much as through warmth." },
+      { question: "How do I find my ENFJ Enneagram type?", answer: "Focus on core motivation rather than behavior. Ask: what am I most afraid of at a deep level? ENFJs who fear being unloved or unneeded tend toward Type 2; those who fear being corrupt or imperfect tend toward Type 1; those who fear failure and being seen as worthless tend toward Type 3. A multi-framework test like 1Test gives you both your 16P type and Enneagram type from one assessment." },
+      { question: "Does knowing my ENFJ Enneagram type change anything practically?", answer: "Yes — it sharpens the self-knowledge from 'I care about people' to 'here's specifically why I care and what happens when that need isn't met.' An ENFJ 2 under stress becomes resentful and manipulative; an ENFJ 1 becomes critical and rigid; an ENFJ 3 becomes image-conscious and disconnected from authentic feeling. Knowing which pattern is yours lets you intervene earlier." },
+    ],
+    ctaHeading: "Find your ENFJ Enneagram type — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, Enneagram type, DISC profile, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ENFJ personality type guide", url: "/blog/enfj-personality-type" },
+      { label: "Enneagram Type 2 — The Helper", url: "/blog/enneagram-type-2-helper" },
+      { label: "ENFJ careers guide", url: "/blog/enfj-careers" },
+      { label: "ENFJ DISC profile", url: "/blog/enfj-disc-profile" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "entj-enneagram-type": {
+    slug: "entj-enneagram-type",
+    metaTitle: "ENTJ Enneagram Type — Most Common Types and Why",
+    metaDesc: "Which Enneagram types are most common for ENTJs? Learn why Type 8, Type 3, and Type 1 appear most often in ENTJ profiles, and what each combination means.",
+    canonicalUrl: "https://1test.me/blog/entj-enneagram-type",
+    h1: "ENTJ Enneagram Type — Most Common Types and What They Mean",
+    sections: [
+      {
+        heading: "Why ENTJs cluster around specific Enneagram types",
+        html: p("16 Personalities types and Enneagram types describe different dimensions of personality. ENTJ's dominant Extroverted Thinking drives toward organizing external reality efficiently and achieving ambitious outcomes. The Enneagram types that resonate most with this orientation are Type 8 (The Challenger), Type 3 (The Achiever), and Type 1 (The Reformer).") +
+          p("Understanding your specific combination matters because it answers why you're driven, not just how you operate. An ENTJ 8 and an ENTJ 3 may look similar in behavior but respond to stress differently, hold different core fears, and need different things to thrive."),
+      },
+      {
+        heading: "ENTJ + Enneagram Type 8 (The Challenger) — most common",
+        html: p("ENTJ Type 8 is a particularly forceful combination — both frameworks describe someone who leads assertively, challenges obstacles directly, and operates from a position of strength rather than accommodation. Type 8's core motivation is maintaining control and avoiding vulnerability; ENTJ's Extroverted Thinking drives toward organizing and leading external reality.") +
+          p("ENTJ 8s are often the most formidable leaders — they combine strategic vision (ENTJ's Introverted Intuition) with D's drive for outcomes and 8's comfort with confrontation and power. They lead through strength, speak directly, and are rarely moved by social pressure.") +
+          p("The specific challenge: ENTJ 8s can create environments where honest dissent becomes impossible. The combination of 8's need for control, ENTJ's certainty in their own strategic vision, and their combined directness can silence the feedback they most need to hear. Their growth runs through learning that vulnerability with trusted people makes them more effective, not less."),
+      },
+      {
+        heading: "ENTJ + Enneagram Type 3 (The Achiever) — second most common",
+        html: p("ENTJ Type 3 is the most achievement-oriented combination — both frameworks describe someone driven toward success, competence, and visible accomplishment. Type 3's core motivation is success and avoiding failure; ENTJ's Extroverted Thinking continuously organizes toward efficient achievement.") +
+          p("ENTJ 3s are often exceptional at building impressive things — they combine ENTJ's strategic capacity with Type 3's drive for success and talent for presenting their work compellingly. They tend to be highly effective, often successful by conventional metrics, and skilled at inspiring others toward shared achievement.") +
+          p("The specific challenge: ENTJ 3s can become disconnected from authentic motivation. The combination of 3's adaptation to what produces success and ENTJ's relentless forward orientation can produce someone who achieves extraordinary things but doesn't know what they actually want anymore. Their growth runs through learning what they value beyond achievement itself."),
+      },
+      {
+        heading: "ENTJ + Enneagram Type 1 (The Reformer) — third most common",
+        html: p("ENTJ Type 1 is the most principled and morally driven version of the ENTJ profile. Type 1 adds a strong internal standard of correctness, a sense of mission, and a drive to do things right — not just effectively. The combination produces leaders who push for excellence rather than just results.") +
+          p("ENTJ 1s often become the most demanding and principled operators in their field — they combine ENTJ's strategic vision and drive with Type 1's commitment to quality and integrity. They hold themselves and others to rigorous standards and may refuse compromises that other ENTJs would make pragmatically.") +
+          p("The specific challenge: ENTJ 1s can become rigid and critical in ways that create resentment. The combination of ENTJ's directness and 1's inner critic — which externalizes under stress — can make them demanding in ways that feel punishing rather than inspiring."),
+      },
+      {
+        heading: "Other ENTJ Enneagram types",
+        html: p("**ENTJ Type 5 (The Investigator):** ENTJ 5s are more introverted and knowledge-focused than typical ENTJs. They combine ENTJ's strategic capacity with 5's drive for intellectual mastery, producing leaders who lead through expertise and depth rather than charisma and assertiveness.") +
+          p("**ENTJ Type 6 (The Loyalist):** ENTJ 6s are more risk-aware and coalition-building than pure 8 or 3 ENTJs. They combine ENTJ's leadership capacity with 6's vigilance and loyalty-building, producing leaders who are both effective and politically astute.") +
+          p("**ENTJ Type 7 (The Enthusiast):** ENTJ 7s are more spontaneous and possibility-driven than most ENTJs. The combination of ENTJ's forward orientation with 7's love of novelty and aversion to limitation can produce highly generative, creative leaders — but also ones who struggle with sustained focus on long-term execution."),
+      },
+    ],
+    faqs: [
+      { question: "What is the most common Enneagram type for ENTJs?", answer: "Enneagram Type 8 (The Challenger) is the most commonly reported type among ENTJs. The overlap between ENTJ's Extroverted Thinking (which drives toward leadership, efficiency, and assertive achievement) and Type 8's core orientation around strength, control, and directness creates a very natural resonance. Type 3 is the second most common, followed by Type 1." },
+      { question: "Can an ENTJ be a Type 2?", answer: "Yes, though it's uncommon. An ENTJ Type 2 would be someone with ENTJ's strategic capacity and leadership drive combined with Type 2's core need to be needed and valued for their care. This produces a more relationally oriented ENTJ — someone who leads through service and genuine investment in others rather than primarily through assertive vision." },
+      { question: "How do I find my ENTJ Enneagram type?", answer: "Focus on motivation rather than behavior. Ask: what am I most afraid of at a deep level? ENTJs who fear being controlled or violated tend toward Type 8; those who fear failure and incompetence tend toward Type 3; those who fear being corrupt or wrong tend toward Type 1. A multi-framework test like 1Test gives you both frameworks from one assessment." },
+      { question: "Does knowing my ENTJ Enneagram type change anything practically?", answer: "Yes — it sharpens the self-knowledge from 'I'm driven and strategic' to 'here's specifically what I'm protecting and what breaks down under stress.' An ENTJ 8 under stress becomes intimidating and controlling; an ENTJ 3 becomes image-obsessed and inauthentic; an ENTJ 1 becomes rigid and critical. Knowing which pattern is yours allows earlier intervention." },
+    ],
+    ctaHeading: "Find your ENTJ Enneagram type — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, Enneagram type, DISC profile, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ENTJ personality type guide", url: "/blog/entj-personality-type" },
+      { label: "Enneagram Type 8 — The Challenger", url: "/blog/enneagram-type-8-challenger" },
+      { label: "ENTJ careers guide", url: "/blog/entj-careers" },
+      { label: "ENTJ DISC profile", url: "/blog/entj-disc-profile" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "estp-enneagram-type": {
+    slug: "estp-enneagram-type",
+    metaTitle: "ESTP Enneagram Type — Most Common Types and Why",
+    metaDesc: "Which Enneagram types are most common for ESTPs? Learn why Type 7, Type 8, and Type 3 appear most often in ESTP profiles, and what each combination means.",
+    canonicalUrl: "https://1test.me/blog/estp-enneagram-type",
+    h1: "ESTP Enneagram Type — Most Common Types and What They Mean",
+    sections: [
+      {
+        heading: "Why ESTPs cluster around specific Enneagram types",
+        html: p("16 Personalities types and Enneagram types describe different dimensions. ESTP's dominant Extroverted Sensing engages the present moment directly, pragmatically, and fully — it thrives on action, sensory engagement, and real-time problem-solving. The Enneagram types that resonate most with this orientation are Type 7 (The Enthusiast), Type 8 (The Challenger), and Type 3 (The Achiever).") +
+          p("Understanding your specific combination matters because it explains why you engage the way you do, not just how. An ESTP 7 and an ESTP 8 may look similarly action-oriented but have completely different core fears and growth paths."),
+      },
+      {
+        heading: "ESTP + Enneagram Type 7 (The Enthusiast) — most common",
+        html: p("ESTP Type 7 is a particularly energetic combination — both frameworks describe someone who engages life with enthusiasm, moves toward pleasure and away from limitation, and thrives in fast-moving, stimulating environments. Type 7's core motivation is avoiding pain and limitation through constant forward movement; ESTP's Extroverted Sensing thrives on direct, immediate engagement with the world.") +
+          p("ESTP 7s are often the most spontaneous and socially energizing people in any room — they're fun, quick, adaptable, and exciting to be around. They move fast, find opportunities where others see obstacles, and bring infectious energy to almost any situation.") +
+          p("The specific challenge: ESTP 7s can have a very low tolerance for difficulty, boredom, and sustained effort. Both 7's avoidance of pain and ESTP's present-orientation can make it genuinely hard to push through extended phases of difficulty or to commit to anything that constrains their freedom. Their growth runs through learning to stay with discomfort long enough to build something lasting."),
+      },
+      {
+        heading: "ESTP + Enneagram Type 8 (The Challenger) — second most common",
+        html: p("ESTP Type 8 is the most assertive and confrontational combination. Type 8's core motivation is maintaining strength and avoiding vulnerability; ESTP's pragmatic action-orientation combined with 8's directness produces someone who engages the world head-on, accepts conflict readily, and doesn't back down.") +
+          p("ESTP 8s are often powerful in high-stakes, fast-moving environments where directness and decisiveness matter more than diplomatic process. They read situations quickly, act on their reading, and don't let social niceties slow them down.") +
+          p("The specific challenge: ESTP 8s can be genuinely intimidating and can create relational damage without realizing it. Their combination of pragmatic directness (ESTP) and 8's comfort with confrontation can bulldoze people who have legitimate concerns. Their growth runs through developing genuine attentiveness to impact — not just outcome."),
+      },
+      {
+        heading: "ESTP + Enneagram Type 3 (The Achiever) — third most common",
+        html: p("ESTP Type 3 is the most achievement-oriented version of the ESTP. Type 3 adds a drive for visible success, competence, and image that gives the ESTP's action-orientation a more goal-structured shape.") +
+          p("ESTP 3s are often highly effective operators in competitive environments — they combine ESTP's real-time situational intelligence with Type 3's drive for measurable success. They tend to be skilled at performing under pressure and at presenting themselves and their work compellingly.") +
+          p("The specific challenge: ESTP 3s can become image-focused and performative. The combination of ESTP's social fluency and 3's image-consciousness can mean they're skilled at looking successful without necessarily building the depth that sustains it."),
+      },
+      {
+        heading: "Other ESTP Enneagram types",
+        html: p("**ESTP Type 6 (The Loyalist):** ESTP 6s are more vigilant and loyalty-oriented than most ESTPs. Their action-orientation is tempered by 6's awareness of what could go wrong, producing someone who is quick to act but also alert to risk and highly committed to their trusted group.") +
+          p("**ESTP Type 9 (The Peacemaker):** ESTP 9s are a less common but real combination — someone who brings ESTP's present-focus and pragmatism into a more relaxed, easygoing form. They tend to be the most laid-back ESTPs, engaging the world directly but without the drive or intensity typical of 7 or 8 combinations.") +
+          p("**ESTP Type 2 (The Helper):** ESTP 2s combine ESTP's social fluency with Type 2's care for others. They tend to be the most interpersonally warm ESTPs — pragmatic and action-oriented, but with genuine investment in the people around them."),
+      },
+    ],
+    faqs: [
+      { question: "What is the most common Enneagram type for ESTPs?", answer: "Enneagram Type 7 (The Enthusiast) is the most commonly reported type among ESTPs. The overlap between ESTP's Extroverted Sensing (present-focused, stimulation-seeking, action-oriented) and Type 7's core drive to stay engaged with experience and avoid pain through forward movement creates a very natural resonance. Type 8 is the second most common." },
+      { question: "Can an ESTP be a Type 5?", answer: "Yes, though it's uncommon. An ESTP Type 5 would be someone with ESTP's pragmatic action-orientation combined with Type 5's drive for knowledge, privacy, and intellectual mastery. This produces a significantly more introverted and reserved ESTP than the archetype suggests — someone who engages the world directly but is more selective and knowledge-driven about it." },
+      { question: "How do I find my ESTP Enneagram type?", answer: "Focus on motivation rather than behavior. Ask: what am I most afraid of at a deep level? ESTPs who fear being trapped or limited tend toward Type 7; those who fear being controlled or appearing weak tend toward Type 8; those who fear failure or incompetence tend toward Type 3. 1Test gives you both frameworks from one assessment." },
+      { question: "Does knowing my ESTP Enneagram type change anything practically?", answer: "Yes — it explains the 'why' behind your engagement style. An ESTP 7 under stress becomes scattered and commitment-averse; an ESTP 8 under stress becomes confrontational and controlling; an ESTP 3 under stress becomes image-obsessed and disconnected from genuine feeling. Knowing your pattern lets you intervene at the root rather than just managing symptoms." },
+    ],
+    ctaHeading: "Find your ESTP Enneagram type — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, Enneagram type, DISC profile, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ESTP personality type guide", url: "/blog/estp-personality-type" },
+      { label: "Enneagram Type 7 — The Enthusiast", url: "/blog/enneagram-type-7-enthusiast" },
+      { label: "ESTP careers guide", url: "/blog/estp-careers" },
+      { label: "ESTP DISC profile", url: "/blog/estp-disc-profile" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "estj-enneagram-type": {
+    slug: "estj-enneagram-type",
+    metaTitle: "ESTJ Enneagram Type — Most Common Types and Why",
+    metaDesc: "Which Enneagram types are most common for ESTJs? Learn why Type 1, Type 3, and Type 8 appear most often in ESTJ profiles, and what each combination means.",
+    canonicalUrl: "https://1test.me/blog/estj-enneagram-type",
+    h1: "ESTJ Enneagram Type — Most Common Types and What They Mean",
+    sections: [
+      {
+        heading: "Why ESTJs cluster around specific Enneagram types",
+        html: p("16 Personalities types and Enneagram types describe different dimensions. ESTJ's dominant Extroverted Thinking organizes external reality through systems, rules, and clear accountability — it drives toward structured, reliable outcomes and holds people to clear standards. The Enneagram types that resonate most with this orientation are Type 1 (The Reformer), Type 3 (The Achiever), and Type 8 (The Challenger).") +
+          p("Understanding your specific combination clarifies not just how you organize and lead but why — what fear drives you and what you're ultimately protecting."),
+      },
+      {
+        heading: "ESTJ + Enneagram Type 1 (The Reformer) — most common",
+        html: p("ESTJ Type 1 is probably the most frequently discussed combination for ESTJs. Both frameworks describe someone with a strong internal sense of how things should be done correctly, a commitment to standards, and a drive to organize and improve what's around them. Type 1's core motivation is avoiding error and imperfection; ESTJ's Extroverted Thinking continuously creates structure and enforces accountability.") +
+          p("ESTJ 1s are often the most principled and demanding organizational leaders — they combine ESTJ's systematic organization with Type 1's moral commitment to doing things right. They hold extremely high standards, feel genuine distress when those standards aren't met, and tend to run the most rigorously structured operations.") +
+          p("The specific challenge: ESTJ 1s can become punishing and resentful when their standards aren't met. The combination of 1's inner critic and ESTJ's directness can create environments where people feel they can never do enough — and eventually stop trying. Their growth runs through developing compassion for imperfection, starting with their own."),
+      },
+      {
+        heading: "ESTJ + Enneagram Type 3 (The Achiever) — second most common",
+        html: p("ESTJ Type 3 is the most achievement-oriented and image-conscious version of the ESTJ. Type 3 adds a drive for visible success and competence that gives ESTJ's organizational drive a more ambitious, status-aware shape.") +
+          p("ESTJ 3s are often highly effective at building and leading high-performing teams. They combine ESTJ's structured accountability with Type 3's drive for measurable results and talent for presenting outcomes compellingly. They tend to be respected, often successful, and skilled at building cultures of achievement.") +
+          p("The specific challenge: ESTJ 3s can become more focused on the appearance of success than its substance. The combination of ESTJ's trust in conventional structures (what's recognized as successful) and 3's image-orientation can mean they optimize for visibility rather than depth."),
+      },
+      {
+        heading: "ESTJ + Enneagram Type 8 (The Challenger) — third most common",
+        html: p("ESTJ Type 8 is the most confrontational and power-oriented version of the ESTJ. Type 8 adds comfort with conflict, assertive control, and a zero-tolerance stance toward vulnerability or perceived weakness.") +
+          p("ESTJ 8s are often formidable organizational leaders in high-stakes environments. They combine ESTJ's structured accountability with 8's willingness to confront, challenge, and make unpopular decisions. They don't shy away from hard calls and often thrive in environments where other leaders would be paralyzed by politics.") +
+          p("The specific challenge: ESTJ 8s can create genuinely hostile work environments. Their combination of directness (ESTJ), confrontational comfort (8), and high standards can feel abusive to team members who interpret directness as attack. Their growth requires developing genuine attentiveness to how their style lands."),
+      },
+      {
+        heading: "Other ESTJ Enneagram types",
+        html: p("**ESTJ Type 6 (The Loyalist):** ESTJ 6s are more rule-oriented and loyalty-based than most ESTJs. Their structural drive is rooted in a need for certainty and reliable systems. They're often the strongest defenders of institutional norms and the most dependable team members — but also the most resistant to departing from established procedure.") +
+          p("**ESTJ Type 2 (The Helper):** ESTJ 2s are warmer and more interpersonally invested than the ESTJ archetype suggests. They bring ESTJ's organizational structure into the service of people's needs — managing, coordinating, and executing on behalf of others rather than just toward abstract outcomes.") +
+          p("**ESTJ Type 4 (The Individualist):** ESTJ 4s are one of the more surprising combinations — someone who has ESTJ's structural organization but is driven by a strong need for personal authenticity and uniqueness. They often feel like they don't fit the ESTJ mold they find themselves in and may have a complex relationship with conventional success."),
+      },
+    ],
+    faqs: [
+      { question: "What is the most common Enneagram type for ESTJs?", answer: "Enneagram Type 1 (The Reformer) is the most commonly reported type among ESTJs. The overlap between ESTJ's Extroverted Thinking (which organizes external reality toward correct, structured outcomes) and Type 1's core orientation around standards, correctness, and improvement creates a very natural resonance. Type 3 is the second most common, followed by Type 8." },
+      { question: "Can an ESTJ be a Type 9?", answer: "Yes, though it's uncommon. An ESTJ Type 9 would be someone with ESTJ's organizational structure and directness combined with Type 9's core need for peace and aversion to conflict. This produces a more accommodating and conflict-averse ESTJ than the archetype suggests — someone who runs structured systems but avoids the confrontations that enforcing them sometimes requires." },
+      { question: "How do I find my ESTJ Enneagram type?", answer: "Focus on motivation rather than behavior. Ask: what am I most afraid of at a deep level? ESTJs who fear being wrong or imperfect tend toward Type 1; those who fear failure or incompetence tend toward Type 3; those who fear being controlled or appearing weak tend toward Type 8. 1Test gives you both frameworks from one assessment." },
+      { question: "Does knowing my ESTJ Enneagram type change anything practically?", answer: "Yes. An ESTJ 1 under stress becomes rigidly critical and punishing; an ESTJ 3 under stress becomes image-obsessed and inauthentic; an ESTJ 8 under stress becomes domineering and controlling. The type that under-stress behavior belongs to tells you the specific growth edge to work on." },
+    ],
+    ctaHeading: "Find your ESTJ Enneagram type — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, Enneagram type, DISC profile, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ESTJ personality type guide", url: "/blog/estj-personality-type" },
+      { label: "Enneagram Type 1 — The Reformer", url: "/blog/enneagram-type-1-reformer" },
+      { label: "ESTJ careers guide", url: "/blog/estj-careers" },
+      { label: "ESTJ DISC profile", url: "/blog/estj-disc-profile" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "esfp-enneagram-type": {
+    slug: "esfp-enneagram-type",
+    metaTitle: "ESFP Enneagram Type — Most Common Types and Why",
+    metaDesc: "Which Enneagram types are most common for ESFPs? Learn why Type 7, Type 2, and Type 9 appear most often in ESFP profiles, and what each combination means.",
+    canonicalUrl: "https://1test.me/blog/esfp-enneagram-type",
+    h1: "ESFP Enneagram Type — Most Common Types and What They Mean",
+    sections: [
+      {
+        heading: "Why ESFPs cluster around specific Enneagram types",
+        html: p("16 Personalities types and Enneagram types describe different dimensions. ESFP's dominant Extroverted Sensing engages the present moment with full enthusiasm — people, pleasure, sensory experience, and spontaneous connection. The Enneagram types that resonate most with this orientation are Type 7 (The Enthusiast), Type 2 (The Helper), and Type 9 (The Peacemaker).") +
+          p("Understanding your specific combination clarifies not just how you engage but why — what you're moving toward and what you're protecting yourself from."),
+      },
+      {
+        heading: "ESFP + Enneagram Type 7 (The Enthusiast) — most common",
+        html: p("ESFP Type 7 is a very natural combination — both frameworks describe someone who orients toward experience, pleasure, and engagement and away from limitation, pain, and boredom. Type 7's core motivation is avoiding pain through constant forward movement into new experience; ESFP's Extroverted Sensing thrives on present-moment engagement and sensory richness.") +
+          p("ESFP 7s are often the most spontaneous and experience-seeking of all types — they bring enthusiasm and spontaneity to everything, they make life fun, and they have an exceptional ability to find delight in the immediate moment. They tend to be socially magnetic and highly sought as company.") +
+          p("The specific challenge: ESFP 7s can struggle significantly with sustained commitment, delayed gratification, and sitting with difficulty. Both 7's pain-avoidance and ESFP's present-focus can make it genuinely hard to stay with discomfort long enough to build depth — in relationships, careers, or creative projects. Their growth runs through developing tolerance for the phase between beginning and mastery."),
+      },
+      {
+        heading: "ESFP + Enneagram Type 2 (The Helper) — second most common",
+        html: p("ESFP Type 2 is the most relationally oriented and giving version of the ESFP. Type 2 adds a core drive to be needed and valued for care that gives ESFP's natural warmth and social energy a more explicitly other-focused shape.") +
+          p("ESFP 2s are often exceptionally warm and generous — they combine ESFP's genuine enthusiasm for people with Type 2's investment in being genuinely helpful. They tend to light up around people they care about and to give generously of their time, energy, and presence.") +
+          p("The specific challenge: ESFP 2s can give more than they have and become depleted without recognizing it. Their combination of ESFP's other-engagement and 2's drive to be needed can mean they prioritize others' experience over their own needs so consistently that exhaustion or resentment builds invisibly until it ruptures."),
+      },
+      {
+        heading: "ESFP + Enneagram Type 9 (The Peacemaker) — third most common",
+        html: p("ESFP Type 9 is the most easygoing and harmonious version of the ESFP. Type 9 adds a deep aversion to conflict and a drive toward peace that softens ESFP's natural spontaneity into something gentler and more accommodating.") +
+          p("ESFP 9s are often the most relaxed and low-pressure social presences — they're fun, warm, and very easy to be around because they create almost no friction. They tend to go with the flow, adapt readily to others' preferences, and make people feel accepted without judgment.") +
+          p("The specific challenge: ESFP 9s can become so accommodating that they lose track of their own preferences, goals, and sense of direction. Both 9's self-effacement and ESFP's present-focus can make it hard to build long-term trajectory or to assert direction when it matters."),
+      },
+      {
+        heading: "Other ESFP Enneagram types",
+        html: p("**ESFP Type 3 (The Achiever):** ESFP 3s are the most performance-oriented ESFPs — they combine ESFP's natural stage presence and social fluency with Type 3's drive for visible success. They tend to be highly effective in performance, entertainment, sales, or any field where both authentic presence and results matter.") +
+          p("**ESFP Type 4 (The Individualist):** ESFP 4s are more emotionally intense and identity-focused than the typical ESFP. They combine ESFP's sensory richness and social warmth with 4's deep need for authenticity and personal uniqueness — producing someone who is both expressive and privately complex.") +
+          p("**ESFP Type 6 (The Loyalist):** ESFP 6s are more loyal and security-oriented than most ESFPs. Their spontaneity is tempered by 6's vigilance about whether their environment and relationships are trustworthy. They tend to be deeply committed to their core group and more risk-aware than ESFP 7s."),
+      },
+    ],
+    faqs: [
+      { question: "What is the most common Enneagram type for ESFPs?", answer: "Enneagram Type 7 (The Enthusiast) is the most commonly reported type among ESFPs. The overlap between ESFP's Extroverted Sensing (present-focused, experience-seeking, sensory engagement) and Type 7's core drive toward positive experience and away from pain creates a very natural resonance. Type 2 is the second most common." },
+      { question: "Can an ESFP be a Type 1?", answer: "Yes, though it's uncommon. An ESFP Type 1 would be someone with ESFP's warmth and present-engagement combined with Type 1's strong internal standards and drive toward correctness. This produces a more self-critical and principled ESFP — someone who brings genuine enthusiasm to people and experiences but holds themselves to demanding internal standards." },
+      { question: "How do I find my ESFP Enneagram type?", answer: "Focus on motivation rather than behavior. Ask: what am I most afraid of at a deep level? ESFPs who fear being trapped in pain or limitation tend toward Type 7; those who fear being unloved or unneeded tend toward Type 2; those who fear conflict and disconnection tend toward Type 9. 1Test gives you both frameworks from one assessment." },
+      { question: "Does knowing my ESFP Enneagram type change anything practically?", answer: "Yes. An ESFP 7 under stress becomes scattered and escapist; an ESFP 2 under stress becomes resentful and manipulative; an ESFP 9 under stress becomes passive and checked-out. Knowing your pattern lets you recognize what's happening early enough to choose a different response." },
+    ],
+    ctaHeading: "Find your ESFP Enneagram type — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, Enneagram type, DISC profile, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ESFP personality type guide", url: "/blog/esfp-personality-type" },
+      { label: "Enneagram Type 7 — The Enthusiast", url: "/blog/enneagram-type-7-enthusiast" },
+      { label: "ESFP careers guide", url: "/blog/esfp-careers" },
+      { label: "ESFP DISC profile", url: "/blog/esfp-disc-profile" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "esfj-enneagram-type": {
+    slug: "esfj-enneagram-type",
+    metaTitle: "ESFJ Enneagram Type — Most Common Types and Why",
+    metaDesc: "Which Enneagram types are most common for ESFJs? Learn why Type 2, Type 6, and Type 1 appear most often in ESFJ profiles, and what each combination means.",
+    canonicalUrl: "https://1test.me/blog/esfj-enneagram-type",
+    h1: "ESFJ Enneagram Type — Most Common Types and What They Mean",
+    sections: [
+      {
+        heading: "Why ESFJs cluster around specific Enneagram types",
+        html: p("16 Personalities types and Enneagram types describe different dimensions. ESFJ's dominant Extroverted Feeling continuously reads and responds to the emotional climate around them — maintaining harmony, meeting others' needs, and building reliable relational structures. The Enneagram types that resonate most with this orientation are Type 2 (The Helper), Type 6 (The Loyalist), and Type 1 (The Reformer).") +
+          p("Understanding your specific combination clarifies not just how you care for others but why — what you're afraid of and what happens when your relational patterns don't produce the connection you need."),
+      },
+      {
+        heading: "ESFJ + Enneagram Type 2 (The Helper) — most common",
+        html: p("ESFJ Type 2 is the most naturally resonant combination for ESFJs. Both frameworks describe someone whose identity is built around being there for others — ESFJ's Extroverted Feeling continuously attunes to what others need and responds, while Type 2's core motivation is being needed and valued for that care.") +
+          p("ESFJ 2s are often the warmest and most socially attentive people in any environment. They remember what matters to people, show up when it counts, and create genuine communities of care and belonging. They tend to be deeply valued by those who know them well.") +
+          p("The specific challenge: ESFJ 2s can lose themselves in others' needs entirely. The combination of ESFJ's continuous attunement to others and 2's drive to be needed means their own needs, preferences, and desires can become almost invisible — to themselves as much as to others. Their growth runs through developing the ability to receive care, not just give it."),
+      },
+      {
+        heading: "ESFJ + Enneagram Type 6 (The Loyalist) — second most common",
+        html: p("ESFJ Type 6 is a more security-oriented and loyalty-structured version of the ESFJ. Type 6 adds vigilance, group loyalty, and a drive for reliable relationships that gives ESFJ's relational warmth a more committed and protective quality.") +
+          p("ESFJ 6s are often the most dependable and community-anchoring ESFJs. Their care for others is combined with a strong drive to build stable, trustworthy relationships and institutions. They're deeply loyal, notice threats to their community early, and show up consistently over the long term.") +
+          p("The specific challenge: ESFJ 6s can become anxious and hypervigilant about threats to their relational world. Their combination of ESFJ's harmony-maintenance and 6's worry about what could go wrong can produce significant anxiety about relationships and a tendency to seek reassurance more than necessary."),
+      },
+      {
+        heading: "ESFJ + Enneagram Type 1 (The Reformer) — third most common",
+        html: p("ESFJ Type 1 is the most principled and standards-driven version of the ESFJ. Type 1 adds a strong internal moral compass and a drive toward correctness that gives ESFJ's relational care a more structured, value-guided shape.") +
+          p("ESFJ 1s are often the most organizationally responsible and morally committed ESFJs — they combine ESFJ's genuine care for people with Type 1's drive to do things right and improve what's around them. They tend to hold both themselves and their communities to clear ethical standards.") +
+          p("The specific challenge: ESFJ 1s can become judgmental and critical in ways that contradict their care orientation. The combination of 1's inner critic and ESFJ's strong sense of social norms can produce someone who holds others to standards they haven't explicitly agreed to and feels genuine distress when those standards aren't met."),
+      },
+      {
+        heading: "Other ESFJ Enneagram types",
+        html: p("**ESFJ Type 3 (The Achiever):** ESFJ 3s are more achievement-oriented and status-aware than most ESFJs. They combine ESFJ's relational warmth with Type 3's drive for visible success — often becoming skilled community leaders who build genuinely impressive organizations around their care for people.") +
+          p("**ESFJ Type 9 (The Peacemaker):** ESFJ 9s are the most conflict-averse ESFJs. Their harmony-orientation (ESFJ) combined with 9's drive to avoid disturbance creates someone who will go to significant lengths to maintain peace — sometimes at the cost of addressing things that genuinely need to be addressed.") +
+          p("**ESFJ Type 4 (The Individualist):** ESFJ 4s are a more emotionally complex version of the ESFJ. They combine ESFJ's relational attunement with 4's drive for authentic self-expression — often feeling like they don't quite fit the conventional social roles their Extroverted Feeling inclines them toward."),
+      },
+    ],
+    faqs: [
+      { question: "What is the most common Enneagram type for ESFJs?", answer: "Enneagram Type 2 (The Helper) is the most commonly reported type among ESFJs. The overlap between ESFJ's Extroverted Feeling (which continuously reads and responds to others' needs to maintain harmony) and Type 2's core motivation of being needed and valued for care creates a very natural resonance. Type 6 is the second most common." },
+      { question: "Can an ESFJ be a Type 8?", answer: "Yes, though it's uncommon. An ESFJ Type 8 would be someone with ESFJ's relational warmth combined with Type 8's assertiveness, need for control, and comfort with confrontation. This produces a significantly bolder and more direct ESFJ — someone who still cares deeply about community but leads through strength rather than accommodation." },
+      { question: "How do I find my ESFJ Enneagram type?", answer: "Focus on motivation. Ask: what am I most afraid of at a deep level? ESFJs who fear being unloved or unneeded tend toward Type 2; those who fear being without support or betrayed tend toward Type 6; those who fear being wrong or imperfect tend toward Type 1. 1Test gives you both frameworks from one assessment." },
+      { question: "Does knowing my ESFJ Enneagram type change anything practically?", answer: "Yes. An ESFJ 2 under stress becomes resentful and manipulative; an ESFJ 6 under stress becomes anxious and suspicious; an ESFJ 1 under stress becomes critical and punishing. Knowing which pattern is yours lets you recognize what's happening and course-correct before relationships suffer." },
+    ],
+    ctaHeading: "Find your ESFJ Enneagram type — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, Enneagram type, DISC profile, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ESFJ personality type guide", url: "/blog/esfj-personality-type" },
+      { label: "Enneagram Type 2 — The Helper", url: "/blog/enneagram-type-2-helper" },
+      { label: "ESFJ careers guide", url: "/blog/esfj-careers" },
+      { label: "ESFJ DISC profile", url: "/blog/esfj-disc-profile" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "istp-enneagram-type": {
+    slug: "istp-enneagram-type",
+    metaTitle: "ISTP Enneagram Type — Most Common Types and Why",
+    metaDesc: "Which Enneagram types are most common for ISTPs? Learn why Type 5, Type 9, and Type 8 appear most often in ISTP profiles, and what each combination means.",
+    canonicalUrl: "https://1test.me/blog/istp-enneagram-type",
+    h1: "ISTP Enneagram Type — Most Common Types and What They Mean",
+    sections: [
+      {
+        heading: "Why ISTPs cluster around specific Enneagram types",
+        html: p("16 Personalities types and Enneagram types describe different dimensions. ISTP's dominant Introverted Thinking builds precise internal models of how things work; auxiliary Extroverted Sensing engages the physical environment directly and pragmatically. The Enneagram types that resonate most with this orientation are Type 5 (The Investigator), Type 9 (The Peacemaker), and Type 8 (The Challenger).") +
+          p("Understanding your specific combination sharpens the picture from 'I'm independent and analytical' to 'here's specifically what I'm afraid of and what happens when my environment doesn't meet my needs.'"),
+      },
+      {
+        heading: "ISTP + Enneagram Type 5 (The Investigator) — most common",
+        html: p("ISTP Type 5 is the most intellectually driven and privacy-oriented combination. Both frameworks describe someone who prefers deep understanding over broad connection, operates from a position of internal self-sufficiency, and is very careful about what they engage with and how much they give.") +
+          p("ISTP 5s are often the deepest technical experts and most self-contained problem-solvers — they combine ISTP's hands-on precision with Type 5's drive for mastery and intellectual independence. They tend to be exceptionally resourceful and to develop very deep competence in their domains of interest.") +
+          p("The specific challenge: ISTP 5s can become so self-contained that they disconnect from necessary collaboration and relationship. Both 5's conservation of energy and ISTP's natural independence can produce someone who operates in an increasingly narrow world of their own making — which eventually limits both their effectiveness and their well-being."),
+      },
+      {
+        heading: "ISTP + Enneagram Type 9 (The Peacemaker) — second most common",
+        html: p("ISTP Type 9 is the most easygoing and conflict-averse version of the ISTP. Type 9 adds a deep drive toward peace and harmony that softens ISTP's independence into something more relaxed and accommodating.") +
+          p("ISTP 9s are often the most easy to be around ISTPs — they're competent and independent but without the edge that can make pure ISTP or ISTP 5 profiles feel distant. They tend to go along with situations and people, step back from conflict readily, and create a calm, non-demanding presence.") +
+          p("The specific challenge: ISTP 9s can disengage entirely rather than engage with conflict or difficulty. Both 9's withdrawal and ISTP's natural detachment can mean they check out of relationships and situations that need their engagement — creating a pattern of physical presence and psychological absence."),
+      },
+      {
+        heading: "ISTP + Enneagram Type 8 (The Challenger) — third most common",
+        html: p("ISTP Type 8 is the most assertive and confrontational version of the ISTP. Type 8 adds directness, comfort with conflict, and a drive for autonomy and strength that gives ISTP's independence a more forceful shape.") +
+          p("ISTP 8s are often the most decisive and action-ready ISTPs — they combine ISTP's technical precision and hands-on pragmatism with 8's willingness to engage obstacles directly. In high-stakes technical or operational contexts, they tend to be highly effective.") +
+          p("The specific challenge: ISTP 8s can be intimidating and can damage relationships through bluntness without realizing it. The combination of ISTP's directness and 8's confrontational comfort can feel aggressive to others who don't share the same communication style."),
+      },
+      {
+        heading: "Other ISTP Enneagram types",
+        html: p("**ISTP Type 6 (The Loyalist):** ISTP 6s are more risk-aware and loyalty-oriented than most ISTPs. Their pragmatic independence is tempered by 6's vigilance and commitment to their trusted circle. They tend to be reliable and alert — the person who notices what others miss and stays steady when it matters.") +
+          p("**ISTP Type 1 (The Reformer):** ISTP 1s are the most principled and quality-obsessed ISTPs. They combine ISTP's technical precision with 1's drive toward correctness — producing someone with very high internal standards for their craft and significant difficulty accepting work that doesn't meet them.") +
+          p("**ISTP Type 3 (The Achiever):** ISTP 3s are the most results- and recognition-oriented ISTPs — combining ISTP's technical competence with 3's drive for visible achievement. They tend to build impressive track records and to care more about recognition than the ISTP archetype suggests."),
+      },
+    ],
+    faqs: [
+      { question: "What is the most common Enneagram type for ISTPs?", answer: "Enneagram Type 5 (The Investigator) is the most commonly reported type among ISTPs. The overlap between ISTP's Introverted Thinking (which builds deep internal models and values self-sufficiency) and Type 5's core drive for knowledge, competence, and conservation of energy creates a very natural resonance. Type 9 is the second most common." },
+      { question: "Can an ISTP be a Type 2?", answer: "Yes, though it's uncommon. An ISTP Type 2 would be someone with ISTP's technical independence and precision combined with Type 2's core need to be needed and valued for care. This produces a more relationally oriented ISTP than the archetype suggests — someone who is competent and independent but also genuinely driven by the desire to be helpful and connected." },
+      { question: "How do I find my ISTP Enneagram type?", answer: "Focus on motivation rather than behavior. Ask: what am I most afraid of at a deep level? ISTPs who fear incompetence or being depleted by demands tend toward Type 5; those who fear conflict and disruption tend toward Type 9; those who fear being controlled or appearing weak tend toward Type 8. 1Test gives you both frameworks from one assessment." },
+      { question: "Does knowing my ISTP Enneagram type change anything practically?", answer: "Yes. An ISTP 5 under stress becomes more isolated and withholding; an ISTP 9 under stress becomes completely disengaged and passive; an ISTP 8 under stress becomes aggressive and controlling. Knowing which pattern is yours lets you recognize the early signals and choose a different response." },
+    ],
+    ctaHeading: "Find your ISTP Enneagram type — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, Enneagram type, DISC profile, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ISTP personality type guide", url: "/blog/istp-personality-type" },
+      { label: "Enneagram Type 5 — The Investigator", url: "/blog/enneagram-type-5-investigator" },
+      { label: "ISTP careers guide", url: "/blog/istp-careers" },
+      { label: "ISTP DISC profile", url: "/blog/istp-disc-profile" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "isfp-enneagram-type": {
+    slug: "isfp-enneagram-type",
+    metaTitle: "ISFP Enneagram Type — Most Common Types and Why",
+    metaDesc: "Which Enneagram types are most common for ISFPs? Learn why Type 9, Type 4, and Type 2 appear most often in ISFP profiles, and what each combination means.",
+    canonicalUrl: "https://1test.me/blog/isfp-enneagram-type",
+    h1: "ISFP Enneagram Type — Most Common Types and What They Mean",
+    sections: [
+      {
+        heading: "Why ISFPs cluster around specific Enneagram types",
+        html: p("16 Personalities types and Enneagram types describe different dimensions. ISFP's dominant Introverted Feeling holds a deep, private sense of personal values and authenticity; auxiliary Extroverted Sensing engages directly and aesthetically with the present moment. The Enneagram types that resonate most with this orientation are Type 9 (The Peacemaker), Type 4 (The Individualist), and Type 2 (The Helper).") +
+          p("Understanding your specific combination sharpens the picture from 'I'm gentle and values-driven' to 'here's specifically what I'm afraid of and what drives my specific behavior under stress.'"),
+      },
+      {
+        heading: "ISFP + Enneagram Type 9 (The Peacemaker) — most common",
+        html: p("ISFP Type 9 is a very natural combination — both frameworks describe someone who is gentle, non-aggressive, deeply private, and oriented toward peace and harmony rather than assertion or confrontation. Type 9's core motivation is maintaining inner peace and avoiding conflict; ISFP's Introverted Feeling holds values deeply but rarely asserts them loudly.") +
+          p("ISFP 9s are often the most easygoing and low-maintenance people in any environment — they're genuinely warm, non-demanding, and easy to be around. They create a quiet, trustworthy presence that people value deeply even if they can't always articulate why.") +
+          p("The specific challenge: ISFP 9s can virtually disappear. The combination of ISFP's private Introverted Feeling and 9's tendency to merge with others' agendas can mean they have almost no visible presence in decisions that affect them — their preferences go unexpressed, their contributions go unrecognized, and they eventually burn out quietly. Their growth runs through developing the practice of naming themselves in low-stakes moments."),
+      },
+      {
+        heading: "ISFP + Enneagram Type 4 (The Individualist) — second most common",
+        html: p("ISFP Type 4 is a more emotionally intense and identity-focused version of the ISFP. Both frameworks describe someone with a deep sense of personal uniqueness and a need for authentic self-expression — ISFP's Introverted Feeling holds authentic personal values as paramount; Type 4's core motivation is being genuinely unique and truly oneself.") +
+          p("ISFP 4s are often the most artistically and emotionally rich ISFPs — they combine ISFP's aesthetic sensibility and present-moment depth with Type 4's orientation toward emotional intensity and personal meaning. They tend to be highly creative, deeply self-aware, and capable of producing work of genuine emotional resonance.") +
+          p("The specific challenge: ISFP 4s can amplify emotional intensity in ways that become isolating. Both ISFP's inwardness and 4's tendency toward longing and melancholy can produce extended periods of emotional depth that feel meaningful but prevent forward movement. They may also develop a strong sense of being fundamentally different in ways that make ordinary connection feel inadequate."),
+      },
+      {
+        heading: "ISFP + Enneagram Type 2 (The Helper) — third most common",
+        html: p("ISFP Type 2 is the most relationally oriented version of the ISFP. Type 2 adds a core drive to be needed and valued for care that brings ISFP's quiet values into a more explicitly other-serving form.") +
+          p("ISFP 2s are often deeply caring and quietly generous — they combine ISFP's genuine warmth and aesthetic presence with Type 2's investment in being helpful and needed. They tend to care deeply about the people closest to them and to show that care through action rather than words.") +
+          p("The specific challenge: ISFP 2s can give more than they can sustain without adequate reciprocity. Their combination of ISFP's private Introverted Feeling (which rarely asks for what it needs) and 2's drive to be needed can mean they're chronically underserved while others are well cared for."),
+      },
+      {
+        heading: "Other ISFP Enneagram types",
+        html: p("**ISFP Type 6 (The Loyalist):** ISFP 6s are more anxious and loyalty-oriented than most ISFPs. Their gentle independence is tempered by 6's need for reliable, trustworthy relationships and vigilance about threats to them. They tend to be deeply committed to their small circle and more risk-aware than ISFP 9s.") +
+          p("**ISFP Type 7 (The Enthusiast):** ISFP 7s are the most spontaneous and experience-seeking ISFPs — they combine ISFP's present-moment sensory richness with 7's drive toward novelty and pleasure. They tend to be more externally expressive than most ISFPs and more prone to moving on when something stops being stimulating.") +
+          p("**ISFP Type 1 (The Reformer):** ISFP 1s are the most principled and self-critical ISFPs. They combine ISFP's deep personal values with 1's drive toward correctness — producing someone who holds their own creative and ethical work to very high internal standards and may find it genuinely difficult to share work they don't feel is ready."),
+      },
+    ],
+    faqs: [
+      { question: "What is the most common Enneagram type for ISFPs?", answer: "Enneagram Type 9 (The Peacemaker) is the most commonly reported type among ISFPs. The overlap between ISFP's Introverted Feeling (which holds values privately and avoids asserting them loudly) and Type 9's core drive toward peace and avoidance of conflict creates a very natural resonance. Type 4 is the second most common." },
+      { question: "Can an ISFP be a Type 8?", answer: "Yes, though it's uncommon. An ISFP Type 8 would be someone with ISFP's deep values and aesthetic sensitivity combined with Type 8's assertiveness, need for control, and comfort with confrontation. This produces a significantly bolder and more direct ISFP — someone who still operates from private personal values but is very willing to assert and defend them." },
+      { question: "How do I find my ISFP Enneagram type?", answer: "Focus on motivation rather than behavior. Ask: what am I most afraid of at a deep level? ISFPs who fear conflict and disconnection tend toward Type 9; those who fear being ordinary or inauthentic tend toward Type 4; those who fear being unloved or unneeded tend toward Type 2. 1Test gives you both frameworks from one assessment." },
+      { question: "Does knowing my ISFP Enneagram type change anything practically?", answer: "Yes. An ISFP 9 under stress becomes even more invisible and disengaged; an ISFP 4 under stress amplifies emotional intensity and longing; an ISFP 2 under stress becomes resentful and withdrawn. Knowing which pattern is yours lets you recognize the early signals and respond with greater intentionality." },
+    ],
+    ctaHeading: "Find your ISFP Enneagram type — free",
+    ctaSubtext: "1Test gives you your 16 Personalities type, Enneagram type, DISC profile, and Strengths — all from one 15-minute assessment. No paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ISFP personality type guide", url: "/blog/isfp-personality-type" },
+      { label: "Enneagram Type 9 — The Peacemaker", url: "/blog/enneagram-type-9-peacemaker" },
+      { label: "ISFP careers guide", url: "/blog/isfp-careers" },
+      { label: "ISFP DISC profile", url: "/blog/isfp-disc-profile" },
+    ],
+    datePublished: "2026-04-18",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {
