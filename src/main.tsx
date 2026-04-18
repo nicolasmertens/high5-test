@@ -197,6 +197,11 @@ function AppRoutes() {
       <Route path="/blog/enneagram-type-3-vs-type-7" element={<BlogPage slug="enneagram-type-3-vs-type-7" />} />
       <Route path="/blog/enneagram-type-4-vs-type-9" element={<BlogPage slug="enneagram-type-4-vs-type-9" />} />
       <Route path="/blog/enneagram-type-5-vs-type-9" element={<BlogPage slug="enneagram-type-5-vs-type-9" />} />
+      <Route path="/blog/enneagram-type-1-vs-type-9" element={<BlogPage slug="enneagram-type-1-vs-type-9" />} />
+      <Route path="/blog/enneagram-type-2-vs-type-3" element={<BlogPage slug="enneagram-type-2-vs-type-3" />} />
+      <Route path="/blog/enneagram-type-3-vs-type-8" element={<BlogPage slug="enneagram-type-3-vs-type-8" />} />
+      <Route path="/blog/enneagram-type-6-vs-type-9" element={<BlogPage slug="enneagram-type-6-vs-type-9" />} />
+      <Route path="/blog/enneagram-type-7-vs-type-8" element={<BlogPage slug="enneagram-type-7-vs-type-8" />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="/relationship/:id" element={<RelationshipReportPage />} />

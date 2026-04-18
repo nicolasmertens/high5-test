@@ -2087,6 +2087,36 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/enneagram-type-5-vs-type-9",
     ogType: "article",
   },
+  "/blog/enneagram-type-1-vs-type-9": {
+    title: "Enneagram Type 1 vs Type 9 — Key Differences Explained",
+    description: "Enneagram Type 1 and Type 9 share the Gut triad and both suppress anger — but they pursue their ideals in opposite ways. Learn how to tell them apart.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-1-vs-type-9",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-2-vs-type-3": {
+    title: "Enneagram Type 2 vs Type 3 — Key Differences Explained",
+    description: "Enneagram Type 2 and Type 3 are both in the Heart triad and care about how others see them — but what they want from others is completely different.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-2-vs-type-3",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-3-vs-type-8": {
+    title: "Enneagram Type 3 vs Type 8 — Key Differences Explained",
+    description: "Enneagram Type 3 and Type 8 are both driven, confident leaders — but what motivates them is completely different. Learn how to tell them apart.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-3-vs-type-8",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-6-vs-type-9": {
+    title: "Enneagram Type 6 vs Type 9 — Key Differences Explained",
+    description: "Enneagram Type 6 and Type 9 are both drawn to safety and conflict-averse — but their underlying anxiety patterns are completely different.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-6-vs-type-9",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-7-vs-type-8": {
+    title: "Enneagram Type 7 vs Type 8 — Key Differences Explained",
+    description: "Both Enneagram Type 7 and Type 8 are bold, high-energy, and resistant to limitation. Here's how to tell them apart and what drives each type underneath.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-7-vs-type-8",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {

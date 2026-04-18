@@ -14986,6 +14986,291 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-18",
   },
+
+  "enneagram-type-1-vs-type-9": {
+    slug: "enneagram-type-1-vs-type-9",
+    metaTitle: "Enneagram Type 1 vs Type 9 — Key Differences Explained",
+    metaDesc: "Enneagram Type 1 and Type 9 are both in the Gut triad and share a desire for a better world — but they pursue it in opposite ways. Learn how to tell them apart.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-1-vs-type-9",
+    h1: "Enneagram Type 1 vs Type 9 — Key Differences",
+    sections: [
+      {
+        heading: "Why Type 1 and Type 9 get confused",
+        html: p("Enneagram Type 1 (The Reformer) and Type 9 (The Peacemaker) are neighbors on the Enneagram circle and share the same Instinctive (Gut) triad, which means they're both dealing with suppressed anger — just in very different ways. Both types can appear principled, calm, and committed to avoiding unnecessary conflict.") +
+          p("The confusion tends to arise because both types can be rule-following, steady, and oriented toward ideals. A Type 9 with a 1 wing (9w1) can look particularly similar to a Type 1 — they take on the 1's principled quality while retaining the 9's peacefulness.") +
+          p("The core difference: Type 1 is driven by an inner critic demanding improvement; Type 9 is driven by a desire to avoid internal disturbance and maintain external harmony."),
+      },
+      {
+        heading: "Anger: suppressed vs. redirected",
+        html: p("Both Type 1 and Type 9 have a complicated relationship with anger — both types suppress it, but differently. Type 1 turns anger into righteous indignation and criticism of imperfection. The anger is always present but channeled through the inner critic, which produces continuous self-improvement efforts and frustration at the world's failure to meet standards.") +
+          p("Type 9 numbs anger — it doesn't turn into anything productive or directed. The 9's anger is the kind that shows up as passive resistance, procrastination, or a sudden surprising outburst after months of suppression. It doesn't usually feel like anger to the 9 while it's happening.") +
+          p("A useful question: when something is wrong, do you feel a drive to correct it (Type 1) or a desire to not be disturbed by it (Type 9)?"),
+      },
+      {
+        heading: "Standards and improvement",
+        html: p("Type 1 has a powerful orientation toward improvement. They notice what could be better — in themselves, in systems, in other people's work. The inner critic is always running, pointing out gaps between what is and what should be. This can be a tremendous asset or a significant burden.") +
+          p("Type 9 tends toward acceptance. Where the 1 sees something to fix, the 9 often sees something to accommodate. Type 9's natural move is to adjust to the situation rather than adjust the situation. Sustained effort toward reform requires them to overcome considerable internal resistance.") +
+          p("Ask yourself: when you see something that's not right, is your immediate reaction to want to correct it (Type 1) or to find a way to accept it or work around it (Type 9)?"),
+      },
+      {
+        heading: "Stress and growth patterns",
+        html: p("Type 1 under stress: moves toward Type 4, becoming more emotionally sensitive, self-critical, and withdrawn. Under growth: moves toward Type 7, becoming more spontaneous, joyful, and able to relax their standards and enjoy life.") +
+          p("Type 9 under stress: moves toward Type 6, becoming more anxious, worried, and vigilant about what might go wrong. Under growth: moves toward Type 3, becoming more focused, action-oriented, and capable of prioritizing their own goals.") +
+          p("Stress diagnostic: do you become more emotionally sensitive and self-critical (Type 1) or more anxious and dependent on external reassurance (Type 9)?"),
+      },
+      {
+        heading: "Type 1 and Type 9 at work",
+        html: p("Type 1 at work: meticulous, principled, and often the person who points out what's not being done correctly before anyone else does. They hold themselves and others to high standards. They can be difficult to work for if their perfectionism extends to controlling how others do their work.") +
+          p("Type 9 at work: reliable, accommodating, and excellent at maintaining team harmony. They rarely create interpersonal friction. Their challenges are around prioritizing their own perspective and following through on commitments that don't have external accountability.") +
+          p("Together in an organization: Type 1 provides the standards and the critical eye; Type 9 provides the harmony and the acceptance that prevents those standards from becoming toxic perfectionism."),
+      },
+    ],
+    faqs: [
+      { question: "How do I know if I'm a Type 1 or Type 9?", answer: "The clearest test is your relationship with improvement. Type 1s have a constant internal drive to make things better — there's always a gap between how things are and how they should be, and that gap produces urgency. Type 9s tend toward acceptance — the gap between ideal and reality is something to accommodate, not urgently fix. Under stress, 1s become more self-critical and emotionally withdrawn; 9s become more anxious and worried about external threats." },
+      { question: "Can a Type 9w1 be mistaken for a Type 1?", answer: "Yes — a 9 with a strong 1 wing (9w1) is the most Type 1-like of the 9s. They take on the 1's principled quality and can be quite rule-conscious and idealistic. The distinction: the 9w1's standards come from a desire to be 'good' and avoid criticism, while the 1's standards come from a deep internal conviction about how things should be. The 9w1 can also set aside their principles more easily when doing so preserves harmony; the Type 1 finds this much harder." },
+      { question: "Are Type 1 and Type 9 compatible?", answer: "1-9 pairings are quite common and often comfortable. The 9's acceptance and lack of criticism provides the 1 with a safe space to not be perfect. The 1's clarity and standards give the 9 direction and structure they often lack. Friction typically comes when the 1's inner critic bleeds into criticism of the 9, who experiences this as an attack on the peace of the relationship." },
+      { question: "What's the role of anger in Type 1 vs Type 9?", answer: "Both types suppress anger, but differently. Type 1's anger is redirected into improvement-seeking — it fuels their inner critic and their drive to fix what's wrong. It's almost never experienced as anger directly; it comes out as righteousness or frustration. Type 9's anger is numbed — it doesn't fuel anything, it just disappears into passive resistance, procrastination, or sudden unexpected eruptions. Neither type is comfortable with direct, clean anger expression." },
+    ],
+    ctaHeading: "Find out your Enneagram type — and three more frameworks",
+    ctaSubtext: "Free personality test — Enneagram type plus 16 Personalities, DISC, and Strengths. One 15-minute assessment, no paywall.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Enneagram Type 1 — The Reformer", url: "/blog/enneagram-type-1-reformer" },
+      { label: "Enneagram Type 9 — The Peacemaker", url: "/blog/enneagram-type-9-peacemaker" },
+      { label: "Enneagram Type 1 vs Type 6", url: "/blog/enneagram-type-1-vs-type-6" },
+      { label: "Free Enneagram Test", url: "/free-enneagram-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-2-vs-type-3": {
+    slug: "enneagram-type-2-vs-type-3",
+    metaTitle: "Enneagram Type 2 vs Type 3 — Key Differences Explained",
+    metaDesc: "Enneagram Type 2 and Type 3 are both in the Heart triad and care deeply about how others see them — but their strategies are completely different. Learn how to tell them apart.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-2-vs-type-3",
+    h1: "Enneagram Type 2 vs Type 3 — Key Differences",
+    sections: [
+      {
+        heading: "Why Type 2 and Type 3 get confused",
+        html: p("Enneagram Type 2 (The Helper) and Type 3 (The Achiever) are neighbors on the Enneagram circle and both belong to the Feeling (Heart) triad. Both are outwardly oriented, people-aware, and concerned with how they're perceived. Both can be warm, charming, and effective at building relationships.") +
+          p("In professional settings, the 2 who is highly accomplished and the 3 who is genuinely caring can be very hard to tell apart. Both can present as competent, likable, and attuned to others.") +
+          p("The core difference: Type 2 gives in order to be loved and needed; Type 3 achieves in order to be admired and seen as successful."),
+      },
+      {
+        heading: "The core difference: love vs. admiration",
+        html: p("Type 2's primary currency is love and connection. They give, support, and serve as a way of building relationships and ensuring they are indispensable to the people they care about. Their attentiveness to others is genuine, but it's also strategically motivated — they want to be needed, and they're very good at identifying what others need before being asked.") +
+          p("Type 3's primary currency is admiration and recognition. They achieve, perform, and succeed as a way of demonstrating their value. They adapt to what will be recognized and rewarded in each environment. Their attentiveness to others is more pragmatic — they want to know what will impress, not what will nurture.") +
+          p("A clarifying question: when you help someone, does it feel like building a bond (Type 2) or does it feel like making a good impression or building your reputation (Type 3)?"),
+      },
+      {
+        heading: "Authenticity and self-presentation",
+        html: p("Type 2 tends to present a consistent 'giving and caring' persona across contexts, though they may suppress their own needs and feelings to maintain it. They know what they feel — they're just not comfortable expressing needs directly because it might make them seem less giving.") +
+          p("Type 3 changes their presentation to match what each audience values. They're shape-shifters — able to be whatever version of themselves will be most admired in this particular room. This is so automatic for healthy 3s that they may not notice they're doing it. The challenge for 3s is that they can lose track of who they actually are beneath the performance.") +
+          p("Diagnostic: do you have one consistent persona that you present everywhere (with suppressed needs underneath) — Type 2 — or do you shift your presentation depending on what each environment rewards — Type 3?"),
+      },
+      {
+        heading: "Stress and growth patterns",
+        html: p("Type 2 under stress: moves toward Type 8, becoming more controlling, demanding, and confrontational when their giving isn't reciprocated. Under growth: moves toward Type 4, becoming more emotionally honest about their own needs and less defined by others' responses to them.") +
+          p("Type 3 under stress: moves toward Type 9, becoming more disengaged, conflict-avoidant, and checked out — the performance stops because the pressure to maintain it becomes too heavy. Under growth: moves toward Type 6, becoming more committed to genuine relationships and loyal to something beyond personal achievement.") +
+          p("Stress diagnostic: do you become more demanding and confrontational (Type 2) or more disengaged and avoidant (Type 3)?"),
+      },
+      {
+        heading: "Type 2 and Type 3 in leadership",
+        html: p("Type 2 leaders: often exceptional at building team loyalty, attentive to individual team member needs, and able to create genuine connection between people. Their leadership challenge is difficulty with hard decisions that disappoint people — and potential resentment when their giving isn't reciprocated by their teams.") +
+          p("Type 3 leaders: often exceptional at setting vision, maintaining high standards, and driving results. They adapt their leadership style to what works in each environment. Their leadership challenge is authenticity — teams sometimes sense they're getting a performance rather than a real person, and this erodes trust over time.") +
+          p("Both types can be highly effective leaders. The 2 builds loyalty through care; the 3 builds drive through vision. The 2-3 pairing in a leadership team is often very complementary."),
+      },
+    ],
+    faqs: [
+      { question: "How do I tell the difference between Type 2 and Type 3?", answer: "Ask what you're trying to get from others. Type 2s want to be loved and needed — their helping is in service of connection and belonging. Type 3s want to be admired and recognized as successful — their giving is in service of reputation and image. Under stress, 2s become more demanding and controlling; 3s become more disengaged and checked out. Type 3 also adapts their persona to each environment in a way Type 2 generally doesn't." },
+      { question: "Can a Type 2 be mistaken for a Type 3?", answer: "Yes — particularly a 2 who has achieved significant professional success can look like a 3. The distinction: the 2's success is usually in service of being valued by specific people they care about, while the 3's success is in service of general recognition and a successful image. A 2 who is in a relationship where they feel truly loved may care much less about external achievement; a 3's drive for achievement persists regardless of relationship quality." },
+      { question: "Are Type 2 and Type 3 compatible?", answer: "2-3 pairings are common and often dynamic. The 2 brings warmth, attentiveness, and genuine care; the 3 brings drive, vision, and accomplishment. The potential friction is that the 2 wants the relationship to be the primary thing, while the 3's achievement drive can make them seem like the relationship is secondary. 2s can also feel like they're getting a performance from the 3 rather than genuine intimacy." },
+      { question: "What's the difference in how Type 2 and Type 3 handle failure?", answer: "Type 2s handle failure in relationships most poorly — being rejected or made to feel unwanted is the deepest wound. Failure at tasks or projects is manageable if the relational bond is intact. Type 3s handle failure in achievement most poorly — being seen as unsuccessful, incompetent, or not special is the deepest wound. They may go to significant lengths to hide failures or reframe them as successes." },
+    ],
+    ctaHeading: "Find out your Enneagram type — and three more frameworks",
+    ctaSubtext: "Free personality test — Enneagram type plus 16 Personalities, DISC, and Strengths. One 15-minute assessment, no paywall.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Enneagram Type 2 — The Helper", url: "/blog/enneagram-type-2-helper" },
+      { label: "Enneagram Type 3 — The Achiever", url: "/blog/enneagram-type-3-achiever" },
+      { label: "Enneagram Type 2 vs Type 9", url: "/blog/enneagram-type-2-vs-type-9" },
+      { label: "Free Enneagram Test", url: "/free-enneagram-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-3-vs-type-8": {
+    slug: "enneagram-type-3-vs-type-8",
+    metaTitle: "Enneagram Type 3 vs Type 8 — Key Differences Explained",
+    metaDesc: "Enneagram Type 3 and Type 8 are both driven, confident, and effective leaders — but what motivates them is completely different. Learn how to tell them apart.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-3-vs-type-8",
+    h1: "Enneagram Type 3 vs Type 8 — Key Differences",
+    sections: [
+      {
+        heading: "Why Type 3 and Type 8 get confused",
+        html: p("Enneagram Type 3 (The Achiever) and Type 8 (The Challenger) are both dominant, confident, and comfortable with power. Both can be described as 'strong leaders,' 'high performers,' or 'people who get things done.' In professional settings, both often rise quickly and command attention.") +
+          p("The confusion intensifies because both types resist vulnerability and have a pragmatic, results-oriented approach to most situations. Both can seem invulnerable from the outside.") +
+          p("The core difference: Type 3 is driven by the need to be seen as successful and admired; Type 8 is driven by the need to be powerful and self-sufficient enough that no one can control or harm them."),
+      },
+      {
+        heading: "The core difference: image vs. power",
+        html: p("Type 3 is in the Feeling (Heart) triad. Their primary orientation is toward how they appear to others — they want to be seen as successful, competent, and admirable. They adapt their presentation to what will be recognized and rewarded in each environment. Image is central.") +
+          p("Type 8 is in the Instinctive (Gut/Body) triad. Their primary orientation is toward power and control — they want to be strong enough that no one can take advantage of them. They are not primarily concerned with being liked or admired; they're concerned with being powerful and autonomous. They don't adapt their presentation — they project it.") +
+          p("The simplest distinction: does your drive come from wanting to impress (Type 3) or from not wanting to be controlled or vulnerable (Type 8)?"),
+      },
+      {
+        heading: "Vulnerability and authenticity",
+        html: p("Type 3 avoids vulnerability by maintaining the performance. They stay in motion, stay achieved, stay successful — because stopping means facing the question of whether they have value beyond their accomplishments. Their emotional life is often deferred because feelings are inefficient.") +
+          p("Type 8 avoids vulnerability through strength and control. They resist showing weakness because weakness invites others to take advantage. When an 8 does show vulnerability — which they may do in very private moments with trusted people — it's often surprising in its depth. 8s feel deeply; they just don't show it because feelings can be used against you.") +
+          p("Diagnostic: do you avoid vulnerability by staying in achievement mode (Type 3) or by projecting strength and control (Type 8)?"),
+      },
+      {
+        heading: "How they lead",
+        html: p("Type 3 leaders adapt their style to what gets results in each context. They're excellent at inspiring through vision, maintaining high performance standards, and getting teams to achieve. They want to be seen as great leaders and will shape their behavior to produce that perception.") +
+          p("Type 8 leaders are direct, forceful, and often deliberately challenging. They push people to see what they're made of, protect those they consider 'theirs,' and have little patience for weakness or dishonesty. They don't care if everyone likes them — they care if everyone respects and trusts them.") +
+          p("A key difference in conflict: Type 3 tends to smooth over conflict when it threatens their image; Type 8 often deliberately invites conflict to clarify where people stand."),
+      },
+      {
+        heading: "Stress and growth patterns",
+        html: p("Type 3 under stress: moves toward Type 9, becoming disengaged, checked out, and avoidant. The performance stops and they go quiet. Under growth: moves toward Type 6, becoming more committed to genuine loyalty and community rather than personal achievement.") +
+          p("Type 8 under stress: moves toward Type 5, becoming more withdrawn, secretive, and isolated — they stop engaging and pull into their own inner world. Under growth: moves toward Type 2, becoming more openly caring, nurturing, and willing to show their protective instinct toward others.") +
+          p("Stress diagnostic: do you become more disengaged and checked out (Type 3) or more withdrawn and secretive (Type 8)?"),
+      },
+    ],
+    faqs: [
+      { question: "How do I tell if I'm a Type 3 or Type 8?", answer: "The clearest test is what you're protecting. Type 3 protects their image — they need to be seen as successful and competent. Type 8 protects their autonomy — they need to be strong enough that no one can control or take advantage of them. Type 3 adapts to what each environment values; Type 8 projects the same strong presence regardless of context. Under stress, 3s disengage; 8s withdraw into isolation." },
+      { question: "Can a Type 8 be image-conscious like a Type 3?", answer: "Type 8s can care about their reputation, but it's specifically a reputation for strength, directness, and reliability — not for being impressive or successful in the general sense. They want to be respected and trusted, not admired. A Type 3 cares about being seen as successful in whatever terms the environment defines; a Type 8 cares about being seen as someone who doesn't back down and can be counted on." },
+      { question: "Are Type 3 and Type 8 compatible?", answer: "3-8 pairings can be very high-functioning — both types are driven, direct, and results-oriented. The 3 brings adaptability, charm, and vision; the 8 brings protection, directness, and follow-through. Friction often arises because the 3's shape-shifting can feel dishonest to the 8, who values authenticity and directness above almost everything else. The 3 may also find the 8's confrontational style uncomfortable when it threatens their image." },
+      { question: "What's the difference in how Type 3 and Type 8 handle being wrong?", answer: "Type 3s struggle significantly with being wrong because being wrong threatens their image of competence. They may deflect, reframe, or minimize mistakes rather than owning them directly. Type 8s, surprisingly, are often quicker to own mistakes — because acknowledging an error on their own terms feels like strength, while being caught in an error by someone else feels like weakness. 8s would rather say 'I was wrong, here's what I'm doing about it' than be caught hiding it." },
+    ],
+    ctaHeading: "Find out your Enneagram type — and three more frameworks",
+    ctaSubtext: "Free personality test — Enneagram type plus 16 Personalities, DISC, and Strengths. One 15-minute assessment, no paywall.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Enneagram Type 3 — The Achiever", url: "/blog/enneagram-type-3-achiever" },
+      { label: "Enneagram Type 8 — The Challenger", url: "/blog/enneagram-type-8-challenger" },
+      { label: "Enneagram Type 3 vs Type 7", url: "/blog/enneagram-type-3-vs-type-7" },
+      { label: "Free Enneagram Test", url: "/free-enneagram-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-6-vs-type-9": {
+    slug: "enneagram-type-6-vs-type-9",
+    metaTitle: "Enneagram Type 6 vs Type 9 — Key Differences Explained",
+    metaDesc: "Enneagram Type 6 and Type 9 are both anxious about threats and drawn to safety — but what they fear and how they respond is completely different. Learn how to tell them apart.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-6-vs-type-9",
+    h1: "Enneagram Type 6 vs Type 9 — Key Differences",
+    sections: [
+      {
+        heading: "Why Type 6 and Type 9 get confused",
+        html: p("Enneagram Type 6 (The Loyalist) and Type 9 (The Peacemaker) are both conflict-averse, relationship-oriented, and drawn to safety and security. Both can seem agreeable and accommodating. Both have a strong desire to avoid threatening situations.") +
+          p("The confusion is common because both types often present as steady, reliable, and non-confrontational. Both can suppress their own needs in service of the group or relationship. Both are often described as 'easy to be with.'") +
+          p("The core difference: Type 6 is anxious and vigilant — always scanning for what could go wrong; Type 9 is numbing — avoiding anything that would disturb their inner peace."),
+      },
+      {
+        heading: "The core difference: vigilance vs. numbing",
+        html: p("Type 6 is in the Thinking (Head) triad. They experience the world as uncertain and potentially dangerous, and they respond by being hypervigilant — scanning for threats, questioning authority, seeking reassurance, and preparing for worst-case scenarios. Their anxiety is active and outward.") +
+          p("Type 9 is in the Instinctive (Body/Gut) triad. They experience conflict and disruption as threats to their inner peace, and they respond by numbing — merging with their environment, diffusing their attention, and avoiding anything that would require them to assert themselves. Their response to anxiety is passive and inward.") +
+          p("The clearest distinction: when you face uncertainty, do you actively scan for threats and seek reassurance (Type 6) or do you find ways to not think about it and stay comfortable (Type 9)?"),
+      },
+      {
+        heading: "Loyalty and trust",
+        html: p("Type 6 tests trust carefully and then commits deeply. They are suspicious of authority and new relationships until they've had time to see whether the person or institution can be counted on. Once they trust, however, they are among the most loyal types — they'll defend and stand by people who have proven reliable.") +
+          p("Type 9 tends to trust readily — or more accurately, they tend not to question enough to generate distrust. Their default is to go along, accommodate, and merge with others' expectations. They can be naive about whether people or institutions are actually trustworthy because they're not in a vigilant scanning mode.") +
+          p("A diagnostic: in a new relationship, are you internally testing whether this person is reliable before you commit (Type 6) or do you just generally go along until something significant breaks the peace (Type 9)?"),
+      },
+      {
+        heading: "How they handle authority",
+        html: p("Type 6 has a complicated relationship with authority — they're drawn to it for security but also suspicious of it. Counter-phobic 6s may actively challenge authority to test whether it can be trusted. Phobic 6s may comply while internally anxious. Either way, the preoccupation with authority is central.") +
+          p("Type 9 tends to defer to authority not out of vigilance but out of inertia — it's easier to go along than to create conflict. They may not have a strong opinion about authority at all; they just don't want to rock the boat. The 9's compliance is about peace, not about trust calibration.") +
+          p("Ask: when someone in authority tells you to do something, is your first reaction to assess whether they can be trusted (Type 6) or to just go along because disagreeing feels like too much trouble (Type 9)?"),
+      },
+      {
+        heading: "Stress and growth patterns",
+        html: p("Type 6 under stress: moves toward Type 3, becoming more driven by image and external achievement — performing confidence they don't feel. Under growth: moves toward Type 9, becoming more relaxed, trusting, and able to find internal stillness without needing external reassurance.") +
+          p("Type 9 under stress: moves toward Type 6, becoming more anxious, worried, and vigilant — ironically looking more like a 6. Under growth: moves toward Type 3, becoming more focused, action-oriented, and willing to pursue their own goals.") +
+          p("Note: when under stress, Type 9 moves toward Type 6 behavior, which is why they can be particularly hard to distinguish when things are difficult."),
+      },
+    ],
+    faqs: [
+      { question: "How do I distinguish Type 6 from Type 9?", answer: "The key is whether your safety-seeking is active or passive. Type 6 actively scans for threats and seeks reassurance — there's an internal vigilance mechanism that doesn't turn off. Type 9 passively avoids disruption — they don't so much scan for danger as they avoid anything that might require them to confront it. Under stress, the picture blurs: stressed Type 9 moves toward Type 6 behavior, becoming more anxious. In calm periods, 6s still seem somewhat vigilant; 9s seem quite settled." },
+      { question: "Can a Type 9 look like a Type 6 under stress?", answer: "Yes — this is one of the reasons 6 and 9 are commonly confused. When Type 9 is under sustained pressure, they move toward their stress point (Type 6), becoming more anxious, worried, and vigilant. A stressed 9 can look almost indistinguishable from a 6. The way to tell them apart is to look at their baseline state: a resting 9 is quite calm and inward; a resting 6 still has visible vigilance and scanning behavior." },
+      { question: "Are Type 6 and Type 9 compatible?", answer: "6-9 pairings are common and often comfortable — both types value loyalty, stability, and non-confrontational relationships. The 6's vigilance and the 9's peace can complement each other: the 9 helps the 6 relax and trust more; the 6 helps the 9 pay attention to real threats they might be numbing. Friction arises when the 6's anxiety becomes exhausting for the 9, or the 9's passivity feels irresponsible to the 6." },
+      { question: "What careers suit Type 6 vs Type 9?", answer: "Type 6s often thrive in roles that leverage their reliability, problem-anticipation, and loyalty: law enforcement, risk management, operations, project management, and any role where careful preparation and vigilance create genuine value. Type 9s often thrive in roles that reward harmony, mediation, and steady presence: HR, counseling, healthcare support, community work, and environments where not creating friction is itself a valuable skill." },
+    ],
+    ctaHeading: "Find out your Enneagram type — and three more frameworks",
+    ctaSubtext: "Free personality test — Enneagram type plus 16 Personalities, DISC, and Strengths. One 15-minute assessment, no paywall.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Enneagram Type 6 — The Loyalist", url: "/blog/enneagram-type-6-loyalist" },
+      { label: "Enneagram Type 9 — The Peacemaker", url: "/blog/enneagram-type-9-peacemaker" },
+      { label: "Enneagram Type 1 vs Type 6", url: "/blog/enneagram-type-1-vs-type-6" },
+      { label: "Free Enneagram Test", url: "/free-enneagram-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-7-vs-type-8": {
+    slug: "enneagram-type-7-vs-type-8",
+    metaTitle: "Enneagram Type 7 vs Type 8 — Key Differences Explained",
+    metaDesc: "Both Enneagram Type 7 and Type 8 are bold, high-energy, and resistant to limitation. Here's how to tell them apart and what drives each type underneath the confidence.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-7-vs-type-8",
+    h1: "Enneagram Type 7 vs Type 8 — Key Differences",
+    sections: [
+      {
+        heading: "Why Type 7 and Type 8 get confused",
+        html: p("Enneagram Type 7 (The Enthusiast) and Type 8 (The Challenger) are both high-energy, assertive, and allergic to being constrained. Both can dominate a room. Both resist vulnerability and keep moving forward regardless of obstacles. Both are often described as 'big personalities.'") +
+          p("The confusion is most common in people who identify with being energetic, bold, and not easily controlled. Both types can be charismatic leaders and both can seem invulnerable from the outside.") +
+          p("The core difference: Type 7 keeps moving to avoid pain and limitation; Type 8 asserts power to avoid being controlled or harmed."),
+      },
+      {
+        heading: "The core difference: avoiding pain vs. avoiding control",
+        html: p("Type 7 is in the Thinking (Head) triad. Their anxiety is about being trapped in pain, limitation, or deprivation. They keep moving — planning, experiencing, generating new options — as a way of ensuring they'll never be stuck in something painful. The energy and enthusiasm is in service of that escape from constraint.") +
+          p("Type 8 is in the Instinctive (Gut/Body) triad. Their anxiety is about being controlled, betrayed, or made vulnerable. They project strength and take up space as a way of ensuring no one will try to dominate them. The boldness and confrontation is in service of that self-protection.") +
+          p("The simplest distinction: when you push back against constraints, is it because you want to keep all your options open (Type 7) or because you won't let anyone tell you what to do (Type 8)?"),
+      },
+      {
+        heading: "Depth vs. breadth",
+        html: p("Type 7 typically has enormous breadth — they've done many things, started many projects, had many experiences. They accumulate width. Depth can be harder for them because depth requires staying in one place long enough to encounter the difficulties.") +
+          p("Type 8 typically develops significant depth in domains they care about. They're willing to engage with difficulty, resistance, and obstacles — that's where the real test of strength is. They may have fewer areas of focus than a 7, but what they're committed to, they pursue fully.") +
+          p("A useful question: in your areas of interest, do you have many varied experiences (Type 7 more likely) or a few areas of deep, hard-won expertise (Type 8 more likely)?"),
+      },
+      {
+        heading: "How they handle conflict",
+        html: p("Type 7 generally avoids sustained conflict because conflict can trap you — it's limiting and painful. They may engage in conflict briefly but look for the exit. They'd rather find a reframe that makes the conflict unnecessary than engage in a prolonged battle.") +
+          p("Type 8 often seeks conflict — not to be destructive, but to clarify. Conflict tells them who people really are. They push to see if someone will hold their ground. An 8 who never meets resistance may trust someone less, not more. Conflict is how they establish respect.") +
+          p("Ask: in conflicts, do you look for the exit or the reframe as quickly as possible (Type 7) or do you find yourself wanting to see it through to a clear resolution of who's right (Type 8)?"),
+      },
+      {
+        heading: "Stress and growth patterns",
+        html: p("Type 7 under stress: moves toward Type 1, becoming more critical, perfectionist, and self-righteous — the scattered energy focuses into judgment. Under growth: moves toward Type 5, becoming more focused, contemplative, and able to go deep rather than wide.") +
+          p("Type 8 under stress: moves toward Type 5, becoming more withdrawn, secretive, and isolated — they stop engaging and pull into their own inner world. Under growth: moves toward Type 2, becoming more openly caring and willing to show their genuine tenderness.") +
+          p("Note: both types move toward Type 5 under stress, though from different starting points. The 7's stressed Type 5 looks scattered-then-rigid; the 8's stressed Type 5 looks powerful-then-withdrawn."),
+      },
+    ],
+    faqs: [
+      { question: "How do I know if I'm a Type 7 or Type 8?", answer: "Ask what you're protecting. Type 7s protect their freedom and options — they can't stand being trapped or limited, so they keep moving and generating new possibilities. Type 8s protect their autonomy and strength — they can't stand being controlled or made vulnerable, so they project power and resist anyone who tries to dominate them. Type 7 avoids conflict because it's limiting; Type 8 seeks clarity through conflict because it's how they know where they stand." },
+      { question: "Can a Type 7 seem as bold and dominant as a Type 8?", answer: "Yes — particularly an extroverted, high-energy Type 7 with an 8 wing (7w8) can look nearly identical to a Type 8 in external presentation. Both types can be charismatic, bold, and seemingly invulnerable. The distinction to look for is what happens under sustained pressure: a 7 looks for an exit or reframe; an 8 digs in and pushes back harder. Also: does the boldness serve possibility-keeping (Type 7) or power-assertion (Type 8)?" },
+      { question: "Are Type 7 and Type 8 compatible?", answer: "7-8 pairings can be highly energizing — both types are bold, direct, and comfortable with intensity. They can accomplish a great deal together. Friction often arises because the 8 values sustained commitment and follow-through, while the 7 tends to move on once the novelty wears off. The 8 may also find the 7's avoidance of difficult emotions frustrating; the 7 may find the 8's directness and confrontation suffocating." },
+      { question: "What's the difference in how Type 7 and Type 8 handle vulnerability?", answer: "Both types avoid vulnerability, but differently. Type 7 avoids vulnerability by staying in motion and keeping things positive — they reframe pain into something manageable or exciting before it can settle. Type 8 avoids vulnerability by projecting strength — they don't show weakness because weakness can be exploited. When an 8 does show vulnerability (in private, with trusted people), it's often surprisingly profound. When a 7 shows vulnerability, it's usually quickly reframed into something more comfortable." },
+    ],
+    ctaHeading: "Find out your Enneagram type — and three more frameworks",
+    ctaSubtext: "Free personality test — Enneagram type plus 16 Personalities, DISC, and Strengths. One 15-minute assessment, no paywall.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-enneagram-test",
+    crossLinks: [
+      { label: "Enneagram Type 7 — The Enthusiast", url: "/blog/enneagram-type-7-enthusiast" },
+      { label: "Enneagram Type 8 — The Challenger", url: "/blog/enneagram-type-8-challenger" },
+      { label: "Enneagram Type 3 vs Type 7", url: "/blog/enneagram-type-3-vs-type-7" },
+      { label: "Free Enneagram Test", url: "/free-enneagram-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {
