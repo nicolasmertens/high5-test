@@ -135,6 +135,22 @@ function AppRoutes() {
       <Route path="/blog/personality-test-for-midlife-career-change" element={<BlogPage slug="personality-test-for-midlife-career-change" />} />
       <Route path="/blog/disc-conflict-management" element={<BlogPage slug="disc-conflict-management" />} />
       <Route path="/blog/enneagram-wing-influence" element={<BlogPage slug="enneagram-wing-influence" />} />
+      <Route path="/blog/infp-personality-type" element={<BlogPage slug="infp-personality-type" />} />
+      <Route path="/blog/infj-personality-type" element={<BlogPage slug="infj-personality-type" />} />
+      <Route path="/blog/intj-personality-type" element={<BlogPage slug="intj-personality-type" />} />
+      <Route path="/blog/intp-personality-type" element={<BlogPage slug="intp-personality-type" />} />
+      <Route path="/blog/enfp-personality-type" element={<BlogPage slug="enfp-personality-type" />} />
+      <Route path="/blog/enfj-personality-type" element={<BlogPage slug="enfj-personality-type" />} />
+      <Route path="/blog/entj-personality-type" element={<BlogPage slug="entj-personality-type" />} />
+      <Route path="/blog/entp-personality-type" element={<BlogPage slug="entp-personality-type" />} />
+      <Route path="/blog/istj-personality-type" element={<BlogPage slug="istj-personality-type" />} />
+      <Route path="/blog/isfj-personality-type" element={<BlogPage slug="isfj-personality-type" />} />
+      <Route path="/blog/estj-personality-type" element={<BlogPage slug="estj-personality-type" />} />
+      <Route path="/blog/esfj-personality-type" element={<BlogPage slug="esfj-personality-type" />} />
+      <Route path="/blog/istp-personality-type" element={<BlogPage slug="istp-personality-type" />} />
+      <Route path="/blog/isfp-personality-type" element={<BlogPage slug="isfp-personality-type" />} />
+      <Route path="/blog/estp-personality-type" element={<BlogPage slug="estp-personality-type" />} />
+      <Route path="/blog/esfp-personality-type" element={<BlogPage slug="esfp-personality-type" />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="/relationship/:id" element={<RelationshipReportPage />} />

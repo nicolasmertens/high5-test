@@ -5,7 +5,7 @@ import { blogPosts } from "../data/blog-content";
 const CATEGORIES = [
   { label: "DISC", filter: (slug: string) => slug.startsWith("disc-") || slug.includes("-disc-") },
   { label: "Enneagram", filter: (slug: string) => slug.startsWith("enneagram-") || slug.includes("-enneagram-") },
-  { label: "16 Personalities", filter: (slug: string) => slug.startsWith("16-personalities") || slug.includes("16-personalities") },
+  { label: "16 Personalities", filter: (slug: string) => slug.startsWith("16-personalities") || slug.includes("16-personalities") || slug.endsWith("-personality-type") },
   { label: "Strengths", filter: (slug: string) => slug.startsWith("strengths-") || slug.includes("-strengths") },
   { label: "Career", filter: (slug: string) => slug.includes("career") || slug.includes("job") || slug.includes("work") || slug.includes("manager") },
   { label: "Relationships", filter: (slug: string) => slug.includes("relationship") || slug.includes("couple") || slug.includes("friend") || slug.includes("compati") },

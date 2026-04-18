@@ -1715,6 +1715,102 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/pt/free-strengths-test",
     ogType: "website",
   },
+  "/blog/infp-personality-type": {
+    title: "INFP Personality Type — The Mediator | Complete Guide",
+    description: "INFP: idealistic, empathetic, and driven by values. Discover INFP strengths, career paths, relationships, and how to take the free personality test.",
+    canonicalUrl: "https://1test.me/blog/infp-personality-type",
+    ogType: "article",
+  },
+  "/blog/infj-personality-type": {
+    title: "INFJ Personality Type — The Advocate | Complete Guide",
+    description: "INFJ is the rarest personality type — principled, visionary, and deeply empathetic. Discover INFJ strengths, careers, relationships, and take the free test.",
+    canonicalUrl: "https://1test.me/blog/infj-personality-type",
+    ogType: "article",
+  },
+  "/blog/intj-personality-type": {
+    title: "INTJ Personality Type — The Architect | Complete Guide",
+    description: "INTJ: strategic, independent, and visionary. Discover INTJ strengths, careers, relationships, common misconceptions, and take the free personality test.",
+    canonicalUrl: "https://1test.me/blog/intj-personality-type",
+    ogType: "article",
+  },
+  "/blog/intp-personality-type": {
+    title: "INTP Personality Type — The Thinker | Complete Guide",
+    description: "INTP: curious, analytical, and innovative. Discover INTP strengths, career paths, relationships, and take the free personality test to confirm your type.",
+    canonicalUrl: "https://1test.me/blog/intp-personality-type",
+    ogType: "article",
+  },
+  "/blog/enfp-personality-type": {
+    title: "ENFP Personality Type — The Campaigner | Complete Guide",
+    description: "ENFP: enthusiastic, creative, and deeply human. Discover ENFP strengths, careers, relationships, and take the free personality test to confirm your type.",
+    canonicalUrl: "https://1test.me/blog/enfp-personality-type",
+    ogType: "article",
+  },
+  "/blog/enfj-personality-type": {
+    title: "ENFJ Personality Type — The Protagonist | Complete Guide",
+    description: "ENFJ: charismatic, empathetic, and born to lead. Discover ENFJ strengths, careers, relationships, and take the free personality test to confirm your type.",
+    canonicalUrl: "https://1test.me/blog/enfj-personality-type",
+    ogType: "article",
+  },
+  "/blog/entj-personality-type": {
+    title: "ENTJ Personality Type — The Commander | Complete Guide",
+    description: "ENTJ: decisive, strategic, and built to lead. Discover ENTJ strengths, careers, relationships, and how to take the free personality test to confirm your type.",
+    canonicalUrl: "https://1test.me/blog/entj-personality-type",
+    ogType: "article",
+  },
+  "/blog/entp-personality-type": {
+    title: "ENTP Personality Type — The Debater | Complete Guide",
+    description: "ENTP: quick-witted, innovative, and intellectually fearless. Discover ENTP strengths, careers, relationships, and take the free personality test.",
+    canonicalUrl: "https://1test.me/blog/entp-personality-type",
+    ogType: "article",
+  },
+  "/blog/istj-personality-type": {
+    title: "ISTJ Personality Type — The Inspector | Complete Guide",
+    description: "ISTJ: reliable, organized, and deeply principled. Discover ISTJ strengths, careers, relationships, and take the free personality test to confirm your type.",
+    canonicalUrl: "https://1test.me/blog/istj-personality-type",
+    ogType: "article",
+  },
+  "/blog/isfj-personality-type": {
+    title: "ISFJ Personality Type — The Defender | Complete Guide",
+    description: "ISFJ: warm, dedicated, and quietly dependable. Discover ISFJ strengths, careers, relationships, and take the free personality test to confirm your type.",
+    canonicalUrl: "https://1test.me/blog/isfj-personality-type",
+    ogType: "article",
+  },
+  "/blog/estj-personality-type": {
+    title: "ESTJ Personality Type — The Executive | Complete Guide",
+    description: "ESTJ: organized, direct, and built to manage. Discover ESTJ strengths, career paths, relationships, and take the free personality test.",
+    canonicalUrl: "https://1test.me/blog/estj-personality-type",
+    ogType: "article",
+  },
+  "/blog/esfj-personality-type": {
+    title: "ESFJ Personality Type — The Consul | Complete Guide",
+    description: "ESFJ: warm, organized, and deeply community-focused. Discover ESFJ strengths, careers, relationships, and take the free personality test.",
+    canonicalUrl: "https://1test.me/blog/esfj-personality-type",
+    ogType: "article",
+  },
+  "/blog/istp-personality-type": {
+    title: "ISTP Personality Type — The Virtuoso | Complete Guide",
+    description: "ISTP: practical, analytical, and effortlessly skilled. Discover ISTP strengths, careers, relationships, and take the free personality test.",
+    canonicalUrl: "https://1test.me/blog/istp-personality-type",
+    ogType: "article",
+  },
+  "/blog/isfp-personality-type": {
+    title: "ISFP Personality Type — The Adventurer | Complete Guide",
+    description: "ISFP: creative, gentle, and deeply present. Discover ISFP strengths, careers, relationships, and take the free personality test to confirm your type.",
+    canonicalUrl: "https://1test.me/blog/isfp-personality-type",
+    ogType: "article",
+  },
+  "/blog/estp-personality-type": {
+    title: "ESTP Personality Type — The Entrepreneur | Complete Guide",
+    description: "ESTP: bold, action-oriented, and energized by challenge. Discover ESTP strengths, careers, relationships, and take the free personality test.",
+    canonicalUrl: "https://1test.me/blog/estp-personality-type",
+    ogType: "article",
+  },
+  "/blog/esfp-personality-type": {
+    title: "ESFP Personality Type — The Entertainer | Complete Guide",
+    description: "ESFP: spontaneous, energetic, and infectiously fun. Discover ESFP strengths, careers, relationships, and take the free personality test.",
+    canonicalUrl: "https://1test.me/blog/esfp-personality-type",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {

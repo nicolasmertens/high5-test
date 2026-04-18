@@ -11260,6 +11260,921 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-17",
   },
+
+  // ===== 16 PERSONALITY TYPE PAGES =====
+
+  "infp-personality-type": {
+    slug: "infp-personality-type",
+    metaTitle: "INFP Personality Type — The Mediator | Complete Guide",
+    metaDesc: "INFP: idealistic, empathetic, and driven by values. Discover INFP strengths, career paths, relationships, and how to take the free personality test.",
+    canonicalUrl: "https://1test.me/blog/infp-personality-type",
+    h1: "INFP Personality Type — The Mediator",
+    sections: [
+      {
+        heading: "What Is the INFP Personality Type?",
+        html: p("INFP stands for Introverted, Intuitive, Feeling, and Perceiving. Known as the Mediator, INFPs are deeply idealistic individuals who are guided by their personal values and a strong sense of purpose. They are among the most empathetic personality types, driven by a desire to make the world more compassionate and authentic.") +
+          p("INFPs account for roughly 4–5% of the population. They tend to be quiet and reflective on the outside, but their inner world is rich with imagination and moral conviction. They are not drawn to rigid rules or conventional paths — they need work and relationships that feel personally meaningful.") +
+          p("If you want to discover your own personality type, <a href=\"/free-personality-test\">take the free 16 Personalities test</a> — you'll also get your DISC, Enneagram, and Strengths results."),
+      },
+      {
+        heading: "INFP Strengths and Weaknesses",
+        html: p("INFPs bring distinctive qualities to everything they do:") +
+          strong([
+            { label: "Empathy.", desc: "INFPs understand emotions at a deep level. They notice when others are struggling and genuinely want to help. This makes them trusted confidants and natural counselors." },
+            { label: "Creativity.", desc: "INFPs are imaginative thinkers. They are drawn to art, writing, music, and any medium that lets them express complex inner experiences. Many of the world's most beloved storytellers and artists are INFPs." },
+            { label: "Values-driven.", desc: "Once an INFP believes in something, they defend it with quiet but fierce commitment. Their integrity is one of their most defining traits." },
+            { label: "Adaptability.", desc: "INFPs are open to new ideas and experiences. They dislike rigid structure and thrive with freedom to explore." },
+          ]) +
+          p("Common INFP challenges include difficulty with criticism (which they often take personally), a tendency toward perfectionism, and struggling to complete projects when initial enthusiasm fades. They can also avoid conflict to the point of suppressing their own needs."),
+      },
+      {
+        heading: "INFP Careers and Work Style",
+        html: p("INFPs do their best work when it aligns with their values. They thrive in environments that offer creative freedom, meaningful purpose, and space for personal expression. They dislike high-pressure, highly competitive, or purely transactional environments.") +
+          p("Careers that tend to suit INFPs well:") +
+          ul(["Writing, journalism, or content creation", "Counseling, social work, or psychology", "Teaching, especially humanities or creative subjects", "Fine arts, graphic design, or music", "Nonprofits and mission-driven organizations", "User experience research or human-centered design"]) +
+          p("INFPs are not typically drawn to management roles, but they can be deeply effective when leading around a cause they believe in. They prefer collaboration over hierarchy and are skilled at creating psychological safety on their teams."),
+      },
+      {
+        heading: "INFP Relationships",
+        html: p("INFPs seek authentic, deep connections. They are not interested in superficial small talk — they want to understand others at a soul level and be understood in return. When they find that connection, they are fiercely loyal and emotionally generous.") +
+          p("In romantic relationships, INFPs are idealistic. They hold a vision of what love can be and sometimes struggle when reality falls short of that ideal. They need a partner who respects their values, gives them space for introspection, and communicates honestly.") +
+          p("In friendships, INFPs have a small circle of close friends rather than a large network of acquaintances. They remember details about the people they care about and show love through thoughtful gestures and deep listening.") +
+          p("Compatible types often include ENFJ and ENTJ, who provide the structure and decisiveness that INFPs sometimes lack. INFPs also connect naturally with other NF types — INFJ, ENFP, and ENFJ."),
+      },
+    ],
+    faqs: [
+      { question: "What is an INFP personality?", answer: "INFP stands for Introverted, Intuitive, Feeling, Perceiving. INFPs are idealistic, empathetic, and deeply values-driven individuals who seek meaning in everything they do. They are known for their creativity, emotional depth, and quiet but unwavering commitment to causes they believe in." },
+      { question: "What are INFP strengths?", answer: "INFP strengths include deep empathy, strong creativity, genuine integrity, and adaptability. They are excellent listeners, imaginative problem-solvers, and loyal friends and partners. They are most effective when working on something that feels personally meaningful." },
+      { question: "What careers are good for INFP?", answer: "Good careers for INFPs include writing, counseling, psychology, teaching, social work, fine arts, and nonprofit work. They thrive in roles that offer creative freedom, human connection, and alignment with their values." },
+      { question: "How rare is the INFP personality type?", answer: "INFPs make up approximately 4–5% of the general population, making them one of the less common types. They are more prevalent among women than men and are often drawn to artistic and helping professions." },
+    ],
+    ctaHeading: "Discover your personality type",
+    ctaSubtext: "Take the free 16 Personalities test — plus DISC, Enneagram, and Strengths. One test, complete results.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INFJ personality type", url: "/blog/infj-personality-type" },
+      { label: "ENFP personality type", url: "/blog/enfp-personality-type" },
+      { label: "16 Personalities test guide", url: "/blog/understanding-16-personalities" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "infj-personality-type": {
+    slug: "infj-personality-type",
+    metaTitle: "INFJ Personality Type — The Advocate | Complete Guide",
+    metaDesc: "INFJ is the rarest personality type — principled, visionary, and deeply empathetic. Discover INFJ strengths, careers, relationships, and take the free test.",
+    canonicalUrl: "https://1test.me/blog/infj-personality-type",
+    h1: "INFJ Personality Type — The Advocate",
+    sections: [
+      {
+        heading: "What Is the INFJ Personality Type?",
+        html: p("INFJ stands for Introverted, Intuitive, Feeling, and Judging. Known as the Advocate, INFJs are often described as the rarest personality type, making up only 1–2% of the population. They are principled, visionary, and driven by a deep desire to help others and improve the world.") +
+          p("What distinguishes INFJs is their unusual combination of idealism and practicality. Unlike some intuitive types who stay in the realm of ideas, INFJs are organized and determined. When they believe in a cause, they follow through. They have a gift for understanding people's motivations and a quiet but powerful influence on those around them.") +
+          p("Want to see if you are an INFJ? <a href=\"/free-personality-test\">Take the free personality test</a> and get your complete profile across four frameworks."),
+      },
+      {
+        heading: "INFJ Strengths and Weaknesses",
+        html: p("INFJs bring a rare combination of insight and compassion:") +
+          strong([
+            { label: "Insight.", desc: "INFJs have an almost intuitive ability to understand complex emotional situations and predict outcomes. They often know things before they can explain why." },
+            { label: "Principled.", desc: "INFJs have strong personal ethics and will not compromise on what they believe is right, even at personal cost." },
+            { label: "Empathy.", desc: "They absorb the emotions of others, which makes them exceptional counselors, teachers, and leaders — but it also means they need significant alone time to recharge." },
+            { label: "Determined.", desc: "When an INFJ commits to a vision, they pursue it with quiet but intense focus." },
+          ]) +
+          p("Challenges include a tendency to be overly private, difficulty setting boundaries (absorbing others' problems too deeply), perfectionism, and occasionally being perceived as too idealistic. They can also struggle with the \"door slam\" — abruptly cutting off relationships that have become too toxic."),
+      },
+      {
+        heading: "INFJ Careers and Work Style",
+        html: p("INFJs need purpose in their work. A well-paying job that feels meaningless will drain them quickly. They are most effective in roles where they can directly help individuals or create lasting positive change.") +
+          p("Careers well-suited to INFJs:") +
+          ul(["Psychology, counseling, and therapy", "Writing and journalism (especially long-form or investigative)", "Education and academic research", "Nonprofit leadership and advocacy", "Healthcare, especially in patient-facing roles", "Human resources and organizational development"]) +
+          p("INFJs work best with independence and a sense of mission. They dislike environments with constant interruption, political maneuvering, or work that lacks a clear human benefit."),
+      },
+      {
+        heading: "INFJ Relationships",
+        html: p("INFJs are selective with their relationships, but once they commit, they are among the most devoted partners and friends. They seek deep, authentic connections and are skilled at understanding what others need before being told.") +
+          p("In romantic relationships, INFJs look for a partner who respects their need for quiet and introspection but can also engage them intellectually and emotionally. They value honesty above almost everything else — deception, even white lies, can permanently damage trust with an INFJ.") +
+          p("Compatible types often include ENFP and ENTP, whose extraversion and intellectual curiosity complement the INFJ's depth and warmth. Other NF types — especially INFP and ENFJ — also form natural bonds with INFJs."),
+      },
+    ],
+    faqs: [
+      { question: "What is an INFJ personality?", answer: "INFJ stands for Introverted, Intuitive, Feeling, Judging. INFJs are the rarest personality type, known for deep empathy, strong principles, and visionary thinking. They are driven by a desire to help others and make a meaningful difference in the world." },
+      { question: "Why is INFJ so rare?", answer: "INFJ is rare because it requires a specific combination of introverted intuition as the dominant function and extraverted feeling as the auxiliary. This combination — big-picture intuitive thinking paired with people-centered values — occurs in only about 1–2% of people." },
+      { question: "What are INFJ career strengths?", answer: "INFJs excel in careers that require empathy, vision, and the ability to understand complex human dynamics. They are strongest in counseling, psychology, education, writing, healthcare, and mission-driven leadership roles." },
+      { question: "Who is a famous INFJ?", answer: "Famous people often associated with the INFJ type include Martin Luther King Jr., Nelson Mandela, and Plato. Many poets, therapists, and activists throughout history exhibit the INFJ pattern of principled idealism combined with real-world impact." },
+    ],
+    ctaHeading: "Are you an INFJ? Take the free test",
+    ctaSubtext: "Discover your personality type across four frameworks — 16 Personalities, DISC, Enneagram, and Strengths. Free, no paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INFP personality type", url: "/blog/infp-personality-type" },
+      { label: "ENFJ personality type", url: "/blog/enfj-personality-type" },
+      { label: "16 Personalities test guide", url: "/blog/understanding-16-personalities" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "intj-personality-type": {
+    slug: "intj-personality-type",
+    metaTitle: "INTJ Personality Type — The Architect | Complete Guide",
+    metaDesc: "INTJ: strategic, independent, and visionary. Discover INTJ strengths, careers, relationships, common misconceptions, and take the free personality test.",
+    canonicalUrl: "https://1test.me/blog/intj-personality-type",
+    h1: "INTJ Personality Type — The Architect",
+    sections: [
+      {
+        heading: "What Is the INTJ Personality Type?",
+        html: p("INTJ stands for Introverted, Intuitive, Thinking, and Judging. Known as the Architect, INTJs are strategic, independent, and intensely focused on their goals. They are one of the rarest types, making up about 2–4% of the population, and are particularly uncommon among women (roughly 1%).") +
+          p("INTJs are long-range thinkers. They are not interested in how things have always been done — they want to understand underlying systems and find better ways. They are self-confident and direct, sometimes to a fault, and hold themselves to extremely high standards.") +
+          p("Find out if you are an INTJ — <a href=\"/free-personality-test\">take the free personality test</a> to get your full profile."),
+      },
+      {
+        heading: "INTJ Strengths and Weaknesses",
+        html: p("INTJs are among the most capable strategic thinkers in any population:") +
+          strong([
+            { label: "Strategic vision.", desc: "INTJs naturally see long-term patterns and can devise comprehensive plans to achieve ambitious goals. They are excellent at identifying inefficiencies and designing solutions." },
+            { label: "Independence.", desc: "INTJs do not need external validation. They form their own conclusions through rigorous analysis and are comfortable acting on them alone." },
+            { label: "High standards.", desc: "They are relentless about quality and rarely settle for 'good enough.' This drives exceptional results when applied to the right problems." },
+            { label: "Decisiveness.", desc: "INTJs make decisions efficiently. Once they have analyzed a situation, they act without second-guessing." },
+          ]) +
+          p("Challenges include emotional expression (they can come across as cold or dismissive), difficulty tolerating what they see as incompetence, impatience with small talk and social conventions, and a tendency to underestimate the human factors in complex situations."),
+      },
+      {
+        heading: "INTJ Careers and Work Style",
+        html: p("INTJs thrive in roles that require strategic thinking, independent problem-solving, and intellectual rigor. They are natural fits for high-level planning, research, and technical roles.") +
+          p("Careers well-suited to INTJs:") +
+          ul(["Software architecture and engineering", "Research science and academia", "Law and legal strategy", "Financial analysis and investment management", "Executive leadership and consulting", "Product management and systems design"]) +
+          p("INTJs prefer work environments where results matter more than politics, where competence is respected, and where they have significant autonomy. They dislike bureaucracy, meetings without clear purpose, and environments that reward conformity over performance."),
+      },
+      {
+        heading: "INTJ Relationships",
+        html: p("INTJs approach relationships with the same intentionality they bring to everything else. They are selective — they would rather have one or two deeply meaningful connections than a large social circle. When they commit, they are loyal and thoughtful, even if not naturally expressive.") +
+          p("The common misconception is that INTJs don't care about people. In reality, they care deeply — they just show it through acts of service, intellectual engagement, and reliability rather than overt warmth. They need a partner who respects their need for solitude and can engage them intellectually.") +
+          p("Types that complement INTJs well include ENFP and ENTP, who bring spontaneity and emotional warmth that INTJs can find refreshing. ENTJ pairs are also common, built on mutual respect for competence and ambition."),
+      },
+    ],
+    faqs: [
+      { question: "What is an INTJ personality?", answer: "INTJ stands for Introverted, Intuitive, Thinking, Judging. INTJs are strategic, independent, and highly analytical. They are known for their long-range vision, high standards, and ability to devise complex plans and execute them efficiently." },
+      { question: "What are INTJ weaknesses?", answer: "Common INTJ weaknesses include difficulty expressing emotions, intolerance for what they perceive as incompetence, impatience with social conventions, and a tendency to underestimate the complexity of human dynamics. They can also become so focused on their vision that they miss important details." },
+      { question: "What jobs are INTJs good at?", answer: "INTJs excel in strategic, analytical, and technical roles. Strong career fits include software engineering, research, executive leadership, consulting, law, investment management, and systems design — any role that rewards long-term thinking and intellectual rigor." },
+      { question: "Are INTJs rare?", answer: "Yes. INTJs represent about 2–4% of the population overall and are particularly rare among women, where they make up approximately 1%. The combination of introverted intuition and extraverted thinking is uncommon, which contributes to INTJs often feeling misunderstood." },
+    ],
+    ctaHeading: "Discover if you are an INTJ",
+    ctaSubtext: "Take the free personality test — results include 16 Personalities type, DISC, Enneagram, and Strengths. No paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INTP personality type", url: "/blog/intp-personality-type" },
+      { label: "ENTJ personality type", url: "/blog/entj-personality-type" },
+      { label: "16 Personalities test guide", url: "/blog/understanding-16-personalities" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "intp-personality-type": {
+    slug: "intp-personality-type",
+    metaTitle: "INTP Personality Type — The Thinker | Complete Guide",
+    metaDesc: "INTP: curious, analytical, and innovative. Discover INTP strengths, career paths, relationships, and take the free personality test to confirm your type.",
+    canonicalUrl: "https://1test.me/blog/intp-personality-type",
+    h1: "INTP Personality Type — The Thinker",
+    sections: [
+      {
+        heading: "What Is the INTP Personality Type?",
+        html: p("INTP stands for Introverted, Intuitive, Thinking, and Perceiving. Known as the Thinker (or the Logician), INTPs are intellectually insatiable — endlessly curious, deeply analytical, and driven to understand the fundamental principles behind everything. They make up roughly 3–5% of the population.") +
+          p("INTPs are most comfortable in the world of ideas. They can spend hours exploring abstract theories, debating philosophical questions, or solving complex technical problems. While they may appear detached or distracted, their minds are usually working at high speed on something they find fascinating.") +
+          p("Curious about your type? <a href=\"/free-personality-test\">Take the free personality test</a> — it covers 16 Personalities, DISC, Enneagram, and Strengths in a single assessment."),
+      },
+      {
+        heading: "INTP Strengths and Weaknesses",
+        html: p("INTPs bring a distinctive intellectual toolkit:") +
+          strong([
+            { label: "Analytical depth.", desc: "INTPs can dismantle complex systems and identify the root logic behind them. They are natural theory-builders who spot inconsistencies others miss." },
+            { label: "Objectivity.", desc: "They pursue truth over comfort. An INTP will readily update their view if presented with compelling evidence, which makes them reliable intellectual partners." },
+            { label: "Creativity.", desc: "INTPs are innovative thinkers who excel at generating novel frameworks and unconventional solutions to difficult problems." },
+            { label: "Open-mindedness.", desc: "They are genuinely interested in perspectives that challenge their own. They rarely become emotionally attached to their theories." },
+          ]) +
+          p("Common INTP challenges include procrastination (especially on tasks they find intellectually uninteresting), difficulty with routine and follow-through, social awkwardness, and the tendency to overthink decisions to the point of paralysis. They can also appear condescending when they believe someone has misunderstood something."),
+      },
+      {
+        heading: "INTP Careers and Work Style",
+        html: p("INTPs are at their best when they have intellectual freedom and complex problems to solve. They dislike repetitive work, micromanagement, and environments that reward conformity over insight.") +
+          p("Careers that suit INTPs well:") +
+          ul(["Software development and computer science", "Mathematics and theoretical physics", "Philosophy and academic research", "Data science and machine learning", "Architecture and systems engineering", "Economics and financial modeling"]) +
+          p("INTPs often struggle in highly structured corporate environments. They thrive with flexible schedules, solo work, and access to difficult problems. Many successful INTP professionals are researchers, engineers, or founders who created roles that fit their thinking style rather than adapting to standard career paths."),
+      },
+      {
+        heading: "INTP Relationships",
+        html: p("INTPs can be difficult to get close to, not because they are unfriendly, but because they live mostly in their heads. Building a relationship with an INTP requires patience and a willingness to engage at an intellectual level.") +
+          p("In romantic relationships, INTPs value independence, honesty, and intellectual partnership above all. They struggle with emotional expression but show their care through loyalty and effort to understand their partner's perspective.") +
+          p("They get along best with types who respect their need for autonomy and can match their intellectual energy — ENTJ and ENFP are often cited as natural complements. Other intuitive types (INTJ, INFJ, ENTP) also connect well with INTPs on an intellectual level."),
+      },
+    ],
+    faqs: [
+      { question: "What is an INTP personality?", answer: "INTP stands for Introverted, Intuitive, Thinking, Perceiving. INTPs are highly analytical, curious, and intellectually driven. They are most interested in abstract ideas, logical systems, and theoretical frameworks. They are known for their ability to deeply analyze complex problems and generate novel solutions." },
+      { question: "What are INTP strengths and weaknesses?", answer: "INTP strengths include analytical depth, objectivity, creativity, and open-mindedness. Weaknesses include difficulty with routine and follow-through, social awkwardness, overthinking, and struggles with emotional expression in relationships." },
+      { question: "What careers are best for INTP?", answer: "INTPs thrive in careers that require abstract thinking and complex problem-solving: software development, mathematics, research science, data science, philosophy, economics, and systems engineering. They are less suited to highly structured or people-intensive roles." },
+      { question: "Is INTP a rare personality type?", answer: "INTPs are moderately rare, making up about 3–5% of the population. They are more common among men than women. Within technical fields like software engineering and research science, INTPs are more prevalent than in the general population." },
+    ],
+    ctaHeading: "Find out if you are an INTP",
+    ctaSubtext: "Free personality test — 16 Personalities + DISC + Enneagram + Strengths. Complete results, no paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INTJ personality type", url: "/blog/intj-personality-type" },
+      { label: "ENTP personality type", url: "/blog/entp-personality-type" },
+      { label: "16 Personalities test guide", url: "/blog/understanding-16-personalities" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enfp-personality-type": {
+    slug: "enfp-personality-type",
+    metaTitle: "ENFP Personality Type — The Campaigner | Complete Guide",
+    metaDesc: "ENFP: enthusiastic, creative, and deeply human. Discover ENFP strengths, careers, relationships, and take the free personality test to confirm your type.",
+    canonicalUrl: "https://1test.me/blog/enfp-personality-type",
+    h1: "ENFP Personality Type — The Campaigner",
+    sections: [
+      {
+        heading: "What Is the ENFP Personality Type?",
+        html: p("ENFP stands for Extraverted, Intuitive, Feeling, and Perceiving. Known as the Campaigner, ENFPs are energetic, creative, and genuinely excited about people and possibilities. They make up about 7–8% of the population, making them one of the more common intuitive types.") +
+          p("ENFPs combine social warmth with intellectual curiosity in a way that few other types do. They are natural storytellers, idea generators, and motivators. They see potential everywhere — in people, in situations, in ideas — and have a gift for inspiring others to see it too.") +
+          p("Want to see if you're an ENFP? <a href=\"/free-personality-test\">Take the free personality test</a> — you'll get 16 Personalities, DISC, Enneagram, and Strengths results together."),
+      },
+      {
+        heading: "ENFP Strengths and Weaknesses",
+        html: p("ENFPs are known for their vibrant mix of creativity and interpersonal skill:") +
+          strong([
+            { label: "Enthusiasm.", desc: "ENFPs bring contagious energy to projects and people. Their excitement is genuine and motivating — they can rally a team or light up a conversation effortlessly." },
+            { label: "Empathy.", desc: "ENFPs pick up on emotional undercurrents quickly. They are skilled at making people feel seen and valued." },
+            { label: "Creativity.", desc: "ENFPs generate ideas constantly. They are excellent brainstormers, innovators, and creative problem-solvers." },
+            { label: "Connection.", desc: "ENFPs are naturally gifted at building relationships. They remember details about people, follow up, and make genuine connections wherever they go." },
+          ]) +
+          p("Common challenges for ENFPs include difficulty finishing projects once the novelty wears off, overthinking personal decisions, taking criticism personally, and struggling with routine tasks. Their energy and enthusiasm, while a strength, can lead to overcommitting and burning out."),
+      },
+      {
+        heading: "ENFP Careers and Work Style",
+        html: p("ENFPs need variety, meaning, and human connection in their work. Repetitive, isolated, or highly structured roles drain them. They thrive when they can bring creativity to real problems and work with people they care about.") +
+          p("Careers well-suited to ENFPs:") +
+          ul(["Marketing and brand storytelling", "Teaching and education", "Journalism and content creation", "Counseling and coaching", "Entrepreneurship and product innovation", "Public relations and community management"]) +
+          p("ENFPs make excellent leaders when they can lead through inspiration rather than control. They build cultures of enthusiasm and inclusion. Their biggest work challenge is usually execution — taking their creative vision through to completion."),
+      },
+      {
+        heading: "ENFP Relationships",
+        html: p("ENFPs are among the most romantically expressive types. They are affectionate, spontaneous, and deeply committed to their partners' growth and happiness. They bring fun and creativity to relationships but need a partner who can also give them emotional depth.") +
+          p("Their key need in relationships is authenticity. ENFPs cannot thrive in relationships that feel performative or superficial. They want to truly know and be known by their partner.") +
+          p("Types that pair well with ENFPs include INTJ and INFJ, who provide the depth and stability that complement an ENFP's energy and openness. INFP is another natural match — both types share deep values and imaginative thinking."),
+      },
+    ],
+    faqs: [
+      { question: "What is an ENFP personality?", answer: "ENFP stands for Extraverted, Intuitive, Feeling, Perceiving. ENFPs are enthusiastic, creative, and people-centered. They are natural motivators and idea generators who find meaning in connecting with others and pursuing possibilities. They are among the most charismatic and socially aware personality types." },
+      { question: "What are ENFP weaknesses?", answer: "ENFP weaknesses include difficulty finishing projects, overcommitting, overthinking personal decisions, and struggling with routine tasks. They can also take criticism personally and may avoid difficult conversations to preserve harmony." },
+      { question: "What jobs are ENFPs good at?", answer: "ENFPs do well in roles that involve creativity, people, and meaningful work: marketing, teaching, counseling, journalism, entrepreneurship, coaching, and community building. They are less suited to highly repetitive or isolated work." },
+      { question: "Are ENFP and INFJ compatible?", answer: "ENFP and INFJ is one of the most frequently cited compatible pairings. Both types lead with intuition and feeling, share a desire for authenticity and meaning, and complement each other's strengths — ENFP's energy and social warmth balances INFJ's depth and quiet insight." },
+    ],
+    ctaHeading: "Discover your personality type",
+    ctaSubtext: "Free test covering 16 Personalities, DISC, Enneagram, and Strengths. Full results with no paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INFP personality type", url: "/blog/infp-personality-type" },
+      { label: "INFJ personality type", url: "/blog/infj-personality-type" },
+      { label: "16 Personalities test guide", url: "/blog/understanding-16-personalities" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enfj-personality-type": {
+    slug: "enfj-personality-type",
+    metaTitle: "ENFJ Personality Type — The Protagonist | Complete Guide",
+    metaDesc: "ENFJ: charismatic, empathetic, and born to lead. Discover ENFJ strengths, careers, relationships, and take the free personality test to confirm your type.",
+    canonicalUrl: "https://1test.me/blog/enfj-personality-type",
+    h1: "ENFJ Personality Type — The Protagonist",
+    sections: [
+      {
+        heading: "What Is the ENFJ Personality Type?",
+        html: p("ENFJ stands for Extraverted, Intuitive, Feeling, and Judging. Known as the Protagonist, ENFJs are charismatic, empathetic leaders who are naturally attuned to the needs and potential of others. They make up about 2–3% of the population and are particularly impactful in roles where they can inspire and guide others.") +
+          p("ENFJs are people-focused in every sense. They see the best in others, communicate with warmth and clarity, and are skilled at bringing people together around a shared goal. They have a natural talent for reading a room and knowing exactly what needs to be said.") +
+          p("Think you might be an ENFJ? <a href=\"/free-personality-test\">Take the free personality test</a> to find out."),
+      },
+      {
+        heading: "ENFJ Strengths and Weaknesses",
+        html: p("ENFJs have a distinctive combination of people skills and organizational drive:") +
+          strong([
+            { label: "Charisma.", desc: "ENFJs are naturally magnetic. They communicate with warmth and confidence, and people are drawn to them." },
+            { label: "Empathy.", desc: "ENFJs are deeply attuned to others' emotional states. They notice distress before others do and respond with genuine care." },
+            { label: "Organizational skill.", desc: "Unlike some feeling types, ENFJs combine their warmth with structure. They are natural planners who can mobilize groups toward meaningful goals." },
+            { label: "Idealism.", desc: "ENFJs hold a vision of what people and communities can become. This fuels their leadership and their commitment to growth — both their own and others'." },
+          ]) +
+          p("ENFJ challenges include taking on too much of others' emotional burdens, difficulty accepting criticism (which they can internalize), overcommitting, and occasionally being manipulative (usually unconsciously) when they believe they know what's best for someone."),
+      },
+      {
+        heading: "ENFJ Careers and Work Style",
+        html: p("ENFJs are natural leaders and communicators. They excel in roles that let them develop others, build communities, and create positive change.") +
+          p("Careers well-suited to ENFJs:") +
+          ul(["Teaching and educational leadership", "Human resources and organizational development", "Coaching and counseling", "Public speaking and communications", "Nonprofit leadership and social work", "Sales and marketing (especially relationship-driven roles)"]) +
+          p("ENFJs are most effective when they have a clear mission and a team to lead toward it. They are excellent at navigating interpersonal dynamics and managing group morale. They struggle in environments that are cold, purely transactional, or where their contributions go unrecognized."),
+      },
+      {
+        heading: "ENFJ Relationships",
+        html: p("ENFJs are devoted, attentive partners and friends. They invest deeply in their relationships and have a gift for making others feel genuinely cared for and understood.") +
+          p("The challenge for ENFJs in relationships is their tendency to prioritize others' needs over their own. They need to learn to receive care as well as give it. When their efforts go unreciprocated for too long, they can experience deep resentment — though they are slow to express it.") +
+          p("ENFJs pair well with INFP and ISFP, who appreciate the ENFJ's warmth and direction. INTJ and INFJ are also strong matches, offering the depth and intellectual engagement ENFJs thrive on."),
+      },
+    ],
+    faqs: [
+      { question: "What is an ENFJ personality?", answer: "ENFJ stands for Extraverted, Intuitive, Feeling, Judging. ENFJs are charismatic, empathetic leaders who are naturally focused on developing others and building community. They are known for their warmth, communication skill, and ability to inspire people toward a shared vision." },
+      { question: "What are ENFJ strengths?", answer: "ENFJ strengths include natural charisma, deep empathy, organizational ability, and idealistic vision. They excel at leading people, building trust, and communicating in ways that motivate and inspire action." },
+      { question: "What careers are best for ENFJ?", answer: "ENFJs excel in teaching, counseling, leadership, human resources, coaching, nonprofit work, and communications. They thrive in roles where they can develop others and work toward a meaningful goal." },
+      { question: "Is ENFJ a rare type?", answer: "ENFJs make up about 2–3% of the population. They are rare enough to stand out but present enough in leadership roles that many people have worked for or with an ENFJ without knowing it. Female ENFJs are slightly more common than male." },
+    ],
+    ctaHeading: "Are you an ENFJ? Take the free test",
+    ctaSubtext: "Discover your type across four frameworks — free, complete results, no paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INFJ personality type", url: "/blog/infj-personality-type" },
+      { label: "ENFP personality type", url: "/blog/enfp-personality-type" },
+      { label: "16 Personalities test guide", url: "/blog/understanding-16-personalities" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "entj-personality-type": {
+    slug: "entj-personality-type",
+    metaTitle: "ENTJ Personality Type — The Commander | Complete Guide",
+    metaDesc: "ENTJ: decisive, strategic, and built to lead. Discover ENTJ strengths, careers, relationships, and how to take the free personality test to confirm your type.",
+    canonicalUrl: "https://1test.me/blog/entj-personality-type",
+    h1: "ENTJ Personality Type — The Commander",
+    sections: [
+      {
+        heading: "What Is the ENTJ Personality Type?",
+        html: p("ENTJ stands for Extraverted, Intuitive, Thinking, and Judging. Known as the Commander, ENTJs are decisive, strategic, and naturally drawn to leadership. They make up about 2–3% of the population and are disproportionately represented in senior executive roles.") +
+          p("ENTJs lead with confidence and clarity. They see inefficiencies clearly and have the drive and organizational skill to fix them. They set ambitious goals and build the systems and teams needed to reach them. People often describe ENTJs as intimidatingly capable — someone you want on your side in a crisis.") +
+          p("Find out if you're an ENTJ — <a href=\"/free-personality-test\">take the free personality test</a>."),
+      },
+      {
+        heading: "ENTJ Strengths and Weaknesses",
+        html: p("ENTJs have a formidable leadership toolkit:") +
+          strong([
+            { label: "Strategic thinking.", desc: "ENTJs see complex systems clearly and can design plans that account for second and third-order effects. They are excellent long-term planners." },
+            { label: "Decisiveness.", desc: "ENTJs make decisions quickly and confidently. They do not agonize or second-guess — they analyze, decide, and move." },
+            { label: "Drive.", desc: "ENTJs are relentlessly ambitious. They hold high standards for themselves and everyone around them and push hard toward ambitious goals." },
+            { label: "Leadership.", desc: "ENTJs are natural executives. They see potential in people and know how to align a team toward a goal effectively." },
+          ]) +
+          p("ENTJ weaknesses include impatience with those they view as inefficient, difficulty showing vulnerability, a tendency to be domineering, and occasionally prioritizing results over people. They can be seen as cold or arrogant, especially by more feeling-oriented types."),
+      },
+      {
+        heading: "ENTJ Careers and Work Style",
+        html: p("ENTJs excel in roles that require leadership, strategic planning, and execution. They are most satisfied when they have significant authority and a complex challenge to tackle.") +
+          p("Careers well-suited to ENTJs:") +
+          ul(["Executive leadership and CEO roles", "Entrepreneurship and business founding", "Management consulting", "Law and corporate litigation", "Investment banking and finance", "Military leadership and operations"]) +
+          p("ENTJs are natural founders and executives. They build organizations from vision and drive them toward ambitious outcomes. Their biggest professional risk is burning out teams or creating cultures of fear through excessive pressure."),
+      },
+      {
+        heading: "ENTJ Relationships",
+        html: p("ENTJs are direct and intentional in relationships. They choose partners deliberately and commit fully. They show love through support, planning, and acts of service — helping their partner achieve their goals is how many ENTJs express care.") +
+          p("Their challenge in relationships is emotional availability. ENTJs can prioritize achievement over connection, and they may not naturally pick up on emotional undercurrents. Partners who need frequent reassurance or emotional expression may find ENTJs frustrating.") +
+          p("ENTJs pair well with INTP and INFP, who offer intellectual depth and warmth that ENTJs find refreshing. INTJ is another strong match built on shared competence and ambition."),
+      },
+    ],
+    faqs: [
+      { question: "What is an ENTJ personality?", answer: "ENTJ stands for Extraverted, Intuitive, Thinking, Judging. ENTJs are decisive, strategic leaders who thrive on complexity and challenge. They are known for their ambition, organizational drive, and ability to build and lead high-performing teams." },
+      { question: "What are ENTJ weaknesses?", answer: "ENTJ weaknesses include impatience, difficulty showing vulnerability, a tendency toward domineering behavior, and occasionally prioritizing results over people. They can come across as arrogant or cold to more feeling-oriented types." },
+      { question: "What jobs are ENTJs best at?", answer: "ENTJs thrive in executive leadership, entrepreneurship, consulting, law, investment banking, and operations. Any role that requires strategic planning, authority, and execution of ambitious goals is a natural fit." },
+      { question: "Are ENTJ rare?", answer: "ENTJs make up about 2–3% of the general population. They are more common in senior leadership roles, where their natural drive and decisiveness make them disproportionately effective." },
+    ],
+    ctaHeading: "Are you an ENTJ? Take the free test",
+    ctaSubtext: "Discover your personality type — 16 Personalities, DISC, Enneagram, and Strengths in one free assessment.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INTJ personality type", url: "/blog/intj-personality-type" },
+      { label: "ENTP personality type", url: "/blog/entp-personality-type" },
+      { label: "16 Personalities test guide", url: "/blog/understanding-16-personalities" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "entp-personality-type": {
+    slug: "entp-personality-type",
+    metaTitle: "ENTP Personality Type — The Debater | Complete Guide",
+    metaDesc: "ENTP: quick-witted, innovative, and intellectually fearless. Discover ENTP strengths, careers, relationships, and take the free personality test.",
+    canonicalUrl: "https://1test.me/blog/entp-personality-type",
+    h1: "ENTP Personality Type — The Debater",
+    sections: [
+      {
+        heading: "What Is the ENTP Personality Type?",
+        html: p("ENTP stands for Extraverted, Intuitive, Thinking, and Perceiving. Known as the Debater, ENTPs are intellectually energetic, quick-witted, and constantly generating ideas. They make up about 3–4% of the population and are known for challenging assumptions, disrupting the status quo, and arguing any side of any issue.") +
+          p("ENTPs are natural innovators. They excel at lateral thinking, seeing angles others miss, and generating creative solutions to difficult problems. They are at their best in stimulating intellectual environments where ideas are challenged and improved.") +
+          p("Want to confirm your type? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "ENTP Strengths and Weaknesses",
+        html: p("ENTPs bring an unusual combination of creativity and analytical skill:") +
+          strong([
+            { label: "Intellectual agility.", desc: "ENTPs process information at high speed and make unexpected connections. They are excellent debaters and brainstormers." },
+            { label: "Innovation.", desc: "ENTPs thrive on disruption. They see what could be better and have the creative energy to imagine new approaches." },
+            { label: "Confidence.", desc: "ENTPs are not easily intimidated by authority or convention. They will challenge an expert if they believe they see something the expert has missed." },
+            { label: "Adaptability.", desc: "ENTPs read changing situations quickly and adjust their approach fluidly." },
+          ]) +
+          p("ENTP challenges include follow-through (they are far more excited by starting than finishing), difficulty respecting rules or structure they find arbitrary, tendency to argue for sport (which can alienate people), and occasional insensitivity to emotional impact."),
+      },
+      {
+        heading: "ENTP Careers and Work Style",
+        html: p("ENTPs need intellectual stimulation and creative freedom. They are poor fits for repetitive, highly structured, or politically rigid environments. They are excellent fits for roles that reward idea generation, persuasion, and problem-solving.") +
+          p("Careers well-suited to ENTPs:") +
+          ul(["Entrepreneurship and startup founding", "Law and debate", "Product management and strategy", "Consulting and advisory roles", "Journalism and public affairs", "Research and innovation"]) +
+          p("ENTPs often create their own opportunities. They are frequently self-employed or in roles with broad scope and little micromanagement. Their greatest professional risk is leaving too many projects unfinished as they chase the next exciting idea."),
+      },
+      {
+        heading: "ENTP Relationships",
+        html: p("ENTPs are stimulating, unpredictable partners. They bring energy, humor, and intellectual engagement to their relationships. But they need a partner who can keep up with their pace and does not take their devil's advocate tendencies personally.") +
+          p("ENTPs can struggle with emotional intimacy. They tend to intellectualize their feelings and may not always show up emotionally in the way their partners need. They need partners who value intellectual connection and can be direct about their own needs.") +
+          p("ENTPs pair well with INFJ and INTJ, whose depth and structure complement the ENTP's expansiveness. INTP is a natural intellectual match. ENFPs also pair well with ENTPs — both are creative, curious, and comfortable with change."),
+      },
+    ],
+    faqs: [
+      { question: "What is an ENTP personality?", answer: "ENTP stands for Extraverted, Intuitive, Thinking, Perceiving. ENTPs are quick-witted, innovative, and intellectually fearless. They love debating ideas, challenging assumptions, and finding creative solutions to complex problems. They are one of the most intellectually energetic personality types." },
+      { question: "What are ENTP strengths?", answer: "ENTP strengths include intellectual agility, creativity, confidence, adaptability, and the ability to argue compellingly from multiple perspectives. They are excellent innovators, debaters, and brainstormers who thrive in intellectually stimulating environments." },
+      { question: "What careers are best for ENTPs?", answer: "ENTPs do best in entrepreneurship, law, consulting, product management, strategy, and research. Roles that reward creative thinking, persuasion, and idea generation are natural fits. They struggle in routine or highly structured environments." },
+      { question: "What is the difference between ENTP and ENTJ?", answer: "Both ENTP and ENTJ are driven, extraverted types who lead with thinking. The key difference is that ENTJ is a Judging type — organized, decisive, and goal-focused. ENTP is a Perceiving type — more flexible, idea-focused, and energized by possibilities over execution." },
+    ],
+    ctaHeading: "Discover your personality type",
+    ctaSubtext: "Free test — 16 Personalities + DISC + Enneagram + Strengths. Complete results instantly.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INTP personality type", url: "/blog/intp-personality-type" },
+      { label: "ENTJ personality type", url: "/blog/entj-personality-type" },
+      { label: "16 Personalities test guide", url: "/blog/understanding-16-personalities" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "istj-personality-type": {
+    slug: "istj-personality-type",
+    metaTitle: "ISTJ Personality Type — The Inspector | Complete Guide",
+    metaDesc: "ISTJ: reliable, organized, and deeply principled. Discover ISTJ strengths, careers, relationships, and take the free personality test to confirm your type.",
+    canonicalUrl: "https://1test.me/blog/istj-personality-type",
+    h1: "ISTJ Personality Type — The Inspector",
+    sections: [
+      {
+        heading: "What Is the ISTJ Personality Type?",
+        html: p("ISTJ stands for Introverted, Sensing, Thinking, and Judging. Known as the Inspector, ISTJs are the most common personality type, making up roughly 11–14% of the population. They are dependable, thorough, and deeply committed to meeting their responsibilities.") +
+          p("ISTJs are the backbone of many organizations. They are steady, reliable, and methodical — people who can be counted on to do exactly what they say they will do, when they said they would do it. They have high personal standards and expect the same from others.") +
+          p("Curious if you're an ISTJ? <a href=\"/free-personality-test\">Take the free personality test</a> to find out."),
+      },
+      {
+        heading: "ISTJ Strengths and Weaknesses",
+        html: p("ISTJs bring consistency and integrity to everything they do:") +
+          strong([
+            { label: "Reliability.", desc: "ISTJs are among the most dependable types. When they make a commitment, they honor it — consistently and without drama." },
+            { label: "Attention to detail.", desc: "ISTJs notice what others miss. They are thorough, accurate, and resistant to cutting corners." },
+            { label: "Integrity.", desc: "ISTJs hold themselves and others to a high standard of ethical conduct. They are straightforward and do not play political games." },
+            { label: "Practicality.", desc: "ISTJs ground abstract discussions in concrete reality. They ask: what does this actually mean? How does it work in practice?" },
+          ]) +
+          p("ISTJ challenges include resistance to change (they prefer proven methods), difficulty with abstract or highly theoretical thinking, and occasional inflexibility when circumstances require adaptation. They can also struggle to communicate with emotional expressiveness, which can create friction in personal relationships."),
+      },
+      {
+        heading: "ISTJ Careers and Work Style",
+        html: p("ISTJs thrive in structured environments with clear expectations and defined responsibilities. They are excellent in roles that require precision, accountability, and long-term reliability.") +
+          p("Careers well-suited to ISTJs:") +
+          ul(["Accounting and finance", "Law enforcement and military service", "Engineering and technical operations", "Auditing, compliance, and quality control", "Database and systems administration", "Healthcare administration"]) +
+          p("ISTJs are the people organizations rely on to keep systems running and standards maintained. They are not typically drawn to roles requiring constant improvisation, but they excel in complex operational roles where someone needs to manage the details others overlook."),
+      },
+      {
+        heading: "ISTJ Relationships",
+        html: p("ISTJs show love through action, not words. They express commitment by showing up consistently, handling logistics, and fulfilling their responsibilities as a partner. Romantic declarations may not come naturally, but their loyalty is unshakeable.") +
+          p("ISTJs need partners who respect their need for order and honor their commitments. They value stability and can feel deeply unsettled by unpredictability or broken promises.") +
+          p("Compatible types include ESFJ and ESTJ, who share their values and practical orientation. ISFJ is another close match. ENFPs and ENTPs can provide a stimulating counterpoint, though these pairings require more communication and compromise."),
+      },
+    ],
+    faqs: [
+      { question: "What is an ISTJ personality?", answer: "ISTJ stands for Introverted, Sensing, Thinking, Judging. ISTJs are reliable, organized, and deeply principled. They are the most common personality type and are known for their commitment to responsibility, attention to detail, and consistent follow-through." },
+      { question: "What are ISTJ strengths?", answer: "ISTJ strengths include reliability, attention to detail, integrity, practicality, and consistency. They are excellent at maintaining systems, meeting standards, and being someone others can genuinely count on." },
+      { question: "What careers are good for ISTJs?", answer: "ISTJs excel in accounting, finance, law enforcement, engineering, auditing, compliance, healthcare administration, and systems management — any role that rewards precision, reliability, and structured thinking." },
+      { question: "What is the most common personality type?", answer: "ISTJ is often cited as the most common personality type, representing roughly 11–14% of the population. ISTJs are disproportionately represented in operational and administrative roles in both private and public sector organizations." },
+    ],
+    ctaHeading: "Take the free personality test",
+    ctaSubtext: "Discover your 16 Personalities type, DISC, Enneagram, and Strengths — all in one free assessment.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ISFJ personality type", url: "/blog/isfj-personality-type" },
+      { label: "ESTJ personality type", url: "/blog/estj-personality-type" },
+      { label: "16 Personalities test guide", url: "/blog/understanding-16-personalities" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "isfj-personality-type": {
+    slug: "isfj-personality-type",
+    metaTitle: "ISFJ Personality Type — The Defender | Complete Guide",
+    metaDesc: "ISFJ: warm, dedicated, and quietly dependable. Discover ISFJ strengths, careers, relationships, and take the free personality test to confirm your type.",
+    canonicalUrl: "https://1test.me/blog/isfj-personality-type",
+    h1: "ISFJ Personality Type — The Defender",
+    sections: [
+      {
+        heading: "What Is the ISFJ Personality Type?",
+        html: p("ISFJ stands for Introverted, Sensing, Feeling, and Judging. Known as the Defender, ISFJs are warm, dedicated, and quietly dependable. They are one of the most common types, making up approximately 13–14% of the population, and are especially common among women.") +
+          p("ISFJs are natural nurturers. They pay close attention to the needs of others, remember details that matter to people, and create environments where everyone feels cared for. Their care is expressed through practical acts — making sure everyone is fed, comfortable, supported — rather than grand gestures.") +
+          p("Want to discover your type? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "ISFJ Strengths and Weaknesses",
+        html: p("ISFJs bring steady, caring energy to their relationships and work:") +
+          strong([
+            { label: "Reliability.", desc: "ISFJs follow through on commitments, remember what matters to others, and consistently show up when needed." },
+            { label: "Warmth.", desc: "ISFJs have a genuine, unperformative warmth. They make people feel noticed and valued through consistent, attentive care." },
+            { label: "Attention to detail.", desc: "ISFJs notice what others overlook — both practical details and interpersonal nuances. This makes them excellent administrators, caregivers, and support professionals." },
+            { label: "Loyalty.", desc: "Once an ISFJ commits to a person or cause, they are steadfastly loyal. Their dedication is genuine and long-lasting." },
+          ]) +
+          p("ISFJ challenges include difficulty saying no, suppressing their own needs to take care of others, avoiding conflict to an unhealthy degree, and struggling to adapt when established routines are disrupted."),
+      },
+      {
+        heading: "ISFJ Careers and Work Style",
+        html: p("ISFJs thrive in roles that let them support and care for others in a structured environment. They are not typically drawn to high-risk entrepreneurial roles, but they are exceptional in healthcare, education, administration, and service professions.") +
+          p("Careers well-suited to ISFJs:") +
+          ul(["Nursing and healthcare", "Teaching and early childhood education", "Social work and counseling", "Administrative management", "Library science", "Human resources"]) +
+          p("ISFJs work best with clear expectations, collaborative teams, and environments where their contributions are recognized. They can be excellent managers when they develop their ability to hold others accountable as firmly as they hold themselves."),
+      },
+      {
+        heading: "ISFJ Relationships",
+        html: p("ISFJs are among the most devoted partners and friends. They invest deeply in their relationships, remember every preference and anniversary, and consistently show up for the people they love.") +
+          p("Their challenge is that they give so much they sometimes forget to communicate their own needs. ISFJs need partners who recognize their sacrifice and reciprocate — and who encourage them to voice what they need rather than waiting to be noticed.") +
+          p("ISFJs pair well with ESFJ and ISTJ, who share their practical values. ESTJ and ISFP can also be strong matches. Intuitive types — especially ENFPs and INFPs — can bring growth and stimulation to ISFJ relationships, though they require more adjustment."),
+      },
+    ],
+    faqs: [
+      { question: "What is an ISFJ personality?", answer: "ISFJ stands for Introverted, Sensing, Feeling, Judging. ISFJs are warm, reliable, and deeply caring. They express love through practical support and attention to others' needs. They are among the most common personality types and are known for their quiet dedication and loyalty." },
+      { question: "What are ISFJ strengths?", answer: "ISFJ strengths include reliability, warmth, attention to detail, loyalty, and a genuine talent for making others feel cared for. They are excellent in support roles, healthcare, education, and anywhere that requires sustained attentiveness to people's needs." },
+      { question: "What careers are best for ISFJs?", answer: "ISFJs thrive in nursing, teaching, social work, counseling, administrative management, human resources, and library science. Any role that combines practical support with genuine human care is a strong fit." },
+      { question: "Are ISFJ and INFJ the same?", answer: "No. ISFJs and INFJs are distinct types. ISFJs lead with introverted sensing — they are practical, detail-oriented, and grounded in concrete experience. INFJs lead with introverted intuition — they are visionary, abstract, and focused on patterns and possibilities. Both are caring and organized, but they process information very differently." },
+    ],
+    ctaHeading: "Take the free personality test",
+    ctaSubtext: "16 Personalities + DISC + Enneagram + Strengths. Free, complete results, no paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ISTJ personality type", url: "/blog/istj-personality-type" },
+      { label: "ESFJ personality type", url: "/blog/esfj-personality-type" },
+      { label: "16 Personalities test guide", url: "/blog/understanding-16-personalities" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "estj-personality-type": {
+    slug: "estj-personality-type",
+    metaTitle: "ESTJ Personality Type — The Executive | Complete Guide",
+    metaDesc: "ESTJ: organized, direct, and built to manage. Discover ESTJ strengths, career paths, relationships, and take the free personality test.",
+    canonicalUrl: "https://1test.me/blog/estj-personality-type",
+    h1: "ESTJ Personality Type — The Executive",
+    sections: [
+      {
+        heading: "What Is the ESTJ Personality Type?",
+        html: p("ESTJ stands for Extraverted, Sensing, Thinking, and Judging. Known as the Executive, ESTJs are organized, decisive, and natural managers. They make up about 8–9% of the population and are among the most common types in leadership and management roles.") +
+          p("ESTJs are the people who keep institutions running. They believe in order, tradition, and clear accountability. When they see a system that is broken or a standard that is not being upheld, they fix it. They are direct, hardworking, and expect the same from others.") +
+          p("Discover your type — <a href=\"/free-personality-test\">take the free personality test</a>."),
+      },
+      {
+        heading: "ESTJ Strengths and Weaknesses",
+        html: p("ESTJs are effective, organized, and results-oriented:") +
+          strong([
+            { label: "Organization.", desc: "ESTJs create clear structures, set expectations, and hold people accountable. They are natural project managers and administrators." },
+            { label: "Directness.", desc: "ESTJs say what they mean. There is no guessing game with an ESTJ — their expectations are clear and their feedback is honest." },
+            { label: "Reliability.", desc: "When an ESTJ takes responsibility for something, it will get done. Their commitment to follow-through is nearly absolute." },
+            { label: "Community focus.", desc: "ESTJs are often deeply invested in their communities, workplaces, and families. They take the responsibilities of citizenship and membership seriously." },
+          ]) +
+          p("ESTJ challenges include inflexibility (strong preference for established methods), difficulty acknowledging when they are wrong, emotional expression, and occasional tendency to steamroll others' feelings in the pursuit of efficiency."),
+      },
+      {
+        heading: "ESTJ Careers and Work Style",
+        html: p("ESTJs are natural managers. They do best in roles with clear authority, defined processes, and measurable outcomes.") +
+          p("Careers well-suited to ESTJs:") +
+          ul(["Business and operations management", "Military and law enforcement", "Project management and logistics", "Government and public administration", "Banking and finance", "Healthcare management"]) +
+          p("ESTJs are most effective when they have authority commensurate with their responsibility. They thrive in organizations with clear hierarchies and struggle in flat, unstructured environments where accountability is diffuse."),
+      },
+      {
+        heading: "ESTJ Relationships",
+        html: p("ESTJs are committed, responsible partners. They show love through provision, protection, and dependability. You will always know where you stand with an ESTJ — they are not ambiguous about their feelings or expectations.") +
+          p("Their challenge in relationships is emotional flexibility. ESTJs can be stubborn when they believe they are right and may struggle to appreciate that their partner's emotional experience has its own validity even when it doesn't align with ESTJ logic.") +
+          p("ESTJs pair well with ISFJ and ISTJ, who share their values and practical orientation. INFP and ISFP can provide a balancing warmth, though these pairings require the ESTJ to develop more emotional flexibility."),
+      },
+    ],
+    faqs: [
+      { question: "What is an ESTJ personality?", answer: "ESTJ stands for Extraverted, Sensing, Thinking, Judging. ESTJs are organized, direct, and naturally suited to management and leadership roles. They are known for their reliability, high standards, and commitment to order, tradition, and accountability." },
+      { question: "What are ESTJ weaknesses?", answer: "ESTJ weaknesses include inflexibility, difficulty acknowledging when wrong, limited emotional expression, and a tendency to prioritize efficiency over feelings. They can be domineering when they believe their way is clearly correct." },
+      { question: "What careers are good for ESTJs?", answer: "ESTJs excel in business management, operations, logistics, government, law enforcement, banking, finance, and project management. Any role with clear accountability, authority, and structured outcomes is a strong ESTJ fit." },
+      { question: "What is the difference between ESTJ and ENTJ?", answer: "Both ESTJs and ENTJs are organized, decisive extraverts who lead with thinking. The difference is that ESTJ is a sensing type — grounded in concrete facts, traditions, and established methods. ENTJ is an intuitive type — focused on long-term strategy, innovation, and abstract possibilities. ENTJs are more likely to reimagine systems; ESTJs are more likely to optimize the ones that already work." },
+    ],
+    ctaHeading: "Discover your personality type",
+    ctaSubtext: "Free test — 16 Personalities, DISC, Enneagram, and Strengths in one assessment. No paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ISTJ personality type", url: "/blog/istj-personality-type" },
+      { label: "ENTJ personality type", url: "/blog/entj-personality-type" },
+      { label: "16 Personalities test guide", url: "/blog/understanding-16-personalities" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "esfj-personality-type": {
+    slug: "esfj-personality-type",
+    metaTitle: "ESFJ Personality Type — The Consul | Complete Guide",
+    metaDesc: "ESFJ: warm, organized, and deeply community-focused. Discover ESFJ strengths, careers, relationships, and take the free personality test.",
+    canonicalUrl: "https://1test.me/blog/esfj-personality-type",
+    h1: "ESFJ Personality Type — The Consul",
+    sections: [
+      {
+        heading: "What Is the ESFJ Personality Type?",
+        html: p("ESFJ stands for Extraverted, Sensing, Feeling, and Judging. Known as the Consul, ESFJs are among the most socially attuned and community-focused personality types. They make up about 12% of the population — one of the most common types — and are particularly prevalent in caregiving and service professions.") +
+          p("ESFJs are natural hosts, organizers, and community builders. They have an instinct for creating environments where people feel welcome and valued. They remember names, preferences, and important dates, and they express care through practical acts of service and organization.") +
+          p("Find out if you're an ESFJ — <a href=\"/free-personality-test\">take the free personality test</a>."),
+      },
+      {
+        heading: "ESFJ Strengths and Weaknesses",
+        html: p("ESFJs combine warm interpersonal skill with organizational energy:") +
+          strong([
+            { label: "Warmth and care.", desc: "ESFJs are genuinely interested in others' wellbeing. They are attentive, generous, and make people feel welcome." },
+            { label: "Organization.", desc: "ESFJs combine their social warmth with a strong practical streak. They plan, coordinate, and execute with genuine competence." },
+            { label: "Loyalty.", desc: "Once an ESFJ commits — to a person, team, or cause — they are steadfast in their support." },
+            { label: "Community building.", desc: "ESFJs naturally create community. They organize gatherings, build networks, and foster a sense of belonging in whatever group they are part of." },
+          ]) +
+          p("ESFJ challenges include needing external validation more than most types, difficulty with criticism, conflict avoidance, and occasionally prioritizing social harmony over honest feedback. They can also become resentful when they feel their efforts go unappreciated."),
+      },
+      {
+        heading: "ESFJ Careers and Work Style",
+        html: p("ESFJs excel in roles that combine people skills with practical structure. They are excellent in healthcare, education, human services, and any environment where community and care are central.") +
+          p("Careers well-suited to ESFJs:") +
+          ul(["Nursing and patient care", "Teaching and school administration", "Event planning and hospitality", "Human resources and benefits administration", "Social work and family services", "Sales and customer success (relationship-focused)"]) +
+          p("ESFJs are most effective in warm, collaborative environments where their efforts are recognized and their interpersonal skills are valued. They struggle in cutthroat, highly competitive environments or roles that require frequent conflict."),
+      },
+      {
+        heading: "ESFJ Relationships",
+        html: p("ESFJs are devoted, attentive partners. They invest deeply in their relationships and are natural at making their partners feel cared for through consistent, thoughtful attention.") +
+          p("Their key need is appreciation. ESFJs give a great deal, and when they feel taken for granted, they can become resentful. They need partners who recognize and reciprocate their effort.") +
+          p("ESFJs pair well with ISTJ and ISFJ, who share their values and practical commitment. INFP and ISFP can provide a creative and emotional depth that ESFJs find enriching."),
+      },
+    ],
+    faqs: [
+      { question: "What is an ESFJ personality?", answer: "ESFJ stands for Extraverted, Sensing, Feeling, Judging. ESFJs are warm, organized, and community-focused. They are natural caregivers and organizers who create environments of belonging and care for others through practical support and attentiveness." },
+      { question: "What are ESFJ strengths?", answer: "ESFJ strengths include warmth, organizational skill, loyalty, community building, and a genuine talent for making others feel valued. They excel in caregiving, education, hospitality, and any role requiring sustained interpersonal attentiveness." },
+      { question: "What careers are best for ESFJs?", answer: "ESFJs thrive in nursing, teaching, social work, human resources, event planning, and customer success roles — anywhere that requires organized, people-centered work in a structured environment." },
+      { question: "What is the difference between ESFJ and ENFJ?", answer: "Both ESFJs and ENFJs are extraverted feeling types who care deeply about people. The difference is that ESFJ is a sensing type — practical, concrete, and focused on established norms. ENFJ is an intuitive type — visionary, focused on long-term growth and possibilities. ENFJs are more likely to challenge the way things are done; ESFJs are more likely to uphold and strengthen existing structures." },
+    ],
+    ctaHeading: "Take the free personality test",
+    ctaSubtext: "Discover your type — 16 Personalities, DISC, Enneagram, and Strengths. Free, no paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ISFJ personality type", url: "/blog/isfj-personality-type" },
+      { label: "ENFJ personality type", url: "/blog/enfj-personality-type" },
+      { label: "16 Personalities test guide", url: "/blog/understanding-16-personalities" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "istp-personality-type": {
+    slug: "istp-personality-type",
+    metaTitle: "ISTP Personality Type — The Virtuoso | Complete Guide",
+    metaDesc: "ISTP: practical, analytical, and effortlessly skilled. Discover ISTP strengths, careers, relationships, and take the free personality test.",
+    canonicalUrl: "https://1test.me/blog/istp-personality-type",
+    h1: "ISTP Personality Type — The Virtuoso",
+    sections: [
+      {
+        heading: "What Is the ISTP Personality Type?",
+        html: p("ISTP stands for Introverted, Sensing, Thinking, and Perceiving. Known as the Virtuoso, ISTPs are pragmatic, observant, and naturally skilled with tools and systems. They make up about 5% of the population and are especially common among men.") +
+          p("ISTPs are problem-solvers in the most literal sense. They understand how things work — physically, technically, mechanically — and they have the patient precision to fix what is broken. They are low on words and high on action, preferring to demonstrate competence rather than talk about it.") +
+          p("Find out your type — <a href=\"/free-personality-test\">take the free personality test</a>."),
+      },
+      {
+        heading: "ISTP Strengths and Weaknesses",
+        html: p("ISTPs are defined by their quiet, practical effectiveness:") +
+          strong([
+            { label: "Technical mastery.", desc: "ISTPs develop genuine expertise in technical domains. Whether it is software, mechanics, or music, they learn by doing and reach high levels of skill." },
+            { label: "Calm under pressure.", desc: "ISTPs stay composed in crises. They assess situations quickly and act without the emotional response that slows others down." },
+            { label: "Adaptability.", desc: "ISTPs are comfortable with uncertainty and change. They respond to new information without getting attached to their prior plan." },
+            { label: "Practicality.", desc: "ISTPs cut through theory to find what actually works. They are skeptical of ideas that cannot be tested and refined." },
+          ]) +
+          p("ISTP challenges include emotional expression, long-term commitment (they resist obligations that feel like traps), difficulty planning for the distant future, and a tendency toward risk-taking that can occasionally become reckless."),
+      },
+      {
+        heading: "ISTP Careers and Work Style",
+        html: p("ISTPs thrive in technical, hands-on roles with significant autonomy and minimal bureaucracy. They are excellent in environments where skilled action is valued over process and presentation.") +
+          p("Careers well-suited to ISTPs:") +
+          ul(["Software development and systems engineering", "Mechanical and electrical engineering", "Forensic science and criminal investigation", "Military and tactical operations", "Pilot and aviation", "Skilled trades (carpentry, machining, robotics)"]) +
+          p("ISTPs work best with independence and concrete outcomes. They dislike meetings, performance reviews, and administrative overhead. Their ideal work environment gives them a problem to solve and gets out of the way."),
+      },
+      {
+        heading: "ISTP Relationships",
+        html: p("ISTPs are independent by nature and need partners who respect their need for space. They show affection through actions — fixing things, helping practically, being physically present — rather than verbal expression.") +
+          p("They are attracted to competent, self-sufficient partners who do not need constant emotional reassurance. They can struggle with relationships that feel overly demanding or that require them to perform emotional roles they do not naturally inhabit.") +
+          p("ISTPs pair well with ESTJ, ESFJ, and ENTJ, who bring the social and organizational energy ISTPs often lack. ESTP is also a natural kinship — both types are action-oriented and pragmatic."),
+      },
+    ],
+    faqs: [
+      { question: "What is an ISTP personality?", answer: "ISTP stands for Introverted, Sensing, Thinking, Perceiving. ISTPs are practical, analytical, and quietly skilled. They are problem-solvers who prefer to learn by doing and demonstrate competence through action. They are calm under pressure and highly adaptable." },
+      { question: "What are ISTP strengths?", answer: "ISTP strengths include technical mastery, calmness under pressure, adaptability, and practical intelligence. They are excellent in hands-on technical roles and excel at finding efficient solutions to concrete problems." },
+      { question: "What careers are good for ISTPs?", answer: "ISTPs do well in software engineering, mechanical engineering, forensic science, military operations, aviation, and skilled trades. Any role requiring hands-on technical competence and independent problem-solving is a strong fit." },
+      { question: "Is ISTP a rare type?", answer: "ISTPs make up about 5% of the general population. They are moderately common but less visible in corporate settings, where more extraverted or structured types tend to dominate. ISTPs are disproportionately represented in technical, tactical, and trades-based professions." },
+    ],
+    ctaHeading: "Discover your personality type",
+    ctaSubtext: "Free test — 16 Personalities, DISC, Enneagram, and Strengths. Full results, no paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ISTJ personality type", url: "/blog/istj-personality-type" },
+      { label: "ESTP personality type", url: "/blog/estp-personality-type" },
+      { label: "16 Personalities test guide", url: "/blog/understanding-16-personalities" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "isfp-personality-type": {
+    slug: "isfp-personality-type",
+    metaTitle: "ISFP Personality Type — The Adventurer | Complete Guide",
+    metaDesc: "ISFP: creative, gentle, and deeply present. Discover ISFP strengths, careers, relationships, and take the free personality test to confirm your type.",
+    canonicalUrl: "https://1test.me/blog/isfp-personality-type",
+    h1: "ISFP Personality Type — The Adventurer",
+    sections: [
+      {
+        heading: "What Is the ISFP Personality Type?",
+        html: p("ISFP stands for Introverted, Sensing, Feeling, and Perceiving. Known as the Adventurer, ISFPs are gentle, creative, and deeply in tune with their immediate experience. They make up about 8–9% of the population and are often found in creative and care-oriented professions.") +
+          p("ISFPs are quiet but deeply observant. They notice beauty and meaning in details others overlook. They are present in a way that many people find grounding and genuine — they are not performing or trying to impress. They are simply there, fully.") +
+          p("Want to know your type? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "ISFP Strengths and Weaknesses",
+        html: p("ISFPs bring quiet depth and creative sensitivity to the world:") +
+          strong([
+            { label: "Artistic sensibility.", desc: "ISFPs have a natural aesthetic intelligence. They are drawn to beauty, craft, and sensory experience, and they express themselves through creative work." },
+            { label: "Empathy.", desc: "ISFPs are deeply attuned to others' emotional states. They respond to distress with genuine warmth and practical care." },
+            { label: "Authenticity.", desc: "ISFPs live by their values, not by social convention. They are among the least performative types — what you see is genuinely who they are." },
+            { label: "Adaptability.", desc: "ISFPs are flexible and open to new experiences. They follow their curiosity and comfort easily with uncertainty." },
+          ]) +
+          p("ISFP challenges include avoiding conflict to an unhealthy degree, difficulty planning for the future, a tendency toward stress when their values are violated, and struggling to advocate for themselves in competitive environments."),
+      },
+      {
+        heading: "ISFP Careers and Work Style",
+        html: p("ISFPs need work that feels meaningful and allows creative expression. They struggle in highly structured, rule-bound, or competitive environments. They thrive with autonomy and the ability to work at their own pace.") +
+          p("Careers well-suited to ISFPs:") +
+          ul(["Fine arts, design, and photography", "Music and performing arts", "Healthcare and veterinary care", "Cooking and culinary arts", "Environmental science and nature work", "Counseling and social support"]) +
+          p("ISFPs are often found in skilled artisan or caregiving roles. They bring genuine craft and warmth to their work. Their biggest professional challenge is promoting themselves and negotiating for what they deserve."),
+      },
+      {
+        heading: "ISFP Relationships",
+        html: p("ISFPs are devoted, gentle partners who show love through thoughtful actions and by being genuinely present. They need relationships that feel authentic, not performative — they pull back from partners who feel like they are playing a role.") +
+          p("ISFPs need significant independence even in close relationships. They recharge alone and can feel suffocated by partners who need constant togetherness.") +
+          p("ISFPs pair well with ESFJ and ENFJ, who provide the warm structure ISFPs sometimes need. INFP is a natural soulmate pairing — both are deeply values-driven and creative."),
+      },
+    ],
+    faqs: [
+      { question: "What is an ISFP personality?", answer: "ISFP stands for Introverted, Sensing, Feeling, Perceiving. ISFPs are gentle, creative, and authentically present. They are driven by personal values and a deep appreciation for beauty and immediate experience. They are among the most genuinely kind and artistically attuned personality types." },
+      { question: "What are ISFP strengths?", answer: "ISFP strengths include artistic sensibility, empathy, authenticity, and adaptability. They are skilled at creative work, attentive to beauty and emotional nuance, and deeply genuine in their relationships." },
+      { question: "What careers are best for ISFPs?", answer: "ISFPs thrive in fine arts, music, design, healthcare, veterinary care, culinary arts, environmental work, and counseling. They need work that feels meaningful, allows creative expression, and respects their pace and values." },
+      { question: "What is the difference between ISFP and INFP?", answer: "ISFPs and INFPs are both introverted feeling types who are creative and values-driven. The key difference is that ISFPs lead with sensing — they are grounded in immediate experience, practical beauty, and the physical world. INFPs lead with intuition — they are more abstract, imaginative, and focused on possibilities and meaning over present sensation." },
+    ],
+    ctaHeading: "Take the free personality test",
+    ctaSubtext: "Discover your 16 Personalities type, DISC, Enneagram, and Strengths — all free, all in one assessment.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "INFP personality type", url: "/blog/infp-personality-type" },
+      { label: "ESFP personality type", url: "/blog/esfp-personality-type" },
+      { label: "16 Personalities test guide", url: "/blog/understanding-16-personalities" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "estp-personality-type": {
+    slug: "estp-personality-type",
+    metaTitle: "ESTP Personality Type — The Entrepreneur | Complete Guide",
+    metaDesc: "ESTP: bold, action-oriented, and energized by challenge. Discover ESTP strengths, careers, relationships, and take the free personality test.",
+    canonicalUrl: "https://1test.me/blog/estp-personality-type",
+    h1: "ESTP Personality Type — The Entrepreneur",
+    sections: [
+      {
+        heading: "What Is the ESTP Personality Type?",
+        html: p("ESTP stands for Extraverted, Sensing, Thinking, and Perceiving. Known as the Entrepreneur, ESTPs are energetic, pragmatic, and drawn to action and challenge. They make up about 4–6% of the population and are particularly common in high-pressure, fast-moving environments.") +
+          p("ESTPs live in the present. They process the world through direct experience and respond with confident, immediate action. They are excellent in crises, natural negotiators, and often the person in the room who cuts through endless discussion to just do the thing.") +
+          p("Think you might be an ESTP? <a href=\"/free-personality-test\">Take the free personality test</a>."),
+      },
+      {
+        heading: "ESTP Strengths and Weaknesses",
+        html: p("ESTPs bring bold, practical energy to every situation:") +
+          strong([
+            { label: "Boldness.", desc: "ESTPs take calculated risks confidently. They are not paralyzed by uncertainty — they act and adjust." },
+            { label: "Pragmatism.", desc: "ESTPs are focused on what works right now. They cut through theory to practical action." },
+            { label: "Social energy.", desc: "ESTPs are naturally engaging and perceptive. They read social dynamics quickly and navigate them with ease." },
+            { label: "Resourcefulness.", desc: "ESTPs find creative solutions under pressure. They improvise effectively when plans fall apart." },
+          ]) +
+          p("ESTP challenges include impatience with abstract planning, risk of overlooking long-term consequences in pursuit of immediate results, difficulty committing in relationships, and occasional insensitivity to others' emotional experience."),
+      },
+      {
+        heading: "ESTP Careers and Work Style",
+        html: p("ESTPs thrive in fast-paced, high-stakes environments. They are natural entrepreneurs, salespeople, and emergency responders — any role that rewards quick thinking, bold action, and adaptability.") +
+          p("Careers well-suited to ESTPs:") +
+          ul(["Entrepreneurship and business development", "Sales and trading", "Emergency medicine and first response", "Law enforcement and military service", "Sports and athletics", "Marketing and brand activation"]) +
+          p("ESTPs struggle with bureaucracy, slow decision-making, and routine. They perform best when they have real autonomy, real stakes, and the ability to move quickly."),
+      },
+      {
+        heading: "ESTP Relationships",
+        html: p("ESTPs are fun, spontaneous partners who bring excitement and energy to their relationships. They are direct about their feelings and rarely play games — what they feel is what they say.") +
+          p("Their challenge in relationships is long-term commitment. ESTPs are drawn to novelty and can feel restless in relationships that have become routine. They need partners who can match their energy and who respect their need for independence and variety.") +
+          p("ESTPs pair well with ISTJ and ISFJ, whose reliability and warmth complement ESTP's spontaneity. ISTP is a natural kinship — both types are practical, action-oriented, and comfortable with risk."),
+      },
+    ],
+    faqs: [
+      { question: "What is an ESTP personality?", answer: "ESTP stands for Extraverted, Sensing, Thinking, Perceiving. ESTPs are bold, pragmatic, and energized by action and challenge. They live in the present, process the world through direct experience, and are known for confident action under pressure." },
+      { question: "What are ESTP strengths?", answer: "ESTP strengths include boldness, pragmatism, social awareness, resourcefulness, and the ability to perform under pressure. They are excellent negotiators, entrepreneurs, and crisis responders who thrive when stakes are high and action is required." },
+      { question: "What careers are best for ESTPs?", answer: "ESTPs excel in entrepreneurship, sales, trading, emergency medicine, law enforcement, sports, and marketing. Any role requiring quick decisions, bold action, and real-time adaptation is a natural ESTP fit." },
+      { question: "Are ESTP and ISTP similar?", answer: "ESTP and ISTP share the same practical, thinking-oriented sensing approach but differ significantly in energy direction. ESTPs are extraverted — they need social stimulation and are energized by action in the world. ISTPs are introverted — they prefer working independently and are more quiet and reserved in their approach." },
+    ],
+    ctaHeading: "Discover your personality type",
+    ctaSubtext: "Free test — 16 Personalities, DISC, Enneagram, and Strengths. Full results, no paywall.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ISTP personality type", url: "/blog/istp-personality-type" },
+      { label: "ENTJ personality type", url: "/blog/entj-personality-type" },
+      { label: "16 Personalities test guide", url: "/blog/understanding-16-personalities" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "esfp-personality-type": {
+    slug: "esfp-personality-type",
+    metaTitle: "ESFP Personality Type — The Entertainer | Complete Guide",
+    metaDesc: "ESFP: spontaneous, energetic, and infectiously fun. Discover ESFP strengths, careers, relationships, and take the free personality test.",
+    canonicalUrl: "https://1test.me/blog/esfp-personality-type",
+    h1: "ESFP Personality Type — The Entertainer",
+    sections: [
+      {
+        heading: "What Is the ESFP Personality Type?",
+        html: p("ESFP stands for Extraverted, Sensing, Feeling, and Perceiving. Known as the Entertainer, ESFPs are spontaneous, warm, and naturally drawn to people and performance. They make up about 8–9% of the population and are among the most socially vibrant personality types.") +
+          p("ESFPs bring joy wherever they go. They are present, playful, and genuinely interested in others. They live in the moment — not because they are avoiding the future, but because right now is where the energy is. They make everything feel like it matters by showing up with full enthusiasm.") +
+          p("Discover your type — <a href=\"/free-personality-test\">take the free personality test</a>."),
+      },
+      {
+        heading: "ESFP Strengths and Weaknesses",
+        html: p("ESFPs bring a distinctive combination of warmth and vibrancy:") +
+          strong([
+            { label: "Enthusiasm.", desc: "ESFPs bring contagious energy and optimism. Their presence makes situations feel warmer, more alive." },
+            { label: "Practicality.", desc: "Unlike some feeling types, ESFPs are grounded in the real world. They respond to what is in front of them with direct, practical care." },
+            { label: "Social skill.", desc: "ESFPs are natural connectors. They are comfortable in diverse social situations and have a gift for making others feel included and valued." },
+            { label: "Spontaneity.", desc: "ESFPs respond to life as it comes. They adapt effortlessly and are rarely thrown by unexpected changes." },
+          ]) +
+          p("ESFP challenges include difficulty with long-term planning, avoidance of conflict, sensitivity to criticism, and a tendency to prioritize immediate experience over future consequences."),
+      },
+      {
+        heading: "ESFP Careers and Work Style",
+        html: p("ESFPs thrive in roles that involve people, action, and variety. They do not do well with monotonous desk work or highly technical solo tasks. They come alive in environments that are social, dynamic, and experiential.") +
+          p("Careers well-suited to ESFPs:") +
+          ul(["Performing arts and entertainment", "Event planning and hospitality", "Sales and customer success", "Teaching and coaching", "Healthcare (patient-facing roles)", "Tourism and recreation management"]) +
+          p("ESFPs are excellent in customer-facing and performance roles. Their natural warmth and adaptability make them effective at building relationships and creating positive experiences."),
+      },
+      {
+        heading: "ESFP Relationships",
+        html: p("ESFPs are warm, generous, and fun partners. They bring spontaneity and joy to their relationships and make their partners feel genuinely cherished through attention and affection.") +
+          p("ESFPs need relationships that feel alive and reciprocal. They need partners who match their energy, appreciate their spontaneity, and do not try to limit their social freedom.") +
+          p("ESFPs pair well with ISTJ and ISFJ, whose steadiness and reliability provide a grounding counterpoint. ISFP is a natural soulmate pairing — both types share warm values and a love of beauty and experience."),
+      },
+    ],
+    faqs: [
+      { question: "What is an ESFP personality?", answer: "ESFP stands for Extraverted, Sensing, Feeling, Perceiving. ESFPs are spontaneous, warm, and energized by people and immediate experience. They are natural entertainers who bring joy and enthusiasm to every situation and are deeply attuned to others' emotional needs." },
+      { question: "What are ESFP strengths?", answer: "ESFP strengths include enthusiasm, social intelligence, warmth, adaptability, and a genuine gift for making others feel included and appreciated. They excel in performance, hospitality, sales, and any role requiring social energy and practical care." },
+      { question: "What careers are good for ESFPs?", answer: "ESFPs thrive in performing arts, event planning, hospitality, sales, teaching, and patient-facing healthcare. They need social, dynamic environments and struggle with monotonous or isolated work." },
+      { question: "What is the difference between ESFP and ENFP?", answer: "Both ESFPs and ENFPs are extraverted feeling types who are warm and people-focused. The key difference is that ESFP is a sensing type — grounded, present-focused, and practical. ENFP is an intuitive type — abstract, ideas-focused, and energized by possibilities. ESFPs are more experiential; ENFPs are more imaginative." },
+    ],
+    ctaHeading: "Take the free personality test",
+    ctaSubtext: "Discover your type — 16 Personalities, DISC, Enneagram, and Strengths. Free, instant, complete.",
+    ctaFramework: "personality",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "ISFP personality type", url: "/blog/isfp-personality-type" },
+      { label: "ENFP personality type", url: "/blog/enfp-personality-type" },
+      { label: "16 Personalities test guide", url: "/blog/understanding-16-personalities" },
+      { label: "Free personality test", url: "/free-personality-test" },
+    ],
+    datePublished: "2026-04-18",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {
