@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { useTranslation } from "react-i18next";
 import { type StrengthScore } from "../../../hooks/useAssessment";
 import { type PersonalityResult, type EnneagramResult } from "../../../data/derivations";
 import { getBookRecommendations, getAffiliateUrl } from "../../../data/books";
@@ -14,6 +15,7 @@ interface Props {
 }
 
 export function BooksBlock({ results, personality, enneagram, isPaid, override }: Props) {
+  const { t } = useTranslation();
   const top5 = results.slice(0, 5);
   const books = getBookRecommendations(
     personality.type,
@@ -32,10 +34,9 @@ export function BooksBlock({ results, personality, enneagram, isPaid, override }
   return (
     <section className="branch-card">
       <div className="branch-icon">📚</div>
-      <h3>{override?.title ?? "Books For Your Profile"}</h3>
+      <h3>{override?.title ?? t("resultsBlocks.booksTitle")}</h3>
       <p className="branch-desc">
-        {override?.subtitle ??
-          "Curated reading based on your strengths and personality type — books that will resonate with how you think and what drives you."}
+        {override?.subtitle ?? t("resultsBlocks.booksSubtitle")}
       </p>
       <div className="branch-preview">
         {books.map((book) => (

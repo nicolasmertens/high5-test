@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { useTranslation } from "react-i18next";
 import { type PersonalityResult, type DISCResult } from "../../../data/derivations";
 import { getLeadershipStyle } from "../../../data/profileContent";
 import { trackBlockViewed } from "../../../utils/analytics";
@@ -10,6 +11,7 @@ interface Props {
 }
 
 export function LeadershipBlock({ personality, disc, isPaid }: Props) {
+  const { t } = useTranslation();
   const tracked = useRef(false);
 
   useEffect(() => {
@@ -22,10 +24,9 @@ export function LeadershipBlock({ personality, disc, isPaid }: Props) {
   return (
     <section className="branch-card">
       <div className="branch-icon">👑</div>
-      <h3>Your Leadership Style</h3>
+      <h3>{t("resultsBlocks.leadershipTitle")}</h3>
       <p className="branch-desc">
-        How your {disc.style} DISC profile and {personality.type} personality shape the way you
-        lead — and what to watch out for.
+        {t("resultsBlocks.leadershipSubtitle", { disc: disc.style, type: personality.type })}
       </p>
       <div className="branch-preview">
         <div className="leadership-preview">

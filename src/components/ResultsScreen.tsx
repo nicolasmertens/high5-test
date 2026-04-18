@@ -1,4 +1,5 @@
 import { useState, useMemo, useEffect, useRef } from "react";
+import { useTranslation } from "react-i18next";
 import { type StrengthScore } from "../hooks/useAssessment";
 import { domainColors, domainLabels } from "../data/strengths";
 import { derivePersonalityType, deriveEnneagram, deriveDISC } from "../data/derivations";
@@ -40,6 +41,7 @@ function BlockTracker({ name }: { name: string }) {
 }
 
 export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }: Props) {
+  const { t } = useTranslation();
   const [showDetailed, setShowDetailed] = useState(false);
   const [inviterInfo, setInviterInfo] = useState<{ name: string; profileHash: string; personalityType: string } | null>(null);
   const { isPaid, tier } = usePayment();
@@ -201,9 +203,9 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
         canonicalUrl="https://1test.me/results"
         ogImage={ogImageUrl}
       />
-      <h1 style={{ display: 'flex', alignItems: 'center', gap: 6 }}><FrameworkDot framework="strengths" size={8} />Your Top 5 Strengths</h1>
+      <h1 style={{ display: 'flex', alignItems: 'center', gap: 6 }}><FrameworkDot framework="strengths" size={8} />{t("results.topStrengths")}</h1>
       <p className="results-subtitle">
-        Your unique combination out of 1,860,480 possible sequences
+        {t("results.uniqueCombination")}
       </p>
 
       <div className="top5">
@@ -232,10 +234,10 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
               <p className="top5-desc">{r.strength.description}</p>
               <div className="top5-energy">
                 <div className="energy-item energized">
-                  <strong>Energized by:</strong> {r.strength.energized}
+                  <strong>{t("results.energizedBy")}</strong> {r.strength.energized}
                 </div>
                 <div className="energy-item drained">
-                  <strong>Drained by:</strong> {r.strength.drained}
+                  <strong>{t("results.drainedBy")}</strong> {r.strength.drained}
                 </div>
               </div>
             </div>
@@ -246,9 +248,9 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
       {isPaid ? (
         <>
           <div className="bridge-teaser">
-            <h3>Your personality type and Enneagram</h3>
+            <h3>{t("results.personalityAndEnneagram")}</h3>
             <p className="bridge-subtitle">
-              Derived from the same 120 answers — no extra test needed
+              {t("results.derivedFromAnswers")}
             </p>
 
             <div className="bridge-cards">
@@ -259,7 +261,7 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
                 rel="noopener noreferrer"
                 title={`Learn more about ${personality.type}`}
               >
-                <span className="bridge-label">16 Personalities</span>
+                <span className="bridge-label">{t("results.labelPersonalities")}</span>
                 <span className="bridge-value">{personality.type}</span>
                 <span className="bridge-sublabel">{personality.label} ↗</span>
               </a>
@@ -270,7 +272,7 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
                 rel="noopener noreferrer"
                 title={`Learn more about DISC ${disc.primary.name}`}
               >
-                <span className="bridge-label">DISC Profile</span>
+                <span className="bridge-label">{t("results.labelDISC")}</span>
                 <span className="bridge-value">{disc.style}</span>
                 <span className="bridge-sublabel">{disc.primary.name} ↗</span>
               </a>
@@ -281,7 +283,7 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
                 rel="noopener noreferrer"
                 title={`Learn more about Enneagram ${enneagram.wingLabel}`}
               >
-                <span className="bridge-label">Enneagram</span>
+                <span className="bridge-label">{t("results.labelEnneagram")}</span>
                 <span className="bridge-value">{enneagram.wingLabel}</span>
                 <span className="bridge-sublabel">{enneagram.primary.name} ↗</span>
               </a>
@@ -291,7 +293,7 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
               className="btn-start btn-detailed"
               onClick={() => setShowDetailed(true)}
             >
-              See Your Full Profile &rarr;
+              {t("results.seeFullProfile")}
             </button>
           </div>
 
@@ -301,24 +303,24 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
             return (
               <div className="compare-invite-cta">
                 <div className="compare-invite-icon">🤝</div>
-                <h3>See How You Compare With {inviterInfo.name}</h3>
+                <h3>{t("results.compareWith", { name: inviterInfo.name })}</h3>
                 <p>
                   {inviterInfo.personalityType
-                    ? `You're a ${personality.type} and they're a ${inviterInfo.personalityType} — see your full compatibility.`
-                    : "Discover how your profiles complement each other."}
+                    ? t("results.compatibilityKnown", { myType: personality.type, theirType: inviterInfo.personalityType })
+                    : t("results.compatibilityUnknown")}
                 </p>
                 <a
                   href={`/compare/${inviterInfo.profileHash}/${myHash}`}
                   className="btn-start btn-compare-cta"
                 >
-                  Compare Profiles →
+                  {t("results.compareProfiles")}
                 </a>
               </div>
             );
           })()}
 
           <div className="domain-summary">
-            <h3>Domain Distribution</h3>
+            <h3>{t("results.domainDistribution")}</h3>
             <div className="domain-bars">
               {Object.entries(domainLabels).map(([key, label]) => (
                 <div key={key} className="domain-bar-row">
@@ -346,7 +348,7 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
           </div>
 
           <div className="full-ranking">
-            <h3>Full Ranking (All 20 Strengths)</h3>
+            <h3>{t("results.fullRanking")}</h3>
             <div className="ranking-list">
               {results.map((r) => (
                 <div key={r.strength.id} className="ranking-row">
@@ -396,10 +398,10 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
             return (
               <div className="playbook-link-card">
                 <span className="playbook-link-icon">🤖</span>
-                <h3>Your AI Playbook Is Ready</h3>
-                <p>Your personalized growth plan, career paths, and communication guide.</p>
+                <h3>{t("results.playbookReady")}</h3>
+                <p>{t("results.playbookDesc")}</p>
                 <a href={`/playbook?profile=${hash}`} className="btn-start btn-upgrade">
-                  View Your Playbook →
+                  {t("results.viewPlaybook")}
                 </a>
               </div>
             );
@@ -407,9 +409,9 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
 
           <div className="share-section">
             <div className="share-section-header">
-              <h3>Share Your Results</h3>
+              <h3>{t("results.shareResults")}</h3>
               <p className="share-section-subtitle">
-                Let others discover their strengths — share your profile
+                {t("results.shareSubtitle")}
               </p>
             </div>
 
@@ -436,22 +438,14 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
                 className="btn-start btn-share-download"
                 onClick={() => downloadImage()}
               >
-                Download as Image
+                {t("results.downloadImage")}
               </button>
             </div>
           </div>
 
           <div className="scoring-explanation">
-            <h3>How Scoring Works</h3>
-            <p>
-              Each of the 20 strengths is measured by 6 statements. Your slider
-              position (0-100) is recorded for each statement. Reversed items are
-              flipped (100 - value). The average of your 6 responses becomes your
-              score for that strength. All 20 scores are then ranked to produce
-              your unique strength sequence. Your top 5 are your signature
-              strengths. Your personality type and Enneagram are derived from the
-              same data using weighted correlations.
-            </p>
+            <h3>{t("results.howScoringWorks")}</h3>
+            <p>{t("results.scoringExplanation")}</p>
           </div>
         </>
       ) : (
@@ -462,16 +456,16 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
               frameworkType={top5[0]?.strength?.name || "Achiever"}
               oneSentenceTraitSummary={
                 top5[0]?.strength?.description ||
-                "You have unique strengths that set you apart"
+                t("results.uniqueStrengths")
               }
               captureLocation="results_page_top"
             />
           )}
 
           <div className="bridge-teaser">
-            <h3>We also found your personality type and Enneagram</h3>
+            <h3>{t("results.weAlsoFound")}</h3>
             <p className="bridge-subtitle">
-              Derived from the same 120 answers — no extra test needed
+              {t("results.derivedFromAnswers")}
             </p>
 
             <p className="bridge-summary">
@@ -480,17 +474,17 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
 
             <div className="bridge-cards">
               <div className="bridge-card bridge-card-locked">
-                <span className="bridge-label">16 Personalities</span>
+                <span className="bridge-label">{t("results.labelPersonalities")}</span>
                 <span className="bridge-value bridge-value-locked">{personality.type}</span>
                 <span className="bridge-sublabel">{personality.label}</span>
               </div>
               <div className="bridge-card bridge-card-locked">
-                <span className="bridge-label">DISC Profile</span>
+                <span className="bridge-label">{t("results.labelDISC")}</span>
                 <span className="bridge-value bridge-value-locked">{disc.style}</span>
                 <span className="bridge-sublabel">{disc.primary.name}</span>
               </div>
               <div className="bridge-card bridge-card-locked">
-                <span className="bridge-label">Enneagram</span>
+                <span className="bridge-label">{t("results.labelEnneagram")}</span>
                 <span className="bridge-value bridge-value-locked">{enneagram.wingLabel}</span>
                 <span className="bridge-sublabel">{enneagram.primary.name}</span>
               </div>
@@ -503,17 +497,17 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
             return (
               <div className="compare-invite-cta">
                 <div className="compare-invite-icon">🤝</div>
-                <h3>See How You Compare With {inviterInfo.name}</h3>
+                <h3>{t("results.compareWith", { name: inviterInfo.name })}</h3>
                 <p>
                   {inviterInfo.personalityType
-                    ? `You're a ${personality.type} and they're a ${inviterInfo.personalityType} — discover your compatibility.`
-                    : "Discover how your profiles complement each other."}
+                    ? t("results.compatibilityKnown", { myType: personality.type, theirType: inviterInfo.personalityType })
+                    : t("results.compatibilityUnknown")}
                 </p>
                 <a
                   href={`/compare/${inviterInfo.profileHash}/${myHash}`}
                   className="btn-start btn-compare-cta"
                 >
-                  Compare Profiles →
+                  {t("results.compareProfiles")}
                 </a>
               </div>
             );
@@ -535,9 +529,9 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
 
           <div className="share-section">
             <div className="share-section-header">
-              <h3>Share Your Results</h3>
+              <h3>{t("results.shareResults")}</h3>
               <p className="share-section-subtitle">
-                Let others discover their strengths — share your top result
+                {t("results.shareSubtitleFree")}
               </p>
             </div>
 
@@ -564,7 +558,7 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
                 className="btn-start btn-share-download"
                 onClick={() => downloadImage()}
               >
-                Download as Image
+                {t("results.downloadImage")}
               </button>
             </div>
           </div>
@@ -575,7 +569,7 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
               frameworkType={top5[0]?.strength?.name || "Achiever"}
               oneSentenceTraitSummary={
                 top5[0]?.strength?.description ||
-                "You have unique strengths that set you apart"
+                t("results.uniqueStrengths")
               }
               captureLocation="results_page_post"
             />
@@ -595,30 +589,28 @@ export function ResultsScreen({ results, onRestart, emailCaptureVariant = "A" }:
             <div className="branch-icon">🤖</div>
             <h3>{aiPlaybookTitle}</h3>
             <p className="branch-desc">
-              Get a personalized action plan generated from your unique profile.
-              Career paths, communication guide, 30/60/90 day growth plan — built
-              specifically for a {personality.type} with your strengths.
+              {t("results.playbookTeaserDesc", { type: personality.type })}
             </p>
             <div className="branch-preview">
               <ul className="playbook-features">
-                <li>Career paths matched to your unique profile</li>
-                <li>Communication guide based on your personality type</li>
-                <li>30/60/90 day growth plan with actionable steps</li>
-                <li>Includes everything in the Full Profile</li>
+                <li>{t("results.playbookFeature1")}</li>
+                <li>{t("results.playbookFeature2")}</li>
+                <li>{t("results.playbookFeature3")}</li>
+                <li>{t("results.playbookFeature4")}</li>
               </ul>
             </div>
             <button className="btn-start btn-upgrade" onClick={handlePlaybookClick}>
-              Get AI Playbook — $19
+              {t("results.getAiPlaybook")}
             </button>
             <p className="upgrade-subtitle">
-              One-time purchase. AI-generated in minutes.
+              {t("results.oneTimePurchaseAI")}
             </p>
           </section>
         </>
       )}
 
       <button className="btn-start" onClick={onRestart}>
-        Retake Assessment
+        {t("results.retakeAssessment")}
       </button>
     </div>
   );

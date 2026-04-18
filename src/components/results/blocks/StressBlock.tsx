@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { useTranslation } from "react-i18next";
 import { type EnneagramResult } from "../../../data/derivations";
 import { getStressInfo } from "../../../data/profileContent";
 import { trackBlockViewed } from "../../../utils/analytics";
@@ -10,6 +11,7 @@ interface Props {
 }
 
 export function StressBlock({ enneagram, isPaid }: Props) {
+  const { t } = useTranslation();
   const tracked = useRef(false);
 
   useEffect(() => {
@@ -26,19 +28,18 @@ export function StressBlock({ enneagram, isPaid }: Props) {
       <div className="branch-icon">
         <LogoIcon size={20} />
       </div>
-      <h3>You Under Stress</h3>
+      <h3>{t("resultsBlocks.stressTitle")}</h3>
       <p className="branch-desc">
-        As an Enneagram {enneagram.wingLabel} ({enneagram.primary.name}), stress pushes you toward
-        different behaviors than your usual self.
+        {t("resultsBlocks.stressSubtitle", { wingLabel: enneagram.wingLabel, name: enneagram.primary.name })}
       </p>
       <div className="branch-preview">
         <div className="stress-grid">
           <div className="stress-item stress-normal">
-            <strong>At your best</strong>
+            <strong>{t("resultsBlocks.stressAtBest")}</strong>
             <p>{info.best}</p>
           </div>
           <div className="stress-item stress-bad">
-            <strong>Under stress</strong>
+            <strong>{t("resultsBlocks.stressUnder")}</strong>
             <p>{info.stress}</p>
           </div>
         </div>

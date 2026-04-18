@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { type StrengthScore } from "../../../hooks/useAssessment";
 
 interface Props {
@@ -5,14 +6,15 @@ interface Props {
 }
 
 export function BlindSpotsBlock({ results }: Props) {
+  const { t } = useTranslation();
   const bottom5 = results.slice(15);
 
   return (
     <section className="branch-card">
       <div className="branch-icon">🪞</div>
-      <h3>Your Blind Spots</h3>
+      <h3>{t("resultsBlocks.blindSpotsTitle")}</h3>
       <p className="branch-desc">
-        Your bottom strengths reveal where you may struggle or need support from others.
+        {t("resultsBlocks.blindSpotsSubtitle")}
       </p>
       <div className="branch-preview">
         {bottom5.map((r) => (

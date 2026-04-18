@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { useTranslation } from "react-i18next";
 import { usePayment } from "../contexts/PaymentContext";
 import { trackCheckoutStarted, trackCTAClicked, trackUpsellClick, trackUpsellView, trackNurtureEnroll } from "../utils/analytics";
 import { useABTest } from "../hooks/useABTest";
@@ -50,6 +51,7 @@ const TIERS: TierInfo[] = [
 ];
 
 export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
+  const { t } = useTranslation();
   const { isLoading } = usePayment();
   const [redirecting, setRedirecting] = useState<Tier | null>(null);
   const viewTracked = useRef(false);
@@ -120,25 +122,17 @@ export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
     return (
       <div className="upgrade-teaser">
         <div className="upgrade-teaser-lock">&#10024;</div>
-        <h3>Go Deeper With Your Full Profile</h3>
+        <h3>{t("upgradePrompt.teaserHeading")}</h3>
         {abVariant === "B" && (
-          <p className="upsell-anchor">
-            Normally $29 for individual framework reports — get all four for $12.
-          </p>
+          <p className="upsell-anchor">{t("upgradePrompt.anchorB")}</p>
         )}
         {abVariant === "C" && (
-          <p className="upsell-anchor">
-            Instead of taking 4 separate tests ($100+ and 2+ hours), get all four frameworks from the answers you already gave.
-          </p>
+          <p className="upsell-anchor">{t("upgradePrompt.anchorC")}</p>
         )}
-        <p>
-          You've seen your personality type and top strengths. Unlock your complete
-          profile: all 20 strengths ranked, detailed breakdowns for each framework,
-          career paths matched to your profile, and a PDF export to keep forever.
-        </p>
+        <p>{t("upgradePrompt.teaserBody")}</p>
         <ul className="upgrade-features">
-          {tier.features.map((f) => (
-            <li key={f}>{f}</li>
+          {(["f1", "f2", "f3", "f4", "f5", "f6"] as const).map((k) => (
+            <li key={k}>{t(`pricing.tiers.fullProfile.features.${k}`)}</li>
           ))}
         </ul>
         <button
@@ -146,23 +140,24 @@ export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
           onClick={() => handleUpgrade(tier.id)}
           disabled={redirecting !== null}
         >
-          {redirecting === tier.id ? "Redirecting to checkout..." : `Get Full Profile — ${tier.price}`}
+          {redirecting === tier.id
+            ? t("upgradePrompt.redirectingCheckout")
+            : t("upgradePrompt.getFullProfile", { price: tier.price })}
         </button>
         {abVariant === "B" && (
-          <p className="upsell-guarantee">
-            Not what you expected? Full refund within 14 days. No questions asked.
-          </p>
+          <p className="upsell-guarantee">{t("upgradePrompt.guaranteeB")}</p>
         )}
         {abVariant === "C" && (
-          <p className="upsell-guarantee">
-            Your personalized insights are ready now — they become more useful the sooner you apply them.
-          </p>
+          <p className="upsell-guarantee">{t("upgradePrompt.guaranteeC")}</p>
         )}
-        <p className="upgrade-subtitle">
-          One-time purchase. Instant access. No subscription.
-        </p>
+        <p className="upgrade-subtitle">{t("upgradePrompt.oneTimePurchase")}</p>
         <div className="upgrade-more-tiers">
-          <p>Also available: <button className="btn-link" onClick={() => handleUpgrade("ai_playbook")}>AI Playbook — $19</button></p>
+          <p>
+            {t("upgradePrompt.alsoAvailable")}{" "}
+            <button className="btn-link" onClick={() => handleUpgrade("ai_playbook")}>
+              {t("upgradePrompt.aiPlaybookLink", { price: TIERS[1].price })}
+            </button>
+          </p>
         </div>
       </div>
     );
@@ -171,64 +166,52 @@ export function UpgradePrompt({ variant }: { variant: "full" | "teaser" }) {
   return (
     <div className="upgrade-full">
       <div className="upgrade-icon">&#10024;</div>
-      <h2>Go Beyond Your Top 5</h2>
+      <h2>{t("upgradePrompt.fullHeading")}</h2>
       {abVariant === "B" && (
-        <p className="upsell-anchor">
-          Normally $29 for individual framework reports — get all four for $12.
-        </p>
+        <p className="upsell-anchor">{t("upgradePrompt.anchorB")}</p>
       )}
       {abVariant === "C" && (
-        <p className="upsell-anchor">
-          Instead of taking 4 separate tests ($100+ and 2+ hours), get all four frameworks from the answers you already gave.
-        </p>
+        <p className="upsell-anchor">{t("upgradePrompt.anchorC")}</p>
       )}
-      <p>
-        You&apos;ve seen your top strengths. Imagine having your complete profile
-        across all four frameworks — the patterns, the blind spots, the career
-        paths that match who you really are.
-      </p>
+      <p>{t("upgradePrompt.fullBody")}</p>
       <div className="upgrade-cards">
         <div className="upgrade-card">
           <span className="upgrade-card-icon">&#9632;</span>
-          <strong>16 Personalities</strong>
-          <span>Your type with confidence percentages</span>
+          <strong>{t("upgradePrompt.card16Personalities")}</strong>
+          <span>{t("upgradePrompt.card16PersonalitiesDesc")}</span>
         </div>
         <div className="upgrade-card">
           <span className="upgrade-card-icon">&#9670;</span>
-          <strong>DISC Profile</strong>
-          <span>Behavioral style with traits</span>
+          <strong>{t("upgradePrompt.cardDISC")}</strong>
+          <span>{t("upgradePrompt.cardDISCDesc")}</span>
         </div>
         <div className="upgrade-card">
           <span className="upgrade-card-icon">&#9675;</span>
-          <strong>Enneagram</strong>
-          <span>Wing, tritype, stress patterns</span>
+          <strong>{t("upgradePrompt.cardEnneagram")}</strong>
+          <span>{t("upgradePrompt.cardEnneagramDesc")}</span>
         </div>
       </div>
       <div className="upgrade-tier-buttons">
-        {TIERS.map((t) => (
+        {TIERS.map((tier) => (
           <button
-            key={t.id}
+            key={tier.id}
             className="btn-start btn-upgrade"
-            onClick={() => handleUpgrade(t.id)}
+            onClick={() => handleUpgrade(tier.id)}
             disabled={redirecting !== null}
           >
-            {redirecting === t.id ? "Redirecting..." : `${t.name} — ${t.price}${t.mode === "subscription" ? "/mo" : ""}`}
+            {redirecting === tier.id
+              ? t("upgradePrompt.redirecting")
+              : `${tier.name} — ${tier.price}${tier.mode === "subscription" ? "/mo" : ""}`}
           </button>
         ))}
       </div>
       {abVariant === "B" && (
-        <p className="upsell-guarantee">
-          Not what you expected? Full refund within 14 days. No questions asked.
-        </p>
+        <p className="upsell-guarantee">{t("upgradePrompt.guaranteeB")}</p>
       )}
       {abVariant === "C" && (
-        <p className="upsell-guarantee">
-          Your personalized insights are ready now — they become more useful the sooner you apply them.
-        </p>
+        <p className="upsell-guarantee">{t("upgradePrompt.guaranteeC")}</p>
       )}
-      <p className="upgrade-subtitle">
-        SSL-encrypted payment via Stripe. Free tier stays free forever.
-      </p>
+      <p className="upgrade-subtitle">{t("upgradePrompt.stripeNote")}</p>
     </div>
   );
 }

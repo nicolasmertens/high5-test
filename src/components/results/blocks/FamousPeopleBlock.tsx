@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { useTranslation } from "react-i18next";
 import { type PersonalityResult } from "../../../data/derivations";
 import { getFamousPeople } from "../../../data/profileContent";
 import { trackBlockViewed } from "../../../utils/analytics";
@@ -9,6 +10,7 @@ interface Props {
 }
 
 export function FamousPeopleBlock({ personality, isPaid }: Props) {
+  const { t } = useTranslation();
   const tracked = useRef(false);
 
   useEffect(() => {
@@ -21,8 +23,8 @@ export function FamousPeopleBlock({ personality, isPaid }: Props) {
   return (
     <section className="branch-card">
       <div className="branch-icon">⭐</div>
-      <h3>Famous People Like You</h3>
-      <p className="branch-desc">Notable {personality.type}s who share your personality pattern.</p>
+      <h3>{t("resultsBlocks.famousTitle")}</h3>
+      <p className="branch-desc">{t("resultsBlocks.famousSubtitle", { type: personality.type })}</p>
       <div className="branch-preview">
         <div className="famous-tags">
           {getFamousPeople(personality.type).map((person) => (

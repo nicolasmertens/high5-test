@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { EmailCapture } from "./EmailCapture";
 
 interface EmailGateProps {
@@ -8,13 +9,14 @@ interface EmailGateProps {
 }
 
 export function EmailGate({ frameworkName, frameworkType, oneSentenceTraitSummary, onUnlocked }: EmailGateProps) {
+  const { t } = useTranslation();
   return (
     <div className="email-gate">
       <div className="email-gate-header">
         <div className="email-gate-icon">✓</div>
-        <h2>Your results are ready!</h2>
+        <h2>{t("emailGate.title")}</h2>
         <p className="email-gate-subtitle">
-          You've completed all 120 questions. Enter your email to unlock your full personality profile — Strengths, 16 Personalities, DISC, and Enneagram.
+          {t("emailGate.subtitle")}
         </p>
       </div>
       <EmailCapture
@@ -30,7 +32,7 @@ export function EmailGate({ frameworkName, frameworkType, oneSentenceTraitSummar
           onClick={() => onUnlocked("")}
           type="button"
         >
-          Skip for now →
+          {t("emailGate.skip")}
         </button>
       </p>
     </div>
