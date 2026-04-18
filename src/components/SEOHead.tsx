@@ -24,7 +24,7 @@ export function SEOHead({
   const { lang } = useLanguage();
   const image = ogImage || DEFAULT_OG_IMAGE;
 
-  const pathWithoutLang = canonicalUrl.replace("https://1test.me", "").replace(/^\/(de|fr)(\/|$)/, "/");
+  const pathWithoutLang = canonicalUrl.replace("https://1test.me", "").replace(/^\/(de|fr|es|pt)(\/|$)/, "/");
   const cleanPath = pathWithoutLang === "" ? "/" : pathWithoutLang;
 
   const localizedCanonical = lang === "en"
@@ -108,9 +108,9 @@ export function SEOHead({
       <meta property="og:type" content={ogType} />
       <meta property="og:url" content={localizedCanonical} />
       <meta property="og:image" content={image} />
-      <meta property="og:locale" content={lang === "de" ? "de_DE" : lang === "fr" ? "fr_FR" : "en_US"} />
+      <meta property="og:locale" content={lang === "de" ? "de_DE" : lang === "fr" ? "fr_FR" : lang === "es" ? "es_ES" : lang === "pt" ? "pt_BR" : "en_US"} />
       {hreflangs.filter((h) => h.lang !== lang).map((h) => (
-        <meta key={h.lang} property="og:locale:alternate" content={h.lang === "de" ? "de_DE" : h.lang === "fr" ? "fr_FR" : "en_US"} />
+        <meta key={h.lang} property="og:locale:alternate" content={h.lang === "de" ? "de_DE" : h.lang === "fr" ? "fr_FR" : h.lang === "es" ? "es_ES" : h.lang === "pt" ? "pt_BR" : "en_US"} />
       ))}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
@@ -148,12 +148,14 @@ export function buildArticleSchema(data: {
   url: string;
   datePublished: string;
   dateModified: string;
+  image?: string;
 }): object {
   return {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: data.headline,
     description: data.description,
+    image: data.image || DEFAULT_OG_IMAGE,
     url: data.url,
     datePublished: data.datePublished,
     dateModified: data.dateModified,
@@ -165,6 +167,10 @@ export function buildArticleSchema(data: {
       "@type": "Organization",
       name: "1Test",
       url: "https://1test.me",
+      logo: {
+        "@type": "ImageObject",
+        url: DEFAULT_OG_IMAGE,
+      },
     },
   };
 }
