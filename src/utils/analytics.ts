@@ -423,7 +423,7 @@ export function trackProfileStored(profileHash: string): void {
 
 export function trackCTAClicked(data: {
   ctaText: string;
-  ctaLocation: "intro_hero" | "intro_resume" | "landing_hero" | "landing_bottom" | "bridge_teaser" | "upgrade_teaser" | "upgrade_full" | "playbook_teaser" | "career_teaser" | "career_upsell_modal" | "career_intake";
+  ctaLocation: "intro_hero" | "intro_resume" | "landing_hero" | "landing_bottom" | "bridge_teaser" | "upgrade_teaser" | "upgrade_full" | "playbook_teaser" | "career_teaser" | "career_upsell_modal" | "career_intake" | "blog_mid_article";
   pagePath?: string;
 }): void {
   posthog.capture("cta_clicked", {

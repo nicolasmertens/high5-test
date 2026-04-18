@@ -96,13 +96,31 @@ export function BlogPage({ slug }: Props) {
         </header>
 
         {post.sections.map((section, i) => (
-          <section key={i} className="blog-section">
-            {section.heading && <h2>{section.heading}</h2>}
-            <div
-              className="content-html"
-              dangerouslySetInnerHTML={{ __html: section.html }}
-            />
-          </section>
+          <>
+            <section key={i} className="blog-section">
+              {section.heading && <h2>{section.heading}</h2>}
+              <div
+                className="content-html"
+                dangerouslySetInnerHTML={{ __html: section.html }}
+              />
+            </section>
+            {i === 2 && (
+              <aside key="mid-cta" className="blog-mid-cta">
+                <div className="blog-mid-cta-inner">
+                  <p className="blog-mid-cta-label">Free personality test</p>
+                  <p className="blog-mid-cta-text">
+                    Discover your {post.ctaFramework === "strengths" ? "top 5 strengths" : post.ctaFramework === "disc" ? "DISC profile" : post.ctaFramework === "enneagram" ? "Enneagram type" : "personality type"} — plus DISC, Enneagram, and 16 Personalities. One test, all four frameworks.
+                  </p>
+                  <button className="blog-mid-cta-btn" onClick={() => {
+                    trackCTAClicked({ ctaText: "Take the free test", ctaLocation: "blog_mid_article", pagePath: `/blog/${slug}` });
+                    navigate("/test");
+                  }}>
+                    Take the free test &rarr;
+                  </button>
+                </div>
+              </aside>
+            )}
+          </>
         ))}
 
         {post.faqs.length > 0 && (

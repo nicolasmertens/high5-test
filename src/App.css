@@ -3210,6 +3210,78 @@
   }
 }
 
+/* ===== BLOG MID-ARTICLE CTA ===== */
+.blog-mid-cta {
+  max-width: 780px;
+  margin: 8px auto 32px;
+  padding: 0 16px;
+}
+
+.blog-mid-cta-inner {
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+  border: 1px solid #4338ca;
+  border-radius: 12px;
+  padding: 24px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.blog-mid-cta-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #a5b4fc;
+  margin: 0;
+}
+
+.blog-mid-cta-text {
+  font-size: 1rem;
+  color: #e0e7ff;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.blog-mid-cta-btn {
+  align-self: flex-start;
+  margin-top: 4px;
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.blog-mid-cta-btn:hover {
+  background: #4338ca;
+}
+
+@media (min-width: 640px) {
+  .blog-mid-cta-inner {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .blog-mid-cta-label {
+    display: none;
+  }
+
+  .blog-mid-cta-text {
+    flex: 1;
+  }
+
+  .blog-mid-cta-btn {
+    margin-top: 0;
+    white-space: nowrap;
+  }
+}
+
 /* ===== BLOG RELATED POSTS ===== */
 .blog-related {
   max-width: 780px;
