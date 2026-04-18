@@ -632,3 +632,24 @@ export function trackBonusBlockViewed(segment: string): void {
     page_path: window.location.pathname,
   });
 }
+
+export function trackCareerAlignmentViewed(): void {
+  posthog.capture("career_alignment_viewed", {
+    page_path: window.location.pathname,
+  });
+}
+
+export function trackCareerAlignmentSubmitted(
+  discStyle: string,
+  personalityType: string,
+  roleScore: number,
+  industryMatch: string,
+): void {
+  posthog.capture("career_alignment_submitted", {
+    disc_style: discStyle,
+    personality_type: personalityType,
+    role_score: roleScore,
+    industry_match: industryMatch,
+    page_path: window.location.pathname,
+  });
+}

@@ -1814,6 +1814,155 @@
   font-weight: 500;
 }
 
+/* Career Alignment Block */
+.ca-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.ca-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ca-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.ca-input {
+  font-size: 14px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--card-bg);
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.ca-input:focus {
+  border-color: #7c3aed;
+}
+
+.ca-select {
+  appearance: none;
+  cursor: pointer;
+}
+
+.ca-submit {
+  margin-top: 4px;
+  padding: 11px 20px;
+  background: #7c3aed;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.ca-submit:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.ca-submit:not(:disabled):hover {
+  opacity: 0.88;
+}
+
+.ca-results {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ca-result-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.ca-result-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-h);
+  white-space: nowrap;
+}
+
+.ca-gauge-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.ca-gauge-bar {
+  width: 120px;
+  height: 8px;
+  background: var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.ca-gauge-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.4s ease;
+}
+
+.ca-gauge-score {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-h);
+  white-space: nowrap;
+}
+
+.ca-gauge-max {
+  font-size: 12px;
+  font-weight: 400;
+  color: #9ca3af;
+}
+
+.ca-match-badge {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.ca-pivot-section {
+  padding-top: 4px;
+}
+
+.ca-pivot-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-h);
+  margin-bottom: 10px;
+}
+
+.ca-reset {
+  align-self: flex-start;
+  font-size: 13px;
+  color: #7c3aed;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 /* Books */
 .book-row {
   padding: 10px 0;

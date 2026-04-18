@@ -19,6 +19,7 @@ import { StressBlock } from "./blocks/StressBlock";
 import { LeadershipBlock } from "./blocks/LeadershipBlock";
 import { CommunicationBlock } from "./blocks/CommunicationBlock";
 import { BlindSpotsBlock } from "./blocks/BlindSpotsBlock";
+import { CareerAlignmentBlock } from "./blocks/CareerAlignmentBlock";
 
 interface Props {
   results: StrengthScore[];
@@ -47,6 +48,8 @@ export function ContentBlocks({
         return <CommunicationBlock key="communication" disc={disc} />;
       case "blind_spots":
         return <BlindSpotsBlock key="blind_spots" results={results} />;
+      case "career_alignment":
+        return <CareerAlignmentBlock key="career_alignment" personality={personality} disc={disc} />;
       case "books":
         return (
           <BooksBlock

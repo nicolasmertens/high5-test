@@ -6,9 +6,10 @@ export type BlockId = "books" | "careers" | "famous" | "stress" | "leadership" |
 // Full set of content block IDs rendered inside the results page
 export type ContentBlockId =
   | BlockId
-  | "communication"  // paid-only: DISC communication guide
-  | "blind_spots"    // paid-only: bottom-5 strengths
-  | "bonus";         // paid-only: segment-specific bonus content
+  | "communication"       // paid-only: DISC communication guide
+  | "blind_spots"         // paid-only: bottom-5 strengths
+  | "career_alignment"    // paid-only: career fit analysis vs current role
+  | "bonus";              // paid-only: segment-specific bonus content
 
 // Internal routing key — maps spec segment names to stable identifiers
 export type SegmentKey =
@@ -77,7 +78,7 @@ export const BLOCK_OVERRIDES: Partial<Record<SegmentKey, Partial<Record<BlockId,
 export function getContentBlockIds(isPaid: boolean, segment: SegmentKey): ContentBlockId[] {
   const segmentOrdered = BLOCK_ORDER[segment] as ContentBlockId[];
   if (isPaid) {
-    return ["communication", "blind_spots", ...segmentOrdered, "bonus"];
+    return ["communication", "blind_spots", "career_alignment", ...segmentOrdered, "bonus"];
   }
   return segmentOrdered;
 }
