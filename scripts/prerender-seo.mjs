@@ -1985,6 +1985,36 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/entp-careers",
     ogType: "article",
   },
+  "/blog/intp-careers": {
+    title: "Best Careers for INTP Personality Types — Complete Career Guide",
+    description: "INTPs thrive in careers that reward deep analysis, independent thinking, and complex problem-solving. Best career paths and work environment needs for INTP personalities.",
+    canonicalUrl: "https://1test.me/blog/intp-careers",
+    ogType: "article",
+  },
+  "/blog/istj-careers": {
+    title: "Best Careers for ISTJ Personality Types — Complete Career Guide",
+    description: "ISTJs excel in careers that reward reliability, precision, and systematic execution. Best career paths, work environment needs, and career advice for ISTJ personalities.",
+    canonicalUrl: "https://1test.me/blog/istj-careers",
+    ogType: "article",
+  },
+  "/blog/isfj-careers": {
+    title: "Best Careers for ISFJ Personality Types — Complete Career Guide",
+    description: "ISFJs thrive in careers that reward care, precision, and behind-the-scenes reliability. Best career paths, work environment needs, and career advice for ISFJ personalities.",
+    canonicalUrl: "https://1test.me/blog/isfj-careers",
+    ogType: "article",
+  },
+  "/blog/enfj-careers": {
+    title: "Best Careers for ENFJ Personality Types — Complete Career Guide",
+    description: "ENFJs excel in careers that reward leadership, communication, and people development. Best career paths, work environment needs, and career advice for ENFJ personalities.",
+    canonicalUrl: "https://1test.me/blog/enfj-careers",
+    ogType: "article",
+  },
+  "/blog/entj-careers": {
+    title: "Best Careers for ENTJ Personality Types — Complete Career Guide",
+    description: "ENTJs thrive in careers that reward strategic leadership, high standards, and decisive execution. Best career paths, work environment needs, and career advice for ENTJ personalities.",
+    canonicalUrl: "https://1test.me/blog/entj-careers",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {
