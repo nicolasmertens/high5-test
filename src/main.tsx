@@ -261,6 +261,22 @@ function AppRoutes() {
       <Route path="/blog/estp-compatible-types" element={<BlogPage slug="estp-compatible-types" />} />
       <Route path="/blog/esfp-compatible-types" element={<BlogPage slug="esfp-compatible-types" />} />
       <Route path="/blog/isfp-compatible-types" element={<BlogPage slug="isfp-compatible-types" />} />
+      <Route path="/blog/infj-cognitive-functions" element={<BlogPage slug="infj-cognitive-functions" />} />
+      <Route path="/blog/intj-cognitive-functions" element={<BlogPage slug="intj-cognitive-functions" />} />
+      <Route path="/blog/enfp-cognitive-functions" element={<BlogPage slug="enfp-cognitive-functions" />} />
+      <Route path="/blog/infp-cognitive-functions" element={<BlogPage slug="infp-cognitive-functions" />} />
+      <Route path="/blog/intp-cognitive-functions" element={<BlogPage slug="intp-cognitive-functions" />} />
+      <Route path="/blog/entj-cognitive-functions" element={<BlogPage slug="entj-cognitive-functions" />} />
+      <Route path="/blog/entp-cognitive-functions" element={<BlogPage slug="entp-cognitive-functions" />} />
+      <Route path="/blog/enfj-cognitive-functions" element={<BlogPage slug="enfj-cognitive-functions" />} />
+      <Route path="/blog/istj-cognitive-functions" element={<BlogPage slug="istj-cognitive-functions" />} />
+      <Route path="/blog/isfj-cognitive-functions" element={<BlogPage slug="isfj-cognitive-functions" />} />
+      <Route path="/blog/estj-cognitive-functions" element={<BlogPage slug="estj-cognitive-functions" />} />
+      <Route path="/blog/esfj-cognitive-functions" element={<BlogPage slug="esfj-cognitive-functions" />} />
+      <Route path="/blog/istp-cognitive-functions" element={<BlogPage slug="istp-cognitive-functions" />} />
+      <Route path="/blog/estp-cognitive-functions" element={<BlogPage slug="estp-cognitive-functions" />} />
+      <Route path="/blog/esfp-cognitive-functions" element={<BlogPage slug="esfp-cognitive-functions" />} />
+      <Route path="/blog/isfp-cognitive-functions" element={<BlogPage slug="isfp-cognitive-functions" />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="/relationship/:id" element={<RelationshipReportPage />} />

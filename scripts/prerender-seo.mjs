@@ -2513,6 +2513,102 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/isfp-compatible-types",
     ogType: "article",
   },
+  "/blog/infj-cognitive-functions": {
+    title: "INFJ Cognitive Functions: Ni, Fe, Ti, Se Explained",
+    description: "Understand the INFJ cognitive function stack — Ni, Fe, Ti, Se — and how each shapes the INFJ's inner world, decision-making, and relationships.",
+    canonicalUrl: "https://1test.me/blog/infj-cognitive-functions",
+    ogType: "article",
+  },
+  "/blog/intj-cognitive-functions": {
+    title: "INTJ Cognitive Functions: Ni, Te, Fi, Se Explained",
+    description: "Deep dive into the INTJ cognitive function stack — Ni, Te, Fi, Se — and how each function drives INTJ strategy, independence, and perfectionism.",
+    canonicalUrl: "https://1test.me/blog/intj-cognitive-functions",
+    ogType: "article",
+  },
+  "/blog/enfp-cognitive-functions": {
+    title: "ENFP Cognitive Functions: Ne, Fi, Te, Si Explained",
+    description: "Explore the ENFP cognitive function stack — Ne, Fi, Te, Si — and how these functions fuel ENFP creativity, idealism, and love of connection.",
+    canonicalUrl: "https://1test.me/blog/enfp-cognitive-functions",
+    ogType: "article",
+  },
+  "/blog/infp-cognitive-functions": {
+    title: "INFP Cognitive Functions: Fi, Ne, Si, Te Explained",
+    description: "Understand the INFP cognitive function stack — Fi, Ne, Si, Te — and how these functions shape INFP idealism, creativity, and emotional depth.",
+    canonicalUrl: "https://1test.me/blog/infp-cognitive-functions",
+    ogType: "article",
+  },
+  "/blog/intp-cognitive-functions": {
+    title: "INTP Cognitive Functions: Ti, Ne, Si, Fe Explained",
+    description: "Explore the INTP cognitive function stack — Ti, Ne, Si, Fe — and how these functions drive INTP logic, curiosity, and analytical depth.",
+    canonicalUrl: "https://1test.me/blog/intp-cognitive-functions",
+    ogType: "article",
+  },
+  "/blog/entj-cognitive-functions": {
+    title: "ENTJ Cognitive Functions: Te, Ni, Se, Fi Explained",
+    description: "Deep dive into the ENTJ cognitive function stack — Te, Ni, Se, Fi — and how these functions drive ENTJ leadership, strategy, and drive for results.",
+    canonicalUrl: "https://1test.me/blog/entj-cognitive-functions",
+    ogType: "article",
+  },
+  "/blog/entp-cognitive-functions": {
+    title: "ENTP Cognitive Functions: Ne, Ti, Fe, Si Explained",
+    description: "Explore the ENTP cognitive function stack — Ne, Ti, Fe, Si — and how these functions power ENTP debate, innovation, and intellectual restlessness.",
+    canonicalUrl: "https://1test.me/blog/entp-cognitive-functions",
+    ogType: "article",
+  },
+  "/blog/enfj-cognitive-functions": {
+    title: "ENFJ Cognitive Functions: Fe, Ni, Se, Ti Explained",
+    description: "Understand the ENFJ cognitive function stack — Fe, Ni, Se, Ti — and how these functions drive ENFJ charisma, vision, and people-centered leadership.",
+    canonicalUrl: "https://1test.me/blog/enfj-cognitive-functions",
+    ogType: "article",
+  },
+  "/blog/istj-cognitive-functions": {
+    title: "ISTJ Cognitive Functions: Si, Te, Fi, Ne Explained",
+    description: "Explore the ISTJ cognitive function stack — Si, Te, Fi, Ne — and how these functions drive ISTJ reliability, structure, and responsible dedication.",
+    canonicalUrl: "https://1test.me/blog/istj-cognitive-functions",
+    ogType: "article",
+  },
+  "/blog/isfj-cognitive-functions": {
+    title: "ISFJ Cognitive Functions: Si, Fe, Ti, Ne Explained",
+    description: "Understand the ISFJ cognitive function stack — Si, Fe, Ti, Ne — and how these functions drive ISFJ warmth, reliability, and care for others.",
+    canonicalUrl: "https://1test.me/blog/isfj-cognitive-functions",
+    ogType: "article",
+  },
+  "/blog/estj-cognitive-functions": {
+    title: "ESTJ Cognitive Functions: Te, Si, Ne, Fi Explained",
+    description: "Explore the ESTJ cognitive function stack — Te, Si, Ne, Fi — and how these functions drive ESTJ leadership, order, and results-oriented management.",
+    canonicalUrl: "https://1test.me/blog/estj-cognitive-functions",
+    ogType: "article",
+  },
+  "/blog/esfj-cognitive-functions": {
+    title: "ESFJ Cognitive Functions: Fe, Si, Ne, Ti Explained",
+    description: "Understand the ESFJ cognitive function stack — Fe, Si, Ne, Ti — and how these functions drive ESFJ warmth, community care, and social harmony.",
+    canonicalUrl: "https://1test.me/blog/esfj-cognitive-functions",
+    ogType: "article",
+  },
+  "/blog/istp-cognitive-functions": {
+    title: "ISTP Cognitive Functions: Ti, Se, Ni, Fe Explained",
+    description: "Explore the ISTP cognitive function stack — Ti, Se, Ni, Fe — and how these functions drive ISTP analytical skill, hands-on mastery, and cool independence.",
+    canonicalUrl: "https://1test.me/blog/istp-cognitive-functions",
+    ogType: "article",
+  },
+  "/blog/estp-cognitive-functions": {
+    title: "ESTP Cognitive Functions: Se, Ti, Fe, Ni Explained",
+    description: "Understand the ESTP cognitive function stack — Se, Ti, Fe, Ni — and how these functions drive ESTP boldness, quick thinking, and real-world mastery.",
+    canonicalUrl: "https://1test.me/blog/estp-cognitive-functions",
+    ogType: "article",
+  },
+  "/blog/esfp-cognitive-functions": {
+    title: "ESFP Cognitive Functions: Se, Fi, Te, Ni Explained",
+    description: "Explore the ESFP cognitive function stack — Se, Fi, Te, Ni — and how these functions drive ESFP spontaneity, warmth, and vibrant real-world engagement.",
+    canonicalUrl: "https://1test.me/blog/esfp-cognitive-functions",
+    ogType: "article",
+  },
+  "/blog/isfp-cognitive-functions": {
+    title: "ISFP Cognitive Functions: Fi, Se, Ni, Te Explained",
+    description: "Understand the ISFP cognitive function stack — Fi, Se, Ni, Te — and how these functions drive ISFP artistry, authenticity, and gentle presence.",
+    canonicalUrl: "https://1test.me/blog/isfp-cognitive-functions",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {
