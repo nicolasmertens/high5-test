@@ -2705,6 +2705,60 @@ const SEO_DATA = {
     canonicalUrl: "https://1test.me/blog/isfp-strengths-and-weaknesses",
     ogType: "article",
   },
+  "/blog/enneagram-type-1": {
+    title: "Enneagram Type 1 — The Reformer: Traits, Strengths & Growth",
+    description: "Complete guide to Enneagram Type 1 — The Reformer. Discover Type 1 core motivations, strengths, weaknesses, growth path, and famous Type 1 personalities.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-1",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-2": {
+    title: "Enneagram Type 2 — The Helper: Traits, Strengths & Growth",
+    description: "Complete guide to Enneagram Type 2 — The Helper. Discover Type 2 core motivations, strengths, growth path, and what drives the Helper's deep need to be needed.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-2",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-3": {
+    title: "Enneagram Type 3 — The Achiever: Traits, Strengths & Growth",
+    description: "Complete guide to Enneagram Type 3 — The Achiever. Discover Type 3 core motivations, image focus, and growth path for the Enneagram's driven performer.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-3",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-4": {
+    title: "Enneagram Type 4 — The Individualist: Traits, Strengths & Growth",
+    description: "Complete guide to Enneagram Type 4 — The Individualist. Discover Type 4 core motivations, creative gifts, emotional depth, and growth path.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-4",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-5": {
+    title: "Enneagram Type 5 — The Investigator: Traits, Strengths & Growth",
+    description: "Complete guide to Enneagram Type 5 — The Investigator. Discover Type 5 core motivations, intellectual gifts, withdrawal patterns, and growth path.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-5",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-6": {
+    title: "Enneagram Type 6 — The Loyalist: Traits, Strengths & Growth",
+    description: "Complete guide to Enneagram Type 6 — The Loyalist. Discover Type 6 core motivations, loyalty and anxiety patterns, strengths, and growth path.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-6",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-7": {
+    title: "Enneagram Type 7 — The Enthusiast: Traits, Strengths & Growth",
+    description: "Complete guide to Enneagram Type 7 — The Enthusiast. Discover Type 7 core motivations, joy-seeking, avoidance patterns, and growth path.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-7",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-8": {
+    title: "Enneagram Type 8 — The Challenger: Traits, Strengths & Growth",
+    description: "Complete guide to Enneagram Type 8 — The Challenger. Discover Type 8 core motivations, power and control drives, strengths, and growth path.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-8",
+    ogType: "article",
+  },
+  "/blog/enneagram-type-9": {
+    title: "Enneagram Type 9 — The Peacemaker: Traits, Strengths & Growth",
+    description: "Complete guide to Enneagram Type 9 — The Peacemaker. Discover Type 9 core motivations, harmony-seeking, self-forgetting, and growth path.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-9",
+    ogType: "article",
+  },
 };
 
 const BODY_CONTENT = {

@@ -20265,6 +20265,546 @@ export const blogPosts: Record<string, BlogPost> = {
     ],
     datePublished: "2026-04-18",
   },
+
+  "enneagram-type-1": {
+    slug: "enneagram-type-1",
+    metaTitle: "Enneagram Type 1 — The Reformer: Traits, Strengths & Growth",
+    metaDesc: "Complete guide to Enneagram Type 1 — The Reformer. Discover Type 1 core motivations, strengths, weaknesses, growth path, and famous Type 1 personalities.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-1",
+    h1: "Enneagram Type 1 — The Reformer: Complete Guide",
+    sections: [
+      {
+        heading: "Who Is the Enneagram Type 1?",
+        html: p("Enneagram Type 1 is known as The Reformer or The Perfectionist. Ones are principled, idealistic, and driven by a deep desire to be good and to make the world better. They have an acute internal sense of right and wrong, and they hold themselves to demanding ethical and quality standards.") +
+          p("At their core, Ones believe there is a right way to do things — and they feel a personal responsibility to find it and uphold it. This gives them extraordinary integrity and conscientiousness, but also an inner critic that never fully switches off.") +
+          p("Type 1's core motivation is to be good, ethical, and correct. Their core fear is being corrupt, evil, or fundamentally flawed. This fear-motivation pairing drives everything from their meticulous work habits to their difficulty relaxing when things are imperfect."),
+      },
+      {
+        heading: "Type 1 Strengths",
+        html: strong([
+          { label: "Integrity:", desc: "Ones are among the most ethical types. They say what they mean, keep their commitments, and hold the line on principle even when it's costly." },
+          { label: "Conscientiousness:", desc: "Type 1s produce work of exceptional quality. Their attention to detail and commitment to doing things right makes them reliable and high-performing." },
+          { label: "Reforming vision:", desc: "Ones see clearly what could be better — in systems, institutions, and processes — and are motivated to improve it. They are natural advocates for change toward justice and quality." },
+          { label: "Self-discipline:", desc: "Ones can delay gratification, maintain difficult routines, and resist temptation to cut corners. Their self-regulation is a significant personal asset." },
+          { label: "Fairness:", desc: "Ones apply their standards consistently and are committed to equal treatment. They are often trusted arbiters of disputes precisely because of their impartiality." },
+        ]),
+      },
+      {
+        heading: "Type 1 Weaknesses and Growth Edges",
+        html: strong([
+          { label: "Inner critic:", desc: "Ones carry a persistent internal voice telling them what they've done wrong, what needs to improve, and where they've fallen short. Managing this critic is a lifelong practice." },
+          { label: "Perfectionism:", desc: "The One's high standards can prevent completion — the pursuit of perfect becoming the enemy of good. Ones often undervalue work that others would consider excellent." },
+          { label: "Rigidity:", desc: "Ones can become attached to their way of doing things, finding it difficult to accommodate different approaches that may also be valid." },
+          { label: "Resentment:", desc: "Ones feel a responsibility to maintain standards that others don't share. When others cut corners, Ones can carry unexpressed resentment — the anger that 'seethes but doesn't speak.'" },
+          { label: "Difficulty relaxing:", desc: "Rest feels earned to a One — and the bar for earning it is very high. Learning to rest without fully finishing is a significant growth edge." },
+        ]) +
+          p("The growth path for Type 1 involves learning that imperfection is not a moral failure — it is the nature of being human. Ones grow when they can extend to themselves the compassion they readily give to others, and when they can accept that 'good enough' is sometimes the wisest choice."),
+      },
+      {
+        heading: "Type 1 Wings, Relationships, and Famous Examples",
+        html: p("Type 1 has two wings: the 1w9 (One with a Nine wing) and the 1w2 (One with a Two wing). The 1w9 is more restrained, idealistic, and philosophically oriented — a quiet reformer. The 1w2 is warmer and more interpersonally engaged, pairing One's principles with Two's desire to help and be liked.") +
+          p("In relationships, Ones bring loyalty, reliability, and genuine care for growth. They can be critical — of themselves first, then of others — but their criticism comes from caring about quality, not from contempt. Partners who understand this and can provide reassurance help Ones relax their inner critic significantly.") +
+          p("Famous Type 1s include Nelson Mandela, Mahatma Gandhi, Confucius, Plato, and Michelle Obama — individuals whose legacy is defined by principled commitment to something larger than themselves."),
+      },
+    ],
+    faqs: [
+      { question: "What is Enneagram Type 1's core fear?", answer: "Type 1's core fear is being corrupt, evil, or fundamentally flawed. This drives their relentless commitment to doing the right thing and maintaining high standards." },
+      { question: "What is the Type 1 wing?", answer: "Type 1 has two wings: 1w9 (more reserved, philosophical, idealistic) and 1w2 (warmer, more interpersonally engaged, helper-oriented). Most Ones have one wing that is more dominant." },
+      { question: "What makes Enneagram Type 1 angry?", answer: "Ones feel anger when standards aren't met, when injustice occurs, or when others don't take responsibility seriously. However, Ones typically suppress rather than express this anger — manifesting as resentment or simmering frustration rather than outbursts." },
+      { question: "How can Type 1 grow?", answer: "By practicing self-compassion and accepting that imperfection is human. Ones grow when they can apply the same grace to themselves that they give to others, and when they discover that rest and play don't require perfection as a prerequisite." },
+    ],
+    ctaHeading: "Find Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to discover your Enneagram type and the motivations that drive you.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram types explained", url: "/blog/enneagram-types-explained" },
+      { label: "Enneagram wings explained", url: "/blog/enneagram-wings-explained" },
+      { label: "Enneagram career paths", url: "/blog/enneagram-career-paths" },
+      { label: "Enneagram Type 2", url: "/blog/enneagram-type-2" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-2": {
+    slug: "enneagram-type-2",
+    metaTitle: "Enneagram Type 2 — The Helper: Traits, Strengths & Growth",
+    metaDesc: "Complete guide to Enneagram Type 2 — The Helper. Discover Type 2 core motivations, strengths, growth path, and what drives the Helper's deep need to be needed.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-2",
+    h1: "Enneagram Type 2 — The Helper: Complete Guide",
+    sections: [
+      {
+        heading: "Who Is the Enneagram Type 2?",
+        html: p("Enneagram Type 2 is The Helper — warm, generous, and interpersonally attuned. Twos are driven by a deep desire to be loved and to feel needed. They invest heavily in relationships and are genuinely skilled at identifying and meeting others' needs, often before being asked.") +
+          p("Type 2's core motivation is to be loved and to feel that their love is valued. Their core fear is being unwanted or unloved — that they are only cared for when they are useful, and that without giving, they would be alone.") +
+          p("This drives Twos toward remarkable generosity and warmth, but also toward a pattern of giving that is partly in service of their own need to be needed. Twos at lower levels of health may struggle to identify their own needs at all — their attention so consistently directed outward that inward awareness atrophies."),
+      },
+      {
+        heading: "Type 2 Strengths",
+        html: strong([
+          { label: "Warmth and care:", desc: "Twos are genuinely warm and caring. Their interpersonal presence is often described as comforting, reassuring, and energizing." },
+          { label: "Emotional attunement:", desc: "Twos sense what people need with unusual accuracy. They notice who is struggling in a room and respond with appropriate support." },
+          { label: "Generosity:", desc: "Type 2s give freely of their time, energy, and resources. Their generosity is genuine — the joy of helping is real and motivating." },
+          { label: "Relationship building:", desc: "Twos create strong interpersonal bonds and often serve as the relational glue in families, teams, and communities." },
+          { label: "Encouragement:", desc: "Twos are natural encouragers. They see potential in people and communicate it with conviction — a gift that genuinely lifts others." },
+        ]),
+      },
+      {
+        heading: "Type 2 Weaknesses and Growth Edges",
+        html: strong([
+          { label: "Difficulty receiving:", desc: "Twos are skilled givers and poor receivers. Accepting help, compliments, or care can be genuinely uncomfortable — it removes the role of giver that defines their identity." },
+          { label: "Indirect needs:", desc: "Twos often express their own needs through helping others or hinting rather than asking directly. This can create resentment when the indirect communication is missed." },
+          { label: "People-pleasing:", desc: "The fear of being unloved can drive Twos to tell people what they want to hear, shape-shift to match expectations, and suppress disagreement to preserve the relationship." },
+          { label: "Martyrdom:", desc: "Twos who give without receiving can slip into a martyrdom pattern — keeping score of their sacrifices while not acknowledging their own contribution to the imbalance." },
+          { label: "Neglecting self:", desc: "Consistent outward orientation means Twos can neglect their own needs until they reach a crisis of depletion." },
+        ]) +
+          p("The growth path for Type 2 is learning that they are lovable without doing anything — that their worth is not contingent on their usefulness. Twos grow when they practice direct communication of their own needs, receive care gracefully, and discover that boundaries actually improve the quality of their relationships."),
+      },
+      {
+        heading: "Type 2 Wings, Relationships, and Famous Examples",
+        html: p("Type 2 has two wings: 2w1 (Two with a One wing) and 2w3 (Two with a Three wing). The 2w1 is more principled and serious about service — driven by both love and duty. The 2w3 is more image-conscious, ambitious in social settings, and skilled at presenting warmth in highly visible ways.") +
+          p("In relationships, Twos bring genuine affection, attentiveness, and a deep desire to see their partners thrive. They need partners who actively express appreciation and who reciprocate with emotional warmth — receiving what Twos so freely give.") +
+          p("Famous Type 2s include Mother Teresa, Eleanor Roosevelt, Oprah Winfrey, and Maya Angelou — individuals whose lives were defined by service to others but also by a personal warmth that felt genuinely felt."),
+      },
+    ],
+    faqs: [
+      { question: "What is Enneagram Type 2's core fear?", answer: "Type 2's core fear is being unwanted or unloved — specifically, the fear that they are only valued when they are useful, and that without giving, they would have no place in others' lives." },
+      { question: "Why do Twos struggle to ask for help?", answer: "Asking for help reverses the helper role and can trigger the fear of being burdensome. Twos often believe that needing things makes them less lovable — when in reality, allowing others to give to them deepens relationships." },
+      { question: "What is the Type 2 wing?", answer: "2w1 is more principled and duty-driven; 2w3 is more ambitious, image-aware, and skilled at social warmth in visible contexts." },
+      { question: "How can Type 2 grow?", answer: "By learning to identify and directly express their own needs, receive care gracefully, and discover that their worth is not contingent on constant giving. Twos grow through relationships that offer mutual care, not just outlets for their generosity." },
+    ],
+    ctaHeading: "Discover Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to find your Enneagram type and understand what motivates your deepest drives.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 1", url: "/blog/enneagram-type-1" },
+      { label: "Enneagram Type 3", url: "/blog/enneagram-type-3" },
+      { label: "Enneagram types explained", url: "/blog/enneagram-types-explained" },
+      { label: "Enneagram in the workplace", url: "/blog/enneagram-in-workplace" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-3": {
+    slug: "enneagram-type-3",
+    metaTitle: "Enneagram Type 3 — The Achiever: Traits, Strengths & Growth",
+    metaDesc: "Complete guide to Enneagram Type 3 — The Achiever. Discover Type 3 core motivations, strengths, image focus, and growth path for the Enneagram's driven performer.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-3",
+    h1: "Enneagram Type 3 — The Achiever: Complete Guide",
+    sections: [
+      {
+        heading: "Who Is the Enneagram Type 3?",
+        html: p("Enneagram Type 3 is The Achiever — driven, adaptable, and image-conscious. Threes are motivated by a desire to be valuable and admired, and they pursue success with energy and focus. They are highly attuned to what success looks like in their environment and skilled at presenting themselves accordingly.") +
+          p("Type 3's core motivation is to feel valuable and admired — to succeed and to be seen succeeding. Their core fear is being worthless or a failure. This pairing creates extraordinary drive but also a tendency to build identity around achievement rather than authentic selfhood.") +
+          p("Threes are the most success-oriented type in the Enneagram. At their best, they are inspiring, competent, and genuinely accomplished. At their most stressed, they can lose track of who they are beneath the roles they perform."),
+      },
+      {
+        heading: "Type 3 Strengths",
+        html: strong([
+          { label: "Goal orientation:", desc: "Threes identify what success looks like and pursue it with remarkable efficiency. They are among the highest-achieving types in the system." },
+          { label: "Adaptability:", desc: "Threes read their environment and adjust their presentation accordingly. This social flexibility makes them effective across a wide range of contexts." },
+          { label: "Competence:", desc: "Type 3s develop genuine competence in their chosen domains. Their drive to succeed produces real skill, not just the appearance of it." },
+          { label: "Inspiration:", desc: "At their best, Threes inspire others through their example. Their energy, optimism, and accomplishment motivate the people around them." },
+          { label: "Efficiency:", desc: "Threes identify the most direct path to an outcome and take it. They don't get lost in process when results are available." },
+        ]),
+      },
+      {
+        heading: "Type 3 Weaknesses and Growth Edges",
+        html: strong([
+          { label: "Image over authenticity:", desc: "Threes can become so focused on appearing successful that they lose touch with what they actually want, value, and feel. The performance becomes the person." },
+          { label: "Workaholism:", desc: "Achievement-as-identity means stopping to rest can feel like worthlessness. Threes often overwork to the point of burnout, then overwork through the burnout." },
+          { label: "Relationship neglect:", desc: "Threes may deprioritize relationships in service of achievement — treating people as part of the success environment rather than as ends in themselves." },
+          { label: "Emotional bypassing:", desc: "Threes can be skilled at appearing to process emotions without actually doing so. Efficiency and emotional depth are often in tension for Type 3." },
+          { label: "Shapeshifting:", desc: "Adapting too readily to environmental expectations can leave Threes uncertain of their authentic preferences, values, and identity." },
+        ]) +
+          p("The growth path for Type 3 is discovering that their worth is not contingent on their achievements. Threes grow when they slow down enough to ask 'what do I actually want?' rather than 'what does success look like here?' and when they build relationships based on authentic connection rather than performance."),
+      },
+      {
+        heading: "Type 3 Wings, Relationships, and Famous Examples",
+        html: p("Type 3 has two wings: 3w2 (Three with a Two wing) and 3w4 (Three with a Four wing). The 3w2 is warmer, more socially engaging, and motivated partly by wanting to be loved alongside being admired. The 3w4 is more introspective, individualistic, and concerned with doing meaningful work rather than just successful work.") +
+          p("In relationships, Threes bring energy, ambition, and genuine care for their partners' success. They need partners who can reach them beneath the performance — who make it safe to be less-than-perfect and to rest without agenda.") +
+          p("Famous Type 3s include Oprah Winfrey (3w2), Taylor Swift, Muhammad Ali, Tony Robbins, and Arnold Schwarzenegger — individuals whose identity and achievement are almost inseparable."),
+      },
+    ],
+    faqs: [
+      { question: "What is Enneagram Type 3's core motivation?", answer: "Type 3 is motivated by the desire to feel valuable and to be admired. They pursue success — and the image of success — in the belief that achievement determines their worth." },
+      { question: "How is Type 3 different from Type 8?", answer: "Both are driven and action-oriented, but Type 3's drive is toward achievement and recognition, while Type 8's drive is toward autonomy and control. Type 3 adapts to what the environment defines as success; Type 8 often defines success for themselves." },
+      { question: "What is the Type 3 wing?", answer: "3w2 is warmer, more socially oriented, and driven partly by wanting to be loved. 3w4 is more individualistic, introspective, and concerned with authenticity and meaning alongside achievement." },
+      { question: "How can Type 3 grow?", answer: "By separating their sense of worth from their achievements. Threes grow through practices that cultivate introspection (journaling, therapy, meditation) and relationships that offer unconditional positive regard rather than conditional admiration." },
+    ],
+    ctaHeading: "Find Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to discover your Enneagram type and what drives your ambition.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 2", url: "/blog/enneagram-type-2" },
+      { label: "Enneagram Type 4", url: "/blog/enneagram-type-4" },
+      { label: "Enneagram career paths", url: "/blog/enneagram-career-paths" },
+      { label: "Enneagram in the workplace", url: "/blog/enneagram-in-workplace" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-4": {
+    slug: "enneagram-type-4",
+    metaTitle: "Enneagram Type 4 — The Individualist: Traits, Strengths & Growth",
+    metaDesc: "Complete guide to Enneagram Type 4 — The Individualist. Discover Type 4 core motivations, creative gifts, emotional depth, and growth path.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-4",
+    h1: "Enneagram Type 4 — The Individualist: Complete Guide",
+    sections: [
+      {
+        heading: "Who Is the Enneagram Type 4?",
+        html: p("Enneagram Type 4 is The Individualist — introspective, sensitive, and emotionally deep. Fours are driven by a desire to be unique and to understand who they really are. They have an acute awareness of what is absent in their lives and often feel a deep sense of longing — for an idealized something that they can't quite name but feel the lack of constantly.") +
+          p("Type 4's core motivation is to find their identity and significance — to be authentic and to be seen as uniquely themselves. Their core fear is having no identity or personal significance — of being ordinary, abandoned, or fundamentally defective.") +
+          p("This pairing produces extraordinary emotional depth and creative capacity alongside a tendency to dwell in melancholy and to compare their inner experience unfavorably to others' apparent ease."),
+      },
+      {
+        heading: "Type 4 Strengths",
+        html: strong([
+          { label: "Emotional depth:", desc: "Fours experience emotional life with unusual richness and are willing to go to depths that other types avoid. This gives them access to aspects of human experience that most people only glimpse." },
+          { label: "Creative authenticity:", desc: "Type 4 creative work carries a personal truth that resonates. They don't produce what sells — they produce what is real to them, and authenticity is compelling." },
+          { label: "Empathy for suffering:", desc: "Because Fours have been in the depths themselves, they can accompany others there without flinching. They are uniquely capable of sitting with pain rather than rushing to fix it." },
+          { label: "Aesthetic sensitivity:", desc: "Fours have a refined sense of beauty, meaning, and quality. Their aesthetic judgment is strong and their creative vision original." },
+          { label: "Individuality:", desc: "Fours resist conformity and bring genuinely personal perspectives. They enrich groups with a point of view that no one else would have offered." },
+        ]),
+      },
+      {
+        heading: "Type 4 Weaknesses and Growth Edges",
+        html: strong([
+          { label: "Melancholy and rumination:", desc: "Fours can become attached to their difficult emotions — dwelling in suffering as evidence of depth. They may resist moving through pain because it feels like losing something meaningful." },
+          { label: "Envy:", desc: "Fours compare their inner experience to others' outer lives and often find themselves lacking. This comparison fuels a chronic sense that others have something essential that they are missing." },
+          { label: "Self-absorption:", desc: "The intense inward focus of Fours can make them less attentive to the people around them. They may be deeply empathetic in theory and self-referential in practice." },
+          { label: "Mood-dependence:", desc: "Fours can be highly productive when inspired and almost inert when not. Managing mood as a variable in their work life is a genuine ongoing challenge." },
+          { label: "Idealization and disappointment:", desc: "Fours idealize what they don't have and devalue what they do. This pattern plays out in relationships, careers, and self-perception." },
+        ]) +
+          p("The growth path for Type 4 is learning to act and create regardless of emotional state — to discover that consistent action produces more meaning than waiting for the ideal emotional conditions. Fours grow when they can distinguish between authentic emotional depth and habitual suffering, and when they practice equanimity without abandoning their sensitivity."),
+      },
+      {
+        heading: "Type 4 Wings, Relationships, and Famous Examples",
+        html: p("Type 4 has two wings: 4w3 (Four with a Three wing) and 4w5 (Four with a Five wing). The 4w3 is more ambitious, image-conscious, and driven to externalize their uniqueness through achievement and recognition. The 4w5 is more withdrawn, intellectual, and focused on building a rich inner world rather than external expression.") +
+          p("In relationships, Fours bring romantic depth, attentiveness to their partner's inner life, and a quality of presence that others rarely offer. They need partners who can appreciate their complexity, who don't panic at emotional intensity, and who offer genuine engagement rather than placating.") +
+          p("Famous Type 4s include Frida Kahlo, Fyodor Dostoevsky, Johnny Depp, Virginia Woolf, and Bob Dylan — artists and thinkers whose work is inseparable from their interior emotional world."),
+      },
+    ],
+    faqs: [
+      { question: "What is Enneagram Type 4's core fear?", answer: "Type 4's core fear is having no identity or personal significance — being ordinary, defective, or abandoned. This drives their intense pursuit of authenticity and uniqueness." },
+      { question: "Why are Type 4s associated with melancholy?", answer: "Fours have an unusually developed relationship with difficult emotions and often find depth and meaning in melancholy. Their attention tends toward what is absent or incomplete rather than what is present and good." },
+      { question: "What is the Type 4 wing?", answer: "4w3 is more externally focused, achievement-oriented, and image-conscious. 4w5 is more withdrawn, intellectual, and focused on internal depth over external expression." },
+      { question: "How can Type 4 grow?", answer: "By developing action independent of mood — creating, connecting, and contributing regardless of emotional state. Fours grow when they discover that equanimity doesn't mean shallowness, and that consistent presence in life produces more meaning than emotional intensity alone." },
+    ],
+    ctaHeading: "Discover Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to find your type and understand the emotional motivations that shape your experience.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 3", url: "/blog/enneagram-type-3" },
+      { label: "Enneagram Type 5", url: "/blog/enneagram-type-5" },
+      { label: "Enneagram types explained", url: "/blog/enneagram-types-explained" },
+      { label: "Enneagram growth paths", url: "/blog/enneagram-growth-paths" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-5": {
+    slug: "enneagram-type-5",
+    metaTitle: "Enneagram Type 5 — The Investigator: Traits, Strengths & Growth",
+    metaDesc: "Complete guide to Enneagram Type 5 — The Investigator. Discover Type 5 core motivations, intellectual gifts, withdrawal patterns, and growth path.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-5",
+    h1: "Enneagram Type 5 — The Investigator: Complete Guide",
+    sections: [
+      {
+        heading: "Who Is the Enneagram Type 5?",
+        html: p("Enneagram Type 5 is The Investigator — perceptive, analytical, and independent. Fives are driven by a desire to understand — to accumulate knowledge and capability so that they can engage with the world from a position of competence rather than need. They protect their energy and privacy with vigilance.") +
+          p("Type 5's core motivation is to be capable and competent — to understand things thoroughly enough to not be caught unprepared. Their core fear is being helpless, useless, or overwhelmed by the world — of not having enough resources (energy, knowledge, space) to cope with what life demands.") +
+          p("This produces extraordinary intellectual depth and self-sufficiency, alongside a pattern of withdrawal and hoarding of inner resources that can limit Fives' engagement with relationships and the world."),
+      },
+      {
+        heading: "Type 5 Strengths",
+        html: strong([
+          { label: "Intellectual depth:", desc: "Fives go deep. Once engaged with a subject, they pursue understanding relentlessly and often develop expertise that rivals or surpasses specialists." },
+          { label: "Objectivity:", desc: "Fives observe before reacting. Their detachment from emotional reactivity gives them clarity and analytical precision that others in the midst of events cannot access." },
+          { label: "Self-sufficiency:", desc: "Type 5s require less from others than most types. They can sustain themselves independently and rarely burden others with needs they haven't tried to meet themselves first." },
+          { label: "Innovation:", desc: "Fives synthesize knowledge across domains and generate genuinely novel insights. Many of history's most original thinkers have been Type 5." },
+          { label: "Focused concentration:", desc: "Fives can sustain intense concentration on a single problem for extended periods — a cognitive capacity that is increasingly rare and valuable." },
+        ]),
+      },
+      {
+        heading: "Type 5 Weaknesses and Growth Edges",
+        html: strong([
+          { label: "Isolation:", desc: "Fives' need for alone time and resource protection can become habitual withdrawal. They may spend more time thinking about life than living it." },
+          { label: "Hoarding:", desc: "Fives conserve energy, time, knowledge, and space. This hoarding instinct can prevent them from giving freely in relationships and from fully engaging in the world." },
+          { label: "Emotional detachment:", desc: "Fives often intellectualize feelings rather than experiencing them. Their emotional world may be rich but inaccessible, even to themselves." },
+          { label: "Analysis paralysis:", desc: "The Five's need for sufficient knowledge before acting can become an indefinite deferral. There is always more to understand — and acting without complete information is frightening." },
+          { label: "Social minimalism:", desc: "Fives manage their relational energy carefully, which can mean that important relationships receive less than they need to thrive." },
+        ]) +
+          p("The growth path for Type 5 is learning to engage before they feel fully ready. Fives grow when they discover that participation generates competence more reliably than preparation alone — that you learn by doing, not only by thinking. They also grow when they practice sharing their inner world with trusted others, discovering that connection enriches rather than depletes."),
+      },
+      {
+        heading: "Type 5 Wings, Relationships, and Famous Examples",
+        html: p("Type 5 has two wings: 5w4 (Five with a Four wing) and 5w6 (Five with a Six wing). The 5w4 is more creative, individualistic, and drawn to artistic or philosophical expression. The 5w6 is more systematic, detail-oriented, and aligned with structured knowledge and collaborative work within safe structures.") +
+          p("In relationships, Fives bring quiet loyalty, intellectual engagement, and a rare quality of genuine presence when they choose to give it. They need partners who respect their need for space and solitude and who engage with their intellectual interests.") +
+          p("Famous Type 5s include Albert Einstein, Stephen Hawking, Bill Gates, Friedrich Nietzsche, and Franz Kafka — thinkers whose insight came from intense independent observation and analysis."),
+      },
+    ],
+    faqs: [
+      { question: "What is Enneagram Type 5's core fear?", answer: "Type 5's core fear is being helpless, useless, or overwhelmed — of not having enough internal resources to cope with what the world demands. This drives their accumulation of knowledge and their protective withdrawal." },
+      { question: "Why do Type 5s need so much alone time?", answer: "Social interaction depletes Fives' sense of internal resources. Alone time is how they replenish. This is not antisocial — it is the Five's resource management strategy." },
+      { question: "What is the Type 5 wing?", answer: "5w4 is more creative and individualistic, drawn to art and philosophy. 5w6 is more structured and detail-oriented, preferring systematic knowledge within stable frameworks." },
+      { question: "How can Type 5 grow?", answer: "By acting before feeling fully ready and sharing their inner world before it feels completely safe. Fives grow through participation — discovering that engagement generates capability rather than depleting it." },
+    ],
+    ctaHeading: "Discover Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to find your type and understand the drives behind your intellectual depth.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 4", url: "/blog/enneagram-type-4" },
+      { label: "Enneagram Type 6", url: "/blog/enneagram-type-6" },
+      { label: "Enneagram types explained", url: "/blog/enneagram-types-explained" },
+      { label: "Enneagram growth paths", url: "/blog/enneagram-growth-paths" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-6": {
+    slug: "enneagram-type-6",
+    metaTitle: "Enneagram Type 6 — The Loyalist: Traits, Strengths & Growth",
+    metaDesc: "Complete guide to Enneagram Type 6 — The Loyalist. Discover Type 6 core motivations, loyalty and anxiety patterns, strengths, and growth path.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-6",
+    h1: "Enneagram Type 6 — The Loyalist: Complete Guide",
+    sections: [
+      {
+        heading: "Who Is the Enneagram Type 6?",
+        html: p("Enneagram Type 6 is The Loyalist — responsible, reliable, and anxiety-prone. Sixes are driven by a desire to feel secure and supported. They are acutely aware of potential threats and work hard to build systems of safety — reliable people, dependable structures, and tested plans — that can protect them when things go wrong.") +
+          p("Type 6's core motivation is to feel safe, supported, and certain. Their core fear is being without support, guidance, or security — of being abandoned to face dangers they can't handle alone.") +
+          p("This produces one of the most loyal, responsible, and community-oriented types in the Enneagram, alongside a chronic anxiety about what could go wrong and a complicated relationship with authority."),
+      },
+      {
+        heading: "Type 6 Strengths",
+        html: strong([
+          { label: "Loyalty:", desc: "Sixes are among the most loyal types. Once committed to a person, team, or cause, they stay — even when things are difficult." },
+          { label: "Responsibility:", desc: "Type 6s take their commitments seriously and can be counted on. They are reliable colleagues, partners, and friends." },
+          { label: "Foresight:", desc: "Because Sixes are always scanning for what could go wrong, they often catch problems before they become crises. Their anxiety is often productive — it surfaces risks others miss." },
+          { label: "Community building:", desc: "Sixes understand that safety comes from people. They invest in building and maintaining the communities and alliances that provide mutual support." },
+          { label: "Courage through fear:", desc: "Counterphobic Sixes and healthy Sixes move toward their fears rather than away from them. They develop genuine courage not by being fearless but by acting despite fear." },
+        ]),
+      },
+      {
+        heading: "Type 6 Weaknesses and Growth Edges",
+        html: strong([
+          { label: "Chronic anxiety:", desc: "Sixes worry. Their attention naturally scans for threats, and they may spend significant energy preparing for scenarios that never occur." },
+          { label: "Doubt:", desc: "Sixes doubt themselves, their decisions, and sometimes the people and authorities they rely on. This ambivalence can make commitment difficult and second-guessing chronic." },
+          { label: "Reactivity to authority:", desc: "Sixes have a complex relationship with authority — alternating between deferring to it and rebelling against it, depending on whether it feels trustworthy or threatening." },
+          { label: "Worst-case orientation:", desc: "Sixes' protective scanning tends to amplify threats and minimize resources. They can become catastrophizers who can't access their own competence under stress." },
+          { label: "Over-preparation:", desc: "The drive to be ready for everything can make Sixes over-prepare at the expense of present engagement. Some of the scenarios they prepare for will never happen." },
+        ]) +
+          p("The growth path for Type 6 involves developing trust — in themselves, in others, and in the world. Sixes grow when they practice accessing their own inner authority rather than seeking it exclusively from external sources, and when they discover that they can handle more than they fear they can."),
+      },
+      {
+        heading: "Type 6 Wings, Relationships, and Famous Examples",
+        html: p("Type 6 has two wings: 6w5 (Six with a Five wing) and 6w7 (Six with a Seven wing). The 6w5 is more withdrawn, serious, and systematic — intellectual about security and thorough in preparation. The 6w7 is warmer, more sociable, and better at managing anxiety through activity and connection.") +
+          p("In relationships, Sixes bring devotion, trustworthiness, and a quality of showing up consistently. They need partners who are reliable, transparent, and patient with their anxiety — who demonstrate trustworthiness over time rather than expecting it to be assumed.") +
+          p("Famous Type 6s include Barack Obama, Princess Diana, Mark Twain, and Frodo Baggins (fictional) — figures whose loyalty, responsibility, and navigation of fear-and-courage dynamics are central to their stories."),
+      },
+    ],
+    faqs: [
+      { question: "What is Enneagram Type 6's core fear?", answer: "Type 6's core fear is being without support, guidance, or security — of facing danger or uncertainty alone without the resources or allies needed to survive it." },
+      { question: "What is a counterphobic Six?", answer: "Some Sixes respond to fear by moving toward it rather than away — they appear bold and confrontational. This counterphobic response is still fear-driven; it's a strategy for managing fear by dominating it rather than avoiding it." },
+      { question: "What is the Type 6 wing?", answer: "6w5 is more serious, withdrawn, and intellectually focused on security. 6w7 is warmer, more socially engaging, and better at managing anxiety through activity and connection." },
+      { question: "How can Type 6 grow?", answer: "By developing trust in their own competence and judgment. Sixes grow when they practice making decisions without seeking external validation first, and when they discover that their inner resources are more substantial than their anxiety suggests." },
+    ],
+    ctaHeading: "Find Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to discover your type and understand the security drives behind your loyalty and responsibility.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 5", url: "/blog/enneagram-type-5" },
+      { label: "Enneagram Type 7", url: "/blog/enneagram-type-7" },
+      { label: "Enneagram types explained", url: "/blog/enneagram-types-explained" },
+      { label: "Enneagram in the workplace", url: "/blog/enneagram-in-workplace" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-7": {
+    slug: "enneagram-type-7",
+    metaTitle: "Enneagram Type 7 — The Enthusiast: Traits, Strengths & Growth",
+    metaDesc: "Complete guide to Enneagram Type 7 — The Enthusiast. Discover Type 7 core motivations, joy-seeking, avoidance patterns, and growth path.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-7",
+    h1: "Enneagram Type 7 — The Enthusiast: Complete Guide",
+    sections: [
+      {
+        heading: "Who Is the Enneagram Type 7?",
+        html: p("Enneagram Type 7 is The Enthusiast — spontaneous, versatile, and optimistic. Sevens are driven by a desire for happiness, stimulation, and freedom from pain. They scan the world for possibilities, experiences, and adventures, and move toward what is exciting and away from what is limiting or painful.") +
+          p("Type 7's core motivation is to be satisfied and content — to have their needs met and to experience life fully. Their core fear is being in pain, trapped, or deprived — of missing out, being bored, or being forced to suffer without the freedom to escape.") +
+          p("This produces extraordinary enthusiasm, creativity, and adventurousness, alongside a tendency to avoid depth, commitment, and painful emotions by redirecting toward the next exciting thing."),
+      },
+      {
+        heading: "Type 7 Strengths",
+        html: strong([
+          { label: "Enthusiasm and joy:", desc: "Sevens genuinely enjoy life and are skilled at generating positive energy. Their enthusiasm is contagious and lifts the spirits of people around them." },
+          { label: "Creativity and synthesis:", desc: "Type 7s connect ideas across domains with unusual speed. They are natural innovators who produce creative solutions by combining things others keep separate." },
+          { label: "Optimism:", desc: "Sevens reframe problems as opportunities and failures as learnings with genuine conviction. Their optimism is often practically useful — it keeps momentum going when others would quit." },
+          { label: "Adaptability:", desc: "Sevens move easily between environments, people, and ideas. They are not attached to how things were and can pivot without distress." },
+          { label: "Fun and play:", desc: "Sevens create experiences that are genuinely enjoyable. They are skilled at making work, relationships, and life more pleasurable for everyone in their orbit." },
+        ]),
+      },
+      {
+        heading: "Type 7 Weaknesses and Growth Edges",
+        html: strong([
+          { label: "Avoidance of pain:", desc: "Sevens redirect away from difficult emotions, uncomfortable realities, and painful experiences. This escape strategy protects them in the short term but prevents depth and healing." },
+          { label: "Commitment difficulty:", desc: "The Seven's love of possibilities makes closing off options feel like loss. Committing to one path, person, or project forecloses others — which triggers the fear of deprivation." },
+          { label: "Scattered focus:", desc: "Sevens generate many more ideas and projects than they complete. Their attention moves toward the next exciting thing before the current one is finished." },
+          { label: "Restlessness:", desc: "Even in genuinely good situations, Sevens can become restless — wondering if something better is available, scanning for the next experience before fully inhabiting the present one." },
+          { label: "Rationalizing:", desc: "Sevens are skilled at reframing any situation positively — which is a strength until it becomes a way of avoiding honest confrontation with what is genuinely wrong." },
+        ]) +
+          p("The growth path for Type 7 involves learning to stay — to be present with difficulty rather than escaping it, to deepen rather than widen, and to discover that the sustained engagement with one thing often produces more joy than the constant pursuit of the next. Sevens grow when they practice gratitude for what is rather than always seeking what could be."),
+      },
+      {
+        heading: "Type 7 Wings, Relationships, and Famous Examples",
+        html: p("Type 7 has two wings: 7w6 (Seven with a Six wing) and 7w8 (Seven with an Eight wing). The 7w6 is more anxious, loyal, and responsible — the Seven's enthusiasm tempered by the Six's care for security and community. The 7w8 is more assertive, independent, and willing to pursue desires without hesitation.") +
+          p("In relationships, Sevens bring excitement, playfulness, and genuine warmth. They need partners who can engage their curiosity and who can also gently encourage them to stay when things get difficult rather than redirect to something easier.") +
+          p("Famous Type 7s include Robin Williams, Mozart, Amelia Earhart, Benjamin Franklin, and Richard Branson — figures whose enthusiasm, creativity, and range define their legacy."),
+      },
+    ],
+    faqs: [
+      { question: "What is Enneagram Type 7's core fear?", answer: "Type 7's core fear is being in pain, trapped, or deprived — of missing out, being bored, or suffering without the freedom to escape to something better." },
+      { question: "Why do Type 7s avoid commitment?", answer: "Commitment forecloses other possibilities, which triggers the Seven's fear of deprivation. Saying yes to one thing feels like saying no to everything else — and the Seven's mind always wonders if the alternatives might be better." },
+      { question: "What is the Type 7 wing?", answer: "7w6 is more responsible, anxious, and loyal — enthusiasm balanced by security-seeking. 7w8 is more assertive, independent, and willing to pursue desires boldly without much concern for consequences." },
+      { question: "How can Type 7 grow?", answer: "By practicing presence with difficulty rather than escaping it. Sevens grow through meditation, depth practices, and commitments that require staying through the uncomfortable middle — discovering that sustained engagement produces richer experiences than constant novelty." },
+    ],
+    ctaHeading: "Discover Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to find your type and understand what drives your enthusiasm and love of life.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 6", url: "/blog/enneagram-type-6" },
+      { label: "Enneagram Type 8", url: "/blog/enneagram-type-8" },
+      { label: "Enneagram types explained", url: "/blog/enneagram-types-explained" },
+      { label: "Enneagram career paths", url: "/blog/enneagram-career-paths" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-8": {
+    slug: "enneagram-type-8",
+    metaTitle: "Enneagram Type 8 — The Challenger: Traits, Strengths & Growth",
+    metaDesc: "Complete guide to Enneagram Type 8 — The Challenger. Discover Type 8 core motivations, power and control drives, strengths, and growth path.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-8",
+    h1: "Enneagram Type 8 — The Challenger: Complete Guide",
+    sections: [
+      {
+        heading: "Who Is the Enneagram Type 8?",
+        html: p("Enneagram Type 8 is The Challenger — powerful, decisive, and protective. Eights are driven by a desire to be in control of their own lives and to protect themselves and those they care about from harm. They confront the world directly and have little patience for weakness, deception, or anything that limits their autonomy.") +
+          p("Type 8's core motivation is to be self-reliant and in control — to protect themselves and others, and to have the strength to determine their own fate. Their core fear is being controlled, manipulated, or harmed by others — of being vulnerable or at the mercy of another's will.") +
+          p("This produces commanding, decisive leaders with extraordinary protective capacity, alongside a tendency toward domination, confrontation, and the suppression of their own vulnerability."),
+      },
+      {
+        heading: "Type 8 Strengths",
+        html: strong([
+          { label: "Decisive leadership:", desc: "Eights make decisions quickly and own them completely. They don't waver or second-guess — they act, assess, and course-correct." },
+          { label: "Protective instinct:", desc: "When Eights care about someone, they protect them fiercely. Their power is often deployed in service of people who cannot protect themselves." },
+          { label: "Direct honesty:", desc: "Eights say what they mean. There is no hidden agenda, no social performance, no gap between public and private position. Their directness is a form of respect." },
+          { label: "Resilience:", desc: "Eights are built for adversity. They don't fold under pressure — they lean in. Setbacks that would stop others make Eights more determined." },
+          { label: "Justice orientation:", desc: "Eights have a strong instinct for fairness. When they see the powerful abusing the vulnerable, they are among the first to intervene." },
+        ]),
+      },
+      {
+        heading: "Type 8 Weaknesses and Growth Edges",
+        html: strong([
+          { label: "Intimidation:", desc: "Eights' directness and intensity can be genuinely intimidating to others — creating distance when connection is what the Eight actually wants." },
+          { label: "Control drive:", desc: "The fear of being controlled can flip into a need to control others. Eights may dominate environments not from cruelty but from an inability to tolerate uncertainty about what will happen." },
+          { label: "Vulnerability suppression:", desc: "Eights experienced early that vulnerability was dangerous and learned to eliminate it. The result is a layer of armor that protects but also isolates." },
+          { label: "Excess:", desc: "Eights are drawn to intensity and can overconsume — too much food, drink, activity, conflict, or work — as a way of feeling fully alive." },
+          { label: "Grudges:", desc: "Eights have a long memory for betrayal. When trust is broken, the door may close permanently — a protection strategy that can cut off relationships worth repairing." },
+        ]) +
+          p("The growth path for Type 8 involves developing the capacity for genuine vulnerability — discovering that showing their softer side to trusted people does not make them weak but rather deepens their power. Eights grow when they can be led as well as lead, when they can surrender control without feeling threatened, and when they can use their considerable power in service of others' flourishing."),
+      },
+      {
+        heading: "Type 8 Wings, Relationships, and Famous Examples",
+        html: p("Type 8 has two wings: 8w7 (Eight with a Seven wing) and 8w9 (Eight with a Nine wing). The 8w7 is more expansive, energetic, and entrepreneurial — the Eight's power combined with Seven's love of possibility. The 8w9 is calmer, more grounded, and more diplomatic — the Eight's strength softened by Nine's preference for harmony.") +
+          p("In relationships, Eights bring fierce loyalty, protection, and a quality of fully showing up. They need partners who are not intimidated by their intensity — who can push back, hold their own ground, and create the conditions in which Eights feel safe enough to show vulnerability.") +
+          p("Famous Type 8s include Winston Churchill, Martin Luther King Jr., Serena Williams, Frank Sinatra, and Toni Morrison — figures whose power, directness, and willingness to confront define their legacies."),
+      },
+    ],
+    faqs: [
+      { question: "What is Enneagram Type 8's core fear?", answer: "Type 8's core fear is being controlled, manipulated, or harmed — of being vulnerable and at the mercy of others. This drives their fierce need for autonomy and their tendency to project power." },
+      { question: "Why do Type 8s seem aggressive?", answer: "Eights move toward conflict rather than away from it — partly because directness feels honest to them, and partly because engaging with challenges feels more controllable than waiting to see what happens. What reads as aggression is often a form of active security management." },
+      { question: "What is the Type 8 wing?", answer: "8w7 is more expansive, entrepreneurial, and energetic — power plus enthusiasm. 8w9 is calmer, more grounded, and more diplomatically inclined — power softened by patience." },
+      { question: "How can Type 8 grow?", answer: "By developing trust in specific others and practicing the selective vulnerability that deepens relationships. Eights grow when they discover that being seen in their softness by trusted people increases rather than decreases their sense of security." },
+    ],
+    ctaHeading: "Discover Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to find your type and understand the power drives that shape your leadership and relationships.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 7", url: "/blog/enneagram-type-7" },
+      { label: "Enneagram Type 9", url: "/blog/enneagram-type-9" },
+      { label: "Enneagram types explained", url: "/blog/enneagram-types-explained" },
+      { label: "Enneagram in the workplace", url: "/blog/enneagram-in-workplace" },
+    ],
+    datePublished: "2026-04-18",
+  },
+
+  "enneagram-type-9": {
+    slug: "enneagram-type-9",
+    metaTitle: "Enneagram Type 9 — The Peacemaker: Traits, Strengths & Growth",
+    metaDesc: "Complete guide to Enneagram Type 9 — The Peacemaker. Discover Type 9 core motivations, harmony-seeking, self-forgetting, and growth path.",
+    canonicalUrl: "https://1test.me/blog/enneagram-type-9",
+    h1: "Enneagram Type 9 — The Peacemaker: Complete Guide",
+    sections: [
+      {
+        heading: "Who Is the Enneagram Type 9?",
+        html: p("Enneagram Type 9 is The Peacemaker — receptive, calm, and harmonizing. Nines are driven by a desire for inner and outer peace — to feel connected and at ease with the world and the people in it. They have a natural capacity to see all sides of a situation and to hold space for different perspectives without judgment.") +
+          p("Type 9's core motivation is to maintain their inner peace and stability — to feel connected and to avoid conflict that would disturb the harmony they value. Their core fear is separation, loss, or fragmentation — of being in conflict that disconnects them from what they love.") +
+          p("This produces one of the most accepting, stabilizing, and genuinely peaceful types in the Enneagram, alongside a tendency to merge with others' agendas, forget their own priorities, and avoid conflict even when conflict would serve the relationship."),
+      },
+      {
+        heading: "Type 9 Strengths",
+        html: strong([
+          { label: "Genuine acceptance:", desc: "Nines accept people as they are without judgment or agenda. This quality creates a feeling of safety that draws people to Nines naturally." },
+          { label: "Mediation:", desc: "Because Nines can hold multiple perspectives simultaneously, they are natural mediators. They understand all sides of a conflict without needing any side to be right." },
+          { label: "Calm presence:", desc: "Type 9s have a stabilizing quality. In tense situations, their equanimity de-escalates rather than amplifying — a rare and valuable relational gift." },
+          { label: "Inclusivity:", desc: "Nines make everyone feel included. They notice who is on the margins and bring them in, not from social obligation but from genuine care." },
+          { label: "Patience:", desc: "Nines don't rush. They can sustain comfortable, undemanding presence for extended periods — a quality that others, especially in difficulty, find deeply reassuring." },
+        ]),
+      },
+      {
+        heading: "Type 9 Weaknesses and Growth Edges",
+        html: strong([
+          { label: "Self-forgetting:", desc: "Nines merge with others' priorities so naturally that they can lose track of their own. The Nine who can tell you exactly what everyone else wants may struggle to name what they themselves want." },
+          { label: "Conflict avoidance:", desc: "Nines will go to considerable lengths to avoid conflict, including suppressing legitimate needs, feelings, and perspectives to maintain surface harmony." },
+          { label: "Inertia:", desc: "Nines can struggle to initiate. Starting new things, making decisions, and asserting preferences all require accessing a sense of personal priority that inertia suppresses." },
+          { label: "Passive aggression:", desc: "Because direct conflict is avoided, Nine frustration often emerges sideways — through forgetting, delay, stubbornness, or disengagement." },
+          { label: "Numbing:", desc: "Nines can withdraw into comfortable, low-engagement activities (TV, social media, routine) that absorb time without producing meaningful engagement with their actual life." },
+        ]) +
+          p("The growth path for Type 9 involves waking up to their own priorities — learning to access, name, and advocate for what they want and need. Nines grow when they discover that their presence, perspective, and participation matter to the people they love, and that conflict, entered bravely, is often the shortest path to the genuine harmony they seek."),
+      },
+      {
+        heading: "Type 9 Wings, Relationships, and Famous Examples",
+        html: p("Type 9 has two wings: 9w8 (Nine with an Eight wing) and 9w1 (Nine with a One wing). The 9w8 is more assertive and grounded — Nine's peaceful nature backed by Eight's strength and willingness to act. The 9w1 is more principled, conscientious, and idealistic — Nine's acceptance combined with One's ethical commitment.") +
+          p("In relationships, Nines bring acceptance, patience, and a rare quality of making people feel truly seen and received. They need partners who actively invite their perspective rather than waiting for it — who make space for the Nine's voice explicitly, knowing it may not emerge without an invitation.") +
+          p("Famous Type 9s include Abraham Lincoln, Queen Elizabeth II, Carl Jung, Audrey Hepburn, and Mister Rogers — figures whose legacy centers on acceptance, wisdom, and the creation of genuine peace."),
+      },
+    ],
+    faqs: [
+      { question: "What is Enneagram Type 9's core fear?", answer: "Type 9's core fear is separation, conflict, or loss of connection — of being in discord with the people and world they love. This drives their peacemaking orientation and their tendency to suppress their own needs." },
+      { question: "Why do Type 9s struggle to make decisions?", answer: "Decisions require prioritizing one thing over others — and Nines feel the validity of multiple options simultaneously. Choosing one means letting go of the others, which activates the Nine's sensitivity to loss and conflict." },
+      { question: "What is the Type 9 wing?", answer: "9w8 is more assertive and grounded — peaceful but willing to act when pushed. 9w1 is more conscientious and principled — peaceful with a strong ethical orientation." },
+      { question: "How can Type 9 grow?", answer: "By practicing the identification and expression of personal priorities. Nines grow through regular exercises in self-awareness ('what do I want?') and through discovering that their perspective, when offered, is genuinely valued rather than disruptive." },
+    ],
+    ctaHeading: "Discover Your Enneagram Type",
+    ctaSubtext: "Take our free personality test to find your type and understand the peace-seeking drives that shape your relationships and choices.",
+    ctaFramework: "enneagram",
+    ctaUrl: "/free-personality-test",
+    crossLinks: [
+      { label: "Enneagram Type 8", url: "/blog/enneagram-type-8" },
+      { label: "Enneagram Type 1", url: "/blog/enneagram-type-1" },
+      { label: "Enneagram types explained", url: "/blog/enneagram-types-explained" },
+      { label: "Enneagram growth paths", url: "/blog/enneagram-growth-paths" },
+    ],
+    datePublished: "2026-04-18",
+  },
 };
 
 function strong(items: { label: string; desc: string }[]): string {

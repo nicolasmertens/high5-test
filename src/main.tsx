@@ -293,6 +293,15 @@ function AppRoutes() {
       <Route path="/blog/estp-strengths-and-weaknesses" element={<BlogPage slug="estp-strengths-and-weaknesses" />} />
       <Route path="/blog/esfp-strengths-and-weaknesses" element={<BlogPage slug="esfp-strengths-and-weaknesses" />} />
       <Route path="/blog/isfp-strengths-and-weaknesses" element={<BlogPage slug="isfp-strengths-and-weaknesses" />} />
+      <Route path="/blog/enneagram-type-1" element={<BlogPage slug="enneagram-type-1" />} />
+      <Route path="/blog/enneagram-type-2" element={<BlogPage slug="enneagram-type-2" />} />
+      <Route path="/blog/enneagram-type-3" element={<BlogPage slug="enneagram-type-3" />} />
+      <Route path="/blog/enneagram-type-4" element={<BlogPage slug="enneagram-type-4" />} />
+      <Route path="/blog/enneagram-type-5" element={<BlogPage slug="enneagram-type-5" />} />
+      <Route path="/blog/enneagram-type-6" element={<BlogPage slug="enneagram-type-6" />} />
+      <Route path="/blog/enneagram-type-7" element={<BlogPage slug="enneagram-type-7" />} />
+      <Route path="/blog/enneagram-type-8" element={<BlogPage slug="enneagram-type-8" />} />
+      <Route path="/blog/enneagram-type-9" element={<BlogPage slug="enneagram-type-9" />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="/relationship/:id" element={<RelationshipReportPage />} />
