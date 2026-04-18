@@ -145,6 +145,14 @@ const LANDING_FAQS = {
     { question: "Is the 16 Personalities test the same as a personality test?", answer: "The 16 Personalities framework is one approach to personality assessment. It focuses on cognitive preferences. Other frameworks measure different dimensions: DISC measures behavioral style, Strengths measures natural talents, and the Enneagram measures core motivations. Each provides a different lens. Taking multiple frameworks gives you a more complete understanding." },
     { question: "What personality type is best for leadership?", answer: "No personality type is inherently better for leadership. Different types lead differently. Thinking-Judging types tend to lead with structure and logic. Feeling-Extraverted types tend to lead with empathy and energy. Introverted-Intuitive types tend to lead with vision and strategy. Effective leadership comes from understanding your type and adapting your approach." },
   ],
+  "/strengths-test": [
+    { question: "What is a strengths test?", answer: "A strengths test is a personality assessment that identifies your natural patterns of thinking, feeling, and behaving — the tendencies that come easily to you and that give you energy. Unlike skill assessments, a strengths test measures who you naturally are, not what you have learned." },
+    { question: "Is there a free CliftonStrengths alternative?", answer: "Yes. 1Test is a free strengths assessment that gives you your complete strengths profile — 20 strengths ranked from dominant to developing — with no paywall and no signup required. CliftonStrengths charges $19.99 for your top 5 strengths; 1Test gives you all 20 for free." },
+    { question: "How many strengths does the 1Test assessment measure?", answer: "1Test measures 20 strengths organized across four domains: Doing, Thinking, Feeling, and Motivating. Your results show all 20 strengths ranked from your most dominant to your most developing." },
+    { question: "How long does the strengths test take?", answer: "The full 1Test assessment — which includes Strengths plus DISC, 16 Personalities, and Enneagram — takes approximately 10-15 minutes. You answer 120 questions in a single sitting and receive all four framework results immediately." },
+    { question: "Can your strengths change over time?", answer: "Your core strengths tend to be stable throughout your life, but how you apply and express them evolves. A strength like Strategic Thinking might show up differently in your 20s versus your 40s. Retaking the assessment after significant changes can surface useful shifts." },
+    { question: "What is the difference between strengths and skills?", answer: "Skills are learned — you develop them through practice and training. Strengths are natural patterns — tendencies that come easily to you and that give you energy when used. Building a skill aligned with a natural strength requires far less effort than building one against the grain." },
+  ],
 };
 
 const BLOG_FAQS = {
@@ -2202,6 +2210,38 @@ const BODY_CONTENT = {
       { heading: "What Is the 16 Personalities Framework?", text: "The 16 Personalities framework maps your preferences across four dimensions: Energy (Extraversion/Introversion), Information (Sensing/Intuition), Decisions (Thinking/Feeling), and Structure (Judging/Perceiving). These four preferences combine into one of 16 unique types, each with distinct patterns for processing information, making decisions, and interacting with the world." },
       { heading: "Take the Free Personality Test", text: "1Test offers a complete, free personality assessment that reveals your type, your preference dimensions, and practical insights about work, relationships, and personal growth. It takes about 10-15 minutes, and you receive your full profile with no paywall." },
       { heading: "Using Your Results", text: "Your personality type is a starting point, not a box. It tells you about your natural preferences — how you recharge, process information, make decisions, and organize your life. The most useful thing you can do with your results is reflect on where they show up in your daily life and use that awareness to make better decisions about work, relationships, and personal growth." },
+    ],
+  },
+  "/disc-test": {
+    h1: "DISC Personality Test — Free Online DISC Assessment",
+    sections: [
+      { heading: "What the DISC Personality Test Measures", text: "DISC measures four behavioral dimensions: Dominance (how you respond to problems), Influence (how you relate to others), Steadiness (how you respond to pace), and Conscientiousness (how you respond to rules). Your DISC profile describes your natural communication style, decision-making approach, and how you perform under pressure." },
+      { heading: "DISC in the Workplace", text: "DISC is the most commonly used behavioral assessment for hiring, team building, and leadership development. Organizations use it to build balanced teams, improve communication, and develop leaders. Understanding your DISC profile helps you work to your strengths and recognize what others need from interactions with you." },
+      { heading: "Free DISC Test — No Signup Required", text: "1Test provides your complete DISC profile for free — no account, no paywall, no credit card. Combined with 16 Personalities, Enneagram, and Strengths results in a single 120-question test, it is the most complete free personality assessment available." },
+    ],
+  },
+  "/enneagram-test": {
+    h1: "Enneagram Test — Discover Your Type Free",
+    sections: [
+      { heading: "What the Enneagram Test Measures", text: "The Enneagram describes nine personality types, each defined by a core motivation. Unlike behavioral tests that describe what you do, the Enneagram explains why. Understanding your Enneagram type reveals your deepest fears and desires, your growth direction, and the patterns that drive your decisions." },
+      { heading: "The 9 Enneagram Types", text: "Type 1 (Reformer), Type 2 (Helper), Type 3 (Achiever), Type 4 (Individualist), Type 5 (Investigator), Type 6 (Loyalist), Type 7 (Enthusiast), Type 8 (Challenger), Type 9 (Peacemaker). Each type has a growth direction (integration) and a stress direction (disintegration) that provide a practical map for development." },
+      { heading: "Free Enneagram Test — No Email Required", text: "1Test offers a complete Enneagram assessment at no cost — no signup, no email gate, no partial results. You receive your type, wing identification, and growth directions immediately. Most Enneagram tests require an account; 1Test gives you everything upfront." },
+    ],
+  },
+  "/16-personalities-test": {
+    h1: "16 Personalities Test — Discover Your Type Free",
+    sections: [
+      { heading: "What the 16 Personalities Test Reveals", text: "The 16 personalities framework maps your cognitive preferences across four dimensions: Extraversion/Introversion, Sensing/Intuition, Thinking/Feeling, and Judging/Perceiving. These combine into one of 16 unique types — each with a four-letter code like INTJ, ENFP, or ISTJ — that describes your natural approach to information, decisions, and structure." },
+      { heading: "Free 16 Personalities Alternative", text: "1Test is a free 16 personalities alternative that provides your complete type description with no paywall and no signup. Unlike other personality sites that lock detailed results or require an email address, 1Test gives you everything immediately — plus DISC, Enneagram, and Strengths results from the same test." },
+      { heading: "Your Type at Work and in Relationships", text: "Your 16 personalities type affects how you communicate, lead, and handle stress. Introverted types tend to perform best in focused, deep-work environments. Intuitive types thrive in strategy and innovation roles. Thinking types excel in analytical and decision-making positions. Perceiving types adapt quickly in dynamic environments. Knowing your type helps you make better career and relationship decisions." },
+    ],
+  },
+  "/strengths-test": {
+    h1: "Strengths Test — Free Strengths Assessment",
+    sections: [
+      { heading: "What a Strengths Test Measures", text: "A strengths test identifies your natural patterns of thinking, feeling, and behaving — the things that come easily and give you energy. Unlike skills (which you learn), strengths are tendencies you are born with and develop over time. A strengths assessment gives you a vocabulary for what you already do well so you can do more of it intentionally." },
+      { heading: "Free CliftonStrengths Alternative", text: "CliftonStrengths charges $19.99 for your top 5 strengths and $49.99 for all 34. 1Test gives you your complete strengths profile — 20 strengths ranked — for free with no paywall. No signup required. Your full results are available immediately after the assessment." },
+      { heading: "Using Your Strengths at Work", text: "People who use their top strengths daily report higher engagement and performance. Start by identifying which parts of your current role use your dominant strengths. If your core responsibilities rarely touch your top strengths, that is often the root cause of disengagement. 1Test includes practical suggestions for applying each strength at work and in relationships." },
     ],
   },
   "/blog/best-free-strengths-assessment": {
