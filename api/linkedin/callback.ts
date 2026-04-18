@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { gcsSet, gcsDelete } from "../lib/gcs-storage.js";
+import { gcsSet } from "../lib/gcs-storage.js";
 
 const SITE_URL = process.env.SITE_URL || "https://1test.me";
 const CLIENT_ID = process.env.LINKEDIN_CLIENT_ID!;
@@ -15,19 +15,24 @@ export interface LinkedInProfile {
   connectedAt: number;
 }
 
-function extractLocalizedField(field: unknown): string | null {
-  if (!field || typeof field !== "object") return null;
-  const f = field as Record<string, unknown>;
-  const localized = f.localized as Record<string, string> | undefined;
+// LinkedIn v2 returns pre-resolved localized strings via `localized*` fields.
+// The complex `{ localized: {...}, preferredLocale: {...} }` shape is the older format —
+// handle both defensively.
+function extractHeadline(meData: Record<string, unknown>): string | null {
+  // Preferred: pre-resolved string
+  if (typeof meData.localizedHeadline === "string") return meData.localizedHeadline || null;
+  // Fallback: complex localized object
+  const h = meData.headline;
+  if (!h || typeof h !== "object") return null;
+  const hObj = h as Record<string, unknown>;
+  const localized = hObj.localized as Record<string, string> | undefined;
   if (!localized) return null;
-  const preferred = f.preferredLocale as { country: string; language: string } | undefined;
+  const preferred = hObj.preferredLocale as { country: string; language: string } | undefined;
   if (preferred) {
-    const key = `${preferred.language}_${preferred.country}`;
-    if (localized[key]) return localized[key];
+    const val = localized[`${preferred.language}_${preferred.country}`];
+    if (val) return val;
   }
-  // Fall back to first available locale
-  const first = Object.values(localized)[0];
-  return first ?? null;
+  return Object.values(localized)[0] ?? null;
 }
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
@@ -74,29 +79,41 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     const { access_token: accessToken } = (await tokenRes.json()) as { access_token: string };
 
-    // Fetch OIDC userinfo (name, email, picture)
+    // Fetch OIDC userinfo (name, email, picture) + basic profile (headline)
     const [userInfoRes, meRes] = await Promise.all([
       fetch("https://api.linkedin.com/v2/userinfo", {
         headers: { Authorization: `Bearer ${accessToken}` },
       }),
-      fetch("https://api.linkedin.com/v2/me?projection=(id,headline)", {
-        headers: { Authorization: `Bearer ${accessToken}` },
-      }),
+      fetch(
+        "https://api.linkedin.com/v2/me?projection=(id,localizedFirstName,localizedLastName,localizedHeadline,headline)",
+        { headers: { Authorization: `Bearer ${accessToken}` } },
+      ),
     ]);
 
     const userInfo = userInfoRes.ok
-      ? ((await userInfoRes.json()) as { sub: string; name?: string; email?: string; picture?: string })
+      ? ((await userInfoRes.json()) as {
+          sub: string;
+          name?: string;
+          email?: string;
+          picture?: string;
+        })
       : null;
 
     const meData = meRes.ok
-      ? ((await meRes.json()) as { id?: string; headline?: unknown })
+      ? ((await meRes.json()) as Record<string, unknown>)
       : null;
 
+    // Build display name: prefer OIDC name, fall back to localized first+last from /me
+    const displayName =
+      userInfo?.name ||
+      [meData?.localizedFirstName, meData?.localizedLastName].filter(Boolean).join(" ") ||
+      "";
+
     const profile: LinkedInProfile = {
-      linkedInId: userInfo?.sub ?? meData?.id ?? "",
-      name: userInfo?.name ?? "",
+      linkedInId: userInfo?.sub ?? (meData?.id as string) ?? "",
+      name: displayName,
       email: userInfo?.email ?? null,
-      headline: extractLocalizedField(meData?.headline),
+      headline: meData ? extractHeadline(meData) : null,
       pictureUrl: userInfo?.picture ?? null,
       connectedAt: Date.now(),
     };
@@ -108,8 +125,4 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     console.error("LinkedIn callback error:", err);
     return res.redirect(`${SITE_URL}/?linkedin_error=server`);
   }
-}
-
-export async function deleteLinkedInProfile(profileHash: string): Promise<void> {
-  await gcsDelete(`linkedin/${profileHash}.json`);
 }
