@@ -1,4 +1,5 @@
 import { useState, useMemo, useCallback, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import {
   questions,
   strengths,
@@ -72,8 +73,13 @@ function generateDevAnswers(): Record<number, number> {
 export function useAssessment() {
   const saved = useMemo(() => loadProgress(), []);
   const isDevMode = typeof window !== "undefined" && new URLSearchParams(window.location.search).has("dev");
+  const navigate = useNavigate();
 
-  const [phase, setPhase] = useState<Phase>(() => isDevMode ? "results" : "intro");
+  const [phase, setPhase] = useState<Phase>(() => {
+    if (isDevMode) return "results";
+    if (saved && Object.keys(saved.answers).length > 0) return "intro";
+    return "test";
+  });
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, number>>(() =>
     isDevMode ? generateDevAnswers() : {}
@@ -145,11 +151,9 @@ export function useAssessment() {
   }, [saved]);
 
   const restart = useCallback(() => {
-    setPhase("intro");
-    setCurrentIndex(0);
-    setAnswers({});
     clearProgress();
-  }, []);
+    navigate("/");
+  }, [navigate]);
 
   // Scoring: for each strength, average its 6 question scores (0-100)
   // Reversed items: score = 100 - raw

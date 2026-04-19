@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { useAssessment } from "./hooks/useAssessment";
-import { IntroScreen } from "./components/IntroScreen";
 import { QuestionCard } from "./components/QuestionCard";
 import { ResultsScreen } from "./components/ResultsScreen";
 import { EmailGate } from "./components/EmailGate";
@@ -46,8 +46,10 @@ function AppInner() {
     restart,
   } = useAssessment();
 
+  const { t } = useTranslation();
   const { checkSession } = usePayment();
   const prevPhase = useRef(phase);
+  const trackedStartRef = useRef(false);
   const emailCaptureVariant = useRef(getVariant("email_capture_moment"));
   const [emailGatePassed, setEmailGatePassed] = useState(false);
 
@@ -62,8 +64,9 @@ function AppInner() {
   }, [checkSession]);
 
   useEffect(() => {
-    if (prevPhase.current === "intro" && phase === "test") {
+    if (phase === "test" && !trackedStartRef.current) {
       trackTestStarted("all");
+      trackedStartRef.current = true;
     }
     if (prevPhase.current === "test" && phase === "results") {
       trackTestCompleted("strengths", totalQuestions);
@@ -120,15 +123,6 @@ function AppInner() {
     }
   }, []);
 
-  const handleStart = () => {
-    start();
-  };
-
-  const handleResume = () => {
-    trackTestStarted("all");
-    resume();
-  };
-
   return (
     <div className="app">
       <SEOHead
@@ -137,12 +131,18 @@ function AppInner() {
         canonicalUrl="https://1test.me/"
       />
       <InviteBanner />
-      {phase === "intro" && (
-        <IntroScreen
-          onStart={handleStart}
-          onResume={handleResume}
-          hasSavedProgress={hasSavedProgress}
-        />
+      {phase === "intro" && hasSavedProgress && (
+        <div className="resume-card">
+          <p className="resume-card-prompt">{t("intro.continueWhere")}</p>
+          <div className="resume-card-actions">
+            <button className="btn-start" onClick={resume}>
+              {t("intro.continueWhere")}
+            </button>
+            <button className="btn-start btn-start-secondary" onClick={start}>
+              {t("intro.startOver")}
+            </button>
+          </div>
+        </div>
       )}
 
       {phase === "test" && currentQuestion && (
