@@ -80,6 +80,7 @@ export function HomePage() {
             </svg>
           </span>
         </div>
+        <span className="beta-badge">BETA</span>
         <h1 className="hero-headline">{t("homepage.heroHeadline")}</h1>
         <p className="hero-subtitle">{t("homepage.heroSubtitle")}</p>
         <div className="hero-ctas">
@@ -90,6 +91,7 @@ export function HomePage() {
             {t("homepage.heroCtaSecondary")}
           </a>
         </div>
+        <p className="intro-social-proof">{t("intro.socialProof")}</p>
         <div className="trust-bar">
           <span className="trust-item">{t("homepage.trustFree")}</span>
           <span className="trust-item-sep">·</span>
@@ -98,6 +100,24 @@ export function HomePage() {
           <span className="trust-item">{t("homepage.trustResearch")}</span>
           <span className="trust-item-sep">·</span>
           <span className="trust-item">{t("homepage.trustFrameworks")}</span>
+        </div>
+        <div className="intro-details">
+          <div className="detail-card">
+            <span className="detail-number">120</span>
+            <span className="detail-label">{t("intro.questionCount")}</span>
+          </div>
+          <div className="detail-card">
+            <span className="detail-number">4</span>
+            <span className="detail-label">{t("intro.frameworksCount")}</span>
+          </div>
+          <div className="detail-card">
+            <span className="detail-number">~15</span>
+            <span className="detail-label">{t("intro.minutesLabel")}</span>
+          </div>
+          <div className="detail-card">
+            <span className="detail-number">{t("intro.freeAlways").split("")[0]}</span>
+            <span className="detail-label">{t("intro.freeAlways")}</span>
+          </div>
         </div>
       </section>
 
@@ -135,6 +155,12 @@ export function HomePage() {
             </Link>
           ))}
         </div>
+        <div className="intro-domains">
+          <span className="domain-pill doing">{t("frameworkCards.domains.doing")}</span>
+          <span className="domain-pill thinking">{t("frameworkCards.domains.thinking")}</span>
+          <span className="domain-pill feeling">{t("frameworkCards.domains.feeling")}</span>
+          <span className="domain-pill motivating">{t("frameworkCards.domains.motivating")}</span>
+        </div>
         <p className="framework-cards-footer">
           {t("homepage.frameworksFooter")}
         </p>
@@ -169,6 +195,15 @@ export function HomePage() {
           </div>
         </div>
       </section>
+
+      <p className="intro-credit">
+        {t("intro.creditPrefix")}{" "}
+        <a href="https://ipip.ori.org/" target="_blank" rel="noopener">
+          {t("intro.creditLink")}
+        </a>
+        {t("intro.creditSuffix")}{" "}
+        <a href={localizePath("/pricing")}>{t("intro.pricing")}</a> · <a href={localizePath("/privacy")}>{t("intro.privacy")}</a> · <a href={localizePath("/terms")}>{t("intro.terms")}</a>
+      </p>
     </div>
   );
 }
